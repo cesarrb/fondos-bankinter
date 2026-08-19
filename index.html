@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fondos Bankinter — datos en vivo</title>
+<style>
+  :root{
+    --bg:#f6f8fb; --card:#fff; --ink:#1f2430; --muted:#6b7280; --navy:#1f3864;
+    --line:#e5e9f0; --green:#c6efce; --greenink:#14532d; --accent:#2563eb; --zebra:#f2f5fb;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f1420; --card:#161c2b; --ink:#e6eaf2; --muted:#9aa4b2; --navy:#93b4ff;
+      --line:#26304a; --green:#20402a; --greenink:#b6f0c2; --accent:#6ea8ff; --zebra:#131a29; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+  header{padding:20px 24px 8px}
+  h1{margin:0 0 2px;font-size:20px;color:var(--navy)}
+  .sub{color:var(--muted);font-size:13px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;padding:12px 24px}
+  .chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:12px}
+  .chip b{color:var(--navy)}
+  .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:8px 24px 14px}
+  .toolbar input[type=search], .toolbar select{
+    background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:8px 10px;font-size:13px}
+  .toolbar input[type=search]{min-width:240px;flex:1}
+  .toolbar label{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px}
+  .wrap{overflow:auto;margin:0 16px 16px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+  table{border-collapse:collapse;width:100%;font-size:12.5px}
+  thead th{position:sticky;top:0;background:var(--navy);color:#fff;text-align:left;padding:8px 10px;white-space:nowrap;cursor:pointer;user-select:none}
+  thead th.num{text-align:right}
+  thead th .arrow{opacity:.5;font-size:10px}
+  tbody td{padding:6px 10px;border-top:1px solid var(--line);white-space:nowrap}
+  tbody td.num{text-align:right;font-variant-numeric:tabular-nums}
+  tbody tr:nth-child(even){background:var(--zebra)}
+  tbody tr.cheap{background:var(--green)!important}
+  tbody tr.cheap td.ter{font-weight:700;color:var(--greenink)}
+  .neg{color:#dc2626}.pos{color:#16a34a}
+  a{color:var(--accent);text-decoration:none}
+  footer{color:var(--muted);font-size:12px;padding:8px 24px 28px;line-height:1.6}
+  .load{margin:24px;padding:16px;border:1px dashed var(--line);border-radius:12px;background:var(--card)}
+  #status{color:var(--muted);font-size:12px;padding:0 24px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Fondos Bankinter — datos en vivo</h1>
+  <div class="sub" id="subtitle">Cargando…</div>
+</header>
+<div class="chips" id="chips"></div>
+<div class="toolbar" id="toolbar" style="display:none">
+  <input type="search" id="q" placeholder="Buscar por nombre, ISIN o gestora…">
+  <select id="fAsset"><option value="">Clase de activo (todas)</option></select>
+  <select id="fCur"><option value="">Divisa (todas)</option></select>
+  <select id="fSRRI"><option value="">Riesgo SRRI (todos)</option></select>
+  <label><input type="checkbox" id="fCheap"> Solo los más baratos</label>
+  <span id="status"></span>
+</div>
+<div class="wrap" id="wrap" style="display:none"><table><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
+<div class="load" id="loadbox" style="display:none">
+  No se ha podido cargar el CSV automáticamente (esto pasa al abrir el archivo en local).
+  Descárgalo del repo y cárgalo aquí: <input type="file" id="file" accept=".csv">
+</div>
+<footer id="footer"></footer>
+
+<script>
+const COLS = [
+  {k:"Isin",    t:"Fondo",           type:"fund"},
+  {k:"ProviderCompanyName", t:"Gestora", type:"text"},
+  {k:"GlobalAssetClass", t:"Clase activo", type:"text"},
+  {k:"CategoryName", t:"Categoría Morningstar", type:"text"},
+  {k:"Currency", t:"Divisa", type:"text"},
+  {k:"DomicileName", t:"Domicilio", type:"text"},
+  {k:"SRRI", t:"SRRI", type:"num"},
+  {k:"StarRatingM255", t:"Rating", type:"num"},
+  {k:"ExpenseRatio", t:"TER %", type:"pct", cls:"ter"},
+  {k:"ManagementFee", t:"Com. gest. %", type:"pct"},
+  {k:"ReturnM0", t:"YTD %", type:"pct"},
+  {k:"ReturnM12", t:"1A %", type:"pct"},
+  {k:"ReturnM36", t:"3A %", type:"pct"},
+  {k:"ReturnM60", t:"5A %", type:"pct"},
+  {k:"InceptionDate", t:"Lanzam.", type:"text"},
+  {k:"InitialPurchase", t:"Inv. mín.", type:"num"},
+  {k:"UCITS", t:"UCITS", type:"text"},
+];
+let DATA=[], HEAD=[], sortKey="ReturnM12", sortDir=-1, terThreshold=null;
+
+function parseCSV(text){
+  const rows=[]; let i=0, field="", row=[], q=false;
+  while(i<text.length){
+    const c=text[i];
+    if(q){
+      if(c==='"'){ if(text[i+1]==='"'){field+='"';i++} else q=false } else field+=c;
+    } else {
+      if(c==='"') q=true;
+      else if(c===';'){ row.push(field); field="" }
+      else if(c==='\n'){ row.push(field); rows.push(row); row=[]; field="" }
+      else if(c==='\r'){}
+      else field+=c;
+    }
+    i++;
+  }
+  if(field.length||row.length){ row.push(field); rows.push(row) }
+  return rows;
+}
+const num = v => { const n=parseFloat(String(v).replace(',','.')); return isNaN(n)?null:n; };
+
+function load(text){
+  const rows=parseCSV(text).filter(r=>r.length>1);
+  HEAD=rows.shift();
+  const idx=Object.fromEntries(HEAD.map((h,i)=>[h,i]));
+  DATA=rows.map(r=>{ const o={}; HEAD.forEach((h,i)=>o[h]=r[i]); return o; });
+  // umbral de coste = percentil 25 del TER
+  const ters=DATA.map(d=>num(d.ExpenseRatio)).filter(x=>x!=null).sort((a,b)=>a-b);
+  terThreshold = ters.length ? ters[Math.floor(0.25*(ters.length-1))] : null;
+  const fecha = DATA.length ? DATA[0].fecha : "";
+  document.getElementById("subtitle").textContent =
+    `${DATA.length.toLocaleString('es')} fondos · datos del ${fecha||'—'} · fuente: buscador de Bankinter (Allfunds/Morningstar)`;
+  buildChips(); buildFilters(); buildHead(); render();
+  document.getElementById("toolbar").style.display="flex";
+  document.getElementById("wrap").style.display="block";
+  document.getElementById("loadbox").style.display="none";
+  document.getElementById("footer").innerHTML =
+    `🟩 Verde = coste (TER) en el cuartil más barato. Las rentabilidades ya son netas de comisiones del fondo. ` +
+    `Con traspaso entre fondos la ganancia no tributa hasta el reembolso. Rentabilidades pasadas no garantizan futuras. ` +
+    `Datos meramente informativos, no constituyen recomendación de inversión.`;
+}
+
+function buildChips(){
+  const by={}; DATA.forEach(d=>{const a=d.GlobalAssetClass||'(sin dato)'; by[a]=(by[a]||0)+1});
+  const top=Object.entries(by).sort((a,b)=>b[1]-a[1]);
+  document.getElementById("chips").innerHTML =
+    top.map(([k,v])=>`<span class="chip">${k}: <b>${v}</b></span>`).join("");
+}
+function uniq(k){ return [...new Set(DATA.map(d=>d[k]).filter(Boolean))].sort(); }
+function buildFilters(){
+  const fill=(id,vals)=>{const s=document.getElementById(id); vals.forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;s.appendChild(o)})};
+  fill("fAsset", uniq("GlobalAssetClass"));
+  fill("fCur", uniq("Currency"));
+  fill("fSRRI", uniq("SRRI").filter(Boolean).sort((a,b)=>a-b));
+}
+function buildHead(){
+  document.getElementById("thead").innerHTML = "<tr>"+COLS.map(c=>{
+    const arrow = sortKey===c.k ? (sortDir<0?"▼":"▲") : "";
+    const cls = (c.type==="num"||c.type==="pct")?"num":"";
+    return `<th class="${cls}" data-k="${c.k}">${c.t} <span class="arrow">${arrow}</span></th>`;
+  }).join("")+"</tr>";
+  document.querySelectorAll("#thead th").forEach(th=>th.onclick=()=>{
+    const k=th.dataset.k; if(sortKey===k) sortDir*=-1; else {sortKey=k; sortDir=-1;}
+    buildHead(); render();
+  });
+}
+function cell(d,c){
+  let v=d[c.k];
+  if(c.type==="fund"){
+    return `<div><b>${d.Name||''}</b></div><div style="color:var(--muted)">${d.Isin||''}</div>`;
+  }
+  if(c.type==="pct"||c.type==="num"){
+    const n=num(v); if(n==null) return "";
+    if(c.type==="pct"){ const cls=n<0?"neg":(n>0?"pos":""); return `<span class="${cls}">${n.toFixed(2)}</span>`; }
+    return c.k==="InitialPurchase" ? n.toLocaleString('es') : String(v);
+  }
+  if(c.k==="UCITS") return v==="True"?"Sí":(v==="False"?"No":v);
+  return v||"";
+}
+function render(){
+  const q=document.getElementById("q").value.toLowerCase().trim();
+  const fa=document.getElementById("fAsset").value, fc=document.getElementById("fCur").value,
+        fs=document.getElementById("fSRRI").value, cheapOnly=document.getElementById("fCheap").checked;
+  let rows=DATA.filter(d=>{
+    if(fa && d.GlobalAssetClass!==fa) return false;
+    if(fc && d.Currency!==fc) return false;
+    if(fs && d.SRRI!==fs) return false;
+    if(cheapOnly){ const t=num(d.ExpenseRatio); if(t==null||terThreshold==null||t>terThreshold) return false; }
+    if(q){ const hay=((d.Name||'')+' '+(d.Isin||'')+' '+(d.ProviderCompanyName||'')).toLowerCase(); if(!hay.includes(q)) return false; }
+    return true;
+  });
+  const col=COLS.find(c=>c.k===sortKey)||{type:"text"};
+  rows.sort((a,b)=>{
+    let x=a[sortKey], y=b[sortKey];
+    if(col.type==="num"||col.type==="pct"){ x=num(x); y=num(y);
+      if(x==null&&y==null)return 0; if(x==null)return 1; if(y==null)return -1; return (x-y)*sortDir; }
+    x=(x||'').toString().toLowerCase(); y=(y||'').toString().toLowerCase();
+    return x<y?-1*sortDir:x>y?1*sortDir:0;
+  });
+  document.getElementById("status").textContent = `${rows.length.toLocaleString('es')} fondos`;
+  const tb=document.getElementById("tbody");
+  const frag=rows.map(d=>{
+    const t=num(d.ExpenseRatio);
+    const cheap=(t!=null&&terThreshold!=null&&t<=terThreshold)?"cheap":"";
+    return `<tr class="${cheap}">`+COLS.map(c=>{
+      const cls=((c.type==="num"||c.type==="pct")?"num ":"")+(c.cls||"");
+      return `<td class="${cls}">${cell(d,c)}</td>`;
+    }).join("")+"</tr>";
+  }).join("");
+  tb.innerHTML=frag;
+}
+["q","fAsset","fCur","fSRRI","fCheap"].forEach(id=>{
+  document.getElementById(id).addEventListener("input",render);
+});
+// cargar CSV: primero intenta desde el repo; si falla (local), pide el fichero
+fetch("data/fondos_latest.csv").then(r=>{ if(!r.ok) throw 0; return r.text(); })
+  .then(load)
+  .catch(()=>{ document.getElementById("subtitle").textContent="Carga el CSV para ver los datos.";
+    document.getElementById("loadbox").style.display="block"; });
+document.getElementById("file").addEventListener("change",e=>{
+  const f=e.target.files[0]; if(!f)return; const rd=new FileReader(); rd.onload=()=>load(rd.result); rd.readAsText(f,"utf-8");
+});
+</script>
+</body>
+</html>
