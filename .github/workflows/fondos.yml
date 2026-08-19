@@ -1,0 +1,35 @@
+name: Descarga fondos Bankinter
+
+on:
+  schedule:
+    - cron: "0 6 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  descargar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar el script
+        run: python extract_fondos.py
+
+      - name: Guardar los datos en el repositorio
+        run: |
+          git config user.name  "fondos-bot"
+          git config user.email "fondos-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "Datos fondos $(date +%F)" || echo "Sin cambios que guardar"
+          git push
