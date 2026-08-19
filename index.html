@@ -26,6 +26,8 @@
     background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:8px 10px;font-size:13px}
   .toolbar input[type=search]{min-width:240px;flex:1}
   .toolbar label{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px}
+  .toolbar button#reset{background:var(--card);border:1px solid var(--line);color:var(--accent);border-radius:8px;padding:8px 12px;font-size:13px;cursor:pointer}
+  .toolbar button#reset:hover{border-color:var(--accent)}
   .wrap{overflow:auto;margin:0 16px 16px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
   table{border-collapse:collapse;width:100%;font-size:12.5px}
   thead th{position:sticky;top:0;background:var(--navy);color:#fff;text-align:left;padding:8px 10px;white-space:nowrap;cursor:pointer;user-select:none}
@@ -55,6 +57,7 @@
   <select id="fCur"><option value="">Divisa (todas)</option></select>
   <select id="fSRRI"><option value="">Riesgo SRRI (todos)</option></select>
   <label><input type="checkbox" id="fCheap"> Solo los más baratos</label>
+  <button type="button" id="reset">Limpiar filtros</button>
   <span id="status"></span>
 </div>
 <div class="wrap" id="wrap" style="display:none"><table><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
@@ -197,8 +200,18 @@ function render(){
   tb.innerHTML=frag;
 }
 ["q","fAsset","fCur","fSRRI","fCheap"].forEach(id=>{
-  document.getElementById(id).addEventListener("input",render);
+  const el=document.getElementById(id);
+  el.addEventListener("input",render);
+  el.addEventListener("change",render);   // 'change' asegura que los desplegables/casilla funcionen en todos los navegadores
 });
+document.getElementById("reset").onclick=()=>{
+  document.getElementById("q").value="";
+  document.getElementById("fAsset").value="";
+  document.getElementById("fCur").value="";
+  document.getElementById("fSRRI").value="";
+  document.getElementById("fCheap").checked=false;
+  render();
+};
 // cargar CSV: primero intenta desde el repo; si falla (local), pide el fichero
 fetch("data/fondos_latest.csv").then(r=>{ if(!r.ok) throw 0; return r.text(); })
   .then(load)
