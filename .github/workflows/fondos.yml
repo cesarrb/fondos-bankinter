@@ -1,0 +1,58 @@
+name: Foto diaria de fondos
+
+# Se ejecuta en la NUBE de GitHub (siempre encendida): saca la foto aunque tu Mac esté apagado.
+on:
+  schedule:
+    # GitHub usa horario UTC (sin cambio de hora). España va +2h (verano) / +1h (invierno).
+    - cron: "30 20 * * 1-5"   # 20:30 UTC = 22:30 (verano) / 21:30 (invierno)  -> foto de la noche, L-V
+    - cron: "0 6 * * 2-6"     # 06:00 UTC = 08:00 (verano)  -> repesca matinal por si la noche falló
+  workflow_dispatch: {}        # permite lanzarlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write              # para poder confirmar (commit) los datos al repositorio
+
+concurrency:
+  group: foto-fondos
+  cancel-in-progress: false
+
+jobs:
+  foto:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330       # margen amplio (5,5 h) por si la API va lenta
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Sacar la foto (con verificación y 1 reintento si sale incompleta)
+        run: |
+          set -e
+          python extract_fondos.py || true
+          rows=$(($(wc -l < data/fondos_latest.csv) - 1))
+          echo "Fondos obtenidos: $rows"
+          if [ "$rows" -lt 2000 ]; then
+            echo "Incompleta ($rows < 2000) -> reintento único"
+            python extract_fondos.py || true
+            rows=$(($(wc -l < data/fondos_latest.csv) - 1))
+            echo "Tras reintento: $rows fondos"
+          fi
+          if [ "$rows" -lt 2000 ]; then
+            echo "::warning::La foto salió incompleta ($rows fondos) tras el reintento."
+          fi
+
+      - name: Confirmar los datos al repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Sin cambios que confirmar."
+          else
+            git commit -m "Foto de fondos $(date -u +%Y-%m-%d)"
+            git push
+          fi

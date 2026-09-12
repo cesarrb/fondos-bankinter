@@ -1,0 +1,12 @@
+# --- PRIVADO: nunca subir a GitHub ---
+data/intereses_reales.csv
+mis_datos_credito_bankinter.json
+mis_datos_cartera.json
+
+# entorno / temporales
+venv/
+__pycache__/
+*.pyc
+*.log
+~$*
+_backups_fondos/
