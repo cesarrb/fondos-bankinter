@@ -2844,11 +2844,11 @@ function renderAntiInflacion(){
         <td style="padding:4px 6px;text-align:right">${pct(d.StandardDeviationM12)}</td>
         <td style="padding:4px 6px;text-align:right">${num(d.SharpeM36)!=null?num(d.SharpeM36).toFixed(2):'—'}</td></tr>`;
     }).join("");
-    return `<div style="flex:1;min-width:460px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:14px">
+    return `<div style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:14px;box-sizing:border-box">
       <div style="border-bottom:2px solid var(--navy);padding-bottom:6px;margin-bottom:6px"><b style="color:var(--navy);font-size:15px">${th.n}</b> <span class="eu-note" style="margin:0">· ${pool.length} fondos · ${escHtml(th.d)}</span></div>
-      <table style="border-collapse:collapse;width:100%;font-size:12px">
+      <div style="overflow-x:auto"><table style="border-collapse:collapse;width:100%;min-width:640px;font-size:12px">
         <thead><tr style="color:var(--muted);text-align:left;font-size:10.5px"><th style="padding:2px 6px">#</th><th style="padding:2px 6px">Fondo</th><th style="padding:2px 6px;text-align:right">TER</th><th style="padding:2px 6px;text-align:right">YTD</th><th style="padding:2px 6px;text-align:right">1A</th><th style="padding:2px 6px;text-align:right">3A a.</th><th style="padding:2px 6px;text-align:right">Vol 1A</th><th style="padding:2px 6px;text-align:right">Sharpe 3A</th></tr></thead>
-        <tbody>${rows||'<tr><td colspan=8 class="eu-note" style="padding:8px">Sin fondos.</td></tr>'}</tbody></table></div>`;
+        <tbody>${rows||'<tr><td colspan=8 class="eu-note" style="padding:8px">Sin fondos.</td></tr>'}</tbody></table></div></div>`;
   };
   const nSel=`<select onchange="aiSet('n',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${[3,5,10].map(x=>`<option value="${x}" ${x===topN?'selected':''}>Top ${x}</option>`).join('')}</select>`;
   el.innerHTML=`<div class="eu-head">🛡️ Temáticas anti-inflación</div>
