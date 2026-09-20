@@ -51,6 +51,7 @@
   tbody tr.cheap td:first-child{border-left:3px solid var(--cheap)}
   .fund{display:flex;gap:8px;align-items:flex-start}
   .fund input{margin-top:2px}
+  .abanca-tag{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.3px;color:#fff;background:#c0392b;border-radius:4px;padding:1px 5px;margin-left:5px;vertical-align:middle;white-space:nowrap}
   .q1{background:rgba(22,163,74,.22)}.q2{background:rgba(22,163,74,.10)}
   .q3{background:rgba(245,158,11,.16)}.q4{background:rgba(220,38,38,.17)}
   .pigbadge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11.5px;font-weight:600;color:var(--ink)}
@@ -702,7 +703,7 @@ function findFundsInText(qn,question){
 function compareHTML(funds){
   funds=funds.slice(0,6);
   let h=`<div style="overflow:auto"><table style="border-collapse:collapse;font-size:12.5px;min-width:${140+funds.length*110}px"><thead><tr><th style="text-align:left;padding:4px 8px;color:var(--muted)">Métrica</th>`+
-    funds.map(f=>`<th style="text-align:right;padding:4px 8px">${escHtml((f.Name||"").slice(0,24))}<br><span style="color:var(--muted);font-weight:400">${f.Isin||""}</span></th>`).join("")+`</tr></thead><tbody>`;
+    funds.map(f=>`<th style="text-align:right;padding:4px 8px">${escHtml((f.Name||"").slice(0,24))}${abancaBadge(f)}<br><span style="color:var(--muted);font-weight:400">${f.Isin||""}</span></th>`).join("")+`</tr></thead><tbody>`;
   for(const r of CMP_ROWS){
     const vals=funds.map(f=>num(f[r.k]));let best=-1;
     if(r.better){const v=vals.map((x,i)=>[x,i]).filter(x=>x[0]!=null);if(v.length){v.sort((a,b)=>r.better==="high"?b[0]-a[0]:a[0]-b[0]);best=v[0][1];}}
@@ -716,7 +717,7 @@ function compareHTML(funds){
       return `<td style="padding:4px 8px;text-align:right;${i===best?"background:rgba(22,163,74,.18);font-weight:700":""}">${disp}</td>`;}).join("")+`</tr>`;
   }
   h+=`</tbody></table></div><div style="color:var(--muted);font-size:11.5px;margin-top:6px">Verde = mejor valor de cada fila. Datos de esta web; rentabilidades pasadas no garantizan futuras.</div>`;
-  return `Comparativa de <b>${funds.length}</b> fondos: ${funds.map(f=>escHtml(f.Name||f.Isin)).join(" · ")}.`+growthChart(funds)+h+overlapHTML(funds);
+  return `Comparativa de <b>${funds.length}</b> fondos: ${funds.map(f=>escHtml(f.Name||f.Isin)+(isAbanca(f)?abancaBadge(f):"")).join(" · ")}.`+growthChart(funds)+h+overlapHTML(funds);
 }
 function detailHTML(f){
   const p=v=>{const n=num(v);return n==null?"—":n.toFixed(2)+"%";};
@@ -733,7 +734,7 @@ function detailHTML(f){
     ["Alpha 3A (vs índice)",n2(f.AlphaM36)],["Beta 3A",n2(f.BetaM36)],
     ["% Renta Variable",p(f.PctRV)],["% Renta Fija",p(f.PctRF)],["Tipo pignoración",escHtml(f.TipoPignor||"—")]];
   const fi=f.FichaURL?` · <a href="${f.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";
-  let h=`<b>${escHtml(f.Name||"")}</b> <span style="color:var(--muted)">(${f.Isin||""}${fi})</span>`;
+  let h=`<b>${escHtml(f.Name||"")}</b>${abancaBadge(f)} <span style="color:var(--muted)">(${f.Isin||""}${fi})</span>`;
   h+=`<div style="overflow:auto"><table style="border-collapse:collapse;font-size:12.5px;margin-top:6px;min-width:280px"><tbody>`;
   R.forEach(([k,v])=>{h+=`<tr style="border-top:1px solid var(--line)"><td style="padding:4px 10px 4px 0;color:var(--muted)">${k}</td><td style="padding:4px 8px;text-align:right;font-weight:600">${v}</td></tr>`;});
   h+=`</tbody></table></div>`;
@@ -874,7 +875,7 @@ function compositeScore(qn,need){
   let h=`Ranking <b>multifactor</b> (score = media de percentiles) de <b>${rows.length.toLocaleString('es')}</b> fondos, por: ${sel.map(m=>escHtml(m.lab)+" ("+(m.better==="high"?"↑":"↓")+")").join(", ")}.`;
   h+=`<div style="overflow:auto"><table style="border-collapse:collapse;font-size:12px;margin-top:6px"><thead><tr style="text-align:left;color:var(--muted)"><th style="padding:3px 6px">#</th><th style="padding:3px 6px">Fondo / ISIN</th><th style="padding:3px 6px;text-align:right">Score</th>`+sel.map(m=>`<th style="padding:3px 6px;text-align:right">${escHtml(m.lab)}</th>`).join("")+`</tr></thead><tbody>`;
   top.forEach((d,i)=>{const fi=d.FichaURL?` · <a href="${d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";
-    h+=`<tr style="border-top:1px solid var(--line)"><td style="padding:3px 6px">${i+1}</td><td style="padding:3px 6px"><b>${escHtml(d.Name||'')}</b><br><span style="color:var(--muted)">${d.Isin||''}${fi}</span></td><td style="padding:3px 6px;text-align:right"><b>${d._score.toFixed(1)}</b></td>`+sel.map(m=>`<td style="padding:3px 6px;text-align:right">${mv(d,m)}</td>`).join("")+`</tr>`;});
+    h+=`<tr style="border-top:1px solid var(--line)"><td style="padding:3px 6px">${i+1}</td><td style="padding:3px 6px"><b>${escHtml(d.Name||'')}</b>${abancaBadge(d)}<br><span style="color:var(--muted)">${d.Isin||''}${fi}</span></td><td style="padding:3px 6px;text-align:right"><b>${d._score.toFixed(1)}</b></td>`+sel.map(m=>`<td style="padding:3px 6px;text-align:right">${mv(d,m)}</td>`).join("")+`</tr>`;});
   h+=`</tbody></table></div><div style="color:var(--muted);font-size:11.5px;margin-top:6px">Score 0-100 = media de los percentiles del fondo en cada métrica (dentro del conjunto filtrado), cada una en su dirección buena (↑ alto mejor, ↓ bajo mejor). ${rows.length>top.length?"Muestro los "+top.length+". ":""}Beta y R² no puntúan (dirección ambigua). Pasadas no garantizan futuras.</div>`;
   return h;
 }
@@ -968,7 +969,7 @@ function localQuery(question){
   const sup=(dir===1&&key==="TER")?"más barato":(dir===1?"más bajo":"mejor");
   const r1=top[0];
   const showTER=key!=="TER",show1A=key!=="ReturnM12";
-  let out=`<b>${rows.length.toLocaleString('es')}</b> fondos cumplen tu consulta`+(THR.length?` (`+THR.map(t=>escHtml(t.lab+" "+t.op+" "+t.val)).join(", ")+`)`:"")+`, ordenados por <b>${escHtml(klab)}</b> ${dir<0?'(mayor a menor)':'(menor a mayor)'}. El ${sup}: <b>${escHtml(r1.Name||"")}</b> (${r1.Isin||""}) ${vf(r1)}.`+(rows.length>top.length?` <span style="color:var(--muted)">Muestro los ${top.length}.</span>`:"");
+  let out=`<b>${rows.length.toLocaleString('es')}</b> fondos cumplen tu consulta`+(THR.length?` (`+THR.map(t=>escHtml(t.lab+" "+t.op+" "+t.val)).join(", ")+`)`:"")+`, ordenados por <b>${escHtml(klab)}</b> ${dir<0?'(mayor a menor)':'(menor a mayor)'}. El ${sup}: <b>${escHtml(r1.Name||"")}</b>${abancaBadge(r1)} (${r1.Isin||""}) ${vf(r1)}.`+(rows.length>top.length?` <span style="color:var(--muted)">Muestro los ${top.length}.</span>`:"");
   out+=`<div style="overflow:auto"><table style="border-collapse:collapse;font-size:12.5px;margin-top:6px;min-width:440px"><thead><tr style="text-align:left;color:var(--muted)"><th style="padding:3px 8px 3px 0">#</th><th style="padding:3px 8px">Fondo / ISIN</th><th style="padding:3px 8px"><span title="${CAT_TIP}" style="cursor:help;border-bottom:1px dotted currentColor">Categoría</span></th><th style="padding:3px 8px;text-align:right">${escHtml(klab)}</th>${showTER?'<th style="padding:3px 8px;text-align:right">TER</th>':''}${show1A?'<th style="padding:3px 8px;text-align:right">1A</th>':''}</tr></thead><tbody>`;
   top.forEach((d,i)=>{const fi=d.FichaURL?` · <a href="${d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";
     out+=`<tr style="border-top:1px solid var(--line)"><td style="padding:4px 8px 4px 0">${i+1}</td><td style="padding:4px 8px"><b>${escHtml(d.Name||"")}</b><br><span style="color:var(--muted)">${d.Isin||""}${fi}</span></td><td style="padding:4px 8px">${escHtml(d.CategoryName||"")}</td><td style="padding:4px 8px;text-align:right"><b>${vf(d)}</b></td>${showTER?`<td style="padding:4px 8px;text-align:right">${num(d.TER)!=null?num(d.TER).toFixed(2)+"%":"—"}</td>`:''}${show1A?`<td style="padding:4px 8px;text-align:right">${num(d.ReturnM12)!=null?num(d.ReturnM12).toFixed(2)+"%":"—"}</td>`:''}</tr>`;});
@@ -1107,7 +1108,7 @@ function moverTable(rows,per,perLabel,title,rp){
   const rl=RISK_LBL[rp]||"3A"; const suf=per.slice(6); const exK="Excess"+suf, alK="Alpha"+suf;  // p.ej. ReturnM12 -> ExcessM12 / AlphaM12
   let h=`<div class="eu-head" style="font-size:15px;margin:6px 0">${title}</div><div style="overflow:auto"><table style="width:100%;border-collapse:collapse;font-size:12.5px"><thead><tr style="background:var(--navy);color:#fff">${cmpTh()}<th style="padding:6px 8px;text-align:left">#</th><th style="padding:6px 8px;text-align:left">Fondo / ISIN</th><th style="padding:6px 8px;text-align:left"><span title="${CAT_TIP}" style="cursor:help;border-bottom:1px dotted currentColor">Categoría</span></th><th style="padding:6px 8px;text-align:right" title="% en Renta Variable (acciones)">%RV</th><th style="padding:6px 8px;text-align:right" title="% en Renta Fija (bonos)">%RF</th><th style="padding:6px 8px;text-align:center">Div</th><th style="padding:6px 8px;text-align:center">SRRI</th><th style="padding:6px 8px;text-align:right"><span title="Ventana móvil: rentabilidad de «${escHtml(perLabel)}» hasta la fecha de los datos. Para semanas naturales cerradas, ve a «Semanal Histórico»." style="cursor:help;border-bottom:1px dotted currentColor">${escHtml(perLabel)} ⟳</span></th><th style="padding:6px 8px;text-align:right" title="Exceso vs su índice de referencia en ${escHtml(perLabel)}">Exceso índ.</th><th style="padding:6px 8px;text-align:right" title="Alpha (vs índice) en el periodo">Alpha</th><th style="padding:6px 8px;text-align:right" title="Volatilidad ${rl}">Volat. ${rl}</th><th style="padding:6px 8px;text-align:right" title="Máxima caída ${rl}">Máx.caída ${rl}</th></tr></thead><tbody>`;
   rows.forEach((d,i)=>{const n=num(d[per]);const fi=d.FichaURL?` · <a href="${d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";
-    h+=`<tr style="border-top:1px solid var(--line)">${cmpCell(d.Isin)}<td style="padding:4px 8px">${i+1}</td><td style="padding:4px 8px"><b>${escHtml(d.Name||'')}</b><br><span style="color:var(--muted)">${d.Isin||''}${fi}</span></td><td style="padding:4px 8px">${escHtml(d.CategoryName||'')}</td><td style="padding:4px 8px;text-align:right">${num(d.PctRV)!=null?num(d.PctRV).toFixed(0)+'%':'—'}</td><td style="padding:4px 8px;text-align:right">${num(d.PctRF)!=null?num(d.PctRF).toFixed(0)+'%':'—'}</td><td style="padding:4px 8px;text-align:center">${d.Currency||''}</td><td style="padding:4px 8px;text-align:center">${d.SRRI||''}</td><td style="padding:4px 8px;text-align:right"><b class="${n<0?'neg':(n>0?'pos':'')}">${n!=null?((n>0?'+':'')+n.toFixed(2)+'%'):'—'}</b></td><td style="padding:4px 8px;text-align:right">${sg(d[exK])}</td><td style="padding:4px 8px;text-align:right">${num(d[alK])!=null?num(d[alK]).toFixed(2):'—'}</td><td style="padding:4px 8px;text-align:right">${pc(d["StandardDeviation"+rp])}</td><td style="padding:4px 8px;text-align:right"><span class="neg">${pc(d["MaxDrawdown"+rp])}</span></td></tr>`;});
+    h+=`<tr style="border-top:1px solid var(--line)">${cmpCell(d.Isin)}<td style="padding:4px 8px">${i+1}</td><td style="padding:4px 8px"><b>${escHtml(d.Name||'')}</b>${abancaBadge(d)}<br><span style="color:var(--muted)">${d.Isin||''}${fi}</span></td><td style="padding:4px 8px">${escHtml(d.CategoryName||'')}</td><td style="padding:4px 8px;text-align:right">${num(d.PctRV)!=null?num(d.PctRV).toFixed(0)+'%':'—'}</td><td style="padding:4px 8px;text-align:right">${num(d.PctRF)!=null?num(d.PctRF).toFixed(0)+'%':'—'}</td><td style="padding:4px 8px;text-align:center">${d.Currency||''}</td><td style="padding:4px 8px;text-align:center">${d.SRRI||''}</td><td style="padding:4px 8px;text-align:right"><b class="${n<0?'neg':(n>0?'pos':'')}">${n!=null?((n>0?'+':'')+n.toFixed(2)+'%'):'—'}</b></td><td style="padding:4px 8px;text-align:right">${sg(d[exK])}</td><td style="padding:4px 8px;text-align:right">${num(d[alK])!=null?num(d[alK]).toFixed(2):'—'}</td><td style="padding:4px 8px;text-align:right">${pc(d["StandardDeviation"+rp])}</td><td style="padding:4px 8px;text-align:right"><span class="neg">${pc(d["MaxDrawdown"+rp])}</span></td></tr>`;});
   if(!rows.length)h+=`<tr><td colspan="13" style="padding:10px;color:var(--muted)">Sin fondos con dato en este periodo.</td></tr>`;
   return h+`</tbody></table></div>`;
 }
@@ -1159,7 +1160,7 @@ function panelGrid(dim,base,N){
     const top=rows.slice(0,N);
     const li=top.map((d,i)=>{const n=num(d[k]);const cls=(dim==="vol")?"":(n<0?"neg":(n>0?"pos":""));
       const val=(dim==="vol")?n.toFixed(2)+"%":((n>0?"+":"")+n.toFixed(2)+"%");
-      return `<div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;border-top:1px solid var(--line)"><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1" title="${escHtml((d.Name||'')+' · '+(d.Isin||''))}">${i+1}. ${escHtml((d.Name||'').slice(0,28))}</span><b class="${cls}" style="white-space:nowrap">${val}</b></div>`;}).join("");
+      return `<div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;border-top:1px solid var(--line)"><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1" title="${escHtml((d.Name||'')+' · '+(d.Isin||''))}">${i+1}. ${escHtml((d.Name||'').slice(0,28))}</span>${abancaBadge(d)}<b class="${cls}" style="white-space:nowrap">${val}</b></div>`;}).join("");
     return `<div style="background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 10px;min-width:0"><div style="font-weight:600;color:var(--navy);border-bottom:2px solid var(--navy);padding-bottom:4px;margin-bottom:2px">${lab}</div>${li||'<div class="eu-note">—</div>'}</div>`;
   }).join("");
   return `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:6px">${colHtml}</div>`;
@@ -1217,7 +1218,7 @@ function scoreTable(list,prof,title,accent){
   const rp=v=>{const n=num(v);return n==null?"—":`<span class="${n<0?'neg':(n>0?'pos':'')}">${(n>0?'+':'')+n.toFixed(2)+'%'}</span>`;};
   let h=`<div class="eu-head" style="font-size:15px;margin:4px 0;color:${accent}">${title}</div><div style="overflow:auto"><table style="width:100%;border-collapse:collapse;font-size:12px"><thead><tr style="background:var(--navy);color:#fff">${cmpTh()}<th style="padding:5px 6px;text-align:left">#</th><th style="padding:5px 6px;text-align:left">Fondo / ISIN</th><th style="padding:5px 6px;text-align:right">Score</th>`+RVRF_TH+prof.map(m=>`<th style="padding:5px 6px;text-align:right" title="peso ×${m.w}">${escHtml(m.lab)}</th>`).join("")+`<th style="padding:5px 6px;text-align:right" title="Rentabilidad año en curso">YTD</th><th style="padding:5px 6px;text-align:right" title="Rentabilidad 1 año">1A</th><th style="padding:5px 6px;text-align:center">Div</th><th style="padding:5px 6px;text-align:right" title="Gastos corrientes (TER)">TER</th><th style="padding:5px 6px;text-align:right" title="Inversión mínima">Inv. mín.</th><th style="padding:5px 6px;text-align:center">SRRI</th><th style="padding:5px 6px;text-align:center" title="Rating Morningstar">★</th></tr></thead><tbody>`;
   list.forEach((o,i)=>{const d=o.d;const fi=d.FichaURL?` · <a href="${d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";
-    h+=`<tr style="border-top:1px solid var(--line)">${cmpCell(d.Isin)}<td style="padding:4px 6px">${i+1}</td><td style="padding:4px 6px"><b>${escHtml(d.Name||'')}</b><br><span style="color:var(--muted)">${d.Isin||''}${fi}</span></td><td style="padding:4px 6px;text-align:right"><b>${o.s.toFixed(1)}</b></td>`+rvrfCells(d.PctRV,d.PctRF)+prof.map(m=>`<td style="padding:4px 6px;text-align:right">${mv(d,m)}</td>`).join("")+`<td style="padding:4px 6px;text-align:right">${rp(d.ReturnM0)}</td><td style="padding:4px 6px;text-align:right">${rp(d.ReturnM12)}</td><td style="padding:4px 6px;text-align:center">${d.Currency||''}</td><td style="padding:4px 6px;text-align:right">${num(d.TER)!=null?num(d.TER).toFixed(2)+'%':'—'}</td><td style="padding:4px 6px;text-align:right">${money(d.InitialPurchase)}</td><td style="padding:4px 6px;text-align:center">${d.SRRI||''}</td><td style="padding:4px 6px;text-align:center">${d.StarRatingM255||''}</td></tr>`;});
+    h+=`<tr style="border-top:1px solid var(--line)">${cmpCell(d.Isin)}<td style="padding:4px 6px">${i+1}</td><td style="padding:4px 6px"><b>${escHtml(d.Name||'')}</b>${abancaBadge(d)}<br><span style="color:var(--muted)">${d.Isin||''}${fi}</span></td><td style="padding:4px 6px;text-align:right"><b>${o.s.toFixed(1)}</b></td>`+rvrfCells(d.PctRV,d.PctRF)+prof.map(m=>`<td style="padding:4px 6px;text-align:right">${mv(d,m)}</td>`).join("")+`<td style="padding:4px 6px;text-align:right">${rp(d.ReturnM0)}</td><td style="padding:4px 6px;text-align:right">${rp(d.ReturnM12)}</td><td style="padding:4px 6px;text-align:center">${d.Currency||''}</td><td style="padding:4px 6px;text-align:right">${num(d.TER)!=null?num(d.TER).toFixed(2)+'%':'—'}</td><td style="padding:4px 6px;text-align:right">${money(d.InitialPurchase)}</td><td style="padding:4px 6px;text-align:center">${d.SRRI||''}</td><td style="padding:4px 6px;text-align:center">${d.StarRatingM255||''}</td></tr>`;});
   if(!list.length)h+=`<tr><td colspan="${14+prof.length}" style="padding:10px;color:var(--muted)">Sin fondos con las métricas necesarias.</td></tr>`;
   return h+`</tbody></table></div>`;
 }
@@ -1359,7 +1360,7 @@ function renderCartera(){
   const totPL=totV-totC,totPLpc=totC?100*totPL/totC:null;
   const inpS='width:92px;border:1px solid var(--line);border-radius:5px;padding:3px 5px;background:var(--card);color:var(--ink);text-align:right;font-size:13px';
   const rows=comp.map(x=>{const d=x.d;const peso=(x.valor!=null&&totV)?100*x.valor/totV:null;const plc=x.pl==null?'':(x.pl>=0?'pos':'neg');
-    return `<tr style="border-top:1px solid var(--line)"><td style="padding:5px 8px"><b>${escHtml(d.Name||x.p.isin)}</b><br><span style="color:var(--muted)">${x.p.isin}${d.Currency?' · '+d.Currency:''}</span></td>`+
+    return `<tr style="border-top:1px solid var(--line)"><td style="padding:5px 8px"><b>${escHtml(d.Name||x.p.isin)}</b>${abancaBadge(d)}<br><span style="color:var(--muted)">${x.p.isin}${d.Currency?' · '+d.Currency:''}</span></td>`+
       `<td style="padding:5px 8px;text-align:right"><input type="number" step="0.0001" style="${inpS}" value="${x.part!=null?x.part:''}" onchange="setPos(${x.idx},'part',this.value)"></td>`+
       `<td style="padding:5px 8px;text-align:right"><input type="number" step="0.01" style="${inpS}" value="${x.precio!=null?x.precio:''}" onchange="setPos(${x.idx},'precio',this.value)"></td>`+
       `<td style="padding:5px 8px;text-align:right">${x.vl!=null?x.vl.toLocaleString('es',{maximumFractionDigits:4}):'—'}</td>`+
@@ -1552,7 +1553,7 @@ function cxRiskPanel(rows){
   const ann=rows.map(r=>cxAnnual(r.d));
   const mean=a=>{const v=a.filter(x=>x!=null);return v.length?v.reduce((s,x)=>s+x,0)/v.length:null;};
   const statRows=rows.map((r,i)=>{const d=r.d,md=mean(ann[i]);
-    return `<tr style="border-top:1px solid var(--line)"><td style="padding:3px 7px;text-align:center"><b>${i+1}</b></td><td style="padding:3px 7px">${escHtml((d.Name||d.Isin||'').slice(0,42))}</td><td style="padding:3px 7px;text-align:right">${(r.w*100).toFixed(1)}%</td><td style="padding:3px 7px;text-align:right">${md!=null?`<span class="${md<0?'neg':'pos'}">${(md>=0?'+':'')+md.toFixed(2)}%</span>`:'—'}</td><td style="padding:3px 7px;text-align:right">${num(d.StandardDeviationM36)!=null?num(d.StandardDeviationM36).toFixed(2)+'%':'—'}</td><td style="padding:3px 7px;text-align:right">${num(d.StandardDeviationM60)!=null?num(d.StandardDeviationM60).toFixed(2)+'%':'—'}</td></tr>`;}).join("");
+    return `<tr style="border-top:1px solid var(--line)"><td style="padding:3px 7px;text-align:center"><b>${i+1}</b></td><td style="padding:3px 7px">${escHtml((d.Name||d.Isin||'').slice(0,42))}${abancaBadge(d)}</td><td style="padding:3px 7px;text-align:right">${(r.w*100).toFixed(1)}%</td><td style="padding:3px 7px;text-align:right">${md!=null?`<span class="${md<0?'neg':'pos'}">${(md>=0?'+':'')+md.toFixed(2)}%</span>`:'—'}</td><td style="padding:3px 7px;text-align:right">${num(d.StandardDeviationM36)!=null?num(d.StandardDeviationM36).toFixed(2)+'%':'—'}</td><td style="padding:3px 7px;text-align:right">${num(d.StandardDeviationM60)!=null?num(d.StandardDeviationM60).toFixed(2)+'%':'—'}</td></tr>`;}).join("");
   let corrHtml;
   if(rows.length>=2&&rows.length<=16){
     const cell=c=>{if(c==null)return `<td style="padding:3px 6px;text-align:center;color:var(--muted);border:1px solid var(--line)">—</td>`;
@@ -1668,7 +1669,7 @@ function renderConstructor(){
   const metricCard=(lab,val,sub)=>`<div style="background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;min-width:120px"><div style="color:var(--muted);font-size:11px">${lab}</div><div style="font-size:18px;font-weight:700">${val}</div>${sub?`<div style="color:var(--muted);font-size:10px">${sub}</div>`:''}</div>`;
   const eqBadge=d=>{const eq=cxIsEq(d);return `<span style="font-size:11px;padding:1px 6px;border-radius:8px;background:${eq?'rgba(22,163,74,.15)':'rgba(37,99,235,.15)'};color:${eq?'#16a34a':'#2563eb'}">${eq?'RV':'RF'}</span>`;};
   const CX_COLS=[
-    {k:'name',lab:'Fondo / ISIN',al:'left',t:'text',sv:r=>(r.d.Name||'').toLowerCase(),d:r=>{const fi=r.d.FichaURL?` · <a href="${r.d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";return `<b>${escHtml(r.d.Name||'')}</b><br><span style="color:var(--muted)">${r.d.Isin||''}${fi}</span>`;}},
+    {k:'name',lab:'Fondo / ISIN',al:'left',t:'text',sv:r=>(r.d.Name||'').toLowerCase(),d:r=>{const fi=r.d.FichaURL?` · <a href="${r.d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";return `<b>${escHtml(r.d.Name||'')}</b>${abancaBadge(r.d)}<br><span style="color:var(--muted)">${r.d.Isin||''}${fi}</span>`;}},
     {k:'acls',lab:'Clase activo',al:'left',t:'text',sv:r=>(r.d.GlobalAssetClass||'').toLowerCase(),d:r=>`${eqBadge(r.d)} ${escHtml(r.d.GlobalAssetClass||'—')}`},
     {k:'cat',lab:'Subcategoría',al:'left',t:'text',sv:r=>(r.d.CategoryName||'').toLowerCase(),d:r=>`<span style="color:var(--muted)">${escHtml(r.d.CategoryName||'—')}</span>`},
     {k:'w',lab:'Peso',al:'right',t:'num',sv:r=>r.w,d:r=>`<b>${(r.w*100).toFixed(1)}%</b>`},
@@ -1887,7 +1888,7 @@ const GZ_COLS=[
  {k:'StarRatingM255',lab:'★',al:'center',disp:'raw',t:'num'}
 ];
 function gzFmt(disp,v,d){const n=num(v);switch(disp){
-  case 'name':{const fi=d.FichaURL?` · <a href="${d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";return `<b>${escHtml(d.Name||'')}</b><br><span style="color:var(--muted)">${d.Isin||''}${fi}</span>`;}
+  case 'name':{const fi=d.FichaURL?` · <a href="${d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";return `<b>${escHtml(d.Name||'')}</b>${abancaBadge(d)}<br><span style="color:var(--muted)">${d.Isin||''}${fi}</span>`;}
   case 'text':return escHtml(v||'');
   case 'pct0':return n==null?'—':n.toFixed(0)+'%';
   case 'pct1':return n==null?'—':n.toFixed(1)+'%';
@@ -2219,7 +2220,7 @@ function renderPercentiles(){
   const pbadge=p=>{if(p==null)return'—';const c=p>=90?'#16a34a':p>=75?'#65a30d':p>=50?'#ca8a04':'#dc2626';return `<span style="font-weight:700;color:#fff;background:${c};border-radius:8px;padding:1px 6px;font-size:11px">P${p.toFixed(0)}</span>`;};
   const groupLabel=st.group==="GlobalAssetClass"?"Clase de activo":"Subcategoría";
   const PC_COLS=[
-    {k:'name',lab:'Fondo / ISIN',al:'left',t:'text',sv:r=>(r.d.Name||'').toLowerCase(),d:r=>{const fi=r.d.FichaURL?` · <a href="${r.d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";return `<b>${escHtml(r.d.Name||'')}</b><br><span style="color:var(--muted)">${r.d.Isin||''}${fi} · ${escHtml(r.d.Currency||'')}</span>`;}},
+    {k:'name',lab:'Fondo / ISIN',al:'left',t:'text',sv:r=>(r.d.Name||'').toLowerCase(),d:r=>{const fi=r.d.FichaURL?` · <a href="${r.d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";return `<b>${escHtml(r.d.Name||'')}</b>${abancaBadge(r.d)}<br><span style="color:var(--muted)">${r.d.Isin||''}${fi} · ${escHtml(r.d.Currency||'')}</span>`;}},
     {k:'g',lab:groupLabel,al:'left',t:'text',sv:r=>(r.g||'').toLowerCase(),d:r=>`${escHtml(r.g)} <span style="color:var(--muted)">(${r.n})</span>`},
     {k:'pavg',lab:'Percentil medio',al:'center',t:'num',sv:r=>r.pAvg,d:r=>pbadge(r.pAvg)}
   ];
@@ -2340,7 +2341,7 @@ function renderScenarios(){
   const selTh=st.themes||[];
   const favChips=reg.favor.map(t=>{const on=selTh.includes(t);return `<span onclick="scToggleTheme('${t}')" title="Filtrar por este tema" style="cursor:pointer;user-select:none;font-size:11.5px;padding:3px 10px;border-radius:999px;border:1px solid ${on?'var(--navy)':'var(--line)'};background:${on?'var(--navy)':'var(--card)'};color:${on?'#fff':'var(--ink)'}">${SC_THEMES[t]?SC_THEMES[t].l:t}</span>`;}).join(" ")+(selTh.length?` <a href="#" onclick="window.__sc.themes=[];renderScenarios();return false" style="font-size:11px;color:var(--accent)">ver todos</a>`:'');
   const SC_COLS=[
-    {k:'name',lab:'Fondo / ISIN',al:'left',t:'text',sv:r=>(r.d.Name||'').toLowerCase(),d:r=>{const fi=r.d.FichaURL?` · <a href="${r.d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";return `<b>${escHtml(r.d.Name||'')}</b><br><span style="color:var(--muted)">${r.d.Isin||''}${fi} · ${escHtml(r.d.Currency||'')}</span>`;}},
+    {k:'name',lab:'Fondo / ISIN',al:'left',t:'text',sv:r=>(r.d.Name||'').toLowerCase(),d:r=>{const fi=r.d.FichaURL?` · <a href="${r.d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";return `<b>${escHtml(r.d.Name||'')}</b>${abancaBadge(r.d)}<br><span style="color:var(--muted)">${r.d.Isin||''}${fi} · ${escHtml(r.d.Currency||'')}</span>`;}},
     {k:'theme',lab:'Encaja por',al:'left',t:'text',sv:r=>r.theme,d:r=>`<span style="font-size:11px;padding:1px 7px;border-radius:8px;background:rgba(37,99,235,.12);color:#2563eb">${SC_THEMES[r.theme]?SC_THEMES[r.theme].l:r.theme}</span>`},
     {k:'cat',lab:'Subcategoría',al:'left',t:'text',sv:r=>(r.d.CategoryName||'').toLowerCase(),d:r=>`<span style="color:var(--muted)">${escHtml(r.d.CategoryName||'')}</span>`},
     {k:'rank',lab:rk.l,al:'right',t:'num',sv:r=>r.rankv,d:r=>rk.k.indexOf('Return')===0?pctv(r.rankv):(rk.k.indexOf('Standard')===0?(r.rankv.toFixed(1)+'%'):num1(r.rankv))},
@@ -2458,7 +2459,7 @@ function renderWeekly(){
       <thead><tr style="background:var(--navy);color:#fff">${cmpTh()}<th style="padding:6px 7px;text-align:left">#</th>${th('name','Fondo / ISIN','left')}${th('cat','Subcategoría','left')}${th('sel',wsel+' sem','right')}${otherW.map(w=>th('w'+w,w+'s','right')).join("")}${th('srri','SRRI','center')}</tr></thead>
       <tbody>${rows.map((r,i)=>{const fi=r.d.FichaURL?` · <a href="${r.d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";
         return `<tr style="border-top:1px solid var(--line)">${cmpCell(r.isin)}<td style="padding:5px 7px">${i+1}</td>`+
-          `<td style="padding:5px 7px"><b>${escHtml(r.d.Name||'')}</b><br><span style="color:var(--muted)">${r.isin}${fi} · ${escHtml(r.d.Currency||'')}</span></td>`+
+          `<td style="padding:5px 7px"><b>${escHtml(r.d.Name||'')}</b>${abancaBadge(r.d)}<br><span style="color:var(--muted)">${r.isin}${fi} · ${escHtml(r.d.Currency||'')}</span></td>`+
           `<td style="padding:5px 7px;color:var(--muted)">${escHtml(r.d.CategoryName||'')}</td>`+
           `<td style="padding:5px 7px;text-align:right"><b>${pctv(r.val)}</b></td>`+
           otherW.map(w=>`<td style="padding:5px 7px;text-align:right">${pctv(r.rec['w'+w])}</td>`).join("")+
@@ -2782,10 +2783,13 @@ function buildHead(){document.getElementById("thead").innerHTML="<tr>"+cols().ma
    const cls=(c.type&&c.type!=="text"&&c.type!=="fund"&&c.type!=="pig")?"num":"";const tip=c.k==="CategoryName"?` title="${CAT_TIP}"`:"";return `<th class="${cls}" data-k="${c.k}"${tip}>${label(c)} <span class="arrow">${arrow}</span></th>`;}).join("")+"</tr>";
   document.querySelectorAll("#thead th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(sortKey===k)sortDir*=-1;else{sortKey=k;sortDir=-1;}buildHead();render();});}
 function pigClass(t){t=t||'';return /Variable/.test(t)?'pig-rv':/Revisar/.test(t)?'pig-rev':(t?'pig-rf':'');}
+// Distintivo para los fondos que SOLO están en ABANCA (no en Bankinter).
+function isAbanca(d){return d&&d.Fuente&&d.Fuente!=="Bankinter";}
+function abancaBadge(d){return isAbanca(d)?` <span class="abanca-tag" title="Fondo disponible SOLO en ABANCA (no en Bankinter). VL diario vía ${d.Fuente}.">ABANCA</span>`:"";}
 function fmt(d,c){const v=d[c.k];
   if(c.type==="fund"){const ck=selected.has(d.Isin)?"checked":"";
     const ficha=d.FichaURL?` · <a href="${d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";
-    return `<div class="fund"><input type="checkbox" class="cmp" data-isin="${d.Isin}" ${ck} title="Marcar para comparar" aria-label="Marcar para comparar"><div><b>${d.Name||''}</b><div style="color:var(--muted)">${d.Isin||''}${ficha}</div></div></div>`;}
+    return `<div class="fund"><input type="checkbox" class="cmp" data-isin="${d.Isin}" ${ck} title="Marcar para comparar" aria-label="Marcar para comparar"><div><b>${d.Name||''}</b>${abancaBadge(d)}<div style="color:var(--muted)">${d.Isin||''}${ficha}</div></div></div>`;}
   if(c.type==="vlfreq"){const lag=d._vlLag;
     if(lag==null&&!d.VLDate)return `<span style="color:var(--muted)">—</span>`;
     const tplus=d._tplus; const freq=d._vlFreq||"";
@@ -2981,7 +2985,7 @@ function renderCmpChart(){
 }
 function openCompare(){
   const funds=DATA.filter(d=>selected.has(d.Isin));if(funds.length<2)return;
-  let h="<thead><tr><th>Métrica</th>"+funds.map(f=>`<th>${(f.Name||'').slice(0,26)}<br><span style='font-weight:400;color:var(--muted)'>${f.Isin}</span></th>`).join("")+"</tr></thead><tbody>";
+  let h="<thead><tr><th>Métrica</th>"+funds.map(f=>`<th>${(f.Name||'').slice(0,26)}${abancaBadge(f)}<br><span style='font-weight:400;color:var(--muted)'>${f.Isin}</span></th>`).join("")+"</tr></thead><tbody>";
   for(const r of CMP_ROWS){
     const vals=funds.map(f=>num(f[r.k]));let bestIdx=-1;
     if(r.better){const valid=vals.map((v,i)=>[v,i]).filter(x=>x[0]!=null);if(valid.length){valid.sort((a,b)=>r.better==="high"?b[0]-a[0]:a[0]-b[0]);bestIdx=valid[0][1];}}
