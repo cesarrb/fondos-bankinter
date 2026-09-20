@@ -2517,13 +2517,21 @@ function dedupOneClassPerFund(rows){
   return out;
 }
 function dedupChk(on){return `<label class="eu-note" style="margin:0;cursor:pointer"><input type="checkbox" ${on?'checked':''} onchange="mapaSet('dedup',this.checked)"> Una clase por fondo</label>`;}
-function mapaFindCtrl(){const S=window.__mapaS||{};const v=S.findRaw||'';const n=(S.findSet||[]).length;return `<input list="fundlist" placeholder="🔎 Fondo, ISIN o gestora…" value="${v.replace(/"/g,'&quot;')}" onchange="mapaFindSet(this.value)" style="min-width:210px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">`+(n?`<button onclick="mapaFindSet('')" title="Quitar" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:6px 9px;cursor:pointer;color:var(--muted)">✕ (${n})</button>`:'');}
-function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v||'';
+function mapaFindCtrl(){const S=window.__mapaS||{};const v=S.findRaw||'';const n=(S.findSet||[]).length;return `<input list="fundlist" placeholder="🔎 Fondo, ISIN o gestora…" value="${v.replace(/"/g,'&quot;')}" onchange="mapaFindSet(this.value)" style="min-width:210px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">`+(n?`<button onclick="mapaFindSet('')" title="Quitar" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:6px 9px;cursor:pointer;color:var(--muted)">✕ (${n}${S.findFuzzy?' aprox.':''})</button>`:'');}
+function _lev(a,b){const m=a.length,n=b.length;if(!m)return n;if(!n)return m;let prev=Array.from({length:n+1},(_,i)=>i);for(let i=1;i<=m;i++){let cur=[i];for(let j=1;j<=n;j++){cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));}prev=cur;}return prev[n];}
+function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v||'';S.findFuzzy=false;
   if(!v){S.findSet=[];return renderMapa();}
   const q=String(v).trim(); const m=q.match(/([A-Z]{2}[0-9A-Z]{9}[0-9])/i);
   let set=[];
   if(m){const isin=m[1].toUpperCase(); if(DATA.some(d=>d.Isin===isin))set=[isin];}
-  if(!set.length){const ql=q.toLowerCase(); set=DATA.filter(d=>((d.Name||'')+' '+(d.LegalName||'')+' '+(d.ProviderCompanyName||'')).toLowerCase().includes(ql)).map(d=>d.Isin);}
+  const ql=q.toLowerCase();
+  if(!set.length){ set=DATA.filter(d=>((d.Name||'')+' '+(d.LegalName||'')+' '+(d.ProviderCompanyName||'')).toLowerCase().includes(ql)).map(d=>d.Isin); }
+  if(!set.length && ql.length>=4){ // respaldo tolerante a erratas
+    const maxD=ql.length>=10?2:1;
+    const near=s=>{if(!s)return false;const ws=s.toLowerCase().split(/[^a-z0-9]+/);return ws.some(w=>w.length>=3&&_lev(w,ql)<=maxD);};
+    set=DATA.filter(d=>near(d.ProviderCompanyName)||near(d.Name)||near(d.LegalName)).map(d=>d.Isin);
+    S.findFuzzy=set.length>0;
+  }
   S.findSet=set; renderMapa();
 }
 function _hlSeriesMulti(points){return {name:'★ localizados',type:'scatter',data:points,symbolSize:16,symbol:'pin',itemStyle:{color:'#e11d48',borderColor:'#FFD400',borderWidth:2},label:{show:points.length<=30,formatter:p=>(p.data[2]||'').slice(0,20),position:'top',color:'#e11d48',fontSize:10,fontWeight:'bold'},tooltip:{formatter:p=>`<b>${p.data[2]||''}</b><br>${p.data[3]||''}`},z:50};}
