@@ -117,6 +117,7 @@
   <select id="fAsset"><option value="">Clase de activo (todas)</option></select>
   <select id="fCur"><option value="">Divisa (todas)</option></select>
   <select id="fSRRI"><option value="">Riesgo SRRI (todos)</option></select>
+  <select id="fFuente" title="Origen del dato: Bankinter (su API) o solo-ABANCA (quefondos/FT)"><option value="">Origen (todos)</option><option value="Bankinter">Solo Bankinter</option><option value="ABANCA">Solo ABANCA</option></select>
   <select id="riskPer" title="Periodo de las métricas de riesgo/ratios" style="display:none"><option value="M12">Periodo: 1 año</option><option value="M36" selected>Periodo: 3 años</option><option value="M60">Periodo: 5 años</option><option value="M120">Periodo: 10 años</option></select>
   <label><input type="checkbox" id="fCheap"> Solo los más baratos</label>
   <label title="Pignorables con menor garantía exigida (Cobertura ≤133%): RF, mixtos RF>50% y monetarios"><input type="checkbox" id="fBestPign"> Mejores cond. pignoración</label>
@@ -272,7 +273,8 @@ function load(text){
   terThreshold=ters.length?ters[Math.floor(0.25*(ters.length-1))]:null;
   const fecha=DATA.length?DATA[0].fecha:"";baseYear=(fecha&&/^\d{4}/.test(fecha))?(parseInt(fecha.slice(0,4))-1):2025;
   computePercentiles();computeVLLag();
-  document.getElementById("subtitle").textContent=`${DATA.length.toLocaleString('es')} fondos · datos del ${fecha||'—'} · fuente: buscador de Bankinter (Allfunds/Morningstar)`;
+  const nAbanca=DATA.filter(d=>d.Fuente&&d.Fuente!=="Bankinter").length;
+  document.getElementById("subtitle").textContent=`${DATA.length.toLocaleString('es')} fondos · datos del ${fecha||'—'} · fuente: Bankinter (Allfunds/Morningstar)`+(nAbanca?` + ${nAbanca} solo-ABANCA (quefondos/FT)`:"");
   buildChips();buildFilters();buildTabs();
   ["toolbar","legend","groups","tabs","wrap"].forEach(id=>document.getElementById(id).style.display=(id==="toolbar"||id==="tabs"||id==="legend"||id==="groups")?"flex":"block");
   document.getElementById("loadbox").style.display="none";
@@ -2803,8 +2805,10 @@ function fmt(d,c){const v=d[c.k];
   return v||"";}
 function render(){
   const q=document.getElementById("q").value.toLowerCase().trim();
-  const fa=fAsset.value,fc=fCur.value,fs=fSRRI.value,cheap=fCheap.checked;
+  const fa=fAsset.value,fc=fCur.value,fs=fSRRI.value,cheap=fCheap.checked,ff=document.getElementById('fFuente').value;
   let rows=DATA.filter(d=>{if(fa&&d.GlobalAssetClass!==fa)return false;if(fc&&d.Currency!==fc)return false;if(fs&&d.SRRI!==fs)return false;
+    if(ff==="Bankinter"&&d.Fuente&&d.Fuente!=="Bankinter")return false;
+    if(ff==="ABANCA"&&(!d.Fuente||d.Fuente==="Bankinter"))return false;
     if(cheap){const t=num(d.TER);if(t==null||terThreshold==null||t>terThreshold)return false;}
     if(document.getElementById('fBestPign').checked){const cob=num(d.PignCobertura);if(cob==null||cob>133||/Revisar/.test(d.TipoPignor||''))return false;}
     if(q){const h=((d.Name||'')+' '+(d.Isin||'')+' '+(d.ProviderCompanyName||'')).toLowerCase();if(!h.includes(q))return false;}return true;});
@@ -2819,13 +2823,13 @@ function render(){
   updateCmpBar();
 }
 // filtros
-["q","fAsset","fCur","fSRRI","fCheap","fBestPign"].forEach(id=>{const el=document.getElementById(id);el.addEventListener("input",render);el.addEventListener("change",render);});
+["q","fAsset","fCur","fSRRI","fFuente","fCheap","fBestPign"].forEach(id=>{const el=document.getElementById(id);el.addEventListener("input",render);el.addEventListener("change",render);});
 document.getElementById("fAsset").addEventListener("change",buildChips);
 document.getElementById("riskPer").addEventListener("change",function(){window.__riskPer=this.value;
   sortKey=sortKey.replace(/(StandardDeviation|MaxDrawdown|Sharpe|Sortino|Calmar)M(12|36|60|120)$/,"$1"+this.value);
   const cs=effTabCols();if(!cs.some(c=>c.k===sortKey)){sortKey=(cs.find(c=>c.type!=="text")||cs[0]).k;sortDir=-1;}
   buildHead();render();});
-document.getElementById("reset").onclick=()=>{q.value="";fAsset.value="";fCur.value="";fSRRI.value="";fCheap.checked=false;fBestPign.checked=false;buildChips();render();};
+document.getElementById("reset").onclick=()=>{q.value="";fAsset.value="";fCur.value="";fSRRI.value="";document.getElementById('fFuente').value="";fCheap.checked=false;fBestPign.checked=false;buildChips();render();};
 document.getElementById("mvW").onclick=()=>gotoMovers("ReturnW1");
 document.getElementById("mvM").onclick=()=>gotoMovers("ReturnM1");
 function gotoMovers(key){curTab="Rent. Acumuladas";sortKey=key;sortDir=-1; syncGroup();

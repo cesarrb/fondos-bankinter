@@ -23,11 +23,15 @@ photo_ok() {  # ¿existe foto COMPLETA (>= MINROWS) para la fecha $1?
 run_scrape() {
   LOG "===== sacando foto ($1) ====="
   ./venv/bin/python -u extract_fondos.py
-  local T=$(date +%Y-%m-%d)
-  if photo_ok "$T"; then LOG "foto de $T verificada COMPLETA"; return 0; fi
-  LOG "foto de $T INCOMPLETA -> reintento único"
+  # Verificar por el nº REAL de fondos del fichero recién escrito (no por la fecha: un raspado
+  # que cruza medianoche no debe confundir la comprobación).
+  local rows
+  rows=$(( $(wc -l < data/fondos_latest.csv 2>/dev/null || echo 1) - 1 ))
+  if [ "$rows" -ge "$MINROWS" ]; then LOG "foto verificada COMPLETA ($rows fondos)"; return 0; fi
+  LOG "foto INCOMPLETA ($rows fondos) -> reintento único"
   ./venv/bin/python -u extract_fondos.py
-  photo_ok "$T" && LOG "reintento OK, foto completa" || LOG "reintento tampoco completó (API lenta/caída); se revisará mañana"
+  rows=$(( $(wc -l < data/fondos_latest.csv 2>/dev/null || echo 1) - 1 ))
+  [ "$rows" -ge "$MINROWS" ] && LOG "reintento OK ($rows fondos)" || LOG "reintento tampoco completó ($rows); se revisará mañana"
 }
 
 # 0) No solapar

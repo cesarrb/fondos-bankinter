@@ -984,6 +984,8 @@ def main():
         # --- Distribucion de activos y pignoracion (garantia del credito) ---
         "PctRV", "PctRF", "PctLiq", "PctOtros",
         "TipoPignor", "PignCobertura", "PignSalvaguarda", "PignReposicion", "FichaURL",
+        # --- Origen del dato: "Bankinter" (API) o "quefondos"/"FT" (fondos solo-ABANCA) ---
+        "Fuente",
     ]
 
     def fnum(x):
@@ -1118,7 +1120,26 @@ def main():
         d["FichaURL"] = ("https://bancaonline.bankinter.com/resources/allfundssheets-enmenm/es/?isin="
                          + d.get("Isin", "") + "&language=es&currency=EUR&channel=nbol")
 
+    for d in items:
+        d.setdefault("Fuente", "Bankinter")
     rows = [[d.get(k, "") for k in cols] for d in items]
+
+    # ---- Fondos SOLO-ABANCA (no están en la API de Bankinter): VL diario vía quefondos/FT ----
+    # Aditivo y AISLADO: cualquier fallo aquí NO debe impedir guardar la foto de Bankinter.
+    try:
+        import abanca_collector
+        ab_rows, ab_stats = abanca_collector.collect(fecha=hoy, log=lambda m: print("[abanca]", m))
+        for ar in ab_rows:
+            ar.setdefault("Fuente", "quefondos")
+            rows.append([ar.get(k, "") for k in cols])
+            vdt, vvl = ar.get("VLDate"), ar.get("VL")
+            if vdt and vvl is not None:
+                vl_today[ar["Isin"]] = (vdt, vvl)
+        print(f"OK: +{len(ab_rows)} fondos solo-ABANCA "
+              f"(quefondos={ab_stats['quefondos']}, FT={ab_stats['FT']}, "
+              f"sin fuente={len(ab_stats['miss'])}: {ab_stats['miss']})")
+    except Exception as e:
+        print(f"AVISO: bloque solo-ABANCA falló (la foto de Bankinter NO se ve afectada): {e}")
 
     os.makedirs("data/history", exist_ok=True)
     for path in ("data/fondos_latest.csv", f"data/history/fondos_{sello}.csv"):
