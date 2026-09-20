@@ -153,6 +153,7 @@
 <div id="weekly" style="display:none"></div>
 <div id="weekhist" style="display:none"></div>
 <div id="carteras" style="display:none"></div>
+<div id="siblings" style="display:none"></div>
 <div id="gzModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.55);padding:2vh 2vw" onclick="if(event.target===this)guiaClose()"></div>
 <div id="gzPickBar" style="display:none;position:fixed;left:18px;bottom:18px;z-index:30;gap:8px;align-items:center;background:var(--navy);color:#fff;padding:10px 14px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.25)"></div>
 <datalist id="fundlist"></datalist>
@@ -296,7 +297,7 @@ const GROUPS=[
   {g:"Guía",tabs:["Clasificación","Estructura web"]},
   {g:"Indicadores de los fondos",tabs:["General","Pignoración","Rent. Acumuladas","Rent. Anuales","Consistencia","Cartera","Ratios","Riesgo","Comisiones"]},
   {g:"Rankings y movimientos",tabs:["Top Movers","Semanal Histórico","Multi-periodo","Semanas","Score","Percentiles","Escenarios","Rankings"]},
-  {g:"Herramientas",tabs:["Mi Cartera","Constructor","Cuándo"]},
+  {g:"Herramientas",tabs:["Mi Cartera","Constructor","Cuándo","Clases hermanas"]},
   {g:"Carteras modelo",tabs:["Carteras modelo"]},
   {g:"Contexto",tabs:["EURIBOR","Intereses"]},
   {g:"Chat IA",tabs:["Chat IA"]}
@@ -322,11 +323,12 @@ function selectTab(name){
   if(curTab==="Mi Cartera"){showCartera();return;}
   if(curTab==="Constructor"){showConstructor();return;}
   if(curTab==="Cuándo"){showCuando();return;}
+  if(curTab==="Clases hermanas"){showSiblings();return;}
   if(curTab==="Carteras modelo"){showCarterasModelo();return;}
   if(curTab==="Clasificación"){showGuia();return;}
   if(curTab==="Estructura web"){showEstructura();return;}
   // vista de tabla
-  ["euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist","carteras"].forEach(id=>document.getElementById(id).style.display="none");
+  ["euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist","carteras","siblings"].forEach(id=>document.getElementById(id).style.display="none");
   ["toolbar","legend","chips","wrap"].forEach(id=>document.getElementById(id).style.display=(id==="toolbar"||id==="legend"||id==="chips")?"flex":"block");
   document.getElementById("riskPer").style.display=(curTab==="Riesgo"||curTab==="Ratios")?"inline-block":"none";
   const cols=effTabCols();
@@ -2484,6 +2486,77 @@ function wkExport(){
 // ---------- Semanal Histórico: mejores/peores fondos semana a semana ----------
 function loadWeekHist(){return fetch("data/weekly_history.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
   if(j){window.__wh=j;} if(curTab==="Semanal Histórico")renderWeekHist();return j;}).catch(()=>{});}
+// ---------- Detector de clases hermanas (mismo fondo, distinta clase) ----------
+const _CUR=/^(EUR|USD|GBP|CHF|JPY|SEK|NOK|AUD|CAD|HKD|SGD|PLN|DKK|CZK|HUF)$/;
+const _NOISE=/^(ACC|INC|DIST|DISTRIBUTION|ACCUMULATION|CAP|CAPITALISATION|CAPITALIZACION|HEDGED|HDG|HGD|HEDGE|EURHDG|USDHDG|GBPHDG|CHFHDG|CLASS|CLASE|SHARES?|FUND|FI|SICAV|PLUS|II|III)$/;
+function famKey(d){
+  let s=(d.LegalName||d.Name||"").toUpperCase().replace(/[.,/()\[\]\-–]/g," ").replace(/€/g,"EUR");
+  let toks=s.split(/\s+/).filter(Boolean).filter(t=>!_CUR.test(t)&&!_NOISE.test(t));
+  // quita por el final los códigos de clase (tokens cortos <=3 o alfanuméricos tipo A2, D2)
+  while(toks.length>2 && (toks[toks.length-1].length<=3 || /^[A-Z]{1,2}\d$/.test(toks[toks.length-1]))) toks.pop();
+  return (d.ProviderCompanyName||"").toUpperCase().replace(/\s+/g," ").trim()+" ‖ "+toks.join(" ");
+}
+function buildFamilies(){
+  if(window.__fam)return window.__fam;
+  const g={};
+  DATA.forEach(d=>{ if(!d.Isin)return; const k=famKey(d); (g[k]=g[k]||[]).push(d); });
+  // solo familias con >=2 clases distintas (ISIN distinto)
+  const fams=Object.entries(g).map(([k,arr])=>({key:k,base:k.split(" ‖ ")[1]||k,gestora:k.split(" ‖ ")[0],clases:arr}))
+    .filter(f=>f.clases.length>=2)
+    .sort((a,b)=>b.clases.length-a.clases.length || a.base.localeCompare(b.base));
+  window.__fam=fams; return fams;
+}
+function showSiblings(){
+  ["toolbar","legend","chips","wrap","euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist","carteras"].forEach(id=>document.getElementById(id).style.display="none");
+  document.getElementById("siblings").style.display="block";
+  renderSiblings();
+}
+function sibSet(k,v){const s=window.__sibS||(window.__sibS={});s[k]=v;renderSiblings();}
+function renderSiblings(){
+  const el=document.getElementById("siblings");
+  const S=window.__sibS||(window.__sibS={q:"",importe:""});
+  const fams=buildFamilies();
+  const q=(S.q||"").toLowerCase().trim();
+  const imp=S.importe!==""&&S.importe!=null?num(S.importe):null;
+  let list=fams;
+  if(q) list=list.filter(f=>f.base.toLowerCase().includes(q)||f.gestora.toLowerCase().includes(q)||f.clases.some(c=>(c.Isin||"").toLowerCase().includes(q)));
+  const totalFam=fams.length, shown=list.slice(0,120);
+  const famHTML=f=>{
+    const cls=f.clases.slice().sort((a,b)=>{const x=num(a.TER),y=num(b.TER);if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;return x-y;});
+    const ters=cls.map(c=>num(c.TER)).filter(v=>v!=null);
+    const minTer=ters.length?Math.min(...ters):null;
+    const accesibles=cls.filter(c=>{const m=num(c.InitialPurchase);return imp==null?true:(m==null||m<=imp);});
+    const accTers=accesibles.map(c=>num(c.TER)).filter(v=>v!=null);
+    const minAccTer=accTers.length?Math.min(...accTers):null;
+    const rows=cls.map(c=>{
+      const ter=num(c.TER); const mn=num(c.InitialPurchase);
+      const isCheapest=ter!=null&&ter===minTer;
+      const isAccCheapest=imp!=null&&ter!=null&&ter===minAccTer&&(mn==null||mn<=imp);
+      const acc= imp==null?true:(mn==null||mn<=imp);
+      const ficha=c.FichaURL||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${c.Isin}`;
+      const marks=(isAccCheapest?`<span class="abanca-tag" style="background:#16a34a" title="La más barata a la que accedes con tu importe">✓ más barata accesible</span> `:"")+(isCheapest?`<span class="abanca-tag" style="background:#1F3864" title="La más barata de la familia (sin mirar mínimo)">⭐ más barata</span>`:"");
+      return `<tr style="border-top:1px solid var(--line);${!acc?'opacity:.5':''}">
+        <td style="padding:4px 6px"><a href="${ficha}" target="_blank" rel="noopener" style="color:var(--navy);font-weight:600;text-decoration:none">${escHtml(c.Name||c.LegalName||"")} ↗</a>${abancaBadge(c)} ${marks}<br><span style="color:var(--muted);font-size:11px">${c.Isin} · ${c.Currency||""}</span></td>
+        <td style="padding:4px 6px;text-align:right">${mn!=null?mn.toLocaleString('es'):'—'}</td>
+        <td style="padding:4px 6px;text-align:right">${num(c.ManagementFee)!=null?num(c.ManagementFee).toFixed(2)+'%':'—'}</td>
+        <td style="padding:4px 6px;text-align:right"><b>${ter!=null?ter.toFixed(2)+'%':'—'}</b></td>
+        <td style="padding:4px 6px;text-align:center">${c.SRRI||''}</td></tr>`;
+    }).join("");
+    return `<div style="background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:12px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;border-bottom:2px solid var(--navy);padding-bottom:6px;margin-bottom:6px">
+        <b style="color:var(--navy)">${escHtml(f.base)}</b><span class="eu-note" style="margin:0">${escHtml(f.gestora)} · ${f.clases.length} clases</span></div>
+      <table style="border-collapse:collapse;width:100%;font-size:12.5px">
+        <thead><tr style="color:var(--muted);text-align:left;font-size:11px"><th style="padding:2px 6px">Clase</th><th style="padding:2px 6px;text-align:right">Inv. mín (€)</th><th style="padding:2px 6px;text-align:right">Gestión</th><th style="padding:2px 6px;text-align:right">TER</th><th style="padding:2px 6px;text-align:center">SRRI</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>`;
+  };
+  el.innerHTML=`<div class="eu-head">👥 Clases hermanas — mismo fondo, distinta clase</div>
+    <div class="eu-note" style="margin:8px 0">Agrupa automáticamente las clases del mismo fondo (por nombre + gestora) y marca la <b>más barata</b> (⭐) y, si indicas tu importe, la <b>más barata accesible</b> (✓). Detección heurística por el nombre: revisa antes de decidir.</div>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0">
+      <input type="search" placeholder="Buscar fondo, gestora o ISIN…" value="${(S.q||'').replace(/"/g,'&quot;')}" oninput="sibSet('q',this.value)" style="flex:1;min-width:220px;padding:8px 12px;border:1px solid var(--line);border-radius:9px;background:var(--card);color:var(--navy)">
+      <label class="eu-note" style="margin:0">Tu importe (€): <input type="number" min="0" step="1000" value="${S.importe!=null?S.importe:''}" oninput="sibSet('importe',this.value)" placeholder="p.ej. 10000" style="width:120px;padding:7px 10px;border:1px solid var(--line);border-radius:9px;background:var(--card);color:var(--navy)"></label></div>
+    <div class="eu-note" style="margin:0 0 4px">${totalFam.toLocaleString('es')} familias con ≥2 clases en el catálogo${q?` · ${list.length} coinciden`:''}${list.length>shown.length?` · mostrando ${shown.length}`:''}.</div>
+    ${shown.map(famHTML).join("")||'<div class="eu-note">Sin resultados.</div>'}`;
+}
 // ---------- Carteras Modelo de Bankinter ----------
 window.__cm=null;
 function loadCarterasModelo(){ if(window.__cm!==null&&window.__cm!==undefined)return Promise.resolve(window.__cm);
