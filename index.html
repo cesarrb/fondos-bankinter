@@ -2528,9 +2528,10 @@ function renderCarterasModelo(){
     const diff = otherMap ? !(f.isin in otherMap) : false;   // solo si NO está en la otra cartera
     const hl = diff?` style="background:rgba(217,119,6,.16)"`:` style="border-top:1px solid var(--line)"`;
     const dtit = diff?` title="Solo está en esta cartera (no aparece en la otra)"`:"";
+    const ficha=(d&&d.FichaURL)?d.FichaURL:`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${f.isin}`;
     return `<tr${hl}${dtit}>
       <td style="padding:4px 6px;text-align:right"><b>${f.peso}%</b></td>
-      <td style="padding:4px 6px">${escHtml(f.nombre)}${badge}<br><span style="color:var(--muted);font-size:11px">${f.isin} · ${f.esg}</span></td>
+      <td style="padding:4px 6px"><a href="${ficha}" target="_blank" rel="noopener" title="Ver ficha del fondo" style="color:var(--navy);font-weight:600;text-decoration:none">${escHtml(f.nombre)} ↗</a>${badge}<br><span style="color:var(--muted);font-size:11px">${f.isin} · ${f.esg}</span></td>
       <td style="padding:4px 6px;text-align:right;white-space:nowrap">${vl}</td>
       <td style="padding:4px 6px;text-align:right">${d&&num(d.TER)!=null?num(d.TER).toFixed(2)+'%':'—'}</td>
       <td style="padding:4px 6px;text-align:right">${d?pct(d.StandardDeviationM12):'—'}</td>
