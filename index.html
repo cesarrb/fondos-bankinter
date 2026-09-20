@@ -154,6 +154,7 @@
 <div id="weekhist" style="display:none"></div>
 <div id="carteras" style="display:none"></div>
 <div id="siblings" style="display:none"></div>
+<div id="mapa" style="display:none"></div>
 <div id="gzModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.55);padding:2vh 2vw" onclick="if(event.target===this)guiaClose()"></div>
 <div id="gzPickBar" style="display:none;position:fixed;left:18px;bottom:18px;z-index:30;gap:8px;align-items:center;background:var(--navy);color:#fff;padding:10px 14px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.25)"></div>
 <datalist id="fundlist"></datalist>
@@ -297,12 +298,13 @@ const GROUPS=[
   {g:"Guía",tabs:["Clasificación","Estructura web"]},
   {g:"Indicadores de los fondos",tabs:["General","Pignoración","Rent. Acumuladas","Rent. Anuales","Consistencia","Cartera","Ratios","Riesgo","Comisiones"]},
   {g:"Rankings y movimientos",tabs:["Top Movers","Semanal Histórico","Multi-periodo","Semanas","Score","Percentiles","Escenarios","Rankings"]},
+  {g:"Gráficos",tabs:["Riesgo-Rentabilidad","Coste-Rentabilidad","Ranking Sharpe"]},
   {g:"Herramientas",tabs:["Mi Cartera","Constructor","Cuándo","Clases hermanas"]},
   {g:"Carteras modelo",tabs:["Carteras modelo"]},
   {g:"Contexto",tabs:["EURIBOR","Intereses"]},
   {g:"Chat IA",tabs:["Chat IA"]}
 ];
-const GROUP_ICON={"Guía":"📖 ","Indicadores de los fondos":"📋 ","Rankings y movimientos":"📊 ","Herramientas":"🛠️ ","Carteras modelo":"🗂️ ","Contexto":"🏦 ","Chat IA":"💬 "};
+const GROUP_ICON={"Guía":"📖 ","Indicadores de los fondos":"📋 ","Rankings y movimientos":"📊 ","Gráficos":"📈 ","Herramientas":"🛠️ ","Carteras modelo":"🗂️ ","Contexto":"🏦 ","Chat IA":"💬 "};
 const TAB_ICON={"Chat IA":"💬 ","Top Movers":"📊 ","Semanal Histórico":"🗓️ ","Multi-periodo":"📅 ","Semanas":"📆 ","Score":"📈 ","Rankings":"🗓️ ","Mi Cartera":"💼 ","Constructor":"🧭 ","Cuándo":"🕐 ","Clasificación":"📖 ","Estructura web":"🗺️ ","Percentiles":"🎯 ","Escenarios":"🌦️ "};
 function groupOf(tab){const gg=GROUPS.find(x=>x.tabs.includes(tab));return gg?gg.g:GROUPS[0].g;}
 function selectTab(name){
@@ -324,11 +326,14 @@ function selectTab(name){
   if(curTab==="Constructor"){showConstructor();return;}
   if(curTab==="Cuándo"){showCuando();return;}
   if(curTab==="Clases hermanas"){showSiblings();return;}
+  if(curTab==="Riesgo-Rentabilidad"){showMapa('rr');return;}
+  if(curTab==="Coste-Rentabilidad"){showMapa('cr');return;}
+  if(curTab==="Ranking Sharpe"){showMapa('sharpe');return;}
   if(curTab==="Carteras modelo"){showCarterasModelo();return;}
   if(curTab==="Clasificación"){showGuia();return;}
   if(curTab==="Estructura web"){showEstructura();return;}
   // vista de tabla
-  ["euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist","carteras","siblings"].forEach(id=>document.getElementById(id).style.display="none");
+  ["euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist","carteras","siblings","mapa"].forEach(id=>document.getElementById(id).style.display="none");
   ["toolbar","legend","chips","wrap"].forEach(id=>document.getElementById(id).style.display=(id==="toolbar"||id==="legend"||id==="chips")?"flex":"block");
   document.getElementById("riskPer").style.display=(curTab==="Riesgo"||curTab==="Ratios")?"inline-block":"none";
   const cols=effTabCols();
@@ -2486,6 +2491,91 @@ function wkExport(){
 // ---------- Semanal Histórico: mejores/peores fondos semana a semana ----------
 function loadWeekHist(){return fetch("data/weekly_history.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
   if(j){window.__wh=j;} if(curTab==="Semanal Histórico")renderWeekHist();return j;}).catch(()=>{});}
+// ---------- Gráficos de selección (riesgo-rentabilidad, coste-rentab., ranking Sharpe) ----------
+function loadECharts(){
+  if(window.echarts)return Promise.resolve(window.echarts);
+  if(window.__echP)return window.__echP;
+  window.__echP=new Promise((res,rej)=>{
+    const s=document.createElement('script');
+    s.src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js";
+    s.onload=()=>res(window.echarts); s.onerror=()=>rej(new Error("No se pudo cargar ECharts (¿sin conexión?)"));
+    document.head.appendChild(s);
+  });
+  return window.__echP;
+}
+function showMapa(type){
+  ["toolbar","legend","chips","wrap","euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist","carteras","siblings"].forEach(id=>document.getElementById(id).style.display="none");
+  document.getElementById("mapa").style.display="block";
+  window.__mapaType=type; renderMapa();
+}
+function mapaSet(k,v){(window.__mapaS=window.__mapaS||{})[k]=v;renderMapa();}
+function renderMapa(){
+  const el=document.getElementById("mapa");
+  const type=window.__mapaType||'rr';
+  const S=window.__mapaS||(window.__mapaS={per:'M36',asset:'',srri:'',origen:''});
+  const per=S.per||'M36';
+  const perLbl={M0:'YTD (año en curso)',M12:'1 año',M36:'3 años (anualiz.)',M60:'5 años (anualiz.)'}[per];
+  const retK={M0:'ReturnM0',M12:'ReturnM12',M36:'ReturnM36',M60:'ReturnM60'}[per];
+  const volK={M0:'StandardDeviationM12',M12:'StandardDeviationM12',M36:'StandardDeviationM36',M60:'StandardDeviationM60'}[per];
+  const shK={M0:'SharpeM12',M12:'SharpeM12',M36:'SharpeM36',M60:'SharpeM60'}[per];
+  const titulo={rr:'📈 Mapa riesgo-rentabilidad',cr:'💸 Coste vs rentabilidad',sharpe:'🏆 Ranking Sharpe (rentab. ajustada al riesgo)'}[type];
+  // filtros
+  const assets=[...new Set(DATA.map(d=>d.GlobalAssetClass).filter(Boolean))].sort();
+  const opt=(v,cur)=>`<option value="${v}" ${v===cur?'selected':''}>${v||''}</option>`;
+  const perSel=`<select onchange="mapaSet('per',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">
+    ${['M0','M12','M36','M60'].map(p=>`<option value="${p}" ${p===per?'selected':''}>${({M0:'YTD',M12:'1 año',M36:'3 años',M60:'5 años'})[p]}</option>`).join('')}</select>`;
+  const assetSel=`<select onchange="mapaSet('asset',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="">Clase de activo (todas)</option>${assets.map(a=>opt(a,S.asset)).join('')}</select>`;
+  const srriSel=`<select onchange="mapaSet('srri',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="">SRRI (todos)</option>${[1,2,3,4,5,6,7].map(n=>`<option value="${n}" ${String(n)===String(S.srri)?'selected':''}>${n}</option>`).join('')}</select>`;
+  const origSel=`<select onchange="mapaSet('origen',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="">Origen (todos)</option><option value="Bankinter" ${S.origen==='Bankinter'?'selected':''}>Solo Bankinter</option><option value="ABANCA" ${S.origen==='ABANCA'?'selected':''}>Solo ABANCA</option></select>`;
+  el.innerHTML=`<div class="eu-head">${titulo}</div>
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0">
+      <span class="eu-note" style="margin:0">Periodo:</span>${perSel}${assetSel}${srriSel}${origSel}
+      <span class="eu-note" style="margin:0">· ${perLbl}</span></div>
+    <div id="mapaChart" style="width:100%;height:600px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
+    <div class="eu-note" style="margin:8px 0">Cada punto es un fondo. Pasa el ratón para ver detalle; haz clic para abrir su ficha. Datos del catálogo (${DATA.length.toLocaleString('es')} fondos); para 3A/5A las rentabilidades están anualizadas. Los solo-ABANCA solo tienen volatilidad/Sharpe a 1 año.</div>`;
+  // filtrar
+  let rows=DATA.filter(d=>{
+    if(S.asset&&d.GlobalAssetClass!==S.asset)return false;
+    if(S.srri&&String(d.SRRI)!==String(S.srri))return false;
+    if(S.origen==='Bankinter'&&d.Fuente&&d.Fuente!=='Bankinter')return false;
+    if(S.origen==='ABANCA'&&(!d.Fuente||d.Fuente==='Bankinter'))return false;
+    return true;
+  });
+  const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d]));
+  loadECharts().then(()=>{
+    const dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const cont=document.getElementById('mapaChart'); if(!cont)return;
+    if(window.__ech){try{window.__ech.dispose();}catch(e){}}
+    const chart=window.__ech=echarts.init(cont, dark?'dark':null,{renderer:'canvas'});
+    let option;
+    if(type==='sharpe'){
+      const arr=rows.map(d=>({d,s:num(d[shK])})).filter(x=>x.s!=null).sort((a,b)=>b.s-a.s).slice(0,30).reverse();
+      option={backgroundColor:'transparent',grid:{left:230,right:40,top:20,bottom:40},
+        tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:p=>{const o=arr[p[0].dataIndex];return `<b>${o.d.Name||''}</b><br>${o.d.Isin}<br>Sharpe ${perLbl}: <b>${o.s.toFixed(2)}</b><br>Rent: ${num(o.d[retK])!=null?num(o.d[retK]).toFixed(2)+'%':'—'} · Vol: ${num(o.d[volK])!=null?num(o.d[volK]).toFixed(2)+'%':'—'} · TER ${num(o.d.TER)!=null?num(o.d.TER).toFixed(2)+'%':'—'}`;}},
+        xAxis:{type:'value',name:'Sharpe',axisLabel:{color:'#94a3b8'}},
+        yAxis:{type:'category',data:arr.map(o=>(o.d.Name||o.d.Isin).slice(0,34)),axisLabel:{color:'#94a3b8',fontSize:10}},
+        series:[{type:'bar',data:arr.map(o=>o.s),itemStyle:{color:'#1F77B4'},label:{show:true,position:'right',formatter:p=>p.value.toFixed(2),color:'#94a3b8'}}]};
+      chart.setOption(option);
+      chart.on('click',p=>{const o=arr[p.dataIndex]; if(o){window.open(o.d.FichaURL||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${o.d.Isin}`,'_blank');}});
+    } else {
+      const xK=type==='cr'?'TER':volK, xName=type==='cr'?'Coste TER (%)':'Volatilidad (%) · '+perLbl;
+      const byClass={};
+      rows.forEach(d=>{const x=num(d[xK]),y=num(d[retK]); if(x==null||y==null)return; const g=d.GlobalAssetClass||'(otros)'; (byClass[g]=byClass[g]||[]).push([x,y,d.Name||'',d.Isin||'',num(d.TER),num(d[shK]),d.SRRI]);});
+      const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,emphasis:{focus:'series'},itemStyle:{opacity:.72}}));
+      option={backgroundColor:'transparent',
+        tooltip:{trigger:'item',formatter:p=>{const v=p.data;return `<b>${v[2]}</b><br>${v[3]}<br>${type==='cr'?'TER':'Volatilidad'}: <b>${v[0].toFixed(2)}%</b><br>Rentabilidad ${perLbl}: <b>${v[1].toFixed(2)}%</b><br>Sharpe: ${v[5]!=null?v[5].toFixed(2):'—'} · TER: ${v[4]!=null?v[4].toFixed(2)+'%':'—'} · SRRI ${v[6]||''}`;}},
+        legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'}},
+        grid:{left:72,right:30,top:44,bottom:56},
+        dataZoom:[{type:'inside'},{type:'inside',orient:'vertical'}],
+        xAxis:{type:'value',name:xName,nameLocation:'middle',nameGap:34,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
+        yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
+        series};
+      chart.setOption(option);
+      chart.on('click',p=>{const isin=p.data&&p.data[3]; if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}});
+    }
+    if(!window.__echResize){window.__echResize=true;window.addEventListener('resize',()=>{if(window.__ech){try{window.__ech.resize();}catch(e){}}});}
+  }).catch(e=>{const c=document.getElementById('mapaChart'); if(c)c.innerHTML=`<div style="padding:20px;color:var(--muted)">No se pudo cargar la librería de gráficos: ${e.message}</div>`;});
+}
 // ---------- Detector de clases hermanas (mismo fondo, distinta clase) ----------
 const _CUR=/^(EUR|USD|GBP|CHF|JPY|SEK|NOK|AUD|CAD|HKD|SGD|PLN|DKK|CZK|HUF)$/;
 const _NOISE=/^(ACC|INC|DIST|DISTRIBUTION|ACCUMULATION|CAP|CAPITALISATION|CAPITALIZACION|HEDGED|HDG|HGD|HEDGE|EURHDG|USDHDG|GBPHDG|CHFHDG|CLASS|CLASE|SHARES?|FUND|FI|SICAV|PLUS|II|III)$/;
