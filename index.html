@@ -2594,14 +2594,18 @@ function renderMapa(){
     const chart=window.__ech=echarts.init(cont, dark?'dark':null,{renderer:'canvas'});
     let option;
     if(type==='sharpe'){
-      const arr=rows.map(d=>({d,s:num(d[shK])})).filter(x=>x.s!=null).sort((a,b)=>b.s-a.s).slice(0,30).reverse();
+      const _fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
+      const arr=(_fset.length
+        ? _fset.map(d=>({d,s:num(d[shK])})).filter(x=>x.s!=null).sort((a,b)=>b.s-a.s)
+        : rows.map(d=>({d,s:num(d[shK])})).filter(x=>x.s!=null).sort((a,b)=>b.s-a.s).slice(0,30)
+      ).reverse();
       option={backgroundColor:'transparent',grid:{left:230,right:40,top:20,bottom:40},
         tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:p=>{const o=arr[p[0].dataIndex];return `<b>${o.d.Name||''}</b><br>${o.d.Isin}<br>Sharpe ${perLbl}: <b>${o.s.toFixed(2)}</b><br>Rent: ${num(o.d[retK])!=null?num(o.d[retK]).toFixed(2)+'%':'—'} · Vol: ${num(o.d[volK])!=null?num(o.d[volK]).toFixed(2)+'%':'—'} · TER ${num(o.d.TER)!=null?num(o.d.TER).toFixed(2)+'%':'—'}`;}},
         xAxis:{type:'value',name:'Sharpe',axisLabel:{color:'#94a3b8'}},
         yAxis:{type:'category',data:arr.map(o=>(o.d.Name||o.d.Isin).slice(0,34)),axisLabel:{color:'#94a3b8',fontSize:10}},
         series:[{type:'bar',data:arr.map(o=>({value:o.s,itemStyle:{color:(S.findSet&&S.findSet.includes(o.d.Isin))?'#e11d48':'#1F77B4'}})),label:{show:true,position:'right',formatter:p=>p.value.toFixed(2),color:'#94a3b8'}}]};
       chart.setOption(option);
-      if(S.findSet&&S.findSet.length){const fset=S.findSet.map(is=>bi[is]).filter(Boolean);const inTop=fset.filter(fd=>arr.some(o=>o.d.Isin===fd.Isin));const msg=fset.length===0?`No encuentro «${escHtml(S.findRaw||'')}».`:(inTop.length?`⬤ ${inTop.length} de ${fset.length} coincidencia(s) resaltada(s) en el top-30. Todas aparecen en el mapa riesgo-rentabilidad de abajo.`:`Ninguna de las ${fset.length} coincidencia(s) de «${escHtml(S.findRaw||'')}» está en el top-30; todas aparecen resaltadas en el mapa riesgo-rentabilidad de abajo.`);document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">${msg}</div>`);}
+      if(S.findSet&&S.findSet.length){const fset=S.findSet.map(is=>bi[is]).filter(Boolean);const withS=fset.filter(d=>num(d[shK])!=null).length;const msg=fset.length===0?`No encuentro «${escHtml(S.findRaw||'')}».`:`Mostrando ${withS} fondo(s) que coinciden con «${escHtml(S.findRaw||'')}», ordenados por su Sharpe (${perLbl}).`+(withS<fset.length?` (${fset.length-withS} sin dato de Sharpe en este periodo)`:'');document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">${msg}</div>`);}
       chart.on('click',p=>{const o=arr[p.dataIndex]; if(o){window.open(o.d.FichaURL||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${o.d.Isin}`,'_blank');}});
       // --- extra: evolución (base 100) + riesgo-rentabilidad de los mejores ---
       const top=arr.slice().reverse().slice(0,12).map(o=>o.d);
