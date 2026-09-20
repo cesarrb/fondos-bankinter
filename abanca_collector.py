@@ -75,19 +75,42 @@ def _iso_date(dmy):
     return ""
 
 
+def _parse_acumuladas(t):
+    """Extrae las rentabilidades acumuladas de la ficha de quefondos como
+    {'M1':..,'M3':..,'M6':..,'M12':..,'M36':..,'M60':..,'M120':..} (acumuladas, en %).
+    Mapea por etiqueta (no por posición) para ser robusto ante fondos jóvenes."""
+    blk = re.search(r"Rentabilidades acumuladas .*?Rentabilidades acumuladas (.*?) Ranking y quintil.*?\bFondo\b (.*?) Categor", t)
+    if not blk:
+        return {}
+    labels = re.findall(r"(\d+)\s+(meses|mes|años|año|dias|dia|semanas|semana)", blk.group(1))
+    vals = blk.group(2).split()
+    unit_map = {("1", "mes"): "M1", ("3", "meses"): "M3", ("6", "meses"): "M6",
+                ("1", "año"): "M12", ("3", "años"): "M36", ("5", "años"): "M60",
+                ("10", "años"): "M120"}
+    out = {}
+    for (n, u), v in zip(labels, vals):
+        key = unit_map.get((n, u))
+        if not key:
+            continue
+        val = _num(v.replace("%", ""))
+        if val is not None:
+            out[key] = val
+    return out
+
+
 def fetch_quefondos(session, isin):
-    """Devuelve dict {VL, VLDate, Currency} o None si no lo encuentra.
-    Solo el dato diario esencial y fiable; la metadata/rentabilidades vienen del estático."""
+    """Devuelve dict {VL, VLDate, Currency, acum:{...}} o None si no lo encuentra."""
     r = session.get(QF_URL.format(isin=isin), timeout=25)
     if r.status_code != 200:
         return None
-    t = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", r.text))
+    import html as _html
+    t = _html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", r.text)))
     m = re.search(r"Valor liquidativo:\s*([\d.]+,\d+)\s*([A-Z]{3})", t)
     if not m:
         return None
     d = re.search(r"Fecha:\s*(\d{2}/\d{2}/\d{4})", t)
     return {"VL": _num(m.group(1)), "Currency": m.group(2),
-            "VLDate": _iso_date(d.group(1)) if d else ""}
+            "VLDate": _iso_date(d.group(1)) if d else "", "acum": _parse_acumuladas(t)}
 
 
 def fetch_ft(session, isin):
@@ -170,6 +193,21 @@ def collect(fecha=None, delay=0.35, log=print, max_seconds=600):
                 row[f"YR_ReturnM12_{k}"] = m[col]
         if m.get("Volatilidad1A") not in (None, ""):
             row["StandardDeviationM12"] = m["Volatilidad1A"]
+        # Rentabilidades acumuladas de quefondos. 1m/3m/6m/1A se dejan tal cual (acumuladas);
+        # 3A/5A/10A se ANUALIZAN para igualar el criterio de Bankinter (ReturnM36/60 anualizados).
+        acum = data.get("acum") or {}
+        def _ann(cum, years):
+            if cum is None or cum <= -100:
+                return None
+            return round(((1 + cum / 100.0) ** (1.0 / years) - 1) * 100, 2)
+        for src_k, dst_k in (("M1", "ReturnM1"), ("M3", "ReturnM3"), ("M6", "ReturnM6"), ("M12", "ReturnM12")):
+            if src_k in acum:
+                row[dst_k] = acum[src_k]
+        for src_k, dst_k, yrs in (("M36", "ReturnM36", 3), ("M60", "ReturnM60", 5), ("M120", "ReturnM120", 10)):
+            if src_k in acum:
+                a = _ann(acum[src_k], yrs)
+                if a is not None:
+                    row[dst_k] = a
         rows.append(row)
         stats[src] += 1
         if i % 50 == 0:
