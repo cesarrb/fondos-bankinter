@@ -2527,7 +2527,12 @@ function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v|
   let set=[];
   if(m){const isin=m[1].toUpperCase(); if(DATA.some(d=>d.Isin===isin))set=[isin];}
   const ql=q.toLowerCase();
-  if(!set.length){ set=DATA.filter(d=>((d.Name||'')+' '+(d.LegalName||'')+' '+(d.ProviderCompanyName||'')).toLowerCase().includes(ql)).map(d=>d.Isin); }
+  const hay=d=>((d.Name||'')+' '+(d.LegalName||'')+' '+(d.ProviderCompanyName||'')).toLowerCase();
+  if(!set.length){ set=DATA.filter(d=>hay(d).includes(ql)).map(d=>d.Isin); }
+  if(!set.length){ // por tokens: todas las palabras presentes (en cualquier orden), tolera abreviaturas y orden
+    const toks=ql.split(/\s+/).filter(t=>t.length>=2);
+    if(toks.length){ set=DATA.filter(d=>{const h=hay(d); return toks.every(t=>h.includes(t));}).map(d=>d.Isin); }
+  }
   if(!set.length && ql.length>=4){ // respaldo tolerante a erratas
     const maxD=ql.length>=10?2:1;
     const near=s=>{if(!s)return false;const ws=s.toLowerCase().split(/[^a-z0-9]+/);return ws.some(w=>w.length>=3&&_lev(w,ql)<=maxD);};
@@ -2800,6 +2805,8 @@ const AI_THEMES=[
  {n:"🌍 Emergentes (RV)", d:"Bolsa emergente (exportadores de materias primas).", f:(c,nm)=>c.startsWith("rv")&&c.includes("emergente")},
  {n:"💎 Value (RV global)", d:"Estilo valor, históricamente resiliente en inflación.", f:(c,nm)=>nm.includes("value")&&(c.includes("global")||c.includes("internacional")||c.includes("rv global"))},
  {n:"🏗️ Infraestructuras", d:"Activo real con ingresos ligados al IPC.", f:(c,nm)=>c.includes("infraestructur")},
+ {n:"🛡️ Defensa", d:"Compañías de defensa y seguridad (gasto militar al alza).", f:(c,nm)=>(nm.includes("defence")||nm.includes("defense")||nm.includes("aeroespac")||nm.includes("aerospace")||(nm.includes("defensa")&&nm.includes("segur")))&&!nm.includes("defensiv")&&!nm.includes("dfsv")},
+ {n:"📈 TIPS / Bonos ligados a inflación", d:"Renta fija indexada a la inflación: protección directa (rentabilidad baja).", f:(c,nm)=>c.includes("ligados")&&c.includes("inflaci")},
 ];
 function _aiScore(rows){
   const keys=[["ReturnM36",0.35,1],["ReturnM12",0.15,1],["ReturnM0",0.10,1],["TER",0.25,-1],["SharpeM36",0.08,1],["StandardDeviationM12",0.04,-1],["MaxDrawdownM36",0.03,1]];
