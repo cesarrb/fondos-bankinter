@@ -98,8 +98,26 @@ def _parse_acumuladas(t):
     return out
 
 
+def _parse_riesgo(t):
+    """Volatilidad 1 año, comisiones desglosadas y fecha de constitución de la ficha."""
+    def g(pat):
+        m = re.search(pat, t)
+        return _num(m.group(1)) if m else None
+    out = {
+        "vol": g(r"Volatilidad:\s*([\d.,]+)%"),
+        "mgmt": g(r"\bFija:\s*([\d.,]+)%"),          # comisión de gestión (parte fija)
+        "perf": g(r"\bVariable:\s*([\d.,]+)%"),        # comisión sobre resultados (parte variable)
+        "custodian": g(r"Dep.sito:\s*([\d.,]+)%"),
+        "frontend": g(r"Suscripci.n:\s*(?:Hasta\s*)?([\d.,]+)%"),
+        "redemption": g(r"Reembolso:\s*([\d.,]+)%"),
+    }
+    fc = re.search(r"Fecha de constituci.n:\s*(\d{2}/\d{2}/\d{4})", t)
+    out["inception"] = _iso_date(fc.group(1)) if fc else ""
+    return out
+
+
 def fetch_quefondos(session, isin):
-    """Devuelve dict {VL, VLDate, Currency, acum:{...}} o None si no lo encuentra."""
+    """Devuelve dict {VL, VLDate, Currency, acum:{...}, riesgo:{...}} o None."""
     r = session.get(QF_URL.format(isin=isin), timeout=25)
     if r.status_code != 200:
         return None
@@ -110,7 +128,8 @@ def fetch_quefondos(session, isin):
         return None
     d = re.search(r"Fecha:\s*(\d{2}/\d{2}/\d{4})", t)
     return {"VL": _num(m.group(1)), "Currency": m.group(2),
-            "VLDate": _iso_date(d.group(1)) if d else "", "acum": _parse_acumuladas(t)}
+            "VLDate": _iso_date(d.group(1)) if d else "",
+            "acum": _parse_acumuladas(t), "riesgo": _parse_riesgo(t)}
 
 
 def fetch_ft(session, isin):
@@ -135,10 +154,16 @@ def collect(fecha=None, delay=0.35, log=print, max_seconds=600):
     stats = {'quefondos':n, 'FT':n, 'miss':[isines], 'aborted':bool}.
     max_seconds: presupuesto total; si se supera, devuelve lo que lleve (nunca se eterniza).
     """
-    import requests, time as _t
+    import requests, time as _t, json as _json
     t0 = _t.time()
     if fecha is None:
         fecha = datetime.date.today().isoformat()
+    # Tipo sin riesgo para el Sharpe: €STR de data/euribor.json (fallback 2.5%).
+    rf = 2.5
+    try:
+        rf = float(_json.load(open(os.path.join(DIR, "data", "euribor.json"))).get("estr", rf))
+    except Exception:
+        pass
     if not os.path.exists(STATIC):
         raise FileNotFoundError(f"No existe {STATIC}")
     meta = list(csv.DictReader(open(STATIC, encoding="utf-8"), delimiter=";"))
@@ -208,6 +233,26 @@ def collect(fecha=None, delay=0.35, log=print, max_seconds=600):
                 a = _ann(acum[src_k], yrs)
                 if a is not None:
                     row[dst_k] = a
+        # Riesgo y comisiones desglosadas de quefondos + Sharpe CALCULADO por nosotros.
+        rg = data.get("riesgo") or {}
+        vol = rg.get("vol")
+        if vol is not None:
+            row["StandardDeviationM12"] = vol   # volatilidad 1A directa de quefondos (pisa la curada)
+        if rg.get("mgmt") is not None:
+            row["ManagementFee"] = rg["mgmt"]   # comisión de gestión oficial (parte fija)
+        for src_k, dst_k in (("perf", "PerformanceFeeCharged"), ("custodian", "CustodianFee"),
+                             ("frontend", "MaxFrontEndLoad"), ("redemption", "MaxRedemptionFee")):
+            if rg.get(src_k) is not None:
+                row[dst_k] = rg[src_k]
+        if rg.get("inception"):
+            row["InceptionDate"] = rg["inception"]
+        # Sharpe 1A = (rentabilidad 1A − tipo sin riesgo €STR) / volatilidad 1A
+        r12 = row.get("ReturnM12")
+        if vol and r12 not in (None, ""):
+            try:
+                row["SharpeM12"] = round((float(r12) - rf) / float(vol), 2)
+            except (ValueError, ZeroDivisionError):
+                pass
         rows.append(row)
         stats[src] += 1
         if i % 50 == 0:

@@ -2785,7 +2785,7 @@ function buildHead(){document.getElementById("thead").innerHTML="<tr>"+cols().ma
 function pigClass(t){t=t||'';return /Variable/.test(t)?'pig-rv':/Revisar/.test(t)?'pig-rev':(t?'pig-rf':'');}
 // Distintivo para los fondos que SOLO están en ABANCA (no en Bankinter).
 function isAbanca(d){return d&&d.Fuente&&d.Fuente!=="Bankinter";}
-function abancaBadge(d){return isAbanca(d)?` <span class="abanca-tag" title="Fondo disponible SOLO en ABANCA (no en Bankinter). VL diario vía ${d.Fuente}.">ABANCA</span>`:"";}
+function abancaBadge(d){return isAbanca(d)?` <span class="abanca-tag" title="Fondo disponible SOLO en ABANCA (no en Bankinter). VL diario y datos vía ${d.Fuente}. Volatilidad de quefondos; Sharpe 1A calculado = (rent.1A − €STR) / volatilidad.">ABANCA</span>`:"";}
 function fmt(d,c){const v=d[c.k];
   if(c.type==="fund"){const ck=selected.has(d.Isin)?"checked":"";
     const ficha=d.FichaURL?` · <a href="${d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";
