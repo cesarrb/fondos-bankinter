@@ -2509,6 +2509,10 @@ function renderCarterasModelo(){
   const ambito=S.ambito||"Doméstica";
   const snap=cm.snapshots[fecha]; const rv=snap.exposicion_rv||{};
   const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d]));
+  const prevFechas=fechas.filter(f=>f<fecha).sort();
+  const prevFecha=prevFechas.length?prevFechas[prevFechas.length-1]:null;
+  const prevSnap=prevFecha?cm.snapshots[prevFecha]:null;
+  const prevOf=(amb,perf)=>prevSnap?prevSnap.carteras.find(c=>c.ambito===amb&&c.perfil===perf):null;
   const rvLabel={"Defensivo/Conservador":(rv.Defensivo!=null?`${rv.Defensivo}–${rv.Conservador}% RV`:""),
                  "Moderado":(rv.Moderado!=null?`${rv.Moderado}% RV`:""),
                  "Dinámico/Agresivo":(rv.Dinámico!=null?`${rv.Dinámico}–${rv.Agresivo}% RV`:"")};
@@ -2527,12 +2531,32 @@ function renderCarterasModelo(){
         <td style="padding:4px 6px;text-align:right;white-space:nowrap">${vl}</td>
         <td style="padding:4px 6px;text-align:right">${ter}</td></tr>`;
     }).join("");
+    let changes="";
+    const pc=prevOf(c.ambito,c.perfil);
+    if(pc){
+      const cur={},prv={};
+      c.fondos.forEach(f=>cur[f.isin]=f); pc.fondos.forEach(f=>prv[f.isin]=f);
+      const entran=c.fondos.filter(f=>!prv[f.isin]);
+      const salen=pc.fondos.filter(f=>!cur[f.isin]);
+      const cambian=c.fondos.filter(f=>prv[f.isin]&&prv[f.isin].peso!==f.peso).map(f=>Object.assign({},f,{prev:prv[f.isin].peso}));
+      const line=(lab,color,txt)=>txt?`<div style="margin-top:2px"><span style="color:${color};font-weight:700">${lab}:</span> ${txt}</div>`:"";
+      if(entran.length||salen.length||cambian.length){
+        changes=`<div style="margin-top:8px;padding-top:6px;border-top:1px dashed var(--line);font-size:11.5px">
+          <b class="eu-note" style="margin:0">Cambios vs ${prevFecha}:</b>
+          ${line("Entran","#16a34a",entran.map(f=>escHtml(f.nombre)+` (${f.peso}%)`).join(", "))}
+          ${line("Salen","#dc2626",salen.map(f=>escHtml(f.nombre)+` (${f.peso}%)`).join(", "))}
+          ${line("Cambian peso","#d97706",cambian.map(f=>escHtml(f.nombre)+` ${f.prev}%→${f.peso}%`).join(", "))}
+        </div>`;
+      } else {
+        changes=`<div style="margin-top:8px;padding-top:6px;border-top:1px dashed var(--line);font-size:11.5px" class="eu-note">Sin cambios vs ${prevFecha}.</div>`;
+      }
+    }
     return `<div style="flex:1;min-width:300px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px">
       <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;border-bottom:2px solid var(--navy);padding-bottom:6px;margin-bottom:6px">
         <b style="color:var(--navy)">${c.perfil}</b><span class="eu-note" style="margin:0">${rvLabel[c.perfil]||''} · ${c.n_fondos} fondos</span></div>
       <table style="border-collapse:collapse;width:100%;font-size:12.5px">
         <thead><tr style="color:var(--muted);text-align:left"><th style="padding:2px 6px;text-align:right">Peso</th><th style="padding:2px 6px">Fondo</th><th style="padding:2px 6px;text-align:right">VL</th><th style="padding:2px 6px;text-align:right">TER</th></tr></thead>
-        <tbody>${rows}</tbody></table></div>`;
+        <tbody>${rows}</tbody></table>${changes}</div>`;
   };
   el.innerHTML=`<div class="eu-head">🗂️ Carteras Modelo de Bankinter</div>
     <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0">
