@@ -2645,7 +2645,9 @@ function renderMapa(){
       rows.forEach(d=>{const x=num(d[xK]),y=num(d[retK]); if(x==null||y==null)return; const g=d.GlobalAssetClass||'(otros)'; (byClass[g]=byClass[g]||[]).push([x,y,d.Name||'',d.Isin||'',num(d.TER),num(d[shK]),d.SRRI]);});
       const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,emphasis:{focus:'series'},itemStyle:{opacity:.72}}));
       const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
-      if(fset.length){const pts=fset.map(fd=>{const xv=num(fd[xK]),yv=num(fd[retK]);return (xv!=null&&yv!=null)?[xv,yv,fd.Name||'',fd.Isin]:null;}).filter(Boolean); if(pts.length)series.push(_hlSeriesMulti(pts));}
+      if(fset.length){const pts=[],miss=[]; fset.forEach(fd=>{const xv=num(fd[xK]),yv=num(fd[retK]); if(xv!=null&&yv!=null)pts.push([xv,yv,fd.Name||'',fd.Isin]); else miss.push(fd.Name||fd.Isin);});
+        if(pts.length)series.push(_hlSeriesMulti(pts));
+        if(miss.length)document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">⚠️ ${miss.length} fondo(s) localizado(s) no se muestran: sin dato en este periodo (${perLbl}) → ${miss.slice(0,4).map(escHtml).join(', ')}${miss.length>4?'…':''}. Prueba con otro periodo (p. ej. 1 año).</div>`);}
       option={backgroundColor:'transparent',
         tooltip:{trigger:'item',formatter:p=>{const v=p.data;return `<b>${v[2]}</b><br>${v[3]}<br>${type==='cr'?'TER':'Volatilidad'}: <b>${v[0].toFixed(2)}%</b><br>Rentabilidad ${perLbl}: <b>${v[1].toFixed(2)}%</b><br>Sharpe: ${v[5]!=null?v[5].toFixed(2):'—'} · TER: ${v[4]!=null?v[4].toFixed(2)+'%':'—'} · SRRI ${v[6]||''}`;}},
         legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'}},
@@ -2738,7 +2740,7 @@ function renderMapa2(type){
       <div class="eu-note" style="margin:8px 0">Eje X = <b>máxima caída</b> (peor racha), Eje Y = <b>rentabilidad</b>. Lo mejor está <b>arriba-izquierda</b> (gana mucho cayendo poco). Solo fondos con dato de drawdown (los solo-ABANCA no lo tienen).</div>`;
     const byClass={}; base.forEach(d=>{const dd=num(d[ddKp]),rt=num(d[retKp]);if(dd==null||rt==null)return;const g=d.GlobalAssetClass||'(otros)';(byClass[g]=byClass[g]||[]).push([Math.abs(dd),rt,d.Name||'',d.Isin||'',num(d.TER),num(d[shK])]);});
     const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,itemStyle:{opacity:.72}}));
-    const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean); if(fset.length){const pts=fset.map(fd=>{const xv=num(fd[ddKp]),yv=num(fd[retKp]);return (xv!=null&&yv!=null)?[Math.abs(xv),yv,fd.Name||'',fd.Isin]:null;}).filter(Boolean); if(pts.length)series.push(_hlSeriesMulti(pts));}
+    const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean); if(fset.length){const pts=[],miss=[]; fset.forEach(fd=>{const xv=num(fd[ddKp]),yv=num(fd[retKp]); if(xv!=null&&yv!=null)pts.push([Math.abs(xv),yv,fd.Name||'',fd.Isin]); else miss.push(fd.Name||fd.Isin);}); if(pts.length)series.push(_hlSeriesMulti(pts)); if(miss.length)document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">⚠️ ${miss.length} fondo(s) sin dato de drawdown en ${pL}: ${miss.slice(0,4).map(escHtml).join(', ')}${miss.length>4?'…':''}.</div>`);}
     setChart(chart=>{chart.setOption({backgroundColor:'transparent',
       tooltip:{trigger:'item',formatter:p=>`<b>${p.data[2]}</b><br>${p.data[3]}<br>Caída máx: <b>-${p.data[0].toFixed(1)}%</b><br>Rentabilidad: <b>${p.data[1].toFixed(1)}%</b><br>Sharpe: ${p.data[5]!=null?p.data[5].toFixed(2):'—'} · TER ${p.data[4]!=null?p.data[4].toFixed(2)+'%':'—'}`},
       legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'}},grid:{left:64,right:30,top:44,bottom:56},dataZoom:[{type:'inside'},{type:'inside',orient:'vertical'}],
