@@ -2824,14 +2824,25 @@ function showAntiInflacion(){
   document.getElementById("antiinfla").style.display="block"; renderAntiInflacion();
 }
 function aiSet(k,v){(window.__aiS=window.__aiS||{})[k]=v;renderAntiInflacion();}
+function aiSort(k){const S=window.__aiS||(window.__aiS={}); if(k==='score'){S.sortKey='';renderAntiInflacion();return;} if(S.sortKey===k){S.sortDir=(S.sortDir===1?-1:1);} else {S.sortKey=k; S.sortDir=(k==='name'||k==='TER'||k==='StandardDeviationM12')?1:-1;} renderAntiInflacion();}
 function renderAntiInflacion(){
   const el=document.getElementById("antiinfla"); const S=window.__aiS||(window.__aiS={n:5});
   const topN=parseInt(S.n||5);
   const pct=v=>{const x=num(v);return x==null?'—':x.toFixed(1)+'%';};
+  const sk=S.sortKey||'', sd=S.sortDir||-1;
+  const COLS=[['name','Fondo','left'],['TER','TER','right'],['ReturnM0','YTD','right'],['ReturnM12','1A','right'],['ReturnM36','3A a.','right'],['StandardDeviationM12','Vol 1A','right'],['SharpeM36','Sharpe 3A','right']];
+  const arrow=k=> sk===k ? (sd===1?' ▲':' ▼') : '';
+  const thead=`<tr style="color:var(--muted);text-align:left;font-size:10.5px"><th onclick="aiSort('score')" title="Volver al orden por score" style="padding:2px 6px;cursor:pointer;${sk===''?'color:var(--navy)':''}">#</th>`+
+    COLS.map(([k,t,al])=>`<th onclick="aiSort('${k}')" title="Ordenar por ${t}" style="padding:2px 6px;text-align:${al};cursor:pointer;user-select:none;${sk===k?'color:var(--navy);font-weight:700':''}">${t}${arrow(k)}</th>`).join('')+`</tr>`;
   const card=(th)=>{
     let pool=DATA.filter(d=>{const c=(d.CategoryName||'').toLowerCase(), nm=((d.Name||'')+' '+(d.LegalName||'')).toLowerCase(); return th.f(c,nm);});
     pool=dedupOneClassPerFund(pool);
-    const top=_aiScore(pool).slice(0,topN);
+    let ordered=_aiScore(pool);
+    if(sk){ ordered=ordered.slice().sort((a,b)=>{
+      if(sk==='name'){const x=(a.Name||'').toLowerCase(),y=(b.Name||'').toLowerCase();return x<y?-sd:x>y?sd:0;}
+      const x=num(a[sk]),y=num(b[sk]); if(x==null&&y==null)return 0; if(x==null)return 1; if(y==null)return -1; return (x-y)*sd;
+    }); }
+    const top=ordered.slice(0,topN);
     const rows=top.map((d,i)=>{
       const ficha=d.FichaURL||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${d.Isin}`;
       return `<tr style="border-top:1px solid var(--line)">
@@ -2847,13 +2858,13 @@ function renderAntiInflacion(){
     return `<div style="width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:14px;box-sizing:border-box">
       <div style="border-bottom:2px solid var(--navy);padding-bottom:6px;margin-bottom:6px"><b style="color:var(--navy);font-size:15px">${th.n}</b> <span class="eu-note" style="margin:0">· ${pool.length} fondos · ${escHtml(th.d)}</span></div>
       <div style="overflow-x:auto"><table style="border-collapse:collapse;width:100%;min-width:640px;font-size:12px">
-        <thead><tr style="color:var(--muted);text-align:left;font-size:10.5px"><th style="padding:2px 6px">#</th><th style="padding:2px 6px">Fondo</th><th style="padding:2px 6px;text-align:right">TER</th><th style="padding:2px 6px;text-align:right">YTD</th><th style="padding:2px 6px;text-align:right">1A</th><th style="padding:2px 6px;text-align:right">3A a.</th><th style="padding:2px 6px;text-align:right">Vol 1A</th><th style="padding:2px 6px;text-align:right">Sharpe 3A</th></tr></thead>
+        <thead>${thead}</thead>
         <tbody>${rows||'<tr><td colspan=8 class="eu-note" style="padding:8px">Sin fondos.</td></tr>'}</tbody></table></div></div>`;
   };
   const nSel=`<select onchange="aiSet('n',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${[[5,'Top 5'],[10,'Top 10'],[25,'Top 25'],[9999,'Todos']].map(([x,l])=>`<option value="${x}" ${x===topN?'selected':''}>${l}</option>`).join('')}</select>`;
   el.innerHTML=`<div class="eu-head">🛡️ Temáticas anti-inflación</div>
     <div class="eu-note" style="margin:8px 0">Rankings de los fondos de cada temática que suele comportarse bien con inflación (activos reales + value + emergentes). Score compuesto: <b>rentabilidad 60%</b> (3A anualiz. + 1A + YTD) + <b>coste 25%</b> + riesgo 15% (Sharpe/volatilidad/drawdown, poco peso). Una clase por fondo. Se actualiza con la foto diaria.</div>
-    <div style="display:flex;gap:8px;align-items:center;margin:10px 0">${nSel}<span class="eu-note" style="margin:0">por temática · clic en el fondo abre su ficha</span></div>
+    <div style="display:flex;gap:8px;align-items:center;margin:10px 0">${nSel}<span class="eu-note" style="margin:0">por temática · clic en una <b>columna</b> para ordenar (el «#» vuelve al score) · clic en el fondo abre su ficha</span></div>
     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start">${AI_THEMES.map(card).join("")}</div>
     <div class="eu-note" style="margin:10px 0">Idea de cartera anti-inflación (satélite): combina temáticas poco correlacionadas — p. ej. materias primas amplias + oro + energía + emergentes + value + infraestructuras. Úsalo con la <b>Matriz de correlación</b> para verificar que diversifican.</div>`;
 }
