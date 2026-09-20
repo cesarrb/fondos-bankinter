@@ -2496,6 +2496,27 @@ function wkExport(){
 function loadWeekHist(){return fetch("data/weekly_history.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
   if(j){window.__wh=j;} if(curTab==="Semanal Histórico")renderWeekHist();return j;}).catch(()=>{});}
 // ---------- Gráficos de selección (riesgo-rentabilidad, coste-rentab., ranking Sharpe) ----------
+// Deja UNA clase por fondo (la representativa: accesible por mínimo bajo y con menor TER),
+// para quitar el ruido de tener todas las clases del mismo fondo en los mapas.
+function dedupOneClassPerFund(rows){
+  const TH=100000; // "inversión mínima baja" = accesible al minorista
+  const g={};
+  rows.forEach(d=>{const k=famKey(d);(g[k]=g[k]||[]).push(d);});
+  const out=[];
+  Object.values(g).forEach(arr=>{
+    if(arr.length===1){out.push(arr[0]);return;}
+    out.push(arr.slice().sort((a,b)=>{
+      const ma=num(a.InitialPurchase),mb=num(b.InitialPurchase);
+      const aa=(ma==null||ma<=TH)?0:1, ab=(mb==null||mb<=TH)?0:1;
+      if(aa!==ab)return aa-ab;
+      const ta=num(a.TER),tb=num(b.TER);
+      if(ta==null&&tb==null){} else if(ta==null)return 1; else if(tb==null)return -1; else if(ta!==tb)return ta-tb;
+      return (ma==null?0:ma)-(mb==null?0:mb);
+    })[0]);
+  });
+  return out;
+}
+function dedupChk(on){return `<label class="eu-note" style="margin:0;cursor:pointer"><input type="checkbox" ${on?'checked':''} onchange="mapaSet('dedup',this.checked)"> Una clase por fondo</label>`;}
 function loadECharts(){
   if(window.echarts)return Promise.resolve(window.echarts);
   if(window.__echP)return window.__echP;
@@ -2534,7 +2555,7 @@ function renderMapa(){
   const origSel=`<select onchange="mapaSet('origen',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="">Origen (todos)</option><option value="Bankinter" ${S.origen==='Bankinter'?'selected':''}>Solo Bankinter</option><option value="ABANCA" ${S.origen==='ABANCA'?'selected':''}>Solo ABANCA</option></select>`;
   el.innerHTML=`<div class="eu-head">${titulo}</div>
     <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0">
-      <span class="eu-note" style="margin:0">Periodo:</span>${perSel}${assetSel}${srriSel}${origSel}
+      <span class="eu-note" style="margin:0">Periodo:</span>${perSel}${assetSel}${srriSel}${origSel}${dedupChk(S.dedup!==false)}
       <span class="eu-note" style="margin:0">· ${perLbl}</span></div>
     <div id="mapaChart" style="width:100%;height:600px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
     <div class="eu-note" style="margin:8px 0">Cada punto es un fondo. Pasa el ratón para ver detalle; haz clic para abrir su ficha. Datos del catálogo (${DATA.length.toLocaleString('es')} fondos); para 3A/5A las rentabilidades están anualizadas. Los solo-ABANCA solo tienen volatilidad/Sharpe a 1 año.</div>`;
@@ -2546,6 +2567,7 @@ function renderMapa(){
     if(S.origen==='ABANCA'&&(!d.Fuente||d.Fuente==='Bankinter'))return false;
     return true;
   });
+  if(S.dedup!==false) rows=dedupOneClassPerFund(rows);
   const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d]));
   loadECharts().then(()=>{
     const dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -2634,6 +2656,7 @@ function renderMapa2(type){
   const shK={M0:'SharpeM12',M12:'SharpeM12',M36:'SharpeM36',M60:'SharpeM60'}[per];
   const ddK={M0:'MaxDrawdownM12',M12:'MaxDrawdownM12',M36:'MaxDrawdownM36',M60:'MaxDrawdownM60'}[per];
   const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d]));
+  const base=(S.dedup!==false)?dedupOneClassPerFund(DATA):DATA;
   const titles={heatmap:'🔥 Heatmap rentabilidad por categoría × año',box:'📦 Distribución por categoría (box-plot)',dd:'🩹 Mapa de drawdown (caída vs rentabilidad)',corr:'🔗 Matriz de correlación (para diversificar)'};
   const setChart=(build)=>loadECharts().then(()=>{const dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;const cont=document.getElementById('mapaChart');if(!cont)return;if(window.__ech){try{window.__ech.dispose();}catch(e){}}const chart=window.__ech=echarts.init(cont,dark?'dark':null);build(chart);if(!window.__echResize){window.__echResize=true;window.addEventListener('resize',()=>{if(window.__ech){try{window.__ech.resize();}catch(e){}}});}}).catch(e=>{const c=document.getElementById('mapaChart');if(c)c.innerHTML=`<div style="padding:20px;color:var(--muted)">No se pudo cargar la librería de gráficos: ${e.message}</div>`;});
 
@@ -2641,11 +2664,11 @@ function renderMapa2(type){
     const nY=parseInt(S.hmY||7); const baseYear=(DATA[0]&&/^\d{4}/.test(DATA[0].fecha||''))?parseInt(DATA[0].fecha.slice(0,4))-1:2025;
     const yrSel=`<select onchange="mapaSet('hmY',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${[3,5,7].map(n=>`<option value="${n}" ${n===nY?'selected':''}>Últimos ${n} años</option>`).join('')}</select>`;
     el.innerHTML=`<div class="eu-head">${titles.heatmap}</div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0">${grpSel}${yrSel}<span class="eu-note" style="margin:0">· mediana de rentabilidad anual por grupo</span></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0">${grpSel}${yrSel}${dedupChk(S.dedup!==false)}<span class="eu-note" style="margin:0">· mediana de rentabilidad anual por grupo</span></div>
       <div id="mapaChart" style="width:100%;height:640px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
       <div class="eu-note" style="margin:8px 0">Cada celda = <b>mediana</b> de la rentabilidad de ese año de los fondos del grupo (verde = ganó, rojo = perdió). Ayuda a ver qué tipo de activo funcionó cada año. Solo grupos con ≥3 fondos.</div>`;
     const years=[]; for(let k=1;k<=nY;k++)years.push({k,label:String(baseYear-(k-1))});
-    const groups={}; DATA.forEach(d=>{const g=d[grpKey];if(!g)return;(groups[g]=groups[g]||[]).push(d);});
+    const groups={}; base.forEach(d=>{const g=d[grpKey];if(!g)return;(groups[g]=groups[g]||[]).push(d);});
     const gnames=Object.keys(groups).filter(g=>groups[g].length>=3).sort();
     const data=[]; let vmax=1;
     gnames.forEach((g,yi)=>{years.forEach((yr,xi)=>{const vals=groups[g].map(d=>num(d['YR_ReturnM12_'+yr.k])).filter(v=>v!=null).sort((a,b)=>a-b);const med=_quant(vals,.5);if(med!=null){data.push([xi,yi,Math.round(med*10)/10]);vmax=Math.max(vmax,Math.abs(med));}});});
@@ -2662,10 +2685,10 @@ function renderMapa2(type){
     const metric=S.boxM||'ret'; const mK={ret:retK,vol:volK,sharpe:shK}[metric]; const mLbl={ret:'Rentabilidad',vol:'Volatilidad',sharpe:'Sharpe'}[metric];
     const mSel=`<select onchange="mapaSet('boxM',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="ret" ${metric==='ret'?'selected':''}>Rentabilidad</option><option value="vol" ${metric==='vol'?'selected':''}>Volatilidad</option><option value="sharpe" ${metric==='sharpe'?'selected':''}>Sharpe</option></select>`;
     el.innerHTML=`<div class="eu-head">${titles.box}</div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0">${mSel}${perSel(per)}${grpSel}<span class="eu-note" style="margin:0">· ${mLbl} · ${perLbl}</span></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0">${mSel}${perSel(per)}${grpSel}${dedupChk(S.dedup!==false)}<span class="eu-note" style="margin:0">· ${mLbl} · ${perLbl}</span></div>
       <div id="mapaChart" style="width:100%;height:600px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
       <div class="eu-note" style="margin:8px 0">Cada caja muestra la <b>dispersión</b> del grupo: línea = mediana, caja = del percentil 25 al 75, bigotes = mín/máx. Sirve para ver si un fondo está en la parte buena de su categoría. Grupos con ≥5 fondos.</div>`;
-    const groups={}; DATA.forEach(d=>{const g=d[grpKey];const v=num(d[mK]);if(g&&v!=null)(groups[g]=groups[g]||[]).push(v);});
+    const groups={}; base.forEach(d=>{const g=d[grpKey];const v=num(d[mK]);if(g&&v!=null)(groups[g]=groups[g]||[]).push(v);});
     const gnames=Object.keys(groups).filter(g=>groups[g].length>=5).sort();
     const boxData=gnames.map(g=>{const s=groups[g].slice().sort((a,b)=>a-b);return [_quant(s,0),_quant(s,.25),_quant(s,.5),_quant(s,.75),_quant(s,1)].map(x=>Math.round(x*100)/100);});
     setChart(chart=>chart.setOption({backgroundColor:'transparent',
@@ -2681,10 +2704,10 @@ function renderMapa2(type){
     const pL={M12:'1 año',M36:'3 años',M60:'5 años'}[p2];
     const pSel=`<select onchange="mapaSet('per',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${[['M12','1 año'],['M36','3 años'],['M60','5 años']].map(([v,l])=>`<option value="${v}" ${v===p2?'selected':''}>${l}</option>`).join('')}</select>`;
     el.innerHTML=`<div class="eu-head">${titles.dd}</div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0"><span class="eu-note" style="margin:0">Periodo:</span>${pSel}<span class="eu-note" style="margin:0">· caída máxima vs rentabilidad (${pL})</span></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0"><span class="eu-note" style="margin:0">Periodo:</span>${pSel}${dedupChk(S.dedup!==false)}<span class="eu-note" style="margin:0">· caída máxima vs rentabilidad (${pL})</span></div>
       <div id="mapaChart" style="width:100%;height:600px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
       <div class="eu-note" style="margin:8px 0">Eje X = <b>máxima caída</b> (peor racha), Eje Y = <b>rentabilidad</b>. Lo mejor está <b>arriba-izquierda</b> (gana mucho cayendo poco). Solo fondos con dato de drawdown (los solo-ABANCA no lo tienen).</div>`;
-    const byClass={}; DATA.forEach(d=>{const dd=num(d[ddKp]),rt=num(d[retKp]);if(dd==null||rt==null)return;const g=d.GlobalAssetClass||'(otros)';(byClass[g]=byClass[g]||[]).push([Math.abs(dd),rt,d.Name||'',d.Isin||'',num(d.TER),num(d[shK])]);});
+    const byClass={}; base.forEach(d=>{const dd=num(d[ddKp]),rt=num(d[retKp]);if(dd==null||rt==null)return;const g=d.GlobalAssetClass||'(otros)';(byClass[g]=byClass[g]||[]).push([Math.abs(dd),rt,d.Name||'',d.Isin||'',num(d.TER),num(d[shK])]);});
     const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,itemStyle:{opacity:.72}}));
     setChart(chart=>{chart.setOption({backgroundColor:'transparent',
       tooltip:{trigger:'item',formatter:p=>`<b>${p.data[2]}</b><br>${p.data[3]}<br>Caída máx: <b>-${p.data[0].toFixed(1)}%</b><br>Rentabilidad: <b>${p.data[1].toFixed(1)}%</b><br>Sharpe: ${p.data[5]!=null?p.data[5].toFixed(2):'—'} · TER ${p.data[4]!=null?p.data[4].toFixed(2)+'%':'—'}`},
