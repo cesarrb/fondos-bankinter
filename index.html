@@ -2506,64 +2506,86 @@ function renderCarterasModelo(){
   const S=window.__cmS||(window.__cmS={});
   const fechas=Object.keys(cm.snapshots).sort().reverse();
   const fecha=(S.fecha&&cm.snapshots[S.fecha])?S.fecha:(cm.latest||fechas[0]);
-  const ambito=S.ambito||"Doméstica";
+  const view=S.view||"Comparar";   // "Comparar" (ambas) | "Doméstica" | "Global"
   const snap=cm.snapshots[fecha]; const rv=snap.exposicion_rv||{};
   const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d]));
   const prevFechas=fechas.filter(f=>f<fecha).sort();
   const prevFecha=prevFechas.length?prevFechas[prevFechas.length-1]:null;
   const prevSnap=prevFecha?cm.snapshots[prevFecha]:null;
   const prevOf=(amb,perf)=>prevSnap?prevSnap.carteras.find(c=>c.ambito===amb&&c.perfil===perf):null;
+  const cGet=(amb,perf)=>snap.carteras.find(c=>c.ambito===amb&&c.perfil===perf);
+  const PERFILES=["Defensivo/Conservador","Moderado","Dinámico/Agresivo"];
   const rvLabel={"Defensivo/Conservador":(rv.Defensivo!=null?`${rv.Defensivo}–${rv.Conservador}% RV`:""),
                  "Moderado":(rv.Moderado!=null?`${rv.Moderado}% RV`:""),
                  "Dinámico/Agresivo":(rv.Dinámico!=null?`${rv.Dinámico}–${rv.Agresivo}% RV`:"")};
-  const carteras=snap.carteras.filter(c=>c.ambito===ambito);
-  const fechaSel=fechas.length>1?`<select onchange="cmSet('fecha',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${fechas.map(f=>`<option value="${f}" ${f===fecha?'selected':''}>${f}</option>`).join("")}</select>`:`<b>${fecha}</b>`;
-  const ambBtn=a=>`<button type="button" onclick="cmSet('ambito','${a}')" style="padding:7px 14px;border:1px solid var(--line);border-radius:9px;cursor:pointer;font-weight:600;${a===ambito?'background:var(--navy);color:#fff;border-color:var(--navy)':'background:var(--tabbg);color:var(--muted)'}">${a}</button>`;
-  const card=c=>{
-    const rows=c.fondos.map(f=>{
-      const d=bi[f.isin];
-      const badge=d?abancaBadge(d):` <span class="abanca-tag" style="background:#94a3b8" title="No está ni en Bankinter ni en ABANCA (según nuestro catálogo)">no en catálogo</span>`;
-      const vl=d&&d.VL?(num(d.VL)!=null?num(d.VL).toLocaleString('es',{maximumFractionDigits:4}):d.VL):"—";
-      const ter=d&&num(d.TER)!=null?num(d.TER).toFixed(2)+'%':"—";
-      return `<tr style="border-top:1px solid var(--line)">
-        <td style="padding:4px 6px;text-align:right"><b>${f.peso}%</b></td>
-        <td style="padding:4px 6px">${escHtml(f.nombre)}${badge}<br><span style="color:var(--muted);font-size:11.5px">${f.isin} · ${f.esg}</span></td>
-        <td style="padding:4px 6px;text-align:right;white-space:nowrap">${vl}</td>
-        <td style="padding:4px 6px;text-align:right">${ter}</td></tr>`;
-    }).join("");
-    let changes="";
-    const pc=prevOf(c.ambito,c.perfil);
-    if(pc){
-      const cur={},prv={};
-      c.fondos.forEach(f=>cur[f.isin]=f); pc.fondos.forEach(f=>prv[f.isin]=f);
-      const entran=c.fondos.filter(f=>!prv[f.isin]);
-      const salen=pc.fondos.filter(f=>!cur[f.isin]);
-      const cambian=c.fondos.filter(f=>prv[f.isin]&&prv[f.isin].peso!==f.peso).map(f=>Object.assign({},f,{prev:prv[f.isin].peso}));
-      const line=(lab,color,txt)=>txt?`<div style="margin-top:2px"><span style="color:${color};font-weight:700">${lab}:</span> ${txt}</div>`:"";
-      if(entran.length||salen.length||cambian.length){
-        changes=`<div style="margin-top:8px;padding-top:6px;border-top:1px dashed var(--line);font-size:11.5px">
-          <b class="eu-note" style="margin:0">Cambios vs ${prevFecha}:</b>
-          ${line("Entran","#16a34a",entran.map(f=>escHtml(f.nombre)+` (${f.peso}%)`).join(", "))}
-          ${line("Salen","#dc2626",salen.map(f=>escHtml(f.nombre)+` (${f.peso}%)`).join(", "))}
-          ${line("Cambian peso","#d97706",cambian.map(f=>escHtml(f.nombre)+` ${f.prev}%→${f.peso}%`).join(", "))}
-        </div>`;
-      } else {
-        changes=`<div style="margin-top:8px;padding-top:6px;border-top:1px dashed var(--line);font-size:11.5px" class="eu-note">Sin cambios vs ${prevFecha}.</div>`;
-      }
-    }
-    return `<div style="flex:1;min-width:300px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px">
-      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;border-bottom:2px solid var(--navy);padding-bottom:6px;margin-bottom:6px">
-        <b style="color:var(--navy)">${c.perfil}</b><span class="eu-note" style="margin:0">${rvLabel[c.perfil]||''} · ${c.n_fondos} fondos</span></div>
-      <table style="border-collapse:collapse;width:100%;font-size:12.5px">
-        <thead><tr style="color:var(--muted);text-align:left"><th style="padding:2px 6px;text-align:right">Peso</th><th style="padding:2px 6px">Fondo</th><th style="padding:2px 6px;text-align:right">VL</th><th style="padding:2px 6px;text-align:right">TER</th></tr></thead>
-        <tbody>${rows}</tbody></table>${changes}</div>`;
+  const rp=v=>{const n=num(v);return n==null?'<span style="color:var(--muted)">—</span>':`<span class="${n<0?'neg':(n>0?'pos':'')}">${(n>0?'+':'')+n.toFixed(2)+'%'}</span>`;};
+  const pct=v=>{const n=num(v);return n==null?'—':n.toFixed(2)+'%';};
+  // Fila de un fondo; otherMap = {isin:peso} de la cartera del OTRO ámbito (mismo perfil), o null.
+  const rowFor=(f,otherMap)=>{
+    const d=bi[f.isin];
+    const badge=d?abancaBadge(d):` <span class="abanca-tag" style="background:#94a3b8" title="No está ni en Bankinter ni en ABANCA (según nuestro catálogo)">no en catálogo</span>`;
+    const vl=d&&num(d.VL)!=null?num(d.VL).toLocaleString('es',{maximumFractionDigits:4}):"—";
+    const diff = otherMap ? (!(f.isin in otherMap) || otherMap[f.isin]!==f.peso) : false;
+    const hl = diff?` style="background:rgba(217,119,6,.16)"`:` style="border-top:1px solid var(--line)"`;
+    const dtit = diff?` title="Difiere de la otra cartera (no está o con distinto peso)"`:"";
+    return `<tr${hl}${dtit}>
+      <td style="padding:4px 6px;text-align:right"><b>${f.peso}%</b></td>
+      <td style="padding:4px 6px">${escHtml(f.nombre)}${badge}<br><span style="color:var(--muted);font-size:11px">${f.isin} · ${f.esg}</span></td>
+      <td style="padding:4px 6px;text-align:right;white-space:nowrap">${vl}</td>
+      <td style="padding:4px 6px;text-align:right">${d&&num(d.TER)!=null?num(d.TER).toFixed(2)+'%':'—'}</td>
+      <td style="padding:4px 6px;text-align:right">${d?pct(d.StandardDeviationM12):'—'}</td>
+      <td style="padding:4px 6px;text-align:right">${rp(d?d.ReturnM0:null)}</td>
+      <td style="padding:4px 6px;text-align:right">${rp(d?d.ReturnM12:null)}</td></tr>`;
   };
+  const changesBlock=c=>{
+    const pc=prevOf(c.ambito,c.perfil); if(!pc)return "";
+    const cur={},prv={}; c.fondos.forEach(f=>cur[f.isin]=f); pc.fondos.forEach(f=>prv[f.isin]=f);
+    const entran=c.fondos.filter(f=>!prv[f.isin]);
+    const salen=pc.fondos.filter(f=>!cur[f.isin]);
+    const cambian=c.fondos.filter(f=>prv[f.isin]&&prv[f.isin].peso!==f.peso).map(f=>Object.assign({},f,{prev:prv[f.isin].peso}));
+    const line=(lab,color,txt)=>txt?`<div style="margin-top:2px"><span style="color:${color};font-weight:700">${lab}:</span> ${txt}</div>`:"";
+    if(!(entran.length||salen.length||cambian.length))
+      return `<div style="margin-top:8px;padding-top:6px;border-top:1px dashed var(--line);font-size:11.5px" class="eu-note">Sin cambios vs ${prevFecha}.</div>`;
+    return `<div style="margin-top:8px;padding-top:6px;border-top:1px dashed var(--line);font-size:11.5px">
+      <b class="eu-note" style="margin:0">Cambios vs ${prevFecha}:</b>
+      ${line("Entran","#16a34a",entran.map(f=>escHtml(f.nombre)+` (${f.peso}%)`).join(", "))}
+      ${line("Salen","#dc2626",salen.map(f=>escHtml(f.nombre)+` (${f.peso}%)`).join(", "))}
+      ${line("Cambian peso","#d97706",cambian.map(f=>escHtml(f.nombre)+` ${f.prev}%→${f.peso}%`).join(", "))}</div>`;
+  };
+  const THEAD=`<thead><tr style="color:var(--muted);text-align:left;font-size:11px">
+    <th style="padding:2px 6px;text-align:right">Peso</th><th style="padding:2px 6px">Fondo</th>
+    <th style="padding:2px 6px;text-align:right">VL</th><th style="padding:2px 6px;text-align:right">TER</th>
+    <th style="padding:2px 6px;text-align:right">Volat.</th><th style="padding:2px 6px;text-align:right">YTD</th>
+    <th style="padding:2px 6px;text-align:right">1A</th></tr></thead>`;
+  const card=(c,otherMap,titulo)=>`<div style="flex:1;min-width:340px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;border-bottom:2px solid var(--navy);padding-bottom:6px;margin-bottom:6px">
+        <b style="color:var(--navy)">${titulo}</b><span class="eu-note" style="margin:0">${rvLabel[c.perfil]||''} · ${c.n_fondos} fondos</span></div>
+      <table style="border-collapse:collapse;width:100%;font-size:12px">${THEAD}
+        <tbody>${c.fondos.map(f=>rowFor(f,otherMap)).join("")}</tbody></table>${changesBlock(c)}</div>`;
+
+  let body="";
+  if(view==="Comparar"){
+    body=PERFILES.map(perf=>{
+      const dom=cGet("Doméstica",perf), glob=cGet("Global",perf); if(!dom||!glob)return "";
+      const domMap=Object.fromEntries(dom.fondos.map(f=>[f.isin,f.peso]));
+      const globMap=Object.fromEntries(glob.fondos.map(f=>[f.isin,f.peso]));
+      return `<div style="margin-top:14px"><div style="font-weight:800;color:var(--navy);font-size:15px;margin-bottom:6px">${perf} <span class="eu-note" style="margin:0;font-weight:400">· ${rvLabel[perf]}</span></div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start">
+          ${card(dom,globMap,"Doméstica")}${card(glob,domMap,"Global")}</div></div>`;
+    }).join("");
+  } else {
+    body=`<div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start">`+
+      snap.carteras.filter(c=>c.ambito===view).map(c=>card(c,null,c.perfil)).join("")+`</div>`;
+  }
+  const fechaSel=fechas.length>1?`<select onchange="cmSet('fecha',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${fechas.map(f=>`<option value="${f}" ${f===fecha?'selected':''}>${f}</option>`).join("")}</select>`:`<b>${fecha}</b>`;
+  const viewBtn=(v,lab)=>`<button type="button" onclick="cmSet('view','${v}')" style="padding:7px 14px;border:1px solid var(--line);border-radius:9px;cursor:pointer;font-weight:600;${v===view?'background:var(--navy);color:#fff;border-color:var(--navy)':'background:var(--tabbg);color:var(--muted)'}">${lab}</button>`;
   el.innerHTML=`<div class="eu-head">🗂️ Carteras Modelo de Bankinter</div>
-    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0">
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0">
       <span class="eu-note" style="margin:0">Fecha del informe: ${fechaSel}</span>
-      <span style="flex:1"></span>${ambBtn("Doméstica")}${ambBtn("Global")}</div>
-    <div class="eu-note" style="margin:0 0 10px">Fuente: ${escHtml(cm.fuente||"Bankinter")}. Composición vigente («Nueva cartera») del PDF. VL/TER y el distintivo ABANCA vienen de nuestro catálogo (${DATA.length.toLocaleString('es')} fondos).</div>
-    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start">${carteras.map(card).join("")}</div>`;
+      <span style="flex:1"></span>${viewBtn("Comparar","Comparar ambas")}${viewBtn("Doméstica","Solo Doméstica")}${viewBtn("Global","Solo Global")}</div>
+    <div class="eu-note" style="margin:0 0 6px">Fuente: ${escHtml(cm.fuente||"Bankinter")}. Composición vigente («Nueva cartera») del PDF. VL/TER/Volatilidad/YTD/1A vienen de nuestro catálogo (${DATA.length.toLocaleString('es')} fondos); volatilidad 1A y Sharpe de los solo-ABANCA son de quefondos/calculados.</div>
+    ${view==="Comparar"?`<div class="eu-note" style="margin:0 0 8px"><span style="display:inline-block;width:12px;height:12px;background:rgba(217,119,6,.16);border:1px solid #d97706;border-radius:3px;vertical-align:middle"></span> = el fondo <b>difiere</b> entre Doméstica y Global (no está en la otra o con distinto peso).</div>`:""}
+    ${body}`;
 }
 function showWeekHist(){
   ["toolbar","legend","chips","wrap","euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","carteras"].forEach(id=>document.getElementById(id).style.display="none");
