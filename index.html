@@ -298,7 +298,7 @@ const GROUPS=[
   {g:"Guía",tabs:["Clasificación","Estructura web"]},
   {g:"Indicadores de los fondos",tabs:["General","Pignoración","Rent. Acumuladas","Rent. Anuales","Consistencia","Cartera","Ratios","Riesgo","Comisiones"]},
   {g:"Rankings y movimientos",tabs:["Top Movers","Semanal Histórico","Multi-periodo","Semanas","Score","Percentiles","Escenarios","Rankings"]},
-  {g:"Gráficos",tabs:["Riesgo-Rentabilidad","Coste-Rentabilidad","Ranking Sharpe"]},
+  {g:"Gráficos",tabs:["Riesgo-Rentabilidad","Coste-Rentabilidad","Ranking Sharpe","Heatmap","Box-plot","Drawdown","Correlación"]},
   {g:"Herramientas",tabs:["Mi Cartera","Constructor","Cuándo","Clases hermanas"]},
   {g:"Carteras modelo",tabs:["Carteras modelo"]},
   {g:"Contexto",tabs:["EURIBOR","Intereses"]},
@@ -329,6 +329,10 @@ function selectTab(name){
   if(curTab==="Riesgo-Rentabilidad"){showMapa('rr');return;}
   if(curTab==="Coste-Rentabilidad"){showMapa('cr');return;}
   if(curTab==="Ranking Sharpe"){showMapa('sharpe');return;}
+  if(curTab==="Heatmap"){showMapa('heatmap');return;}
+  if(curTab==="Box-plot"){showMapa('box');return;}
+  if(curTab==="Drawdown"){showMapa('dd');return;}
+  if(curTab==="Correlación"){showMapa('corr');return;}
   if(curTab==="Carteras modelo"){showCarterasModelo();return;}
   if(curTab==="Clasificación"){showGuia();return;}
   if(curTab==="Estructura web"){showEstructura();return;}
@@ -2512,6 +2516,7 @@ function mapaSet(k,v){(window.__mapaS=window.__mapaS||{})[k]=v;renderMapa();}
 function renderMapa(){
   const el=document.getElementById("mapa");
   const type=window.__mapaType||'rr';
+  if(['heatmap','box','dd','corr'].includes(type)) return renderMapa2(type);
   const S=window.__mapaS||(window.__mapaS={per:'M36',asset:'',srri:'',origen:''});
   const per=S.per||'M36';
   const perLbl={M0:'YTD (año en curso)',M12:'1 año',M36:'3 años (anualiz.)',M60:'5 años (anualiz.)'}[per];
@@ -2557,6 +2562,38 @@ function renderMapa(){
         series:[{type:'bar',data:arr.map(o=>o.s),itemStyle:{color:'#1F77B4'},label:{show:true,position:'right',formatter:p=>p.value.toFixed(2),color:'#94a3b8'}}]};
       chart.setOption(option);
       chart.on('click',p=>{const o=arr[p.dataIndex]; if(o){window.open(o.d.FichaURL||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${o.d.Isin}`,'_blank');}});
+      // --- extra: evolución (base 100) + riesgo-rentabilidad de los mejores ---
+      const top=arr.slice().reverse().slice(0,12).map(o=>o.d);
+      document.getElementById('mapa').insertAdjacentHTML('beforeend',
+        `<div class="eu-head" style="margin-top:18px">📈 Evolución de los ${top.length} mejores por Sharpe (100 € invertidos)</div>
+         <div id="mapaEvo" style="width:100%;height:440px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
+         <div class="eu-note" style="margin:8px 0">Base 100 al inicio; rentabilidad Nav anual acumulada (el último punto marcado con * es el año en curso, YTD).</div>
+         <div class="eu-head" style="margin-top:8px">🎯 Riesgo-rentabilidad de esos fondos (${perLbl})</div>
+         <div id="mapaRR2" style="width:100%;height:460px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>`);
+      if(window.__ech2){try{window.__ech2.dispose();}catch(e){}}
+      if(window.__ech3){try{window.__ech3.dispose();}catch(e){}}
+      const rr2=window.__ech3=echarts.init(document.getElementById('mapaRR2'),dark?'dark':null);
+      const rrData=top.map(d=>({name:(d.Name||d.Isin),isin:d.Isin,value:[num(d[volK]),num(d[retK]),num(d.TER),num(d[shK])]})).filter(p=>p.value[0]!=null&&p.value[1]!=null);
+      rr2.setOption({backgroundColor:'transparent',
+        tooltip:{trigger:'item',formatter:p=>`<b>${p.data.name}</b><br>${p.data.isin}<br>Vol: <b>${p.data.value[0].toFixed(2)}%</b> · Rent: <b>${p.data.value[1].toFixed(2)}%</b><br>Sharpe ${p.data.value[3]!=null?p.data.value[3].toFixed(2):'—'} · TER ${p.data.value[2]!=null?p.data.value[2].toFixed(2)+'%':'—'}`},
+        grid:{left:64,right:24,top:20,bottom:52},
+        xAxis:{type:'value',name:'Volatilidad (%) · '+perLbl,nameLocation:'middle',nameGap:34,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
+        yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
+        series:[{type:'scatter',data:rrData,symbolSize:12,itemStyle:{color:'#1F77B4',opacity:.8},label:{show:true,position:'top',formatter:p=>p.data.name.slice(0,18),fontSize:9,color:'#94a3b8'}}]});
+      rr2.on('click',p=>{const d=bi[p.data.isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${p.data.isin}`,'_blank');});
+      const evo=window.__ech2=echarts.init(document.getElementById('mapaEvo'),dark?'dark':null);
+      loadSeries().then(SER=>{
+        const dsel=top.map((d,i)=>{const s=SER&&SER[d.Isin];if(!s||!s.y||!s.y.length)return null;const m={};s.y.forEach((y,j)=>{const r=s.r[j];if(r!=null&&!isNaN(r))m[y]=+r;});const ytd=(s.ytd!=null&&s.ytd!=='')?parseFloat(String(s.ytd).replace(',','.')):null;return {d,m,ytd,i};}).filter(Boolean);
+        if(!dsel.length){const c=document.getElementById('mapaEvo');if(c)c.innerHTML='<div style="padding:20px;color:var(--muted)">Sin serie histórica anual disponible para estos fondos.</div>';return;}
+        let start=-Infinity,end=-Infinity;
+        dsel.forEach(x=>{const ys=Object.keys(x.m).map(Number);if(ys.length){start=Math.max(start,Math.min(...ys));end=Math.max(end,Math.max(...ys));}});
+        if(!isFinite(start))return;
+        const fecha=DATA.length?DATA[0].fecha:"";const curYear=fecha?parseInt(fecha.slice(0,4)):null;
+        const withCur=!!(curYear&&curYear>end&&dsel.some(x=>x.ytd!=null));
+        const xs=[String(start-1)];for(let y=start;y<=end;y++)xs.push(String(y));if(withCur)xs.push(curYear+'*');
+        const lseries=dsel.map(x=>{let v=100;const pts=[100];for(let y=start;y<=end;y++){const r=x.m[y];if(r!=null&&!isNaN(r))v*=(1+r/100);pts.push(Math.round(v*100)/100);}if(withCur){v*=(1+((x.ytd!=null?x.ytd:0)/100));pts.push(Math.round(v*100)/100);}return {name:(x.d.Name||x.d.Isin).slice(0,26),type:'line',showSymbol:false,data:pts,lineStyle:{width:2},emphasis:{focus:'series'}};});
+        evo.setOption({backgroundColor:'transparent',tooltip:{trigger:'axis'},legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'}},grid:{left:52,right:20,top:64,bottom:40},xAxis:{type:'category',data:xs,axisLabel:{color:'#94a3b8'}},yAxis:{type:'value',name:'Base 100',axisLabel:{color:'#94a3b8'},splitLine:{lineStyle:{opacity:.15}}},series:lseries});
+      });
     } else {
       const xK=type==='cr'?'TER':volK, xName=type==='cr'?'Coste TER (%)':'Volatilidad (%) · '+perLbl;
       const byClass={};
@@ -2576,6 +2613,128 @@ function renderMapa(){
     if(!window.__echResize){window.__echResize=true;window.addEventListener('resize',()=>{if(window.__ech){try{window.__ech.resize();}catch(e){}}});}
   }).catch(e=>{const c=document.getElementById('mapaChart'); if(c)c.innerHTML=`<div style="padding:20px;color:var(--muted)">No se pudo cargar la librería de gráficos: ${e.message}</div>`;});
 }
+function _quant(sorted,q){if(!sorted.length)return null;const p=(sorted.length-1)*q,b=Math.floor(p),r=p-b;return sorted[b+1]!==undefined?sorted[b]+r*(sorted[b+1]-sorted[b]):sorted[b];}
+function _pearson(a,b){const n=a.length;if(n<3)return null;let sa=0,sb=0;for(let i=0;i<n;i++){sa+=a[i];sb+=b[i];}const ma=sa/n,mb=sb/n;let num=0,da=0,db=0;for(let i=0;i<n;i++){const x=a[i]-ma,y=b[i]-mb;num+=x*y;da+=x*x;db+=y*y;}return (da&&db)?num/Math.sqrt(da*db):null;}
+window.__vlhist=null;
+function loadVLHist(){ if(window.__vlhist)return Promise.resolve(window.__vlhist);
+  return fetch("data/vl_history.csv",{cache:"no-store"}).then(r=>r.ok?r.text():"").then(txt=>{
+    const h={}; const lines=txt.split(/\r?\n/); for(let i=1;i<lines.length;i++){const p=lines[i].split(";");if(p.length>=3&&p[0]&&p[1]){const v=parseFloat(p[2]);if(!isNaN(v))(h[p[1]]=h[p[1]]||{})[p[0]]=v;}}
+    window.__vlhist=h; return h; }).catch(()=>{window.__vlhist={};return window.__vlhist;});
+}
+function renderMapa2(type){
+  const el=document.getElementById("mapa");
+  const S=window.__mapaS||(window.__mapaS={per:'M36',asset:'',srri:'',origen:''});
+  const perOpts=[['M0','YTD'],['M12','1 año'],['M36','3 años'],['M60','5 años']];
+  const perSel=(cur)=>`<select onchange="mapaSet('per',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${perOpts.map(([v,l])=>`<option value="${v}" ${v===cur?'selected':''}>${l}</option>`).join('')}</select>`;
+  const grpKey=(S.grp==='cat')?'GlobalCategoryName':'GlobalAssetClass';
+  const grpSel=`<select onchange="mapaSet('grp',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="asset" ${S.grp!=='cat'?'selected':''}>Por clase de activo</option><option value="cat" ${S.grp==='cat'?'selected':''}>Por categoría global</option></select>`;
+  const per=S.per||'M36'; const perLbl={M0:'YTD',M12:'1 año',M36:'3 años (anualiz.)',M60:'5 años (anualiz.)'}[per];
+  const retK={M0:'ReturnM0',M12:'ReturnM12',M36:'ReturnM36',M60:'ReturnM60'}[per];
+  const volK={M0:'StandardDeviationM12',M12:'StandardDeviationM12',M36:'StandardDeviationM36',M60:'StandardDeviationM60'}[per];
+  const shK={M0:'SharpeM12',M12:'SharpeM12',M36:'SharpeM36',M60:'SharpeM60'}[per];
+  const ddK={M0:'MaxDrawdownM12',M12:'MaxDrawdownM12',M36:'MaxDrawdownM36',M60:'MaxDrawdownM60'}[per];
+  const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d]));
+  const titles={heatmap:'🔥 Heatmap rentabilidad por categoría × año',box:'📦 Distribución por categoría (box-plot)',dd:'🩹 Mapa de drawdown (caída vs rentabilidad)',corr:'🔗 Matriz de correlación (para diversificar)'};
+  const setChart=(build)=>loadECharts().then(()=>{const dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;const cont=document.getElementById('mapaChart');if(!cont)return;if(window.__ech){try{window.__ech.dispose();}catch(e){}}const chart=window.__ech=echarts.init(cont,dark?'dark':null);build(chart);if(!window.__echResize){window.__echResize=true;window.addEventListener('resize',()=>{if(window.__ech){try{window.__ech.resize();}catch(e){}}});}}).catch(e=>{const c=document.getElementById('mapaChart');if(c)c.innerHTML=`<div style="padding:20px;color:var(--muted)">No se pudo cargar la librería de gráficos: ${e.message}</div>`;});
+
+  if(type==='heatmap'){
+    const nY=parseInt(S.hmY||7); const baseYear=(DATA[0]&&/^\d{4}/.test(DATA[0].fecha||''))?parseInt(DATA[0].fecha.slice(0,4))-1:2025;
+    const yrSel=`<select onchange="mapaSet('hmY',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${[3,5,7].map(n=>`<option value="${n}" ${n===nY?'selected':''}>Últimos ${n} años</option>`).join('')}</select>`;
+    el.innerHTML=`<div class="eu-head">${titles.heatmap}</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0">${grpSel}${yrSel}<span class="eu-note" style="margin:0">· mediana de rentabilidad anual por grupo</span></div>
+      <div id="mapaChart" style="width:100%;height:640px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
+      <div class="eu-note" style="margin:8px 0">Cada celda = <b>mediana</b> de la rentabilidad de ese año de los fondos del grupo (verde = ganó, rojo = perdió). Ayuda a ver qué tipo de activo funcionó cada año. Solo grupos con ≥3 fondos.</div>`;
+    const years=[]; for(let k=1;k<=nY;k++)years.push({k,label:String(baseYear-(k-1))});
+    const groups={}; DATA.forEach(d=>{const g=d[grpKey];if(!g)return;(groups[g]=groups[g]||[]).push(d);});
+    const gnames=Object.keys(groups).filter(g=>groups[g].length>=3).sort();
+    const data=[]; let vmax=1;
+    gnames.forEach((g,yi)=>{years.forEach((yr,xi)=>{const vals=groups[g].map(d=>num(d['YR_ReturnM12_'+yr.k])).filter(v=>v!=null).sort((a,b)=>a-b);const med=_quant(vals,.5);if(med!=null){data.push([xi,yi,Math.round(med*10)/10]);vmax=Math.max(vmax,Math.abs(med));}});});
+    setChart(chart=>chart.setOption({backgroundColor:'transparent',
+      tooltip:{position:'top',formatter:p=>`${gnames[p.data[1]]}<br>${years[p.data[0]].label}: <b>${p.data[2]}%</b>`},
+      grid:{left:200,right:20,top:20,bottom:40},
+      xAxis:{type:'category',data:years.map(y=>y.label),axisLabel:{color:'#94a3b8'}},
+      yAxis:{type:'category',data:gnames,axisLabel:{color:'#94a3b8',fontSize:10}},
+      visualMap:{min:-Math.ceil(vmax),max:Math.ceil(vmax),calculable:true,orient:'horizontal',left:'center',bottom:0,inRange:{color:['#c0392b','#f5f5f5','#16a34a']},textStyle:{color:'#94a3b8'}},
+      series:[{type:'heatmap',data,label:{show:gnames.length<=25,formatter:p=>p.data[2],fontSize:9,color:'#111'},emphasis:{itemStyle:{shadowBlur:6}}}]}));
+    return;
+  }
+  if(type==='box'){
+    const metric=S.boxM||'ret'; const mK={ret:retK,vol:volK,sharpe:shK}[metric]; const mLbl={ret:'Rentabilidad',vol:'Volatilidad',sharpe:'Sharpe'}[metric];
+    const mSel=`<select onchange="mapaSet('boxM',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="ret" ${metric==='ret'?'selected':''}>Rentabilidad</option><option value="vol" ${metric==='vol'?'selected':''}>Volatilidad</option><option value="sharpe" ${metric==='sharpe'?'selected':''}>Sharpe</option></select>`;
+    el.innerHTML=`<div class="eu-head">${titles.box}</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0">${mSel}${perSel(per)}${grpSel}<span class="eu-note" style="margin:0">· ${mLbl} · ${perLbl}</span></div>
+      <div id="mapaChart" style="width:100%;height:600px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
+      <div class="eu-note" style="margin:8px 0">Cada caja muestra la <b>dispersión</b> del grupo: línea = mediana, caja = del percentil 25 al 75, bigotes = mín/máx. Sirve para ver si un fondo está en la parte buena de su categoría. Grupos con ≥5 fondos.</div>`;
+    const groups={}; DATA.forEach(d=>{const g=d[grpKey];const v=num(d[mK]);if(g&&v!=null)(groups[g]=groups[g]||[]).push(v);});
+    const gnames=Object.keys(groups).filter(g=>groups[g].length>=5).sort();
+    const boxData=gnames.map(g=>{const s=groups[g].slice().sort((a,b)=>a-b);return [_quant(s,0),_quant(s,.25),_quant(s,.5),_quant(s,.75),_quant(s,1)].map(x=>Math.round(x*100)/100);});
+    setChart(chart=>chart.setOption({backgroundColor:'transparent',
+      tooltip:{trigger:'item',formatter:p=>Array.isArray(p.data)?`${gnames[p.dataIndex]}<br>máx ${p.data[5]} · Q3 ${p.data[4]} · <b>mediana ${p.data[3]}</b> · Q1 ${p.data[2]} · mín ${p.data[1]}`:''},
+      grid:{left:60,right:20,top:20,bottom:120},
+      xAxis:{type:'category',data:gnames,axisLabel:{color:'#94a3b8',interval:0,rotate:35,fontSize:10}},
+      yAxis:{type:'value',name:mLbl+(metric==='sharpe'?'':' (%)'),axisLabel:{color:'#94a3b8'},splitLine:{lineStyle:{opacity:.15}}},
+      series:[{type:'boxplot',data:boxData,itemStyle:{color:'rgba(31,120,180,.3)',borderColor:'#1F77B4'}}]}));
+    return;
+  }
+  if(type==='dd'){
+    const p2=(per==='M0'||per==='M12')?'M12':per; const ddKp={M12:'MaxDrawdownM12',M36:'MaxDrawdownM36',M60:'MaxDrawdownM60'}[p2]; const retKp={M12:'ReturnM12',M36:'ReturnM36',M60:'ReturnM60'}[p2];
+    const pL={M12:'1 año',M36:'3 años',M60:'5 años'}[p2];
+    const pSel=`<select onchange="mapaSet('per',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${[['M12','1 año'],['M36','3 años'],['M60','5 años']].map(([v,l])=>`<option value="${v}" ${v===p2?'selected':''}>${l}</option>`).join('')}</select>`;
+    el.innerHTML=`<div class="eu-head">${titles.dd}</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0"><span class="eu-note" style="margin:0">Periodo:</span>${pSel}<span class="eu-note" style="margin:0">· caída máxima vs rentabilidad (${pL})</span></div>
+      <div id="mapaChart" style="width:100%;height:600px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
+      <div class="eu-note" style="margin:8px 0">Eje X = <b>máxima caída</b> (peor racha), Eje Y = <b>rentabilidad</b>. Lo mejor está <b>arriba-izquierda</b> (gana mucho cayendo poco). Solo fondos con dato de drawdown (los solo-ABANCA no lo tienen).</div>`;
+    const byClass={}; DATA.forEach(d=>{const dd=num(d[ddKp]),rt=num(d[retKp]);if(dd==null||rt==null)return;const g=d.GlobalAssetClass||'(otros)';(byClass[g]=byClass[g]||[]).push([Math.abs(dd),rt,d.Name||'',d.Isin||'',num(d.TER),num(d[shK])]);});
+    const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,itemStyle:{opacity:.72}}));
+    setChart(chart=>{chart.setOption({backgroundColor:'transparent',
+      tooltip:{trigger:'item',formatter:p=>`<b>${p.data[2]}</b><br>${p.data[3]}<br>Caída máx: <b>-${p.data[0].toFixed(1)}%</b><br>Rentabilidad: <b>${p.data[1].toFixed(1)}%</b><br>Sharpe: ${p.data[5]!=null?p.data[5].toFixed(2):'—'} · TER ${p.data[4]!=null?p.data[4].toFixed(2)+'%':'—'}`},
+      legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'}},grid:{left:64,right:30,top:44,bottom:56},dataZoom:[{type:'inside'},{type:'inside',orient:'vertical'}],
+      xAxis:{type:'value',name:'Máxima caída (%)',nameLocation:'middle',nameGap:34,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
+      yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
+      series});
+      chart.on('click',pp=>{const isin=pp.data&&pp.data[3];if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}});});
+    return;
+  }
+  // ---- Correlación ----
+  const sel=(S.corr||[]).slice();
+  const chips=sel.map(is=>{const d=bi[is];return `<span style="display:inline-flex;align-items:center;gap:4px;background:var(--tabbg);border:1px solid var(--line);border-radius:20px;padding:3px 6px 3px 10px;font-size:12px;margin:2px">${escHtml((d&&d.Name)||is).slice(0,28)} <button onclick="mapaCorrDel('${is}')" style="border:none;background:none;cursor:pointer;color:var(--muted);font-weight:700">×</button></span>`;}).join("");
+  el.innerHTML=`<div class="eu-head">${titles.corr}</div>
+    <div class="eu-note" style="margin:8px 0">Elige varios fondos (2–12) y calculo su <b>correlación</b> a partir del histórico diario de VL. Valores cerca de <b>+1</b> = se mueven igual; cerca de <b>0 o negativo</b> = diversifican bien. Cuanto más histórico acumulado, más fiable.</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0">
+      <input list="fundlist" id="corrInput" placeholder="Añadir fondo (nombre o ISIN)…" style="flex:1;min-width:240px;padding:8px 12px;border:1px solid var(--line);border-radius:9px;background:var(--card);color:var(--navy)" onchange="mapaCorrAdd(this.value);this.value=''">
+      <button onclick="mapaCorrAdd(document.getElementById('corrInput').value);document.getElementById('corrInput').value=''" style="padding:8px 14px;border:1px solid var(--line);border-radius:9px;cursor:pointer;background:var(--tabbg);color:var(--navy);font-weight:600">Añadir</button>
+      ${sel.length?`<button onclick="mapaSet('corr',[])" style="padding:8px 12px;border:1px solid var(--line);border-radius:9px;cursor:pointer;background:var(--tabbg);color:var(--muted)">Limpiar</button>`:''}</div>
+    <div style="margin-bottom:8px">${chips||'<span class="eu-note">Sin fondos seleccionados todavía.</span>'}</div>
+    <div id="mapaChart" style="width:100%;height:560px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
+    <div id="corrNote" class="eu-note" style="margin:8px 0"></div>`;
+  if(sel.length<2){const c=document.getElementById('mapaChart');if(c)c.innerHTML='<div style="padding:24px;color:var(--muted)">Añade al menos 2 fondos para ver su matriz de correlación.</div>';return;}
+  loadVLHist().then(h=>{
+    // series de retornos diarios por fondo, alineadas por fechas comunes
+    const retsBy={}; const datesBy={};
+    sel.forEach(is=>{const m=h[is]||{};const ds=Object.keys(m).sort();datesBy[is]=ds;});
+    // fechas comunes a TODOS
+    let common=null; sel.forEach(is=>{const set=new Set(datesBy[is]);common=common?common.filter(d=>set.has(d)):datesBy[is].slice();});
+    common=(common||[]).sort();
+    const note=document.getElementById('corrNote');
+    if(common.length<6){setChart(chart=>chart.clear());const c=document.getElementById('mapaChart');if(c)c.innerHTML=`<div style="padding:24px;color:var(--muted)">Histórico común insuficiente (${common.length} días) entre estos fondos. Se necesita más foto diaria acumulada; prueba con fondos de Bankinter (más histórico).</div>`;return;}
+    sel.forEach(is=>{const m=h[is];const r=[];for(let i=1;i<common.length;i++){const p0=m[common[i-1]],p1=m[common[i]];if(p0&&p1)r.push(Math.log(p1/p0));}retsBy[is]=r;});
+    const n=sel.length; const data=[];
+    for(let i=0;i<n;i++)for(let j=0;j<n;j++){const c=i===j?1:_pearson(retsBy[sel[i]],retsBy[sel[j]]);data.push([j,i,c==null?'-':Math.round(c*100)/100]);}
+    const labels=sel.map(is=>((bi[is]&&bi[is].Name)||is).slice(0,22));
+    if(note)note.textContent=`Correlación de retornos diarios sobre ${common.length} días comunes (${common[0]} → ${common[common.length-1]}).`;
+    setChart(chart=>chart.setOption({backgroundColor:'transparent',
+      tooltip:{position:'top',formatter:p=>`${labels[p.data[1]]}<br>vs ${labels[p.data[0]]}<br><b>ρ = ${p.data[2]}</b>`},
+      grid:{left:200,right:20,top:20,bottom:150},
+      xAxis:{type:'category',data:labels,axisLabel:{color:'#94a3b8',interval:0,rotate:40,fontSize:10}},
+      yAxis:{type:'category',data:labels,axisLabel:{color:'#94a3b8',fontSize:10}},
+      visualMap:{min:-1,max:1,calculable:true,orient:'horizontal',left:'center',bottom:10,inRange:{color:['#16a34a','#f5f5f5','#c0392b']},textStyle:{color:'#94a3b8'}},
+      series:[{type:'heatmap',data,label:{show:true,formatter:p=>p.data[2],fontSize:10,color:'#111'}}]}));
+  });
+}
+function mapaCorrAdd(v){ if(!v)return; const S=window.__mapaS||(window.__mapaS={}); const m=String(v).match(/([A-Z]{2}[0-9A-Z]{9}[0-9])/i); let isin=m?m[1].toUpperCase():null;
+  if(!isin){const d=DATA.find(x=>((x.Name||'')+' '+(x.LegalName||'')).toLowerCase().includes(String(v).toLowerCase()));isin=d&&d.Isin;}
+  if(!isin)return; const cur=(S.corr||[]); if(cur.includes(isin))return; if(cur.length>=12){alert('Máximo 12 fondos.');return;} mapaSet('corr',cur.concat(isin)); }
+function mapaCorrDel(is){const S=window.__mapaS||{};mapaSet('corr',(S.corr||[]).filter(x=>x!==is));}
 // ---------- Detector de clases hermanas (mismo fondo, distinta clase) ----------
 const _CUR=/^(EUR|USD|GBP|CHF|JPY|SEK|NOK|AUD|CAD|HKD|SGD|PLN|DKK|CZK|HUF)$/;
 const _NOISE=/^(ACC|INC|DIST|DISTRIBUTION|ACCUMULATION|CAP|CAPITALISATION|CAPITALIZACION|HEDGED|HDG|HGD|HEDGE|EURHDG|USDHDG|GBPHDG|CHFHDG|CLASS|CLASE|SHARES?|FUND|FI|SICAV|PLUS|II|III)$/;

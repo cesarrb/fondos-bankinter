@@ -211,9 +211,9 @@ def collect(fecha=None, delay=0.35, log=print, max_seconds=600):
         # Rentabilidades curadas del estático (no se scrapean a diario): YTD + años cerrados.
         # YR_ReturnM12_1 = año en curso (YTD), _2 = 2025, _3 = 2024, _4 = 2023, _5 = 2022.
         if m.get("Rent2026YTD") not in (None, ""):
-            row["ReturnM0"] = m["Rent2026YTD"]        # YTD
-            row["YR_ReturnM12_1"] = m["Rent2026YTD"]
-        for k, col in enumerate(["Rent2025", "Rent2024", "Rent2023", "Rent2022"], start=2):
+            row["ReturnM0"] = m["Rent2026YTD"]        # YTD (año en curso)
+        # YR_ReturnM12_1 = último año CERRADO (2025), igual que Bankinter (baseYear del front)
+        for k, col in enumerate(["Rent2025", "Rent2024", "Rent2023", "Rent2022"], start=1):
             if m.get(col) not in (None, ""):
                 row[f"YR_ReturnM12_{k}"] = m[col]
         if m.get("Volatilidad1A") not in (None, ""):
