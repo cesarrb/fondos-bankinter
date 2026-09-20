@@ -10,3 +10,6 @@ __pycache__/
 *.log
 ~$*
 _backups_fondos/
+
+# PDFs de Bankinter (copyright) - solo publicamos los datos extraidos
+carteras_modelo/*.pdf

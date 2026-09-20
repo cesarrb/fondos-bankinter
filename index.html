@@ -152,6 +152,7 @@
 <div id="scenarios" style="display:none"></div>
 <div id="weekly" style="display:none"></div>
 <div id="weekhist" style="display:none"></div>
+<div id="carteras" style="display:none"></div>
 <div id="gzModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.55);padding:2vh 2vw" onclick="if(event.target===this)guiaClose()"></div>
 <div id="gzPickBar" style="display:none;position:fixed;left:18px;bottom:18px;z-index:30;gap:8px;align-items:center;background:var(--navy);color:#fff;padding:10px 14px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.25)"></div>
 <datalist id="fundlist"></datalist>
@@ -296,10 +297,11 @@ const GROUPS=[
   {g:"Indicadores de los fondos",tabs:["General","Pignoración","Rent. Acumuladas","Rent. Anuales","Consistencia","Cartera","Ratios","Riesgo","Comisiones"]},
   {g:"Rankings y movimientos",tabs:["Top Movers","Semanal Histórico","Multi-periodo","Semanas","Score","Percentiles","Escenarios","Rankings"]},
   {g:"Herramientas",tabs:["Mi Cartera","Constructor","Cuándo"]},
+  {g:"Carteras modelo",tabs:["Carteras modelo"]},
   {g:"Contexto",tabs:["EURIBOR","Intereses"]},
   {g:"Chat IA",tabs:["Chat IA"]}
 ];
-const GROUP_ICON={"Guía":"📖 ","Indicadores de los fondos":"📋 ","Rankings y movimientos":"📊 ","Herramientas":"🛠️ ","Contexto":"🏦 ","Chat IA":"💬 "};
+const GROUP_ICON={"Guía":"📖 ","Indicadores de los fondos":"📋 ","Rankings y movimientos":"📊 ","Herramientas":"🛠️ ","Carteras modelo":"🗂️ ","Contexto":"🏦 ","Chat IA":"💬 "};
 const TAB_ICON={"Chat IA":"💬 ","Top Movers":"📊 ","Semanal Histórico":"🗓️ ","Multi-periodo":"📅 ","Semanas":"📆 ","Score":"📈 ","Rankings":"🗓️ ","Mi Cartera":"💼 ","Constructor":"🧭 ","Cuándo":"🕐 ","Clasificación":"📖 ","Estructura web":"🗺️ ","Percentiles":"🎯 ","Escenarios":"🌦️ "};
 function groupOf(tab){const gg=GROUPS.find(x=>x.tabs.includes(tab));return gg?gg.g:GROUPS[0].g;}
 function selectTab(name){
@@ -320,10 +322,11 @@ function selectTab(name){
   if(curTab==="Mi Cartera"){showCartera();return;}
   if(curTab==="Constructor"){showConstructor();return;}
   if(curTab==="Cuándo"){showCuando();return;}
+  if(curTab==="Carteras modelo"){showCarterasModelo();return;}
   if(curTab==="Clasificación"){showGuia();return;}
   if(curTab==="Estructura web"){showEstructura();return;}
   // vista de tabla
-  ["euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist"].forEach(id=>document.getElementById(id).style.display="none");
+  ["euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist","carteras"].forEach(id=>document.getElementById(id).style.display="none");
   ["toolbar","legend","chips","wrap"].forEach(id=>document.getElementById(id).style.display=(id==="toolbar"||id==="legend"||id==="chips")?"flex":"block");
   document.getElementById("riskPer").style.display=(curTab==="Riesgo"||curTab==="Ratios")?"inline-block":"none";
   const cols=effTabCols();
@@ -2481,8 +2484,65 @@ function wkExport(){
 // ---------- Semanal Histórico: mejores/peores fondos semana a semana ----------
 function loadWeekHist(){return fetch("data/weekly_history.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
   if(j){window.__wh=j;} if(curTab==="Semanal Histórico")renderWeekHist();return j;}).catch(()=>{});}
+// ---------- Carteras Modelo de Bankinter ----------
+window.__cm=null;
+function loadCarterasModelo(){ if(window.__cm!==null&&window.__cm!==undefined)return Promise.resolve(window.__cm);
+  return fetch("data/carteras_modelo.json",{cache:"no-store"}).then(r=>r.ok?r.json():false).then(j=>{window.__cm=j;return j;}).catch(()=>{window.__cm=false;return false;}); }
+function showCarterasModelo(){
+  ["toolbar","legend","chips","wrap","euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist"].forEach(id=>document.getElementById(id).style.display="none");
+  document.getElementById("carteras").style.display="block";
+  if(window.__cm===null){loadCarterasModelo().then(renderCarterasModelo);}else renderCarterasModelo();
+}
+function cmSet(k,v){const s=window.__cmS||(window.__cmS={});s[k]=v;renderCarterasModelo();}
+function renderCarterasModelo(){
+  const el=document.getElementById("carteras"); const cm=window.__cm;
+  if(!cm||!cm.snapshots||!Object.keys(cm.snapshots).length){
+    el.innerHTML=`<div class="eu-head">🗂️ Carteras Modelo de Bankinter</div>
+      <div style="background:var(--card);border:1px solid var(--line);border-left:4px solid var(--navy);border-radius:12px;padding:16px;margin-top:10px">
+      Todavía no hay ninguna cartera modelo cargada. Se añaden desde el PDF que publica Bankinter
+      (<code>Análisis y Mercados → Carteras Modelo de Fondos</code>) con <code>add_cartera_modelo.py</code>.</div>`;
+    return;
+  }
+  const S=window.__cmS||(window.__cmS={});
+  const fechas=Object.keys(cm.snapshots).sort().reverse();
+  const fecha=(S.fecha&&cm.snapshots[S.fecha])?S.fecha:(cm.latest||fechas[0]);
+  const ambito=S.ambito||"Doméstica";
+  const snap=cm.snapshots[fecha]; const rv=snap.exposicion_rv||{};
+  const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d]));
+  const rvLabel={"Defensivo/Conservador":(rv.Defensivo!=null?`${rv.Defensivo}–${rv.Conservador}% RV`:""),
+                 "Moderado":(rv.Moderado!=null?`${rv.Moderado}% RV`:""),
+                 "Dinámico/Agresivo":(rv.Dinámico!=null?`${rv.Dinámico}–${rv.Agresivo}% RV`:"")};
+  const carteras=snap.carteras.filter(c=>c.ambito===ambito);
+  const fechaSel=fechas.length>1?`<select onchange="cmSet('fecha',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${fechas.map(f=>`<option value="${f}" ${f===fecha?'selected':''}>${f}</option>`).join("")}</select>`:`<b>${fecha}</b>`;
+  const ambBtn=a=>`<button type="button" onclick="cmSet('ambito','${a}')" style="padding:7px 14px;border:1px solid var(--line);border-radius:9px;cursor:pointer;font-weight:600;${a===ambito?'background:var(--navy);color:#fff;border-color:var(--navy)':'background:var(--tabbg);color:var(--muted)'}">${a}</button>`;
+  const card=c=>{
+    const rows=c.fondos.map(f=>{
+      const d=bi[f.isin];
+      const badge=d?abancaBadge(d):` <span class="abanca-tag" style="background:#94a3b8" title="No está ni en Bankinter ni en ABANCA (según nuestro catálogo)">no en catálogo</span>`;
+      const vl=d&&d.VL?(num(d.VL)!=null?num(d.VL).toLocaleString('es',{maximumFractionDigits:4}):d.VL):"—";
+      const ter=d&&num(d.TER)!=null?num(d.TER).toFixed(2)+'%':"—";
+      return `<tr style="border-top:1px solid var(--line)">
+        <td style="padding:4px 6px;text-align:right"><b>${f.peso}%</b></td>
+        <td style="padding:4px 6px">${escHtml(f.nombre)}${badge}<br><span style="color:var(--muted);font-size:11.5px">${f.isin} · ${f.esg}</span></td>
+        <td style="padding:4px 6px;text-align:right;white-space:nowrap">${vl}</td>
+        <td style="padding:4px 6px;text-align:right">${ter}</td></tr>`;
+    }).join("");
+    return `<div style="flex:1;min-width:300px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;border-bottom:2px solid var(--navy);padding-bottom:6px;margin-bottom:6px">
+        <b style="color:var(--navy)">${c.perfil}</b><span class="eu-note" style="margin:0">${rvLabel[c.perfil]||''} · ${c.n_fondos} fondos</span></div>
+      <table style="border-collapse:collapse;width:100%;font-size:12.5px">
+        <thead><tr style="color:var(--muted);text-align:left"><th style="padding:2px 6px;text-align:right">Peso</th><th style="padding:2px 6px">Fondo</th><th style="padding:2px 6px;text-align:right">VL</th><th style="padding:2px 6px;text-align:right">TER</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>`;
+  };
+  el.innerHTML=`<div class="eu-head">🗂️ Carteras Modelo de Bankinter</div>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0">
+      <span class="eu-note" style="margin:0">Fecha del informe: ${fechaSel}</span>
+      <span style="flex:1"></span>${ambBtn("Doméstica")}${ambBtn("Global")}</div>
+    <div class="eu-note" style="margin:0 0 10px">Fuente: ${escHtml(cm.fuente||"Bankinter")}. Composición vigente («Nueva cartera») del PDF. VL/TER y el distintivo ABANCA vienen de nuestro catálogo (${DATA.length.toLocaleString('es')} fondos).</div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start">${carteras.map(card).join("")}</div>`;
+}
 function showWeekHist(){
-  ["toolbar","legend","chips","wrap","euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly"].forEach(id=>document.getElementById(id).style.display="none");
+  ["toolbar","legend","chips","wrap","euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","carteras"].forEach(id=>document.getElementById(id).style.display="none");
   document.getElementById("weekhist").style.display="block";
   if(!window.__wh){loadWeekHist().then(renderWeekHist);}else renderWeekHist();
 }

@@ -1,0 +1,438 @@
+{
+ "latest": "2026-09-03",
+ "snapshots": {
+  "2026-09-03": {
+   "exposicion_rv": {
+    "Agresivo": 80,
+    "Dinámico": 65,
+    "Moderado": 50,
+    "Conservador": 35,
+    "Defensivo": 25
+   },
+   "carteras": [
+    {
+     "ambito": "Doméstica",
+     "perfil": "Defensivo/Conservador",
+     "n_fondos": 9,
+     "suma_pesos": 100,
+     "fondos": [
+      {
+       "isin": "FR0011311414",
+       "peso": 10,
+       "nombre": "OSTRUM SRI EURO BONDS 3/5",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1022658667",
+       "peso": 15,
+       "nombre": "FRANKLIN EURO SHORT DURATION BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1694212348",
+       "peso": 15,
+       "nombre": "NORDEA LOW DURATION EUROPEAN COVERED BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1670718219",
+       "peso": 15,
+       "nombre": "M&G SHORT DATED CORPORATE BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1164219682",
+       "peso": 10,
+       "nombre": "AXA EURO CREDIT TOTAL RETURN",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU0011889846",
+       "peso": 5,
+       "nombre": "HENDERSON HORIZON EUROLAND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU0289214628",
+       "peso": 10,
+       "nombre": "JPM EUROPE EQUITY PLUS D€",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "ES0114794037",
+       "peso": 10,
+       "nombre": "BK FUTURO IBEX, FI",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "LU0093502762",
+       "peso": 10,
+       "nombre": "BGF EURO MARKETS A2 FUND",
+       "esg": "Art.8"
+      }
+     ]
+    },
+    {
+     "ambito": "Doméstica",
+     "perfil": "Moderado",
+     "n_fondos": 11,
+     "suma_pesos": 100,
+     "fondos": [
+      {
+       "isin": "FR0011311414",
+       "peso": 10,
+       "nombre": "OSTRUM SRI EURO BONDS 3/5",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1694212348",
+       "peso": 10,
+       "nombre": "NORDEA LOW DURATION EUROPEAN COVERED BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1670718219",
+       "peso": 10,
+       "nombre": "M&G SHORT DATED CORPORATE BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1164219682",
+       "peso": 10,
+       "nombre": "AXA EURO CREDIT TOTAL RETURN",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1022658667",
+       "peso": 10,
+       "nombre": "FRANKLIN EURO SHORT DURATION BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU0289214628",
+       "peso": 10,
+       "nombre": "JPM EUROPE EQUITY PLUS D€",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "LU0389811885",
+       "peso": 10,
+       "nombre": "AMUNDI INDEX MSCI EUROPE",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU0093502762",
+       "peso": 10,
+       "nombre": "BGF EURO MARKETS A2 FUND",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "LU0011889846",
+       "peso": 5,
+       "nombre": "HENDERSON HORIZON EUROLAND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "ES0114794037",
+       "peso": 10,
+       "nombre": "BK FUTURO IBEX, FI",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "NO0013528356",
+       "peso": 5,
+       "nombre": "DNB EUROPEAN DEFENCE",
+       "esg": "Art.8"
+      }
+     ]
+    },
+    {
+     "ambito": "Doméstica",
+     "perfil": "Dinámico/Agresivo",
+     "n_fondos": 11,
+     "suma_pesos": 100,
+     "fondos": [
+      {
+       "isin": "LU1022658667",
+       "peso": 5,
+       "nombre": "FRANKLIN EURO SHORT DURATION BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1694212348",
+       "peso": 5,
+       "nombre": "NORDEA LOW DURATION EUROPEAN COVERED BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1670718219",
+       "peso": 5,
+       "nombre": "M&G SHORT DATED CORPORATE BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1164219682",
+       "peso": 5,
+       "nombre": "AXA EURO CREDIT TOTAL RETURN",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU0289214628",
+       "peso": 15,
+       "nombre": "JPM EUROPE EQUITY PLUS D€",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "LU0389811885",
+       "peso": 15,
+       "nombre": "AMUNDI INDEX MSCI EUROPE",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "LU0093502762",
+       "peso": 15,
+       "nombre": "BGF EURO MARKETS A2 FUND",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "LU0011889846",
+       "peso": 5,
+       "nombre": "HENDERSON HORIZON EUROLAND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1330191542",
+       "peso": 5,
+       "nombre": "MAGALLANES VALUE EUROPEAN",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "NO0013528356",
+       "peso": 10,
+       "nombre": "DNB EUROPEAN DEFENCE",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "ES0114794037",
+       "peso": 15,
+       "nombre": "BK FUTURO IBEX, FI",
+       "esg": "Art.6"
+      }
+     ]
+    },
+    {
+     "ambito": "Global",
+     "perfil": "Defensivo/Conservador",
+     "n_fondos": 9,
+     "suma_pesos": 100,
+     "fondos": [
+      {
+       "isin": "FR0011311414",
+       "peso": 10,
+       "nombre": "OSTRUM SRI EURO BONDS 3/5",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1022658667",
+       "peso": 15,
+       "nombre": "FRANKLIN EURO SHORT DURATION BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1694212348",
+       "peso": 15,
+       "nombre": "NORDEA LOW DURATION EUROPEAN COVERED BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1670718219",
+       "peso": 10,
+       "nombre": "M&G SHORT DATED CORPORATE BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "IE00B84J9L26",
+       "peso": 15,
+       "nombre": "PIMCO INCOME EURHDG",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "LU0996182563",
+       "peso": 10,
+       "nombre": "AMUNDI INDEX MSCI WORLD",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "LU0289214628",
+       "peso": 5,
+       "nombre": "JPM EUROPE EQUITY PLUS D€",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "ES0114794037",
+       "peso": 5,
+       "nombre": "BK FUTURO IBEX, FI",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "LU1378995317",
+       "peso": 15,
+       "nombre": "CGF INVESTMENT COMPANY EURHDG",
+       "esg": "Art.8"
+      }
+     ]
+    },
+    {
+     "ambito": "Global",
+     "perfil": "Moderado",
+     "n_fondos": 11,
+     "suma_pesos": 100,
+     "fondos": [
+      {
+       "isin": "LU1694212348",
+       "peso": 15,
+       "nombre": "NORDEA LOW DURATION EUROPEAN COVERED BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "IE00B84J9L26",
+       "peso": 15,
+       "nombre": "PIMCO INCOME EURHDG",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "IE00BFRSV973",
+       "peso": 10,
+       "nombre": "PIMCO GIS CAPITAL SECURITIES EURHDG",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1022658667",
+       "peso": 10,
+       "nombre": "FRANKLIN EURO SHORT DURATION BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1704830576",
+       "peso": 10,
+       "nombre": "FRANKLIN TECHNOLOGY EURHDG",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU0171304719",
+       "peso": 5,
+       "nombre": "BGF WORLD FINANCIALS A2",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU0289214628",
+       "peso": 5,
+       "nombre": "JPM EUROPE EQUITY PLUS D€",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "ES0114794037",
+       "peso": 5,
+       "nombre": "BK FUTURO IBEX, FI",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "LU1378995317",
+       "peso": 10,
+       "nombre": "CGF INVESTMENT COMPANY EURHDG",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU0996182563",
+       "peso": 10,
+       "nombre": "AMUNDI INDEX MSCI WORLD",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "NO0013528356",
+       "peso": 5,
+       "nombre": "DNB EUROPEAN DEFENCE",
+       "esg": "Art.8"
+      }
+     ]
+    },
+    {
+     "ambito": "Global",
+     "perfil": "Dinámico/Agresivo",
+     "n_fondos": 11,
+     "suma_pesos": 100,
+     "fondos": [
+      {
+       "isin": "LU1022658667",
+       "peso": 5,
+       "nombre": "FRANKLIN EURO SHORT DURATION BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1694212348",
+       "peso": 5,
+       "nombre": "NORDEA LOW DURATION EUROPEAN COVERED BOND",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "IE00B84J9L26",
+       "peso": 5,
+       "nombre": "PIMCO INCOME EURHDG",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "IE00BFRSV973",
+       "peso": 5,
+       "nombre": "PIMCO GIS CAPITAL SECURITIES EURHDG",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1704830576",
+       "peso": 15,
+       "nombre": "FRANKLIN TECHNOLOGY EURHDG",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU1378995317",
+       "peso": 20,
+       "nombre": "CGF INVESTMENT COMPANY EURHDG",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU0171304719",
+       "peso": 10,
+       "nombre": "BGF WORLD FINANCIALS A2",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "LU0289214628",
+       "peso": 10,
+       "nombre": "JPM EUROPE EQUITY PLUS D€",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "NO0013528356",
+       "peso": 5,
+       "nombre": "DNB EUROPEAN DEFENCE",
+       "esg": "Art.8"
+      },
+      {
+       "isin": "ES0114794037",
+       "peso": 5,
+       "nombre": "BK FUTURO IBEX, FI",
+       "esg": "Art.6"
+      },
+      {
+       "isin": "LU0996182563",
+       "peso": 15,
+       "nombre": "AMUNDI INDEX MSCI WORLD",
+       "esg": "Art.6"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "fuente": "Bankinter — Carteras Modelo de Fondos (Análisis y Mercados)",
+ "updated": "2026-09-20"
+}
