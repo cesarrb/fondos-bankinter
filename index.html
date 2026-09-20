@@ -2525,9 +2525,9 @@ function renderCarterasModelo(){
     const d=bi[f.isin];
     const badge=d?abancaBadge(d):` <span class="abanca-tag" style="background:#94a3b8" title="No está ni en Bankinter ni en ABANCA (según nuestro catálogo)">no en catálogo</span>`;
     const vl=d&&num(d.VL)!=null?num(d.VL).toLocaleString('es',{maximumFractionDigits:4}):"—";
-    const diff = otherMap ? (!(f.isin in otherMap) || otherMap[f.isin]!==f.peso) : false;
+    const diff = otherMap ? !(f.isin in otherMap) : false;   // solo si NO está en la otra cartera
     const hl = diff?` style="background:rgba(217,119,6,.16)"`:` style="border-top:1px solid var(--line)"`;
-    const dtit = diff?` title="Difiere de la otra cartera (no está o con distinto peso)"`:"";
+    const dtit = diff?` title="Solo está en esta cartera (no aparece en la otra)"`:"";
     return `<tr${hl}${dtit}>
       <td style="padding:4px 6px;text-align:right"><b>${f.peso}%</b></td>
       <td style="padding:4px 6px">${escHtml(f.nombre)}${badge}<br><span style="color:var(--muted);font-size:11px">${f.isin} · ${f.esg}</span></td>
@@ -2584,7 +2584,7 @@ function renderCarterasModelo(){
       <span class="eu-note" style="margin:0">Fecha del informe: ${fechaSel}</span>
       <span style="flex:1"></span>${viewBtn("Comparar","Comparar ambas")}${viewBtn("Doméstica","Solo Doméstica")}${viewBtn("Global","Solo Global")}</div>
     <div class="eu-note" style="margin:0 0 6px">Fuente: ${escHtml(cm.fuente||"Bankinter")}. Composición vigente («Nueva cartera») del PDF. VL/TER/Volatilidad/YTD/1A vienen de nuestro catálogo (${DATA.length.toLocaleString('es')} fondos); volatilidad 1A y Sharpe de los solo-ABANCA son de quefondos/calculados.</div>
-    ${view==="Comparar"?`<div class="eu-note" style="margin:0 0 8px"><span style="display:inline-block;width:12px;height:12px;background:rgba(217,119,6,.16);border:1px solid #d97706;border-radius:3px;vertical-align:middle"></span> = el fondo <b>difiere</b> entre Doméstica y Global (no está en la otra o con distinto peso).</div>`:""}
+    ${view==="Comparar"?`<div class="eu-note" style="margin:0 0 8px"><span style="display:inline-block;width:12px;height:12px;background:rgba(217,119,6,.16);border:1px solid #d97706;border-radius:3px;vertical-align:middle"></span> = el fondo <b>solo está en esta cartera</b> (no aparece en la otra). Los fondos comunes, aunque tengan distinto peso, no se resaltan.</div>`:""}
     ${body}`;
 }
 function showWeekHist(){
