@@ -2666,13 +2666,14 @@ function renderMapa(){
       if(S.origen==='ABANCA' && type==='rr' && (per==='M36'||per==='M60')) document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">Los fondos solo-ABANCA solo tienen volatilidad a 1 año → cambia el periodo a «1 año» para verlos aquí (en <b>Coste-Rentabilidad</b> aparecen en cualquier periodo).</div>`);
       option={backgroundColor:'transparent',
         tooltip:{trigger:'item',formatter:p=>{const d=bi[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]}</b><br>${p.data[3]}`;}},
-        legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'}},
+        legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'},selected:(S.legendSel||undefined)},
         grid:{left:72,right:30,top:44,bottom:56},
         dataZoom:[{type:'inside'},{type:'inside',orient:'vertical'}],
         xAxis:{type:'value',name:xName,nameLocation:'middle',nameGap:34,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
         yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
         series};
       chart.setOption(option);
+      chart.on('legendselectchanged',e=>{S.legendSel=e.selected;});
       chart.on('click',p=>{const isin=p.data&&p.data[3]; if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}});
     }
     if(!window.__echResize){window.__echResize=true;window.addEventListener('resize',()=>{if(window.__ech){try{window.__ech.resize();}catch(e){}}});}
@@ -2764,10 +2765,11 @@ function renderMapa2(type){
     if(S.origen==='ABANCA') document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">Los fondos solo-ABANCA no tienen dato de drawdown → no aparecen en este mapa. Úsalos en <b>Coste-Rentabilidad</b> o en <b>Riesgo-Rentabilidad a 1 año</b>.</div>`);
     setChart(chart=>{chart.setOption({backgroundColor:'transparent',
       tooltip:{trigger:'item',formatter:p=>{const d=bi[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]}</b><br>${p.data[3]}`;}},
-      legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'}},grid:{left:64,right:30,top:44,bottom:56},dataZoom:[{type:'inside'},{type:'inside',orient:'vertical'}],
+      legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'},selected:(S.legendSel||undefined)},grid:{left:64,right:30,top:44,bottom:56},dataZoom:[{type:'inside'},{type:'inside',orient:'vertical'}],
       xAxis:{type:'value',name:'Máxima caída (%)',nameLocation:'middle',nameGap:34,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
       yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
       series});
+      chart.on('legendselectchanged',e=>{S.legendSel=e.selected;});
       chart.on('click',pp=>{const isin=pp.data&&pp.data[3];if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}});});
     return;
   }
