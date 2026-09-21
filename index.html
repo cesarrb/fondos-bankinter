@@ -2541,7 +2541,15 @@ function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v|
   }
   S.findSet=set; renderMapa();
 }
-function _hlSeriesMulti(points){return {name:'★ localizados',type:'scatter',data:points,symbolSize:16,symbol:'pin',itemStyle:{color:'#e11d48',borderColor:'#FFD400',borderWidth:2},label:{show:points.length<=30,formatter:p=>(p.data[2]||'').slice(0,20),position:'top',color:'#e11d48',fontSize:10,fontWeight:'bold'},tooltip:{formatter:p=>`<b>${p.data[2]||''}</b><br>${p.data[3]||''}`},z:50};}
+function _kpiTip(d){ if(!d)return '';
+  const p=(v,dec,suf)=>{const n=num(v);return n==null?'—':(n.toFixed(dec==null?2:dec)+(suf==null?'%':suf));};
+  return `<b>${escHtml(d.Name||'')}</b><br>${d.Isin||''} · ${d.Currency||''}${d.SRRI?(' · SRRI '+d.SRRI):''}`+
+    `<br>Rentab.: YTD ${p(d.ReturnM0)} · 1A ${p(d.ReturnM12)} · 3A ${p(d.ReturnM36)} · 5A ${p(d.ReturnM60)}`+
+    `<br>Volatilidad: 1A ${p(d.StandardDeviationM12)} · 3A ${p(d.StandardDeviationM36)}`+
+    `<br>Sharpe 3A: ${num(d.SharpeM36)!=null?num(d.SharpeM36).toFixed(2):'—'} · Máx. caída 3A: ${p(d.MaxDrawdownM36)}`+
+    `<br>TER: ${p(d.TER)} · Com. gestión: ${p(d.ManagementFee)}`+(isAbanca(d)?' · <b>ABANCA</b>':'');
+}
+function _hlSeriesMulti(points){return {name:'★ localizados',type:'scatter',data:points,symbolSize:16,symbol:'pin',itemStyle:{color:'#e11d48',borderColor:'#FFD400',borderWidth:2},label:{show:points.length<=30,formatter:p=>(p.data[2]||'').slice(0,20),position:'top',color:'#e11d48',fontSize:10,fontWeight:'bold'},tooltip:{formatter:p=>{const d=(window.__biAll||{})[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]||''}</b><br>${p.data[3]||''}`;}},z:50};}
 function loadECharts(){
   if(window.echarts)return Promise.resolve(window.echarts);
   if(window.__echP)return window.__echP;
@@ -2593,7 +2601,7 @@ function renderMapa(){
     return true;
   });
   if(S.dedup!==false) rows=dedupOneClassPerFund(rows);
-  const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d]));
+  const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d])); window.__biAll=bi;
   loadECharts().then(()=>{
     const dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;
     const cont=document.getElementById('mapaChart'); if(!cont)return;
@@ -2627,7 +2635,7 @@ function renderMapa(){
       const rr2=window.__ech3=echarts.init(document.getElementById('mapaRR2'),dark?'dark':null);
       const rrData=top.map(d=>({name:(d.Name||d.Isin),isin:d.Isin,value:[num(d[volK]),num(d[retK]),num(d.TER),num(d[shK])]})).filter(p=>p.value[0]!=null&&p.value[1]!=null);
       rr2.setOption({backgroundColor:'transparent',
-        tooltip:{trigger:'item',formatter:p=>`<b>${p.data.name}</b><br>${p.data.isin}<br>Vol: <b>${p.data.value[0].toFixed(2)}%</b> · Rent: <b>${p.data.value[1].toFixed(2)}%</b><br>Sharpe ${p.data.value[3]!=null?p.data.value[3].toFixed(2):'—'} · TER ${p.data.value[2]!=null?p.data.value[2].toFixed(2)+'%':'—'}`},
+        tooltip:{trigger:'item',formatter:p=>{const d=bi[p.data.isin];return d?_kpiTip(d):`<b>${p.data.name}</b><br>${p.data.isin}`;}},
         grid:{left:64,right:24,top:20,bottom:52},
         xAxis:{type:'value',name:'Volatilidad (%) · '+perLbl,nameLocation:'middle',nameGap:34,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
         yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
@@ -2657,7 +2665,7 @@ function renderMapa(){
         if(miss.length)document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">⚠️ ${miss.length} fondo(s) localizado(s) no se muestran: sin dato en este periodo (${perLbl}) → ${miss.slice(0,4).map(escHtml).join(', ')}${miss.length>4?'…':''}. Prueba con otro periodo (p. ej. 1 año).</div>`);}
       if(S.origen==='ABANCA' && type==='rr' && (per==='M36'||per==='M60')) document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">Los fondos solo-ABANCA solo tienen volatilidad a 1 año → cambia el periodo a «1 año» para verlos aquí (en <b>Coste-Rentabilidad</b> aparecen en cualquier periodo).</div>`);
       option={backgroundColor:'transparent',
-        tooltip:{trigger:'item',formatter:p=>{const v=p.data;return `<b>${v[2]}</b><br>${v[3]}<br>${type==='cr'?'TER':'Volatilidad'}: <b>${v[0].toFixed(2)}%</b><br>Rentabilidad ${perLbl}: <b>${v[1].toFixed(2)}%</b><br>Sharpe: ${v[5]!=null?v[5].toFixed(2):'—'} · TER: ${v[4]!=null?v[4].toFixed(2)+'%':'—'} · SRRI ${v[6]||''}`;}},
+        tooltip:{trigger:'item',formatter:p=>{const d=bi[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]}</b><br>${p.data[3]}`;}},
         legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'}},
         grid:{left:72,right:30,top:44,bottom:56},
         dataZoom:[{type:'inside'},{type:'inside',orient:'vertical'}],
@@ -2690,7 +2698,7 @@ function renderMapa2(type){
   const volK={M0:'StandardDeviationM12',M12:'StandardDeviationM12',M36:'StandardDeviationM36',M60:'StandardDeviationM60'}[per];
   const shK={M0:'SharpeM12',M12:'SharpeM12',M36:'SharpeM36',M60:'SharpeM60'}[per];
   const ddK={M0:'MaxDrawdownM12',M12:'MaxDrawdownM12',M36:'MaxDrawdownM36',M60:'MaxDrawdownM60'}[per];
-  const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d]));
+  const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d])); window.__biAll=bi;
   let _src=DATA;
   if(S.origen==='Bankinter')_src=DATA.filter(d=>!(d.Fuente&&d.Fuente!=='Bankinter'));
   else if(S.origen==='ABANCA')_src=DATA.filter(d=>d.Fuente&&d.Fuente!=='Bankinter');
@@ -2755,7 +2763,7 @@ function renderMapa2(type){
     const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean); if(fset.length){const pts=[],miss=[]; fset.forEach(fd=>{const xv=num(fd[ddKp]),yv=num(fd[retKp]); if(xv!=null&&yv!=null)pts.push([Math.abs(xv),yv,fd.Name||'',fd.Isin]); else miss.push(fd.Name||fd.Isin);}); if(pts.length)series.push(_hlSeriesMulti(pts)); if(miss.length)document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">⚠️ ${miss.length} fondo(s) sin dato de drawdown en ${pL}: ${miss.slice(0,4).map(escHtml).join(', ')}${miss.length>4?'…':''}.</div>`);}
     if(S.origen==='ABANCA') document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">Los fondos solo-ABANCA no tienen dato de drawdown → no aparecen en este mapa. Úsalos en <b>Coste-Rentabilidad</b> o en <b>Riesgo-Rentabilidad a 1 año</b>.</div>`);
     setChart(chart=>{chart.setOption({backgroundColor:'transparent',
-      tooltip:{trigger:'item',formatter:p=>`<b>${p.data[2]}</b><br>${p.data[3]}<br>Caída máx: <b>-${p.data[0].toFixed(1)}%</b><br>Rentabilidad: <b>${p.data[1].toFixed(1)}%</b><br>Sharpe: ${p.data[5]!=null?p.data[5].toFixed(2):'—'} · TER ${p.data[4]!=null?p.data[4].toFixed(2)+'%':'—'}`},
+      tooltip:{trigger:'item',formatter:p=>{const d=bi[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]}</b><br>${p.data[3]}`;}},
       legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'}},grid:{left:64,right:30,top:44,bottom:56},dataZoom:[{type:'inside'},{type:'inside',orient:'vertical'}],
       xAxis:{type:'value',name:'Máxima caída (%)',nameLocation:'middle',nameGap:34,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
       yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
@@ -2970,7 +2978,7 @@ function renderCarterasModelo(){
   const fecha=(S.fecha&&cm.snapshots[S.fecha])?S.fecha:(cm.latest||fechas[0]);
   const view=S.view||"Comparar";   // "Comparar" (ambas) | "Doméstica" | "Global"
   const snap=cm.snapshots[fecha]; const rv=snap.exposicion_rv||{};
-  const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d]));
+  const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d])); window.__biAll=bi;
   const prevFechas=fechas.filter(f=>f<fecha).sort();
   const prevFecha=prevFechas.length?prevFechas[prevFechas.length-1]:null;
   const prevSnap=prevFecha?cm.snapshots[prevFecha]:null;
