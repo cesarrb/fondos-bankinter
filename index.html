@@ -52,6 +52,7 @@
   .fund{display:flex;gap:8px;align-items:flex-start}
   .fund input{margin-top:2px}
   .abanca-tag{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.3px;color:#fff;background:#c0392b;border-radius:4px;padding:1px 5px;margin-left:5px;vertical-align:middle;white-space:nowrap}
+  .risk-tag{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.3px;color:#7c2d12;background:#fde68a;border:1px solid #d97706;border-radius:4px;padding:1px 5px;margin-left:5px;vertical-align:middle;white-space:nowrap;cursor:help}
   .q1{background:rgba(22,163,74,.22)}.q2{background:rgba(22,163,74,.10)}
   .q3{background:rgba(245,158,11,.16)}.q4{background:rgba(220,38,38,.17)}
   .pigbadge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11.5px;font-weight:600;color:var(--ink)}
@@ -2547,7 +2548,7 @@ function _kpiTip(d){ if(!d)return '';
     `<br>Rentab.: YTD ${p(d.ReturnM0)} · 1A ${p(d.ReturnM12)} · 3A ${p(d.ReturnM36)} · 5A ${p(d.ReturnM60)}`+
     `<br>Volatilidad: 1A ${p(d.StandardDeviationM12)} · 3A ${p(d.StandardDeviationM36)}`+
     `<br>Sharpe 3A: ${num(d.SharpeM36)!=null?num(d.SharpeM36).toFixed(2):'—'} · Máx. caída 3A: ${p(d.MaxDrawdownM36)}`+
-    `<br>TER: ${p(d.TER)} · Com. gestión: ${p(d.ManagementFee)}`+(isAbanca(d)?' · <b>ABANCA</b>':'');
+    `<br>TER: ${p(d.TER)} · Com. gestión: ${p(d.ManagementFee)}`+(isAbanca(d)?' · <b>ABANCA</b>':'')+(riskFlag(d)?'<br><b style="color:#b45309">⚠️ Riesgo de gestor/apalancamiento</b>':'');
 }
 function _hlSeriesMulti(points){return {name:'★ localizados',type:'scatter',data:points,symbolSize:16,symbol:'pin',itemStyle:{color:'#e11d48',borderColor:'#FFD400',borderWidth:2},label:{show:points.length<=30,formatter:p=>(p.data[2]||'').slice(0,20),position:'top',color:'#e11d48',fontSize:10,fontWeight:'bold'},tooltip:{formatter:p=>{const d=(window.__biAll||{})[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]||''}</b><br>${p.data[3]||''}`;}},z:50};}
 function loadECharts(){
@@ -3364,7 +3365,14 @@ function buildHead(){document.getElementById("thead").innerHTML="<tr>"+cols().ma
 function pigClass(t){t=t||'';return /Variable/.test(t)?'pig-rv':/Revisar/.test(t)?'pig-rev':(t?'pig-rf':'');}
 // Distintivo para los fondos que SOLO están en ABANCA (no en Bankinter).
 function isAbanca(d){return d&&d.Fuente&&d.Fuente!=="Bankinter";}
-function abancaBadge(d){return isAbanca(d)?` <span class="abanca-tag" title="Fondo disponible SOLO en ABANCA (no en Bankinter). VL diario y datos vía ${d.Fuente}. Volatilidad de quefondos; Sharpe 1A calculado = (rent.1A − €STR) / volatilidad.">ABANCA</span>`:"";}
+// Lista curada de fondos/gestoras con riesgo de gestor y/o apalancamiento elevado. Ampliable.
+const RISK_FLAGS=[
+ {match:d=>/\bh2o\b/i.test((d.ProviderCompanyName||'')+' '+(d.Name||'')+' '+(d.LegalName||'')),
+  txt:"Riesgo de gestor/apalancamiento — H2O Asset Management: estrategia macro muy apalancada (folleto permite hasta 3.000% del patrimonio) y con historial de suspensiones (gating 2020, caso Windhorst/Tennor). Muy volátil pese a figurar como renta fija."},
+];
+function riskFlag(d){ if(!d)return null; for(const f of RISK_FLAGS){try{if(f.match(d))return f.txt;}catch(e){}} return null; }
+function riskBadge(d){const t=riskFlag(d);return t?` <span class="risk-tag" title="${t.replace(/"/g,'&quot;')}">⚠️ riesgo gestor/apalanc.</span>`:"";}
+function abancaBadge(d){return (isAbanca(d)?` <span class="abanca-tag" title="Fondo disponible SOLO en ABANCA (no en Bankinter). VL diario y datos vía ${d.Fuente}. Volatilidad de quefondos; Sharpe 1A calculado = (rent.1A − €STR) / volatilidad.">ABANCA</span>`:"")+riskBadge(d);}
 function fmt(d,c){const v=d[c.k];
   if(c.type==="fund"){const ck=selected.has(d.Isin)?"checked":"";
     const ficha=d.FichaURL?` · <a href="${d.FichaURL}" target="_blank" rel="noopener">ficha ↗</a>`:"";
