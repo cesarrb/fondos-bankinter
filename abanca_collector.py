@@ -253,6 +253,18 @@ def collect(fecha=None, delay=0.35, log=print, max_seconds=600):
                 row["SharpeM12"] = round((float(r12) - rf) / float(vol), 2)
             except (ValueError, ZeroDivisionError):
                 pass
+        # Volatilidad y drawdown a 3 años ESTIMADOS desde los retornos trimestrales (data/abanca_solo.csv)
+        v36 = m.get("Vol3A_est"); dd36 = m.get("MaxDD3A_est")
+        if v36 not in (None, ""):
+            row["StandardDeviationM36"] = v36
+        if dd36 not in (None, ""):
+            row["MaxDrawdownM36"] = dd36
+        r36 = row.get("ReturnM36")
+        try:
+            if v36 not in (None, "") and r36 not in (None, "") and float(v36):
+                row["SharpeM36"] = round((float(r36) - rf) / float(v36), 2)
+        except (ValueError, ZeroDivisionError):
+            pass
         rows.append(row)
         stats[src] += 1
         if i % 50 == 0:
