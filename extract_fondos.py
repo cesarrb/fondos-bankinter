@@ -384,16 +384,21 @@ def build_vl_frequency(hist, run_date):
             lag: <días hábiles de retardo del último VL vs fecha de ejecución>}}."""
     import json as _json
     import statistics as _st
+    # La cadencia se infiere de los ÚLTIMOS huecos (7 fechas más recientes), no de todo el
+    # histórico: así los fondos con backfill mensual retroactivo (p.ej. ABANCA de quefondos)
+    # reflejan su cadencia ACTUAL (diaria en las fotos) y no quedan como "mensual" por el
+    # histórico antiguo; un fondo realmente mensual sigue saliendo mensual.
     out = {}
     for isin, dvl in (hist or {}).items():
         dates = sorted(d for d in dvl if d)
         last = dates[-1] if dates else ""
         lag = _bizdays(last, run_date) if last else None
         med = None
-        if len(dates) >= 3:  # al menos 2 huecos para una mediana con sentido
+        recent = dates[-7:]
+        if len(recent) >= 3:  # al menos 2 huecos recientes para una mediana con sentido
             gaps = []
-            for i in range(1, len(dates)):
-                g = _bizdays(dates[i - 1], dates[i])
+            for i in range(1, len(recent)):
+                g = _bizdays(recent[i - 1], recent[i])
                 if g and g > 0:
                     gaps.append(g)
             if gaps:
