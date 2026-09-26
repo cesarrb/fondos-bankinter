@@ -19,19 +19,45 @@ photo_ok() {  # ¿existe foto COMPLETA (>= MINROWS) para la fecha $1?
   return 1
 }
 
+# Ficheros que un raspado PARCIAL trunca o vacía (los derivados de vl_history se reconstruyen
+# solos y son aditivos, así que no se protegen). Si la foto sale incompleta se restaura su
+# última versión BUENA para no degradar el dashboard local.
+PROTECT=(data/fondos_latest.csv data/series.json data/holdings.json data/periods.json)
+
 # Raspa y VERIFICA su resultado; si sale incompleto, reintenta 1 vez. $1 = motivo (log)
 run_scrape() {
   LOG "===== sacando foto ($1) ====="
+  # Respaldar el último estado BUENO (solo si la foto actual ya está completa).
+  local good=0 f
+  if [ -f data/fondos_latest.csv ] && [ "$(( $(wc -l < data/fondos_latest.csv) - 1 ))" -ge "$MINROWS" ]; then
+    good=1
+    for f in $PROTECT; do [ -f "$f" ] && cp -p "$f" "$f.good"; done
+  fi
   ./venv/bin/python -u extract_fondos.py
   # Verificar por el nº REAL de fondos del fichero recién escrito (no por la fecha: un raspado
   # que cruza medianoche no debe confundir la comprobación).
   local rows
   rows=$(( $(wc -l < data/fondos_latest.csv 2>/dev/null || echo 1) - 1 ))
-  if [ "$rows" -ge "$MINROWS" ]; then LOG "foto verificada COMPLETA ($rows fondos)"; return 0; fi
+  if [ "$rows" -ge "$MINROWS" ]; then
+    LOG "foto verificada COMPLETA ($rows fondos)"
+    for f in $PROTECT; do rm -f "$f.good"; done
+    return 0
+  fi
   LOG "foto INCOMPLETA ($rows fondos) -> reintento único"
   ./venv/bin/python -u extract_fondos.py
   rows=$(( $(wc -l < data/fondos_latest.csv 2>/dev/null || echo 1) - 1 ))
-  [ "$rows" -ge "$MINROWS" ] && LOG "reintento OK ($rows fondos)" || LOG "reintento tampoco completó ($rows); se revisará mañana"
+  if [ "$rows" -ge "$MINROWS" ]; then
+    LOG "reintento OK ($rows fondos)"
+    for f in $PROTECT; do rm -f "$f.good"; done
+    return 0
+  fi
+  # Ni el reintento completó: restaurar la última foto buena para no dejar el local a medias.
+  if [ "$good" -eq 1 ]; then
+    for f in $PROTECT; do [ -f "$f.good" ] && mv -f "$f.good" "$f"; done
+    LOG "reintento tampoco completó ($rows); RESTAURADA la última foto buena (local intacto)"
+  else
+    LOG "reintento tampoco completó ($rows) y no había foto buena previa; se revisará mañana"
+  fi
 }
 
 # 0) No solapar

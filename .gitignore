@@ -13,3 +13,6 @@ _backups_fondos/
 
 # PDFs de Bankinter (copyright) - solo publicamos los datos extraidos
 carteras_modelo/*.pdf
+
+# backups temporales del guardián (foto parcial)
+data/*.good
