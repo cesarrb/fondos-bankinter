@@ -1013,7 +1013,7 @@ function chatCompactRows(question){
   const chosen=new Map(),add=d=>{if(d&&d.Isin&&!chosen.has(d.Isin))chosen.set(d.Isin,d);};
   findFundsInText(qn,question).forEach(add);
   const preds=[];let filterUsed=false;const P=(f)=>{preds.push(f);filterUsed=true;};
-  for(const t in SC_THEMES){if(SC_THEMES[t].rx.test(question))P(d=>SC_THEMES[t].rx.test(d.CategoryName||""));}
+  for(const t in SC_THEMES){if((SC_THEMES[t].q||SC_THEMES[t].rx).test(question))P(d=>SC_THEMES[t].rx.test(d.CategoryName||""));}
   if(/renta variable|acciones|bolsa|equity/.test(qn))P(d=>d.GlobalAssetClass==="Equity");
   if(/renta fija|bonos|fixed income|deuda/.test(qn))P(d=>d.GlobalAssetClass==="Fixed Income");
   if(/mixto|allocation|multiactivo/.test(qn))P(d=>d.GlobalAssetClass==="Allocation");
@@ -2330,7 +2330,7 @@ function pcExport(){
 const SC_THEMES={
   oro:{l:"Oro y metales preciosos",rx:/oro|metales preciosos|gold|precious/i},
   materias:{l:"Materias primas / recursos",rx:/materias primas|commodit|recursos naturales|natural resources/i},
-  energia:{l:"Energía",rx:/sector energ|energy/i},
+  energia:{l:"Energía",rx:/sector energ|energy/i,q:/energ|petr[oó]le|renovable/i},  // q: patrón para la pregunta (rx filtra categorías)
   inflacion:{l:"Bonos ligados a inflación",rx:/ligad[oa].*inflaci|inflation linked|linked.*inflation|indexad/i},
   inmobiliario:{l:"Inmobiliario / infraestructuras",rx:/inmobili|real estate|infraestructur|infrastructure/i},
   salud:{l:"Salud / farma / biotech",rx:/salud|health|biotecnolog|biotech|farmac/i},
