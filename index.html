@@ -666,7 +666,8 @@ const CHAT_ENGINES=[["local","🔎 Búsqueda local · gratis, funciona siempre"]
 const CHAT_MODELS=[["claude-opus-5","Claude Opus 5 · máxima calidad (recomendado)"],
   ["claude-sonnet-5","Claude Sonnet 5 · equilibrado, más barato"],
   ["claude-haiku-4-5","Claude Haiku 4.5 · el más rápido y barato"]];
-function chatEngine(){return localStorage.getItem("chat_engine")||"local";}
+// En local (localhost) el motor por defecto es Ollama; en la web pública (HTTPS) el navegador no llega a tu Ollama → búsqueda local
+function chatEngine(){return localStorage.getItem("chat_engine")||(/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)?"ollama":"local");}
 function chatModel(){return localStorage.getItem("chat_model")||"claude-opus-5";}
 function escHtml(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
 function fmtMsg(t){return escHtml(t).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");}
@@ -1049,22 +1050,47 @@ function chatHistory(){return window.__chatMsgs.filter(m=>m.role==="user"||m.rol
 function ollamaWarm(){  // precarga el modelo en memoria para que la 1ª respuesta sea rápida
   if(chatEngine()!=="ollama")return;
   const base=(localStorage.getItem("ollama_url")||"http://localhost:11434").replace(/\/+$/,"");
-  const model=localStorage.getItem("ollama_model")||"qwen2.5:7b";
+  const model=localStorage.getItem("ollama_model")||"qwen3.6:35b-a3b";
   fetch(base+"/api/generate",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({model,prompt:"",keep_alive:"30m"})}).catch(()=>{});
 }
 async function askOllama(){
   const base=(localStorage.getItem("ollama_url")||"http://localhost:11434").replace(/\/+$/,"");
-  const model=localStorage.getItem("ollama_model")||"qwen2.5:7b";
+  const model=localStorage.getItem("ollama_model")||"qwen3.6:35b-a3b";
   const hist=chatHistory();
   const lastUser=[...hist].reverse().find(m=>m.role==="user");
   const messages=[{role:"system",content:chatCompactContext(lastUser?lastUser.content:"")},...hist];
   let r;
-  try{r=await fetch(base+"/api/chat",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({model,messages,stream:false,keep_alive:"30m"})});}
+  try{r=await fetch(base+"/api/chat",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({model,messages,stream:true,keep_alive:"30m"})});}
   catch(e){throw new Error("No conecto con Ollama en "+base+". Comprueba que está en marcha (ejecuta «ollama serve») y que abres esta web EN LOCAL. En la web pública (HTTPS) el navegador bloquea las llamadas a http://localhost.");}
   if(!r.ok){if(r.status===404)throw new Error("Modelo «"+model+"» no está en Ollama. Descárgalo con: ollama pull "+model);throw new Error("Ollama devolvió HTTP "+r.status+".");}
-  let j;try{j=await r.json();}catch(e){throw new Error("Respuesta no válida de Ollama.");}
-  const text=(j.message&&j.message.content)||j.response||"(sin respuesta)";
-  window.__chatMsgs.push({role:"assistant",content:text.trim()});
+  // Streaming: Ollama manda una línea JSON por trozo. Mientras razona (message.thinking) se muestra
+  // «Pensando… N s»; en cuanto llega texto (message.content) se va pintando la respuesta.
+  const t0=Date.now();let text="",thinking=false,pend=false;
+  const pintar=()=>{pend=false;
+    const lg=document.getElementById("chatLog");if(!lg)return;
+    const nearBottom=lg.scrollHeight-lg.scrollTop-lg.clientHeight<60;
+    const typing=lg.querySelector(".chat-typing");
+    if(!text){if(typing)typing.textContent=thinking?`Pensando… ${Math.round((Date.now()-t0)/1000)} s`:"Pensando…";}
+    else{if(typing)typing.remove();
+      let live=document.getElementById("chatLive");
+      if(!live){live=document.createElement("div");live.id="chatLive";live.className="msg a";lg.appendChild(live);}
+      live.innerHTML=fmtMsg(text);}
+    if(nearBottom)lg.scrollTop=lg.scrollHeight;};
+  const pedir=()=>{if(!pend){pend=true;requestAnimationFrame(pintar);}};
+  const reloj=setInterval(()=>{if(!text)pedir();},1000);
+  try{
+    const reader=r.body.getReader(),dec=new TextDecoder();let buf="";
+    for(;;){const {done,value}=await reader.read();if(done)break;
+      buf+=dec.decode(value,{stream:true});let i;
+      while((i=buf.indexOf("\n"))>=0){const line=buf.slice(0,i).trim();buf=buf.slice(i+1);if(!line)continue;
+        let j;try{j=JSON.parse(line);}catch(e){continue;}
+        if(j.error)throw new Error("Ollama: "+j.error);
+        const m=j.message||{};if(m.thinking)thinking=true;
+        if(m.content){text+=m.content;pedir();}}}
+  }catch(e){if(!text)throw e.message&&e.message.startsWith("Ollama")?e:new Error("Se cortó la conexión con Ollama.");text+="\n\n⚠️ Respuesta interrumpida.";}
+  finally{clearInterval(reloj);}
+  text=text.trim()||"(sin respuesta)";
+  window.__chatMsgs.push({role:"assistant",content:text});
   return text;
 }
 
@@ -3255,7 +3281,7 @@ async function aiComplete(system,user,maxTok){
   if(engine==="local")throw new Error("Cambia el motor en 💬 Chat IA a «Claude API» u «Ollama» para el análisis con IA.");
   if(engine==="ollama"){
     const base=(localStorage.getItem("ollama_url")||"http://localhost:11434").replace(/\/+$/,"");
-    const model=localStorage.getItem("ollama_model")||"qwen2.5:7b";
+    const model=localStorage.getItem("ollama_model")||"qwen3.6:35b-a3b";
     const r=await fetch(base+"/api/chat",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({model,messages:[{role:"system",content:system},{role:"user",content:user}],stream:false})}).catch(()=>{throw new Error("No conecto con Ollama (abre la web en local y arráncalo).");});
     if(!r.ok)throw new Error("Ollama HTTP "+r.status);
     const j=await r.json(); return (j.message&&j.message.content)||j.response||"";
@@ -3300,10 +3326,10 @@ function renderChat(){
     cfg=`<div class="eu-note" style="margin:2px 0">Sin coste, sin clave y funciona también en tu web pública.</div>`;
   }else if(engine==="ollama"){
     const url=localStorage.getItem("ollama_url")||"http://localhost:11434";
-    const om=localStorage.getItem("ollama_model")||"qwen2.5:7b";
+    const om=localStorage.getItem("ollama_model")||"qwen3.6:35b-a3b";
     note=`<b>Gratis con IA local.</b> Usa el modelo de Ollama de tu Mac; nada sale de tu equipo. Requiere abrir esta web <b>en local</b> (en la URL pública HTTPS el navegador bloquea las llamadas a http://localhost).`;
-    cfg=`<div>🖥️ Servidor Ollama: <input type="text" id="ollamaUrl" value="${escHtml(url)}" style="width:220px"> · Modelo: <input type="text" id="ollamaModel" value="${escHtml(om)}" style="width:150px" placeholder="qwen2.5:7b"></div>
-      <div class="eu-note" style="margin:6px 0 0">Para permitir la llamada desde el navegador arranca Ollama con orígenes abiertos, p. ej.: <code>OLLAMA_ORIGINS='*' ollama serve</code>, y descarga un modelo: <code>ollama pull qwen2.5:7b</code>. El modelo se precarga solo al abrir el chat.</div>`;
+    cfg=`<div>🖥️ Servidor Ollama: <input type="text" id="ollamaUrl" value="${escHtml(url)}" style="width:220px"> · Modelo: <input type="text" id="ollamaModel" value="${escHtml(om)}" style="width:150px" placeholder="qwen3.6:35b-a3b"></div>
+      <div class="eu-note" style="margin:6px 0 0">Para permitir la llamada desde el navegador arranca Ollama con orígenes abiertos, p. ej.: <code>OLLAMA_ORIGINS='*' ollama serve</code>, y descarga un modelo: <code>ollama pull qwen3.6:35b-a3b</code> (razona antes de responder: ~1 min por pregunta, más fiable). Para respuestas en segundos, pero menos precisas: <code>qwen2.5:7b</code>. El modelo se precarga solo al abrir el chat.</div>`;
   }else{
     const key=localStorage.getItem("anthropic_key")||"";
     const opts=CHAT_MODELS.map(([v,t])=>`<option value="${v}" ${v===chatModel()?'selected':''}>${t}</option>`).join("");
