@@ -667,6 +667,8 @@ const CHAT_MODELS=[["claude-opus-5","Claude Opus 5 · máxima calidad (recomenda
   ["claude-sonnet-5","Claude Sonnet 5 · equilibrado, más barato"],
   ["claude-haiku-4-5","Claude Haiku 4.5 · el más rápido y barato"]];
 // En local (localhost) el motor por defecto es Ollama; en la web pública (HTTPS) el navegador no llega a tu Ollama → búsqueda local
+// Contexto fijo para Ollama: el buscador de empleo usa el mismo (32768) y así comparten el modelo cargado sin recargarlo
+const OLLAMA_CTX=32768;
 function chatEngine(){return localStorage.getItem("chat_engine")||(/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)?"ollama":"local");}
 function chatModel(){return localStorage.getItem("chat_model")||"claude-opus-5";}
 function escHtml(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
@@ -1051,7 +1053,7 @@ function ollamaWarm(){  // precarga el modelo en memoria para que la 1ª respues
   if(chatEngine()!=="ollama")return;
   const base=(localStorage.getItem("ollama_url")||"http://localhost:11434").replace(/\/+$/,"");
   const model=localStorage.getItem("ollama_model")||"qwen3.6:35b-a3b";
-  fetch(base+"/api/generate",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({model,prompt:"",keep_alive:"30m"})}).catch(()=>{});
+  fetch(base+"/api/generate",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({model,prompt:"",keep_alive:"30m",options:{num_ctx:OLLAMA_CTX}})}).catch(()=>{});
 }
 async function askOllama(){
   const base=(localStorage.getItem("ollama_url")||"http://localhost:11434").replace(/\/+$/,"");
@@ -1060,7 +1062,7 @@ async function askOllama(){
   const lastUser=[...hist].reverse().find(m=>m.role==="user");
   const messages=[{role:"system",content:chatCompactContext(lastUser?lastUser.content:"")},...hist];
   let r;
-  try{r=await fetch(base+"/api/chat",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({model,messages,stream:true,keep_alive:"30m"})});}
+  try{r=await fetch(base+"/api/chat",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({model,messages,stream:true,keep_alive:"30m",options:{num_ctx:OLLAMA_CTX}})});}
   catch(e){throw new Error("No conecto con Ollama en "+base+". Comprueba que está en marcha (ejecuta «ollama serve») y que abres esta web EN LOCAL. En la web pública (HTTPS) el navegador bloquea las llamadas a http://localhost.");}
   if(!r.ok){if(r.status===404)throw new Error("Modelo «"+model+"» no está en Ollama. Descárgalo con: ollama pull "+model);throw new Error("Ollama devolvió HTTP "+r.status+".");}
   // Streaming: Ollama manda una línea JSON por trozo. Mientras razona (message.thinking) se muestra
@@ -3282,7 +3284,7 @@ async function aiComplete(system,user,maxTok){
   if(engine==="ollama"){
     const base=(localStorage.getItem("ollama_url")||"http://localhost:11434").replace(/\/+$/,"");
     const model=localStorage.getItem("ollama_model")||"qwen3.6:35b-a3b";
-    const r=await fetch(base+"/api/chat",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({model,messages:[{role:"system",content:system},{role:"user",content:user}],stream:false})}).catch(()=>{throw new Error("No conecto con Ollama (abre la web en local y arráncalo).");});
+    const r=await fetch(base+"/api/chat",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({model,messages:[{role:"system",content:system},{role:"user",content:user}],stream:false,options:{num_ctx:OLLAMA_CTX}})}).catch(()=>{throw new Error("No conecto con Ollama (abre la web en local y arráncalo).");});
     if(!r.ok)throw new Error("Ollama HTTP "+r.status);
     const j=await r.json(); return (j.message&&j.message.content)||j.response||"";
   }
