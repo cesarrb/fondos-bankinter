@@ -1119,16 +1119,21 @@ async function askClaude(){
 }
 
 function clearChat(){window.__chatMsgs=[];renderChat();}
-// Historial: las últimas 50 preguntas con su respuesta, guardadas en este navegador (localStorage)
-const CHAT_HIST_KEY="chat_hist",CHAT_HIST_MAX=50;
+// Historial: TODAS las preguntas con su respuesta, guardadas en este navegador (localStorage).
+// Las preguntas no se borran nunca; si se llena el almacenamiento (~5 MB), se libera el texto de las respuestas más antiguas.
+const CHAT_HIST_KEY="chat_hist";
 function chatHistLoad(){try{const h=JSON.parse(localStorage.getItem(CHAT_HIST_KEY)||"[]");return Array.isArray(h)?h:[];}catch(e){return[];}}
 function chatHistAdd(q,m,engine){
   const h=chatHistLoad();h.unshift({q,a:m?m.content:"",html:!!(m&&m.html),engine,ts:Date.now()});
-  for(let n=CHAT_HIST_MAX;n>=5;n=Math.floor(n/2)){  // si no cabe (cuota llena), guarda menos
-    try{localStorage.setItem(CHAT_HIST_KEY,JSON.stringify(h.slice(0,n)));return;}catch(e){}}
+  for(let i=h.length-1;;){
+    try{localStorage.setItem(CHAT_HIST_KEY,JSON.stringify(h));return;}catch(e){}
+    while(i>0&&!h[i].a)i--;                       // la respuesta guardada más antigua
+    if(i<=0){console.warn("Historial del chat: almacenamiento lleno");return;}
+    h[i].a="";h[i].html=false;h[i].sinResp=true;
+  }
 }
 function chatHistOpen(i){const e=chatHistLoad()[i];if(!e||window.__chatBusy)return;
-  window.__chatMsgs=[{role:"user",content:e.q},{role:"assistant",content:e.a||"(sin respuesta guardada)",html:e.html}];
+  window.__chatMsgs=[{role:"user",content:e.q},{role:"assistant",content:e.a||(e.sinResp?"(la respuesta se liberó para dejar sitio en el historial; vuelve a preguntar)":"(sin respuesta guardada)"),html:e.html}];
   renderChat();const t=document.getElementById("chatQ");if(t){t.value=e.q;t.focus();}}
 function sendChat(){
   if(window.__chatBusy)return;
@@ -3370,8 +3375,9 @@ function renderChat(){
       <button class="chat-send" id="chatSend" ${window.__chatBusy?'disabled':''}>Enviar</button></div>
     <div style="margin-top:6px">${window.__chatMsgs.length?'<button type="button" onclick="clearChat()" style="font-size:12px;background:transparent;border:none;color:var(--accent);cursor:pointer">🗑 Borrar conversación</button>':''}</div>
     ${hist.length?`<details class="chat-hist" style="margin-top:10px"${localStorage.getItem("chat_hist_open")==="1"?" open":""}>
-      <summary style="cursor:pointer;font-size:13px;color:var(--accent)">🕘 Últimas preguntas (${hist.length})</summary>
-      <div style="margin-top:6px;max-height:260px;overflow:auto">${hist.map((e,i)=>`<button type="button" data-hist="${i}" title="Ver la respuesta guardada y dejar la pregunta lista para repetirla" style="display:block;width:100%;text-align:left;background:transparent;border:none;border-bottom:1px solid var(--line);padding:5px 2px;cursor:pointer;font-size:13px;color:inherit"><span style="color:var(--muted);font-size:11px">${new Date(e.ts).toLocaleString('es',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})} · ${escHtml(e.engine||'')}</span><br>${escHtml(e.q.length>140?e.q.slice(0,140)+'…':e.q)}</button>`).join("")}</div>
+      <summary style="cursor:pointer;font-size:13px;color:var(--accent)">🕘 Preguntas anteriores (${hist.length.toLocaleString('es')})</summary>
+      <input type="search" id="chatHistQ" placeholder="Buscar en tus preguntas…" style="margin-top:6px;width:100%;max-width:420px;box-sizing:border-box">
+      <div style="margin-top:6px;max-height:320px;overflow:auto">${hist.map((e,i)=>`<button type="button" data-hist="${i}" data-hq="${escHtml(norm(e.q))}" title="Ver la respuesta guardada y dejar la pregunta lista para repetirla" style="display:block;width:100%;text-align:left;background:transparent;border:none;border-bottom:1px solid var(--line);padding:5px 2px;cursor:pointer;font-size:13px;color:inherit"><span style="color:var(--muted);font-size:11px">${new Date(e.ts).toLocaleString('es',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})} · ${escHtml(e.engine||'')}</span><br>${escHtml(e.q.length>140?e.q.slice(0,140)+'…':e.q)}</button>`).join("")}</div>
     </details>`:''}`;
   const lg=document.getElementById("chatLog");if(lg)lg.scrollTop=lg.scrollHeight;
   const ce=document.getElementById("chatEngine");if(ce)ce.onchange=()=>{localStorage.setItem("chat_engine",ce.value);renderChat();if(ce.value==="ollama")ollamaWarm();};
@@ -3384,6 +3390,8 @@ function renderChat(){
   const ta=document.getElementById("chatQ");if(ta){ta.onkeydown=e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();sendChat();}};if(!window.__chatBusy)ta.focus();}
   document.querySelectorAll(".chat-ex button").forEach(b=>b.onclick=()=>{const t=document.getElementById("chatQ");if(t){t.value=b.dataset.q;t.focus();}});
   document.querySelectorAll("[data-hist]").forEach(b=>b.onclick=()=>chatHistOpen(+b.dataset.hist));
+  const hq=document.getElementById("chatHistQ");if(hq)hq.oninput=()=>{const t=norm(hq.value.trim());
+    document.querySelectorAll("[data-hist]").forEach(b=>b.style.display=!t||b.dataset.hq.includes(t)?"block":"none");};
   const hd=document.querySelector(".chat-hist");if(hd)hd.ontoggle=()=>{try{localStorage.setItem("chat_hist_open",hd.open?"1":"0");}catch(e){}};
 }
 // Pestañas Riesgo y Ratios con periodo seleccionable (1/3/5/10 años)
