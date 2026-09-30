@@ -1,0 +1,93 @@
+name: Verificación diaria de la foto
+
+# Vive en la NUBE (independiente de tu Mac): comprueba a diario que el workflow
+# "Foto diaria de fondos" se está ejecutando y que la última foto es reciente y
+# completa. Si no, FALLA el job (GitHub te envía un email) y abre/actualiza una
+# incidencia en el repositorio. Así te enteras aunque el ordenador esté apagado.
+on:
+  schedule:
+    - cron: "0 9 * * *"    # 09:00 UTC a diario, después de la repesca matinal (06:00 UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: read           # leer data/heartbeat.json
+  issues: write            # abrir/comentar la incidencia de aviso
+
+concurrency:
+  group: healthcheck-fondos
+  cancel-in-progress: false
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Comprobar frescura y completitud de la última foto
+        id: check
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, datetime
+          HB = "data/heartbeat.json"
+          now = datetime.datetime.now(datetime.timezone.utc)
+
+          def fail(msg):
+              print(f"::error::{msg}")
+              with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                  f.write(f"motivo={msg}\n")
+              sys.exit(1)
+
+          if not os.path.exists(HB):
+              fail("No existe data/heartbeat.json: el workflow de la foto no ha dejado latido "
+                   "(¿no se ha ejecutado aún tras el último cambio, o se borró el fichero?).")
+
+          hb = json.load(open(HB))
+          ts = hb.get("ultima_ejecucion_utc", "")
+          fondos = int(hb.get("fondos") or 0)
+          ultimo_vl = hb.get("ultimo_vl", "?")
+          try:
+              last = datetime.datetime.fromisoformat(ts.replace("Z", "+00:00"))
+          except Exception:
+              fail(f"heartbeat.json con timestamp ilegible: {ts!r}")
+
+          age_h = (now - last).total_seconds() / 3600
+          # El fin de semana no hay ejecución de la foto: el LUNES (UTC) el último run fue el
+          # sábado por la mañana, así que ese día se tolera más antigüedad. El resto de días
+          # debería haber corrido esta madrugada / esta misma mañana (repesca 06:00 UTC).
+          dow = now.weekday()  # 0=lunes ... 6=domingo
+          allowed = 50 if dow == 0 else 30
+          print(f"Última ejecución: {ts}  (hace {age_h:.1f} h)  | fondos={fondos}  "
+                f"| VL hasta {ultimo_vl}  | hoy dow={dow}  | umbral={allowed} h")
+
+          if age_h > allowed:
+              fail(f"La foto NO se ha actualizado a tiempo: última ejecución hace {age_h:.1f} h "
+                   f"(máximo {allowed} h). La automatización de la nube puede estar caída.")
+          if fondos < 2000:
+              fail(f"La última foto salió INCOMPLETA: solo {fondos} fondos (<2000). "
+                   f"Revisa si la API de Bankinter falló.")
+
+          print("OK: la foto diaria está fresca y completa.")
+          PY
+
+      - name: Abrir/actualizar incidencia si la verificación falla
+        if: failure()
+        uses: actions/github-script@v7
+        env:
+          MOTIVO: ${{ steps.check.outputs.motivo }}
+        with:
+          script: |
+            const motivo = process.env.MOTIVO || "La verificación diaria de la foto ha fallado.";
+            const title = "⚠️ Fallo en la foto diaria de fondos";
+            const { owner, repo } = context.repo;
+            const run = `${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`;
+            const body = `La verificación automática ha detectado un problema el ${new Date().toISOString()}:\n\n`
+              + `> ${motivo}\n\n`
+              + `Revisa la pestaña **Actions → Foto diaria de fondos**.\n`
+              + `Detalle de esta comprobación: ${run}`;
+            const open = await github.rest.issues.listForRepo({ owner, repo, state: "open", labels: "healthcheck" });
+            if (open.data.length === 0) {
+              await github.rest.issues.create({ owner, repo, title, body, labels: ["healthcheck"] });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number: open.data[0].number, body });
+            }
