@@ -45,14 +45,35 @@ jobs:
             echo "::warning::La foto salió incompleta ($rows fondos) tras el reintento."
           fi
 
-      - name: Confirmar los datos al repositorio
+      - name: Confirmar los datos (o latido diario si no hay VL nuevos)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          if git diff --cached --quiet; then
-            echo "Sin cambios que confirmar."
+          today=$(date -u +%Y-%m-%d)
+          now=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          rows=$(($(wc -l < data/fondos_latest.csv) - 1))
+          # Última fecha de VL representada en la foto (col 21 = VLDate).
+          vldate=$(tail -n +2 data/fondos_latest.csv | awk -F';' '{print $21}' \
+                    | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' | sort | tail -1)
+          # ¿cambió algo REAL (aparte del propio latido)? -> foto; si no -> latido.
+          git add -A data/
+          if git diff --cached --quiet -- 'data' ':(exclude)data/heartbeat.json'; then
+            real_change=0
           else
-            git commit -m "Foto de fondos $(date -u +%Y-%m-%d)"
-            git push
+            real_change=1
           fi
+          # El LATIDO se escribe SIEMPRE: deja marca de que el sistema corrió ese día hábil,
+          # aunque no haya VL nuevos (fin de semana o retardo de publicación T+1).
+          printf '{\n  "ultima_ejecucion_utc": "%s",\n  "fecha": "%s",\n  "fondos": %s,\n  "ultimo_vl": "%s"\n}\n' \
+            "$now" "$today" "$rows" "$vldate" > data/heartbeat.json
+          git add data/heartbeat.json
+          if git diff --cached --quiet; then
+            echo "Nada que confirmar."
+            exit 0
+          fi
+          if [ "$real_change" -eq 1 ]; then
+            git commit -m "Foto de fondos $today (VL hasta $vldate; $rows fondos)"
+          else
+            git commit -m "Latido $today (sin VL nuevos; VL hasta $vldate; $rows fondos)"
+          fi
+          git push
