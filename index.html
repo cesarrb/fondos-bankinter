@@ -157,6 +157,7 @@
 <div id="siblings" style="display:none"></div>
 <div id="mapa" style="display:none"></div>
 <div id="antiinfla" style="display:none"></div>
+<div id="ironia" style="display:none"></div>
 <div id="gzModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.55);padding:2vh 2vw" onclick="if(event.target===this)guiaClose()"></div>
 <div id="gzPickBar" style="display:none;position:fixed;left:18px;bottom:18px;z-index:30;gap:8px;align-items:center;background:var(--navy);color:#fff;padding:10px 14px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.25)"></div>
 <datalist id="fundlist"></datalist>
@@ -303,14 +304,16 @@ const GROUPS=[
   {g:"Gráficos",tabs:["Riesgo-Rentabilidad","Coste-Rentabilidad","Ranking Sharpe","Heatmap","Box-plot","Drawdown","Correlación","Anti-inflación"]},
   {g:"Herramientas",tabs:["Mi Cartera","Constructor","Cuándo","Clases hermanas"]},
   {g:"Carteras modelo",tabs:["Carteras modelo"]},
+  {g:"IronIA",tabs:["Catálogo IronIA"]},
   {g:"Contexto",tabs:["EURIBOR","Intereses"]},
   {g:"Chat IA",tabs:["Chat IA"]}
 ];
-const GROUP_ICON={"Guía":"📖 ","Indicadores de los fondos":"📋 ","Rankings y movimientos":"📊 ","Gráficos":"📈 ","Herramientas":"🛠️ ","Carteras modelo":"🗂️ ","Contexto":"🏦 ","Chat IA":"💬 "};
+const GROUP_ICON={"Guía":"📖 ","Indicadores de los fondos":"📋 ","Rankings y movimientos":"📊 ","Gráficos":"📈 ","Herramientas":"🛠️ ","Carteras modelo":"🗂️ ","IronIA":"🔺 ","Contexto":"🏦 ","Chat IA":"💬 "};
 const TAB_ICON={"Chat IA":"💬 ","Top Movers":"📊 ","Semanal Histórico":"🗓️ ","Multi-periodo":"📅 ","Semanas":"📆 ","Score":"📈 ","Rankings":"🗓️ ","Mi Cartera":"💼 ","Constructor":"🧭 ","Cuándo":"🕐 ","Clasificación":"📖 ","Estructura web":"🗺️ ","Percentiles":"🎯 ","Escenarios":"🌦️ "};
 function groupOf(tab){const gg=GROUPS.find(x=>x.tabs.includes(tab));return gg?gg.g:GROUPS[0].g;}
 function selectTab(name){
   curTab=name;
+  {const _ir=document.getElementById("ironia");if(_ir)_ir.style.display="none";}
   const _pb=document.getElementById("gzPickBar");if(_pb&&name!=="Clasificación")_pb.style.display="none";
   document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle('active',x.dataset.t===curTab));
   if(curTab==="EURIBOR"){showEuribor();return;}
@@ -337,6 +340,7 @@ function selectTab(name){
   if(curTab==="Correlación"){showMapa('corr');return;}
   if(curTab==="Anti-inflación"){showAntiInflacion();return;}
   if(curTab==="Carteras modelo"){showCarterasModelo();return;}
+  if(curTab==="Catálogo IronIA"){showIronia();return;}
   if(curTab==="Clasificación"){showGuia();return;}
   if(curTab==="Estructura web"){showEstructura();return;}
   // vista de tabla
@@ -1587,6 +1591,73 @@ function renderCarteraDesglose(W,byIsin){
       `<div style="display:flex;align-items:center;gap:8px;font-size:12.5px;margin:2px 0"><span style="width:150px">${escHtml(k)}</span><span style="flex:1;background:var(--zebra);border-radius:4px;height:12px"><span style="display:block;height:12px;border-radius:4px;background:var(--accent);width:${Math.min(100,v).toFixed(1)}%"></span></span><b style="width:48px;text-align:right">${v.toFixed(1)}%</b></div>`).join("");};
   h+=`<div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:12px"><div style="flex:1 1 320px"><b>Por región</b> <span class="eu-note">(parte de renta variable)</span>${mix("reg",REG_LAB)}</div><div style="flex:1 1 320px"><b>Por sector</b> <span class="eu-note">(parte de renta variable)</span>${mix("sec",SEC_LAB)}</div></div>`;
   el.innerHTML=h;
+}
+// ---------- IronIA: tercera fuente (data/ironia/ironia_latest.csv, local y privado) ----------
+window.__ir=null;
+const IR_NUM=["ongoing","mgmt_fee","rebate","min_initial","score","ret_1m","ret_3m","ret_6m","ret_1y","ret_2y","ret_3y","ret_4y","ret_5y","vol_1y","vol_3y","vol_5y","sharpe_1y","sharpe_3y","sharpe_5y","sortino_3y","mdd_1y","mdd_3y","mdd_5y","alpha_3y","beta_3y","bench_ret_1y","bench_ret_3y","bench_ret_5y"];
+function loadIronia(){ if(window.__ir)return Promise.resolve(window.__ir);
+  return fetch("data/ironia/ironia_latest.csv",{cache:"no-store"}).then(r=>r.ok?r.text():"").then(t=>{
+    const R=parseCSV(t);if(R.length<2)return (window.__ir=[]);const H=R[0];
+    window.__ir=R.slice(1).filter(r=>r.length===H.length).map(r=>{const o={};H.forEach((h,i)=>o[h]=r[i]);
+      IR_NUM.forEach(k=>o[k]=num(o[k]));["available","clean","hedged","income","indexed"].forEach(k=>o[k]=o[k]==="1");return o;});
+    return window.__ir;}).catch(()=>(window.__ir=[])); }
+function irState(){return window.__irs||(window.__irs={q:"",cat:"",sub:"",avail:true,clean:false,bk:"",cur:"",sort:"score",dir:-1});}
+function setIr(k,v){const s=irState();s[k]=v;if(k==="cat")s.sub="";renderIronia();}
+function sortIr(k){const s=irState();if(s.sort===k)s.dir=-s.dir;else{s.sort=k;s.dir=(k==="ongoing"||k==="name"||k==="subcategory")?1:-1;}renderIronia();}
+function showIronia(){
+  ["toolbar","legend","chips","wrap","euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist","carteras","siblings","mapa","antiinfla"].forEach(id=>{const e=document.getElementById(id);if(e)e.style.display="none";});
+  const el=document.getElementById("ironia");el.style.display="block";
+  if(!window.__ir)el.innerHTML=`<div class="eu-note">Cargando el catálogo de IronIA…</div>`;
+  loadIronia().then(renderIronia);
+}
+function renderIronia(){
+  const el=document.getElementById("ironia");const A=window.__ir||[];
+  if(!A.length){el.innerHTML=`<div class="eu-head">🔺 Catálogo IronIA</div><div class="eu-note">Aún no hay foto de IronIA (<code>data/ironia/ironia_latest.csv</code>). Se genera con <code>./venv/bin/python ironia_collector.py</code> y cada día laborable desde el guardián. Es un fichero <b>local y privado</b>: no se sube a GitHub, así que en la web pública esta pestaña sale vacía.</div>`;return;}
+  const s=irState(),bk={};DATA.forEach(d=>{if((d.Fuente||"Bankinter")==="Bankinter")bk[d.Isin]=d;});
+  const avail=A.filter(f=>f.available),fams=new Set(avail.map(f=>f.family));
+  const availSet=new Set(avail.map(f=>f.isin));
+  const inBoth=avail.filter(f=>bk[f.isin]).length,bkOnly=Object.keys(bk).filter(i=>!availSet.has(i)).length;
+  const cats=[...new Set(A.map(f=>f.category))].filter(Boolean).sort();
+  const subs=[...new Set(A.filter(f=>!s.cat||f.category===s.cat).map(f=>f.subcategory))].filter(Boolean).sort();
+  const curs=[...new Set(A.map(f=>f.currency))].filter(Boolean).sort();
+  const q=norm(s.q.trim());
+  let rows=A.filter(f=>(!s.avail||f.available)&&(!s.clean||f.clean)&&(!s.cat||f.category===s.cat)&&(!s.sub||f.subcategory===s.sub)&&(!s.cur||f.currency===s.cur)
+    &&(!s.bk||(s.bk==="si"?!!bk[f.isin]:!bk[f.isin]))&&(!q||norm(f.name+" "+f.isin+" "+f.manager+" "+f.family).includes(q)));
+  const dir=s.dir,k=s.sort;
+  rows.sort((a,b)=>{const x=a[k],y=b[k];if(typeof x==="string"||typeof y==="string")return dir*String(x||"").localeCompare(String(y||""));
+    if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;return dir*(x-y);});
+  const sel=(id,opts,val,lab)=>`<label>${lab} <select onchange="setIr('${id}',this.value)" style="border:1px solid var(--line);border-radius:6px;padding:4px 6px;background:var(--card);color:var(--ink);max-width:240px"><option value="">Todas</option>${opts.map(o=>`<option${o===val?' selected':''}>${escHtml(o)}</option>`).join("")}</select></label>`;
+  const chk=(id,val,lab)=>`<label style="cursor:pointer"><input type="checkbox"${val?' checked':''} onchange="setIr('${id}',this.checked)"> ${lab}</label>`;
+  const pc=v=>v==null?'<span style="color:var(--muted)">—</span>':`<span class="${v>=0?'pos':'neg'}">${v>=0?'+':''}${v.toFixed(2)}%</span>`;
+  const nf=(v,d=2)=>v==null?'<span style="color:var(--muted)">—</span>':v.toFixed(d);
+  const COLS=[["name","Fondo"],["subcategory","Subcategoría"],["score","Puntos IronIA"],["ongoing","Gastos"],["ret_1y","Rent. 1A"],["ret_3y","Rent. 3A anual."],["ret_5y","Rent. 5A anual."],["vol_3y","Volat. 3A"],["sharpe_3y","Sharpe 3A"],["mdd_3y","Máx. caída 3A"],["bk","Bankinter"]];
+  const th=COLS.map(([c,l])=>`<th style="padding:6px 8px;text-align:${c==="name"||c==="subcategory"?'left':'right'};cursor:${c==="bk"?'default':'pointer'};white-space:nowrap" ${c==="bk"?'':`onclick="sortIr('${c}')"`}>${l}${s.sort===c?(s.dir>0?' ▲':' ▼'):''}</th>`).join("");
+  const LIM=300;
+  const tr=rows.slice(0,LIM).map(f=>{const b=bk[f.isin];
+    return `<tr style="border-top:1px solid var(--line)"><td style="padding:5px 8px"><a href="https://store.ironia.tech/${f.isin}" target="_blank" rel="noopener"><b>${escHtml(f.name)}</b></a>${f.clean?' <span title="Clase limpia (sin retrocesiones)" style="color:#16a34a;font-size:11px;font-weight:700">LIMPIA</span>':''}${f.available?'':' <span style="color:var(--muted);font-size:11px">no disponible</span>'}<br><span style="color:var(--muted)">${f.isin} · ${escHtml(f.manager||'')} · ${f.currency||''}</span></td>
+      <td style="padding:5px 8px">${escHtml(f.subcategory||'')}</td><td style="padding:5px 8px;text-align:right">${nf(f.score,0)}</td><td style="padding:5px 8px;text-align:right">${f.ongoing!=null?f.ongoing.toFixed(2)+'%':'—'}</td>
+      <td style="padding:5px 8px;text-align:right">${pc(f.ret_1y)}</td><td style="padding:5px 8px;text-align:right">${pc(f.ret_3y)}</td><td style="padding:5px 8px;text-align:right">${pc(f.ret_5y)}</td>
+      <td style="padding:5px 8px;text-align:right">${f.vol_3y!=null?f.vol_3y.toFixed(1)+'%':'—'}</td><td style="padding:5px 8px;text-align:right">${nf(f.sharpe_3y)}</td><td style="padding:5px 8px;text-align:right">${pc(f.mdd_3y)}</td>
+      <td style="padding:5px 8px;text-align:right">${b?`<span title="También en Bankinter${num(b.TER)!=null?' · TER Bankinter '+num(b.TER).toFixed(2)+'%':''}">✓</span>`:''}</td></tr>`;}).join("");
+  const card=(t,v,sub)=>`<div style="flex:1;min-width:140px;border:1px solid var(--line);border-radius:10px;padding:9px 12px;background:var(--card)"><div style="color:var(--muted);font-size:12px">${t}</div><div style="font-size:20px;font-weight:700;color:var(--navy)">${v}</div><div style="color:var(--muted);font-size:11.5px">${sub}</div></div>`;
+  const fecha=A[0].fecha||"";
+  el.innerHTML=`<div class="eu-head">🔺 Catálogo IronIA</div>
+    <div class="eu-note">Universo de fondos de IronIA (foto del <b>${fecha}</b>), tercera fuente junto a Bankinter y ABANCA. Métricas de IronIA (rentabilidad anualizada, volatilidad, Sharpe, máxima caída) y su <b>puntuación</b> (0-100, la base de los «puntos IronIA»). La API pública <b>no da el VL diario</b>. Datos <b>locales y privados</b> (no se suben a GitHub).</div>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;margin:8px 0">
+      ${card("Clases (ISIN)",A.length.toLocaleString('es'),avail.length.toLocaleString('es')+" disponibles")}
+      ${card("Familias",fams.size.toLocaleString('es'),"fondos disponibles")}
+      ${card("Subcategorías",new Set(A.map(f=>f.subcategory)).size,cats.length+" categorías")}
+      ${card("También en Bankinter",inBoth.toLocaleString('es'),"ISIN disponibles en ambas")}
+      ${card("Solo en Bankinter",bkOnly.toLocaleString('es'),"no disponibles en IronIA")}
+    </div>
+    <div class="chat-cfg" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
+      <input placeholder="Buscar nombre, ISIN o gestora…" value="${escHtml(s.q)}" onchange="setIr('q',this.value)" style="width:260px;border:1px solid var(--line);border-radius:6px;padding:6px 8px;background:var(--card);color:var(--ink)">
+      ${sel("cat",cats,s.cat,"Categoría")} ${sel("sub",subs,s.sub,"Subcategoría")} ${sel("cur",curs,s.cur,"Divisa")}
+      <label>Bankinter <select onchange="setIr('bk',this.value)" style="border:1px solid var(--line);border-radius:6px;padding:4px 6px;background:var(--card);color:var(--ink)"><option value="">Todos</option><option value="si"${s.bk==="si"?' selected':''}>También en Bankinter</option><option value="no"${s.bk==="no"?' selected':''}>Solo en IronIA</option></select></label>
+      ${chk("avail",s.avail,"Solo disponibles")} ${chk("clean",s.clean,"Solo clase limpia")}
+    </div>
+    <div class="eu-note">${rows.length.toLocaleString('es')} fondos${rows.length>LIM?` (se muestran los ${LIM} primeros; acota con los filtros)`:""}. Haz clic en una columna para ordenar; el nombre abre la ficha en IronIA.</div>
+    <div style="overflow:auto"><table style="width:100%;border-collapse:collapse;font-size:12.5px"><thead><tr style="background:var(--navy);color:#fff">${th}</tr></thead><tbody>${tr}</tbody></table></div>`;
 }
 // ---------- Constructor de cartera (optimizador heurístico forward-oriented) ----------
 const CX_ORDER=["Muy conservador","Conservador","Moderado","Agresivo","Muy agresivo"];

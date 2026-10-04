@@ -68,6 +68,13 @@ DOW=$(date +%u); HHMM=$((10#$(date +%H%M))); TODAY=$(date +%Y-%m-%d)
 # 1) Solo días laborables
 if [ "$DOW" -gt 5 ]; then LOG "fin de semana: no se saca foto"; exit 0; fi
 
+# 1b) IronIA (tercera fuente, ~10 min): una foto por día laborable desde las 08:00, independiente
+#     de la de Bankinter. Si falla, se reintenta en la siguiente pasada del guardián.
+if [ "$HHMM" -ge 800 ] && [ ! -f "data/ironia/history/ironia_${TODAY}.csv.gz" ] && ! pgrep -f ironia_collector.py >/dev/null; then
+  LOG "===== foto IronIA ====="
+  ./venv/bin/python -u ironia_collector.py || LOG "foto IronIA falló; se reintentará en la próxima pasada"
+fi
+
 # 2) NIVEL DE SEGURIDAD: verificar la foto del DÍA LABORABLE ANTERIOR (si es mala, sacarla ahora)
 if [ "$HHMM" -ge 700 ]; then
   PDOW=$(date -v-1d +%u); PW=$(date -v-1d +%Y-%m-%d)

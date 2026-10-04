@@ -16,3 +16,6 @@ carteras_modelo/*.pdf
 
 # backups temporales del guardián (foto parcial)
 data/*.good
+
+# IronIA: datos de terceros (IronIA/Allfunds), solo uso local; no republicar
+data/ironia/
