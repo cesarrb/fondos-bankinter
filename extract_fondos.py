@@ -259,6 +259,99 @@ def parse_holdings(js):
         return None
 
 
+def parse_qreturns(js):
+    """Rentabilidad trimestral (3 meses, EUR) desde 2016 -> {'s': 'AAAA-MM-DD' (1.er trimestre), 'r': [...]} o None.
+    La serie 'Nav' trimestral solo trae el 3.er trimestre de cada año; la 'GbPostTax'/'ItPostTax' trae TODOS
+    los trimestres y coincide con 'Nav' en los puntos comunes -> se usa esa. Huecos -> None."""
+    try:
+        hps = js[0].get("HistoricalPerformanceSeries", [])
+        for rt in ("GbPostTax", "ItPostTax", "Nav"):
+            q = [x for x in hps if x.get("Frequency") == "Q" and x.get("TimePeriod") == "M3"
+                 and x.get("ReturnType") == rt]
+            if not q:
+                continue
+            pts = {}
+            for p in q[0].get("Return", []):
+                try:
+                    pts[p["Date"][:7]] = round(float(p["Value"]), 3)
+                except (TypeError, ValueError, KeyError):
+                    pass
+            if len(pts) < 8:
+                continue
+            ds = sorted(pts)
+            cur, last = (int(ds[0][:4]), int(ds[0][5:7])), (int(ds[-1][:4]), int(ds[-1][5:7]))
+            out = []
+            while cur <= last:  # rejilla continua de fines de trimestre (huecos -> None)
+                out.append(pts.get(f"{cur[0]}-{cur[1]:02d}"))
+                cur = (cur[0] + 1, 3) if cur[1] == 12 else (cur[0], cur[1] + 3)
+            return {"s": ds[0], "r": out}
+        return None
+    except Exception:
+        return None
+
+
+def parse_exposure(js):
+    """Exposición de la parte de renta variable por región y sector (códigos Morningstar, posición larga).
+    Devuelve {'reg': {código: %}, 'sec': {código: %}} o None."""
+    try:
+        port = js[0]["Portfolios"][0]
+        out = {}
+        for key, tag, codes in (("RegionalExposure", "reg", {str(i) for i in range(1, 14)}),
+                                ("GlobalStockSectorBreakdown", "sec", None)):
+            L = [x for x in port.get(key, []) if x.get("SalePosition") == "L"]
+            if not L:
+                continue
+            m = {b["Type"]: round(float(b["Value"]), 1) for b in L[0].get("BreakdownValues", [])
+                 if b.get("Value") and (codes is None or b["Type"] in codes)}
+            if m:
+                out[tag] = m
+        return out or None
+    except Exception:
+        return None
+
+
+def abanca_qreturns(path=os.path.join("data", "abanca_vl_series.json")):
+    """Rentabilidad trimestral de los fondos SOLO-ABANCA a partir de su VL de fin de mes (quefondos).
+    OJO: en la divisa del fondo (no EUR) -> se marca con 'nc': 1."""
+    import json as _json
+    out = {}
+    try:
+        ser = _json.load(open(path, encoding="utf-8"))
+    except Exception:
+        return out
+    for isin, pts in ser.items():
+        qe = {}  # último VL de cada trimestre natural
+        for d in sorted(pts):
+            y, m = int(d[:4]), int(d[5:7])
+            qe[(y, (m - 1) // 3)] = pts[d]
+        ks = sorted(qe)
+        if len(ks) < 9:
+            continue
+        r = []
+        for a, b in zip(ks, ks[1:]):
+            consecutive = (b[0] * 4 + b[1]) - (a[0] * 4 + a[1]) == 1
+            r.append(round(100 * (qe[b] / qe[a] - 1), 3) if consecutive and qe[a] else None)
+        y, q = ks[1]
+        out[isin] = {"s": f"{y}-{3 * q + 3:02d}", "r": r, "nc": 1}
+    return out
+
+
+def merge_prev(path, new, universe):
+    """Conserva del fichero anterior los fondos del universo actual que NO se refrescaron en esta ejecución
+    (p. ej. raspado cortado por el tope de tiempo). Así un día lento no deja el fichero a medias."""
+    import json as _json
+    try:
+        prev = _json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+    except Exception:
+        prev = {}
+    kept = 0
+    for k, v in prev.items():
+        if k not in new and k in universe:
+            new[k] = v
+            kept += 1
+    return kept
+
+
 def update_vl_history(vl_today):
     """Acumula el VL diario en data/vl_history.csv (fecha;Isin;VL_EUR), sin duplicar y con tope de dias."""
     path = os.path.join("data", "vl_history.csv")
@@ -1036,6 +1129,8 @@ def main():
     series = {}
     vl_today = {}
     holdings = {}
+    qrets = {}
+    expo = {}
     prev_holdings = {}  # cartera de la ejecucion anterior (para detectar cambios)
     try:
         import json as _json
@@ -1090,6 +1185,12 @@ def main():
             hold = parse_holdings(js)  # cartera completa (todas las posiciones + pesos)
             if hold:
                 holdings[isin] = hold
+            qr = parse_qreturns(js)  # rentabilidad trimestral -> correlaciones de Mi Cartera
+            if qr:
+                qrets[isin] = qr
+            ex = parse_exposure(js)  # región y sector de la parte RV -> desglose de Mi Cartera
+            if ex:
+                expo[isin] = ex
             bname, bex = parse_benchmark(js)  # indice de referencia + exceso vs indice
             if bname:
                 d["BenchmarkName"] = bname
@@ -1154,6 +1255,27 @@ def main():
             for r in rows:
                 w.writerow(r + [hoy])
     print(f"OK: {len(rows)} fondos -> data/fondos_latest.csv ({hoy})")
+
+    # Fondos no refrescados hoy (raspado cortado) -> se conserva su dato anterior en vez de perderlo
+    universe = {d.get("Isin") for d in items if d.get("Isin")}
+    for _path, _obj in (("data/series.json", series), ("data/holdings.json", holdings),
+                        ("data/qreturns.json", qrets), ("data/exposure.json", expo)):
+        _kept = merge_prev(_path, _obj, universe)
+        if _kept:
+            print(f"AVISO: {_path}: {_kept} fondos sin refrescar hoy; se conserva su dato anterior")
+    for _isin, _qr in abanca_qreturns().items():  # solo-ABANCA: desde su VL mensual (divisa del fondo)
+        qrets.setdefault(_isin, _qr)
+
+    # ---- Rentabilidad trimestral + exposición región/sector (Mi Cartera: riesgo y desglose) ----
+    try:
+        import json as _json
+        for _path, _obj, _lbl in (("data/qreturns.json", qrets, "rent. trimestral"),
+                                  ("data/exposure.json", expo, "exposición región/sector")):
+            with open(_path, "w", encoding="utf-8") as fh:
+                _json.dump(_obj, fh, ensure_ascii=False, separators=(",", ":"))
+            print(f"OK: {_lbl} de {len(_obj)} fondos -> {_path}")
+    except Exception as e:
+        print("qreturns/exposure fallo:", e)
 
     # ---- Serie historica anual (para graficas de evolucion en el comparador) ----
     try:

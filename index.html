@@ -1451,8 +1451,142 @@ function renderCartera(){
       <tfoot><tr style="border-top:2px solid var(--navy);font-weight:700"><td style="padding:8px">TOTAL (${comp.length})</td><td></td><td></td><td></td><td style="padding:8px;text-align:right">${fmtE(totC)}</td><td style="padding:8px;text-align:right">${fmtE(totV)}</td><td style="padding:8px;text-align:right"><span class="${totPL>=0?'pos':'neg'}">${(totPL>=0?'+':'')+fmtE(totPL)}</span></td><td style="padding:8px;text-align:right"><span class="${totPL>=0?'pos':'neg'}">${totPLpc!=null?(totPLpc>=0?'+':'')+totPLpc.toFixed(2)+'%':'—'}</span></td><td style="padding:8px;text-align:right">${totV?'100%':'—'}</td><td></td></tr></tfoot>
     </table></div>
     <div class="eu-note" style="margin-top:8px"><b>Distribución</b> — por clase de activo: ${dist('GlobalAssetClass')}<br>por divisa: ${dist('Currency')}</div>
-    <div class="eu-note">VL en EUR (convertido). P/L no realizado; no incluye comisiones de suscripción/reembolso ni impuestos. Información, no recomendación.</div>`;
+    <div class="eu-note">VL en EUR (convertido). P/L no realizado; no incluye comisiones de suscripción/reembolso ni impuestos. Información, no recomendación.</div>
+    <div id="cRiesgo" style="margin-top:18px"></div>
+    <div id="cDesglose" style="margin-top:18px"></div>`;
   const imp=document.getElementById("cImp");if(imp)imp.addEventListener("change",ev=>{const f=ev.target.files[0];if(f)importCartera(f);ev.target.value="";});
+  // Pesos para el análisis: valor actual; si falta el VL del día, el coste (part × precio compra)
+  const W={};comp.forEach(x=>{const v=x.valor!=null?x.valor:x.coste;if(v>0)W[x.p.isin]=(W[x.p.isin]||0)+v;});
+  const noVL=comp.filter(x=>x.valor==null&&x.coste!=null).length;
+  if(!Object.keys(W).length)return;
+  document.getElementById("cRiesgo").innerHTML=`<div class="eu-note">Cargando análisis de riesgo y desglose…</div>`;
+  Promise.all([loadJSONData("qreturns.json","__qret"),loadJSONData("exposure.json","__expo"),loadHoldings()])
+    .then(()=>{if(window.__cartera!==C)return;renderCarteraRiesgo(W,byIsin,noVL);renderCarteraDesglose(W,byIsin);});
+}
+// ---------- Mi Cartera: riesgo con correlaciones y desglose por empresa (look-through) ----------
+function loadJSONData(file,key){ if(window[key])return Promise.resolve(window[key]);
+  return fetch("data/"+file,{cache:"no-store"}).then(r=>r.ok?r.json():{}).catch(()=>({})).then(j=>(window[key]=j)); }
+const REG_LAB={1:"EE. UU.",2:"Canadá",3:"Latinoamérica",4:"Reino Unido",5:"Zona euro",6:"Europa no euro",7:"Europa emergente",8:"África",9:"Oriente Medio",10:"Japón",11:"Australasia",12:"Asia desarrollada",13:"Asia emergente"};
+const SEC_LAB={101:"Materiales básicos",102:"Consumo cíclico",103:"Servicios financieros",104:"Inmobiliario",205:"Consumo defensivo",206:"Salud",207:"Servicios públicos",308:"Comunicaciones",309:"Energía",310:"Industria",311:"Tecnología"};
+function crWindow(){let v=20;try{v=parseInt(localStorage.getItem("cartera_riesgo_win"))||20;}catch(e){}return v;}
+function setCrWindow(v){try{localStorage.setItem("cartera_riesgo_win",String(v));}catch(e){}renderCartera();}
+// trimestre -> índice entero (año*4 + trimestre 0..3)
+function qIdx(s){return parseInt(s.slice(0,4))*4+Math.floor((parseInt(s.slice(5,7))-1)/3);}
+function qLabel(i){return Math.floor(i/4)+"T"+(i%4+1);}
+function carteraRiskModel(W,byIsin,nq){
+  const Q=window.__qret||{},tot=Object.values(W).reduce((a,b)=>a+b,0);
+  const all=Object.keys(W).map(isin=>{const q=Q[isin],m={};
+    if(q&&q.r){const s=qIdx(q.s);q.r.forEach((v,k)=>{if(v!=null)m[s+k]=v;});}
+    return {isin,d:byIsin[isin]||{},w0:W[isin]/tot,m,nc:!!(q&&q.nc)};});
+  const lastQ=Math.max(...all.flatMap(f=>Object.keys(f.m).map(Number)),-Infinity);
+  if(!isFinite(lastQ))return {err:"Ninguno de tus fondos tiene todavía serie trimestral (data/qreturns.json)."};
+  const win=[];for(let i=lastQ-nq+1;i<=lastQ;i++)win.push(i);
+  // se incluyen los fondos con al menos 8 trimestres en la ventana; el cálculo usa los trimestres comunes a todos
+  const inc=all.filter(f=>win.filter(i=>f.m[i]!=null).length>=8),exc=all.filter(f=>!inc.includes(f));
+  const rows=win.filter(i=>inc.every(f=>f.m[i]!=null));
+  if(inc.length<1||rows.length<8)return {err:`No hay suficientes trimestres comunes (${rows.length}; mínimo 8). Prueba una ventana más corta o revisa los fondos sin historial.`,exc};
+  const wInc=inc.reduce((s,f)=>s+f.w0,0);inc.forEach(f=>f.w=f.w0/wInc);
+  const n=inc.length,T=rows.length,X=inc.map(f=>rows.map(i=>f.m[i]));
+  const mu=X.map(r=>r.reduce((a,b)=>a+b,0)/T);
+  const C=inc.map((_,a)=>inc.map((_,b)=>{let s=0;for(let t=0;t<T;t++)s+=(X[a][t]-mu[a])*(X[b][t]-mu[b]);return s/(T-1);}));
+  const sd=C.map((r,i)=>Math.sqrt(r[i]));
+  const Cw=C.map(r=>r.reduce((s,v,j)=>s+v*inc[j].w,0));
+  const varP=inc.reduce((s,f,i)=>s+f.w*Cw[i],0),sdP=Math.sqrt(Math.max(varP,0));
+  const ann=x=>2*x; // desviación trimestral -> anual (×√4)
+  inc.forEach((f,i)=>{f.vol=ann(sd[i]);f.naive=f.w*f.vol;f.rho=sd[i]&&sdP?Cw[i]/(sd[i]*sdP):null;
+    f.contrib=sdP?ann(f.w*Cw[i]/sdP):null;});
+  const undiv=inc.reduce((s,f)=>s+f.naive,0),volP=ann(sdP);
+  const corr=C.map((r,i)=>r.map((v,j)=>sd[i]&&sd[j]?v/(sd[i]*sd[j]):null));
+  // cartera con pesos constantes: rentabilidad anualizada y peor trimestre en la ventana
+  const pr=rows.map((_,t)=>inc.reduce((s,f,i)=>s+f.w*X[i][t],0));
+  const growth=pr.reduce((g,r)=>g*(1+r/100),1),annRet=100*(Math.pow(growth,4/T)-1);
+  const worst=pr.reduce((m,r,t)=>r<m.r?{r,t}:m,{r:Infinity,t:0});
+  return {inc,exc,rows,T,volP,undiv,corr,annRet,worst:{r:worst.r,q:rows[worst.t]},wInc,nc:inc.some(f=>f.nc)};
+}
+function renderCarteraRiesgo(W,byIsin,noVL){
+  const el=document.getElementById("cRiesgo");if(!el)return;
+  const nq=crWindow(),R=carteraRiskModel(W,byIsin,nq);
+  const opt=[12,20,40].map(v=>`<option value="${v}"${v===nq?' selected':''}>${v/4} años (${v} trimestres)</option>`).join("");
+  let h=`<div class="eu-head">🧩 Diversificación y riesgo real</div>
+    <div class="eu-note">Cuánto riesgo aporta cada fondo teniendo en cuenta su <b>correlación</b> con el resto: los fondos que no se mueven a la vez se compensan y la cartera oscila menos que la media de sus fondos. Calculado con la rentabilidad <b>trimestral</b> en EUR de cada fondo y los <b>pesos actuales</b> de tu cartera, como si los hubieras mantenido toda la ventana.
+    <label style="margin-left:6px">Ventana <select onchange="setCrWindow(+this.value)" style="border:1px solid var(--line);border-radius:6px;padding:3px 6px;background:var(--card);color:var(--ink)">${opt}</select></label></div>`;
+  const fname=f=>escHtml(f.d.Name||f.isin)+abancaBadge(f.d);
+  const excNote=R.exc&&R.exc.length?`<div class="eu-note">⚠️ Sin historial suficiente en la ventana (se excluyen y el resto se reescala al 100%): ${R.exc.map(fname).join(" · ")}.</div>`:"";
+  if(R.err){el.innerHTML=h+`<div class="eu-note">${R.err}</div>`+excNote;return;}
+  const gain=R.undiv-R.volP,idx=R.volP?R.undiv/R.volP:null;
+  const card=(t,v,s)=>`<div style="flex:1;min-width:150px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--card)"><div style="color:var(--muted);font-size:12px">${t}</div><div style="font-size:22px;font-weight:700;color:var(--navy)">${v}</div><div style="color:var(--muted);font-size:11.5px">${s}</div></div>`;
+  const verdict=idx==null?"":idx>=1.3?"muy buena":idx>=1.15?"razonable":idx>=1.05?"baja":"casi nula";
+  h+=`<div style="display:flex;flex-wrap:wrap;gap:10px;margin:8px 0">
+    ${card("Volatilidad real",R.volP.toFixed(2)+"%","anualizada, con correlaciones")}
+    ${card("Sin diversificar",R.undiv.toFixed(2)+"%","si todo se moviera a la vez")}
+    ${card("Efecto diversificación","−"+gain.toFixed(2)+" pts",(R.undiv?(100*gain/R.undiv).toFixed(0):0)+"% menos riesgo")}
+    ${card("Índice de diversificación",idx!=null?idx.toFixed(2):"—","diversificación "+verdict+" (≥1,15 razonable)")}
+    ${card("Rentab. anualizada",(R.annRet>=0?"+":"")+R.annRet.toFixed(2)+"%","peor trimestre "+R.worst.r.toFixed(1)+"% ("+qLabel(R.worst.q)+")")}
+  </div>`;
+  if(R.T<nq){const young=R.inc.reduce((a,f)=>{const s=Math.min(...Object.keys(f.m).map(Number));return !a||s>a.s?{f,s}:a;},null);
+    h+=`<div class="eu-note">⚠️ Solo hay <b>${R.T} de ${nq}</b> trimestres comunes a todos tus fondos: el más reciente (${fname(young.f)}) tiene datos desde ${qLabel(young.s)}. Con menos trimestres la estimación es menos fiable.</div>`;}
+  const inc=R.inc.slice().sort((a,b)=>b.contrib-a.contrib);
+  h+=`<div style="overflow:auto"><table style="width:100%;border-collapse:collapse;font-size:13px"><thead><tr style="background:var(--navy);color:#fff">
+    <th style="padding:6px 8px;text-align:left">Fondo</th><th style="padding:6px 8px;text-align:right">Peso</th><th style="padding:6px 8px;text-align:right" title="Volatilidad anualizada del fondo en la ventana">Volatilidad</th>
+    <th style="padding:6px 8px;text-align:right" title="Peso × volatilidad: lo que aportaría si se moviera igual que el resto">Riesgo «a lo bruto»</th>
+    <th style="padding:6px 8px;text-align:right" title="Correlación del fondo con el conjunto de tu cartera (−1 a 1)">Correl. con cartera</th>
+    <th style="padding:6px 8px;text-align:right" title="Aportación real a la volatilidad de la cartera (suman la volatilidad total)">Riesgo real aportado</th>
+    <th style="padding:6px 8px;text-align:right" title="Parte del riesgo propio del fondo que desaparece al combinarlo con el resto (1 − correlación)">Riesgo que se diluye</th>
+    <th style="padding:6px 8px;text-align:right">% del riesgo total</th></tr></thead><tbody>`;
+  inc.forEach(f=>{const pct=R.volP?100*f.contrib/R.volP:null,dil=f.rho!=null?100*(1-f.rho):null;
+    h+=`<tr style="border-top:1px solid var(--line)"><td style="padding:5px 8px">${fname(f)}${f.nc?' <span title="Serie en la divisa del fondo (no EUR)" style="color:var(--muted)">¹</span>':''}</td>
+      <td style="padding:5px 8px;text-align:right">${(100*f.w).toFixed(1)}%</td><td style="padding:5px 8px;text-align:right">${f.vol.toFixed(1)}%</td>
+      <td style="padding:5px 8px;text-align:right">${f.naive.toFixed(2)}</td><td style="padding:5px 8px;text-align:right">${f.rho!=null?f.rho.toFixed(2):'—'}</td>
+      <td style="padding:5px 8px;text-align:right"><b>${f.contrib.toFixed(2)}</b></td><td style="padding:5px 8px;text-align:right">${dil!=null?dil.toFixed(0)+'%':'—'}</td>
+      <td style="padding:5px 8px;text-align:right"><span class="${pct>100*f.w*1.25?'neg':pct<100*f.w*0.75?'pos':''}">${pct!=null?pct.toFixed(1)+'%':'—'}</span></td></tr>`;});
+  h+=`</tbody><tfoot><tr style="border-top:2px solid var(--navy);font-weight:700"><td style="padding:6px 8px">TOTAL</td><td style="padding:6px 8px;text-align:right">100%</td><td></td><td style="padding:6px 8px;text-align:right">${R.undiv.toFixed(2)}</td><td></td><td style="padding:6px 8px;text-align:right">${R.volP.toFixed(2)}</td><td></td><td style="padding:6px 8px;text-align:right">100%</td></tr></tfoot></table></div>`;
+  // matriz de correlaciones
+  if(inc.length>=2&&inc.length<=20){
+    const ord=R.inc,num1=i=>i+1,col=v=>{if(v==null)return"transparent";const a=Math.min(1,Math.abs(v));return v>=0?`rgba(220,38,38,${0.12+0.6*a})`:`rgba(37,99,235,${0.12+0.6*a})`;};
+    h+=`<div style="margin-top:12px"><b>Correlación entre tus fondos</b> <span class="eu-note">(rojo = se mueven juntos; azul = se compensan; cuanto más claro, más independientes)</span>
+      <div style="overflow:auto"><table style="border-collapse:collapse;font-size:12px;margin-top:6px"><thead><tr><th></th>${ord.map((f,i)=>`<th style="padding:3px 6px;color:var(--muted)" title="${escHtml(f.d.Name||f.isin)}">${num1(i)}</th>`).join("")}</tr></thead><tbody>`+
+      ord.map((f,i)=>`<tr><td style="padding:3px 8px;white-space:nowrap;max-width:260px;overflow:hidden;text-overflow:ellipsis" title="${escHtml(f.d.Name||f.isin)}"><b>${num1(i)}</b> ${escHtml((f.d.Name||f.isin).slice(0,38))}</td>`+
+        ord.map((g,j)=>{const v=R.corr[i][j];return `<td style="padding:3px 6px;text-align:center;min-width:38px;background:${i===j?'var(--zebra)':col(v)}">${i===j?'—':v!=null?v.toFixed(2):''}</td>`;}).join("")+`</tr>`).join("")+
+      `</tbody></table></div></div>`;
+  }
+  h+=excNote;
+  h+=`<div class="eu-note" style="margin-top:8px"><b>Cómo leerlo.</b> «Riesgo a lo bruto» = peso × volatilidad; la suma es la volatilidad si todos tus fondos subieran y bajaran a la vez. «Riesgo real aportado» = lo que de verdad suma cada fondo a la volatilidad de la cartera, una vez descontado lo que se compensa con los demás (las aportaciones suman la volatilidad real). «% del riesgo total» en <span class="neg">rojo</span> = el fondo aporta bastante más riesgo que peso; en <span class="pos">verde</span> = bastante menos (amortigua). Índice de diversificación = sin diversificar ÷ real (≥ 1; cuanto mayor, mejor).
+    Ventana usada: ${R.T} trimestres comunes (${qLabel(R.rows[0])}–${qLabel(R.rows[R.T-1])}). Con datos trimestrales la cifra es más estable pero menos reactiva que la de 52 semanas que usan otras plataformas; y en las crisis las correlaciones suben, así que el colchón real suele ser menor justo cuando más falta.${R.nc?" ¹ Serie de quefondos en la divisa del fondo (no EUR).":""}${noVL?` Sin VL del día en ${noVL} posición(es): su peso se calcula con el coste.`:""}</div>`;
+  el.innerHTML=h;
+}
+function renderCarteraDesglose(W,byIsin){
+  const el=document.getElementById("cDesglose");if(!el)return;
+  const H=window.__hold||{},E=window.__expo||{},tot=Object.values(W).reduce((a,b)=>a+b,0);
+  const funds=Object.keys(W).map(isin=>{const hs=H[isin]||[],expl=Math.min(100,hs.reduce((s,x)=>s+x[0],0));
+    return {isin,d:byIsin[isin]||{},w:W[isin]/tot,hs,expl};}).sort((a,b)=>b.w-a.w);
+  const agg={};
+  funds.forEach(f=>{const seen={};f.hs.forEach(x=>{const k=norm(x[1]);const p=f.w*x[0];
+    const a=agg[k]||(agg[k]={n:x[1],p:0,by:[]});a.p+=p;if(!seen[k]){seen[k]=1;a.by.push({n:f.d.Name||f.isin,p});}else{a.by.find(b=>b.n===(f.d.Name||f.isin)).p+=p;}});});
+  const arr=Object.values(agg).sort((a,b)=>b.p-a.p),totExpl=funds.reduce((s,f)=>s+f.w*f.expl,0);
+  const overlap=arr.filter(a=>a.by.length>=2);
+  let h=`<div class="eu-head">🔎 Desglose por empresa (look-through)</div>
+    <div class="eu-note">En qué empresas y bonos estás invertido <b>de verdad</b> a través de tus fondos: peso del fondo en tu cartera × peso de la posición en el fondo. Sirve para detectar <b>solapamientos</b> (la misma empresa en varios fondos). Carteras publicadas a fin de mes, con retraso.</div>`;
+  if(!arr.length){el.innerHTML=h+`<div class="eu-note">Ninguno de tus fondos publica cartera en <code>data/holdings.json</code>.</div>`;return;}
+  h+=`<div class="eu-note">Tienes <b>${arr.length}</b> posiciones distintas; queda explicado el <b>${totExpl.toFixed(0)}%</b> de tu cartera${overlap.length?` y <b>${overlap.length}</b> posiciones aparecen en 2 o más fondos`:""}.</div>`;
+  const row=(a,i)=>`<tr style="border-top:1px solid var(--line)"><td style="padding:4px 8px;color:var(--muted)">${i+1}</td><td style="padding:4px 8px">${escHtml(a.n)}</td><td style="padding:4px 8px;text-align:right"><b>${a.p.toFixed(2)}%</b></td>
+    <td style="padding:4px 8px;text-align:right" title="${escHtml(a.by.map(b=>b.n+': '+b.p.toFixed(2)+'%').join('\n'))}">${a.by.length>=2?`<b class="neg">${a.by.length} fondos</b>`:'1 fondo'}</td></tr>`;
+  h+=`<div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start;margin-top:6px">
+    <div style="flex:1 1 380px;min-width:300px"><b>Mayores posiciones</b><div style="max-height:420px;overflow:auto;margin-top:4px"><table style="width:100%;border-collapse:collapse;font-size:12.5px"><thead><tr style="color:var(--muted);text-align:left"><th style="padding:3px 8px">#</th><th style="padding:3px 8px">Posición</th><th style="padding:3px 8px;text-align:right">% de tu cartera</th><th style="padding:3px 8px;text-align:right" title="Pasa el ratón para ver el detalle por fondo">Está en</th></tr></thead><tbody>${arr.slice(0,60).map(row).join("")}</tbody></table></div></div>
+    <div style="flex:1 1 380px;min-width:300px"><b>Solapamientos</b> <span class="eu-note">(posiciones repetidas en varios fondos)</span><div style="max-height:420px;overflow:auto;margin-top:4px">${overlap.length?`<table style="width:100%;border-collapse:collapse;font-size:12.5px"><tbody>`+
+      overlap.slice(0,40).map(a=>`<tr style="border-top:1px solid var(--line)"><td style="padding:4px 8px"><b>${escHtml(a.n)}</b> · ${a.p.toFixed(2)}%<br><span style="color:var(--muted)">${a.by.map(b=>escHtml(b.n.slice(0,40))+' '+b.p.toFixed(2)+'%').join(' · ')}</span></td></tr>`).join("")+`</tbody></table>`:'<div class="eu-note">Ninguna posición se repite entre tus fondos.</div>'}</div></div></div>`;
+  // cobertura por fondo
+  h+=`<details style="margin-top:10px"><summary style="cursor:pointer"><b>Qué parte de cada fondo está desglosada</b></summary><table style="border-collapse:collapse;font-size:12.5px;margin-top:6px"><thead><tr style="color:var(--muted);text-align:left"><th style="padding:3px 8px">Fondo</th><th style="padding:3px 8px;text-align:right">Peso</th><th style="padding:3px 8px;text-align:right">Posiciones</th><th style="padding:3px 8px;text-align:right">% desglosado</th></tr></thead><tbody>`+
+    funds.map(f=>`<tr style="border-top:1px solid var(--line)"><td style="padding:3px 8px">${escHtml(f.d.Name||f.isin)}${abancaBadge(f.d)}</td><td style="padding:3px 8px;text-align:right">${(100*f.w).toFixed(1)}%</td><td style="padding:3px 8px;text-align:right">${f.hs.length||'—'}</td><td style="padding:3px 8px;text-align:right">${f.hs.length?f.expl.toFixed(0)+'%':'sin cartera publicada'}</td></tr>`).join("")+`</tbody></table></details>`;
+  // región y sector de la parte de renta variable
+  const mix=(tag,LAB)=>{const m={};let base=0;
+    funds.forEach(f=>{const x=E[f.isin]&&E[f.isin][tag];if(!x)return;const s=Object.values(x).reduce((a,b)=>a+b,0);if(!s)return;
+      const eq=num(f.d.PctRV)!=null?num(f.d.PctRV)/100:(f.d.GlobalAssetClass==="Equity"?1:s/100);const wq=f.w*eq;base+=wq;
+      Object.entries(x).forEach(([k,v])=>{m[k]=(m[k]||0)+wq*v/s;});});
+    if(!base)return '<div class="eu-note">Sin datos.</div>';
+    return Object.entries(m).map(([k,v])=>[LAB[k]||k,100*v/base]).filter(x=>x[1]>=0.05).sort((a,b)=>b[1]-a[1]).map(([k,v])=>
+      `<div style="display:flex;align-items:center;gap:8px;font-size:12.5px;margin:2px 0"><span style="width:150px">${escHtml(k)}</span><span style="flex:1;background:var(--zebra);border-radius:4px;height:12px"><span style="display:block;height:12px;border-radius:4px;background:var(--accent);width:${Math.min(100,v).toFixed(1)}%"></span></span><b style="width:48px;text-align:right">${v.toFixed(1)}%</b></div>`).join("");};
+  h+=`<div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:12px"><div style="flex:1 1 320px"><b>Por región</b> <span class="eu-note">(parte de renta variable)</span>${mix("reg",REG_LAB)}</div><div style="flex:1 1 320px"><b>Por sector</b> <span class="eu-note">(parte de renta variable)</span>${mix("sec",SEC_LAB)}</div></div>`;
+  el.innerHTML=h;
 }
 // ---------- Constructor de cartera (optimizador heurístico forward-oriented) ----------
 const CX_ORDER=["Muy conservador","Conservador","Moderado","Agresivo","Muy agresivo"];
@@ -3224,7 +3358,9 @@ function renderEstructura(){
     tabtab([
       ["fondos_latest.csv","Catálogo completo con todas las métricas y el VL.","General y casi todas las pestañas"],
       ["series.json","Rentabilidad anual por fondo.","Gráficas y backtest"],
-      ["holdings.json","Todas las posiciones de cada fondo y su peso.","Chat (look-through), solapamiento"],
+      ["holdings.json","Todas las posiciones de cada fondo y su peso.","Chat (look-through), solapamiento, Mi Cartera (desglose)"],
+      ["qreturns.json","Rentabilidad trimestral en EUR de cada fondo desde 2016.","Mi Cartera (riesgo y correlaciones)"],
+      ["exposure.json","Región y sector de la parte de renta variable de cada fondo.","Mi Cartera (desglose)"],
       ["holdings_changes.json","Cambios de cartera (entran/salen/±peso).","Seguimiento de holdings"],
       ["vl_history.csv","Serie diaria de VL acumulada.","Gráficas de evolución"],
       ["vl_freq.json","Frecuencia de actualización del VL por fondo (cadencia inferida + retardo).","Columna «Actualiz. VL» (General)"],
