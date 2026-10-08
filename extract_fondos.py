@@ -1247,6 +1247,31 @@ def main():
     except Exception as e:
         print(f"AVISO: bloque solo-ABANCA falló (la foto de Bankinter NO se ve afectada): {e}")
 
+    # VL carry-forward: si un raspado parcial deja fondos sin VL, se arrastra el último VL conocido
+    # desde vl_history.csv (igual que merge_prev con los JSON) para no mostrarlos vacíos en el CSV.
+    # No toca vl_history (sigue guardando solo capturas reales); solo rellena el CSV de la foto.
+    try:
+        _iIS, _iVL, _iVD = cols.index("Isin"), cols.index("VL"), cols.index("VLDate")
+        _last = {}
+        _hp = os.path.join("data", "vl_history.csv")
+        if os.path.exists(_hp):
+            for _r in csv.reader(open(_hp, encoding="utf-8"), delimiter=";"):
+                if len(_r) >= 3 and _r[1] and _r[0] != "fecha":
+                    _d = _r[0][:10]
+                    if _r[1] not in _last or _d > _last[_r[1]][0]:
+                        _last[_r[1]] = (_d, _r[2])
+        _cf = 0
+        for _row in rows:
+            if len(_row) > max(_iVL, _iVD, _iIS) and (not _row[_iVL] or _row[_iVL] in ("", "0")):
+                _is = _row[_iIS]
+                if _is in _last:
+                    _row[_iVL], _row[_iVD] = _last[_is][1], _last[_is][0]
+                    _cf += 1
+        if _cf:
+            print(f"AVISO: VL carry-forward -> {_cf} fondos sin VL hoy arrastran su último VL de vl_history")
+    except Exception as _e:
+        print(f"AVISO: VL carry-forward falló (no crítico): {_e}")
+
     os.makedirs("data/history", exist_ok=True)
     for path in ("data/fondos_latest.csv", f"data/history/fondos_{sello}.csv"):
         with open(path, "w", newline="", encoding="utf-8") as fh:
