@@ -2769,12 +2769,16 @@ function dedupOneClassPerFund(rows){
   return out;
 }
 function dedupChk(on){return `<label class="eu-note" style="margin:0;cursor:pointer"><input type="checkbox" ${on?'checked':''} onchange="mapaSet('dedup',this.checked)"> Una clase por fondo</label>`;}
-function mapaFindCtrl(){const S=window.__mapaS||{};const v=S.findRaw||'';const n=(S.findSet||[]).length;return `<input list="fundlist" placeholder="🔎 Fondo, ISIN o gestora…" value="${v.replace(/"/g,'&quot;')}" onchange="mapaFindSet(this.value)" style="min-width:210px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">`+(n?`<button onclick="mapaFindSet('')" title="Quitar" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:6px 9px;cursor:pointer;color:var(--muted)">✕ (${n}${S.findFuzzy?' aprox.':''})</button>`:'');}
+function mapaFindCtrl(){const S=window.__mapaS||{};const set=S.findSet||[];
+  const chips=set.map(isin=>{const d=(window.__biAll||{})[isin];const nm=(d&&d.Name)||isin;
+    return `<span style="display:inline-flex;align-items:center;gap:3px;background:#fde8ec;color:#be123c;border:1px solid #f5c2cd;border-radius:999px;padding:2px 5px 2px 9px;font-size:11px;font-weight:600;max-width:210px" title="${escHtml((d&&d.Name)||'')} ${isin}"><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(nm.slice(0,26))}</span><button onclick="mapaFindDel('${isin}')" title="Quitar" style="border:0;background:transparent;color:#be123c;cursor:pointer;font-weight:700;padding:0 2px;font-size:12px">✕</button></span>`;}).join('');
+  return `<input id="mapaFindInp" list="fundlist" placeholder="🔎 Añade ISIN/nombre/gestora…" value="${(S.findRaw||'').replace(/"/g,'&quot;')}" onchange="mapaFindSet(this.value)" style="min-width:190px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">`+(set.length?` <span style="display:inline-flex;gap:4px;flex-wrap:wrap;align-items:center;vertical-align:middle">${chips}<button onclick="mapaFindSet('')" title="Quitar todos" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">limpiar (${set.length})${S.findFuzzy?' aprox.':''}</button></span>`:'');}
 function _lev(a,b){const m=a.length,n=b.length;if(!m)return n;if(!n)return m;let prev=Array.from({length:n+1},(_,i)=>i);for(let i=1;i<=m;i++){let cur=[i];for(let j=1;j<=n;j++){cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));}prev=cur;}return prev[n];}
 function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v||'';S.findFuzzy=false;
   if(!v){S.findSet=[];return renderMapa();}
   const q=String(v).trim(); const m=q.match(/([A-Z]{2}[0-9A-Z]{9}[0-9])/i);
   let set=[];
+  const DATA=mapaSource(S); // incluye IronIA si el origen lo pide
   if(m){const isin=m[1].toUpperCase(); if(DATA.some(d=>d.Isin===isin))set=[isin];}
   const ql=q.toLowerCase();
   const hay=d=>((d.Name||'')+' '+(d.LegalName||'')+' '+(d.ProviderCompanyName||'')).toLowerCase();
@@ -2789,15 +2793,21 @@ function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v|
     set=DATA.filter(d=>near(d.ProviderCompanyName)||near(d.Name)||near(d.LegalName)).map(d=>d.Isin);
     S.findFuzzy=set.length>0;
   }
-  S.findSet=set; renderMapa();
+  // ACUMULATIVO: cada búsqueda SUMA sus coincidencias a las ya fijadas (unión, sin duplicar).
+  const prev=S.findSet||[];
+  S.findSet=Array.from(new Set([...prev,...set]));
+  S.findRaw=set.length?'':q;          // limpia el campo si encontró algo; conserva el texto si no hubo coincidencia
+  renderMapa();
+  setTimeout(()=>{const e=document.getElementById('mapaFindInp');if(e)e.focus();},0);
 }
+function mapaFindDel(isin){const S=window.__mapaS||(window.__mapaS={});S.findSet=(S.findSet||[]).filter(x=>x!==isin);if(!S.findSet.length)S.findFuzzy=false;renderMapa();}
 function _kpiTip(d){ if(!d)return '';
   const p=(v,dec,suf)=>{const n=num(v);return n==null?'—':(n.toFixed(dec==null?2:dec)+(suf==null?'%':suf));};
   return `<b>${escHtml(d.Name||'')}</b><br>${d.Isin||''} · ${d.Currency||''}${d.SRRI?(' · SRRI '+d.SRRI):''}`+
     `<br>Rentab.: YTD ${p(d.ReturnM0)} · 1A ${p(d.ReturnM12)} · 3A ${p(d.ReturnM36)} · 5A ${p(d.ReturnM60)}`+
     `<br>Volatilidad: 1A ${p(d.StandardDeviationM12)} · 3A ${p(d.StandardDeviationM36)}`+
     `<br>Sharpe 3A: ${num(d.SharpeM36)!=null?num(d.SharpeM36).toFixed(2):'—'} · Máx. caída 3A: ${p(d.MaxDrawdownM36)}`+
-    `<br>TER: ${p(d.TER)} · Com. gestión: ${p(d.ManagementFee)}`+(isAbanca(d)?' · <b>ABANCA</b>':'')+(riskFlag(d)?'<br><b style="color:#b45309">⚠️ Riesgo de gestor/apalancamiento</b>':'');
+    `<br>TER: ${p(d.TER)} · Com. gestión: ${p(d.ManagementFee)}`+(isAbanca(d)?' · <b>ABANCA</b>':'')+(isIronia(d)?`<br><b style="color:#be123c">IronIA</b>${d.IronIAScore!=null?' · puntuación '+Math.round(d.IronIAScore)+'/100':''}${d.Clean?' · clase limpia':''}`:'')+(riskFlag(d)?'<br><b style="color:#b45309">⚠️ Riesgo de gestor/apalancamiento</b>':'');
 }
 function _hlSeriesMulti(points){return {name:'★ localizados',type:'scatter',data:points,symbolSize:16,symbol:'pin',itemStyle:{color:'#e11d48',borderColor:'#FFD400',borderWidth:2},label:{show:points.length<=30,formatter:p=>(p.data[2]||'').slice(0,20),position:'top',color:'#e11d48',fontSize:10,fontWeight:'bold'},tooltip:{formatter:p=>{const d=(window.__biAll||{})[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]||''}</b><br>${p.data[3]||''}`;}},z:50};}
 function loadECharts(){
@@ -2811,12 +2821,45 @@ function loadECharts(){
   });
   return window.__echP;
 }
+// --- Origen de los gráficos: Bankinter/ABANCA (DATA) y, opcionalmente, IronIA (data/ironia, local) ---
+const IR_ASSET={"Renta Variable":"Equity","Renta Fija":"Fixed Income","Mixtos":"Allocation","Alternativos":"Alternative Strategies","Activo Monetario":"Capital Preservation"};
+function ironiaAsData(){ // fondos de IronIA disponibles y que NO están ya en el panel, con las claves de Bankinter
+  if(window.__irAsD)return window.__irAsD; const A=window.__ir; if(!A||!A.length)return [];
+  const have=new Set(DATA.map(d=>d.Isin));
+  return (window.__irAsD=A.filter(f=>f.available&&!have.has(f.isin)).map(f=>({Isin:f.isin,Name:f.name,LegalName:f.family,ProviderCompanyName:f.manager,
+    GlobalAssetClass:IR_ASSET[f.category]||f.category,GlobalCategoryName:f.subcategory,CategoryName:f.subcategory,Currency:f.currency,
+    TER:f.ongoing,ManagementFee:f.mgmt_fee,InitialPurchase:f.min_initial,
+    ReturnM12:f.ret_1y,ReturnM36:f.ret_3y,ReturnM60:f.ret_5y,
+    StandardDeviationM12:f.vol_1y,StandardDeviationM36:f.vol_3y,StandardDeviationM60:f.vol_5y,
+    // El Sharpe de IronIA no descuenta el tipo sin riesgo (monetarios con 40+): se recalcula como el de
+    // Morningstar, (rentab. − tipo sin riesgo) / volatilidad, con la media del Euríbor 3M del periodo
+    SharpeM12:irSharpe(f.ret_1y,f.vol_1y,12),SharpeM36:irSharpe(f.ret_3y,f.vol_3y,36),SharpeM60:irSharpe(f.ret_5y,f.vol_5y,60),
+    MaxDrawdownM12:f.mdd_1y,MaxDrawdownM36:f.mdd_3y,MaxDrawdownM60:f.mdd_5y,
+    IronIAScore:f.score,Clean:f.clean,Fuente:"IronIA",FichaURL:"https://store.ironia.tech/"+f.isin})));
+}
+function isIronia(d){return d&&d.Fuente==="IronIA";}
+function rfAvg(months){ // tipo sin riesgo medio (Euríbor 3M) de los últimos N meses; respaldo 2,5 %
+  const h=((window.__eur||{}).history||[]).map(x=>num(x["3M"])).filter(v=>v!=null);
+  if(!h.length)return 2.5; const t=h.slice(-months); return t.reduce((a,b)=>a+b,0)/t.length;}
+// vol < 0,5 %: IronIA mide la volatilidad en la divisa del fondo (un monetario USD sale con 0,1 % frente al
+// ~6,7 % en EUR de Morningstar) y el Sharpe se dispara; se omite para no falsear el ranking
+function irSharpe(ret,vol,months){return (ret==null||vol==null||vol<0.5)?null:Math.round(100*(ret-rfAvg(months))/vol)/100;}
+function mapaSource(S){ // filas según el selector «Origen»
+  const o=S.origen||"";
+  if(o==="IronIA")return ironiaAsData();
+  if(o==="IronIA+")return DATA.concat(ironiaAsData());
+  if(o==="Bankinter")return DATA.filter(d=>!(d.Fuente&&d.Fuente!=="Bankinter"));
+  if(o==="ABANCA")return DATA.filter(d=>d.Fuente&&d.Fuente!=="Bankinter");
+  return DATA;
+}
+function mapaOrigSel(S,fn){fn=fn||"mapaSet";const o=S.origen||"";const op=(v,l)=>`<option value="${v}" ${o===v?'selected':''}>${l}</option>`;
+  return `<select onchange="${fn}('origen',this.value)" title="IronIA: fondos de la foto local de IronIA que no están en Bankinter ni ABANCA" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${op("","Origen (Bankinter + ABANCA)")}${op("Bankinter","Solo Bankinter")}${op("ABANCA","Solo ABANCA")}${op("IronIA+","Todos + IronIA")}${op("IronIA","Solo IronIA")}</select>`;}
 function showMapa(type){
   ["toolbar","legend","chips","wrap","euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist","carteras","siblings"].forEach(id=>document.getElementById(id).style.display="none");
   document.getElementById("mapa").style.display="block";
   window.__mapaType=type; renderMapa();
 }
-function mapaSet(k,v){(window.__mapaS=window.__mapaS||{})[k]=v;renderMapa();}
+function mapaSet(k,v){(window.__mapaS=window.__mapaS||{})[k]=v;if(k==="origen"&&String(v).startsWith("IronIA")&&(!window.__ir||!window.__eur)){Promise.all([loadIronia(),window.__eur?null:fetch("data/euribor.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j)window.__eur=j;}).catch(()=>{})]).then(()=>{window.__irAsD=null;renderMapa();});return;}renderMapa();}
 function renderMapa(){
   const el=document.getElementById("mapa");
   const type=window.__mapaType||'rr';
@@ -2835,23 +2878,24 @@ function renderMapa(){
     ${['M0','M12','M36','M60'].map(p=>`<option value="${p}" ${p===per?'selected':''}>${({M0:'YTD',M12:'1 año',M36:'3 años',M60:'5 años'})[p]}</option>`).join('')}</select>`;
   const assetSel=`<select onchange="mapaSet('asset',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="">Clase de activo (todas)</option>${assets.map(a=>opt(a,S.asset)).join('')}</select>`;
   const srriSel=`<select onchange="mapaSet('srri',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="">SRRI (todos)</option>${[1,2,3,4,5,6,7].map(n=>`<option value="${n}" ${String(n)===String(S.srri)?'selected':''}>${n}</option>`).join('')}</select>`;
-  const origSel=`<select onchange="mapaSet('origen',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="">Origen (todos)</option><option value="Bankinter" ${S.origen==='Bankinter'?'selected':''}>Solo Bankinter</option><option value="ABANCA" ${S.origen==='ABANCA'?'selected':''}>Solo ABANCA</option></select>`;
+  const origSel=mapaOrigSel(S);
   el.innerHTML=`<div class="eu-head">${titulo}</div>
     <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0">
       <span class="eu-note" style="margin:0">Periodo:</span>${perSel}${assetSel}${srriSel}${origSel}${dedupChk(S.dedup!==false)}${mapaFindCtrl()}
       <span class="eu-note" style="margin:0">· ${perLbl}</span></div>
     <div id="mapaChart" style="width:100%;height:600px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
-    <div class="eu-note" style="margin:8px 0">Cada punto es un fondo. Pasa el ratón para ver detalle; haz clic para abrir su ficha. Datos del catálogo (${DATA.length.toLocaleString('es')} fondos); para 3A/5A las rentabilidades están anualizadas. Los solo-ABANCA solo tienen volatilidad/Sharpe a 1 año.</div>`;
+    <div class="eu-note" id="mapaNote" style="margin:8px 0">Cada punto es un fondo. Pasa el ratón para ver detalle; haz clic para abrir su ficha. Datos del catálogo (${DATA.length.toLocaleString('es')} fondos); para 3A/5A las rentabilidades están anualizadas. Los solo-ABANCA solo tienen volatilidad/Sharpe a 1 año.</div>`;
   // filtrar
-  let rows=DATA.filter(d=>{
+  const SRC=mapaSource(S);
+  let rows=SRC.filter(d=>{
     if(S.asset&&d.GlobalAssetClass!==S.asset)return false;
     if(S.srri&&String(d.SRRI)!==String(S.srri))return false;
-    if(S.origen==='Bankinter'&&d.Fuente&&d.Fuente!=='Bankinter')return false;
-    if(S.origen==='ABANCA'&&(!d.Fuente||d.Fuente==='Bankinter'))return false;
     return true;
   });
   if(S.dedup!==false) rows=dedupOneClassPerFund(rows);
-  const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d])); window.__biAll=bi;
+  const bi=Object.fromEntries(SRC.map(d=>[d.Isin,d])); window.__biAll=bi;
+  if(String(S.origen||'').startsWith('IronIA')){const nIr=rows.filter(isIronia).length;
+    document.getElementById('mapaNote').insertAdjacentHTML('beforeend',nIr?` <b>IronIA:</b> ${nIr.toLocaleString('es')} fondos más (en <span style="color:#be123c">◆ rombos</span>) de la foto local de IronIA que no están en Bankinter ni ABANCA; sin SRRI ni YTD, así que el filtro SRRI y el periodo YTD los excluyen. Ojo: IronIA mide la <b>volatilidad en la divisa del fondo</b> (Bankinter, en EUR) y con datos más frecuentes, por eso sale algo mayor; su Sharpe se recalcula como (rentab. − Euríbor 3M medio) / volatilidad y se omite si la volatilidad es < 0,5 %.`:` <b>IronIA:</b> no hay foto local de IronIA (<code>data/ironia/</code>); solo está en tu panel local, no en la web pública.`);}
   loadECharts().then(()=>{
     const dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;
     const cont=document.getElementById('mapaChart'); if(!cont)return;
@@ -2870,7 +2914,7 @@ function renderMapa(){
         yAxis:{type:'category',data:arr.map(o=>(o.d.Name||o.d.Isin).slice(0,34)),axisLabel:{color:'#94a3b8',fontSize:10}},
         series:[{type:'bar',data:arr.map(o=>({value:o.s,itemStyle:{color:(S.findSet&&S.findSet.includes(o.d.Isin))?'#e11d48':'#1F77B4'}})),label:{show:true,position:'right',formatter:p=>p.value.toFixed(2),color:'#94a3b8'}}]};
       chart.setOption(option);
-      if(S.findSet&&S.findSet.length){const fset=S.findSet.map(is=>bi[is]).filter(Boolean);const withS=fset.filter(d=>num(d[shK])!=null).length;const msg=fset.length===0?`No encuentro «${escHtml(S.findRaw||'')}».`:`${fset.length} fondo(s) coinciden con «${escHtml(S.findRaw||'')}»; muestro los ${withS} con dato de Sharpe (${perLbl}), ordenados de mayor a menor.`+(withS<fset.length?` ${fset.length-withS} no tienen Sharpe en este periodo.`:'');document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">${msg}</div>`);}
+      if(S.findSet&&S.findSet.length){const fset=S.findSet.map(is=>bi[is]).filter(Boolean);const withS=fset.filter(d=>num(d[shK])!=null).length;const msg=`${fset.length} fondo(s) seleccionado(s); muestro los ${withS} con dato de Sharpe (${perLbl}), ordenados de mayor a menor.`+(withS<fset.length?` ${fset.length-withS} no tienen Sharpe en este periodo.`:'');document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">${msg}</div>`);}
       chart.on('click',p=>{const o=arr[p.dataIndex]; if(o){window.open(o.d.FichaURL||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${o.d.Isin}`,'_blank');}});
       // --- extra: evolución (base 100) + riesgo-rentabilidad de los mejores ---
       const top=arr.slice().reverse().slice(0,12).map(o=>o.d);
@@ -2907,20 +2951,31 @@ function renderMapa(){
     } else {
       const xK=type==='cr'?'TER':volK, xName=type==='cr'?'Coste TER (%)':'Volatilidad (%) · '+perLbl;
       const byClass={};
-      rows.forEach(d=>{const x=num(d[xK]),y=num(d[retK]); if(x==null||y==null)return; const g=d.GlobalAssetClass||'(otros)'; (byClass[g]=byClass[g]||[]).push([x,y,d.Name||'',d.Isin||'',num(d.TER),num(d[shK]),d.SRRI]);});
-      const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,emphasis:{focus:'series'},itemStyle:{opacity:.72}}));
+      const byIr={};
+      rows.forEach(d=>{const x=num(d[xK]),y=num(d[retK]); if(x==null||y==null)return; const g=d.GlobalAssetClass||'(otros)'; const tgt=isIronia(d)?byIr:byClass; (tgt[g]=tgt[g]||[]).push([x,y,d.Name||'',d.Isin||'',num(d.TER),num(d[shK]),d.SRRI]);});
+      const PAL=['#5470c6','#91cc75','#fac858','#ee6666','#73c0de','#3ba272','#fc8452','#9a60b4','#ea7ccc'];
+      const allG=[...new Set([...Object.keys(byClass),...Object.keys(byIr)])].sort(),colOf=g=>PAL[allG.indexOf(g)%PAL.length];
+      const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,emphasis:{focus:'series'},itemStyle:{opacity:.72,color:colOf(g)}}))
+        .concat(Object.entries(byIr).map(([g,data])=>({name:g+' · IronIA',type:'scatter',data,large:true,largeThreshold:400,symbol:'diamond',symbolSize:6,emphasis:{focus:'series'},itemStyle:{opacity:.45,color:colOf(g)}})));
       const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
       if(fset.length){const pts=[],miss=[]; fset.forEach(fd=>{const xv=num(fd[xK]),yv=num(fd[retK]); if(xv!=null&&yv!=null)pts.push([xv,yv,fd.Name||'',fd.Isin]); else miss.push(fd.Name||fd.Isin);});
         if(pts.length)series.push(_hlSeriesMulti(pts));
         if(miss.length)document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">⚠️ ${miss.length} fondo(s) localizado(s) no se muestran: sin dato en este periodo (${perLbl}) → ${miss.slice(0,4).map(escHtml).join(', ')}${miss.length>4?'…':''}. Prueba con otro periodo (p. ej. 1 año).</div>`);}
       if(S.origen==='ABANCA' && type==='rr' && (per==='M36'||per==='M60')) document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">Los fondos solo-ABANCA solo tienen volatilidad a 1 año → cambia el periodo a «1 año» para verlos aquí (en <b>Coste-Rentabilidad</b> aparecen en cualquier periodo).</div>`);
+      // ejes robustos: el 99,8 % central (fondos suspendidos o datos anómalos estiran la escala)
+      const _pts=series.flatMap(x=>x.data),_q=(a,f)=>a.length?a[Math.min(a.length-1,Math.max(0,Math.round(f*(a.length-1))))]:null;
+      const _xs=_pts.map(p=>p[0]).sort((a,b)=>a-b),_ys=_pts.map(p=>p[1]).sort((a,b)=>a-b);
+      const _xMax=_q(_xs,.999),_yMin=_q(_ys,.001),_yMax=_q(_ys,.999);
+      const _pad=v=>Math.ceil(Math.abs(v)*1.08+1)*Math.sign(v||1);
+      const _out=_pts.filter(p=>p[0]>_xMax||p[1]<_yMin||p[1]>_yMax).length;
+      if(_out>0&&_pts.length>200)document.getElementById('mapaNote').insertAdjacentHTML('beforeend',` <b>${_out}</b> fondo(s) con valores extremos (p. ej. fondos de Rusia suspendidos) quedan fuera de la escala.`);
       option={backgroundColor:'transparent',
         tooltip:{trigger:'item',formatter:p=>{const d=bi[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]}</b><br>${p.data[3]}`;}},
         legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'},selected:(S.legendSel||undefined)},
         grid:{left:72,right:30,top:44,bottom:56},
         dataZoom:[{type:'inside'},{type:'inside',orient:'vertical'}],
-        xAxis:{type:'value',name:xName,nameLocation:'middle',nameGap:34,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
-        yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
+        xAxis:{type:'value',name:xName,nameLocation:'middle',nameGap:34,min:0,max:(_pts.length>200&&_xMax!=null)?_pad(_xMax):undefined,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
+        yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,min:(_pts.length>200&&_yMin!=null&&_yMin<0)?_pad(_yMin):undefined,max:(_pts.length>200&&_yMax!=null)?_pad(_yMax):undefined,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
         series};
       chart.setOption(option);
       chart.on('legendselectchanged',e=>{S.legendSel=e.selected;});
@@ -2949,12 +3004,10 @@ function renderMapa2(type){
   const volK={M0:'StandardDeviationM12',M12:'StandardDeviationM12',M36:'StandardDeviationM36',M60:'StandardDeviationM60'}[per];
   const shK={M0:'SharpeM12',M12:'SharpeM12',M36:'SharpeM36',M60:'SharpeM60'}[per];
   const ddK={M0:'MaxDrawdownM12',M12:'MaxDrawdownM12',M36:'MaxDrawdownM36',M60:'MaxDrawdownM60'}[per];
-  const bi=Object.fromEntries(DATA.map(d=>[d.Isin,d])); window.__biAll=bi;
-  let _src=DATA;
-  if(S.origen==='Bankinter')_src=DATA.filter(d=>!(d.Fuente&&d.Fuente!=='Bankinter'));
-  else if(S.origen==='ABANCA')_src=DATA.filter(d=>d.Fuente&&d.Fuente!=='Bankinter');
+  const _src=mapaSource(S);
+  const bi=Object.fromEntries(_src.map(d=>[d.Isin,d])); window.__biAll=bi;
   const base=(S.dedup!==false)?dedupOneClassPerFund(_src):_src;
-  const origSel2=`<select onchange="mapaSet('origen',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="">Origen (todos)</option><option value="Bankinter" ${S.origen==='Bankinter'?'selected':''}>Solo Bankinter</option><option value="ABANCA" ${S.origen==='ABANCA'?'selected':''}>Solo ABANCA</option></select>`;
+  const origSel2=mapaOrigSel(S);
   const titles={heatmap:'🔥 Heatmap rentabilidad por categoría × año',box:'📦 Distribución por categoría (box-plot)',dd:'🩹 Mapa de drawdown (caída vs rentabilidad)',corr:'🔗 Matriz de correlación (para diversificar)'};
   const setChart=(build)=>loadECharts().then(()=>{const dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;const cont=document.getElementById('mapaChart');if(!cont)return;if(window.__ech){try{window.__ech.dispose();}catch(e){}}const chart=window.__ech=echarts.init(cont,dark?'dark':null);build(chart);if(!window.__echResize){window.__echResize=true;window.addEventListener('resize',()=>{if(window.__ech){try{window.__ech.resize();}catch(e){}}});}}).catch(e=>{const c=document.getElementById('mapaChart');if(c)c.innerHTML=`<div style="padding:20px;color:var(--muted)">No se pudo cargar la librería de gráficos: ${e.message}</div>`;});
 
@@ -3625,7 +3678,7 @@ function buildHead(){document.getElementById("thead").innerHTML="<tr>"+cols().ma
   document.querySelectorAll("#thead th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(sortKey===k)sortDir*=-1;else{sortKey=k;sortDir=-1;}buildHead();render();});}
 function pigClass(t){t=t||'';return /Variable/.test(t)?'pig-rv':/Revisar/.test(t)?'pig-rev':(t?'pig-rf':'');}
 // Distintivo para los fondos que SOLO están en ABANCA (no en Bankinter).
-function isAbanca(d){return d&&d.Fuente&&d.Fuente!=="Bankinter";}
+function isAbanca(d){return d&&d.Fuente&&d.Fuente!=="Bankinter"&&d.Fuente!=="IronIA";}
 // Lista curada de fondos/gestoras con riesgo de gestor y/o apalancamiento elevado. Ampliable.
 const RISK_FLAGS=[
  {match:d=>/\bh2o\b/i.test((d.ProviderCompanyName||'')+' '+(d.Name||'')+' '+(d.LegalName||'')),
