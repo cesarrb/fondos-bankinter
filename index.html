@@ -2769,14 +2769,14 @@ function dedupOneClassPerFund(rows){
   return out;
 }
 function dedupChk(on){return `<label class="eu-note" style="margin:0;cursor:pointer"><input type="checkbox" ${on?'checked':''} onchange="mapaSet('dedup',this.checked)"> Una clase por fondo</label>`;}
-function mapaFindCtrl(){const S=window.__mapaS||{};const set=S.findSet||[];
-  const chips=set.map((isin,i)=>{const d=(window.__biAll||{})[isin];const nm=(d&&d.Name)||isin;
-    return `<span onmouseenter="mapaHl('${isin}',1)" onmouseleave="mapaHl('${isin}',0)" style="display:inline-flex;align-items:center;gap:3px;background:#fde8ec;color:#be123c;border:1px solid #f5c2cd;border-radius:999px;padding:2px 5px 2px 5px;font-size:11px;font-weight:600;max-width:220px" title="${escHtml((d&&d.Name)||'')} ${isin}"><b style="background:#e11d48;color:#fff;border-radius:999px;min-width:15px;height:15px;display:inline-flex;align-items:center;justify-content:center;font-size:10px">${i+1}</b><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(nm.slice(0,24))}</span><button onclick="mapaFindDel('${isin}')" title="Quitar" style="border:0;background:transparent;color:#be123c;cursor:pointer;font-weight:700;padding:0 2px;font-size:12px">✕</button></span>`;}).join('');
+function mapaFindCtrl(){const S=window.__mapaS||{};const set=S.findSet||[];const refIsin=S.findRef||null;
+  const chips=set.map((isin,i)=>{const d=(window.__biAll||{})[isin];const nm=(d&&d.Name)||isin;const isRef=refIsin===isin;
+    return `<span onmouseenter="mapaHl('${isin}',1)" onmouseleave="mapaHl('${isin}',0)" style="display:inline-flex;align-items:center;gap:3px;background:${isRef?'#fff4e0':'#fde8ec'};color:#be123c;border:1px solid ${isRef?'#f59e0b':'#f5c2cd'};border-radius:999px;padding:2px 5px 2px 5px;font-size:11px;font-weight:600;max-width:230px" title="${escHtml((d&&d.Name)||'')} ${isin}"><b style="background:#e11d48;color:#fff;border-radius:999px;min-width:15px;height:15px;display:inline-flex;align-items:center;justify-content:center;font-size:10px">${i+1}</b><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(nm.slice(0,22))}</span><span onclick="mapaSetRef('${isin}')" title="${isRef?'Quitar referencia':'Fijar como referencia'}" style="cursor:pointer;color:${isRef?'#f59e0b':'#c99'};font-size:12px">${isRef?'★':'☆'}</span><button onclick="mapaFindDel('${isin}')" title="Quitar" style="border:0;background:transparent;color:#be123c;cursor:pointer;font-weight:700;padding:0 2px;font-size:12px">✕</button></span>`;}).join('');
   const verTodo=(set.length&&S.zoomSel!==false)?`<button onclick="mapaZoomSel(false)" title="Mostrar todo el gráfico" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">👁 Ver todo</button>`:'';
   return `<input id="mapaFindInp" list="fundlist" placeholder="🔎 Añade ISIN/nombre/gestora…" value="${(S.findRaw||'').replace(/"/g,'&quot;')}" onchange="mapaFindSet(this.value)" style="min-width:190px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">`+(set.length?` <span style="display:inline-flex;gap:4px;flex-wrap:wrap;align-items:center;vertical-align:middle">${chips}<button onclick="mapaFindSet('')" title="Quitar todos" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">limpiar (${set.length})${S.findFuzzy?' aprox.':''}</button><label style="font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:3px;cursor:pointer;margin-left:2px" title="Encuadra el gráfico a los fondos seleccionados"><input type="checkbox" ${S.zoomSel!==false?'checked':''} onchange="mapaZoomSel(this.checked)" style="margin:0"> 🔍 zoom a estos</label>${verTodo}</span>`:'');}
 function _lev(a,b){const m=a.length,n=b.length;if(!m)return n;if(!n)return m;let prev=Array.from({length:n+1},(_,i)=>i);for(let i=1;i<=m;i++){let cur=[i];for(let j=1;j<=n;j++){cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));}prev=cur;}return prev[n];}
 function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v||'';S.findFuzzy=false;
-  if(!v){S.findSet=[];return renderMapa();}
+  if(!v){S.findSet=[];S.findRef=null;return renderMapa();}
   const q=String(v).trim(); const m=q.match(/([A-Z]{2}[0-9A-Z]{9}[0-9])/i);
   let set=[];
   const DATA=mapaSource(S); // incluye IronIA si el origen lo pide
@@ -2801,9 +2801,10 @@ function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v|
   renderMapa();
   setTimeout(()=>{const e=document.getElementById('mapaFindInp');if(e)e.focus();},0);
 }
-function mapaFindDel(isin){const S=window.__mapaS||(window.__mapaS={});S.findSet=(S.findSet||[]).filter(x=>x!==isin);if(!S.findSet.length)S.findFuzzy=false;renderMapa();}
+function mapaFindDel(isin){const S=window.__mapaS||(window.__mapaS={});S.findSet=(S.findSet||[]).filter(x=>x!==isin);if(S.findRef===isin)S.findRef=null;if(!S.findSet.length)S.findFuzzy=false;renderMapa();}
 function mapaZoomSel(b){const S=window.__mapaS||(window.__mapaS={});S.zoomSel=b;renderMapa();}
 function mapaHl(isin,on){const ch=window.__ech;if(!ch)return;const idx=(window.__mapaPinIsins||[]).indexOf(isin);if(idx<0)return;try{ch.dispatchAction({type:on?'highlight':'downplay',seriesName:'★ localizados',dataIndex:idx});}catch(e){}}
+function mapaSetRef(isin){const S=window.__mapaS||(window.__mapaS={});S.findRef=(S.findRef===isin)?null:isin;renderMapa();}
 function mapaZBox(S,pairs){ // recuadro de zoom a los seleccionados (con ventana mínima para no sobre-acercar)
   if(S.zoomSel===false||!pairs.length)return null;
   const xs=pairs.map(p=>p[0]),ys=pairs.map(p=>p[1]);const x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys),y1=Math.max(...ys);
@@ -2818,15 +2819,20 @@ function mapaCmpTable(fs,retK,volK,shK,perLbl){
   const f=(v,dec)=>{const n=num(v);return n==null?'—':(n.toFixed(dec==null?1:dec)+'%');};
   const sh=v=>{const n=num(v);return n==null?'—':n.toFixed(2);};
   const order=(window.__mapaS&&window.__mapaS.findSet)||[];
-  const body=fs.slice(0,8).map(d=>`<tr onmouseenter="mapaHl('${d.Isin}',1)" onmouseleave="mapaHl('${d.Isin}',0)" style="cursor:default">`
-    +`<td style="padding:2px 7px;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"><b style="background:#e11d48;color:#fff;border-radius:999px;padding:0 5px;font-size:10px;margin-right:3px">${order.indexOf(d.Isin)+1}</b>${escHtml((d.Name||d.Isin).slice(0,26))}</td>`
-    +`<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums">${f(d[retK])}</td>`
-    +`<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums">${f(d[volK])}</td>`
-    +`<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums">${sh(d[shK])}</td>`
-    +`<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums">${f(d.MaxDrawdownM36)}</td>`
-    +`<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums">${f(d.TER,2)}</td></tr>`).join('');
+  const refIsin=(window.__mapaS&&window.__mapaS.findRef)||null;
+  const ref=refIsin?fs.find(d=>d.Isin===refIsin):null;
+  // Δ frente al fondo de referencia; color verde si mejora, rojo si empeora (dirección según la métrica).
+  const dl=(val,rv,higher,dec)=>{const v=num(val),r=num(rv);if(v==null||r==null)return '';const d=v-r;if(Math.abs(d)<5e-3)return ` <span style="color:var(--muted);font-size:9px">=</span>`;const good=higher?d>0:d<0;return `<span style="color:${good?'#16a34a':'#dc2626'};font-size:9px;margin-left:3px">${d>0?'+':''}${d.toFixed(dec==null?1:dec)}</span>`;};
+  const td=(d,key,higher,dec)=>{const isRef=ref&&d.Isin===ref.Isin;const val=key==='__SH'?sh(d[shK]):f(d[key],dec);const delta=(ref&&!isRef)?(key==='__SH'?dl(d[shK],ref[shK],true,2):dl(d[key],ref[key],higher,dec)):'';return `<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums${isRef?';font-weight:700':''}">${val}${delta}</td>`;};
+  const body=fs.slice(0,8).map(d=>{const isRef=ref&&d.Isin===ref.Isin;
+    const star=`<span onclick="event.stopPropagation();mapaSetRef('${d.Isin}')" title="${isRef?'Quitar referencia':'Fijar como referencia'}" style="cursor:pointer;color:${isRef?'#f59e0b':'var(--muted)'};margin-right:2px;font-size:12px">${isRef?'★':'☆'}</span>`;
+    return `<tr onmouseenter="mapaHl('${d.Isin}',1)" onmouseleave="mapaHl('${d.Isin}',0)" style="cursor:default${isRef?';background:rgba(245,158,11,.14)':''}">`
+     +`<td style="padding:2px 7px;max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${star}<b style="background:#e11d48;color:#fff;border-radius:999px;padding:0 5px;font-size:10px;margin-right:3px">${order.indexOf(d.Isin)+1}</b>${escHtml((d.Name||d.Isin).slice(0,24))}</td>`
+     +td(d,retK,true,null)+td(d,volK,false,null)+td(d,'__SH',true,2)+td(d,'MaxDrawdownM36',true,null)+td(d,'TER',false,2)
+     +`</tr>`;}).join('');
+  const hd=ref?` <span style="color:#f59e0b">· Δ vs ★ ${escHtml((ref.Name||ref.Isin).slice(0,16))}</span>`:` <span style="font-size:9px;color:var(--muted)">(☆ = fijar referencia)</span>`;
   return `<table style="border-collapse:collapse;color:var(--ink);font-size:11px"><thead><tr style="color:var(--muted)">`
-    +`<th style="padding:2px 7px;text-align:left">Comparar (${fs.length})</th><th style="padding:2px 7px;text-align:right">Rent. ${escHtml(perLbl)}</th><th style="padding:2px 7px;text-align:right">Vol.</th><th style="padding:2px 7px;text-align:right">Sharpe</th><th style="padding:2px 7px;text-align:right">Máx.caída 3A</th><th style="padding:2px 7px;text-align:right">TER</th></tr></thead><tbody>${body}</tbody></table>`;
+    +`<th style="padding:2px 7px;text-align:left">Comparar (${fs.length})${hd}</th><th style="padding:2px 7px;text-align:right">Rent. ${escHtml(perLbl)}</th><th style="padding:2px 7px;text-align:right">Vol.</th><th style="padding:2px 7px;text-align:right">Sharpe</th><th style="padding:2px 7px;text-align:right">Máx.caída 3A</th><th style="padding:2px 7px;text-align:right">TER</th></tr></thead><tbody>${body}</tbody></table>`;
 }
 function _kpiTip(d){ if(!d)return '';
   const p=(v,dec,suf)=>{const n=num(v);return n==null?'—':(n.toFixed(dec==null?2:dec)+(suf==null?'%':suf));};
