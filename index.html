@@ -2770,9 +2770,10 @@ function dedupOneClassPerFund(rows){
 }
 function dedupChk(on){return `<label class="eu-note" style="margin:0;cursor:pointer"><input type="checkbox" ${on?'checked':''} onchange="mapaSet('dedup',this.checked)"> Una clase por fondo</label>`;}
 function mapaFindCtrl(){const S=window.__mapaS||{};const set=S.findSet||[];
-  const chips=set.map(isin=>{const d=(window.__biAll||{})[isin];const nm=(d&&d.Name)||isin;
-    return `<span style="display:inline-flex;align-items:center;gap:3px;background:#fde8ec;color:#be123c;border:1px solid #f5c2cd;border-radius:999px;padding:2px 5px 2px 9px;font-size:11px;font-weight:600;max-width:210px" title="${escHtml((d&&d.Name)||'')} ${isin}"><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(nm.slice(0,26))}</span><button onclick="mapaFindDel('${isin}')" title="Quitar" style="border:0;background:transparent;color:#be123c;cursor:pointer;font-weight:700;padding:0 2px;font-size:12px">✕</button></span>`;}).join('');
-  return `<input id="mapaFindInp" list="fundlist" placeholder="🔎 Añade ISIN/nombre/gestora…" value="${(S.findRaw||'').replace(/"/g,'&quot;')}" onchange="mapaFindSet(this.value)" style="min-width:190px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">`+(set.length?` <span style="display:inline-flex;gap:4px;flex-wrap:wrap;align-items:center;vertical-align:middle">${chips}<button onclick="mapaFindSet('')" title="Quitar todos" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">limpiar (${set.length})${S.findFuzzy?' aprox.':''}</button><label style="font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:3px;cursor:pointer;margin-left:2px" title="Encuadra el gráfico a los fondos seleccionados"><input type="checkbox" ${S.zoomSel!==false?'checked':''} onchange="mapaZoomSel(this.checked)" style="margin:0"> 🔍 zoom a estos</label></span>`:'');}
+  const chips=set.map((isin,i)=>{const d=(window.__biAll||{})[isin];const nm=(d&&d.Name)||isin;
+    return `<span onmouseenter="mapaHl('${isin}',1)" onmouseleave="mapaHl('${isin}',0)" style="display:inline-flex;align-items:center;gap:3px;background:#fde8ec;color:#be123c;border:1px solid #f5c2cd;border-radius:999px;padding:2px 5px 2px 5px;font-size:11px;font-weight:600;max-width:220px" title="${escHtml((d&&d.Name)||'')} ${isin}"><b style="background:#e11d48;color:#fff;border-radius:999px;min-width:15px;height:15px;display:inline-flex;align-items:center;justify-content:center;font-size:10px">${i+1}</b><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(nm.slice(0,24))}</span><button onclick="mapaFindDel('${isin}')" title="Quitar" style="border:0;background:transparent;color:#be123c;cursor:pointer;font-weight:700;padding:0 2px;font-size:12px">✕</button></span>`;}).join('');
+  const verTodo=(set.length&&S.zoomSel!==false)?`<button onclick="mapaZoomSel(false)" title="Mostrar todo el gráfico" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">👁 Ver todo</button>`:'';
+  return `<input id="mapaFindInp" list="fundlist" placeholder="🔎 Añade ISIN/nombre/gestora…" value="${(S.findRaw||'').replace(/"/g,'&quot;')}" onchange="mapaFindSet(this.value)" style="min-width:190px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">`+(set.length?` <span style="display:inline-flex;gap:4px;flex-wrap:wrap;align-items:center;vertical-align:middle">${chips}<button onclick="mapaFindSet('')" title="Quitar todos" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">limpiar (${set.length})${S.findFuzzy?' aprox.':''}</button><label style="font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:3px;cursor:pointer;margin-left:2px" title="Encuadra el gráfico a los fondos seleccionados"><input type="checkbox" ${S.zoomSel!==false?'checked':''} onchange="mapaZoomSel(this.checked)" style="margin:0"> 🔍 zoom a estos</label>${verTodo}</span>`:'');}
 function _lev(a,b){const m=a.length,n=b.length;if(!m)return n;if(!n)return m;let prev=Array.from({length:n+1},(_,i)=>i);for(let i=1;i<=m;i++){let cur=[i];for(let j=1;j<=n;j++){cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));}prev=cur;}return prev[n];}
 function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v||'';S.findFuzzy=false;
   if(!v){S.findSet=[];return renderMapa();}
@@ -2802,6 +2803,31 @@ function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v|
 }
 function mapaFindDel(isin){const S=window.__mapaS||(window.__mapaS={});S.findSet=(S.findSet||[]).filter(x=>x!==isin);if(!S.findSet.length)S.findFuzzy=false;renderMapa();}
 function mapaZoomSel(b){const S=window.__mapaS||(window.__mapaS={});S.zoomSel=b;renderMapa();}
+function mapaHl(isin,on){const ch=window.__ech;if(!ch)return;const idx=(window.__mapaPinIsins||[]).indexOf(isin);if(idx<0)return;try{ch.dispatchAction({type:on?'highlight':'downplay',seriesName:'★ localizados',dataIndex:idx});}catch(e){}}
+function mapaZBox(S,pairs){ // recuadro de zoom a los seleccionados (con ventana mínima para no sobre-acercar)
+  if(S.zoomSel===false||!pairs.length)return null;
+  const xs=pairs.map(p=>p[0]),ys=pairs.map(p=>p[1]);const x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys),y1=Math.max(...ys);
+  const cx=(x0+x1)/2,cy=(y0+y1)/2,hx=Math.max((x1-x0)/2*1.8,0.75),hy=Math.max((y1-y0)/2*1.8,1.5);
+  return {xmin:Math.max(0,+(cx-hx).toFixed(2)),xmax:+(cx+hx).toFixed(2),ymin:+(cy-hy).toFixed(2),ymax:+(cy+hy).toFixed(2)};}
+function mapaCmpInject(fs,retK,volK,shK,perLbl){ // superpone la mini-tabla comparativa en #mapaChart
+  try{const cont=document.getElementById('mapaChart');const old=document.getElementById('mapaCmp');if(old)old.remove();
+    if(cont&&fs&&fs.length){cont.style.position='relative';
+      cont.insertAdjacentHTML('beforeend',`<div id="mapaCmp" style="position:absolute;top:46px;left:66px;z-index:5;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.14);padding:5px 7px;max-width:58%;max-height:72%;overflow:auto">${mapaCmpTable(fs,retK,volK,shK,perLbl)}</div>`);}}catch(e){}}
+// Mini-tabla comparativa de los fondos seleccionados (se superpone arriba-izquierda del scatter).
+function mapaCmpTable(fs,retK,volK,shK,perLbl){
+  const f=(v,dec)=>{const n=num(v);return n==null?'—':(n.toFixed(dec==null?1:dec)+'%');};
+  const sh=v=>{const n=num(v);return n==null?'—':n.toFixed(2);};
+  const order=(window.__mapaS&&window.__mapaS.findSet)||[];
+  const body=fs.slice(0,8).map(d=>`<tr onmouseenter="mapaHl('${d.Isin}',1)" onmouseleave="mapaHl('${d.Isin}',0)" style="cursor:default">`
+    +`<td style="padding:2px 7px;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"><b style="background:#e11d48;color:#fff;border-radius:999px;padding:0 5px;font-size:10px;margin-right:3px">${order.indexOf(d.Isin)+1}</b>${escHtml((d.Name||d.Isin).slice(0,26))}</td>`
+    +`<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums">${f(d[retK])}</td>`
+    +`<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums">${f(d[volK])}</td>`
+    +`<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums">${sh(d[shK])}</td>`
+    +`<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums">${f(d.MaxDrawdownM36)}</td>`
+    +`<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums">${f(d.TER,2)}</td></tr>`).join('');
+  return `<table style="border-collapse:collapse;color:var(--ink);font-size:11px"><thead><tr style="color:var(--muted)">`
+    +`<th style="padding:2px 7px;text-align:left">Comparar (${fs.length})</th><th style="padding:2px 7px;text-align:right">Rent. ${escHtml(perLbl)}</th><th style="padding:2px 7px;text-align:right">Vol.</th><th style="padding:2px 7px;text-align:right">Sharpe</th><th style="padding:2px 7px;text-align:right">Máx.caída 3A</th><th style="padding:2px 7px;text-align:right">TER</th></tr></thead><tbody>${body}</tbody></table>`;
+}
 function _kpiTip(d){ if(!d)return '';
   const p=(v,dec,suf)=>{const n=num(v);return n==null?'—':(n.toFixed(dec==null?2:dec)+(suf==null?'%':suf));};
   return `<b>${escHtml(d.Name||'')}</b><br>${d.Isin||''} · ${d.Currency||''}${d.SRRI?(' · SRRI '+d.SRRI):''}`+
@@ -2810,7 +2836,7 @@ function _kpiTip(d){ if(!d)return '';
     `<br>Sharpe 3A: ${num(d.SharpeM36)!=null?num(d.SharpeM36).toFixed(2):'—'} · Máx. caída 3A: ${p(d.MaxDrawdownM36)}`+
     `<br>TER: ${p(d.TER)} · Com. gestión: ${p(d.ManagementFee)}`+(isAbanca(d)?' · <b>ABANCA</b>':'')+(isIronia(d)?`<br><b style="color:#be123c">IronIA</b>${d.IronIAScore!=null?' · puntuación '+Math.round(d.IronIAScore)+'/100':''}${d.Clean?' · clase limpia':''}`:'')+(riskFlag(d)?'<br><b style="color:#b45309">⚠️ Riesgo de gestor/apalancamiento</b>':'');
 }
-function _hlSeriesMulti(points){return {name:'★ localizados',type:'scatter',data:points,symbolSize:16,symbol:'pin',itemStyle:{color:'#e11d48',borderColor:'#FFD400',borderWidth:2},label:{show:points.length<=30,formatter:p=>(p.data[2]||'').slice(0,20),position:'top',color:'#e11d48',fontSize:10,fontWeight:'bold'},labelLayout:{moveOverlap:'shiftY',hideOverlap:false},tooltip:{formatter:p=>{const d=(window.__biAll||{})[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]||''}</b><br>${p.data[3]||''}`;}},z:50};}
+function _hlSeriesMulti(points){return {name:'★ localizados',type:'scatter',data:points,symbolSize:18,symbol:'pin',itemStyle:{color:'#e11d48',borderColor:'#FFD400',borderWidth:2},emphasis:{scale:1.8,itemStyle:{borderColor:'#111',borderWidth:3,shadowBlur:8,shadowColor:'rgba(0,0,0,.45)'}},label:{show:points.length<=80,formatter:p=>String(p.data[4]!=null?p.data[4]:((p.data[2]||'').slice(0,16))),position:'inside',color:'#fff',fontSize:10,fontWeight:'bold'},labelLayout:{moveOverlap:'shiftY',hideOverlap:false},tooltip:{formatter:p=>{const d=(window.__biAll||{})[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]||''}</b><br>${p.data[3]||''}`;}},z:50};}
 function loadECharts(){
   if(window.echarts)return Promise.resolve(window.echarts);
   if(window.__echP)return window.__echP;
@@ -2934,7 +2960,7 @@ function renderMapa(){
         grid:{left:64,right:24,top:20,bottom:52},
         xAxis:{type:'value',name:'Volatilidad (%) · '+perLbl,nameLocation:'middle',nameGap:34,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
         yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
-        series:(()=>{const s=[{type:'scatter',data:rrData,symbolSize:12,itemStyle:{color:'#1F77B4',opacity:.8},label:{show:true,position:'top',formatter:p=>p.data.name.slice(0,18),fontSize:9,color:'#94a3b8'}}];const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);if(fset.length){const pts=fset.map(fd=>{const xv=num(fd[volK]),yv=num(fd[retK]);return (xv!=null&&yv!=null)?[xv,yv,fd.Name||'',fd.Isin]:null;}).filter(Boolean);if(pts.length)s.push(_hlSeriesMulti(pts));}return s;})()});
+        series:(()=>{const s=[{type:'scatter',data:rrData,symbolSize:12,itemStyle:{color:'#1F77B4',opacity:.8},label:{show:true,position:'top',formatter:p=>p.data.name.slice(0,18),fontSize:9,color:'#94a3b8'}}];const _o=S.findSet||[];const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);if(fset.length){const pts=fset.map(fd=>{const xv=num(fd[volK]),yv=num(fd[retK]);return (xv!=null&&yv!=null)?[xv,yv,fd.Name||'',fd.Isin,_o.indexOf(fd.Isin)+1]:null;}).filter(Boolean);if(pts.length)s.push(_hlSeriesMulti(pts));}return s;})()});
       rr2.on('click',p=>{const d=bi[p.data.isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${p.data.isin}`,'_blank');});
       const evo=window.__ech2=echarts.init(document.getElementById('mapaEvo'),dark?'dark':null);
       loadSeries().then(SER=>{
@@ -2959,9 +2985,12 @@ function renderMapa(){
       const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,emphasis:{focus:'series'},itemStyle:{opacity:.72,color:colOf(g)}}))
         .concat(Object.entries(byIr).map(([g,data])=>({name:g+' · IronIA',type:'scatter',data,large:true,largeThreshold:400,symbol:'diamond',symbolSize:6,emphasis:{focus:'series'},itemStyle:{opacity:.45,color:colOf(g)}})));
       const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
-      if(fset.length){const pts=[],miss=[]; fset.forEach(fd=>{const xv=num(fd[xK]),yv=num(fd[retK]); if(xv!=null&&yv!=null)pts.push([xv,yv,fd.Name||'',fd.Isin]); else miss.push(fd.Name||fd.Isin);});
+      const _ord=S.findSet||[];
+      if(fset.length){const pts=[],miss=[]; fset.forEach(fd=>{const xv=num(fd[xK]),yv=num(fd[retK]); if(xv!=null&&yv!=null)pts.push([xv,yv,fd.Name||'',fd.Isin,_ord.indexOf(fd.Isin)+1]); else miss.push(fd.Name||fd.Isin);});
+        window.__mapaPinIsins=pts.map(p=>p[3]);
         if(pts.length)series.push(_hlSeriesMulti(pts));
         if(miss.length)document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">⚠️ ${miss.length} fondo(s) localizado(s) no se muestran: sin dato en este periodo (${perLbl}) → ${miss.slice(0,4).map(escHtml).join(', ')}${miss.length>4?'…':''}. Prueba con otro periodo (p. ej. 1 año).</div>`);}
+      else window.__mapaPinIsins=[];
       if(S.origen==='ABANCA' && type==='rr' && (per==='M36'||per==='M60')) document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">Los fondos solo-ABANCA solo tienen volatilidad a 1 año → cambia el periodo a «1 año» para verlos aquí (en <b>Coste-Rentabilidad</b> aparecen en cualquier periodo).</div>`);
       // auto-zoom a los fondos seleccionados (pines): si hay fondos fijados y el zoom está activo,
       // encuadra el gráfico a su región (con margen y una ventana mínima para que no se "sobre-acerque").
@@ -2989,6 +3018,12 @@ function renderMapa(){
       chart.setOption(option);
       chart.on('legendselectchanged',e=>{S.legendSel=e.selected;});
       chart.on('click',p=>{const isin=p.data&&p.data[3]; if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}});
+      // mini-tabla comparativa de los seleccionados, superpuesta en la esquina superior-izquierda (zona vacía)
+      try{const cont=document.getElementById('mapaChart');const old=document.getElementById('mapaCmp');if(old)old.remove();
+        const fs=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
+        if(cont&&fs.length){cont.style.position='relative';
+          cont.insertAdjacentHTML('beforeend',`<div id="mapaCmp" style="position:absolute;top:46px;left:78px;z-index:5;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.14);padding:5px 7px;max-width:56%;max-height:72%;overflow:auto">${mapaCmpTable(fs,retK,volK,shK,perLbl)}</div>`);}
+      }catch(e){}
     }
     if(!window.__echResize){window.__echResize=true;window.addEventListener('resize',()=>{if(window.__ech){try{window.__ech.resize();}catch(e){}}});}
   }).catch(e=>{const c=document.getElementById('mapaChart'); if(c)c.innerHTML=`<div style="padding:20px;color:var(--muted)">No se pudo cargar la librería de gráficos: ${e.message}</div>`;});
@@ -3064,7 +3099,7 @@ function renderMapa2(type){
     return;
   }
   if(type==='dd'){
-    const p2=(per==='M0'||per==='M12')?'M12':per; const ddKp={M12:'MaxDrawdownM12',M36:'MaxDrawdownM36',M60:'MaxDrawdownM60'}[p2]; const retKp={M12:'ReturnM12',M36:'ReturnM36',M60:'ReturnM60'}[p2];
+    const p2=(per==='M0'||per==='M12')?'M12':per; const ddKp={M12:'MaxDrawdownM12',M36:'MaxDrawdownM36',M60:'MaxDrawdownM60'}[p2]; const retKp={M12:'ReturnM12',M36:'ReturnM36',M60:'ReturnM60'}[p2]; const volKp={M12:'StandardDeviationM12',M36:'StandardDeviationM36',M60:'StandardDeviationM60'}[p2]; const shKp={M12:'SharpeM12',M36:'SharpeM36',M60:'SharpeM60'}[p2];
     const pL={M12:'1 año',M36:'3 años',M60:'5 años'}[p2];
     const pSel=`<select onchange="mapaSet('per',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${[['M12','1 año'],['M36','3 años'],['M60','5 años']].map(([v,l])=>`<option value="${v}" ${v===p2?'selected':''}>${l}</option>`).join('')}</select>`;
     el.innerHTML=`<div class="eu-head">${titles.dd}</div>
@@ -3073,16 +3108,19 @@ function renderMapa2(type){
       <div class="eu-note" style="margin:8px 0">Eje X = <b>máxima caída</b> (peor racha), Eje Y = <b>rentabilidad</b>. Lo mejor está <b>arriba-izquierda</b> (gana mucho cayendo poco). Solo fondos con dato de drawdown (los solo-ABANCA no lo tienen).</div>`;
     const byClass={}; base.forEach(d=>{const dd=num(d[ddKp]),rt=num(d[retKp]);if(dd==null||rt==null)return;const g=d.GlobalAssetClass||'(otros)';(byClass[g]=byClass[g]||[]).push([Math.abs(dd),rt,d.Name||'',d.Isin||'',num(d.TER),num(d[shK])]);});
     const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,itemStyle:{opacity:.72}}));
-    const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean); if(fset.length){const pts=[],miss=[]; fset.forEach(fd=>{const xv=num(fd[ddKp]),yv=num(fd[retKp]); if(xv!=null&&yv!=null)pts.push([Math.abs(xv),yv,fd.Name||'',fd.Isin]); else miss.push(fd.Name||fd.Isin);}); if(pts.length)series.push(_hlSeriesMulti(pts)); if(miss.length)document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">⚠️ ${miss.length} fondo(s) sin dato de drawdown en ${pL}: ${miss.slice(0,4).map(escHtml).join(', ')}${miss.length>4?'…':''}.</div>`);}
+    const _ord=S.findSet||[]; const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean); window.__mapaPinIsins=[]; if(fset.length){const pts=[],miss=[]; fset.forEach(fd=>{const xv=num(fd[ddKp]),yv=num(fd[retKp]); if(xv!=null&&yv!=null)pts.push([Math.abs(xv),yv,fd.Name||'',fd.Isin,_ord.indexOf(fd.Isin)+1]); else miss.push(fd.Name||fd.Isin);}); window.__mapaPinIsins=pts.map(p=>p[3]); if(pts.length)series.push(_hlSeriesMulti(pts)); if(miss.length)document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">⚠️ ${miss.length} fondo(s) sin dato de drawdown en ${pL}: ${miss.slice(0,4).map(escHtml).join(', ')}${miss.length>4?'…':''}.</div>`);}
+    const _zb=mapaZBox(S, fset.map(fd=>[num(fd[ddKp])!=null?Math.abs(num(fd[ddKp])):null,num(fd[retKp])]).filter(p=>p[0]!=null&&p[1]!=null));
+    if(_zb)document.getElementById('mapaNote')&&document.getElementById('mapaNote').insertAdjacentHTML('beforeend',` <b style="color:#e11d48">🔍 zoom a los ${fset.length} seleccionados</b>.`);
     if(S.origen==='ABANCA') document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">Los fondos solo-ABANCA no tienen dato de drawdown → no aparecen en este mapa. Úsalos en <b>Coste-Rentabilidad</b> o en <b>Riesgo-Rentabilidad a 1 año</b>.</div>`);
     setChart(chart=>{chart.setOption({backgroundColor:'transparent',
       tooltip:{trigger:'item',formatter:p=>{const d=bi[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]}</b><br>${p.data[3]}`;}},
       legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'},selected:(S.legendSel||undefined)},grid:{left:64,right:30,top:44,bottom:56},dataZoom:[{type:'inside'},{type:'inside',orient:'vertical'}],
-      xAxis:{type:'value',name:'Máxima caída (%)',nameLocation:'middle',nameGap:34,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
-      yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
+      xAxis:{type:'value',name:'Máxima caída (%)',nameLocation:'middle',nameGap:34,min:_zb?_zb.xmin:undefined,max:_zb?_zb.xmax:undefined,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
+      yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,min:_zb?_zb.ymin:undefined,max:_zb?_zb.ymax:undefined,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
       series});
       chart.on('legendselectchanged',e=>{S.legendSel=e.selected;});
-      chart.on('click',pp=>{const isin=pp.data&&pp.data[3];if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}});});
+      chart.on('click',pp=>{const isin=pp.data&&pp.data[3];if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}});
+      mapaCmpInject(fset,retKp,volKp,shKp,pL);});
     return;
   }
   // ---- Correlación ----
