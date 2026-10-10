@@ -2793,6 +2793,12 @@ const CLUSTERS=[
    cat:/emergente/i, nm:/emerg|\bem\b|\bem ?mkts?\b|\bemg\b|\bgem\b|frontier|developing/i, ok:_isEqF},
   {id:'ene',name:'Energía',color:'#dc2626',sec:'309',secMin:40,
    cat:/energ[ií]a/i, nm:/energ|\boil\b|petrol|\bgas\b|renewab|clean ?power|hydrogen|nuclear|uranium/i, ok:_isEqF},
+  {id:'bra',name:'Brasil',color:'#65a30d',
+   cat:/^RV Brasil$/i, nm:/\bbra[sz]il/i, ok:d=>_isEqF(d)&&!/\bBR?IC\b|brazil,? india|bric/i.test(_nmF(d))}, // fuera los BIC/BRIC (Brasil+India+China)
+  {id:'lat',name:'Latinoamérica',color:'#0d9488',reg:'3',regMin:60,
+   // incluye también los de Brasil (un fondo puede estar en varios clusters) y los de RV con ≥60 % de cartera en Latinoamérica
+   cat:/latinoam|^RV Brasil$/i, nm:/\blatin|\blatam|iberoam|\bbra[sz]il|\bmexic|\bandean|\bchile\b|\bperu\b|\bcolombia|\bargentin/i, // \b: «Accumulating» contiene «latin»
+   ok:d=>_isEqF(d)&&!/\bBR?IC\b|brazil,? india|bric/i.test(_nmF(d))},
   {id:'mat',name:'Materiales y minería (empresas)',color:'#7c3aed',sec:'101',secMin:40,
    // Solo EMPRESAS (acciones). Los que invierten directamente en materias primas (futuros/swaps) van al cluster «mp».
    // «RV Sector Materiales Industriales» de Morningstar es el sector INDUSTRIAL (defensa, maquinaria): solo entra por nombre (p. ej. «Smart Materials»)
@@ -2823,7 +2829,8 @@ function cluSaveEdits(o){try{localStorage.setItem('fb_clusters_v1',JSON.stringif
 function cluMembers(c,pool,all){
   const ed=(cluEdits()[c.id])||{}; const del=new Set(ed.del||[]), add=ed.add||[];
   const E=window.__expo||{};
-  const bySec=d=>c.sec&&_isEqF(d)&&((((E[d.Isin]||{}).sec||{})[c.sec])||0)>=c.secMin;
+  const bySec=d=>(c.sec&&_isEqF(d)&&((((E[d.Isin]||{}).sec||{})[c.sec])||0)>=c.secMin)
+    ||(c.reg&&_isEqF(d)&&((((E[d.Isin]||{}).reg||{})[c.reg])||0)>=c.regMin); // por cartera real: sector o región (solo RV)
   const out=pool.filter(d=>!del.has(d.Isin)&&((c.ok(d)&&(c.cat.test(d.CategoryName||'')||c.cat.test(d.GlobalCategoryName||'')||c.nm.test(_nmF(d))))||bySec(d)));
   const have=new Set(out.map(d=>d.Isin));
   add.forEach(is=>{if(!have.has(is)&&!del.has(is)&&all[is]){out.push(all[is]);have.add(is);}});
@@ -2875,16 +2882,18 @@ function cluBar(){
         <input id="cluAddInp" list="fundlist" placeholder="Añadir ISIN(s) o nombre…" onchange="cluAdd('${ec.id}',this.value)" style="min-width:220px;padding:5px 9px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">
         <button onclick="cluReset('${ec.id}')" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">↺ Regla original</button>
         <button onclick="cluEditOpen('${ec.id}')" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">Cerrar</button></div>
-      ${ec.sec?`<div class="eu-note" style="margin:0 0 6px">Entran por <b>categoría</b>, por <b>nombre</b> o por <b>cartera real</b> (fondos de RV con ≥${ec.secMin}% en ${escHtml(SEC_LAB[ec.sec]||ec.sec)} según sus posiciones; 📊 = entra solo por cartera). El % junto a cada fondo es su peso real en el sector${(window.__expo&&Object.keys(window.__expo).length)?'':' (cargando posiciones…)'}; los de IronIA no traen cartera.</div>`:''}
-      <div style="display:flex;flex-wrap:wrap;gap:4px;max-height:170px;overflow:auto">${mem.map(d=>{const _sp=ec.sec?((((window.__expo||{})[d.Isin]||{}).sec||{})[ec.sec]):null;const _byName=ec.ok(d)&&(ec.cat.test(d.CategoryName||'')||ec.cat.test(d.GlobalCategoryName||'')||ec.nm.test(_nmF(d)));const _onlySec=ec.sec&&!_byName&&!addS.has(d.Isin);return `<span title="${escHtml(d.Isin)} · ${escHtml(d.CategoryName||'')}" style="display:inline-flex;align-items:center;gap:3px;border:1px solid ${_onlySec?ec.color:'var(--line)'};border-radius:999px;padding:1px 4px 1px 8px;font-size:11px;background:${addS.has(d.Isin)?'#ecfdf5':'var(--tabbg)'}">${_onlySec?'📊 ':''}${escHtml((d.Name||d.Isin).slice(0,34))}${_sp!=null?` <span style="color:var(--muted)">${Math.round(_sp)}%</span>`:''}<button onclick="cluDel('${ec.id}','${d.Isin}')" title="Quitar del cluster" style="border:none;background:none;cursor:pointer;color:#be123c;font-weight:700">×</button></span>`;}).join('')||'<span class="eu-note">Sin fondos en este origen.</span>'}</div>
+      ${(ec.sec||ec.reg)?`<div class="eu-note" style="margin:0 0 6px">Entran por <b>categoría</b>, por <b>nombre</b> o por <b>cartera real</b> (fondos de RV con ≥${ec.sec?ec.secMin:ec.regMin}% en ${ec.sec?escHtml(SEC_LAB[ec.sec]||ec.sec):'Latinoamérica'} según sus posiciones; 📊 = entra solo por cartera). El % junto a cada fondo es su peso real en ${ec.sec?'el sector':'la región'}${(window.__expo&&Object.keys(window.__expo).length)?'':' (cargando posiciones…)'}; los de IronIA no traen cartera.</div>`:''}
+      <div style="display:flex;flex-wrap:wrap;gap:4px;max-height:170px;overflow:auto">${mem.map(d=>{const _sp=ec.sec?((((window.__expo||{})[d.Isin]||{}).sec||{})[ec.sec]):ec.reg?((((window.__expo||{})[d.Isin]||{}).reg||{})[ec.reg]):null;const _byName=ec.ok(d)&&(ec.cat.test(d.CategoryName||'')||ec.cat.test(d.GlobalCategoryName||'')||ec.nm.test(_nmF(d)));const _onlySec=(ec.sec||ec.reg)&&!_byName&&!addS.has(d.Isin);return `<span title="${escHtml(d.Isin)} · ${escHtml(d.CategoryName||'')}" style="display:inline-flex;align-items:center;gap:3px;border:1px solid ${_onlySec?ec.color:'var(--line)'};border-radius:999px;padding:1px 4px 1px 8px;font-size:11px;background:${addS.has(d.Isin)?'#ecfdf5':'var(--tabbg)'}">${_onlySec?'📊 ':''}${escHtml((d.Name||d.Isin).slice(0,34))}${_sp!=null?` <span style="color:var(--muted)">${Math.round(_sp)}%</span>`:''}<button onclick="cluDel('${ec.id}','${d.Isin}')" title="Quitar del cluster" style="border:none;background:none;cursor:pointer;color:#be123c;font-weight:700">×</button></span>`;}).join('')||'<span class="eu-note">Sin fondos en este origen.</span>'}</div>
       ${delRows.length?`<div class="eu-note" style="margin:6px 0 0">Quitados a mano: ${delRows.map(d=>`<a href="javascript:cluRestore('${ec.id}','${d.Isin}')" title="Volver a incluir">↺ ${escHtml((d.Name||d.Isin).slice(0,28))}</a>`).join(' · ')}</div>`:''}
     </div>`;}
   return html;
 }
 // series de dispersión (una por cluster activo) con los mismos campos que los puntos normales
 function cluScatterSeries(groups,fx,fy){
-  return groups.map(({c,rows})=>({name:'◆ '+c.name,type:'scatter',symbolSize:10,z:40,
-    itemStyle:{color:c.color,borderColor:'#fff',borderWidth:1,opacity:.95},emphasis:{scale:1.6},
+  const nTot=groups.reduce((a,g)=>a+g.rows.length,0), lab=nTot<=180; // con muchísimos puntos, sin números para no emborronar
+  return groups.map(({c,rows})=>({name:'◆ '+c.name,type:'scatter',symbolSize:lab?17:10,z:40,
+    itemStyle:{color:c.color,borderColor:'#fff',borderWidth:1,opacity:.95},emphasis:{scale:1.5},
+    label:{show:lab,position:'inside',formatter:p=>String((window.__cmpNum||{})[p.data[3]]||''),color:'#fff',fontSize:9,fontWeight:'bold'},
     data:rows.map(d=>{const x=fx(d),y=fy(d);return (x==null||y==null)?null:[x,y,d.Name||'',d.Isin||'',num(d.TER),null,d.SRRI];}).filter(Boolean)}));
 }
 // tabla resumen por cluster (medianas) para comparar familias
@@ -2899,6 +2908,9 @@ function cluSummary(groups,retK,volK,shK,perLbl){
   return `<div style="overflow:auto;margin:8px 0"><table style="border-collapse:collapse;font-size:12px;width:100%"><thead><tr style="text-align:left;color:var(--muted)"><th>Cluster</th><th style="text-align:right">Fondos</th><th style="text-align:right">Rentab. mediana</th><th style="text-align:right">Vol. mediana</th><th style="text-align:right">Sharpe mediano</th><th>Mejor Sharpe</th><th>Más rentable</th></tr></thead><tbody>${rows}</tbody></table><div class="eu-note" style="margin:4px 0">Medianas del cluster · ${perLbl}. Solo cuentan los fondos con dato en ese periodo.</div></div>`;
 }
 function _lev(a,b){const m=a.length,n=b.length;if(!m)return n;if(!n)return m;let prev=Array.from({length:n+1},(_,i)=>i);for(let i=1;i<=m;i++){let cur=[i];for(let j=1;j<=n;j++){cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));}prev=cur;}return prev[n];}
+// los fondos fijados (pines) y la referencia ★ se guardan en el navegador: una recarga ya no los borra
+function _mapaSGet(){if(!window.__mapaS){window.__mapaS={per:'M36',asset:'',srri:'',origen:''};try{const g=JSON.parse(localStorage.getItem('fb_find_v1')||'null');if(g&&Array.isArray(g.set)){window.__mapaS.findSet=g.set;window.__mapaS.findRef=g.ref||null;}}catch(e){}}return window.__mapaS;}
+function _mapaSSave(S){try{localStorage.setItem('fb_find_v1',JSON.stringify({set:S.findSet||[],ref:S.findRef||null}));}catch(e){}}
 function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v||'';S.findFuzzy=false;
   if(!v){S.findSet=[];S.findRef=null;return renderMapa();}
   const q=String(v).trim(); const ms=q.toUpperCase().match(/\b[A-Z]{2}[0-9A-Z]{9}[0-9]\b/g)||[];
@@ -2928,7 +2940,27 @@ function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v|
 }
 function mapaFindDel(isin){const S=window.__mapaS||(window.__mapaS={});S.findSet=(S.findSet||[]).filter(x=>x!==isin);if(S.findRef===isin)S.findRef=null;if(!S.findSet.length)S.findFuzzy=false;renderMapa();}
 function mapaZoomSel(b){const S=window.__mapaS||(window.__mapaS={});S.zoomSel=b;renderMapa();}
-function mapaHl(isin,on){const ch=window.__ech;if(!ch)return;const idx=(window.__mapaPinIsins||[]).indexOf(isin);if(idx<0)return;try{ch.dispatchAction({type:on?'highlight':'downplay',seriesName:'★ localizados',dataIndex:idx});}catch(e){}}
+function mapaHl(isin,on){const ch=window.__ech;if(!ch)return;
+  const idx=(window.__mapaPinIsins||[]).indexOf(isin);
+  try{if(idx>=0)ch.dispatchAction({type:on?'highlight':'downplay',seriesName:'★ localizados',dataIndex:idx});
+    else{const c=(window.__cluPtIdx||{})[isin];if(c)ch.dispatchAction({type:on?'highlight':'downplay',seriesName:c.s,dataIndex:c.i});}
+    if(on&&isin===(window.__mapaS||{}).findRef)ch.dispatchAction({type:'highlight',seriesName:'★ Referencia',dataIndex:0});
+  }catch(e){}}
+// fondo de referencia (★ de la tabla) dibujado en el gráfico como estrella dorada con su nombre
+const _STAR='path://M50,2 L62,37 L99,37 L69,59 L80,95 L50,73 L20,95 L31,59 L1,37 L38,37 Z';
+function mapaRefSeries(S,bi,fx,fy){const d=S.findRef&&bi[S.findRef];if(!d)return null;const x=fx(d),y=fy(d);if(x==null||y==null)return null;
+  return {name:'★ Referencia',type:'scatter',data:[[x,y,d.Name||'',d.Isin,num(d.TER),null,d.SRRI]],symbol:_STAR,symbolSize:28,z:70,
+    itemStyle:{color:'#f59e0b',borderColor:'#78350f',borderWidth:1.5,shadowBlur:10,shadowColor:'rgba(245,158,11,.8)'},
+    emphasis:{scale:1.3},label:{show:true,position:'right',formatter:'★ '+String(d.Name||d.Isin).slice(0,26),color:'#b45309',fontWeight:'bold',fontSize:11,backgroundColor:'rgba(255,251,235,.85)',padding:[1,4],borderRadius:4}};}
+// índice ISIN → (serie, posición) de los puntos de clusters, para resaltar el punto al pasar por su fila
+function mapaIndexClu(series){const m={};series.filter(s=>String(s.name).startsWith('◆ ')).forEach(s=>(s.data||[]).forEach((p,i)=>{if(p&&!(p[3] in m))m[p[3]]={s:s.name,i};}));window.__cluPtIdx=m;}
+// al pasar el ratón por un punto: sombrea su fila en la tabla flotante y la desplaza a la vista
+function cmpRowHl(isin,on){const box=document.getElementById('mapaCmpBody');if(!box)return;
+  box.querySelectorAll('tr.cmp-hl').forEach(r=>{r.classList.remove('cmp-hl');r.style.background=r.dataset.bg||'';r.style.outline='';});
+  if(!on||!isin)return;const r=box.querySelector(`tr[data-isin="${isin}"]`);if(!r)return;
+  r.classList.add('cmp-hl');r.style.background='rgba(59,130,246,.28)';r.style.outline='2px solid #3b82f6';
+  const rt=r.offsetTop,rb=rt+r.offsetHeight;if(rt<box.scrollTop+24||rb>box.scrollTop+box.clientHeight)box.scrollTop=Math.max(0,rt-box.clientHeight/2);}
+function mapaChartHover(chart){chart.on('mouseover',p=>{const is=p.data&&p.data[3];if(is)cmpRowHl(is,1);});chart.on('mouseout',()=>cmpRowHl(null,0));chart.on('globalout',()=>cmpRowHl(null,0));}
 function mapaSetRef(isin){const S=window.__mapaS||(window.__mapaS={});S.findRef=(S.findRef===isin)?null:isin;renderMapa();}
 function mapaZBox(S,pairs){ // recuadro de zoom a los seleccionados (con ventana mínima para no sobre-acercar)
   if(S.zoomSel===false||!pairs.length)return null;
@@ -2966,11 +2998,19 @@ function mapaCmpInject(fs,retK,volK,shK,perLbl,opts){ // tabla comparativa FLOTA
   }catch(e){console.warn('mapaCmp',e);}}
 function mapaCmpMin(){try{localStorage.setItem('fb_cmp_min',localStorage.getItem('fb_cmp_min')==='1'?'0':'1');}catch(e){}renderMapa();}
 function mapaCmpReset(){try{['fb_cmp_pos','fb_cmp_pos2','fb_cmp_size','fb_cmp_sort'].forEach(k=>localStorage.removeItem(k));}catch(e){}renderMapa();}
+// filas de la tabla en el orden elegido (lo usan la tabla y los números de los puntos del gráfico)
+function mapaCmpSortRows(fs,retK,volK,shK,all){let st=null;try{st=JSON.parse(localStorage.getItem('fb_cmp_sort')||'null');}catch(e){}
+  const keyOf={name:d=>String(d.Name||d.Isin).toLowerCase(),ret:d=>num(d[retK]),vol:d=>num(d[volK]),sh:d=>num(d[shK]),dd:d=>num(d.MaxDrawdownM36),ter:d=>num(d.TER)};
+  const rows=fs.slice(); // todas las filas, sin tope: el panel tiene scroll y se redimensiona (antes se cortaba en 8 y los pines 9, 10… no salían)
+  if(st&&keyOf[st.k]){const g=keyOf[st.k],m=st.dir==='asc'?1:-1;rows.sort((a,b)=>{const x=g(a),y=g(b);if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;return (x<y?-1:x>y?1:0)*m;});}
+  return rows;}
+// número de cada fondo de los clusters = su posición en la tabla
+function mapaCluNumbers(S,bi,cluG,retK,volK,shK){const c=mapaCmpSet(S,bi,cluG,retK);window.__cmpNum=c.opts?Object.fromEntries(mapaCmpSortRows(c.fs,retK,volK,shK,true).map((d,i)=>[d.Isin,i+1])):{};}
 // ordenar la tabla por columna: 1.er clic descendente, 2.º ascendente, 3.º vuelve al orden por defecto
 function mapaCmpSort(k){let st=null;try{st=JSON.parse(localStorage.getItem('fb_cmp_sort')||'null');}catch(e){}
   if(!st||st.k!==k)st={k,dir:k==='name'?'asc':'desc'}; else if(st.dir===(k==='name'?'asc':'desc'))st.dir=(k==='name'?'desc':'asc'); else st=null;
   try{st?localStorage.setItem('fb_cmp_sort',JSON.stringify(st)):localStorage.removeItem('fb_cmp_sort');}catch(e){}
-  const b=document.getElementById('mapaCmpBody');if(b&&window.__cmpArgs)b.innerHTML=mapaCmpTable(...window.__cmpArgs);}
+  renderMapa();}
 // fondos para la tabla: los buscados (pines) o, si no hay, los de los clusters activos ordenados por rentabilidad
 function mapaCmpSet(S,bi,cluG,retK){
   const pins=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
@@ -2992,14 +3032,12 @@ function mapaCmpTable(fs,retK,volK,shK,perLbl,opts){
   const td=(d,key,higher,dec)=>{const isRef=ref&&d.Isin===ref.Isin;const val=key==='__SH'?sh(d[shK]):f(d[key],dec);const delta=(ref&&!isRef)?(key==='__SH'?dl(d[shK],ref[shK],true,2):dl(d[key],ref[key],higher,dec)):'';return `<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums${isRef?';font-weight:700':''}">${val}${delta}</td>`;};
   const _all=opts&&opts.all, _col=(opts&&opts.colors)||null;
   let st=null;try{st=JSON.parse(localStorage.getItem('fb_cmp_sort')||'null');}catch(e){}
-  const keyOf={name:d=>String(d.Name||d.Isin).toLowerCase(),ret:d=>num(d[retK]),vol:d=>num(d[volK]),sh:d=>num(d[shK]),dd:d=>num(d.MaxDrawdownM36),ter:d=>num(d.TER)};
-  let rowsS=_all?fs.slice():fs.slice(0,8);
-  if(st&&keyOf[st.k]){const g=keyOf[st.k],m=st.dir==='asc'?1:-1;rowsS.sort((a,b)=>{const x=g(a),y=g(b);if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;return (x<y?-1:x>y?1:0)*m;});}
+  const rowsS=mapaCmpSortRows(fs,retK,volK,shK,_all);
   const arrow=k=>(st&&st.k===k)?(st.dir==='asc'?' ▲':' ▼'):'';
   const thS=(k,lbl,al)=>`<th data-k="${k}" onclick="mapaCmpSort('${k}')" title="Ordenar por esta columna (clic: ▼ mayor a menor · otro clic: ▲ menor a mayor · otro: orden inicial)" style="padding:2px 7px;text-align:${al||'right'};white-space:nowrap${(st&&st.k===k)?';color:#fbbf24':''}">${lbl}${arrow(k)}</th>`;
   const body=rowsS.map((d,_i)=>{const isRef=ref&&d.Isin===ref.Isin;
     const star=`<span onclick="event.stopPropagation();mapaSetRef('${d.Isin}')" title="${isRef?'Quitar referencia':'Fijar como referencia'}" style="cursor:pointer;color:${isRef?'#f59e0b':'var(--muted)'};margin-right:2px;font-size:12px">${isRef?'★':'☆'}</span>`;
-    return `<tr onmouseenter="mapaHl('${d.Isin}',1)" onmouseleave="mapaHl('${d.Isin}',0)" style="cursor:default${isRef?';background:rgba(245,158,11,.14)':''}">`
+    return `<tr data-isin="${d.Isin}" data-bg="${isRef?'rgba(245,158,11,.14)':''}" onmouseenter="mapaHl('${d.Isin}',1)" onmouseleave="mapaHl('${d.Isin}',0)" style="cursor:default${isRef?';background:rgba(245,158,11,.14)':''}">`
      +`<td style="padding:2px 7px;max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${star}${_col?`<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${_col[d.Isin]||'#999'};margin-right:4px"></span><span style="color:var(--muted);font-size:9px;margin-right:3px">${_i+1}</span>`:`<b style="background:#e11d48;color:#fff;border-radius:999px;padding:0 5px;font-size:10px;margin-right:3px">${order.indexOf(d.Isin)+1}</b>`}${escHtml((d.Name||d.Isin).slice(0,_col?30:24))}</td>`
      +td(d,retK,true,null)+td(d,volK,false,null)+td(d,'__SH',true,2)+td(d,'MaxDrawdownM36',true,null)+td(d,'TER',false,2)
      +`</tr>`;}).join('');
@@ -3072,7 +3110,7 @@ function renderMapa(){
   const el=document.getElementById("mapa");
   const type=window.__mapaType||'rr';
   if(['heatmap','box','dd','corr'].includes(type)) return renderMapa2(type);
-  const S=window.__mapaS||(window.__mapaS={per:'M36',asset:'',srri:'',origen:''});
+  const S=_mapaSGet(); _mapaSSave(S);
   const per=S.per||'M36';
   const perLbl={M0:'YTD (año en curso)',M12:'1 año',M36:'3 años (anualiz.)',M60:'5 años (anualiz.)'}[per];
   const retK={M0:'ReturnM0',M12:'ReturnM12',M36:'ReturnM36',M60:'ReturnM60'}[per];
@@ -3175,7 +3213,7 @@ function renderMapa(){
         .concat(Object.entries(byIr).map(([g,data])=>({name:g+' · IronIA',type:'scatter',data,large:true,largeThreshold:400,symbol:'diamond',symbolSize:6,emphasis:{focus:'series'},itemStyle:{opacity:.45,color:colOf(g)}})));
       if(cluG.length){ // clusters: el resto del catálogo queda de fondo, atenuado; cada cluster en su color
         series.forEach(s=>{s.itemStyle=Object.assign({},s.itemStyle,{opacity:.12});});
-        series.push(...cluScatterSeries(cluG,d=>num(d[xK]),d=>num(d[retK])));
+        mapaCluNumbers(S,bi,cluG,retK,volK,shK); series.push(...cluScatterSeries(cluG,d=>num(d[xK]),d=>num(d[retK])));
         const nm=document.getElementById('mapaNote'); if(nm)nm.insertAdjacentHTML('afterend',cluSummary(cluG,retK,volK,shK,perLbl));
         if(!(S.findSet||[]).length&&S.zoomSel!==false){S.__cluZoom=cluG.flatMap(g=>g.rows).map(d=>[num(d[xK]),num(d[retK])]).filter(p=>p[0]!=null&&p[1]!=null);}
       } else S.__cluZoom=null;
@@ -3186,6 +3224,7 @@ function renderMapa(){
         if(pts.length)series.push(_hlSeriesMulti(pts));
         if(miss.length)document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">⚠️ ${miss.length} fondo(s) localizado(s) no se muestran: sin dato en este periodo (${perLbl}) → ${miss.slice(0,4).map(escHtml).join(', ')}${miss.length>4?'…':''}. Prueba con otro periodo (p. ej. 1 año).</div>`);}
       else window.__mapaPinIsins=[];
+      {const rs=mapaRefSeries(S,bi,d=>num(d[xK]),d=>num(d[retK]));if(rs)series.push(rs);} mapaIndexClu(series);
       if(S.origen==='ABANCA' && type==='rr' && (per==='M36'||per==='M60')) document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">Los fondos solo-ABANCA solo tienen volatilidad a 1 año → cambia el periodo a «1 año» para verlos aquí (en <b>Coste-Rentabilidad</b> aparecen en cualquier periodo).</div>`);
       // auto-zoom a los fondos seleccionados (pines): si hay fondos fijados y el zoom está activo,
       // encuadra el gráfico a su región (con margen y una ventana mínima para que no se "sobre-acerque").
@@ -3217,7 +3256,7 @@ function renderMapa(){
         series};
       chart.setOption(option);
       chart.on('legendselectchanged',e=>{S.legendSel=e.selected;});
-      chart.on('click',p=>{const isin=p.data&&p.data[3]; if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}});
+      chart.on('click',p=>{const isin=p.data&&p.data[3]; if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}}); mapaChartHover(chart);
       // mini-tabla comparativa de los seleccionados, superpuesta en la esquina superior-izquierda (zona vacía)
       {const _c=mapaCmpSet(S,bi,cluG,retK);mapaCmpInject(_c.fs,retK,volK,shK,perLbl,_c.opts);}
     }
@@ -3235,7 +3274,7 @@ function loadVLHist(){ if(window.__vlhist)return Promise.resolve(window.__vlhist
 function renderMapa2(type){
   {const _o=document.getElementById('mapaCmp');if(_o)_o.remove();} // el panel flotante se vuelve a crear si la vista lo usa
   const el=document.getElementById("mapa");
-  const S=window.__mapaS||(window.__mapaS={per:'M36',asset:'',srri:'',origen:''});
+  const S=_mapaSGet(); _mapaSSave(S);
   const perOpts=[['M0','YTD'],['M12','1 año'],['M36','3 años'],['M60','5 años']];
   const perSel=(cur)=>`<select onchange="mapaSet('per',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${perOpts.map(([v,l])=>`<option value="${v}" ${v===cur?'selected':''}>${l}</option>`).join('')}</select>`;
   const grpKey=(S.grp==='cat')?'GlobalCategoryName':'GlobalAssetClass';
@@ -3313,7 +3352,8 @@ function renderMapa2(type){
       <div class="eu-note" style="margin:8px 0">Eje X = <b>máxima caída</b> (peor racha), Eje Y = <b>rentabilidad</b>. Lo mejor está <b>arriba-izquierda</b> (gana mucho cayendo poco). Solo fondos con dato de drawdown (los solo-ABANCA no lo tienen).</div>`;
     const byClass={}; base.forEach(d=>{const dd=num(d[ddKp]),rt=num(d[retKp]);if(dd==null||rt==null)return;const g=d.GlobalAssetClass||'(otros)';(byClass[g]=byClass[g]||[]).push([Math.abs(dd),rt,d.Name||'',d.Isin||'',num(d.TER),num(d[shK])]);});
     const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,itemStyle:{opacity:.72}}));
-    if(cluG2.length){series.forEach(s=>{s.itemStyle={opacity:.12};});series.push(...cluScatterSeries(cluG2,d=>{const v=num(d[ddKp]);return v==null?null:Math.abs(v);},d=>num(d[retKp])));}
+    if(cluG2.length){series.forEach(s=>{s.itemStyle={opacity:.12};});mapaCluNumbers(S,bi,cluG2,retKp,volKp,shKp);series.push(...cluScatterSeries(cluG2,d=>{const v=num(d[ddKp]);return v==null?null:Math.abs(v);},d=>num(d[retKp])));}
+    {const rs=mapaRefSeries(S,bi,d=>{const v=num(d[ddKp]);return v==null?null:Math.abs(v);},d=>num(d[retKp]));if(rs)series.push(rs);} mapaIndexClu(series);
     const _ord=S.findSet||[]; const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean); window.__mapaPinIsins=[]; if(fset.length){const pts=[],miss=[]; fset.forEach(fd=>{const xv=num(fd[ddKp]),yv=num(fd[retKp]); if(xv!=null&&yv!=null)pts.push([Math.abs(xv),yv,fd.Name||'',fd.Isin,_ord.indexOf(fd.Isin)+1]); else miss.push(fd.Name||fd.Isin);}); window.__mapaPinIsins=pts.map(p=>p[3]); if(pts.length)series.push(_hlSeriesMulti(pts)); if(miss.length)document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">⚠️ ${miss.length} fondo(s) sin dato de drawdown en ${pL}: ${miss.slice(0,4).map(escHtml).join(', ')}${miss.length>4?'…':''}.</div>`);}
     const _zb=mapaZBox(S, fset.map(fd=>[num(fd[ddKp])!=null?Math.abs(num(fd[ddKp])):null,num(fd[retKp])]).filter(p=>p[0]!=null&&p[1]!=null));
     if(_zb)document.getElementById('mapaNote')&&document.getElementById('mapaNote').insertAdjacentHTML('beforeend',` <b style="color:#e11d48">🔍 zoom a los ${fset.length} seleccionados</b>.`);
@@ -3325,7 +3365,7 @@ function renderMapa2(type){
       yAxis:{type:'value',name:'Rentabilidad (%)',nameLocation:'middle',nameGap:52,nameRotate:90,min:_zb?_zb.ymin:undefined,max:_zb?_zb.ymax:undefined,axisLabel:{color:'#94a3b8',formatter:'{value}%'},splitLine:{lineStyle:{opacity:.15}}},
       series});
       chart.on('legendselectchanged',e=>{S.legendSel=e.selected;});
-      chart.on('click',pp=>{const isin=pp.data&&pp.data[3];if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}});
+      chart.on('click',pp=>{const isin=pp.data&&pp.data[3];if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}}); mapaChartHover(chart);
       {const _c=mapaCmpSet(S,bi,cluG2,retKp);mapaCmpInject(_c.fs,retKp,volKp,shKp,pL,_c.opts);}});
     return;
   }
