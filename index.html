@@ -2935,31 +2935,42 @@ function mapaZBox(S,pairs){ // recuadro de zoom a los seleccionados (con ventana
   const xs=pairs.map(p=>p[0]),ys=pairs.map(p=>p[1]);const x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys),y1=Math.max(...ys);
   const cx=(x0+x1)/2,cy=(y0+y1)/2,hx=Math.max((x1-x0)/2*1.8,0.75),hy=Math.max((y1-y0)/2*1.8,1.5);
   return {xmin:Math.max(0,+(cx-hx).toFixed(2)),xmax:+(cx+hx).toFixed(2),ymin:+(cy-hy).toFixed(2),ymax:+(cy+hy).toFixed(2)};}
-function mapaCmpInject(fs,retK,volK,shK,perLbl,opts){ // superpone la tabla comparativa en #mapaChart (arrastrable)
-  try{const cont=document.getElementById('mapaChart');const old=document.getElementById('mapaCmp');if(old)old.remove();
-    if(!(cont&&fs&&fs.length))return; cont.style.position='relative';
-    let pos=null,min=false,sz=null;try{pos=JSON.parse(localStorage.getItem('fb_cmp_pos')||'null');min=localStorage.getItem('fb_cmp_min')==='1';sz=JSON.parse(localStorage.getItem('fb_cmp_size')||'null');}catch(e){}
-    const L=pos?pos.l:66,T=pos?pos.t:46;
-    // tamaño: redimensionable desde la esquina inferior derecha (CSS resize) y recordado; por defecto ~10 filas
+function mapaCmpInject(fs,retK,volK,shK,perLbl,opts){ // tabla comparativa FLOTANTE: se puede mover a cualquier punto de la página
+  try{const cont=document.getElementById('mapaChart'),mapa=document.getElementById('mapa');const old=document.getElementById('mapaCmp');if(old)old.remove();
+    if(!(cont&&mapa&&fs&&fs.length))return;
+    window.__cmpArgs=[fs,retK,volK,shK,perLbl,opts]; // para reordenar sin redibujar el gráfico
+    // CSS: el panel va justo DESPUÉS de #mapa y se oculta cuando #mapa se oculta (otras pestañas del panel)
+    if(!document.getElementById('mapaCmpCss')){const st=document.createElement('style');st.id='mapaCmpCss';st.textContent='#mapa[style*="none"] + #mapaCmp{display:none!important} #mapaCmp th[data-k]{cursor:pointer;user-select:none} #mapaCmp th[data-k]:hover{text-decoration:underline}';document.head.appendChild(st);}
+    let pos=null,min=false,sz=null;try{pos=JSON.parse(localStorage.getItem('fb_cmp_pos2')||'null');min=localStorage.getItem('fb_cmp_min')==='1';sz=JSON.parse(localStorage.getItem('fb_cmp_size')||'null');}catch(e){}
     const szCss=(sz&&!min)?`width:${sz.w}px;height:${sz.h}px;`:(min?'':'height:300px;');
     const title=(opts&&opts.title)||`Fondos seleccionados (${fs.length})`;
-    cont.insertAdjacentHTML('beforeend',`<div id="mapaCmp" style="position:absolute;top:${T}px;left:${L}px;z-index:5;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.18);${szCss}min-width:280px;min-height:${min?28:70}px;max-width:calc(100% - ${L}px);max-height:calc(100% - ${T}px);display:flex;flex-direction:column;overflow:hidden;${min?'':'resize:both;'}" title="">
-      <div id="mapaCmpBar" title="Arrastra para mover la tabla" style="cursor:move;user-select:none;display:flex;align-items:center;gap:6px;padding:3px 7px;background:var(--tabbg);border-bottom:1px solid var(--line);border-radius:8px 8px 0 0;font-size:11px;color:var(--muted)">
+    mapa.insertAdjacentHTML('afterend',`<div id="mapaCmp" style="position:absolute;left:0;top:0;z-index:60;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,.22);${szCss}min-width:280px;min-height:${min?28:70}px;display:flex;flex-direction:column;overflow:hidden;${min?'':'resize:both;'}">
+      <div id="mapaCmpBar" title="Arrastra para mover la tabla a cualquier parte de la página" style="cursor:move;user-select:none;display:flex;align-items:center;gap:6px;padding:3px 7px;background:var(--tabbg);border-bottom:1px solid var(--line);border-radius:8px 8px 0 0;font-size:11px;color:var(--muted)">
         <span>⠿</span><b style="color:var(--navy)">${escHtml(title)}</b><span style="flex:1"></span>
         <button onclick="mapaCmpMin()" title="${min?'Desplegar':'Plegar'}" style="border:none;background:none;cursor:pointer;color:var(--muted);font-size:13px;padding:0 3px">${min?'▸':'▾'}</button>
-        <button onclick="mapaCmpReset()" title="Volver a la esquina superior izquierda y al tamaño por defecto" style="border:none;background:none;cursor:pointer;color:var(--muted);font-size:12px;padding:0 3px">⤒</button></div>
-      <div style="flex:1;min-height:0;overflow:auto;padding:0 6px 14px;${min?'display:none':''}">${mapaCmpTable(fs,retK,volK,shK,perLbl,opts)}</div>
+        <button onclick="mapaCmpReset()" title="Volver a la esquina del gráfico, al tamaño y al orden por defecto" style="border:none;background:none;cursor:pointer;color:var(--muted);font-size:12px;padding:0 3px">⤒</button></div>
+      <div id="mapaCmpBody" style="flex:1;min-height:0;overflow:auto;padding:0 6px 14px;${min?'display:none':''}">${mapaCmpTable(fs,retK,volK,shK,perLbl,opts)}</div>
       ${min?'':`<span title="Arrastra para cambiar el tamaño" style="position:absolute;right:2px;bottom:0;font-size:11px;color:var(--muted);pointer-events:none">◢</span>`}</div>`);
     const box=document.getElementById('mapaCmp'),bar=document.getElementById('mapaCmpBar');
+    // posición en coordenadas del documento (relativas a su contenedor posicionado): por defecto, esquina sup.-izq. del gráfico
+    const op=box.offsetParent||document.body, opR=op.getBoundingClientRect(), cR=cont.getBoundingClientRect();
+    const defL=cR.left-opR.left+op.scrollLeft+66, defT=cR.top-opR.top+op.scrollTop+46;
+    const maxL=()=>Math.max(0,(op.scrollWidth||document.documentElement.scrollWidth)-80);
+    box.style.left=Math.min(maxL(),Math.max(0,pos?pos.l:defL))+'px'; box.style.top=Math.max(0,pos?pos.t:defT)+'px';
     if(!min&&window.ResizeObserver){let t0=null,first=true;new ResizeObserver(()=>{if(first){first=false;return;}clearTimeout(t0);t0=setTimeout(()=>{try{localStorage.setItem('fb_cmp_size',JSON.stringify({w:box.offsetWidth,h:box.offsetHeight}));}catch(e){}},250);}).observe(box);}
     bar.addEventListener('mousedown',ev=>{if(ev.target.closest('button'))return;ev.preventDefault();
       const sx=ev.clientX,sy=ev.clientY,ox=box.offsetLeft,oy=box.offsetTop;
-      const mv=e=>{const nl=Math.max(0,Math.min(cont.clientWidth-60,ox+e.clientX-sx)),nt=Math.max(0,Math.min(cont.clientHeight-24,oy+e.clientY-sy));box.style.left=nl+'px';box.style.top=nt+'px';};
-      const up=()=>{document.removeEventListener('mousemove',mv);document.removeEventListener('mouseup',up);try{localStorage.setItem('fb_cmp_pos',JSON.stringify({l:box.offsetLeft,t:box.offsetTop}));}catch(e){}};
+      const mv=e=>{box.style.left=Math.min(maxL(),Math.max(0,ox+e.clientX-sx))+'px';box.style.top=Math.max(0,oy+e.clientY-sy)+'px';};
+      const up=()=>{document.removeEventListener('mousemove',mv);document.removeEventListener('mouseup',up);try{localStorage.setItem('fb_cmp_pos2',JSON.stringify({l:box.offsetLeft,t:box.offsetTop}));}catch(e){}};
       document.addEventListener('mousemove',mv);document.addEventListener('mouseup',up);});
-  }catch(e){}}
+  }catch(e){console.warn('mapaCmp',e);}}
 function mapaCmpMin(){try{localStorage.setItem('fb_cmp_min',localStorage.getItem('fb_cmp_min')==='1'?'0':'1');}catch(e){}renderMapa();}
-function mapaCmpReset(){try{localStorage.removeItem('fb_cmp_pos');localStorage.removeItem('fb_cmp_size');}catch(e){}renderMapa();}
+function mapaCmpReset(){try{['fb_cmp_pos','fb_cmp_pos2','fb_cmp_size','fb_cmp_sort'].forEach(k=>localStorage.removeItem(k));}catch(e){}renderMapa();}
+// ordenar la tabla por columna: 1.er clic descendente, 2.º ascendente, 3.º vuelve al orden por defecto
+function mapaCmpSort(k){let st=null;try{st=JSON.parse(localStorage.getItem('fb_cmp_sort')||'null');}catch(e){}
+  if(!st||st.k!==k)st={k,dir:k==='name'?'asc':'desc'}; else if(st.dir===(k==='name'?'asc':'desc'))st.dir=(k==='name'?'desc':'asc'); else st=null;
+  try{st?localStorage.setItem('fb_cmp_sort',JSON.stringify(st)):localStorage.removeItem('fb_cmp_sort');}catch(e){}
+  const b=document.getElementById('mapaCmpBody');if(b&&window.__cmpArgs)b.innerHTML=mapaCmpTable(...window.__cmpArgs);}
 // fondos para la tabla: los buscados (pines) o, si no hay, los de los clusters activos ordenados por rentabilidad
 function mapaCmpSet(S,bi,cluG,retK){
   const pins=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
@@ -2980,7 +2991,13 @@ function mapaCmpTable(fs,retK,volK,shK,perLbl,opts){
   const dl=(val,rv,higher,dec)=>{const v=num(val),r=num(rv);if(v==null||r==null)return '';const d=v-r;if(Math.abs(d)<5e-3)return ` <span style="color:var(--muted);font-size:9px">=</span>`;const good=higher?d>0:d<0;return `<span style="color:${good?'#16a34a':'#dc2626'};font-size:9px;margin-left:3px">${d>0?'+':''}${d.toFixed(dec==null?1:dec)}</span>`;};
   const td=(d,key,higher,dec)=>{const isRef=ref&&d.Isin===ref.Isin;const val=key==='__SH'?sh(d[shK]):f(d[key],dec);const delta=(ref&&!isRef)?(key==='__SH'?dl(d[shK],ref[shK],true,2):dl(d[key],ref[key],higher,dec)):'';return `<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums${isRef?';font-weight:700':''}">${val}${delta}</td>`;};
   const _all=opts&&opts.all, _col=(opts&&opts.colors)||null;
-  const body=(_all?fs:fs.slice(0,8)).map((d,_i)=>{const isRef=ref&&d.Isin===ref.Isin;
+  let st=null;try{st=JSON.parse(localStorage.getItem('fb_cmp_sort')||'null');}catch(e){}
+  const keyOf={name:d=>String(d.Name||d.Isin).toLowerCase(),ret:d=>num(d[retK]),vol:d=>num(d[volK]),sh:d=>num(d[shK]),dd:d=>num(d.MaxDrawdownM36),ter:d=>num(d.TER)};
+  let rowsS=_all?fs.slice():fs.slice(0,8);
+  if(st&&keyOf[st.k]){const g=keyOf[st.k],m=st.dir==='asc'?1:-1;rowsS.sort((a,b)=>{const x=g(a),y=g(b);if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;return (x<y?-1:x>y?1:0)*m;});}
+  const arrow=k=>(st&&st.k===k)?(st.dir==='asc'?' ▲':' ▼'):'';
+  const thS=(k,lbl,al)=>`<th data-k="${k}" onclick="mapaCmpSort('${k}')" title="Ordenar por esta columna (clic: ▼ mayor a menor · otro clic: ▲ menor a mayor · otro: orden inicial)" style="padding:2px 7px;text-align:${al||'right'};white-space:nowrap${(st&&st.k===k)?';color:#fbbf24':''}">${lbl}${arrow(k)}</th>`;
+  const body=rowsS.map((d,_i)=>{const isRef=ref&&d.Isin===ref.Isin;
     const star=`<span onclick="event.stopPropagation();mapaSetRef('${d.Isin}')" title="${isRef?'Quitar referencia':'Fijar como referencia'}" style="cursor:pointer;color:${isRef?'#f59e0b':'var(--muted)'};margin-right:2px;font-size:12px">${isRef?'★':'☆'}</span>`;
     return `<tr onmouseenter="mapaHl('${d.Isin}',1)" onmouseleave="mapaHl('${d.Isin}',0)" style="cursor:default${isRef?';background:rgba(245,158,11,.14)':''}">`
      +`<td style="padding:2px 7px;max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${star}${_col?`<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${_col[d.Isin]||'#999'};margin-right:4px"></span><span style="color:var(--muted);font-size:9px;margin-right:3px">${_i+1}</span>`:`<b style="background:#e11d48;color:#fff;border-radius:999px;padding:0 5px;font-size:10px;margin-right:3px">${order.indexOf(d.Isin)+1}</b>`}${escHtml((d.Name||d.Isin).slice(0,_col?30:24))}</td>`
@@ -2988,7 +3005,7 @@ function mapaCmpTable(fs,retK,volK,shK,perLbl,opts){
      +`</tr>`;}).join('');
   const hd=ref?` <span style="color:#f59e0b">· Δ vs ★ ${escHtml((ref.Name||ref.Isin).slice(0,16))}</span>`:` <span style="font-size:9px;color:var(--muted)">(☆ = fijar referencia)</span>`;
   return `<table style="border-collapse:collapse;color:var(--ink);font-size:11px;width:100%"><thead style="position:sticky;top:0;z-index:1"><tr style="color:var(--muted)">`
-    +`<th style="padding:2px 7px;text-align:left">Fondo${_col?' (ordenados por rentabilidad)':` · comparar (${fs.length})`}${hd}</th><th style="padding:2px 7px;text-align:right">Rent. ${escHtml(perLbl)}</th><th style="padding:2px 7px;text-align:right">Vol.</th><th style="padding:2px 7px;text-align:right">Sharpe</th><th style="padding:2px 7px;text-align:right">Máx.caída 3A</th><th style="padding:2px 7px;text-align:right">TER</th></tr></thead><tbody>${body}</tbody></table>`;
+    +thS('name',`Fondo${st?'':(_col?' (por rentabilidad)':` · comparar (${fs.length})`)}`,'left').replace('</th>',`${hd}</th>`)+thS('ret','Rent. '+escHtml(perLbl))+thS('vol','Vol.')+thS('sh','Sharpe')+thS('dd','Máx.caída 3A')+thS('ter','TER')+`</tr></thead><tbody>${body}</tbody></table>`;
 }
 function _kpiTip(d){ if(!d)return '';
   const p=(v,dec,suf)=>{const n=num(v);return n==null?'—':(n.toFixed(dec==null?2:dec)+(suf==null?'%':suf));};
@@ -3051,6 +3068,7 @@ function showMapa(type){
 }
 function mapaSet(k,v){(window.__mapaS=window.__mapaS||{})[k]=v;if(k==="origen"&&String(v).startsWith("IronIA")&&(!window.__ir||!window.__eur)){Promise.all([loadIronia(),window.__eur?null:fetch("data/euribor.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j)window.__eur=j;}).catch(()=>{})]).then(()=>{window.__irAsD=null;renderMapa();});return;}renderMapa();}
 function renderMapa(){
+  {const _o=document.getElementById('mapaCmp');if(_o)_o.remove();} // el panel flotante se vuelve a crear si la vista lo usa
   const el=document.getElementById("mapa");
   const type=window.__mapaType||'rr';
   if(['heatmap','box','dd','corr'].includes(type)) return renderMapa2(type);
@@ -3215,6 +3233,7 @@ function loadVLHist(){ if(window.__vlhist)return Promise.resolve(window.__vlhist
     window.__vlhist=h; return h; }).catch(()=>{window.__vlhist={};return window.__vlhist;});
 }
 function renderMapa2(type){
+  {const _o=document.getElementById('mapaCmp');if(_o)_o.remove();} // el panel flotante se vuelve a crear si la vista lo usa
   const el=document.getElementById("mapa");
   const S=window.__mapaS||(window.__mapaS={per:'M36',asset:'',srri:'',origen:''});
   const perOpts=[['M0','YTD'],['M12','1 año'],['M36','3 años'],['M60','5 años']];
