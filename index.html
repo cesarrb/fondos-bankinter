@@ -2821,7 +2821,13 @@ const CLUSTERS=[
    cat:/salud|biotecnolog/i,
    nm:/health|\bsalud\b|sanidad|pharma|farma|biotech|biotec|medtech|medical|m[ée]dic|life ?sci|genom|oncolog|therapeut|longevity|well-?being/i, ok:_isEqF},
   {id:'inf',name:'Infraestructuras',color:'#0d9488',
-   cat:/infraestructura/i, nm:/infra(?!red)/i, ok:_isEqF}
+   cat:/infraestructura/i, nm:/infra(?!red)/i, ok:_isEqF},
+  // Lista FIJA (no regla): cartera «a lo Robin Brooks» de ~/Downloads/robin-brooks/fondos/cartera-brooks.md (10-10-2026).
+  // Entran siempre esas clases concretas, aunque «una clase por fondo» elija otra. w = peso propuesto (%).
+  {id:'rjb',name:'Robin Brooks',color:'#b45309',cat:/(?!)/,nm:/(?!)/,ok:()=>false,
+   fixed:{FR0011170182:10,IE00BYVJR916:8,IE00BYX5N110:23,IE00B6RNXY80:8,IE00BYX5M476:7,LU0201575346:7,
+          LU2630425226:5,LU0907927338:5,LU0922334643:4,LU0081952003:3,LU0073503921:3,LU1775979708:2,
+          LU1965927921:12,LU0135487659:3}}
 ];
 function cluEdits(){try{return JSON.parse(localStorage.getItem('fb_clusters_v1')||'{}')||{};}catch(e){return {};}}
 function cluSaveEdits(o){try{localStorage.setItem('fb_clusters_v1',JSON.stringify(o));}catch(e){}}
@@ -2833,6 +2839,7 @@ function cluMembers(c,pool,all){
     ||(c.reg&&_isEqF(d)&&((((E[d.Isin]||{}).reg||{})[c.reg])||0)>=c.regMin); // por cartera real: sector o región (solo RV)
   const out=pool.filter(d=>!del.has(d.Isin)&&((c.ok(d)&&(c.cat.test(d.CategoryName||'')||c.cat.test(d.GlobalCategoryName||'')||c.nm.test(_nmF(d))))||bySec(d)));
   const have=new Set(out.map(d=>d.Isin));
+  Object.keys(c.fixed||{}).forEach(is=>{if(!have.has(is)&&!del.has(is)&&all[is]){out.push(all[is]);have.add(is);}});
   add.forEach(is=>{if(!have.has(is)&&!del.has(is)&&all[is]){out.push(all[is]);have.add(is);}});
   return out;
 }
@@ -2878,12 +2885,12 @@ function cluBar(){
     const delRows=(ed.del||[]).map(is=>all[is]).filter(Boolean);
     html+=`<div style="border:1px solid ${ec.color};border-radius:10px;padding:8px 10px;margin:0 0 10px;background:var(--card)">
       <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:6px">
-        <b style="color:${ec.color}">✎ ${escHtml(ec.name)}</b><span class="eu-note" style="margin:0">${mem.length} fondo(s) · regla: categoría Morningstar + nombre</span>
+        <b style="color:${ec.color}">✎ ${escHtml(ec.name)}</b><span class="eu-note" style="margin:0">${mem.length} fondo(s) · ${ec.fixed?'lista fija: cartera propuesta a partir de las tesis de Robin Brooks (10-10-2026); el % es el peso propuesto':'regla: categoría Morningstar + nombre'}</span>
         <input id="cluAddInp" list="fundlist" placeholder="Añadir ISIN(s) o nombre…" onchange="cluAdd('${ec.id}',this.value)" style="min-width:220px;padding:5px 9px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">
         <button onclick="cluReset('${ec.id}')" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">↺ Regla original</button>
         <button onclick="cluEditOpen('${ec.id}')" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">Cerrar</button></div>
       ${(ec.sec||ec.reg)?`<div class="eu-note" style="margin:0 0 6px">Entran por <b>categoría</b>, por <b>nombre</b> o por <b>cartera real</b> (fondos de RV con ≥${ec.sec?ec.secMin:ec.regMin}% en ${ec.sec?escHtml(SEC_LAB[ec.sec]||ec.sec):'Latinoamérica'} según sus posiciones; 📊 = entra solo por cartera). El % junto a cada fondo es su peso real en ${ec.sec?'el sector':'la región'}${(window.__expo&&Object.keys(window.__expo).length)?'':' (cargando posiciones…)'}; los de IronIA no traen cartera.</div>`:''}
-      <div style="display:flex;flex-wrap:wrap;gap:4px;max-height:170px;overflow:auto">${mem.map(d=>{const _sp=ec.sec?((((window.__expo||{})[d.Isin]||{}).sec||{})[ec.sec]):ec.reg?((((window.__expo||{})[d.Isin]||{}).reg||{})[ec.reg]):null;const _byName=ec.ok(d)&&(ec.cat.test(d.CategoryName||'')||ec.cat.test(d.GlobalCategoryName||'')||ec.nm.test(_nmF(d)));const _onlySec=(ec.sec||ec.reg)&&!_byName&&!addS.has(d.Isin);return `<span title="${escHtml(d.Isin)} · ${escHtml(d.CategoryName||'')}" style="display:inline-flex;align-items:center;gap:3px;border:1px solid ${_onlySec?ec.color:'var(--line)'};border-radius:999px;padding:1px 4px 1px 8px;font-size:11px;background:${addS.has(d.Isin)?'#ecfdf5':'var(--tabbg)'}">${_onlySec?'📊 ':''}${escHtml((d.Name||d.Isin).slice(0,34))}${_sp!=null?` <span style="color:var(--muted)">${Math.round(_sp)}%</span>`:''}<button onclick="cluDel('${ec.id}','${d.Isin}')" title="Quitar del cluster" style="border:none;background:none;cursor:pointer;color:#be123c;font-weight:700">×</button></span>`;}).join('')||'<span class="eu-note">Sin fondos en este origen.</span>'}</div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px;max-height:170px;overflow:auto">${mem.map(d=>{const _sp=ec.sec?((((window.__expo||{})[d.Isin]||{}).sec||{})[ec.sec]):ec.reg?((((window.__expo||{})[d.Isin]||{}).reg||{})[ec.reg]):null;const _byName=ec.ok(d)&&(ec.cat.test(d.CategoryName||'')||ec.cat.test(d.GlobalCategoryName||'')||ec.nm.test(_nmF(d)));const _onlySec=(ec.sec||ec.reg)&&!_byName&&!addS.has(d.Isin);return `<span title="${escHtml(d.Isin)} · ${escHtml(d.CategoryName||'')}" style="display:inline-flex;align-items:center;gap:3px;border:1px solid ${_onlySec?ec.color:'var(--line)'};border-radius:999px;padding:1px 4px 1px 8px;font-size:11px;background:${addS.has(d.Isin)?'#ecfdf5':'var(--tabbg)'}">${_onlySec?'📊 ':''}${escHtml((d.Name||d.Isin).slice(0,34))}${(ec.fixed&&ec.fixed[d.Isin]!=null)?` <span style="color:var(--muted)">${ec.fixed[d.Isin]}%</span>`:''}${_sp!=null?` <span style="color:var(--muted)">${Math.round(_sp)}%</span>`:''}<button onclick="cluDel('${ec.id}','${d.Isin}')" title="Quitar del cluster" style="border:none;background:none;cursor:pointer;color:#be123c;font-weight:700">×</button></span>`;}).join('')||'<span class="eu-note">Sin fondos en este origen.</span>'}</div>
       ${delRows.length?`<div class="eu-note" style="margin:6px 0 0">Quitados a mano: ${delRows.map(d=>`<a href="javascript:cluRestore('${ec.id}','${d.Isin}')" title="Volver a incluir">↺ ${escHtml((d.Name||d.Isin).slice(0,28))}</a>`).join(' · ')}</div>`:''}
     </div>`;}
   return html;
