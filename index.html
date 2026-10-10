@@ -2774,13 +2774,138 @@ function mapaFindCtrl(){const S=window.__mapaS||{};const set=S.findSet||[];const
     return `<span onmouseenter="mapaHl('${isin}',1)" onmouseleave="mapaHl('${isin}',0)" style="display:inline-flex;align-items:center;gap:3px;background:${isRef?'#fff4e0':'#fde8ec'};color:#be123c;border:1px solid ${isRef?'#f59e0b':'#f5c2cd'};border-radius:999px;padding:2px 5px 2px 5px;font-size:11px;font-weight:600;max-width:230px" title="${escHtml((d&&d.Name)||'')} ${isin}"><b style="background:#e11d48;color:#fff;border-radius:999px;min-width:15px;height:15px;display:inline-flex;align-items:center;justify-content:center;font-size:10px">${i+1}</b><span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escHtml(nm.slice(0,22))}</span><span onclick="mapaSetRef('${isin}')" title="${isRef?'Quitar referencia':'Fijar como referencia'}" style="cursor:pointer;color:${isRef?'#f59e0b':'#c99'};font-size:12px">${isRef?'★':'☆'}</span><button onclick="mapaFindDel('${isin}')" title="Quitar" style="border:0;background:transparent;color:#be123c;cursor:pointer;font-weight:700;padding:0 2px;font-size:12px">✕</button></span>`;}).join('');
   const verTodo=(set.length&&S.zoomSel!==false)?`<button onclick="mapaZoomSel(false)" title="Mostrar todo el gráfico" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">👁 Ver todo</button>`:'';
   return `<input id="mapaFindInp" list="fundlist" placeholder="🔎 Añade ISIN/nombre/gestora…" value="${(S.findRaw||'').replace(/"/g,'&quot;')}" onchange="mapaFindSet(this.value)" style="min-width:190px;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">`+(set.length?` <span style="display:inline-flex;gap:4px;flex-wrap:wrap;align-items:center;vertical-align:middle">${chips}<button onclick="mapaFindSet('')" title="Quitar todos" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">limpiar (${set.length})${S.findFuzzy?' aprox.':''}</button><label style="font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:3px;cursor:pointer;margin-left:2px" title="Encuadra el gráfico a los fondos seleccionados"><input type="checkbox" ${S.zoomSel!==false?'checked':''} onchange="mapaZoomSel(this.checked)" style="margin:0"> 🔍 zoom a estos</label>${verTodo}</span>`:'');}
+// ===== Clusters de seguimiento (Gráficos) =====
+// Cada cluster es una REGLA (categoría Morningstar + búsqueda en el nombre, con abreviaturas) que se aplica
+// sobre el origen elegido (Solo Bankinter / Solo IronIA / Todos…), más los fondos que el usuario añade o quita
+// a mano (localStorage). Al activar varios, cada familia sale en su color en todos los gráficos.
+const _isEqF=d=>d.GlobalAssetClass==='Equity'&&!/MIXT/i.test(d.CategoryName||'');
+const _isRFoMon=d=>['Fixed Income','Capital Preservation'].includes(d.GlobalAssetClass);
+const _nmF=d=>(d.Name||'')+' '+(d.LegalName||'');
+const _isMPdirect=d=>d.GlobalAssetClass==='Real Assets'||/^materias primas/i.test(d.CategoryName||'')||/^materias primas/i.test(d.GlobalCategoryName||'');
+const CLUSTERS=[
+  {id:'mon',name:'Monetarios y RF muy corto',color:'#0284c7',
+   cat:/^(Mercado Monetario( Corto Plazo)? EUR|RF Ultra Corto Plazo EUR)$/i,
+   nm:/money ?market|monetar|liquidit|tr[ée]sor|court terme|ultra[ -]?sh(o)?rt|ultra s\/?t|floating rate|fl(oa)?t(n)?g? ?r(a)?te?s?\b|\bfrn\b|insti ?cash|cash plus|enhanced cash/i,
+   ok:d=>_isRFoMon(d)&&!/USD|GBP|CHF/.test(d.Currency||'EUR')&&!/high ?yield|\bhy\b|emerg/i.test(_nmF(d))},
+  {id:'val',name:'Value',color:'#d97706',
+   cat:/value/i, nm:/\bvalue\b|\bval\b|\bvl\b|azvalor|metavalor|\bvalor\b/i, ok:_isEqF},
+  {id:'em',name:'Emergentes (RV)',color:'#16a34a',
+   cat:/emergente/i, nm:/emerg|\bem\b|\bem ?mkts?\b|\bemg\b|\bgem\b|frontier|developing/i, ok:_isEqF},
+  {id:'ene',name:'Energía',color:'#dc2626',sec:'309',secMin:40,
+   cat:/energ[ií]a/i, nm:/energ|\boil\b|petrol|\bgas\b|renewab|clean ?power|hydrogen|nuclear|uranium/i, ok:_isEqF},
+  {id:'mat',name:'Materiales y minería (empresas)',color:'#7c3aed',sec:'101',secMin:40,
+   // Solo EMPRESAS (acciones). Los que invierten directamente en materias primas (futuros/swaps) van al cluster «mp».
+   // «RV Sector Materiales Industriales» de Morningstar es el sector INDUSTRIAL (defensa, maquinaria): solo entra por nombre (p. ej. «Smart Materials»)
+   cat:/recursos naturales|oro y metales|agricultura/i,
+   nm:/commodit|materias primas|natural res|recursos nat|mining|\bminer|\bgold\b|\boro\b|metal|\bmaterials\b|resource|agricult|silver|precious|copper/i,
+   ok:d=>!_isRFoMon(d)&&!/MIXT/i.test(d.CategoryName||'')&&!/silver (age|star)|slvr strs/i.test(_nmF(d))&&!_isMPdirect(d)},
+  // Materias primas DIRECTAS: futuros, swaps o CFD sobre índices de materias primas (no acciones de empresas).
+  // Categorías Morningstar «Materias Primas - …» (clase Real Assets) + nombre, excluyendo fondos de acciones del sector.
+  {id:'mp',name:'Materias primas (directo)',color:'#92400e',
+   cat:/^materias primas/i, nm:/commodit|cmdty|\bcmd\b|materias primas|precious metals|strategic metals/i,
+   // un fondo de ACCIONES solo entra si su categoría es de materias primas (IronIA las clasifica bajo «Renta Variable»)
+   ok:d=>!_isRFoMon(d)&&(_isMPdirect(d)||(!_isEqF(d)&&!/equit|\beqs?\b|stocks?|acciones|mining|miners?|compan|shares/i.test(_nmF(d))))},
+  // Defensa: Morningstar no tiene categoría propia (van en «Materiales Industriales»/temáticos) → solo por nombre.
+  // Incluye también «Security» (seguridad y ciberseguridad), a petición del usuario.
+  // Ojo con «Defensivo/Defensive/Dfsv» (mixtos prudentes), que NO son defensa.
+  {id:'def',name:'Defensa y seguridad',color:'#475569',
+   cat:/(?!)/, nm:/\bdefen[cs]e\b|defence & sec|aerospace|a[ée]ro(spatial|nautic)|military|armament|r[üu]stung|rearm|\bsecurity\b|\bsec eq|seguridad|cyber/i,
+   ok:d=>_isEqF(d)&&!/defensiv|defsv|dfsv|real estate|property|food/i.test(_nmF(d))&&!/inmobiliar/i.test(d.CategoryName||'')},
+  {id:'hc',name:'Salud (pharma, biotech…)',color:'#db2777',sec:'206',secMin:60,
+   cat:/salud|biotecnolog/i,
+   nm:/health|\bsalud\b|sanidad|pharma|farma|biotech|biotec|medtech|medical|m[ée]dic|life ?sci|genom|oncolog|therapeut|longevity|well-?being/i, ok:_isEqF},
+  {id:'inf',name:'Infraestructuras',color:'#0d9488',
+   cat:/infraestructura/i, nm:/infra(?!red)/i, ok:_isEqF}
+];
+function cluEdits(){try{return JSON.parse(localStorage.getItem('fb_clusters_v1')||'{}')||{};}catch(e){return {};}}
+function cluSaveEdits(o){try{localStorage.setItem('fb_clusters_v1',JSON.stringify(o));}catch(e){}}
+// miembros de un cluster dentro de un conjunto de filas (ya filtrado por origen/dedup); `all` = índice ISIN→fila del origen
+function cluMembers(c,pool,all){
+  const ed=(cluEdits()[c.id])||{}; const del=new Set(ed.del||[]), add=ed.add||[];
+  const E=window.__expo||{};
+  const bySec=d=>c.sec&&_isEqF(d)&&((((E[d.Isin]||{}).sec||{})[c.sec])||0)>=c.secMin;
+  const out=pool.filter(d=>!del.has(d.Isin)&&((c.ok(d)&&(c.cat.test(d.CategoryName||'')||c.cat.test(d.GlobalCategoryName||'')||c.nm.test(_nmF(d))))||bySec(d)));
+  const have=new Set(out.map(d=>d.Isin));
+  add.forEach(is=>{if(!have.has(is)&&!del.has(is)&&all[is]){out.push(all[is]);have.add(is);}});
+  return out;
+}
+function cluActive(){const S=window.__mapaS||{};return CLUSTERS.filter(c=>(S.clu||[]).includes(c.id));}
+// { cluster, filas } de los clusters activos, sobre el pool dado
+function cluGroups(pool,all){return cluActive().map(c=>({c,rows:cluMembers(c,pool,all)}));}
+function cluToggle(id){const S=window.__mapaS||(window.__mapaS={});const a=new Set(S.clu||[]);a.has(id)?a.delete(id):a.add(id);S.clu=[...a];renderMapa();}
+function cluAll(on){const S=window.__mapaS||(window.__mapaS={});S.clu=on?CLUSTERS.map(c=>c.id):[];if(!on)S.cluEdit=null;renderMapa();}
+function cluEditOpen(id){const S=window.__mapaS||(window.__mapaS={});S.cluEdit=(S.cluEdit===id)?null:id;renderMapa();}
+function cluDel(id,isin){const o=cluEdits();const e=o[id]=o[id]||{add:[],del:[]};e.add=(e.add||[]).filter(x=>x!==isin);e.del=[...new Set([...(e.del||[]),isin])];cluSaveEdits(o);renderMapa();}
+function cluRestore(id,isin){const o=cluEdits();const e=o[id]=o[id]||{add:[],del:[]};e.del=(e.del||[]).filter(x=>x!==isin);cluSaveEdits(o);renderMapa();}
+function cluReset(id){if(!confirm('¿Volver a la regla original de este cluster? Se pierden los fondos añadidos y quitados a mano.'))return;const o=cluEdits();delete o[id];cluSaveEdits(o);renderMapa();}
+function cluAdd(id,v){
+  const S=window.__mapaS||{}; const q=String(v||'').trim(); if(!q)return;
+  const SRC=mapaSource(S); const have=new Set(SRC.map(d=>d.Isin));
+  let found=[...new Set((q.toUpperCase().match(/\b[A-Z]{2}[0-9A-Z]{9}[0-9]\b/g)||[]))].filter(i=>have.has(i));
+  if(!found.length){const ql=q.toLowerCase();found=SRC.filter(d=>(_nmF(d)+' '+(d.ProviderCompanyName||'')).toLowerCase().includes(ql)).map(d=>d.Isin);
+    if(found.length>25){alert(`«${q}» coincide con ${found.length} clases. Afina más (o pega los ISIN).`);return;}}
+  if(!found.length){alert(`No encuentro «${q}» en el origen seleccionado.`);return;}
+  const o=cluEdits();const e=o[id]=o[id]||{add:[],del:[]};
+  e.del=(e.del||[]).filter(x=>!found.includes(x)); e.add=[...new Set([...(e.add||[]),...found])];
+  cluSaveEdits(o);
+  if(!(S.clu||[]).includes(id))S.clu=[...(S.clu||[]),id];
+  renderMapa();
+}
+function cluBar(){
+  const S=window.__mapaS||{}; const act=new Set(S.clu||[]);
+  const SRC=mapaSource(S); const all=Object.fromEntries(SRC.map(d=>[d.Isin,d]));
+  const pool=(S.dedup!==false)?dedupOneClassPerFund(SRC):SRC;
+  const btn=c=>{const n=cluMembers(c,pool,all).length;const on=act.has(c.id);
+    return `<span style="display:inline-flex;align-items:stretch;border:1px solid ${on?c.color:'var(--line)'};border-radius:999px;overflow:hidden;background:${on?c.color+'1a':'var(--card)'}">
+      <button onclick="cluToggle('${c.id}')" title="Mostrar/ocultar este cluster en los gráficos" style="border:none;background:none;cursor:pointer;padding:5px 10px;color:var(--navy);font-weight:${on?700:500};font-size:12px">
+        <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${c.color};margin-right:5px;vertical-align:-1px;opacity:${on?1:.45}"></span>${escHtml(c.name)} <span style="color:var(--muted);font-weight:500">(${n})</span></button>
+      <button onclick="cluEditOpen('${c.id}')" title="Ver/editar los fondos de este cluster" style="border:none;border-left:1px solid var(--line);background:${S.cluEdit===c.id?'#fde68a':'none'};cursor:pointer;padding:5px 8px;color:var(--muted);font-size:12px">✎</button></span>`;};
+  let html=`<div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:4px 0 8px">
+    <span class="eu-note" style="margin:0;font-weight:700">🧩 Mis clusters:</span>${CLUSTERS.map(btn).join('')}
+    <button onclick="cluAll(true)" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--navy);font-size:11px">Todos</button>
+    <button onclick="cluAll(false)" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">Ninguno</button>
+    <span class="eu-note" style="margin:0">· se calculan sobre el <b>origen</b> elegido${S.dedup!==false?' (una clase por fondo)':''}</span></div>`;
+  const ec=CLUSTERS.find(c=>c.id===S.cluEdit);
+  if(ec){const mem=cluMembers(ec,pool,all).slice().sort((a,b)=>String(a.Name).localeCompare(String(b.Name)));
+    const ed=cluEdits()[ec.id]||{}; const addS=new Set(ed.add||[]);
+    const delRows=(ed.del||[]).map(is=>all[is]).filter(Boolean);
+    html+=`<div style="border:1px solid ${ec.color};border-radius:10px;padding:8px 10px;margin:0 0 10px;background:var(--card)">
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:6px">
+        <b style="color:${ec.color}">✎ ${escHtml(ec.name)}</b><span class="eu-note" style="margin:0">${mem.length} fondo(s) · regla: categoría Morningstar + nombre</span>
+        <input id="cluAddInp" list="fundlist" placeholder="Añadir ISIN(s) o nombre…" onchange="cluAdd('${ec.id}',this.value)" style="min-width:220px;padding:5px 9px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">
+        <button onclick="cluReset('${ec.id}')" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">↺ Regla original</button>
+        <button onclick="cluEditOpen('${ec.id}')" style="border:1px solid var(--line);background:var(--tabbg);border-radius:8px;padding:4px 9px;cursor:pointer;color:var(--muted);font-size:11px">Cerrar</button></div>
+      ${ec.sec?`<div class="eu-note" style="margin:0 0 6px">Entran por <b>categoría</b>, por <b>nombre</b> o por <b>cartera real</b> (fondos de RV con ≥${ec.secMin}% en ${escHtml(SEC_LAB[ec.sec]||ec.sec)} según sus posiciones; 📊 = entra solo por cartera). El % junto a cada fondo es su peso real en el sector${(window.__expo&&Object.keys(window.__expo).length)?'':' (cargando posiciones…)'}; los de IronIA no traen cartera.</div>`:''}
+      <div style="display:flex;flex-wrap:wrap;gap:4px;max-height:170px;overflow:auto">${mem.map(d=>{const _sp=ec.sec?((((window.__expo||{})[d.Isin]||{}).sec||{})[ec.sec]):null;const _byName=ec.ok(d)&&(ec.cat.test(d.CategoryName||'')||ec.cat.test(d.GlobalCategoryName||'')||ec.nm.test(_nmF(d)));const _onlySec=ec.sec&&!_byName&&!addS.has(d.Isin);return `<span title="${escHtml(d.Isin)} · ${escHtml(d.CategoryName||'')}" style="display:inline-flex;align-items:center;gap:3px;border:1px solid ${_onlySec?ec.color:'var(--line)'};border-radius:999px;padding:1px 4px 1px 8px;font-size:11px;background:${addS.has(d.Isin)?'#ecfdf5':'var(--tabbg)'}">${_onlySec?'📊 ':''}${escHtml((d.Name||d.Isin).slice(0,34))}${_sp!=null?` <span style="color:var(--muted)">${Math.round(_sp)}%</span>`:''}<button onclick="cluDel('${ec.id}','${d.Isin}')" title="Quitar del cluster" style="border:none;background:none;cursor:pointer;color:#be123c;font-weight:700">×</button></span>`;}).join('')||'<span class="eu-note">Sin fondos en este origen.</span>'}</div>
+      ${delRows.length?`<div class="eu-note" style="margin:6px 0 0">Quitados a mano: ${delRows.map(d=>`<a href="javascript:cluRestore('${ec.id}','${d.Isin}')" title="Volver a incluir">↺ ${escHtml((d.Name||d.Isin).slice(0,28))}</a>`).join(' · ')}</div>`:''}
+    </div>`;}
+  return html;
+}
+// series de dispersión (una por cluster activo) con los mismos campos que los puntos normales
+function cluScatterSeries(groups,fx,fy){
+  return groups.map(({c,rows})=>({name:'◆ '+c.name,type:'scatter',symbolSize:10,z:40,
+    itemStyle:{color:c.color,borderColor:'#fff',borderWidth:1,opacity:.95},emphasis:{scale:1.6},
+    data:rows.map(d=>{const x=fx(d),y=fy(d);return (x==null||y==null)?null:[x,y,d.Name||'',d.Isin||'',num(d.TER),null,d.SRRI];}).filter(Boolean)}));
+}
+// tabla resumen por cluster (medianas) para comparar familias
+function cluSummary(groups,retK,volK,shK,perLbl){
+  if(!groups.length)return '';
+  const med=a=>{const s=a.filter(v=>v!=null).sort((x,y)=>x-y);return s.length?_quant(s,.5):null;};
+  const f=(v,d=2,s='%')=>v==null?'—':v.toFixed(d)+s;
+  const rows=groups.map(({c,rows})=>{const r=rows.map(d=>num(d[retK])),v=rows.map(d=>num(d[volK])),sh=rows.map(d=>num(d[shK]));
+    const best=rows.filter(d=>num(d[shK])!=null).sort((a,b)=>num(b[shK])-num(a[shK]))[0];
+    const top=rows.filter(d=>num(d[retK])!=null).sort((a,b)=>num(b[retK])-num(a[retK]))[0];
+    return `<tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${c.color};margin-right:5px"></span><b>${escHtml(c.name)}</b></td><td style="text-align:right">${rows.length}</td><td style="text-align:right">${f(med(r))}</td><td style="text-align:right">${f(med(v))}</td><td style="text-align:right">${f(med(sh),2,'')}</td><td>${best?escHtml((best.Name||'').slice(0,30))+` <span style="color:var(--muted)">(${f(num(best[shK]),2,'')})</span>`:'—'}</td><td>${top?escHtml((top.Name||'').slice(0,30))+` <span style="color:var(--muted)">(${f(num(top[retK]))})</span>`:'—'}</td></tr>`;}).join('');
+  return `<div style="overflow:auto;margin:8px 0"><table style="border-collapse:collapse;font-size:12px;width:100%"><thead><tr style="text-align:left;color:var(--muted)"><th>Cluster</th><th style="text-align:right">Fondos</th><th style="text-align:right">Rentab. mediana</th><th style="text-align:right">Vol. mediana</th><th style="text-align:right">Sharpe mediano</th><th>Mejor Sharpe</th><th>Más rentable</th></tr></thead><tbody>${rows}</tbody></table><div class="eu-note" style="margin:4px 0">Medianas del cluster · ${perLbl}. Solo cuentan los fondos con dato en ese periodo.</div></div>`;
+}
 function _lev(a,b){const m=a.length,n=b.length;if(!m)return n;if(!n)return m;let prev=Array.from({length:n+1},(_,i)=>i);for(let i=1;i<=m;i++){let cur=[i];for(let j=1;j<=n;j++){cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));}prev=cur;}return prev[n];}
 function mapaFindSet(v){const S=window.__mapaS||(window.__mapaS={});S.findRaw=v||'';S.findFuzzy=false;
   if(!v){S.findSet=[];S.findRef=null;return renderMapa();}
-  const q=String(v).trim(); const m=q.match(/([A-Z]{2}[0-9A-Z]{9}[0-9])/i);
+  const q=String(v).trim(); const ms=q.toUpperCase().match(/\b[A-Z]{2}[0-9A-Z]{9}[0-9]\b/g)||[];
   let set=[];
   const DATA=mapaSource(S); // incluye IronIA si el origen lo pide
-  if(m){const isin=m[1].toUpperCase(); if(DATA.some(d=>d.Isin===isin))set=[isin];}
+  // uno o varios ISIN pegados de golpe (separados por comas, espacios o saltos de línea)
+  if(ms.length){const have=new Set(DATA.map(d=>d.Isin)); set=[...new Set(ms)].filter(i=>have.has(i));}
   const ql=q.toLowerCase();
   const hay=d=>((d.Name||'')+' '+(d.LegalName||'')+' '+(d.ProviderCompanyName||'')).toLowerCase();
   if(!set.length){ set=DATA.filter(d=>hay(d).includes(ql)).map(d=>d.Isin); }
@@ -2810,12 +2935,42 @@ function mapaZBox(S,pairs){ // recuadro de zoom a los seleccionados (con ventana
   const xs=pairs.map(p=>p[0]),ys=pairs.map(p=>p[1]);const x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys),y1=Math.max(...ys);
   const cx=(x0+x1)/2,cy=(y0+y1)/2,hx=Math.max((x1-x0)/2*1.8,0.75),hy=Math.max((y1-y0)/2*1.8,1.5);
   return {xmin:Math.max(0,+(cx-hx).toFixed(2)),xmax:+(cx+hx).toFixed(2),ymin:+(cy-hy).toFixed(2),ymax:+(cy+hy).toFixed(2)};}
-function mapaCmpInject(fs,retK,volK,shK,perLbl){ // superpone la mini-tabla comparativa en #mapaChart
+function mapaCmpInject(fs,retK,volK,shK,perLbl,opts){ // superpone la tabla comparativa en #mapaChart (arrastrable)
   try{const cont=document.getElementById('mapaChart');const old=document.getElementById('mapaCmp');if(old)old.remove();
-    if(cont&&fs&&fs.length){cont.style.position='relative';
-      cont.insertAdjacentHTML('beforeend',`<div id="mapaCmp" style="position:absolute;top:46px;left:66px;z-index:5;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.14);padding:5px 7px;max-width:58%;max-height:72%;overflow:auto">${mapaCmpTable(fs,retK,volK,shK,perLbl)}</div>`);}}catch(e){}}
+    if(!(cont&&fs&&fs.length))return; cont.style.position='relative';
+    let pos=null,min=false,sz=null;try{pos=JSON.parse(localStorage.getItem('fb_cmp_pos')||'null');min=localStorage.getItem('fb_cmp_min')==='1';sz=JSON.parse(localStorage.getItem('fb_cmp_size')||'null');}catch(e){}
+    const L=pos?pos.l:66,T=pos?pos.t:46;
+    // tamaño: redimensionable desde la esquina inferior derecha (CSS resize) y recordado; por defecto ~10 filas
+    const szCss=(sz&&!min)?`width:${sz.w}px;height:${sz.h}px;`:(min?'':'height:300px;');
+    const title=(opts&&opts.title)||`Fondos seleccionados (${fs.length})`;
+    cont.insertAdjacentHTML('beforeend',`<div id="mapaCmp" style="position:absolute;top:${T}px;left:${L}px;z-index:5;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.18);${szCss}min-width:280px;min-height:${min?28:70}px;max-width:calc(100% - ${L}px);max-height:calc(100% - ${T}px);display:flex;flex-direction:column;overflow:hidden;${min?'':'resize:both;'}" title="">
+      <div id="mapaCmpBar" title="Arrastra para mover la tabla" style="cursor:move;user-select:none;display:flex;align-items:center;gap:6px;padding:3px 7px;background:var(--tabbg);border-bottom:1px solid var(--line);border-radius:8px 8px 0 0;font-size:11px;color:var(--muted)">
+        <span>⠿</span><b style="color:var(--navy)">${escHtml(title)}</b><span style="flex:1"></span>
+        <button onclick="mapaCmpMin()" title="${min?'Desplegar':'Plegar'}" style="border:none;background:none;cursor:pointer;color:var(--muted);font-size:13px;padding:0 3px">${min?'▸':'▾'}</button>
+        <button onclick="mapaCmpReset()" title="Volver a la esquina superior izquierda y al tamaño por defecto" style="border:none;background:none;cursor:pointer;color:var(--muted);font-size:12px;padding:0 3px">⤒</button></div>
+      <div style="flex:1;min-height:0;overflow:auto;padding:0 6px 14px;${min?'display:none':''}">${mapaCmpTable(fs,retK,volK,shK,perLbl,opts)}</div>
+      ${min?'':`<span title="Arrastra para cambiar el tamaño" style="position:absolute;right:2px;bottom:0;font-size:11px;color:var(--muted);pointer-events:none">◢</span>`}</div>`);
+    const box=document.getElementById('mapaCmp'),bar=document.getElementById('mapaCmpBar');
+    if(!min&&window.ResizeObserver){let t0=null,first=true;new ResizeObserver(()=>{if(first){first=false;return;}clearTimeout(t0);t0=setTimeout(()=>{try{localStorage.setItem('fb_cmp_size',JSON.stringify({w:box.offsetWidth,h:box.offsetHeight}));}catch(e){}},250);}).observe(box);}
+    bar.addEventListener('mousedown',ev=>{if(ev.target.closest('button'))return;ev.preventDefault();
+      const sx=ev.clientX,sy=ev.clientY,ox=box.offsetLeft,oy=box.offsetTop;
+      const mv=e=>{const nl=Math.max(0,Math.min(cont.clientWidth-60,ox+e.clientX-sx)),nt=Math.max(0,Math.min(cont.clientHeight-24,oy+e.clientY-sy));box.style.left=nl+'px';box.style.top=nt+'px';};
+      const up=()=>{document.removeEventListener('mousemove',mv);document.removeEventListener('mouseup',up);try{localStorage.setItem('fb_cmp_pos',JSON.stringify({l:box.offsetLeft,t:box.offsetTop}));}catch(e){}};
+      document.addEventListener('mousemove',mv);document.addEventListener('mouseup',up);});
+  }catch(e){}}
+function mapaCmpMin(){try{localStorage.setItem('fb_cmp_min',localStorage.getItem('fb_cmp_min')==='1'?'0':'1');}catch(e){}renderMapa();}
+function mapaCmpReset(){try{localStorage.removeItem('fb_cmp_pos');localStorage.removeItem('fb_cmp_size');}catch(e){}renderMapa();}
+// fondos para la tabla: los buscados (pines) o, si no hay, los de los clusters activos ordenados por rentabilidad
+function mapaCmpSet(S,bi,cluG,retK){
+  const pins=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
+  if(pins.length)return {fs:pins,opts:null};
+  if(!cluG||!cluG.length)return {fs:[],opts:null};
+  const col={},seen=new Map(); cluG.forEach(({c,rows})=>rows.forEach(d=>{if(!seen.has(d.Isin)){seen.set(d.Isin,d);col[d.Isin]=c.color;}}));
+  const fs=[...seen.values()].sort((a,b)=>(num(b[retK])??-1e9)-(num(a[retK])??-1e9));
+  return {fs,opts:{colors:col,all:true,title:`${cluG.map(g=>g.c.name).join(' + ')} · ${fs.length} fondos`}};
+}
 // Mini-tabla comparativa de los fondos seleccionados (se superpone arriba-izquierda del scatter).
-function mapaCmpTable(fs,retK,volK,shK,perLbl){
+function mapaCmpTable(fs,retK,volK,shK,perLbl,opts){
   const f=(v,dec)=>{const n=num(v);return n==null?'—':(n.toFixed(dec==null?1:dec)+'%');};
   const sh=v=>{const n=num(v);return n==null?'—':n.toFixed(2);};
   const order=(window.__mapaS&&window.__mapaS.findSet)||[];
@@ -2824,15 +2979,16 @@ function mapaCmpTable(fs,retK,volK,shK,perLbl){
   // Δ frente al fondo de referencia; color verde si mejora, rojo si empeora (dirección según la métrica).
   const dl=(val,rv,higher,dec)=>{const v=num(val),r=num(rv);if(v==null||r==null)return '';const d=v-r;if(Math.abs(d)<5e-3)return ` <span style="color:var(--muted);font-size:9px">=</span>`;const good=higher?d>0:d<0;return `<span style="color:${good?'#16a34a':'#dc2626'};font-size:9px;margin-left:3px">${d>0?'+':''}${d.toFixed(dec==null?1:dec)}</span>`;};
   const td=(d,key,higher,dec)=>{const isRef=ref&&d.Isin===ref.Isin;const val=key==='__SH'?sh(d[shK]):f(d[key],dec);const delta=(ref&&!isRef)?(key==='__SH'?dl(d[shK],ref[shK],true,2):dl(d[key],ref[key],higher,dec)):'';return `<td style="padding:2px 7px;text-align:right;font-variant-numeric:tabular-nums${isRef?';font-weight:700':''}">${val}${delta}</td>`;};
-  const body=fs.slice(0,8).map(d=>{const isRef=ref&&d.Isin===ref.Isin;
+  const _all=opts&&opts.all, _col=(opts&&opts.colors)||null;
+  const body=(_all?fs:fs.slice(0,8)).map((d,_i)=>{const isRef=ref&&d.Isin===ref.Isin;
     const star=`<span onclick="event.stopPropagation();mapaSetRef('${d.Isin}')" title="${isRef?'Quitar referencia':'Fijar como referencia'}" style="cursor:pointer;color:${isRef?'#f59e0b':'var(--muted)'};margin-right:2px;font-size:12px">${isRef?'★':'☆'}</span>`;
     return `<tr onmouseenter="mapaHl('${d.Isin}',1)" onmouseleave="mapaHl('${d.Isin}',0)" style="cursor:default${isRef?';background:rgba(245,158,11,.14)':''}">`
-     +`<td style="padding:2px 7px;max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${star}<b style="background:#e11d48;color:#fff;border-radius:999px;padding:0 5px;font-size:10px;margin-right:3px">${order.indexOf(d.Isin)+1}</b>${escHtml((d.Name||d.Isin).slice(0,24))}</td>`
+     +`<td style="padding:2px 7px;max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${star}${_col?`<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${_col[d.Isin]||'#999'};margin-right:4px"></span><span style="color:var(--muted);font-size:9px;margin-right:3px">${_i+1}</span>`:`<b style="background:#e11d48;color:#fff;border-radius:999px;padding:0 5px;font-size:10px;margin-right:3px">${order.indexOf(d.Isin)+1}</b>`}${escHtml((d.Name||d.Isin).slice(0,_col?30:24))}</td>`
      +td(d,retK,true,null)+td(d,volK,false,null)+td(d,'__SH',true,2)+td(d,'MaxDrawdownM36',true,null)+td(d,'TER',false,2)
      +`</tr>`;}).join('');
   const hd=ref?` <span style="color:#f59e0b">· Δ vs ★ ${escHtml((ref.Name||ref.Isin).slice(0,16))}</span>`:` <span style="font-size:9px;color:var(--muted)">(☆ = fijar referencia)</span>`;
-  return `<table style="border-collapse:collapse;color:var(--ink);font-size:11px"><thead><tr style="color:var(--muted)">`
-    +`<th style="padding:2px 7px;text-align:left">Comparar (${fs.length})${hd}</th><th style="padding:2px 7px;text-align:right">Rent. ${escHtml(perLbl)}</th><th style="padding:2px 7px;text-align:right">Vol.</th><th style="padding:2px 7px;text-align:right">Sharpe</th><th style="padding:2px 7px;text-align:right">Máx.caída 3A</th><th style="padding:2px 7px;text-align:right">TER</th></tr></thead><tbody>${body}</tbody></table>`;
+  return `<table style="border-collapse:collapse;color:var(--ink);font-size:11px;width:100%"><thead style="position:sticky;top:0;z-index:1"><tr style="color:var(--muted)">`
+    +`<th style="padding:2px 7px;text-align:left">Fondo${_col?' (ordenados por rentabilidad)':` · comparar (${fs.length})`}${hd}</th><th style="padding:2px 7px;text-align:right">Rent. ${escHtml(perLbl)}</th><th style="padding:2px 7px;text-align:right">Vol.</th><th style="padding:2px 7px;text-align:right">Sharpe</th><th style="padding:2px 7px;text-align:right">Máx.caída 3A</th><th style="padding:2px 7px;text-align:right">TER</th></tr></thead><tbody>${body}</tbody></table>`;
 }
 function _kpiTip(d){ if(!d)return '';
   const p=(v,dec,suf)=>{const n=num(v);return n==null?'—':(n.toFixed(dec==null?2:dec)+(suf==null?'%':suf));};
@@ -2891,6 +3047,7 @@ function showMapa(type){
   ["toolbar","legend","chips","wrap","euribor","intereses","chat","movers","semanal","panel","score","cartera","constructor","cuando","guia","estructura","percentiles","scenarios","weekly","weekhist","carteras","siblings"].forEach(id=>document.getElementById(id).style.display="none");
   document.getElementById("mapa").style.display="block";
   window.__mapaType=type; renderMapa();
+  if(!window.__expo)loadJSONData("exposure.json","__expo").then(()=>{if(document.getElementById("mapa").style.display!=="none")renderMapa();});
 }
 function mapaSet(k,v){(window.__mapaS=window.__mapaS||{})[k]=v;if(k==="origen"&&String(v).startsWith("IronIA")&&(!window.__ir||!window.__eur)){Promise.all([loadIronia(),window.__eur?null:fetch("data/euribor.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j)window.__eur=j;}).catch(()=>{})]).then(()=>{window.__irAsD=null;renderMapa();});return;}renderMapa();}
 function renderMapa(){
@@ -2916,6 +3073,7 @@ function renderMapa(){
     <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0">
       <span class="eu-note" style="margin:0">Periodo:</span>${perSel}${assetSel}${srriSel}${origSel}${dedupChk(S.dedup!==false)}${mapaFindCtrl()}
       <span class="eu-note" style="margin:0">· ${perLbl}</span></div>
+    ${cluBar()}
     <div id="mapaChart" style="width:100%;height:600px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
     <div class="eu-note" id="mapaNote" style="margin:8px 0">Cada punto es un fondo. Pasa el ratón para ver detalle; haz clic para abrir su ficha. Datos del catálogo (${DATA.length.toLocaleString('es')} fondos); para 3A/5A las rentabilidades están anualizadas. Los solo-ABANCA solo tienen volatilidad/Sharpe a 1 año.</div>`;
   // filtrar
@@ -2927,9 +3085,12 @@ function renderMapa(){
   });
   if(S.dedup!==false) rows=dedupOneClassPerFund(rows);
   const bi=Object.fromEntries(SRC.map(d=>[d.Isin,d])); window.__biAll=bi;
+  const cluG=cluGroups(rows,bi); // clusters activos sobre las filas filtradas (origen, clase de activo, SRRI, dedup)
   if(String(S.origen||'').startsWith('IronIA')){const nIr=rows.filter(isIronia).length;
     document.getElementById('mapaNote').insertAdjacentHTML('beforeend',nIr?` <b>IronIA:</b> ${nIr.toLocaleString('es')} fondos más (en <span style="color:#be123c">◆ rombos</span>) de la foto local de IronIA que no están en Bankinter ni ABANCA; sin SRRI ni YTD, así que el filtro SRRI y el periodo YTD los excluyen. Ojo: IronIA mide la <b>volatilidad en la divisa del fondo</b> (Bankinter, en EUR) y con datos más frecuentes, por eso sale algo mayor; su Sharpe se recalcula como (rentab. − Euríbor 3M medio) / volatilidad y se omite si la volatilidad es < 0,5 %.`:` <b>IronIA:</b> no hay foto local de IronIA (<code>data/ironia/</code>); solo está en tu panel local, no en la web pública.`);}
+  const _tok=window.__mapaTok=(window.__mapaTok||0)+1;
   loadECharts().then(()=>{
+    if(_tok!==window.__mapaTok)return; // hubo otro renderMapa después: este dibujo ya no vale
     const dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;
     const cont=document.getElementById('mapaChart'); if(!cont)return;
     if(window.__ech){try{window.__ech.dispose();}catch(e){}}
@@ -2937,15 +3098,19 @@ function renderMapa(){
     let option;
     if(type==='sharpe'){
       const _fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
+      const _cluCol={}; cluG.forEach(({c,rows:r})=>r.forEach(d=>{if(!_cluCol[d.Isin])_cluCol[d.Isin]=c.color;}));
       const arr=(_fset.length
         ? _fset.map(d=>({d,s:num(d[shK])})).filter(x=>x.s!=null).sort((a,b)=>b.s-a.s)
-        : rows.map(d=>({d,s:num(d[shK])})).filter(x=>x.s!=null).sort((a,b)=>b.s-a.s).slice(0,30)
+        : cluG.length
+          ? [...new Map(cluG.flatMap(g=>g.rows).map(d=>[d.Isin,d])).values()].map(d=>({d,s:num(d[shK])})).filter(x=>x.s!=null).sort((a,b)=>b.s-a.s).slice(0,60)
+          : rows.map(d=>({d,s:num(d[shK])})).filter(x=>x.s!=null).sort((a,b)=>b.s-a.s).slice(0,30)
       ).reverse();
+      if(!_fset.length&&cluG.length){const c=document.getElementById('mapaChart');if(c)c.style.height=Math.max(600,arr.length*16+60)+'px';chart.resize();}
       option={backgroundColor:'transparent',grid:{left:230,right:40,top:20,bottom:40},
         tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:p=>{const o=arr[p[0].dataIndex];return `<b>${o.d.Name||''}</b><br>${o.d.Isin}<br>Sharpe ${perLbl}: <b>${o.s.toFixed(2)}</b><br>Rent: ${num(o.d[retK])!=null?num(o.d[retK]).toFixed(2)+'%':'—'} · Vol: ${num(o.d[volK])!=null?num(o.d[volK]).toFixed(2)+'%':'—'} · TER ${num(o.d.TER)!=null?num(o.d.TER).toFixed(2)+'%':'—'}`;}},
         xAxis:{type:'value',name:'Sharpe',axisLabel:{color:'#94a3b8'}},
         yAxis:{type:'category',data:arr.map(o=>(o.d.Name||o.d.Isin).slice(0,34)),axisLabel:{color:'#94a3b8',fontSize:10}},
-        series:[{type:'bar',data:arr.map(o=>({value:o.s,itemStyle:{color:(S.findSet&&S.findSet.includes(o.d.Isin))?'#e11d48':'#1F77B4'}})),label:{show:true,position:'right',formatter:p=>p.value.toFixed(2),color:'#94a3b8'}}]};
+        series:[{type:'bar',data:arr.map(o=>({value:o.s,itemStyle:{color:(S.findSet&&S.findSet.includes(o.d.Isin))?'#e11d48':(_cluCol[o.d.Isin]||'#1F77B4')}})),label:{show:true,position:'right',formatter:p=>p.value.toFixed(2),color:'#94a3b8'}}]};
       chart.setOption(option);
       if(S.findSet&&S.findSet.length){const fset=S.findSet.map(is=>bi[is]).filter(Boolean);const withS=fset.filter(d=>num(d[shK])!=null).length;const msg=`${fset.length} fondo(s) seleccionado(s); muestro los ${withS} con dato de Sharpe (${perLbl}), ordenados de mayor a menor.`+(withS<fset.length?` ${fset.length-withS} no tienen Sharpe en este periodo.`:'');document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">${msg}</div>`);}
       chart.on('click',p=>{const o=arr[p.dataIndex]; if(o){window.open(o.d.FichaURL||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${o.d.Isin}`,'_blank');}});
@@ -2990,6 +3155,12 @@ function renderMapa(){
       const allG=[...new Set([...Object.keys(byClass),...Object.keys(byIr)])].sort(),colOf=g=>PAL[allG.indexOf(g)%PAL.length];
       const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,emphasis:{focus:'series'},itemStyle:{opacity:.72,color:colOf(g)}}))
         .concat(Object.entries(byIr).map(([g,data])=>({name:g+' · IronIA',type:'scatter',data,large:true,largeThreshold:400,symbol:'diamond',symbolSize:6,emphasis:{focus:'series'},itemStyle:{opacity:.45,color:colOf(g)}})));
+      if(cluG.length){ // clusters: el resto del catálogo queda de fondo, atenuado; cada cluster en su color
+        series.forEach(s=>{s.itemStyle=Object.assign({},s.itemStyle,{opacity:.12});});
+        series.push(...cluScatterSeries(cluG,d=>num(d[xK]),d=>num(d[retK])));
+        const nm=document.getElementById('mapaNote'); if(nm)nm.insertAdjacentHTML('afterend',cluSummary(cluG,retK,volK,shK,perLbl));
+        if(!(S.findSet||[]).length&&S.zoomSel!==false){S.__cluZoom=cluG.flatMap(g=>g.rows).map(d=>[num(d[xK]),num(d[retK])]).filter(p=>p[0]!=null&&p[1]!=null);}
+      } else S.__cluZoom=null;
       const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
       const _ord=S.findSet||[];
       if(fset.length){const pts=[],miss=[]; fset.forEach(fd=>{const xv=num(fd[xK]),yv=num(fd[retK]); if(xv!=null&&yv!=null)pts.push([xv,yv,fd.Name||'',fd.Isin,_ord.indexOf(fd.Isin)+1]); else miss.push(fd.Name||fd.Isin);});
@@ -3005,6 +3176,11 @@ function renderMapa(){
         if(_zp.length){const _xz=_zp.map(p=>p[0]),_yz=_zp.map(p=>p[1]);const _x0=Math.min(..._xz),_x1=Math.max(..._xz),_y0=Math.min(..._yz),_y1=Math.max(..._yz);
           const _cx=(_x0+_x1)/2,_cy=(_y0+_y1)/2,_hx=Math.max((_x1-_x0)/2*1.8,0.75),_hy=Math.max((_y1-_y0)/2*1.8,1.5);
           _zb={xmin:Math.max(0,+(_cx-_hx).toFixed(2)),xmax:+(_cx+_hx).toFixed(2),ymin:+(_cy-_hy).toFixed(2),ymax:+(_cy+_hy).toFixed(2)};}}
+      // sin fondos fijados pero con clusters activos: encuadra los clusters (cuantiles 1-99 % para que un extremo no aplaste el resto)
+      if(!_zb&&S.__cluZoom&&S.__cluZoom.length>1){const xs=S.__cluZoom.map(p=>p[0]).sort((a,b)=>a-b),ys=S.__cluZoom.map(p=>p[1]).sort((a,b)=>a-b);
+        const q=(a,f)=>a[Math.min(a.length-1,Math.max(0,Math.round(f*(a.length-1))))];const x0=q(xs,.01),x1=q(xs,.99),y0=q(ys,.01),y1=q(ys,.99);
+        const px=Math.max((x1-x0)*.08,.3),py=Math.max((y1-y0)*.08,.5);
+        _zb={xmin:Math.max(0,+(x0-px).toFixed(2)),xmax:+(x1+px).toFixed(2),ymin:+(y0-py).toFixed(2),ymax:+(y1+py).toFixed(2),clu:true};}
       // ejes robustos: el 99,8 % central (fondos suspendidos o datos anómalos estiran la escala)
       const _pts=series.flatMap(x=>x.data),_q=(a,f)=>a.length?a[Math.min(a.length-1,Math.max(0,Math.round(f*(a.length-1))))]:null;
       const _xs=_pts.map(p=>p[0]).sort((a,b)=>a-b),_ys=_pts.map(p=>p[1]).sort((a,b)=>a-b);
@@ -3012,7 +3188,7 @@ function renderMapa(){
       const _pad=v=>Math.ceil(Math.abs(v)*1.08+1)*Math.sign(v||1);
       const _out=_pts.filter(p=>p[0]>_xMax||p[1]<_yMin||p[1]>_yMax).length;
       if(!_zb&&_out>0&&_pts.length>200)document.getElementById('mapaNote').insertAdjacentHTML('beforeend',` <b>${_out}</b> fondo(s) con valores extremos (p. ej. fondos de Rusia suspendidos) quedan fuera de la escala.`);
-      if(_zb)document.getElementById('mapaNote').insertAdjacentHTML('beforeend',` <b style="color:#e11d48">🔍 zoom a los ${(S.findSet||[]).length} seleccionados</b> (desmarca «zoom a estos» para ver todo).`);
+      if(_zb)document.getElementById('mapaNote').insertAdjacentHTML('beforeend',_zb.clu?` <b style="color:#0f766e">🔍 encuadrado en los clusters activos</b> (los fondos de fuera de la escala no se ven; usa la rueda del ratón para alejar).`:` <b style="color:#e11d48">🔍 zoom a los ${(S.findSet||[]).length} seleccionados</b> (desmarca «zoom a estos» para ver todo).`);
       option={backgroundColor:'transparent',
         tooltip:{trigger:'item',formatter:p=>{const d=bi[p.data[3]];return d?_kpiTip(d):`<b>${p.data[2]}</b><br>${p.data[3]}`;}},
         legend:{type:'scroll',top:0,textStyle:{color:'#94a3b8'},selected:(S.legendSel||undefined)},
@@ -3025,11 +3201,7 @@ function renderMapa(){
       chart.on('legendselectchanged',e=>{S.legendSel=e.selected;});
       chart.on('click',p=>{const isin=p.data&&p.data[3]; if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}});
       // mini-tabla comparativa de los seleccionados, superpuesta en la esquina superior-izquierda (zona vacía)
-      try{const cont=document.getElementById('mapaChart');const old=document.getElementById('mapaCmp');if(old)old.remove();
-        const fs=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
-        if(cont&&fs.length){cont.style.position='relative';
-          cont.insertAdjacentHTML('beforeend',`<div id="mapaCmp" style="position:absolute;top:46px;left:78px;z-index:5;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.14);padding:5px 7px;max-width:56%;max-height:72%;overflow:auto">${mapaCmpTable(fs,retK,volK,shK,perLbl)}</div>`);}
-      }catch(e){}
+      {const _c=mapaCmpSet(S,bi,cluG,retK);mapaCmpInject(_c.fs,retK,volK,shK,perLbl,_c.opts);}
     }
     if(!window.__echResize){window.__echResize=true;window.addEventListener('resize',()=>{if(window.__ech){try{window.__ech.resize();}catch(e){}}});}
   }).catch(e=>{const c=document.getElementById('mapaChart'); if(c)c.innerHTML=`<div style="padding:20px;color:var(--muted)">No se pudo cargar la librería de gráficos: ${e.message}</div>`;});
@@ -3057,21 +3229,25 @@ function renderMapa2(type){
   const _src=mapaSource(S);
   const bi=Object.fromEntries(_src.map(d=>[d.Isin,d])); window.__biAll=bi;
   const base=(S.dedup!==false)?dedupOneClassPerFund(_src):_src;
+  const cluG2=cluGroups(base,bi);
   const origSel2=mapaOrigSel(S);
   const titles={heatmap:'🔥 Heatmap rentabilidad por categoría × año',box:'📦 Distribución por categoría (box-plot)',dd:'🩹 Mapa de drawdown (caída vs rentabilidad)',corr:'🔗 Matriz de correlación (para diversificar)'};
-  const setChart=(build)=>loadECharts().then(()=>{const dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;const cont=document.getElementById('mapaChart');if(!cont)return;if(window.__ech){try{window.__ech.dispose();}catch(e){}}const chart=window.__ech=echarts.init(cont,dark?'dark':null);build(chart);if(!window.__echResize){window.__echResize=true;window.addEventListener('resize',()=>{if(window.__ech){try{window.__ech.resize();}catch(e){}}});}}).catch(e=>{const c=document.getElementById('mapaChart');if(c)c.innerHTML=`<div style="padding:20px;color:var(--muted)">No se pudo cargar la librería de gráficos: ${e.message}</div>`;});
+  const _tok2=window.__mapaTok=(window.__mapaTok||0)+1;
+  const setChart=(build)=>loadECharts().then(()=>{if(_tok2!==window.__mapaTok)return;const dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;const cont=document.getElementById('mapaChart');if(!cont)return;if(window.__ech){try{window.__ech.dispose();}catch(e){}}const chart=window.__ech=echarts.init(cont,dark?'dark':null);build(chart);if(!window.__echResize){window.__echResize=true;window.addEventListener('resize',()=>{if(window.__ech){try{window.__ech.resize();}catch(e){}}});}}).catch(e=>{const c=document.getElementById('mapaChart');if(c)c.innerHTML=`<div style="padding:20px;color:var(--muted)">No se pudo cargar la librería de gráficos: ${e.message}</div>`;});
 
   if(type==='heatmap'){
     const nY=parseInt(S.hmY||7); const baseYear=(DATA[0]&&/^\d{4}/.test(DATA[0].fecha||''))?parseInt(DATA[0].fecha.slice(0,4))-1:2025;
     const yrSel=`<select onchange="mapaSet('hmY',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${[3,5,7].map(n=>`<option value="${n}" ${n===nY?'selected':''}>Últimos ${n} años</option>`).join('')}</select>`;
     el.innerHTML=`<div class="eu-head">${titles.heatmap}</div>
       <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0">${grpSel}${yrSel}${origSel2}${dedupChk(S.dedup!==false)}${mapaFindCtrl()}<span class="eu-note" style="margin:0">· mediana de rentabilidad anual por grupo</span></div>
+      ${cluBar()}
       <div id="mapaChart" style="width:100%;height:640px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
       ${(S.findSet&&S.findSet.length)?(()=>{const fs=S.findSet.map(is=>bi[is]).filter(Boolean);const cats=[...new Set(fs.map(d=>d[grpKey]).filter(Boolean))];return `<div class="eu-note" style="margin:0 0 8px;color:#e11d48">🔎 ${fs.length} fondo(s) de «${escHtml(S.findRaw||'')}» → categoría(s): <b>${cats.map(escHtml).join(', ')||'—'}</b> (mira esas filas).</div>`;})():''}
       <div class="eu-note" style="margin:8px 0">Cada celda = <b>mediana</b> de la rentabilidad de ese año de los fondos del grupo (verde = ganó, rojo = perdió). Ayuda a ver qué tipo de activo funcionó cada año. Solo grupos con ≥3 fondos.</div>`;
     const years=[]; for(let k=1;k<=nY;k++)years.push({k,label:String(baseYear-(k-1))});
-    const groups={}; base.forEach(d=>{const g=d[grpKey];if(!g)return;(groups[g]=groups[g]||[]).push(d);});
-    const gnames=Object.keys(groups).filter(g=>groups[g].length>=3).sort();
+    let groups={}; base.forEach(d=>{const g=d[grpKey];if(!g)return;(groups[g]=groups[g]||[]).push(d);});
+    let gnames=Object.keys(groups).filter(g=>groups[g].length>=3).sort();
+    if(cluG2.length){groups={};cluG2.forEach(({c,rows})=>{groups[c.name]=rows;});gnames=cluG2.map(g=>g.c.name).filter(n=>groups[n].length);}
     const data=[]; let vmax=1;
     gnames.forEach((g,yi)=>{years.forEach((yr,xi)=>{const vals=groups[g].map(d=>num(d['YR_ReturnM12_'+yr.k])).filter(v=>v!=null).sort((a,b)=>a-b);const med=_quant(vals,.5);if(med!=null){data.push([xi,yi,Math.round(med*10)/10]);vmax=Math.max(vmax,Math.abs(med));}});});
     setChart(chart=>chart.setOption({backgroundColor:'transparent',
@@ -3088,16 +3264,19 @@ function renderMapa2(type){
     const mSel=`<select onchange="mapaSet('boxM',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)"><option value="ret" ${metric==='ret'?'selected':''}>Rentabilidad</option><option value="vol" ${metric==='vol'?'selected':''}>Volatilidad</option><option value="sharpe" ${metric==='sharpe'?'selected':''}>Sharpe</option></select>`;
     el.innerHTML=`<div class="eu-head">${titles.box}</div>
       <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0">${mSel}${perSel(per)}${grpSel}${origSel2}${dedupChk(S.dedup!==false)}${mapaFindCtrl()}<span class="eu-note" style="margin:0">· ${mLbl} · ${perLbl}</span></div>
+      ${cluBar()}
       <div id="mapaChart" style="width:100%;height:600px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
       <div class="eu-note" style="margin:8px 0">Cada caja muestra la <b>dispersión</b> del grupo: línea = mediana, caja = del percentil 25 al 75, bigotes = mín/máx. Sirve para ver si un fondo está en la parte buena de su categoría. Grupos con ≥5 fondos.</div>`;
-    const groups={}; base.forEach(d=>{const g=d[grpKey];const v=num(d[mK]);if(g&&v!=null)(groups[g]=groups[g]||[]).push(v);});
-    const gnames=Object.keys(groups).filter(g=>groups[g].length>=5).sort();
-    const boxData=gnames.map(g=>{const s=groups[g].slice().sort((a,b)=>a-b);return [_quant(s,0),_quant(s,.25),_quant(s,.5),_quant(s,.75),_quant(s,1)].map(x=>Math.round(x*100)/100);});
+    let groups={}; base.forEach(d=>{const g=d[grpKey];const v=num(d[mK]);if(g&&v!=null)(groups[g]=groups[g]||[]).push(v);});
+    let gnames=Object.keys(groups).filter(g=>groups[g].length>=5).sort();
+    const _bxCol={};
+    if(cluG2.length){groups={};cluG2.forEach(({c,rows})=>{const v=rows.map(d=>num(d[mK])).filter(x=>x!=null);if(v.length){groups[c.name]=v;_bxCol[c.name]=c.color;}});gnames=cluG2.map(g=>g.c.name).filter(n=>groups[n]);}
+    const boxData=gnames.map(g=>{const s=groups[g].slice().sort((a,b)=>a-b);const v=[_quant(s,0),_quant(s,.25),_quant(s,.5),_quant(s,.75),_quant(s,1)].map(x=>Math.round(x*100)/100);return _bxCol[g]?{value:v,itemStyle:{color:_bxCol[g]+'40',borderColor:_bxCol[g]}}:v;});
     const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean);
-    const fpts=fset.map(fb=>{const gi=gnames.indexOf(fb[grpKey]);const fv=num(fb[mK]);return (gi>=0&&fv!=null)?[gi,fv,fb.Name||'',fb.Isin]:null;}).filter(Boolean);
+    const fpts=fset.map(fb=>{const gi=cluG2.length?cluG2.findIndex(g=>g.rows.some(d=>d.Isin===fb.Isin)):gnames.indexOf(fb[grpKey]);const fv=num(fb[mK]);return (gi>=0&&fv!=null)?[gi,fv,fb.Name||'',fb.Isin]:null;}).filter(Boolean);
     const extra=fpts.length?[{type:'scatter',data:fpts,symbolSize:14,symbol:'pin',itemStyle:{color:'#e11d48',borderColor:'#FFD400',borderWidth:2},z:50,tooltip:{formatter:p=>`<b>${p.data[2]||''}</b><br>${p.data[3]||''}<br>${mLbl}: ${p.data[1]}`},label:{show:fpts.length<=20,formatter:p=>(p.data[2]||'').slice(0,14),position:'top',color:'#e11d48',fontSize:9,fontWeight:'bold'}}]:[];
     setChart(chart=>chart.setOption({backgroundColor:'transparent',
-      tooltip:{trigger:'item',formatter:p=>Array.isArray(p.data)?`${gnames[p.dataIndex]}<br>máx ${p.data[5]} · Q3 ${p.data[4]} · <b>mediana ${p.data[3]}</b> · Q1 ${p.data[2]} · mín ${p.data[1]}`:''},
+      tooltip:{trigger:'item',formatter:p=>{if(p.seriesType!=='boxplot')return Array.isArray(p.data)?`<b>${p.data[2]||''}</b><br>${p.data[3]||''}<br>${mLbl}: ${p.data[1]}`:'';const v=p.value||p.data;return `${gnames[p.dataIndex]}<br>máx ${v[5]} · Q3 ${v[4]} · <b>mediana ${v[3]}</b> · Q1 ${v[2]} · mín ${v[1]}`+(cluG2.length?` · n=${(groups[gnames[p.dataIndex]]||[]).length}`:'');}},
       grid:{left:60,right:20,top:20,bottom:120},
       xAxis:{type:'category',data:gnames,axisLabel:{color:'#94a3b8',interval:0,rotate:35,fontSize:10}},
       yAxis:{type:'value',name:mLbl+(metric==='sharpe'?'':' (%)'),axisLabel:{color:'#94a3b8'},splitLine:{lineStyle:{opacity:.15}}},
@@ -3110,10 +3289,12 @@ function renderMapa2(type){
     const pSel=`<select onchange="mapaSet('per',this.value)" style="padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--navy)">${[['M12','1 año'],['M36','3 años'],['M60','5 años']].map(([v,l])=>`<option value="${v}" ${v===p2?'selected':''}>${l}</option>`).join('')}</select>`;
     el.innerHTML=`<div class="eu-head">${titles.dd}</div>
       <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0"><span class="eu-note" style="margin:0">Periodo:</span>${pSel}${origSel2}${dedupChk(S.dedup!==false)}${mapaFindCtrl()}<span class="eu-note" style="margin:0">· caída máxima vs rentabilidad (${pL})</span></div>
+      ${cluBar()}
       <div id="mapaChart" style="width:100%;height:600px;background:var(--card);border:1px solid var(--line);border-radius:12px"></div>
       <div class="eu-note" style="margin:8px 0">Eje X = <b>máxima caída</b> (peor racha), Eje Y = <b>rentabilidad</b>. Lo mejor está <b>arriba-izquierda</b> (gana mucho cayendo poco). Solo fondos con dato de drawdown (los solo-ABANCA no lo tienen).</div>`;
     const byClass={}; base.forEach(d=>{const dd=num(d[ddKp]),rt=num(d[retKp]);if(dd==null||rt==null)return;const g=d.GlobalAssetClass||'(otros)';(byClass[g]=byClass[g]||[]).push([Math.abs(dd),rt,d.Name||'',d.Isin||'',num(d.TER),num(d[shK])]);});
     const series=Object.entries(byClass).map(([g,data])=>({name:g,type:'scatter',data,large:true,largeThreshold:400,symbolSize:7,itemStyle:{opacity:.72}}));
+    if(cluG2.length){series.forEach(s=>{s.itemStyle={opacity:.12};});series.push(...cluScatterSeries(cluG2,d=>{const v=num(d[ddKp]);return v==null?null:Math.abs(v);},d=>num(d[retKp])));}
     const _ord=S.findSet||[]; const fset=(S.findSet||[]).map(is=>bi[is]).filter(Boolean); window.__mapaPinIsins=[]; if(fset.length){const pts=[],miss=[]; fset.forEach(fd=>{const xv=num(fd[ddKp]),yv=num(fd[retKp]); if(xv!=null&&yv!=null)pts.push([Math.abs(xv),yv,fd.Name||'',fd.Isin,_ord.indexOf(fd.Isin)+1]); else miss.push(fd.Name||fd.Isin);}); window.__mapaPinIsins=pts.map(p=>p[3]); if(pts.length)series.push(_hlSeriesMulti(pts)); if(miss.length)document.getElementById('mapa').insertAdjacentHTML('afterbegin',`<div class="eu-note" style="margin:0 0 6px;color:#e11d48">⚠️ ${miss.length} fondo(s) sin dato de drawdown en ${pL}: ${miss.slice(0,4).map(escHtml).join(', ')}${miss.length>4?'…':''}.</div>`);}
     const _zb=mapaZBox(S, fset.map(fd=>[num(fd[ddKp])!=null?Math.abs(num(fd[ddKp])):null,num(fd[retKp])]).filter(p=>p[0]!=null&&p[1]!=null));
     if(_zb)document.getElementById('mapaNote')&&document.getElementById('mapaNote').insertAdjacentHTML('beforeend',` <b style="color:#e11d48">🔍 zoom a los ${fset.length} seleccionados</b>.`);
@@ -3126,7 +3307,7 @@ function renderMapa2(type){
       series});
       chart.on('legendselectchanged',e=>{S.legendSel=e.selected;});
       chart.on('click',pp=>{const isin=pp.data&&pp.data[3];if(isin){const d=bi[isin];window.open((d&&d.FichaURL)||`https://www.quefondos.com/es/fondos/ficha/index.html?isin=${isin}`,'_blank');}});
-      mapaCmpInject(fset,retKp,volKp,shKp,pL);});
+      {const _c=mapaCmpSet(S,bi,cluG2,retKp);mapaCmpInject(_c.fs,retKp,volKp,shKp,pL,_c.opts);}});
     return;
   }
   // ---- Correlación ----
