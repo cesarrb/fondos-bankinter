@@ -75,6 +75,13 @@ if [ "$HHMM" -ge 800 ] && [ ! -f "data/ironia/history/ironia_${TODAY}.csv.gz" ] 
   ./venv/bin/python -u ironia_collector.py || LOG "foto IronIA falló; se reintentará en la próxima pasada"
 fi
 
+# 1c) YTD de fondos de IronIA (IronIA no lo publica): VL del FT para las listas fijas de los clusters y
+#     data/ironia/ytd_watch.txt (~2 s por fondo). Una vez al día desde las 08:00; si falla se reintenta.
+if [ "$HHMM" -ge 800 ] && ! grep -q "\"fecha\": \"${TODAY}\"" data/ironia/ytd.json 2>/dev/null && ! pgrep -f ironia_ytd.py >/dev/null; then
+  LOG "===== YTD IronIA (FT) ====="
+  ./venv/bin/python -u ironia_ytd.py || LOG "YTD IronIA falló; se reintentará en la próxima pasada"
+fi
+
 # 2) NIVEL DE SEGURIDAD: verificar la foto del DÍA LABORABLE ANTERIOR (si es mala, sacarla ahora)
 if [ "$HHMM" -ge 700 ]; then
   PDOW=$(date -v-1d +%u); PW=$(date -v-1d +%Y-%m-%d)

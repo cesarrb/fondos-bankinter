@@ -1596,7 +1596,10 @@ function renderCarteraDesglose(W,byIsin){
 window.__ir=null;
 const IR_NUM=["ongoing","mgmt_fee","rebate","min_initial","score","ret_1m","ret_3m","ret_6m","ret_1y","ret_2y","ret_3y","ret_4y","ret_5y","vol_1y","vol_3y","vol_5y","sharpe_1y","sharpe_3y","sharpe_5y","sortino_3y","mdd_1y","mdd_3y","mdd_5y","alpha_3y","beta_3y","bench_ret_1y","bench_ret_3y","bench_ret_5y"];
 function loadIronia(){ if(window.__ir)return Promise.resolve(window.__ir);
-  return fetch("data/ironia/ironia_latest.csv",{cache:"no-store"}).then(r=>r.ok?r.text():"").then(t=>{
+  // YTD de IronIA: IronIA no lo publica; ironia_ytd.py lo calcula con el VL del FT para los fondos de las listas fijas
+  // (fixedIronia) y de data/ironia/ytd_watch.txt → data/ironia/ytd.json (local y privado)
+  return fetch("data/ironia/ytd.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{window.__irYtd=j||{};}).catch(()=>{window.__irYtd={};})
+   .then(()=>fetch("data/ironia/ironia_latest.csv",{cache:"no-store"})).then(r=>r.ok?r.text():"").then(t=>{
     const R=parseCSV(t);if(R.length<2)return (window.__ir=[]);const H=R[0];
     window.__ir=R.slice(1).filter(r=>r.length===H.length).map(r=>{const o={};H.forEach((h,i)=>o[h]=r[i]);
       IR_NUM.forEach(k=>o[k]=num(o[k]));["available","clean","hedged","income","indexed"].forEach(k=>o[k]=o[k]==="1");return o;});
@@ -2830,8 +2833,10 @@ const CLUSTERS=[
           LU1965927921:12,LU0135487659:3},
    // Versión con fondos SOLO de IronIA (no están en Bankinter/ABANCA), usada cuando el origen es «Solo IronIA» (11-10-2026).
    // Sin metales directos ni Noruega en IronIA-exclusivo: el oro va por mineras (Schroder Gold cubierto a EUR).
-   fixedIronia:{LU1223083160:12,IE00BFZP7X62:25,LU0329356306:10,LU0995383337:10,LU0966596875:5,LU2607332496:5,
-          LU1711971983:6,LU1240788148:5,LU2219351793:3,FR0013289022:14,LU0415163723:5}}
+   // Revisado con KID/fichas (11-10-2026): EDM LatAm→DWS LatAm TFC (coste ~3 %), UBS Swiss Opp→UBAM Swiss I (peor que su índice),
+   // UBS Bond CHF Flexible→Swisscanto MM CHF (28 % BBB, no es refugio).
+   fixedIronia:{LU1223083160:12,IE00BFZP7X62:25,LU0329356306:10,LU1982200781:10,LU0966596875:5,LU2607332496:5,
+          LU1711971983:6,LU1273952413:5,LU2219351793:3,FR0013289022:14,LU1481723747:5}}
 ];
 function cluFixed(c){const o=((window.__mapaS||{}).origen)||"";return (o==="IronIA"&&c.fixedIronia)?c.fixedIronia:(c.fixed||null);}
 function cluEdits(){try{return JSON.parse(localStorage.getItem('fb_clusters_v1')||'{}')||{};}catch(e){return {};}}
@@ -3085,7 +3090,7 @@ function ironiaAsData(){ // fondos de IronIA disponibles y que NO están ya en e
   return (window.__irAsD=A.filter(f=>f.available&&!have.has(f.isin)).map(f=>({Isin:f.isin,Name:f.name,LegalName:f.family,ProviderCompanyName:f.manager,
     GlobalAssetClass:IR_ASSET[f.category]||f.category,GlobalCategoryName:f.subcategory,CategoryName:f.subcategory,Currency:f.currency,
     TER:f.ongoing,ManagementFee:f.mgmt_fee,InitialPurchase:f.min_initial,
-    ReturnM12:f.ret_1y,ReturnM36:f.ret_3y,ReturnM60:f.ret_5y,
+    ReturnM0:(((window.__irYtd||{}).items||{})[f.isin]||{}).ytd??null,ReturnM12:f.ret_1y,ReturnM36:f.ret_3y,ReturnM60:f.ret_5y,
     StandardDeviationM12:f.vol_1y,StandardDeviationM36:f.vol_3y,StandardDeviationM60:f.vol_5y,
     // El Sharpe de IronIA no descuenta el tipo sin riesgo (monetarios con 40+): se recalcula como el de
     // Morningstar, (rentab. − tipo sin riesgo) / volatilidad, con la media del Euríbor 3M del periodo
@@ -3156,6 +3161,9 @@ function renderMapa(){
   const cluG=cluGroups(rows,bi); // clusters activos sobre las filas filtradas (origen, clase de activo, SRRI, dedup)
   if(String(S.origen||'').startsWith('IronIA')){const nIr=rows.filter(isIronia).length;
     document.getElementById('mapaNote').insertAdjacentHTML('beforeend',nIr?` <b>IronIA:</b> ${nIr.toLocaleString('es')} fondos más (en <span style="color:#be123c">◆ rombos</span>) de la foto local de IronIA que no están en Bankinter ni ABANCA; sin SRRI ni YTD, así que el filtro SRRI y el periodo YTD los excluyen. Ojo: IronIA mide la <b>volatilidad en la divisa del fondo</b> (Bankinter, en EUR) y con datos más frecuentes, por eso sale algo mayor; su Sharpe se recalcula como (rentab. − Euríbor 3M medio) / volatilidad y se omite si la volatilidad es < 0,5 %.`:` <b>IronIA:</b> no hay foto local de IronIA (<code>data/ironia/</code>); solo está en tu panel local, no en la web pública.`);}
+  if(per==='M0'&&String(S.origen||'').startsWith('IronIA')){ // IronIA no publica YTD: avisar en vez de dejar el gráfico vacío
+    const irR=rows.filter(isIronia), nY=irR.filter(d=>num(d.ReturnM0)!=null).length, yj=window.__irYtd||{};
+    document.getElementById('mapaChart').insertAdjacentHTML('beforebegin',`<div style="border:1px solid #f59e0b;background:#fffbeb;color:#92400e;border-radius:8px;padding:8px 10px;margin-bottom:6px">⚠️ <b>IronIA no publica la rentabilidad YTD</b> (ni el valor liquidativo). Solo salen los <b>${nY}</b> de ${irR.length.toLocaleString('es')} fondos de IronIA cuyo YTD se calcula a diario con el VL del Financial Times (los de tus clusters —lista en <code>data/ironia/ytd_clusters.txt</code>—, las listas fijas como «Robin Brooks» y <code>data/ironia/ytd_watch.txt</code>)${yj.fecha?` · cálculo del ${yj.fecha}`:''}. Para ver el resto, usa <b>1 año</b>, 3 años o 5 años.</div>`);}
   const _tok=window.__mapaTok=(window.__mapaTok||0)+1;
   loadECharts().then(()=>{
     if(_tok!==window.__mapaTok)return; // hubo otro renderMapa después: este dibujo ya no vale
