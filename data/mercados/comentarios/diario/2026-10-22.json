@@ -1,0 +1,524 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-22",
+  "fase": "completo",
+  "titulo": "Las dudas sobre la IA hunden los chips y el bono de EE. UU. vive su mayor rally desde 2023",
+  "resumen": "Jornada de huida del riesgo concentrada en la tecnología. Tras los resultados de Meta y Tesla ==volvieron las dudas sobre si el gigantesco gasto en inteligencia artificial (IA) será rentable==, y el castigo se cebó en los fabricantes de chips y de equipos para fabricarlos: el índice de semiconductores de Filadelfia (SOX) ==cayó cerca de un 6,7 %== con sus 30 componentes en rojo. Como esas pocas empresas pesan muchísimo en los índices ponderados por capitalización, el Nasdaq 100 perdió un 2,9 % y el S&P 500 un 1,2 % (su peor día desde julio), mientras el Dow Jones (+0,02 %) y el Russell 2000 de pequeñas compañías (+0,1 %) acabaron planos: fuera de la tecnología el dinero rotó hacia sectores defensivos, y la versión equiponderada del S&P 500 llegó a subir en torno a un 0,7 %. Asia ya había abierto el día con el mismo guion: Kospi −3,5 %, Hang Seng −3,0 % y Nikkei −2,7 %, con SK Hynix, Samsung y Tokyo Electron entre los más castigados.\n\nLo más llamativo fue el bono: la TIR (tasa interna de rentabilidad) del bono de EE. UU. a 10 años ==cayó unos 19 puntos básicos, hasta el 4,95 %==, su mayor descenso diario desde marzo de 2023 y de vuelta por debajo del 5 %. Hubo búsqueda de refugio, pero sobre todo un cambio de expectativas sobre la Reserva Federal (Fed): el mercado de futuros pasó a dar ==solo un ~5 % de probabilidad a una subida de tipos== en la reunión del 28 de octubre (15 % el día anterior) y rebajó de casi segura a ~75 % la de diciembre. Como la subida de rentabilidades desde febrero ==se debía sobre todo a tipos reales== (expectativas de Fed más dura) y no a más inflación esperada, cualquier duda sobre el crecimiento descuenta rápidamente esas subidas. La volatilidad saltó en ambos mercados: VIX +14 % hasta 19 y MOVE (volatilidad de bonos) +11 %.\n\nEl petróleo fue en dirección contraria: el Brent subió un 4 % hasta 113 $, máximo en cinco meses, por ==ataques con drones contra el campo saudí de Shaybah== (de Aramco) y el aeropuerto de Dammam y por informaciones de prensa sobre nuevos ataques de EE. UU. e Israel contra Irán después de las elecciones del 3 de noviembre. El oro (−2,2 %) y sobre todo la plata (−4,6 %) cayeron pese a la bajada de rentabilidades: pesaron el temor a una ==inflación por el crudo que obligue a la Fed a subir== tipos (dominante durante la sesión asiática) y las ventas de posiciones muy cargadas en un día de liquidaciones; el cobre (−2,8 %) sufrió por la peor lectura del crecimiento.\n\nEuropa cayó más que Wall Street porque a la tecnología (ASML, Infineon y STMicroelectronics −5/−6 %) sumó la banca: ==el sector bancario de la zona euro se dejó un 4,2 %==, su peor día desde marzo. En España, ==Bankinter se hundió un 7,6 %== tras unos resultados con ingresos por debajo de lo esperado y márgenes presionados por el mayor coste de los depósitos, y arrastró a CaixaBank (−5,7 %) y Santander (−4,1 %): el IBEX 35 perdió un 2,1 % y cedió los 19.000 puntos. Italia (FTSE MIB −2,5 %), muy bancaria, fue la peor plaza; Francia (CAC 40 −1,4 %) sufrió además por Hermès (−5 %) y por el diferencial de su bono a 10 años frente al alemán, ==en máximos de 15 años== por la incertidumbre política y las protestas. Los índices más defensivos (FTSE 100 −0,3 %, SMI suizo plano) resistieron. El euro apenas se movió frente al dólar al cierre de Nueva York (+0,07 %, 1,1235), aunque en el cambio oficial del BCE de las 14:15, que es el que usan los fondos, cedió un 0,26 %.",
+  "claves": [
+    "Las dudas sobre la rentabilidad del gasto en IA tras los resultados de Meta y Tesla ==hundieron los semiconductores (SOX −6,7 %)== y el Nasdaq 100 (−2,9 %), mientras el Dow Jones quedaba plano.",
+    "El bono de EE. UU. a 10 años ==bajó unos 19 pb, al 4,95 %==, su mayor caída diaria desde 2023: el mercado ==casi descarta una subida de tipos de la Fed== el 28 de octubre.",
+    "==Bankinter cayó un 7,6 % por sus resultados== y lideró el desplome de la banca europea (−4,2 %), que llevó al IBEX 35 a perder un 2,1 % y los 19.000 puntos.",
+    "El Brent subió un 4 %, a 113 $, máximo en cinco meses, por ==ataques contra instalaciones saudíes== y la amenaza de nuevos ataques a Irán tras las elecciones de EE. UU.",
+    "Oro (−2,2 %) y plata (−4,6 %) no actuaron como refugio: pesaron ==el miedo a una Fed más dura por el crudo== y las ventas forzadas.",
+    "Europa cayó más que EE. UU. (Euro Stoxx 50 −1,9 %) ==al sumar tecnología, banca y la presión sobre la deuda francesa==."
+  ],
+  "suben": [
+    {
+      "activo": "Petróleo Brent",
+      "cambio": "+4,0 %",
+      "por_que": "Ataques con drones contra el campo saudí de Shaybah y el aeropuerto de Dammam, más informaciones sobre nuevos ataques de EE. UU. e Israel contra Irán tras el 3 de noviembre: el mercado ==añade prima de riesgo por posibles cortes de suministro en el Golfo==. Cierra en 113,2 $, máximo en cinco meses (WTI +2,4 %, 99,5 $).",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
+        },
+        {
+          "t": "Saxo",
+          "u": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-sold-off-after-key-earnings---22-october-2026-22102026"
+        }
+      ]
+    },
+    {
+      "activo": "Bono EE. UU. 10 años (precio)",
+      "cambio": "TIR −19 pb (4,95 %)",
+      "por_que": "Compras de refugio ante la caída de la tecnología y, sobre todo, ==menos apuestas a que la Fed suba tipos== por la inflación del petróleo (==probabilidad de subida en octubre ~5 %==, frente al 15 % del día anterior). Al bajar la TIR sube el precio del bono. Mayor caída diaria de rentabilidad desde marzo de 2023; el 5 años cae 20 pb y el 30 años 15 pb.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/article/bond-traders-are-backing-off-fed-rate-hike-bets--heres-what-it-means-for-mortgage-rates-180507914.html"
+        },
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+        }
+      ]
+    },
+    {
+      "activo": "VIX (volatilidad S&P 500)",
+      "cambio": "+14,1 % (19,0)",
+      "por_que": "El seguro contra caídas de la bolsa se encarece cuando ==el S&P 500 sufre su peor día desde julio==; el MOVE, su equivalente en bonos, sube un 11,4 % por el brusco movimiento de rentabilidades.",
+      "fuentes": [
+        {
+          "t": "AP (vía ABC News)",
+          "u": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-10222026-137490327"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+3,0 %",
+      "por_que": "Contagio de la tensión en Oriente Medio: los ataques en el Golfo y alrededor del estrecho de Ormuz ==elevan el riesgo para el gas natural licuado== que llega de la región.",
+      "fuentes": [
+        {
+          "t": "Saxo",
+          "u": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-sold-off-after-key-earnings---22-october-2026-22102026"
+        }
+      ]
+    },
+    {
+      "activo": "Russell 2000 (pequeñas EE. UU.)",
+      "cambio": "+0,1 %",
+      "por_que": "==Rotación fuera de las grandes tecnológicas==: las pequeñas compañías, con poca exposición a la IA y sensibles a los tipos, se benefician de la fuerte bajada de rentabilidades.",
+      "fuentes": [
+        {
+          "t": "AP (vía ABC News)",
+          "u": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-10222026-137490327"
+        }
+      ]
+    },
+    {
+      "activo": "Dow Jones",
+      "cambio": "+0,02 %",
+      "por_que": "Índice con ==poco peso en semiconductores== y mucho en industriales, salud y finanzas: el dinero que salió de la tecnología fue a sectores defensivos. Un índice ponderado por precio y con otra composición no refleja el castigo a los chips.",
+      "fuentes": [
+        {
+          "t": "AP (vía ABC News)",
+          "u": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-10222026-137490327"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Nasdaq 100 (tecnológicas EE. UU.)",
+      "cambio": "−2,9 %",
+      "por_que": "Tras los resultados de Meta (−7 %) y Tesla (−3 %) ==resurgieron las dudas sobre la rentabilidad del gasto en IA== y su coste de financiación; los fabricantes de equipos (==Lam Research −9 %==, Applied Materials y KLA −6 %) y CoreWeave (−10 %, por su deuda) lideraron las ventas. El S&P 500 cayó un 1,2 % por el gran peso de estos valores.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
+        },
+        {
+          "t": "AP (vía ABC News)",
+          "u": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-10222026-137490327"
+        }
+      ]
+    },
+    {
+      "activo": "Kospi (Corea)",
+      "cambio": "−3,5 %",
+      "por_que": "Bolsa ==muy dependiente de los chips de memoria==: SK Hynix (−6 %) y Samsung (−4 %) cayeron por las dudas sobre la demanda ligada a la IA. El Hang Seng (−3,0 %), el Nikkei (−2,7 %, Tokyo Electron −5,9 %, SoftBank −5,6 %) y el ETF de emergentes EEM (−2,9 %) siguieron la misma pauta.",
+      "fuentes": [
+        {
+          "t": "Saxo",
+          "u": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-sold-off-after-key-earnings---22-october-2026-22102026"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE MIB (Italia)",
+      "cambio": "−2,5 %",
+      "por_que": "La plaza más bancaria de Europa sufrió ==el peor día del sector bancario de la zona euro desde marzo (−4,2 %)==, contagiado por los resultados de Bankinter y Barclays y por la tensión en la deuda periférica.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía Investing.com)",
+          "u": "https://au.investing.com/news/stock-market-news/europes-stoxx-600-slips-as-mixed-earnings-and-rising-oil-sour-mood-4707039"
+        }
+      ]
+    },
+    {
+      "activo": "IBEX 35 (España)",
+      "cambio": "−2,1 %",
+      "por_que": "Bankinter (−7,6 %) presentó ==ingresos un 2 % por debajo del consenso== y ==márgenes presionados por el coste de los depósitos==; el castigo se extendió a CaixaBank (−5,7 %) y Santander (−4,1 %), que pesan mucho en el índice. Cierra en 18.913,5 puntos, por debajo de los 19.000.",
+      "fuentes": [
+        {
+          "t": "Capital",
+          "u": "https://capital.es/economia/mercados-e-inversion/el-ibex-cae-un-212-y-pierde-los-19-000-puntos-lastrado-por-bankinter-y-la-deuda-francesa/228954/"
+        },
+        {
+          "t": "El Boletín",
+          "u": "https://www.elboletin.com/el-ibex-35-cae-un-212-por-bankinter-y-la-deuda-francesa/"
+        }
+      ]
+    },
+    {
+      "activo": "Euro Stoxx 50",
+      "cambio": "−1,9 %",
+      "por_que": "==Mezcla de chips (ASML, Infineon y STMicroelectronics −5/−6 %), banca y lujo== (Hermès −5 % por ventas algo flojas). El Stoxx Europe 600, más diversificado, cayó un 1,05 %, su mayor caída en tres semanas; el CAC 40 francés perdió un 1,4 % con el diferencial francés en máximos de 15 años.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía Investing.com)",
+          "u": "https://au.investing.com/news/stock-market-news/europes-stoxx-600-slips-as-mixed-earnings-and-rising-oil-sour-mood-4707039"
+        }
+      ]
+    },
+    {
+      "activo": "Plata",
+      "cambio": "−4,6 %",
+      "por_que": "Cae con el oro (−2,2 %) pese a la bajada de rentabilidades: en Asia pesó el temor a que ==el petróleo caro obligue a la Fed a subir tipos==, y en un día de liquidaciones se vendieron posiciones muy cargadas. Su parte industrial la expone además a la peor lectura del crecimiento.",
+      "fuentes": [
+        {
+          "t": "Saxo",
+          "u": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-sold-off-after-key-earnings---22-october-2026-22102026"
+        },
+        {
+          "t": "Business Standard",
+          "u": "https://www.business-standard.com/amp/markets/commodities/gold-silver-fall-as-higher-crude-oil-prices-revive-rate-hike-concerns-126102100241_1.html"
+        }
+      ]
+    },
+    {
+      "activo": "Uranio (ETF URA)",
+      "cambio": "−4,1 %",
+      "por_que": "Sin noticia propia: el uranio cotiza como apuesta por la ==demanda eléctrica de los centros de datos de IA==, así que cae con los chips. El cobre (−2,8 %) sufre por la misma razón y por menor confianza en el crecimiento.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Dudas sobre la inteligencia artificial (IA)",
+      "texto": "Los resultados de Meta y Tesla reabrieron la pregunta de ==si el enorme gasto en centros de datos generará beneficios suficientes== y a qué coste de financiación. El castigo fue para quien vende «palas» a esa fiebre del oro (chips de memoria, equipos de fabricación) y para los más endeudados (CoreWeave). Como la tecnología pesa tanto en el S&P 500 y el Nasdaq, los índices cayeron mucho más que la acción media: ==la versión equiponderada del S&P 500 subió==.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
+        },
+        {
+          "t": "AP (vía ABC News)",
+          "u": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-10222026-137490327"
+        }
+      ]
+    },
+    {
+      "tema": "Reserva Federal (Fed) y bonos",
+      "texto": "El mercado venía temiendo que la Fed subiera tipos para frenar la inflación del petróleo. Con la caída de la bolsa, ==la probabilidad de subida el 28 de octubre bajó al ~5 %== y la de diciembre al ~75 %. Las expectativas de inflación a 5 años (~2,4 %) siguen como antes de la guerra con Irán, así que ==la subida de rentabilidades de este año era de tipos reales== y es la que se deshace cuando se enfría la economía esperada. Las peticiones de subsidio por desempleo (194.000, mínimo en tres meses) no frenaron el rally.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/article/bond-traders-are-backing-off-fed-rate-hike-bets--heres-what-it-means-for-mortgage-rates-180507914.html"
+        },
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+        }
+      ]
+    },
+    {
+      "tema": "Oriente Medio y petróleo",
+      "texto": "Ataques contra el campo de Shaybah (Aramco) y el aeropuerto de Dammam, salida de personal de embajadas de EE. UU. en el Golfo e informaciones de prensa sobre nuevos ataques a Irán tras las elecciones del 3 de noviembre ==llevaron el Brent a máximos de cinco meses==. Es un viento en contra para la bolsa europea, ==gran importadora de energía==, y para las expectativas de inflación.",
+      "fuentes": [
+        {
+          "t": "Saxo",
+          "u": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-sold-off-after-key-earnings---22-october-2026-22102026"
+        },
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
+        }
+      ]
+    },
+    {
+      "tema": "Banca europea y deuda francesa",
+      "texto": "Bankinter mostró que los tipos altos ya no solo ayudan: ==encarecen los depósitos y estrechan el margen==. El mercado extendió la lectura a todo el sector (−4,2 % en la zona euro) en el día en que la prima de riesgo francesa marcaba ==máximos de 15 años por la crisis política==. La banca tiene mucho peso en el IBEX y el FTSE MIB, de ahí que fueran las peores bolsas.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía Investing.com)",
+          "u": "https://au.investing.com/news/stock-market-news/europes-stoxx-600-slips-as-mixed-earnings-and-rising-oil-sour-mood-4707039"
+        },
+        {
+          "t": "Capital",
+          "u": "https://capital.es/economia/mercados-e-inversion/el-ibex-cae-un-212-y-pierde-los-19-000-puntos-lastrado-por-bankinter-y-la-deuda-francesa/228954/"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "Fue el gran movimiento del día: ==la TIR del bono de EE. UU. a 10 años cayó unos 19 pb==, del 5,15 % al 4,95 %, su mayor caída diaria desde marzo de 2023 (en la curva oficial del Tesoro, que cierra a otra hora, −17 pb hasta el 4,96 %). La bajada fue casi paralela en toda la curva (2 años −16 pb, 5 años −20 pb, 30 años −15 pb), señal de que ==el motor fueron las expectativas sobre la Fed==, no un cambio en la prima por plazo. Funcionaron dos mecanismos a la vez: la ==huida a refugio desde la bolsa tecnológica== (quien vende chips compra bonos del Tesoro) y la revisión de la Fed: ==la probabilidad de subida el 28-10 pasó del 15 % al ~5 %== y la de diciembre, de casi segura a ~75 %. Llama la atención que el Brent subiera un 4 % sin frenar el rally: las expectativas de inflación a 5 años siguen en ~2,4 %, así que el petróleo caro se lee hoy más como freno al crecimiento que como inflación, y ==lo que se deshizo fue la parte de tipos reales== acumulada desde febrero.\n\nEn Europa el movimiento fue mucho más pequeño. El BCE aún no ha publicado su curva AAA del día 22 (la del 21: 2 años 3,03 %, 10 años 3,43 %); según la prensa, ==el bono español a 10 años bajó solo unos 3 pb==, al 4,05 %, con prima de 67 pb, lo que sitúa el Bund en torno al 3,38 %. El Banco Central Europeo (BCE) endureció su política en septiembre por la inflación energética y Europa importa el petróleo, por eso sus bonos ganan menos con el refugio. La excepción fue Francia: su 10 años rondó el 5 % y ==su diferencial con Alemania superó los 150–170 pb==, máximos desde 2011-2012, por las dudas fiscales, los disturbios y la inminente revisión de Moody's.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "−16 pb (4,65 %)",
+        "por_que": "El tramo más sensible a la Fed: ==el mercado casi descarta una subida el 28 de octubre==. Dato del Tesoro (FRED aún no tiene el del 22).",
+        "fuentes": [
+          {
+            "t": "Departamento del Tesoro de EE. UU. (curva diaria)",
+            "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+          },
+          {
+            "t": "Yahoo Finance",
+            "u": "https://finance.yahoo.com/markets/article/bond-traders-are-backing-off-fed-rate-hike-bets--heres-what-it-means-for-mortgage-rates-180507914.html"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 5 años",
+        "cambio": "−20 pb (4,77 %)",
+        "por_que": "La mayor caída de la curva: concentra la revisión de la senda de tipos de los próximos años (subida de diciembre menos segura).",
+        "fuentes": [
+          {
+            "t": "Departamento del Tesoro de EE. UU. (curva diaria)",
+            "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−19 pb (4,95 %)",
+        "por_que": "==Mayor caída diaria desde marzo de 2023== y vuelta por debajo del 5 %: refugio frente a la venta de chips tras Meta/Tesla y menos apuestas de subidas. La inflación esperada (~2,4 %) no cambió: bajaron los tipos reales.",
+        "fuentes": [
+          {
+            "t": "Yahoo Finance",
+            "u": "https://finance.yahoo.com/markets/article/bond-traders-are-backing-off-fed-rate-hike-bets--heres-what-it-means-for-mortgage-rates-180507914.html"
+          },
+          {
+            "t": "CNBC",
+            "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "−15 pb (5,29 %)",
+        "por_que": "Baja menos que los tramos medios: el largo plazo sigue exigiendo prima por déficit y oferta de deuda, que el día no cambió.",
+        "fuentes": [
+          {
+            "t": "Departamento del Tesoro de EE. UU. (curva diaria)",
+            "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "sin dato del BCE (3,03 % el 21)",
+        "por_que": "El BCE publica la curva con retraso. El BCE subió tipos en septiembre por la energía, y el Brent al alza frena las bajadas en el tramo corto.",
+        "fuentes": [
+          {
+            "t": "BCE (curva AAA)",
+            "u": "https://data.ecb.europa.eu/data/datasets/YC"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "≈ −3/−5 pb (≈ 3,38 %, estimado por prensa)",
+        "por_que": "Algo de refugio, pero ==mucho menos que en EE. UU.==: la inflación energética pesa más en Europa. Estimado con el bono español (4,05 %) y su prima (67 pb); el BCE aún no tiene el dato.",
+        "fuentes": [
+          {
+            "t": "Capital",
+            "u": "https://capital.es/economia/mercados-e-inversion/el-ibex-cae-un-212-y-pierde-los-19-000-puntos-lastrado-por-bankinter-y-la-deuda-francesa/228954/"
+          },
+          {
+            "t": "BCE (curva AAA)",
+            "u": "https://data.ecb.europa.eu/data/datasets/YC"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Francia–Alemania (10 años)",
+        "cambio": "> 150–170 pb, máximos desde 2011-2012",
+        "por_que": "==Riesgo político y fiscal==: déficit del 5,4 %, protestas y revisión de Moody's. El OAT francés rozó el 5 % mientras el Bund bajaba. La prensa da cifras distintas (AFP: > 150 pb el 20; Capital: > 170 pb el 22).",
+        "fuentes": [
+          {
+            "t": "Capital",
+            "u": "https://capital.es/economia/mercados-e-inversion/el-ibex-cae-un-212-y-pierde-los-19-000-puntos-lastrado-por-bankinter-y-la-deuda-francesa/228954/"
+          },
+          {
+            "t": "Moncloa.com",
+            "u": "https://www.moncloa.com/2026/10/19/prima-riesgo-francia-bolsas-europeas-3451475/"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "sin dato del 22 (3,27 % el 21)",
+        "por_que": "FRED aún no lo ha publicado; con la caída de la bolsa lo normal es que se ampliara algo.",
+        "fuentes": []
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Departamento del Tesoro de EE. UU. (curva diaria)",
+        "u": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+      },
+      {
+        "t": "Yahoo Finance",
+        "u": "https://finance.yahoo.com/markets/article/bond-traders-are-backing-off-fed-rate-hike-bets--heres-what-it-means-for-mortgage-rates-180507914.html"
+      },
+      {
+        "t": "CNBC",
+        "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+      },
+      {
+        "t": "Capital",
+        "u": "https://capital.es/economia/mercados-e-inversion/el-ibex-cae-un-212-y-pierde-los-19-000-puntos-lastrado-por-bankinter-y-la-deuda-francesa/228954/"
+      },
+      {
+        "t": "Moncloa.com",
+        "u": "https://www.moncloa.com/2026/10/19/prima-riesgo-francia-bolsas-europeas-3451475/"
+      },
+      {
+        "t": "BCE (curva AAA)",
+        "u": "https://data.ecb.europa.eu/data/datasets/YC"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Datos provisionales: ==faltan aún muchos VL (valores liquidativos) del 22==; hay 1.861 fondos (2.922 clases) con dato, la mayoría de Bankinter (901) e IronIA (904) y solo 56 de ABANCA. La lectura es la del mercado: ==renta variable mediana −0,88 %==, renta fija +0,02 %, mixtos −0,26 %. Abajo, ==tecnología, chips asiáticos y mineras de oro== (−4 % a −5 %); arriba, salud y estilo valor de EE. UU., beneficiados por la rotación hacia defensivos. Ojo con varios de los que suben: ==algunos VL no cuadran con su mercado== (ciberseguridad con un día de desfase, Reino Unido y valor de EE. UU. con subidas excesivas). El dólar ganó un 0,26 % al euro en el fijo del BCE, lo que suma algo a las clases no cubiertas.",
+    "suben": [
+      {
+        "isin": "LU0641506000",
+        "por_que": "Fondo de grandes compañías británicas (clase en USD, solo IronIA). ==Dato raro: +2,2 % en dólares con el FTSE 100 −0,3 %== (ETF del Reino Unido +0,3 %). Posible valoración desfasada; tómese con cautela."
+      },
+      {
+        "isin": "IE00BKKJBP83",
+        "por_que": "Tecnología financiera (pagos, bolsas, aseguradoras). Se benefició de la ==rotación hacia financieras de EE. UU. (+1,1 %)==, pero +2,2 % supera a su ETF de referencia (plano): puede recoger con retraso la subida del 21."
+      },
+      {
+        "isin": "LU2286300988",
+        "por_que": "Ciberseguridad (CrowdStrike, Palo Alto, Cloudflare). ==Su VL va con un día de desfase==: replica la subida del sector el 21 (+2,7 %), no el 22 (−0,3 %). El próximo VL debería recoger la leve caída del 22."
+      },
+      {
+        "isin": "LU1894682704",
+        "por_que": "Valor de EE. UU. (Exxon, JPMorgan, Bank of America). La banca de EE. UU. subió y el dólar ganó un 0,26 % al euro, pero ==+2,1 % casi triplica a su índice value (+0,3 %)==: dato a verificar."
+      },
+      {
+        "isin": "LU0147943103",
+        "por_que": "Valor de EE. UU. (estilo Oakmark, con mucho peso financiero): ==financieras +1,1 % y rotación fuera de la tecnología==. La subida es alta frente al mercado; puede incluir más de una sesión."
+      },
+      {
+        "isin": "LU0493246424",
+        "por_que": "Pequeñas y medianas de EE. UU.: ==poca IA y beneficiadas por la bajada de tipos==. El Russell 2000 solo subió un 0,1 %, así que +1,8 % parece exagerado o con desfase."
+      },
+      {
+        "isin": "LU0114720955",
+        "por_que": "Salud global (Eli Lilly, AbbVie, UnitedHealth, Roche): ==el sector salud de EE. UU. subió un 1,3 %== como refugio defensivo, más el leve avance del dólar."
+      },
+      {
+        "isin": "LU0251853072",
+        "por_que": "Salud (Johnson & Johnson, Lilly, UnitedHealth, Merck): mismo motivo, ==dinero que sale de chips hacia defensivos==; 78 % en EE. UU."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU0496368142",
+        "por_que": "Mineras de oro y metales preciosos (Equinox, Alamos, Barrick, 59 % Canadá). ==Las mineras amplifican la caída del oro (−2,2 %) y la plata (−4,6 %)==; su ETF (GDX) cayó un 5,8 %. Clase cubierta a euros: sin efecto divisa."
+      },
+      {
+        "isin": "LU1578889864",
+        "por_que": "Mineras de oro (Barrick, AngloGold, Northern Star). ==Apalancamiento operativo==: si el oro baja, su margen cae mucho más. Cubierta a euros."
+      },
+      {
+        "isin": "LU1804833579",
+        "por_que": "Tecnología asiática: ==TSMC, Samsung y SK Hynix suman un 27 %==, de lleno en la venta de chips de memoria (Kospi −3,5 %, SK Hynix −6 %)."
+      },
+      {
+        "isin": "LU0688698975",
+        "por_que": "Emergentes con fuerte apuesta en chips: ==SK Hynix (9 %), Samsung y Taiwán vía derivados== y 46 % en Corea/Taiwán. Cubierta a euros."
+      },
+      {
+        "isin": "IE0009531827",
+        "por_que": "Concentrado en 40 valores de crecimiento de EE. UU.: ==NVIDIA (9,6 %), Alphabet, Amazon y Lumentum==. Cubierto a euros: refleja casi exacto la caída del Nasdaq."
+      },
+      {
+        "isin": "LU0444971666",
+        "por_que": "Tecnología global: Bloom Energy (energía para centros de datos) y ==Lam Research (−9 % el día)==. Clase en USD: −4,7 % en dólares; ==el dólar al alza suavizó la caída a −4,5 % en euros==. Disponible en Bankinter y ABANCA."
+      },
+      {
+        "isin": "LU0252218424",
+        "por_que": "Tecnología global (solo IronIA): ==semiconductores y plataformas de IA==, el núcleo de la venta tras los resultados de Meta y Tesla."
+      },
+      {
+        "isin": "LU0260870158",
+        "por_que": "Tecnología (NVIDIA, TSMC, Broadcom, ==Meta −7 %==): el 77 % en tecnología y un 11 % en Asia, doble castigo por chips y por Asia."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-28",
+      "evento": "Reunión de la Reserva Federal (Fed)",
+      "por_que_importa": "Tras el rally del bono, el mercado casi descarta una subida en octubre pero sigue esperando una en diciembre; el tono de la Fed decidirá si las rentabilidades vuelven por encima del 5 %."
+    },
+    {
+      "fecha": "2026-11-03",
+      "evento": "Elecciones legislativas de mitad de mandato en EE. UU.",
+      "por_que_importa": "La prensa vincula a esa fecha posibles nuevos ataques contra Irán, lo que mantiene la prima de riesgo en el petróleo."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "SOX",
+      "def": "Índice de semiconductores de Filadelfia: 30 grandes empresas de chips cotizadas en EE. UU."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene a vencimiento. Sube cuando cae su precio, y viceversa."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500; sube cuando el mercado paga más por protegerse de caídas."
+    },
+    {
+      "sigla": "MOVE",
+      "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+    },
+    {
+      "sigla": "WTI",
+      "def": "West Texas Intermediate: petróleo de referencia en EE. UU."
+    },
+    {
+      "sigla": "EEM",
+      "def": "ETF (fondo cotizado) de iShares que replica el índice MSCI de mercados emergentes."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Exchange-traded fund: fondo que cotiza en bolsa como una acción."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "AAA",
+      "def": "Máxima calificación crediticia; la curva AAA del BCE agrupa los bonos de los países euro con esa nota (Alemania, Países Bajos…)."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán; referencia de la deuda sin riesgo en euros."
+    },
+    {
+      "sigla": "OAT",
+      "def": "Obligation assimilable du Trésor: bono del Estado francés."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: precio diario de una participación de un fondo."
+    },
+    {
+      "sigla": "Prima por plazo",
+      "def": "Rentabilidad extra que se exige por prestar a largo plazo en lugar de renovar a corto."
+    }
+  ],
+  "generado": "2026-10-23T12:30"
+}

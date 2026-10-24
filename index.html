@@ -158,6 +158,7 @@
 <div id="mapa" style="display:none"></div>
 <div id="antiinfla" style="display:none"></div>
 <div id="ironia" style="display:none"></div>
+<div id="mercados" style="display:none"></div>
 <div id="gzModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.55);padding:2vh 2vw" onclick="if(event.target===this)guiaClose()"></div>
 <div id="gzPickBar" style="display:none;position:fixed;left:18px;bottom:18px;z-index:30;gap:8px;align-items:center;background:var(--navy);color:#fff;padding:10px 14px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.25)"></div>
 <datalist id="fundlist"></datalist>
@@ -299,6 +300,8 @@ function buildFilters(){const fill=(id,vals)=>{const s=document.getElementById(i
   fill("fAsset",uniq("GlobalAssetClass"));fill("fCur",uniq("Currency"));fill("fSRRI",uniq("SRRI").filter(Boolean).sort((a,b)=>a-b));}
 const GROUPS=[
   {g:"Guía",tabs:["Clasificación","Estructura web"]},
+  {g:"Historia",tabs:["Línea temporal","Temáticas","Países","Años","Eventos","Por qué se movió","Persistencia","Regímenes","Caídas"]},
+  {g:"Mercados",tabs:["Diario","Semanal","Quincenal","Mensual","Trimestral","Semestral","Anual","Personalizado","Evolución"]},
   {g:"Indicadores de los fondos",tabs:["General","Pignoración","Rent. Acumuladas","Rent. Anuales","Consistencia","Cartera","Ratios","Riesgo","Comisiones"]},
   {g:"Rankings y movimientos",tabs:["Top Movers","Semanal Histórico","Multi-periodo","Semanas","Score","Percentiles","Escenarios","Rankings"]},
   {g:"Gráficos",tabs:["Riesgo-Rentabilidad","Coste-Rentabilidad","Ranking Sharpe","Heatmap","Box-plot","Drawdown","Correlación","Anti-inflación"]},
@@ -308,12 +311,12 @@ const GROUPS=[
   {g:"Contexto",tabs:["EURIBOR","Intereses"]},
   {g:"Chat IA",tabs:["Chat IA"]}
 ];
-const GROUP_ICON={"Guía":"📖 ","Indicadores de los fondos":"📋 ","Rankings y movimientos":"📊 ","Gráficos":"📈 ","Herramientas":"🛠️ ","Carteras modelo":"🗂️ ","IronIA":"🔺 ","Contexto":"🏦 ","Chat IA":"💬 "};
+const GROUP_ICON={"Guía":"📖 ","Mercados":"📰 ","Historia":"📜 ","Indicadores de los fondos":"📋 ","Rankings y movimientos":"📊 ","Gráficos":"📈 ","Herramientas":"🛠️ ","Carteras modelo":"🗂️ ","IronIA":"🔺 ","Contexto":"🏦 ","Chat IA":"💬 "};
 const TAB_ICON={"Chat IA":"💬 ","Top Movers":"📊 ","Semanal Histórico":"🗓️ ","Multi-periodo":"📅 ","Semanas":"📆 ","Score":"📈 ","Rankings":"🗓️ ","Mi Cartera":"💼 ","Constructor":"🧭 ","Cuándo":"🕐 ","Clasificación":"📖 ","Estructura web":"🗺️ ","Percentiles":"🎯 ","Escenarios":"🌦️ "};
 function groupOf(tab){const gg=GROUPS.find(x=>x.tabs.includes(tab));return gg?gg.g:GROUPS[0].g;}
 function selectTab(name){
   curTab=name;
-  {const _ir=document.getElementById("ironia");if(_ir)_ir.style.display="none";}
+  {const _ir=document.getElementById("ironia");if(_ir)_ir.style.display="none";const _mk=document.getElementById("mercados");if(_mk)_mk.style.display="none";}
   const _pb=document.getElementById("gzPickBar");if(_pb&&name!=="Clasificación")_pb.style.display="none";
   document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle('active',x.dataset.t===curTab));
   if(curTab==="EURIBOR"){showEuribor();return;}
@@ -341,6 +344,10 @@ function selectTab(name){
   if(curTab==="Anti-inflación"){showAntiInflacion();return;}
   if(curTab==="Carteras modelo"){showCarterasModelo();return;}
   if(curTab==="Catálogo IronIA"){showIronia();return;}
+  if(["Diario","Semanal","Quincenal","Mensual","Trimestral","Semestral","Anual"].includes(curTab)){showMercados(curTab);return;}
+  if(curTab==="Evolución"){showEvolucion();return;}
+  if(curTab==="Personalizado"){showPersonalizado();return;}
+  if(["Línea temporal","Temáticas","Países","Años","Eventos","Por qué se movió","Persistencia","Regímenes","Caídas"].includes(curTab)){showHistoria(curTab);return;}
   if(curTab==="Clasificación"){showGuia();return;}
   if(curTab==="Estructura web"){showEstructura();return;}
   // vista de tabla
@@ -4332,5 +4339,7 @@ fetch("data/fondos_latest.csv",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;ret
   .catch(()=>{document.getElementById("subtitle").textContent="Carga el CSV para ver los datos.";document.getElementById("loadbox").style.display="block";});
 document.getElementById("file").addEventListener("change",e=>{const f=e.target.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>load(rd.result);rd.readAsText(f,"utf-8");});
 </script>
+<script src="mercados.js"></script>
+<script src="historia.js"></script>
 </body>
 </html>

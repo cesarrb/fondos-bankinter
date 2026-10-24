@@ -1,0 +1,607 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-07",
+  "fase": "completo",
+  "titulo": "El bono de EE. UU. toca máximos de 2002 y la banca hunde a Europa; Milán cae un 2,5 %",
+  "resumen": "La presión volvió a los bonos y esta vez Europa la sufrió más. Por la mañana, la TIR (tasa interna de rentabilidad) del bono de EE. UU. a 10 años subió hasta el 5,36 %, ==su nivel más alto desde abril de 2002==, y la del 30 años tocó el 5,73 %, a la espera de una subasta a 10 años de 39.000 millones y de las actas de la Reserva Federal (Fed). ==La subasta tuvo buena demanda y se adjudicó con una rentabilidad inferior a la esperada==, y el 10 años terminó casi plano (5,28 %, +1 punto básico, pb). Las actas, en cambio, fueron duras: ==la mayoría del comité ve probable otra subida de tipos antes de fin de año==, tras la de septiembre, por una inflación persistente.\n\nEuropa cerró antes de esa recuperación y pagó el pico de tensión: Euro Stoxx 50 −1,5 %, DAX −1,35 %, CAC 40 −1,2 %, IBEX 35 −1,7 % y FTSE MIB −2,5 %. ==La banca fue el epicentro== (Deutsche Bank y Société Générale cayeron más de un 5 %; Barclays, HSBC o Lloyds, entre un 3 % y un 5 %): cuando suben con fuerza las rentabilidades de la deuda pública, ==los bancos sufren por las pérdidas de valor de los bonos que tienen en balance== y por el temor a que se encarezca su propia financiación, y en Francia e Italia se suma el riesgo soberano: los bonos francés e italiano a 10 años subieron unos 8 pb y el francés quedó cerca del 4,9 %, con el debate presupuestario francés de fondo. Italia, con un índice muy cargado de bancos (UniCredit, Intesa), fue la plaza más castigada. Solo Suiza (SMI +0,1 %), refugio por sus farmacéuticas y su perfil defensivo, se salvó.\n\nEn Wall Street el S&P 500 llegó a perder un 0,7 % pero cerró con −0,2 % gracias a la subasta; el Dow Jones cayó un 0,7 % por Caterpillar (−5,8 %, por dudas sobre el gasto en generación eléctrica y centros de datos) y el Russell 2000 de pequeñas compañías un 1,3 %. Diez de los once sectores bajaron; ==solo subió la salud (+1 %), que actuó como refugio==. Asia ya había cedido (Nikkei −0,9 %, Kospi −2 %).\n\nEn materias primas, el crudo llegó a 102,6 $ por nuevos ataques a barcos en el Golfo pero cerró ligeramente a la baja (Brent −0,4 %, 100,2 $; WTI −1,3 %) porque los países de la Agencia Internacional de la Energía (AIE) ==acordaron adelantar la liberación de reservas==, empezando por el gasóleo. El gas europeo (TTF) subió otro 3 %. El oro (−1,1 %) y la plata (−2,1 %, por debajo de 60 $ por primera vez desde agosto) sufrieron por las actas y el repunte del dólar (DXY +0,4 %): ==más tipos reales encarecen mantener metales que no pagan interés==. Bitcoin cayó un 2,7 % con liquidaciones de posiciones apalancadas. En fondos, mediana de la renta variable −0,56 %: perdieron la banca europea, Italia, renovables, mineras de oro y emergentes; ganaron salud y los fondos inversos.",
+  "claves": [
+    "El 10 años de EE. UU. tocó el 5,36 % (máximo desde 2002) ==antes de una subasta sólida que lo devolvió al 5,28 %==; el 30 años llegó al 5,73 %.",
+    "Las actas de la Fed muestran a ==la mayoría a favor de otra subida de tipos este año==: golpe a oro (−1,1 %) y plata (−2,1 %).",
+    "==La banca europea se desplomó por el repunte de la deuda pública==: FTSE MIB −2,5 %, IBEX 35 −1,7 %, DAX −1,35 %.",
+    "El petróleo se frenó en 100 $ porque ==la AIE adelantará la liberación de reservas==, pese a nuevos ataques a barcos en el Golfo.",
+    "Solo la salud subió en el S&P 500; los fondos sanitarios lideraron las subidas y los de renovables, oro e Italia, las caídas."
+  ],
+  "suben": [
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+3,16 %",
+      "por_que": "==Nuevos ataques a la navegación en el Golfo== elevan la prima de riesgo sobre el gas natural licuado de la región, en plena llegada de la demanda de calefacción; vuelve a niveles de finales de septiembre.",
+      "fuentes": [
+        {
+          "t": "XTB (resumen 7-oct)",
+          "u": "https://www.xtb.com/en/market-analysis/daily-summary-wall-street-recovers-losses-despite-a-surge-in-yields-gold-and-silver-retreat"
+        },
+        {
+          "t": "Yahoo Finance (Europa 7-oct)",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-fall-oil-prices-183328012.html"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural EE. UU. (Henry Hub)",
+      "cambio": "+2,86 %",
+      "por_que": "Prolonga el rally de octubre; la tormenta tropical Isaias, camino del golfo de México, añade riesgo sobre la producción.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        },
+        {
+          "t": "XTB (resumen 7-oct)",
+          "u": "https://www.xtb.com/en/market-analysis/daily-summary-wall-street-recovers-losses-despite-a-surge-in-yields-gold-and-silver-retreat"
+        }
+      ]
+    },
+    {
+      "activo": "Bono zona euro 2 años (TIR)",
+      "cambio": "−5,6 pb (3,00 %)",
+      "por_que": "Bajada de rentabilidad en el tramo corto, que depende del BCE: ==la búsqueda de refugio ante la caída de las bolsas== favoreció la deuda alemana a corto mientras el plazo largo se tensionaba (el Bund a 10 años subió 2 pb).",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance (Europa 7-oct)",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-fall-oil-prices-183328012.html"
+        }
+      ]
+    },
+    {
+      "activo": "SMI (Suiza)",
+      "cambio": "+0,14 %",
+      "por_que": "Único gran índice europeo en positivo: pesan mucho las farmacéuticas y el consumo básico, ==sectores defensivos que atrajeron dinero== el mismo día que la salud era el único sector al alza en EE. UU.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance (Europa 7-oct)",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-fall-oil-prices-183328012.html"
+        },
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        }
+      ]
+    },
+    {
+      "activo": "Dólar (índice DXY)",
+      "cambio": "+0,40 %",
+      "por_que": "==Unas actas de la Fed más duras de lo esperado== y el pico de rentabilidades de EE. UU. atrajeron flujos al dólar.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        },
+        {
+          "t": "XTB (resumen 7-oct)",
+          "u": "https://www.xtb.com/en/market-analysis/daily-summary-wall-street-recovers-losses-despite-a-surge-in-yields-gold-and-silver-retreat"
+        }
+      ]
+    },
+    {
+      "activo": "VIX (volatilidad S&P 500)",
+      "cambio": "+0,5 %",
+      "por_que": "Ligera subida, contenida por la recuperación de la tarde tras la subasta.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "FTSE MIB (Italia)",
+      "cambio": "−2,51 %",
+      "por_que": "==Índice muy bancario== en un día de castigo a la banca europea por el repunte de la deuda pública; la rentabilidad del bono italiano subió unos 8 pb y ==la prima de riesgo se amplía==, lo que daña directamente a los bancos, grandes tenedores de deuda italiana.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance (Europa 7-oct)",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-fall-oil-prices-183328012.html"
+        },
+        {
+          "t": "Bloomberg (banca europea 7-oct)",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-07/european-bank-stocks-sink-toward-lowest-since-july-as-bonds-fall"
+        }
+      ]
+    },
+    {
+      "activo": "IBEX 35 (España)",
+      "cambio": "−1,68 %",
+      "por_que": "Mismo patrón: el peso de Santander, BBVA, CaixaBank y compañía hace del IBEX ==uno de los índices más expuestos a una caída de la banca europea==.",
+      "fuentes": [
+        {
+          "t": "Bloomberg (banca europea 7-oct)",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-07/european-bank-stocks-sink-toward-lowest-since-july-as-bonds-fall"
+        },
+        {
+          "t": "Yahoo Finance (Europa 7-oct)",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-fall-oil-prices-183328012.html"
+        }
+      ]
+    },
+    {
+      "activo": "Euro Stoxx 50 / DAX",
+      "cambio": "−1,47 % / −1,35 %",
+      "por_que": "Bancos (Deutsche Bank −5 %), Infineon (−5,7 %) y Fresenius Medical Care (−7 %) lastraron, pese a una producción industrial alemana de agosto mucho mejor de lo esperado (+2 %). Tensiones en Oriente Medio y la situación fiscal de Francia completaron el cuadro.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance (Europa 7-oct)",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-fall-oil-prices-183328012.html"
+        },
+        {
+          "t": "Bloomberg (banca europea 7-oct)",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-07/european-bank-stocks-sink-toward-lowest-since-july-as-bonds-fall"
+        }
+      ]
+    },
+    {
+      "activo": "Russell 2000 (pequeñas EE. UU.)",
+      "cambio": "−1,31 %",
+      "por_que": "==Las pequeñas son las más sensibles a tipos altos== (más deuda y a tipo variable). Industriales (−2,2 %) y materiales (−1,5 %) lideraron las caídas sectoriales.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        },
+        {
+          "t": "Anadolu Agency",
+          "u": "https://aa.com.tr/en/economy/us-stocks-close-lower-as-elevated-treasury-yields-weigh-on-markets/4081519"
+        }
+      ]
+    },
+    {
+      "activo": "Dow Jones",
+      "cambio": "−0,66 %",
+      "por_que": "==Caterpillar (−5,8 %)== tras un recorte de precio objetivo que cuestiona el gasto en generación eléctrica para centros de datos y por el encarecimiento de la financiación; Deere −3,8 %.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        },
+        {
+          "t": "XTB (resumen 7-oct)",
+          "u": "https://www.xtb.com/en/market-analysis/daily-summary-wall-street-recovers-losses-despite-a-surge-in-yields-gold-and-silver-retreat"
+        },
+        {
+          "t": "Anadolu Agency",
+          "u": "https://aa.com.tr/en/economy/us-stocks-close-lower-as-elevated-treasury-yields-weigh-on-markets/4081519"
+        }
+      ]
+    },
+    {
+      "activo": "Plata / oro",
+      "cambio": "−2,07 % / −1,11 %",
+      "por_que": "Actas de la Fed duras y dólar al alza: ==más tipos reales encarecen el coste de oportunidad== de tener metales sin rentabilidad. La plata perdió los 60 $ por primera vez desde agosto; platino y paladio cayeron un 4–5 %.",
+      "fuentes": [
+        {
+          "t": "XTB (resumen 7-oct)",
+          "u": "https://www.xtb.com/en/market-analysis/daily-summary-wall-street-recovers-losses-despite-a-surge-in-yields-gold-and-silver-retreat"
+        },
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        }
+      ]
+    },
+    {
+      "activo": "Uranio (ETF URA)",
+      "cambio": "−4,47 %",
+      "por_que": "Devolvió el +4 % del día anterior: recogida de beneficios y el mismo recelo sobre el gasto en energía para IA que castigó a Caterpillar (relación inferida, sin noticia específica).",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        }
+      ]
+    },
+    {
+      "activo": "Bitcoin",
+      "cambio": "−2,67 %",
+      "por_que": "Por debajo de 83.000 $ con cerca de ==700 millones de dólares en liquidaciones== de posiciones apalancadas en 24 h; los activos especulativos sufren cuando suben los tipos reales.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        },
+        {
+          "t": "XTB (resumen 7-oct)",
+          "u": "https://www.xtb.com/en/market-analysis/daily-summary-wall-street-recovers-losses-despite-a-surge-in-yields-gold-and-silver-retreat"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Bonos de EE. UU. en máximos desde 2002",
+      "texto": "El 10 años tocó el 5,36 % y el 30 años el 5,73 % antes de la subasta. ==Una subasta fuerte (rentabilidad adjudicada inferior a la esperada)== demostró que ==sigue habiendo compradores a estos niveles== y provocó la vuelta atrás. El mercado vigila el plazo largo porque es el que fija hipotecas y financiación empresarial.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        },
+        {
+          "t": "Eurasia Business News (subasta a 10 años)",
+          "u": "https://eurasiabusinessnews.com/2026/10/07/stock-market-today-treasury-yields-retreat-after-strong-auction-dow-slips/"
+        },
+        {
+          "t": "Anadolu Agency",
+          "u": "https://aa.com.tr/en/economy/us-stocks-close-lower-as-elevated-treasury-yields-weigh-on-markets/4081519"
+        }
+      ]
+    },
+    {
+      "tema": "Actas de la Reserva Federal (Fed)",
+      "texto": "Las actas de la reunión del 15–16 de septiembre, cuando la Fed subió tipos, muestran que ==la mayoría ve probable otra subida en 2026 por la inflación persistente==. El mercado de futuros solo daba un 17–20 % a que llegue ya el 28 de octubre, pero la puerta queda abierta para diciembre.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        },
+        {
+          "t": "XTB (resumen 7-oct)",
+          "u": "https://www.xtb.com/en/market-analysis/daily-summary-wall-street-recovers-losses-despite-a-surge-in-yields-gold-and-silver-retreat"
+        }
+      ]
+    },
+    {
+      "tema": "Banca europea y riesgo soberano",
+      "texto": "El repunte de rentabilidades ==golpea a los bancos por el valor de su cartera de bonos== y por el riesgo de que suban sus costes de financiación; en Francia (presupuesto en discusión, déficit) e Italia ==se añade la prima de riesgo del propio país==. Por eso la caída se concentró en Milán, Madrid y París.",
+      "fuentes": [
+        {
+          "t": "Bloomberg (banca europea 7-oct)",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-07/european-bank-stocks-sink-toward-lowest-since-july-as-bonds-fall"
+        },
+        {
+          "t": "Yahoo Finance (Europa 7-oct)",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-fall-oil-prices-183328012.html"
+        },
+        {
+          "t": "Trading Economics (bono francés)",
+          "u": "https://tradingeconomics.com/france/government-bond-yield/news/589189"
+        }
+      ]
+    },
+    {
+      "tema": "Petróleo: ataques frente a reservas estratégicas",
+      "texto": "Nuevos ataques a barcos en el Golfo llevaron el Brent a 102,6 $, pero ==el acuerdo de la AIE para adelantar la liberación de reservas== (primero gasóleo) lo devolvió a 100 $. Las conversaciones entre EE. UU. e Irán sobre el programa nuclear siguen estancadas.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 7-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-7/"
+        },
+        {
+          "t": "XTB (resumen 7-oct)",
+          "u": "https://www.xtb.com/en/market-analysis/daily-summary-wall-street-recovers-losses-despite-a-surge-in-yields-gold-and-silver-retreat"
+        },
+        {
+          "t": "Yahoo Finance (Europa 7-oct)",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-fall-oil-prices-183328012.html"
+        }
+      ]
+    }
+  ],
+  "fondos": {
+    "texto": "Día negativo: mediana de la renta variable −0,56 %, mixtos −0,22 % y renta fija prácticamente plana (−0,02 %), coherente con un repunte de rentabilidades concentrado en el plazo largo. Las caídas se concentraron en ==lo más sensible a tipos (renovables, infraestructuras), la banca europea== (fondos de Italia y de grandes compañías de la zona euro), las mineras de oro y los emergentes. Las subidas fueron para la salud, el único sector al alza en EE. UU., y para los fondos inversos de bolsa europea. En los fondos en dólares, el dólar subió un 0,8 % en el fijo del BCE, lo que suma rentabilidad en euros (ver Bellevue Obesity). Dentro de la salud hubo dos velocidades: subió la gran farmacia, pero ==la biotecnología pequeña cayó (JPM Genetic Therapies −2,8 %)==, porque los tipos largos penalizan a quien aún no gana dinero. Tras recalcular la tabla, todas las cifras son de una sola sesión (6→7-oct) y desaparece el falso +13 % del Fidelity Latin America. Quedan dos datos raros: una clase del Cinvest Multigestión cae un 2,9 % mientras la otra queda plana, y el BGF Next Generation Technology (−3,6 %) cae mucho más que el Nasdaq 100 (−0,2 %).",
+    "suben": [
+      {
+        "isin": "LU1881477043",
+        "por_que": "+1,9 %: estrategia de materias primas; el gas natural (+3 % en EE. UU. y Europa) compensó la caída de los metales preciosos. Movimiento algo mayor del esperado: posible desfase en la valoración."
+      },
+      {
+        "isin": "LU2286300988",
+        "por_que": "+1,8 %: ciberseguridad de EE. UU. (CrowdStrike, Palo Alto, Cloudflare); sin noticia concreta, el software defensivo aguantó mejor que el resto de la tecnología, con apoyo del dólar."
+      },
+      {
+        "isin": "ES0156741003",
+        "por_que": "+1,75 %: la salud fue el único sector del S&P 500 en positivo (+1 %), con AbbVie en máximos de un año; ==actuó como refugio frente a los tipos==."
+      },
+      {
+        "isin": "LU0261952419",
+        "por_que": "+1,7 %: cartera de grandes farmacéuticas y aseguradoras de salud (Eli Lilly, AbbVie, UnitedHealth, Roche): refugio defensivo y apoyo de la subida del dólar en euros."
+      },
+      {
+        "isin": "LU2719279916",
+        "por_que": "+0,9 % en dólares y +1,7 % en euros: ==la diferencia es efecto divisa== (dólar +0,8 % frente al euro en el fijo del BCE). Tirón de la salud como sector refugio."
+      },
+      {
+        "isin": "AT0000A1TW05",
+        "por_que": "+1,65 %: bolsa de Europa central (Polonia, Hungría, Chequia), fondo austriaco cuyo valor liquidativo va un día por detrás (se ve el 9-oct). ==Recoge sobre todo la buena sesión del 6-oct== (DAX +0,8 %), no la caída del 7. Sin cartera en nuestros datos."
+      },
+      {
+        "isin": "ES0164585004",
+        "por_que": "+1,6 %: fondo inverso del Euro Stoxx 50, que cayó un 1,5 %; gana cuando la bolsa europea baja, como se esperaba."
+      },
+      {
+        "isin": "LU1278917452",
+        "por_que": "+1,56 %: value global muy defensivo: ==consumo básico (35 %), salud (34 %) y eléctricas (31 %)==, con Smucker, Conagra, Kraft Heinz, Regeneron o Bristol-Myers. Justo los sectores refugio del día; el 41 % en EE. UU. suma la subida del dólar (+0,8 %)."
+      },
+      {
+        "isin": "LU0374901568",
+        "por_que": "+1,55 %: petroleras (Shell, Exxon, Galp); el Brent tocó 102,6 $ intradía por los ataques en el Golfo y Marathon Petroleum marcó máximos anuales."
+      },
+      {
+        "isin": "LU0251853072",
+        "por_que": "+1,4 %: salud internacional; mismo motivo defensivo."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU1861216510",
+        "por_que": "−3,6 %: chips y hardware de IA. Llama la atención frente a un Nasdaq 100 que solo cedió un 0,2 % (y Micron subió un 4 %); parece recoger antes de tiempo la venta de semiconductores del día 8 o un desfase en el VL. ==Dato a vigilar==."
+      },
+      {
+        "isin": "LU0496368142",
+        "por_que": "−3,1 %: mineras de oro (Equinox, Alamos, Barrick); el oro cayó un 1,1 % y las mineras amplifican el movimiento del metal por su apalancamiento operativo."
+      },
+      {
+        "isin": "LU0823414635",
+        "por_que": "−2,93 % (clase disponible en Bankinter y ABANCA): energías limpias y electrificación (Samsung, Cameco, SK hynix, Array, Sunrun, Vertiv). ==Proyectos financiados con deuda: muy sensibles a los tipos largos==; además, el uranio cayó un 4,5 % (Cameco) y las solares sufren con tipos altos."
+      },
+      {
+        "isin": "ES0107696017",
+        "por_que": "−2,9 % en un fondo mixto flexible: dato raro, porque la otra clase del mismo fondo (ES0107696009) quedó plana ese día y subió un 1,7 % al siguiente. Posible desfase de VL entre clases."
+      },
+      {
+        "isin": "LU0093502762",
+        "por_que": "−2,85 %: grandes compañías de la zona euro con ASML (10 %) y mucha banca (UniCredit, CaixaBank, Erste, ABN AMRO) ==en el peor día de los bancos europeos en semanas== (Euro Stoxx 50 −1,5 %)."
+      },
+      {
+        "isin": "LU1710457893",
+        "por_que": "−2,8 %: mismo motivo, renovables castigadas por la subida del plazo largo."
+      },
+      {
+        "isin": "LU2053353079",
+        "por_que": "−2,77 %: terapias génicas (Twist Bioscience, Iovance, Krystal, Wuxi AppTec). ==Biotecnología pequeña sin beneficios: la que más sufre con tipos largos== porque su valor depende de flujos muy lejanos. Contraste con la gran farmacia, que subió como refugio."
+      },
+      {
+        "isin": "LU1223083087",
+        "por_que": "−2,64 % (Bankinter y ABANCA): mineras de oro (Agnico Eagle, Barrick, Newmont, Eldorado). ==El oro cayó un 1,1 % por las actas duras== y las mineras amplifican el metal por su apalancamiento operativo; la subida del dólar suavizó algo la caída en euros."
+      },
+      {
+        "isin": "LU0922333322",
+        "por_que": "−2,6 %: bolsa italiana con UniCredit e Intesa (casi un 20 % entre ambos), BPER y MPS; el FTSE MIB cayó un 2,5 %."
+      },
+      {
+        "isin": "LU1822773807",
+        "por_que": "−2,6 %: eléctricas y renovables (NextEra, National Grid, Vestas); el día de subida del 10 años a máximos desde 2002 penaliza a los valores tipo «bono»."
+      },
+      {
+        "isin": "IE00BZ18VT34",
+        "por_que": "−2,6 %: infraestructuras cotizadas, muy sensibles a tipos; en el Reino Unido, Pennon se hundió un 17 % por una ampliación de capital y un recorte del dividendo."
+      },
+      {
+        "isin": "LU0087656855",
+        "por_que": "−2,6 %: bolsa italiana; misma exposición a la banca y a la subida de la prima de riesgo italiana."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-08",
+      "evento": "Subasta de bonos a 30 años de EE. UU. (22.000 M$), peticiones de subsidio por desempleo, resultados de PepsiCo y reapertura de China",
+      "por_que_importa": "Tras la subasta a 10 años, la del 30 años dirá si los compradores aceptan el plazo más largo cerca del 5,7 %."
+    },
+    {
+      "fecha": "2026-10-09",
+      "evento": "Resultados de Delta Air Lines; llegada prevista del huracán Isaias a la costa del golfo de México",
+      "por_que_importa": "Isaias podría cerrar producción de crudo y gas en el golfo de México, con impacto en precios."
+    },
+    {
+      "fecha": "2026-10-12",
+      "evento": "Mercado de bonos de EE. UU. cerrado (Columbus Day)",
+      "por_que_importa": "Menos liquidez al inicio de la semana."
+    },
+    {
+      "fecha": "2026-10-14",
+      "evento": "IPC de septiembre en EE. UU.",
+      "por_que_importa": "Con la Fed inclinada a otra subida, una inflación alta la acercaría a octubre o diciembre."
+    },
+    {
+      "fecha": "2026-10-27",
+      "evento": "Reunión de la Fed (27–28 de octubre)",
+      "por_que_importa": "El mercado da un 17–20 % de probabilidad a una subida; las actas mantienen viva la de diciembre."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene a vencimiento. Sube cuando cae su precio, y viceversa."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500; sube cuando el mercado paga más por protegerse de caídas."
+    },
+    {
+      "sigla": "MOVE",
+      "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU. (el «VIX de los bonos»)."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis divisas (el euro pesa más de la mitad)."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: el precio diario de una participación de un fondo."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos), en €/MWh."
+    },
+    {
+      "sigla": "WTI",
+      "def": "West Texas Intermediate: petróleo de referencia en EE. UU.; el Brent es la referencia europea e internacional."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Fondo cotizado en bolsa (exchange-traded fund)."
+    },
+    {
+      "sigla": "high yield",
+      "def": "Bonos de empresas con calificación inferior a «grado de inversión»; su diferencial es lo que pagan por encima de la deuda pública."
+    },
+    {
+      "sigla": "AIE",
+      "def": "Agencia Internacional de la Energía: coordina las reservas estratégicas de petróleo de los países consumidores."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán, referencia de la deuda de la zona euro."
+    },
+    {
+      "sigla": "IPC",
+      "def": "Índice de precios de consumo (inflación)."
+    },
+    {
+      "sigla": "SMI",
+      "def": "Swiss Market Index: índice de las grandes compañías suizas."
+    },
+    {
+      "sigla": "OAT",
+      "def": "Obligation assimilable du Trésor: bono del Estado francés."
+    },
+    {
+      "sigla": "BTP",
+      "def": "Buono del Tesoro Poliennale: bono del Estado italiano."
+    },
+    {
+      "sigla": "Prima por plazo",
+      "def": "Rentabilidad extra que exigen los inversores por prestar a largo plazo en vez de renovar préstamos a corto; sube con la incertidumbre sobre inflación, déficit y emisiones."
+    },
+    {
+      "sigla": "FedWatch",
+      "def": "Herramienta de CME Group que traduce los futuros de tipos en probabilidades de cada decisión de la Fed."
+    }
+  ],
+  "generado": "2026-10-23T11:00",
+  "tipos": {
+    "texto": "Día de dos caras en la deuda de EE. UU. La TIR del 10 años tocó el 5,36 % por la mañana (máximo desde 2002) y acabó casi plana, en el 5,28 % (+0,8 pb), porque ==la subasta de 39.000 millones tuvo una demanda récord== (2,77 veces cubierta, la mayor desde 2016). Cuando aparecen compradores a estos niveles, el mercado deja de exigir una prima por plazo adicional y la TIR retrocede. El 2 años bajó 2 pb (4,77 %): ==las actas anticipan otra subida, pero no necesariamente en octubre== (los futuros daban cerca de un 78 % a que la Fed mantenga tipos el día 28), así que el tramo que sigue a la Fed apenas cambió. El 30 años subió 2 pb (5,66 %): es el tramo más expuesto a la prima por plazo (déficit, emisiones) y su subasta seguía pendiente.\n\nEn la zona euro la curva se empinó. ==El 2 años AAA cayó 5,6 pb (3,00 %) por búsqueda de refugio== mientras se hundían las bolsas, y el 10 años (≈ Bund) subió 2 pb (3,54 %), contagiado por el plazo largo de EE. UU. ==Francia e Italia sufrieron más: sus bonos a 10 años subieron unos 8 pb==, con el presupuesto francés de fondo y la venta de banca, gran tenedora de la deuda de su propio país. El diferencial del high yield de EE. UU. se amplió 6 pb (3,09 %): con tipos altos y bolsa a la baja, el crédito arriesgado exige más prima.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "−2 pb (4,77 %)",
+        "por_que": "Tramo que sigue a la Fed. Las actas dejan otra subida «probable» este año, pero ==el mercado no la ve en la reunión del 28 de octubre== (≈ 78 % de mantener según FedWatch), así que no cambió la expectativa a corto.",
+        "fuentes": [
+          {
+            "t": "Political.org (bonos de EE. UU. 7-oct)",
+            "u": "https://political.org/2026/10/07/treasury-yields-climb-to-24-year-highs-as-markets-brace-for-39-billion-auction-and-fed-minutes/"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "+0,8 pb (5,28 %); máximo del día 5,36 %",
+        "por_que": "Subió por la mañana con el petróleo por encima de 100 $ y el miedo a la subasta; ==la subasta fuerte (cobertura de 2,77 veces) borró la subida==: si hay demanda, baja la prima por plazo.",
+        "fuentes": [
+          {
+            "t": "Babypips (resumen 7-oct)",
+            "u": "https://www.babypips.com/news/financial-forex-market-recap-2026-10-07"
+          },
+          {
+            "t": "Political.org (bonos de EE. UU. 7-oct)",
+            "u": "https://political.org/2026/10/07/treasury-yields-climb-to-24-year-highs-as-markets-brace-for-39-billion-auction-and-fed-minutes/"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "+2 pb (5,66 %)",
+        "por_que": "El plazo más largo carga con la prima por plazo (déficit y mucha emisión) y con la subasta a 30 años del día siguiente aún por delante.",
+        "fuentes": [
+          {
+            "t": "Political.org (bonos de EE. UU. 7-oct)",
+            "u": "https://political.org/2026/10/07/treasury-yields-climb-to-24-year-highs-as-markets-brace-for-39-billion-auction-and-fed-minutes/"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "−5,6 pb (3,00 %)",
+        "por_que": "==Compra de deuda alemana a corto como refugio== en un día de caídas fuertes en la bolsa europea; el mercado no cambió su idea sobre el BCE.",
+        "fuentes": [
+          {
+            "t": "QuiFinanza (BTP, OAT y Bund 6-oct)",
+            "u": "https://quifinanza.it/economia/finanza/spread-btp-bund-6-ottobre-2026/1018444/"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "+2,0 pb (3,54 %)",
+        "por_que": "Contagio del máximo de 24 años del bono de EE. UU.: el plazo largo europeo se mueve en bloque con el estadounidense.",
+        "fuentes": [
+          {
+            "t": "Bloomberg (banca europea 7-oct)",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-07/european-bank-stocks-sink-toward-lowest-since-july-as-bonds-fall"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Francia–Alemania (10 años)",
+        "cambio": "≈ +6 pb (OAT cerca del 4,9 %)",
+        "por_que": "Estimación propia: OAT +8 pb frente a +2 pb del Bund. ==Riesgo fiscal francés: presupuesto con déficit difícil de aprobar==, en un día de ventas en la banca francesa. Italia (BTP) también subió unos 8 pb. Sin cierre oficial del diferencial en nuestras series.",
+        "fuentes": [
+          {
+            "t": "Trading Economics (bono francés)",
+            "u": "https://tradingeconomics.com/france/government-bond-yield/news/589189"
+          },
+          {
+            "t": "QuiFinanza (BTP, OAT y Bund 6-oct)",
+            "u": "https://quifinanza.it/economia/finanza/spread-btp-bund-6-ottobre-2026/1018444/"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "+6 pb (3,09 %)",
+        "por_que": "Más aversión al riesgo con la bolsa cayendo: las empresas más endeudadas son las que más sufren con tipos largos en máximos.",
+        "fuentes": [
+          {
+            "t": "Babypips (resumen 7-oct)",
+            "u": "https://www.babypips.com/news/financial-forex-market-recap-2026-10-07"
+          }
+        ]
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Political.org (bonos de EE. UU. 7-oct)",
+        "u": "https://political.org/2026/10/07/treasury-yields-climb-to-24-year-highs-as-markets-brace-for-39-billion-auction-and-fed-minutes/"
+      },
+      {
+        "t": "Babypips (resumen 7-oct)",
+        "u": "https://www.babypips.com/news/financial-forex-market-recap-2026-10-07"
+      },
+      {
+        "t": "Trading Economics (bono francés)",
+        "u": "https://tradingeconomics.com/france/government-bond-yield/news/589189"
+      },
+      {
+        "t": "QuiFinanza (BTP, OAT y Bund 6-oct)",
+        "u": "https://quifinanza.it/economia/finanza/spread-btp-bund-6-ottobre-2026/1018444/"
+      }
+    ]
+  }
+}

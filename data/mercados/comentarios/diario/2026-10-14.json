@@ -1,0 +1,560 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-14",
+  "fase": "completo",
+  "titulo": "Un IPC más alto de lo esperado y el miedo a la deuda de la IA tumban al Nasdaq",
+  "resumen": "El dato del día fue el IPC (índice de precios al consumo) de septiembre en EE. UU.: ==la inflación general subió al 3,7 % interanual (3,6 % esperado)== y la subyacente, sin energía ni alimentos, al 2,6 % (2,5 % esperado). La gasolina tiró del dato, pero la subida fue bastante generalizada, y eso es lo que preocupa a la Reserva Federal (Fed): según el mercado de futuros, la probabilidad de que suba tipos en la reunión del 27–28 de octubre ==pasó de algo más del 20 % a cerca del 50 %==. ==Unos tipos más altos encarecen la financiación y restan valor a los beneficios lejanos==, justo el punto débil de las empresas de inteligencia artificial (IA) que se están endeudando para construir centros de datos. Por eso el castigo se concentró en tecnología: Micron, Intel, AMD o SanDisk cayeron entre un 4 % y más de un 5 %, y Dell y HPE sufrieron por el temor al coste de su deuda. El Nasdaq 100 perdió un 2,0 %, el Russell 2000 de pequeñas compañías un 1,9 % y el S&P 500 un 1,1 % (7.719 puntos). El Dow Jones quedó casi plano (−0,1 %) gracias a valores de salud como UnitedHealth y Amgen. El VIX (volatilidad esperada del S&P 500) subió un 10,5 %, hasta 16,9, y el diferencial de los bonos de alto rendimiento (high yield) se amplió 9 puntos básicos (pb), hasta el 3,25 %: el crédito más arriesgado también notó el temor a la deuda de la IA.\n\nEn bonos la reacción tuvo dos tiempos. Nada más publicarse el IPC, la TIR (tasa interna de rentabilidad) del bono de EE. UU. a 10 años llegó a subir unos 9–10 pb, hasta cerca del 5,3 %, niveles que no se veían desde principios de 2002. Al final de la sesión, con la bolsa en caída, ==la compra de bonos como refugio la devolvió al 5,19 %== (−2,7 pb frente al día anterior, según nuestros datos). El tramo corto, el que más depende de la Fed, sí acabó al alza: el 2 años subió 3 pb, hasta el 4,82 %, ==y la curva se aplanó==. El dólar ganó terreno (índice DXY +0,36 %), como suele ocurrir cuando se esperan tipos más altos en EE. UU.\n\nLos metales preciosos fueron los grandes perdedores. El oro cayó un 1,7 % (4.108 $) y la plata un 6,1 % (55,5 $). Ninguno de los dos paga intereses, así que ==pierden atractivo cuando suben las expectativas de tipos== y el dólar se fortalece. La plata cae más porque es más volátil y también depende de la demanda industrial. El cobre se dejó un 1,0 % y el ETF (fondo cotizado) de uranio URA un 4,9 %: este último se ha disparado con la idea de que los centros de datos de IA necesitarán mucha electricidad, y sufre cuando esa tesis se cuestiona. En el petróleo, el Brent subió un 0,35 % (106,1 $) y el WTI un 1,0 % (95,1 $). El bitcoin perdió un 1,8 %.\n\nEuropa aguantó mejor porque cerró antes de lo peor de Wall Street y porque pesan más en ella los sectores defensivos. El Stoxx Europe 600 ganó un 0,43 %. ==Lo empujó el sector salud, que subió un 2,3 %== hasta máximos desde el 7 de septiembre (GSK +4,6 %). ASML dio unas cuentas con ingresos algo por debajo de lo previsto, pero con clientes que ya piden máquinas para 2029–2030. El SMI suizo, lleno de farmacéuticas (Roche, Novartis) y consumo básico (Nestlé), subió un 1,45 %, y el FTSE 100 un 0,7 %. En cambio, el FTSE MIB italiano cayó un 0,6 %, y pesaron el lujo (LVMH vendió menos de lo esperado por la debilidad del consumidor chino), las mineras (Fresnillo −4,6 %) y el banco sueco SEB (−5 %, por mayores exigencias de capital). El IBEX 35 subió un 0,1 %. Asia cotizó antes del IPC y apenas se movió tras el desplome del martes (Kospi −0,4 %, Taiex +0,6 %, Nikkei plano).",
+  "claves": [
+    "El IPC de EE. UU. de septiembre (3,7 % general y 2,6 % subyacente, una décima más de lo esperado en ambos casos) elevó a ==~50 % la probabilidad de una subida de tipos de la Fed== en octubre.",
+    "Más tipos y miedo a la deuda de la IA castigaron la tecnología: Nasdaq 100 −2,0 %, Russell 2000 −1,9 % y S&P 500 −1,1 %. La salud sostuvo al Dow Jones (−0,1 %).",
+    "El 10 años de EE. UU. llegó a rozar el 5,3 % tras el dato, pero ==cerró en el 5,19 % por la huida hacia los bonos==. El 2 años subió 3 pb.",
+    "La plata cayó un 6,1 % y el oro un 1,7 %, lastrados por un dólar más fuerte y la perspectiva de tipos más altos.",
+    "Europa subió (Stoxx 600 +0,4 %, SMI +1,45 %) gracias al sector salud (+2,3 %) y a las cuentas de ASML. Italia cayó (−0,6 %)."
+  ],
+  "suben": [
+    {
+      "activo": "SMI (Suiza)",
+      "cambio": "+1,45 %",
+      "por_que": "Es un índice defensivo dominado por farmacéuticas (Roche, Novartis) y consumo básico (Nestlé). El sector salud europeo subió un 2,3 %, porque ==el dinero salió de lo cíclico y tecnológico== hacia negocios cuyos beneficios dependen menos del ciclo y de los tipos.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía Devdiscourse)",
+          "u": "https://www.devdiscourse.com/article/international/3992492-european-shares-edge-up-after-solid-asml-results-healthcare-gains"
+        },
+        {
+          "t": "GBM",
+          "u": "https://gbm.com/media/noticia/las-acciones-europeas-suben-tras-resultados-de-asml-y-ganancias-del-sector-de-salud/"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE 100 (Reino Unido)",
+      "cambio": "+0,70 %",
+      "por_que": "Pesan mucho en él la salud (GSK +4,6 %, AstraZeneca), la energía y el consumo básico, sectores que aguantan cuando se castiga la tecnología. Además, el petróleo subió.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía Devdiscourse)",
+          "u": "https://www.devdiscourse.com/article/international/3992492-european-shares-edge-up-after-solid-asml-results-healthcare-gains"
+        }
+      ]
+    },
+    {
+      "activo": "Stoxx Europe 600",
+      "cambio": "+0,43 %",
+      "por_que": "Lo subieron la salud (+2,3 %, máximo desde el 7 de septiembre) y la acogida de las cuentas de ASML (ingresos algo bajos, pero pedidos de clientes ya para 2029–2030). Europa cerró antes de la peor parte de la caída de Wall Street.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía Devdiscourse)",
+          "u": "https://www.devdiscourse.com/article/international/3992492-european-shares-edge-up-after-solid-asml-results-healthcare-gains"
+        },
+        {
+          "t": "Hargreaves Lansdown",
+          "u": "https://www.hl.co.uk/shares/share-research/asml-q3-results-record-quarter-capacity-the-constraint"
+        }
+      ]
+    },
+    {
+      "activo": "VIX (volatilidad S&P 500)",
+      "cambio": "+10,5 % (16,9)",
+      "por_que": "La protección contra caídas se encarece cuando un dato de inflación reabre la puerta a subidas de tipos en un mercado muy concentrado en tecnología.",
+      "fuentes": [
+        {
+          "t": "Gotrade News",
+          "u": "https://www.heygotrade.com/en/news/hot-us-cpi-revives-fed-rate-hike-fears-stock-futures-fall/"
+        }
+      ]
+    },
+    {
+      "activo": "Índice dólar (DXY)",
+      "cambio": "+0,36 %",
+      "por_que": "Si la Fed puede volver a subir tipos, los activos en dólares rinden más y la divisa se aprecia frente a sus pares, que es lo que pasó nada más publicarse el IPC.",
+      "fuentes": [
+        {
+          "t": "Trading Economics",
+          "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo WTI",
+      "cambio": "+1,0 % (95,1 $)",
+      "por_que": "El conflicto con Irán mantiene una prima de riesgo sobre la oferta. La gasolina fue precisamente el motor del IPC (+9,1 % en el mes). El Brent subió menos (+0,35 %, 106,1 $).",
+      "fuentes": [
+        {
+          "t": "Trading Economics",
+          "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+        }
+      ]
+    },
+    {
+      "activo": "Taiex (Taiwán)",
+      "cambio": "+0,59 %",
+      "por_que": "Ligero rebote tras la caída del martes (−2,0 %). Cotizó antes de conocerse el IPC y antes de la nueva caída de los chips en Wall Street.",
+      "fuentes": [
+        {
+          "t": "Vantage Markets",
+          "u": "https://www.vantagemarkets.com/market-news/asian-stocks-slide-kospi-nikkei-october-13-2026/"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Plata",
+      "cambio": "−6,1 % (55,5 $)",
+      "por_que": "No paga intereses, así que ==pierde atractivo frente a los bonos cuando suben las expectativas de tipos== y el dólar se fortaleció tras el IPC. Es más volátil que el oro y depende también de la demanda industrial.",
+      "fuentes": [
+        {
+          "t": "Trading Economics",
+          "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+        }
+      ]
+    },
+    {
+      "activo": "Nasdaq 100",
+      "cambio": "−2,0 %",
+      "por_que": "Combinación de inflación más alta (más probabilidad de subida de tipos, que penaliza a las acciones de crecimiento) y ==dudas sobre la deuda con la que se financia la IA==: Micron −4 %, AMD y SanDisk más de −5 %, Intel −4 %.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/13/stock-market-today-live-updates-.html"
+        },
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        }
+      ]
+    },
+    {
+      "activo": "Russell 2000 (pequeñas EE. UU.)",
+      "cambio": "−1,9 %",
+      "por_que": "Las pequeñas compañías dependen más de la financiación bancaria a tipo variable y sufren cuando el mercado vuelve a pensar en subidas de tipos.",
+      "fuentes": [
+        {
+          "t": "Gotrade News",
+          "u": "https://www.heygotrade.com/en/news/hot-us-cpi-revives-fed-rate-hike-fears-stock-futures-fall/"
+        }
+      ]
+    },
+    {
+      "activo": "S&P 500",
+      "cambio": "−1,1 % (7.719)",
+      "por_que": "El peso de la tecnología arrastró al índice. La salud (UnitedHealth, Amgen) amortiguó la caída.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/13/stock-market-today-live-updates-.html"
+        }
+      ]
+    },
+    {
+      "activo": "Oro",
+      "cambio": "−1,7 % (4.108 $)",
+      "por_que": "Igual que la plata: el dólar más fuerte y la perspectiva de tipos más altos encarecen el coste de oportunidad de tener un activo sin rentabilidad.",
+      "fuentes": [
+        {
+          "t": "Trading Economics",
+          "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+        }
+      ]
+    },
+    {
+      "activo": "Uranio (ETF URA)",
+      "cambio": "−4,9 %",
+      "por_que": "Las mineras de uranio se habían disparado con la idea de que la IA disparará el consumo eléctrico. Cuando se duda de la financiación de los centros de datos, este tipo de valores cae con la tecnología.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        }
+      ]
+    },
+    {
+      "activo": "Bono EE. UU. 2 años (precio)",
+      "cambio": "TIR +3 pb (4,82 %)",
+      "por_que": "==El tramo corto sigue de cerca las expectativas sobre la Fed== y fue el que más acusó el dato. El 10 años, en cambio, acabó a la baja (−2,7 pb) por las compras de refugio.",
+      "fuentes": [
+        {
+          "t": "Trading Economics",
+          "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+        },
+        {
+          "t": "Gotrade News",
+          "u": "https://www.heygotrade.com/en/news/hot-us-cpi-revives-fed-rate-hike-fears-stock-futures-fall/"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE MIB (Italia)",
+      "cambio": "−0,61 %",
+      "por_que": "Pesaron el lujo (LVMH decepcionó con sus ventas por la debilidad del consumo en China) y la banca europea (SEB −5 %).",
+      "fuentes": [
+        {
+          "t": "Reuters (vía Devdiscourse)",
+          "u": "https://www.devdiscourse.com/article/international/3992492-european-shares-edge-up-after-solid-asml-results-healthcare-gains"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Inflación en EE. UU. y Reserva Federal (Fed)",
+      "texto": "El IPC de septiembre (+0,6 % mensual; 3,7 % interanual) y la subyacente (+0,3 % mensual; 2,6 %) superaron lo previsto. La energía fue la principal causa, pero no la única. La probabilidad de una subida en la reunión de finales de octubre ==pasó de ~22 % a ~50 % según CME FedWatch== (la herramienta que traduce los futuros de tipos en probabilidades). Algunos miembros de la Fed, como Williams y Jefferson, habían dado señales de no querer subir dos veces seguidas, y eso modera la apuesta.",
+      "fuentes": [
+        {
+          "t": "Trading Economics",
+          "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+        },
+        {
+          "t": "Gotrade News",
+          "u": "https://www.heygotrade.com/en/news/hot-us-cpi-revives-fed-rate-hike-fears-stock-futures-fall/"
+        }
+      ]
+    },
+    {
+      "tema": "Deuda y financiación de la inteligencia artificial (IA)",
+      "texto": "El mercado empieza a mirar con lupa a las empresas que se endeudan para construir infraestructura de IA (servidores, centros de datos, chips de memoria). ==Con los bonos cerca del 5,2–5,3 %, financiar ese gasto sale caro.== Sufrieron los fabricantes de chips y de servidores (Dell, HPE), y con ellos los temas ligados a la IA (uranio, electrificación).",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        },
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/13/stock-market-today-live-updates-.html"
+        }
+      ]
+    },
+    {
+      "tema": "Rotación hacia salud y defensivos en Europa",
+      "texto": "El sector salud europeo subió un 2,3 % y llevó al SMI y al FTSE 100 por delante de las bolsas con más tecnología, lujo o banca. Detrás está ==la búsqueda de beneficios menos sensibles al ciclo y a los tipos==.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía Devdiscourse)",
+          "u": "https://www.devdiscourse.com/article/international/3992492-european-shares-edge-up-after-solid-asml-results-healthcare-gains"
+        },
+        {
+          "t": "GBM",
+          "u": "https://gbm.com/media/noticia/las-acciones-europeas-suben-tras-resultados-de-asml-y-ganancias-del-sector-de-salud/"
+        }
+      ]
+    },
+    {
+      "tema": "Resultados: ASML y LVMH",
+      "texto": "ASML presentó ingresos en línea o ligeramente por debajo de lo previsto, pero con previsiones fuertes y ==pedidos para 2029–2030==, lo que tranquilizó sobre la demanda de equipos para chips. LVMH vendió menos de lo esperado por el deterioro del consumidor chino.",
+      "fuentes": [
+        {
+          "t": "Hargreaves Lansdown",
+          "u": "https://www.hl.co.uk/shares/share-research/asml-q3-results-record-quarter-capacity-the-constraint"
+        },
+        {
+          "t": "Reuters (vía Devdiscourse)",
+          "u": "https://www.devdiscourse.com/article/international/3992492-european-shares-edge-up-after-solid-asml-results-healthcare-gains"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "Día de dos tiempos. ==El IPC más alto de lo previsto (3,7 % general y 2,6 % subyacente)== disparó la TIR del 10 años hasta 10 pb, cerca del 5,3 %, porque elevó de ~22 % a ~50 % la probabilidad de una subida de la Fed en octubre: si la Fed sube, los bonos ya emitidos valen menos y su rentabilidad sube. Pero el cierre fue otro: ==el 10 años terminó en el 5,19 %, −2 pb==. Le dio la vuelta la bolsa. Con el Nasdaq cayendo un 2 % por la deuda de la IA, entró dinero en bonos como refugio, y parte del mercado leyó que una Fed más dura acabará frenando la economía y la inflación, lo que pesa en los tipos largos. Resultado: ==la curva se aplanó (2 años +3 pb, 30 años −4 pb)==. El tramo corto refleja la Fed de los próximos meses; el largo, el crecimiento y la inflación de los próximos años.\n\nDato que no cuadra a primera vista: la prensa habló de subidas de 9–10 pb y nuestra serie da −2,7 pb. No es un error: ==las subidas fueron intradía, justo tras el dato==, y se borraron por la tarde. El cierre oficial del Tesoro (FRED) confirma el 5,19 %. En Europa, en cambio, ==el 10 años AAA subió 1,9 pb (3,51 %)== y el 2 años 0,8 pb: los bonos europeos cierran a media tarde, cuando el efecto del IPC aún pesaba y antes del giro de Wall Street. El diferencial francés siguió en la zona de 145–150 pb, sin dato diario en nuestras series. El diferencial high yield se amplió 9 pb (3,25 %) por el temor a la deuda de la IA.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "+3 pb (4,82 %)",
+        "por_que": "Es el tramo más ligado a la Fed: ==el IPC subió la probabilidad de una subida en octubre a ~50 %==.",
+        "fuentes": [
+          {
+            "t": "Trading Economics: las TIR saltan tras el IPC",
+            "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+          },
+          {
+            "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+            "u": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−2 pb (5,19 %; −2,7 pb en nuestra serie); intradía hasta +10 pb",
+        "por_que": "Subió con el IPC y luego ==la huida a los bonos por la caída del Nasdaq== lo devolvió a la baja. La prensa de la mañana recogió solo la primera parte.",
+        "fuentes": [
+          {
+            "t": "Trading Economics: las TIR saltan tras el IPC",
+            "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+          },
+          {
+            "t": "Political.org: las TIR ceden antes del IPC",
+            "u": "https://political.org/2026/10/14/u-s-treasury-yields-inch-lower-as-investors-await-key-september-inflation-report/"
+          },
+          {
+            "t": "MUFG Research: Asia FX Talk (16-10), el 10 años desde el 5,32 % tras el IPC",
+            "u": "https://mufgresearch.com/fx/asia-fx-talk-16-october-2026/"
+          },
+          {
+            "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+            "u": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "−4 pb (5,52 %)",
+        "por_que": "Aplanamiento: una Fed más dura hoy implica menos crecimiento e inflación a largo plazo.",
+        "fuentes": [
+          {
+            "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+            "u": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "+1,9 pb (3,51 %)",
+        "por_que": "Contagio del IPC estadounidense con el mercado europeo ya cerrado antes de la vuelta de Wall Street.",
+        "fuentes": [
+          {
+            "t": "Trading Economics: las TIR saltan tras el IPC",
+            "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "+0,8 pb (3,09 %)",
+        "por_que": "Ligera subida: más inflación global refuerza la apuesta por otra subida del BCE en diciembre.",
+        "fuentes": []
+      },
+      {
+        "bono": "Diferencial Francia–Alemania (10 años)",
+        "cambio": "≈ 145–150 pb (sin dato diario)",
+        "por_que": "Sigue en máximos desde 2012 por las dudas fiscales y políticas; no tenemos su cambio exacto del día.",
+        "fuentes": [
+          {
+            "t": "BabyPips: por qué importa el diferencial OAT–Bund",
+            "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "+9 pb (3,25 %)",
+        "por_que": "Más tipos y miedo a la deuda de la IA: ==el mercado pide más prima a las empresas endeudadas==.",
+        "fuentes": []
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Trading Economics: las TIR saltan tras el IPC",
+        "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+      },
+      {
+        "t": "Political.org: las TIR ceden antes del IPC",
+        "u": "https://political.org/2026/10/14/u-s-treasury-yields-inch-lower-as-investors-await-key-september-inflation-report/"
+      },
+      {
+        "t": "MUFG Research: Asia FX Talk (16-10), el 10 años desde el 5,32 % tras el IPC",
+        "u": "https://mufgresearch.com/fx/asia-fx-talk-16-october-2026/"
+      },
+      {
+        "t": "BabyPips: por qué importa el diferencial OAT–Bund",
+        "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+      },
+      {
+        "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+        "u": "https://fred.stlouisfed.org/series/DGS10"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Día de contrastes. La mediana de los fondos de renta variable cayó solo un −0,18 % y la renta fija quedó plana, porque buena parte de la caída de Wall Street llegó tras el cierre europeo y muchos fondos internacionales valoran con precios de ese día. Arriba dominan los fondos de salud (+1,6 % a +2,8 %), ==beneficiados por la rotación hacia defensivos== en EE. UU. y Europa. Abajo están los fondos de mineras de oro y plata (−4 % a −5 %, por la caída de la plata y el oro) y los temáticos ligados a la IA: materiales para chips, electrificación, energía limpia y blockchain. Varias clases son en euros cubiertas (EUR H), así que no hay efecto divisa: el movimiento es el del activo. Ojo con los fondos de emergentes de Robeco (Emerging Stars, Emerging Markets): caen un 3,7–3,8 % un día en que Corea y Taiwán apenas se movieron, y el día 13, cuando el Kospi se hundió un 5,5 %, subieron. Todo apunta a que ==su valor liquidativo (VL) refleja las bolsas asiáticas con un día de retraso==.",
+    "suben": [
+      {
+        "isin": "LU0251853072",
+        "por_que": "AB International Health Care (+2,75 %): sus mayores posiciones son Johnson & Johnson, Eli Lilly, UnitedHealth, Merck, Roche y Novartis, ==justo los valores de salud a los que rotó el dinero==. Recupera además la caída del día 13 (−1,8 %), cuando J&J bajó tras sus resultados."
+      },
+      {
+        "isin": "LU0415392678",
+        "por_que": "Bellevue Biotech (+2,44 %, IronIA): la biotecnología se suma a la rotación hacia salud. Es un sector que depende poco del ciclo económico y nada del gasto en IA."
+      },
+      {
+        "isin": "LU1819586006",
+        "por_que": "Bellevue Sustainable Healthcare (IronIA, +2,42 %): farmacéuticas y tecnología médica globales. Se beneficia de ==la rotación hacia la salud==, con el sector europeo +2,3 %."
+      },
+      {
+        "isin": "ES0170865010",
+        "por_que": "DP Healthcare, de Andbank (IronIA, +2,40 %): fondo español del sector salud; mismo motivo que el resto de fondos de salud del día."
+      },
+      {
+        "isin": "ES0156741003",
+        "por_que": "Bankinter Índice Salud (+2,31 %): fondo indexado al sector salud mundial. Recoge la subida del sector en Europa (+2,3 %) y la resistencia de UnitedHealth y Amgen en EE. UU."
+      },
+      {
+        "isin": "ES0174115065",
+        "por_que": "Cinvest A&A Internacional, de Gesalcalá (IronIA, +2,25 %): no tenemos su cartera y no podemos atribuir la subida. Subió en un día de oro y plata a la baja, así que no es un fondo de metales; en la semana encadena +2,25 %, +1,33 % y +5,08 %."
+      },
+      {
+        "isin": "LU1477743204",
+        "por_que": "Bellevue Healthcare Strategy (IronIA, +2,25 %): salud global, ==beneficios poco ligados al ciclo y a los tipos==, justo lo que buscó el dinero que salía de la tecnología."
+      },
+      {
+        "isin": "IE00BMXMV145",
+        "por_que": "Janus Henderson Global Life Sciences (+2,18 %): farmacéuticas y biotecnología globales, mismo motivo que el resto de fondos de salud."
+      },
+      {
+        "isin": "LU0261952419",
+        "por_que": "Fidelity Global Health Care (+2,10 %): cartera de grandes farmacéuticas y aseguradoras médicas estadounidenses y europeas, favorecidas por la huida de la tecnología."
+      },
+      {
+        "isin": "LU0374901568",
+        "por_que": "Schroder ISF Global Energy (+2,00 %): petroleras y gasistas. Se benefician del crudo (WTI +1 %) y, sobre todo, de ser lo contrario de la tecnología en un día de rotación."
+      },
+      {
+        "isin": "LU0270816068",
+        "por_que": "Schroder ISF Taiwanese Equity (clase en USD, +1,66 % en euros, +1,72 % en dólares): el Taiex rebotó un 0,6 % tras el −2 % del día 13, y el fondo rebota algo más por su sesgo a chips. La pequeña diferencia entre las dos cifras es el efecto divisa."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU2145463613",
+        "por_que": "Robeco Smart Materials (−5,21 %): sus primeras posiciones son mineras de oro, plata y cobre (Aura Minerals, Hudbay) y proveedores de materiales para chips (Onto Innovation, Samsung Electro-Mechanics, Corning). ==Le golpearon a la vez la caída de la plata y la de los semiconductores.=="
+      },
+      {
+        "isin": "FR0014008M99",
+        "por_que": "R-co Thematic Blockchain (−5,11 %): Coinbase, Galaxy Digital, Hut 8 o Core Scientific. Cae el bitcoin (−1,8 %) y además varios de esos valores se han reconvertido en alojamiento para la IA, así que sufren también por el temor a su financiación."
+      },
+      {
+        "isin": "LU1578889864",
+        "por_que": "Ninety One Global Gold (clase EUR cubierta, −4,71 %): mineras de oro, que ==amplifican el movimiento del metal== (oro −1,7 %, plata −6,1 %) porque sus costes son fijos y el margen cambia mucho con el precio. Al estar cubierta, no hay efecto divisa."
+      },
+      {
+        "isin": "LU0496368142",
+        "por_que": "Franklin Gold and Precious Metals (EUR cubierta, −4,43 %): mismo motivo que el resto de fondos de mineras de oro y plata."
+      },
+      {
+        "isin": "LU2145461757",
+        "por_que": "Robeco Smart Energy (−4,39 %): Infineon, Marvell, Quanta Services, Delta Electronics, ARM, Prysmian. Es la cadena de la electrificación, que el mercado vincula al crecimiento de los centros de datos de IA, y cayó con la tecnología y el uranio."
+      },
+      {
+        "isin": "FR0013307675",
+        "por_que": "EdR Goldsphere (IronIA, −4,37 %): mineras de oro y plata. Amplifican la caída de la ==plata (−6,1 %) y del oro (−1,7 %)== porque sus costes son fijos. Al día siguiente rebotó un 4,1 %."
+      },
+      {
+        "isin": "LU0823414635",
+        "por_que": "BNP Paribas Clean Energy Solutions (Bankinter y ABANCA, −4,32 %): pese al nombre, entre sus mayores posiciones están ==Samsung (6,3 %), Cameco (5,4 %, uranio) y SK hynix (5,3 %)==, además de Vertiv, Array, Sunrun y Prysmian. Cae con el uranio (URA −4,9 %) y la electrificación ligada a la IA, y las renovables sufren cuando suben las expectativas de tipos."
+      },
+      {
+        "isin": "LU0747344488",
+        "por_que": "iMGP US Small and Mid, cubierto a euros (IronIA, −4,26 %): pequeñas y medianas de EE. UU. (Russell 2000 −1,9 %), ==las más dependientes de la financiación a tipo variable==. Al estar cubierto, no hay efecto divisa."
+      },
+      {
+        "isin": "LU0326422689",
+        "por_que": "BGF World Gold (EUR cubierta, −4,01 %): Barrick, Agnico Eagle, Newmont o Wheaton Precious Metals. Caen con el oro y la plata."
+      },
+      {
+        "isin": "LU0254836850",
+        "por_que": "Robeco Emerging Stars (−3,81 %): sus grandes posiciones son TSMC, Samsung y SK Square, pero el día 14 Corea (−0,4 %) y Taiwán (+0,6 %) apenas se movieron. El día 13 subió un 0,6 % cuando el Kospi se hundió un 5,5 %, así que este VL parece recoger la caída asiática del día anterior (desfase de un día)."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-15",
+      "evento": "Precios de producción (IPP) de septiembre en EE. UU. y resultados de TSMC",
+      "por_que_importa": "El IPP dirá si la inflación se está extendiendo en la cadena de producción. TSMC, el mayor fabricante de chips por encargo del mundo, es el termómetro de la demanda de IA."
+    },
+    {
+      "fecha": "2026-10-16",
+      "evento": "Producción industrial y precios de importación de EE. UU.; IPCA (índice de precios armonizado) final de la zona euro",
+      "por_que_importa": "Más pistas de inflación para la Fed y el Banco Central Europeo (BCE)."
+    },
+    {
+      "fecha": "2026-10-21",
+      "evento": "Resultados de Meta y Tesla",
+      "por_que_importa": "Su previsión de inversión dirá si el temor a la financiación de la IA frena el gasto en centros de datos."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Decisión de la Fed (reunión del 27–28 de octubre)",
+      "por_que_importa": "Tras el IPC, el mercado da en torno a un 50 % de probabilidad a una subida de tipos."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "Reunión del BCE e índice PCE (deflactor del consumo) de septiembre en EE. UU.",
+      "por_que_importa": "El BCE está en 2,50 % y el mercado descuenta otra subida en diciembre. El PCE es la medida de inflación que prefiere la Fed."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "IPC",
+      "def": "Índice de precios al consumo: mide la inflación que pagan los hogares. La subyacente excluye energía y alimentos frescos."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad de un bono: lo que rinde si se compra hoy y se mantiene a vencimiento. Cuando sube, el precio del bono baja."
+    },
+    {
+      "sigla": "pb",
+      "def": "Puntos básicos: centésimas de punto porcentual (25 pb = 0,25 %)."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500, llamado «índice del miedo»."
+    },
+    {
+      "sigla": "High yield",
+      "def": "Bonos de alto rendimiento: deuda de empresas con peor calificación crediticia. Su diferencial es lo que pagan de más sobre la deuda pública."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis divisas (el euro pesa en torno al 58 %)."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Fondo cotizado en bolsa que replica un índice o una cesta de activos."
+    },
+    {
+      "sigla": "WTI",
+      "def": "West Texas Intermediate, el petróleo de referencia en EE. UU. (el Brent es la referencia europea)."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: precio de una participación de un fondo en una fecha."
+    },
+    {
+      "sigla": "IPP",
+      "def": "Índice de precios de producción (PPI en inglés): inflación de los precios que cobran los productores."
+    },
+    {
+      "sigla": "IPCA",
+      "def": "Índice de precios al consumo armonizado de la zona euro."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "PCE",
+      "def": "Deflactor del gasto en consumo personal, la medida de inflación que prefiere la Fed."
+    },
+    {
+      "sigla": "EUR H",
+      "def": "Clase de un fondo en euros con la divisa cubierta: elimina (casi) el efecto del tipo de cambio."
+    },
+    {
+      "sigla": "Aplanamiento de la curva",
+      "def": "Cuando la TIR de los plazos cortos sube más (o baja menos) que la de los largos. Suele indicar un banco central más duro y menos crecimiento futuro."
+    },
+    {
+      "sigla": "FRED",
+      "def": "Base de datos de la Reserva Federal de San Luis; publica la TIR oficial de cierre del Tesoro de EE. UU."
+    }
+  ],
+  "generado": "2026-10-23T12:00"
+}

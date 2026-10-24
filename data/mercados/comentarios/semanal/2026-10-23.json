@@ -1,0 +1,609 @@
+{
+  "periodo": "semanal",
+  "clave": "2026-10-23",
+  "inicio": "2026-10-19",
+  "fin": "2026-10-23",
+  "fase": "completo",
+  "titulo": "Francia, crudo y dudas sobre la IA: Europa cae un 2 % y el bono de EE. UU. baja del 5 %",
+  "resumen": "Semana de tres frentes a la vez, y Europa pagó los tres. ==La crisis política y fiscal de Francia==, con disturbios desde el fin de semana anterior y un presupuesto de 2027 en el aire, ==llevó su bono a 10 años al 5 % por primera vez desde 2002== y el diferencial con Alemania a máximos desde 2011. ==Las dudas sobre la rentabilidad del gasto en inteligencia artificial (IA)== volvieron a golpear a los chips el jueves, tras los resultados de Meta y Tesla. Y ==el petróleo subió un 6 % (Brent, 116,7 $)== por los ataques de los hutíes contra Arabia Saudí y el riesgo de nuevos ataques a Irán. Resultado: Euro Stoxx 50 y CAC 40 −2,2 %, FTSE MIB −2,6 %, DAX −1,7 % e IBEX 35 −1,74 %, frente a un S&P 500 que solo perdió un 0,47 %.\n\nLo que se esperaba y lo que pasó. Se temía que Moody's rebajara a Francia el viernes y no lo hizo: ==mantuvo el Aa3 con perspectiva negativa== tras el cierre, un respiro que el mercado aún no ha podido descontar. Se esperaba que Meta y Tesla confirmaran el ciclo de la IA y ocurrió lo contrario: el jueves el índice de semiconductores (SOX) cayó cerca de un 6,7 %, ==el peor día desde junio==, aunque el miércoles Super Micro y SpaceX habían reavivado el entusiasmo y el viernes los chips se estabilizaron. En Wall Street la consecuencia fue una ==rotación de las grandes tecnológicas hacia el resto==: Russell 2000 de pequeñas compañías +2,0 %, Dow Jones +0,4 % (tercera semana de subidas), sanidad y biotecnología al alza, y Nasdaq 100 −0,8 %. Asia, más expuesta a los chips, cayó con fuerza (Nikkei −4,0 %, Hang Seng −4,5 %, Kospi −2,1 %, Taiwán −2,3 %), y el CSI 300 chino ==entró en mercado bajista== hasta que el «equipo nacional» estatal salió a comprar el viernes.\n\nEl cambio de régimen de la semana está en los bonos: ==la TIR (tasa interna de rentabilidad) a 10 años de EE. UU. volvió por debajo del 5 % (4,99 %, −11 pb)== pese a que el crudo subía, porque el mercado leyó el petróleo caro y la duda sobre la IA más como ==freno al crecimiento que como inflación==, y casi descartó una subida de la Reserva Federal (Fed) en octubre. Pero diciembre sigue en juego (≈ 80 %), y por eso ==el oro tuvo su peor semana desde junio (−4,1 %)== y la plata perdió un 5,8 %: un activo sin cupón sufre si se esperan más tipos reales, y hubo ventas para cubrir pérdidas en bolsa. El euro se debilitó frente a todas las grandes divisas (−0,5 % frente al dólar, −0,5 % frente al franco, −0,8 % frente a la libra, −1,3 % frente al yen): ==es la factura de Francia y de un crudo caro para una región importadora==. El gas de EE. UU. se hundió un 15 % por el tiempo templado, mientras el europeo subía un 7 %.\n\nEn España, la semana tuvo nombre propio: ==Bankinter se dejó un 7,6 % el jueves por sus resultados== (márgenes presionados por el coste de los depósitos) y arrastró a la banca, que había sufrido ya el lunes con Francia. El IBEX 35 cerró en 18.989,8 puntos, por debajo de los 19.000, aunque la prima de riesgo española (~70 pb) apenas se movió: ==el mercado distingue entre Francia y el sur de Europa==.",
+  "claves": [
+    "==Europa cayó en torno a un 2 %== (Euro Stoxx 50 −2,2 %, IBEX 35 −1,74 %) por Francia, la banca y el crudo, frente a un S&P 500 casi plano (−0,47 %).",
+    "Francia: ==bono a 10 años en el 5 % por primera vez desde 2002== y diferencial con Alemania de ~172 pb; Moody's mantuvo la nota el viernes tras el cierre.",
+    "==El bono de EE. UU. a 10 años bajó 11 pb, al 4,99 %==: la Fed casi descarta subir en octubre, aunque diciembre sigue en ~80 %.",
+    "La IA dividió la semana: ==chips −6,7 % el jueves==, Asia tecnológica a la baja y rotación hacia pequeñas compañías (Russell 2000 +2 %) y sanidad.",
+    "==El Brent subió un 6 %, a 116,7 $==, máximo desde abril, por los ataques hutíes contra Arabia Saudí y la amenaza sobre Irán.",
+    "==Oro (−4,1 %) y plata (−5,8 %) tuvieron su peor semana desde junio==: los fondos de mineras de metales preciosos lideran las caídas."
+  ],
+  "suben": [
+    {
+      "activo": "Petróleo Brent",
+      "cambio": "+6,24 % (116,72 $)",
+      "por_que": "Ataques con drones y misiles contra Shaybah, Dammam y Yanbu (Arabia Saudí) e informaciones sobre nuevos ataques de EE. UU. e Israel contra Irán tras el 3 de noviembre. ==El mercado paga prima de riesgo por el suministro del Golfo==. El WTI subió menos (+1,8 %) en parte por el cambio de contrato de futuros.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        },
+        {
+          "t": "The National",
+          "u": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+7,20 %",
+      "por_que": "Sigue al crudo por el riesgo en el Golfo, de donde llega parte del gas natural licuado (GNL), ==con almacenes europeos bajos== a las puertas del invierno.",
+      "fuentes": [
+        {
+          "t": "FXStreet",
+          "u": "https://www.fxstreet.com/analysis/ecb-october-pause-mrr-in-focus-202610201244"
+        }
+      ]
+    },
+    {
+      "activo": "Russell 2000 (pequeñas EE. UU.)",
+      "cambio": "+2,00 %",
+      "por_que": "==La rotación desde las grandes tecnológicas== y, sobre todo, la bajada de los tipos largos: las pequeñas compañías se financian más con deuda y a tipo variable, así que ganan cuando bajan las TIR.",
+      "fuentes": [
+        {
+          "t": "Axios",
+          "u": "https://www.axios.com/2026/10/19/health-care-stocks-midterms"
+        }
+      ]
+    },
+    {
+      "activo": "Bono EE. UU. 10 años (precio)",
+      "cambio": "TIR −11 pb (4,99 %)",
+      "por_que": "La caída de los chips y del crecimiento esperado ==llevó a comprar bonos y a rebajar la subida de la Fed de octubre==; el jueves fue la mayor caída diaria de la TIR desde 2023.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+        },
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        }
+      ]
+    },
+    {
+      "activo": "SMI (Suiza)",
+      "cambio": "+0,49 %",
+      "por_que": "==Bolsa defensiva (Nestlé, Roche, Novartis)== que se benefició de la rotación hacia la sanidad y de su escasa exposición a la banca y a Francia.",
+      "fuentes": [
+        {
+          "t": "Axios",
+          "u": "https://www.axios.com/2026/10/19/health-care-stocks-midterms"
+        }
+      ]
+    },
+    {
+      "activo": "Dow Jones",
+      "cambio": "+0,41 %",
+      "por_que": "Más industrial y menos tecnológico: ==tercera semana seguida de subidas== pese al −1,2 % del viernes.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        }
+      ]
+    },
+    {
+      "activo": "Yen y franco suizo (frente al euro)",
+      "cambio": "Euro/yen −1,30 %; euro/franco −0,49 %",
+      "por_que": "==Las divisas refugio ganaron frente a un euro castigado por Francia==; el yen se apoyó además en la bajada de las TIR estadounidenses."
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Gas natural EE. UU. (Henry Hub)",
+      "cambio": "−15,28 % (2,64 $)",
+      "por_que": "==Tiempo excepcionalmente templado== en las previsiones de corto y largo plazo: menos calefacción y más semanas inyectando gas en almacenes.",
+      "fuentes": [
+        {
+          "t": "TradingNews",
+          "u": "https://www.tradingnews.com/news/ng-2829-drops-7-percent-in-2-session-while-ttf-holds-29-usd"
+        },
+        {
+          "t": "NGI",
+          "u": "https://naturalgasintel.com/news/autumn-demand-lull-deepens-spot-natural-gas-sell-off"
+        }
+      ]
+    },
+    {
+      "activo": "Plata",
+      "cambio": "−5,76 %",
+      "por_que": "La subida de diciembre de la Fed sigue viva por el crudo y ==hubo ventas para cubrir pérdidas en bolsa== (llamadas de margen); la plata, más especulativa, cae más que el oro.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/23/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns.html"
+        }
+      ]
+    },
+    {
+      "activo": "Hang Seng (Hong Kong)",
+      "cambio": "−4,52 %",
+      "por_que": "Venta de tecnología asiática por las dudas de la IA y ==falta de estímulos en China==, cuyo CSI 300 entró en mercado bajista el jueves; rebote parcial el viernes.",
+      "fuentes": [
+        {
+          "t": "Bloomberg",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-23/china-stocks-sink-deeper-into-bear-market-despite-state-buying"
+        }
+      ]
+    },
+    {
+      "activo": "Oro",
+      "cambio": "−4,14 % (4.008 $)",
+      "por_que": "==Peor semana desde junio==: perdió los 4.000 $ por primera vez desde mediados de julio. Un crudo más caro sostiene la expectativa de tipos más altos en diciembre.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/23/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns.html"
+        },
+        {
+          "t": "FXStreet",
+          "u": "https://www.fxstreet.com/news/gold-falls-below-4-000-as-oil-surge-deepens-weekly-rout-ahead-of-fed-202610231819"
+        }
+      ]
+    },
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "−4,03 %",
+      "por_que": "==Muy expuesto a los fabricantes de equipos para chips== (Tokyo Electron, Advantest) y castigado además por el yen más fuerte, que resta valor a los beneficios de los exportadores.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE MIB (Italia)",
+      "cambio": "−2,60 %",
+      "por_que": "El índice más bancario de Europa: ==la banca de la zona euro perdió un 4,2 % el jueves== y sufrió el lunes por el contagio de Francia.",
+      "fuentes": [
+        {
+          "t": "Capital",
+          "u": "https://capital.es/economia/mercados-e-inversion/el-ibex-cae-un-212-y-pierde-los-19-000-puntos-lastrado-por-bankinter"
+        }
+      ]
+    },
+    {
+      "activo": "Euro Stoxx 50 y CAC 40",
+      "cambio": "−2,19 % ambos",
+      "por_que": "==Francia (deuda, disturbios y presupuesto)==, la banca, la tecnología europea (ASML, Infineon) y el lujo (Kering −15 % el viernes). El Stoxx 600 vivió su peor semana desde principios de septiembre.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        },
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html"
+        }
+      ]
+    },
+    {
+      "activo": "IBEX 35",
+      "cambio": "−1,74 % (18.989,8)",
+      "por_que": "==El hundimiento de Bankinter (−7,6 % el jueves) arrastró a la banca==; Repsol amortiguó el viernes con el crudo. Cierra por debajo de los 19.000 puntos.",
+      "fuentes": [
+        {
+          "t": "Press Digital",
+          "u": "https://www.pressdigital.es/articulo/economia/2026-10-23/6063963-ibex-35-cede-174-semana-marcada-alza-petroleo-deuda-francesa"
+        },
+        {
+          "t": "Capital",
+          "u": "https://capital.es/economia/mercados-e-inversion/el-ibex-cae-un-212-y-pierde-los-19-000-puntos-lastrado-por-bankinter"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Francia: deuda, calle y Moody's",
+      "texto": "Los disturbios contra el ajuste del presupuesto de 2027 (el Gobierno en minoría de Sébastien Lecornu busca 54.000 millones de ahorro) ==hicieron dudar de que Francia pueda reducir un déficit de más del 5 % del PIB==. El mecanismo es directo: si el Gobierno cede, habrá más deuda, y el inversor exige más rentabilidad. El bono a 10 años subió unos 27 pb en la semana, tocó el 5 % el miércoles y ==ya paga más que Italia==. Moody's, de la que se esperaba una rebaja a A1, mantuvo el Aa3 con perspectiva negativa el viernes por la noche y avisó de que actuará si el Parlamento no frena el deterioro. El contagio fue sobre todo a la banca y al euro, no a la deuda española.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
+        },
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html"
+        },
+        {
+          "t": "Bloomberg",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-23/france-avoids-moody-s-downgrade-in-reprieve-after-week-of-crisis"
+        },
+        {
+          "t": "Euronews",
+          "u": "https://www.euronews.com/2026/10/24/debt-moodys-spares-france-a-brief-respite-not-a-vote-of-confidence"
+        }
+      ]
+    },
+    {
+      "tema": "La duda sobre la inteligencia artificial (IA)",
+      "texto": "La semana arrancó con un rebote de los chips tras ocho sesiones de caídas, se animó el miércoles con Super Micro y SpaceX y se rompió el jueves: ==Meta y Tesla reavivaron la pregunta de si el gasto en IA será rentable== y el SOX cayó cerca de un 6,7 %. Como pocas empresas pesan muchísimo en los índices, el Nasdaq 100 cayó y el dinero rotó hacia pequeñas compañías, sanidad e industria tradicional. Asia (Corea, Japón, Taiwán) es la región más expuesta. ==La próxima semana publican Microsoft, Alphabet, Meta, Amazon y Apple==, la prueba de fuego.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
+        },
+        {
+          "t": "Korea JoongAng Daily",
+          "u": "https://www.koreajoongangdaily.com/business/kospi-rebounds-over-3-on-eased-ai-spending-woes/12932490"
+        },
+        {
+          "t": "The Globe and Mail",
+          "u": "https://www.theglobeandmail.com/investing/article-wall-streets-week-ahead-earnings-flood-fed-meeting-pose-pivotal-tests/"
+        }
+      ]
+    },
+    {
+      "tema": "Petróleo y Oriente Medio",
+      "texto": "El Brent pasó de ~110 $ a 116,7 $. El martes y el miércoles frenó por la esperanza de una mediación con Irán (Catar y Pakistán), pero los ataques de los hutíes contra instalaciones saudíes (Shaybah, Dammam, Yanbu) y la prensa sobre nuevos ataques de EE. UU. e Israel a Irán ==dieron la vuelta a la semana==. Yanbu es clave porque es la salida del crudo saudí que evita Ormuz. ==Las petroleras fueron el mejor sector== (la energía del S&P 500, en máximos) y las aerolíneas, de las peores (IAG).",
+      "fuentes": [
+        {
+          "t": "The National",
+          "u": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        },
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        }
+      ]
+    },
+    {
+      "tema": "Reserva Federal (Fed): octubre fuera, diciembre dentro",
+      "texto": "Al empezar la semana, el mercado daba ~15 % a una subida de tipos el 28 de octubre y ~75 % a diciembre. Tras el desplome de los chips del jueves, octubre quedó prácticamente descartado (~5–10 %). Pero ==el crudo y una inflación esperada a un año del 4,7 % (Universidad de Míchigan)== devolvieron diciembre a la zona del 78–85 % el viernes. Por eso el bono a 2 años bajó menos que el de 10.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+        },
+        {
+          "t": "FXStreet",
+          "u": "https://www.fxstreet.com/news/gold-falls-below-4-000-as-oil-surge-deepens-weekly-rout-ahead-of-fed-202610231819"
+        }
+      ]
+    },
+    {
+      "tema": "China e Indonesia: el Estado al rescate",
+      "texto": "El CSI 300 chino entró en mercado bajista y encadena 11 semanas de caídas por ==la falta de estímulos==, hasta que los fondos cotizados ligados al «equipo nacional» compraron el viernes (+1,7 %). En Indonesia, la amenaza de MSCI de rebajar su clasificación (lo que obligaría a vender a los fondos indexados) provocó un desplome del 15 % en dos sesiones; ==la bolsa y el fondo soberano reaccionaron== (excluirán del índice valores con propiedad muy concentrada) y Yakarta rebotó con fuerza.",
+      "fuentes": [
+        {
+          "t": "Bloomberg",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-23/china-stocks-sink-deeper-into-bear-market-despite-state-buying"
+        },
+        {
+          "t": "Jakarta Globe",
+          "u": "https://jakartaglobe.id/business/jakarta-stocks-gain-565-amid-mscirelated-reform-efforts"
+        },
+        {
+          "t": "Bloomberg",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-22/indonesian-stocks-fall-as-concerns-over-msci-s-downgrade-return"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "En EE. UU. ==la curva bajó y se aplanó==: 2 años −5 pb (≈ 4,69 %), 5 años −9 pb (4,81 %), 10 años −11 pb (4,99 %) y 30 años −12 pb (5,32 %). El recorrido fue de sierra (+4, −2, +3, −19 y +4 pb en el 10 años), con todo el movimiento concentrado en el jueves. Funcionaron dos mecanismos: ==la huida a refugio desde la bolsa tecnológica== y una revisión de lo que hará la Reserva Federal (Fed), que pasó a descartar una subida en octubre. Llama la atención que el petróleo subiera un 6 % sin impedir la bajada: el mercado ==lo lee hoy más como freno al crecimiento que como inflación==, y las expectativas de inflación a largo plazo se mantienen. El tramo corto bajó menos porque ==diciembre sigue cotizando una subida probable (≈ 80 %)==. La prima por plazo apenas cambió; el diferencial del crédito de alto rendimiento (high yield) se amplió 9 pb (3,40 %, hasta el jueves) por el temor a la deuda ligada a la IA.\n\nEn la zona euro el Bund y la deuda AAA bajaron poco (10 años AAA −6 pb hasta el jueves, 3,38 %; el viernes el Bund subió ~2 pb, a ≈ 3,35 %; 2 años −2 pb, 3,01 %): ==actuaron como refugio de la crisis francesa== y siguieron la bajada de EE. UU., pero el BCE (Banco Central Europeo), con la inflación en el 3,7–3,8 % y el gas al alza, no da pie a más. La gran noticia fue el reparto: ==el bono francés a 10 años subió unos 27 pb (5,04 %)== y su diferencial con Alemania se amplió de ~147 a ~172 pb (las fuentes van de 170 a 178 pb según la hora), máximos desde 2011. Es prima de riesgo político y fiscal pura. Italia aguantó mejor (diferencial ~116 pb el miércoles) y España casi no se movió (bono a 10 años ≈ 4,05 %, prima ~70 pb). La curva AAA del BCE y el 2 años de la Fed aún no tienen el dato del viernes; esas cifras proceden de prensa.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−11 pb (5,10 % → 4,99 %)",
+        "por_que": "==Huida a refugio el jueves y adiós a la subida de octubre==; el crudo no lo impidió porque se lee como freno al crecimiento.",
+        "fuentes": [
+          {
+            "t": "CNBC",
+            "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+          },
+          {
+            "t": "Reuters (vía MarketScreener)",
+            "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "≈ −5 pb (4,74 % → ≈ 4,69 %)",
+        "por_que": "Bajó menos porque ==diciembre sigue en ~80 % de probabilidad de subida==; dato del viernes de prensa (FRED llega hasta el jueves: 4,65 %, −9 pb).",
+        "fuentes": [
+          {
+            "t": "ETF Trends",
+            "u": "https://www.etftrends.com/fixed-income-content-hub/treasury-yields-snapshot-october-23-2026/"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "−6 pb hasta el jueves (3,38 %); Bund ≈ 3,35 % el viernes",
+        "por_que": "==Refugio dentro del euro frente a Francia== y contagio de EE. UU.",
+        "fuentes": [
+          {
+            "t": "Ideal Investisseur",
+            "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Francia–Alemania",
+        "cambio": "≈ +25 pb (~147 → ~172 pb)",
+        "por_que": "==Disturbios, presupuesto en duda y miedo a la rebaja de Moody's==; el viernes se estrechó 3 pb antes de que la agencia mantuviera la nota.",
+        "fuentes": [
+          {
+            "t": "CNBC",
+            "u": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html"
+          },
+          {
+            "t": "Ideal Investisseur",
+            "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+          },
+          {
+            "t": "Bloomberg",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-23/france-avoids-moody-s-downgrade-in-reprieve-after-week-of-crisis"
+          }
+        ]
+      },
+      {
+        "bono": "España 10 años y prima de riesgo",
+        "cambio": "≈ 4,05 %; prima ~70 pb, casi sin cambios",
+        "por_que": "==Sin contagio de Francia==: mejor dinámica de déficit y crecimiento.",
+        "fuentes": [
+          {
+            "t": "The Objective",
+            "u": "https://theobjective.com/economia/2026-10-23/ibex-35-sube-19-000-puntos-subida-petroleo/"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "+9 pb (3,40 %, hasta el jueves)",
+        "por_que": "Más prima en el crédito arriesgado por ==el temor a la deuda con la que se financian los centros de datos== de IA."
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "CNBC",
+        "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+      },
+      {
+        "t": "Reuters (vía MarketScreener)",
+        "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+      },
+      {
+        "t": "Ideal Investisseur",
+        "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+      },
+      {
+        "t": "CNBC",
+        "u": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html"
+      },
+      {
+        "t": "Bloomberg",
+        "u": "https://www.bloomberg.com/news/articles/2026-10-23/france-avoids-moody-s-downgrade-in-reprieve-after-week-of-crisis"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Semana negativa para la renta variable (mediana −0,85 %) y algo negativa también para la renta fija (−0,12 %) y los mixtos (−0,21 %), porque ==los fondos en euros sufrieron Francia y el ensanchamiento del crédito== más de lo que ayudó la bajada del bono estadounidense. ==Abajo, en bloque, oro, plata y minería== (entre −6,5 % y −8,4 %), con caídas que duplican las del metal, y algunos temáticos de crecimiento e IA. ==Arriba, biotecnología y salud==, Indonesia y algún fondo de tecnología financiera. Ojo con las fechas: muchos fondos miden hasta el jueves 22 (VL —valor liquidativo— con desfase), así que no recogen el viernes. Y con datos raros: los fondos de Cinvest salen a la vez arriba y abajo (Multigestión A +4,45 % y otra clase de la misma familia −2,73 %), Flossbach von Storch Multi Asset Balanced −4,8 % (ya marcado como posible error de precio el día 20), La Française Rendement Global 2028 −2,9 % y un monetario en euros de Candriam −0,26 %, movimientos que no encajan con sus carteras.",
+    "suben": [
+      {
+        "isin": "LU0346391328",
+        "por_que": "Indonesia: ==rebote tras el desplome del 15 % por la amenaza de MSCI==, con medidas de la bolsa y compras del fondo soberano. +7,6 % en USD y +8,2 % en EUR: ==0,6 puntos son efecto divisa== (el dólar ganó un 0,5 % al euro)."
+      },
+      {
+        "isin": "IE00B3VXGD32",
+        "por_que": "Biotecnología (Amgen, Madrigal, argenx, Insmed, Alnylam): ==rotación hacia la sanidad== y bajada de tipos largos, que favorece a compañías cuyo valor depende de beneficios futuros. Mide hasta el jueves 22."
+      },
+      {
+        "isin": "LU1803069274",
+        "por_que": "Biotecnología cubierta al euro (Jazz, Amgen, Gilead, Vertex, Regeneron): ==la sanidad fue el refugio dentro de la bolsa estadounidense==. Hasta el jueves."
+      },
+      {
+        "isin": "LU1120766206",
+        "por_que": "Biotecnología de gran capitalización (Gilead, Vertex, Amgen, Regeneron): ==mismo tirón==, sin efecto divisa por la cobertura."
+      },
+      {
+        "isin": "LU0358044559",
+        "por_que": "Salud global en dólares: +4,1 % en USD y +4,5 % en EUR, ==con algo de efecto divisa== a favor del inversor en euros."
+      },
+      {
+        "isin": "IE00B5L6ZZ16",
+        "por_que": "Capital riesgo cotizado (sin cartera en nuestros datos): ==sensible a la bajada de tipos largos==, que abarata la financiación de las compras apalancadas. +5,7 % en USD; hasta el jueves."
+      },
+      {
+        "isin": "IE00BKKJBP83",
+        "por_que": "Tecnología financiera (sin cartera en nuestros datos): ==fuera del núcleo de chips castigado== y favorecida por la bajada de tipos; sorprende su +4,2 % en una semana floja para la tecnología."
+      },
+      {
+        "isin": "LU1484763732",
+        "por_que": "Medianas compañías de EE. UU. cubiertas al euro: ==la rotación que llevó al Russell 2000 a +2 %==. Hasta el jueves."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "IE00BYVJR916",
+        "por_que": "Mineras pequeñas de oro y plata y fondos físicos: ==plata −5,8 % y oro −4,1 %, amplificados por el apalancamiento operativo de las mineras== (sus costes son fijos, así que el beneficio cae más que el precio)."
+      },
+      {
+        "isin": "LU0326422689",
+        "por_que": "Grandes mineras de oro (Barrick, Agnico Eagle, Newmont) cubiertas al euro: ==el oro perdió los 4.000 $==; la cobertura evita la pérdida adicional por divisa."
+      },
+      {
+        "isin": "LU0273159177",
+        "por_que": "Mineras de oro (Newmont, AngloGold, Agnico Eagle, Gold Fields): ==peor semana del oro desde junio==."
+      },
+      {
+        "isin": "LU1223083087",
+        "por_que": "Mineras de oro (Agnico Eagle, Barrick, Eldorado): ==mismo motivo==, con caídas de entre el 2,6 % y el 3,8 % el jueves y el viernes."
+      },
+      {
+        "isin": "IE00BJM0B969",
+        "por_que": "Crecimiento global concentrado (Seagate, Modine, Eli Lilly, Leonardo, Safran): ==sus apuestas en centros de datos (almacenamiento y refrigeración) sufrieron la duda de la IA==; −5,2 % solo el viernes por el desfase de su VL."
+      },
+      {
+        "isin": "LU0505663400",
+        "por_que": "Minerales para la transición (Anglo American, Freeport, Rio Tinto, CATL): ==cobre −0,8 %, China en mercado bajista== y ventas generalizadas de materias primas metálicas."
+      },
+      {
+        "isin": "LU2145463613",
+        "por_que": "Materiales avanzados (Aura Minerals, Hudbay, Umicore, Onto Innovation, Samsung Electro-Mechanics): ==mezcla de minería y proveedores de chips==, los dos segmentos más castigados. Hasta el jueves."
+      },
+      {
+        "isin": "LU2168317308",
+        "por_que": "Consumo con sesgo tecnológico (Nebius, Amazon, Tesla, Micron): ==los resultados de Tesla y la venta de nombres ligados a la IA (Nebius, Micron)== el jueves."
+      }
+    ],
+    "por_clase": [
+      {
+        "clase": "Renta variable",
+        "texto": "Mediana −0,85 % (1.674 fondos). ==El mapa de la semana: arriba sanidad, Indonesia y pequeñas compañías de EE. UU.; abajo metales preciosos, minería, IA y Europa==. Los fondos de bolsa europea y de la zona euro cayeron en torno a un 2 %, en línea con sus índices."
+      },
+      {
+        "clase": "Mixtos",
+        "texto": "Mediana −0,21 %: ==la renta fija amortiguó a la bolsa== solo en parte, porque la deuda europea no bajó tanto como la estadounidense. Los extremos son dudosos (Cinvest, Varenne, Merchbanc), con movimientos difíciles de explicar con los drivers."
+      },
+      {
+        "clase": "Renta fija",
+        "texto": "Mediana −0,12 %. ==Ganan los fondos en dólares y de tipos estadounidenses== (Nordea US Total Return +1,5 %) y los de corona noruega; pierden algunos de emergentes (M&G Emerging Markets Bond −3,6 %) y de crédito. Varios extremos negativos parecen errores de precio (Flossbach, La Française 2028)."
+      },
+      {
+        "clase": "Monetarios",
+        "texto": "Mediana +0,05 %, lo normal. ==Los monetarios en libras ganan ~0,9 % en euros por pura divisa== (la libra subió un 0,8 % frente al euro); en su moneda apenas rinden un 0,1 %."
+      },
+      {
+        "clase": "Alternativos",
+        "texto": "Mediana −0,19 %. Destacan los macro globales en positivo (M&G Episode Macro +1,6 %) y ==el JPM Global Macro Opportunities en negativo (−2,6 %)==, probablemente por posiciones largas en bolsa o en el euro."
+      },
+      {
+        "clase": "Materias primas e inmobiliario",
+        "texto": "Mediana −0,91 % (solo 9 fondos): ==el crudo al alza no compensó la caída de oro, plata y metales industriales== en los índices diversificados."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-25",
+      "evento": "Segunda vuelta de las presidenciales en Brasil",
+      "por_que_importa": "Puede mover la bolsa y el real brasileños el lunes."
+    },
+    {
+      "fecha": "2026-10-26",
+      "evento": "Reacción a la decisión de Moody's sobre Francia",
+      "por_que_importa": "Primera sesión tras mantener la nota: medirá si el diferencial francés se alivia."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Decisión de la Reserva Federal (Fed), reunión del 27–28",
+      "por_que_importa": "Se espera que no toque los tipos; la clave es si confirma la subida de diciembre que descuenta el mercado (78–85 %)."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Resultados de Microsoft, Alphabet y Meta",
+      "por_que_importa": "Un tercio del S&P 500 publica en la semana; el gasto en IA de estas compañías decidirá el rumbo de los chips."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "Reunión del Banco Central Europeo (BCE)",
+      "por_que_importa": "Se espera pausa (facilidad de depósito en el 2,50 %) sin nuevas proyecciones; el debate será si sube en diciembre con la inflación en el 3,7–3,8 %."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "PCE (deflactor del gasto en consumo) de septiembre y PIB del tercer trimestre en EE. UU.; resultados de Amazon y Apple",
+      "por_que_importa": "Se espera que el PCE suba al 3,6 % (subyacente 3,1 %): un dato alto reforzaría la subida de diciembre."
+    },
+    {
+      "fecha": "2026-11-03",
+      "evento": "Elecciones de mitad de mandato en EE. UU.",
+      "por_que_importa": "La prensa vincula a esta fecha posibles nuevos ataques a Irán, clave para el petróleo."
+    },
+    {
+      "fecha": "2026-11-05",
+      "evento": "Huelga nacional en Francia",
+      "por_que_importa": "Nueva prueba para el Gobierno y el presupuesto de 2027, y para el diferencial francés."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento. Cuando sube, el precio del bono baja."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "OAT",
+      "def": "Obligations Assimilables du Trésor: bono del Tesoro francés."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán, referencia sin riesgo de la zona euro."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+    },
+    {
+      "sigla": "GNL",
+      "def": "Gas natural licuado, transportado en barco."
+    },
+    {
+      "sigla": "PMI",
+      "def": "Índice de gestores de compras: encuesta de actividad; por encima de 50 indica expansión."
+    },
+    {
+      "sigla": "PCE",
+      "def": "Deflactor del gasto en consumo personal: la medida de inflación preferida por la Fed."
+    },
+    {
+      "sigla": "PIB",
+      "def": "Producto interior bruto."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: precio diario de una participación de un fondo."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "CSI 300",
+      "def": "Índice de las 300 mayores empresas cotizadas en Shanghái y Shenzhen (acciones A)."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500, conocido como «índice del miedo»."
+    },
+    {
+      "sigla": "SOX",
+      "def": "Índice de semiconductores de Filadelfia: las 30 mayores empresas de chips cotizadas en EE. UU."
+    },
+    {
+      "sigla": "MSCI",
+      "def": "Proveedor de índices bursátiles; su clasificación de un país (desarrollado, emergente, frontera) decide cuánto compran los fondos indexados."
+    },
+    {
+      "sigla": "High yield",
+      "def": "Bonos de alto rendimiento: deuda de empresas con calificación inferior a grado de inversión."
+    },
+    {
+      "sigla": "IPC",
+      "def": "Índice de precios de consumo."
+    }
+  ],
+  "generado": "2026-10-24T12:45"
+}

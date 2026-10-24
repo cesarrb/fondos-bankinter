@@ -1,0 +1,465 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-12",
+  "fase": "completo",
+  "titulo": "Un avance chino en memoria hunde los chips y Corea; Europa sube de la mano de la banca",
+  "resumen": "Lunes a dos velocidades. El sábado 10, la china ChangXin Memory Technologies (CXMT) anunció que lanzará antes de fin de año ==módulos de memoria DDR5 para servidores con un diseño de celda (4F²)== que ocupa un tercio menos que el habitual, algo que según las estimaciones publicadas Samsung no tendrá hasta 2028. El mercado lo leyó como una amenaza para los márgenes extraordinarios que la fiebre de la inteligencia artificial (IA) ha dado a los fabricantes de memoria: si entra un competidor chino con más densidad, ==los precios de la DRAM (memoria de acceso aleatorio) podrían dejar de subir==. El Kospi coreano, que estaba cerrado desde el jueves por festivo, ==cayó un 3,65 %, con salidas netas de inversores extranjeros por quinta sesión==. En Wall Street, el índice de semiconductores de Filadelfia (SOX) perdió un 2,6 %, Micron cerca de un 4 % y Nvidia, Broadcom y AMD en torno a un 2 %, lo que llevó al Nasdaq 100 a ceder un 0,71 % y al Russell 2000 un 0,45 %. El S&P 500 quedó plano (−0,06 %) y el Dow Jones subió un 0,38 % porque el dinero rotó hacia la energía y sectores menos ligados a la IA.\n\nEuropa, con poco peso en memoria, siguió su propio guion: Stoxx Europe 600 +0,65 % (segunda subida seguida), con el IBEX 35 (+1,33 %) a la cabeza, seguido del FTSE 100 (+0,99 %), el DAX (+0,76 %), el FTSE MIB (+0,58 %) y el CAC 40 (+0,38 %). ==Tiró la banca (índice sectorial europeo +1,5 %)==, a la espera de los resultados de los grandes bancos de EE. UU. desde el martes y apoyada en ==unos tipos altos que engordan su margen de intereses==; por eso destacaron el IBEX y el FTSE, muy cargados de bancos y, en el caso británico, de petroleras.\n\nEl petróleo volvió a subir: Brent +1,8 % (106,7 $) y WTI +2,1 % (93,7 $), tercera sesión al alza. ==Los hutíes alcanzaron con misiles el aeropuerto internacional de Riad== el sábado (al menos 12 muertos, el tercer ataque en una semana) y de nuevo el domingo, y hubo ataques contra dos petroleros cerca de Omán y en el estrecho de Ormuz: ==el mercado añade prima de riesgo por si se interrumpen las exportaciones del Golfo==, aunque estas siguen cerca del 98 % de su nivel previo a la guerra. El gas europeo TTF subió un 3,6 % (84,4 €/MWh). El dólar se fortaleció (DXY +0,36 %) y el oro (−0,6 %) y la plata (−0,9 %) devolvieron parte del viernes; el ETF de uranio cayó un 3 % sin noticia concreta, arrastrado por la venta en temáticas ligadas a los centros de datos. El bitcoin cedió un 2,3 %.\n\nOjo con los bonos: era Columbus Day y ==el mercado de deuda de EE. UU. estuvo cerrado==, así que las TIR (tasa interna de rentabilidad) estadounidenses del día no son representativas. En la zona euro, el bono AAA a 10 años bajó 1,3 puntos básicos (pb) y el 2 años subió 1,9 pb. En Asia, Japón y Brasil cerraron por festivo; el Hang Seng subió un 0,25 %, Shanghái cayó un 0,43 % y el Sensex indio un 0,76 %.",
+  "claves": [
+    "El anuncio de CXMT de una memoria más densa para servidores ==desata el miedo a la competencia china==: Kospi −3,65 %, SOX −2,6 % y Micron cerca de −4 %.",
+    "Wall Street rota: Nasdaq 100 −0,71 % frente a Dow Jones +0,38 %, con la energía al frente.",
+    "==Europa sube por la banca (+1,5 %)==: IBEX 35 +1,33 % y FTSE 100 +0,99 %, a la espera de los resultados de los bancos de EE. UU.",
+    "Los ataques hutíes contra el aeropuerto de Riad y contra petroleros en Ormuz ==llevan el Brent a 106,7 $ (+1,8 %)== y el TTF a 84,4 € (+3,6 %).",
+    "Mercado de bonos de EE. UU. cerrado por Columbus Day: ==las TIR del día no son representativas==."
+  ],
+  "suben": [
+    {
+      "activo": "IBEX 35 (España)",
+      "cambio": "+1,33 %",
+      "por_que": "==Es la bolsa más bancaria de Europa== y la banca fue el mejor sector (+1,5 % en el índice europeo): tipos altos que sostienen el margen y expectativa ante los resultados de la banca de EE. UU. Sabadell, por ejemplo, subió un 1,3 %.",
+      "fuentes": [
+        {
+          "t": "QNA",
+          "u": "https://qna.org.qa/en/News-Area/News/2026-10/12/european-stocks-close-higher"
+        }
+      ]
+    },
+    {
+      "activo": "Stoxx Europe 600",
+      "cambio": "+0,65 %",
+      "por_que": "Segunda sesión al alza: Europa tiene poco peso en fabricantes de memoria y se benefició de la rotación hacia bancos y energía; FTSE 100 +0,99 %, DAX +0,76 %.",
+      "fuentes": [
+        {
+          "t": "QNA",
+          "u": "https://qna.org.qa/en/News-Area/News/2026-10/12/european-stocks-close-higher"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo Brent",
+      "cambio": "+1,84 %",
+      "por_que": "Misiles hutíes contra el aeropuerto de Riad (sábado y domingo) y ataques a petroleros cerca de Omán y en Ormuz: ==más prima de riesgo sobre las exportaciones del Golfo==. Cierra en 106,7 $ (WTI +2,1 %, 93,7 $).",
+      "fuentes": [
+        {
+          "t": "Argus Media",
+          "u": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2889398-strike-on-riyadh-airport-kills-12-injures-309-update"
+        },
+        {
+          "t": "Gulf News",
+          "u": "https://gulfnews.com/business/crude-oil-prices-ease-but-saudi-airport-strike-keeps-tensions-high-1.500707021"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+3,58 %",
+      "por_que": "Contagio de la tensión en el Golfo, de donde llega gas natural licuado, y de la escasez de productos refinados en Europa; el TTF encadena dos subidas fuertes (84,4 €/MWh).",
+      "fuentes": [
+        {
+          "t": "Gulf News",
+          "u": "https://gulfnews.com/business/crude-oil-prices-ease-but-saudi-airport-strike-keeps-tensions-high-1.500707021"
+        }
+      ]
+    },
+    {
+      "activo": "Dow Jones",
+      "cambio": "+0,38 %",
+      "por_que": "Rotación desde la tecnología hacia energía y valores cíclicos en una sesión de poco volumen por el festivo.",
+      "fuentes": [
+        {
+          "t": "Herald Business",
+          "u": "https://biz.heraldcorp.com/article/10900315"
+        },
+        {
+          "t": "MTC",
+          "u": "https://www.metatradingclub.com/2026/10/12/"
+        }
+      ]
+    },
+    {
+      "activo": "Índice dólar (DXY)",
+      "cambio": "+0,36 %",
+      "por_que": "Sin noticia concreta: búsqueda de refugio ante la escalada en el Golfo y la caída de la tecnología; el euro sigue lastrado por las dudas sobre la deuda francesa.",
+      "fuentes": []
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Kospi (Corea)",
+      "cambio": "−3,65 %",
+      "por_que": "Primera sesión tras el anuncio de CXMT (Corea cerró el viernes): Samsung y SK hynix concentran gran parte del índice y ==su beneficio depende de los precios de la memoria==. Los extranjeros vendieron unos 2 billones de wones. El cambio es frente al jueves 8.",
+      "fuentes": [
+        {
+          "t": "ForkLog",
+          "u": "https://forklog.com/en/?p=105174"
+        }
+      ]
+    },
+    {
+      "activo": "Nasdaq 100",
+      "cambio": "−0,71 %",
+      "por_que": "==El SOX cayó un 2,6 %==, Micron cerca de un 4 %, el ADR de SK hynix un 4 % y Nvidia, Broadcom y AMD alrededor de un 2 %: la noticia de CXMT se sumó a las dudas sobre la rentabilidad del gasto en IA.",
+      "fuentes": [
+        {
+          "t": "Herald Business",
+          "u": "https://biz.heraldcorp.com/article/10900315"
+        }
+      ]
+    },
+    {
+      "activo": "Uranio (ETF URA)",
+      "cambio": "−3,03 %",
+      "por_que": "Sin noticia concreta: se vendieron las temáticas ligadas a la demanda eléctrica de los centros de datos junto con los chips.",
+      "fuentes": []
+    },
+    {
+      "activo": "Bitcoin",
+      "cambio": "−2,29 %",
+      "por_que": "Frente al domingo: menos apetito por el riesgo tecnológico y un dólar más firme.",
+      "fuentes": []
+    },
+    {
+      "activo": "Sensex (India)",
+      "cambio": "−0,76 %",
+      "por_que": "Sin noticia concreta: recogida de beneficios tras el +1,2 % del viernes, con el petróleo caro como lastre para un país que importa casi todo el crudo que consume.",
+      "fuentes": []
+    },
+    {
+      "activo": "Oro",
+      "cambio": "−0,61 %",
+      "por_que": "Devuelve parte del +1,4 % del viernes con el dólar al alza.",
+      "fuentes": []
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Competencia china en memoria (CXMT)",
+      "texto": "La memoria ha sido el gran negocio de la IA: los servidores necesitan enormes cantidades y los precios se dispararon, lo que llevó a máximos a Samsung, SK hynix y Micron. CXMT, punta de lanza de la autosuficiencia china en chips, dijo que tendrá antes de fin de año módulos para servidores con una celda más pequeña que la de sus rivales. Aunque su capacidad real de producción está por demostrar, ==el mercado reaccionó vendiendo a quien más tenía que perder== si los precios de la DRAM dejan de subir. Algunos analistas la vieron como una reacción desproporcionada y solo el detonante de una duda de fondo: si la rentabilidad de la IA aguantará con más competencia.",
+      "fuentes": [
+        {
+          "t": "ForkLog",
+          "u": "https://forklog.com/en/?p=105174"
+        },
+        {
+          "t": "Herald Business",
+          "u": "https://biz.heraldcorp.com/article/10900315"
+        }
+      ]
+    },
+    {
+      "tema": "Golfo Pérsico: ataques en Arabia Saudí y Ormuz",
+      "texto": "Los ataques hutíes contra el aeropuerto de Riad, los más mortíferos en un país del Golfo desde que empezó la guerra entre EE. UU. e Irán en febrero, y los ataques a petroleros reavivan el riesgo de interrupciones de suministro. Por ahora las exportaciones del Golfo siguen cerca del 98 % de su nivel previo a la guerra, por lo que ==la subida es prima de riesgo más que escasez real==.",
+      "fuentes": [
+        {
+          "t": "Argus Media",
+          "u": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2889398-strike-on-riyadh-airport-kills-12-injures-309-update"
+        },
+        {
+          "t": "Gulf News",
+          "u": "https://gulfnews.com/business/crude-oil-prices-ease-but-saudi-airport-strike-keeps-tensions-high-1.500707021"
+        }
+      ]
+    },
+    {
+      "tema": "Banca europea y temporada de resultados",
+      "texto": "Con los tipos altos, ==los bancos ganan más con la diferencia entre lo que cobran y lo que pagan==. Antes de que los grandes bancos de EE. UU. abran la temporada del tercer trimestre, los inversores compraron banca europea, lo que explica el mejor comportamiento del IBEX y del FTSE.",
+      "fuentes": [
+        {
+          "t": "QNA",
+          "u": "https://qna.org.qa/en/News-Area/News/2026-10/12/european-stocks-close-higher"
+        }
+      ]
+    },
+    {
+      "tema": "Festivo en EE. UU., Japón y Brasil",
+      "texto": "Columbus Day: bolsa abierta pero ==mercado de bonos cerrado==, por lo que las rentabilidades del Tesoro de ese día no son significativas. Japón (Día del Deporte) y Brasil también cerraron, y Corea y Taiwán venían de festivos el viernes, de modo que sus cambios se miden frente al jueves 8.",
+      "fuentes": [
+        {
+          "t": "IBTimes",
+          "u": "https://www.ibtimes.com.au/us-stock-markets-open-columbus-day-2026-1876567"
+        }
+      ]
+    }
+  ],
+  "fondos": {
+    "texto": "Lectura con cuidado: es un día de festivos y varios fondos valoran con un día de retraso. Tras recalcular la tabla, todas las cifras son de una sola sesión (9→12-oct) y salen 2.901 fondos. La mediana de renta variable subió un 0,32 %, la de mixtos un 0,12 % y la de renta fija un 0,03 %. ==Los que más bajan sí reflejan el driver del día==: fondos de Asia, Corea y temáticas con mucho peso en semiconductores (sobre todo de Robeco), castigados por la noticia de CXMT. Entre los que más suben hay dos grupos: ==efecto calendario== (Baillie Gifford, Erste y DWS en biotecnología, que recogen el buen viernes de EE. UU.) y ==tecnología médica (CPR, Bellevue, Variopartner)==, un movimiento sectorial sin noticia concreta. Latinoamérica también sube (Schroder Latin American, GBM México) pese al festivo en Brasil. Efecto divisa pequeño: el dólar subió algo y las clases en dólares ganaron unas dos décimas más en euros (r) que en su divisa (rn).",
+    "suben": [
+      {
+        "isin": "AT0000673165",
+        "por_que": "Erste Stock Biotec (IronIA, +2,54 %): fondo austriaco con VL desfasado; recoge el rebote del viernes de la biotecnología de EE. UU. Los fondos del sector que valoran al día (UBS, Candriam) bajaron un 1 % este lunes."
+      },
+      {
+        "isin": "LU1128910137",
+        "por_que": "Baker Steel Precious Metals (IronIA, +2,38 %): mineras de metales preciosos; también refleja sobre todo el rebote del viernes."
+      },
+      {
+        "isin": "DE0009769976",
+        "por_que": "DWS ESG Biotech (+2,27 %): con Vertex, Gilead, argenx y Amgen; su VL va un día por detrás y recoge el rally biotecnológico del viernes."
+      },
+      {
+        "isin": "LU0709028343",
+        "por_que": "GBM Mexico Fund (IronIA, +2,17 %): bolsa mexicana; no tenemos su cartera ni el índice mexicano en nuestras series. México abrió el lunes con Brasil cerrado y el petróleo al alza, pero ==no localizamos una noticia concreta==: dato a vigilar."
+      },
+      {
+        "isin": "IE00BK5TWD80",
+        "por_que": "Baillie Gifford Worldwide US Equity Growth (+2,15 %): Nvidia, Amazon, Shopify y DoorDash; por su hora de valoración refleja el rebote del viernes en Wall Street, no la caída tecnológica del lunes."
+      },
+      {
+        "isin": "IE00BJ5JS224",
+        "por_que": "Baillie Gifford Worldwide Discovery (+2,02 %): pequeñas compañías de crecimiento (Twist Bioscience, Axon, Xometry, Alnylam, Astera Labs), un 31 % en salud. Como el resto de Baillie Gifford, ==su VL refleja el viernes==, día de fuerte subida de la biotecnología."
+      },
+      {
+        "isin": "LU2036817711",
+        "por_que": "CPR Invest MedTech (IronIA, +1,98 %): tecnología médica. ==Tres fondos de medtech suben a la vez== (Bellevue Medtech +1,85 %, Variopartner +1,75 %): movimiento del sector, sin noticia concreta localizada, que encaja con la rotación fuera de los chips hacia salud defensiva."
+      },
+      {
+        "isin": "LU0248181363",
+        "por_que": "Schroder ISF Latin American (+1,91 %): Petrobras (9,9 %), Itaú, Banorte, Nu y Vale. Brasil estuvo cerrado el lunes: ==el VL recoge el petróleo al alza (+1,8 %)== a través de Petrobras, la bolsa mexicana (Banorte, Grupo México) y, probablemente, parte del buen viernes brasileño (+1,4 %)."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU2145463613",
+        "por_que": "Robeco Smart Materials (−3,27 %): además de mineras tiene mucho componente electrónico (Samsung Electro-Mechanics, Onto Innovation, Corning, Viavi) que ==cayó con los chips==; el 12,7 % de la cartera está en Asia desarrollada."
+      },
+      {
+        "isin": "LU0591059224",
+        "por_que": "Robeco Asian Stars (−2,84 %): TSMC, preferentes de Samsung y SK hynix ==suman cerca del 28 % de la cartera==."
+      },
+      {
+        "isin": "LU1345291485",
+        "por_que": "Selective Thematic (IronIA, tecnología, −2,75 %): devuelve parte del +3,87 % del viernes con la venta de semiconductores."
+      },
+      {
+        "isin": "LU2145465402",
+        "por_que": "Robeco Smart Mobility (−2,31 %): chips para el coche eléctrico (Qualcomm, Analog Devices, STMicro, Infineon, NXP) y CATL; cayó con el SOX."
+      },
+      {
+        "isin": "LU0187076913",
+        "por_que": "Robeco Emerging Markets Equities (ABANCA, −2,29 %): fuerte peso en Corea y Taiwán. ==El Kospi cayó un 3,65 % por la noticia de CXMT== sobre memoria china."
+      },
+      {
+        "isin": "LU0254836850",
+        "por_que": "Robeco Emerging Stars (−2,18 %): TSMC, Samsung y SK Square encabezan la cartera; el 50 % está en Asia desarrollada (Corea y Taiwán)."
+      },
+      {
+        "isin": "LU2145461757",
+        "por_que": "Robeco Smart Energy (−2,16 %): Infineon, Marvell y ARM, ligadas a semiconductores, pesaron más que las eléctricas."
+      },
+      {
+        "isin": "ES0162305033",
+        "por_que": "Merch-Oportunidades (IronIA, mixto flexible de Andbank, −2,13 %): sin cartera en nuestros datos. Cae en un día en que el IBEX subió un 1,33 %: ==no encaja con los drivers del día==; dato a vigilar (posible desfase de VL o posición concreta)."
+      },
+      {
+        "isin": "LU1381420600",
+        "por_que": "Mirae Asset ESG Asia Great Consumer, cubierto a euros (−1,97 %): pese al nombre, Samsung (10 %), TSMC (9 %) y SK hynix (6 %) son sus mayores posiciones."
+      },
+      {
+        "isin": "LU1339879832",
+        "por_que": "Alger Small Cap Focus (−1,92 %): pequeñas compañías de crecimiento de EE. UU. (Russell 2000 −0,45 %), con salud y tecnología, sectores que más sufrieron."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-13",
+      "evento": "JPMorgan abre la temporada de resultados de la gran banca de EE. UU.",
+      "por_que_importa": "Pondrá a prueba el rally de la banca: márgenes, morosidad y negocio de mercados con tipos por encima del 5 %."
+    },
+    {
+      "fecha": "2026-10-14",
+      "evento": "IPC de septiembre en EE. UU. y resultados de ASML",
+      "por_que_importa": "El IPC marcará las apuestas sobre otra subida de la Fed; ASML dirá si la demanda de chips para IA sigue fuerte tras el susto de la memoria."
+    },
+    {
+      "fecha": "2026-10-15",
+      "evento": "Resultados de TSMC y precios de producción (IPP) de EE. UU.",
+      "por_que_importa": "TSMC es el termómetro de la cadena de semiconductores; en Corea se ven estos resultados como posible catalizador de rebote."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Reunión de la Reserva Federal (Fed), 27 y 28 de octubre",
+      "por_que_importa": "Decidirá si repite la subida de tipos de septiembre."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "Reunión del Banco Central Europeo (BCE)",
+      "por_que_importa": "Con el petróleo por encima de 100 $ y el gas al alza, su tono sobre la inflación afectará al euro y al Bund."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "CXMT",
+      "def": "ChangXin Memory Technologies, principal fabricante chino de memoria DRAM."
+    },
+    {
+      "sigla": "DRAM",
+      "def": "Dynamic Random Access Memory: la memoria de trabajo de ordenadores y servidores."
+    },
+    {
+      "sigla": "DDR5",
+      "def": "Quinta generación del estándar de módulos de memoria DRAM."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "SOX",
+      "def": "Índice de semiconductores de Filadelfia: 30 grandes empresas de chips cotizadas en EE. UU."
+    },
+    {
+      "sigla": "ADR",
+      "def": "American Depositary Receipt: certificado con el que cotiza en EE. UU. una acción extranjera."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad de un bono; sube cuando cae su precio."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: 0,01 puntos porcentuales."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Mercado holandés de referencia del gas natural en Europa (€/MWh)."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis grandes divisas."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Exchange Traded Fund: fondo cotizado que replica un índice."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: precio diario de una participación de un fondo."
+    },
+    {
+      "sigla": "IPC / IPP",
+      "def": "Índice de precios de consumo e índice de precios de producción."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, banco central de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán, referencia de la deuda de la zona euro."
+    },
+    {
+      "sigla": "OAT",
+      "def": "Obligation assimilable du Trésor: bono del Estado francés."
+    },
+    {
+      "sigla": "SIFMA",
+      "def": "Securities Industry and Financial Markets Association: asociación de la industria de valores de EE. UU.; fija el calendario recomendado del mercado de bonos."
+    },
+    {
+      "sigla": "High yield",
+      "def": "Bonos de empresas con calificación inferior a «grado de inversión»; su diferencial es lo que pagan por encima de la deuda pública."
+    }
+  ],
+  "generado": "2026-10-23T11:00",
+  "tipos": {
+    "texto": "==Columbus Day: el mercado de deuda de EE. UU. estuvo cerrado==. La asociación del sector (SIFMA) recomienda cerrar los bonos al contado ese día; solo cotizaron los futuros, con poca liquidez. Por eso nuestra serie no tiene dato del 2 años y las del 10 años (5,24 %, −0,4 pb) y del 30 años (5,60 %) son prácticamente las del viernes: no hay movimiento que explicar. El diferencial del high yield (3,11 %) repite también el dato del viernes.\n\nEn la zona euro sí hubo sesión, con movimientos pequeños. ==El 2 años AAA subió 1,9 pb (3,07 %) con el Brent a 106,7 $==: más petróleo es más inflación esperada y más apuestas de subida del BCE, y el tramo corto europeo lleva meses siguiendo al crudo. El 10 años (≈ Bund) bajó 1,3 pb (3,50 %), sin noticia concreta y sin la referencia de EE. UU.; la curva se aplanó un poco. ==Francia sigue en el foco: su diferencial con Alemania ronda máximos desde 2011== (unos 147 pb el día 5, según la prensa), aunque no tenemos el cierre del día.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "Sin dato (mercado cerrado)",
+        "por_que": "Festivo de Columbus Day: no hubo mercado al contado.",
+        "fuentes": [
+          {
+            "t": "investingLive (Columbus Day: bolsa abierta, bonos cerrados)",
+            "u": "https://investinglive.com/stock-market-update/us-stocks-open-but-bond-market-shut-for-columbus-day-what-traders-need-to-know/"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−0,4 pb (5,24 %), no representativo",
+        "por_que": "==Bonos al contado cerrados==; el dato recoge, como mucho, los futuros con poca liquidez. Se reanudó el martes 13.",
+        "fuentes": [
+          {
+            "t": "investingLive (Columbus Day: bolsa abierta, bonos cerrados)",
+            "u": "https://investinglive.com/stock-market-update/us-stocks-open-but-bond-market-shut-for-columbus-day-what-traders-need-to-know/"
+          },
+          {
+            "t": "IBTimes UK (Columbus Day 2026)",
+            "u": "https://www.ibtimes.co.uk/us-stocks-open-columbus-day-bond-markets-closed-1825089"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "+1,9 pb (3,07 %)",
+        "por_que": "==Los ataques en Riad y Ormuz suben el crudo== y las apuestas de subida del BCE; el tramo corto europeo se mueve muy ligado al petróleo.",
+        "fuentes": [
+          {
+            "t": "The Star / Reuters (petróleo y apuestas sobre el BCE)",
+            "u": "https://www.thestar.com.my/business/business-news/2026/09/09/traders-bet-on-two-rate-hikes-by-year-end-before-ecb-meeting"
+          },
+          {
+            "t": "Argus (ataque al aeropuerto de Riad)",
+            "u": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2889398-strike-on-riyadh-airport-kills-12-injures-309-update"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "−1,3 pb (3,50 %)",
+        "por_que": "Movimiento mínimo sin noticia concreta y sin referencia de EE. UU.; la caída de los chips en Asia mantuvo algo de demanda de deuda segura.",
+        "fuentes": [
+          {
+            "t": "Babypips (diferencial OAT–Bund, 12-oct)",
+            "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Francia–Alemania (10 años)",
+        "cambio": "Sin dato del día (≈ 147 pb el 5-oct)",
+        "por_que": "En máximos desde la crisis del euro de 2011–2012 por el riesgo fiscal francés; hoy más amplio que el de Italia.",
+        "fuentes": [
+          {
+            "t": "Babypips (diferencial OAT–Bund, 12-oct)",
+            "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "0 pb (3,11 %), dato repetido",
+        "por_que": "El índice no se calculó por el festivo; repite el valor del viernes.",
+        "fuentes": [
+          {
+            "t": "investingLive (Columbus Day: bolsa abierta, bonos cerrados)",
+            "u": "https://investinglive.com/stock-market-update/us-stocks-open-but-bond-market-shut-for-columbus-day-what-traders-need-to-know/"
+          }
+        ]
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "investingLive (Columbus Day: bolsa abierta, bonos cerrados)",
+        "u": "https://investinglive.com/stock-market-update/us-stocks-open-but-bond-market-shut-for-columbus-day-what-traders-need-to-know/"
+      },
+      {
+        "t": "IBTimes UK (Columbus Day 2026)",
+        "u": "https://www.ibtimes.co.uk/us-stocks-open-columbus-day-bond-markets-closed-1825089"
+      },
+      {
+        "t": "Babypips (diferencial OAT–Bund, 12-oct)",
+        "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+      },
+      {
+        "t": "The Star / Reuters (petróleo y apuestas sobre el BCE)",
+        "u": "https://www.thestar.com.my/business/business-news/2026/09/09/traders-bet-on-two-rate-hikes-by-year-end-before-ecb-meeting"
+      }
+    ]
+  }
+}

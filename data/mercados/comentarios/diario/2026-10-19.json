@@ -1,0 +1,500 @@
+{
+ "periodo": "diario",
+ "clave": "2026-10-19",
+ "fase": "completo",
+ "titulo": "Wall Street rebota con los chips mientras la crisis francesa tumba a Europa",
+ "resumen": "Lunes de dos velocidades. En EE. UU. los fabricantes de chips ==cortaron una racha de ocho sesiones seguidas a la baja== (la más larga en 16 años, según la prensa) y tiraron de los índices tecnológicos: Nasdaq 100 +1,2 % y S&P 500 +0,4 %, con Tesla cerca de +3,7 % en la previa de sus resultados y los de Meta del miércoles. Fue sobre todo un rebote técnico tras la peor semana del Nasdaq desde junio: el Dow Jones acabó plano (−0,07 %) y el propio rally perdió fuelle desde máximos, porque la TIR (tasa interna de rentabilidad) del bono de EE. UU. a 10 años ==volvió a subir unos 4 puntos básicos (pb), al 5,14 %==, y con el dinero tan caro las valoraciones de las empresas de crecimiento siguen bajo presión.\n\nEuropa fue en dirección contraria por Francia. Tras un fin de semana de disturbios, con miles de detenidos, el mercado vendió deuda francesa: la rentabilidad del bono a 10 años (OAT) subió entre 8 y 10 pb, hacia el 4,9 %, y su diferencial frente al Bund alemán ==se amplió a unos 147 pb, en máximos desde la crisis del euro de 2011-2012==. El mecanismo es claro: ==si el Gobierno cede ante la calle, cuesta más cuadrar el presupuesto de 2027== con una deuda del 119 % del PIB (producto interior bruto), y los inversores piden más rentabilidad. ==Eso arrastró a la banca, gran tenedora de deuda pública==, y a todos los índices: CAC 40 −1,1 %, DAX −1,2 %, FTSE MIB −1,6 % y Euro Stoxx 50 −1,0 %. El IBEX 35 cayó un 1,49 % hasta 19.039 puntos, salvando por poco los 19.000; la prima de riesgo española, en torno a 67 pb, sigue muy lejos de la francesa. El FTSE 100 (−1,1 %) también sufrió; solo el SMI suizo (−0,2 %) resistió.\n\nEn divisas se notó la ==huida de lo francés hacia refugios europeos==: el euro cayó un 0,4 % frente al franco suizo y frente a la libra, aunque subió un 0,1 % frente al dólar (1,123). En Asia, el Kospi coreano (+1,8 %) se apuntó al rebote de los chips, mientras Japón (Nikkei −0,6 %) y Taiwán (−0,6 %) bajaron; Hong Kong no cotizó (festivo). El petróleo Brent apenas se movió (−0,3 %, 109,6 $), entre las amenazas de Irán en el estrecho de Ormuz y unos flujos de crudo del Golfo más robustos de lo temido; el WTI estadounidense subió un 2,2 % en la víspera del vencimiento de su contrato de noviembre. El oro cedió un 0,5 % y el VIX (volatilidad del S&P 500) bajó un 7,8 %, hasta 18,4, tras el salto del viernes.\n\nEn fondos, la lectura es mixta: la mediana de renta variable perdió un 0,2 %. Arriba, biotecnología, tecnología, robótica y Asia, que recogen el rebote del lunes. Abajo, muchos fondos de crecimiento estadounidense y de ciberseguridad cuyo valor liquidativo (VL) ==parece recoger todavía, con un día de desfase==, el desplome tecnológico del viernes 16, además de Indonesia y Turquía.",
+ "claves": [
+  "==Los chips cortaron ocho sesiones de caídas== y llevaron al Nasdaq 100 a subir un 1,2 %, pero el Dow Jones quedó plano: rebote técnico, no cambio de tendencia.",
+  "Los disturbios en Francia ==dispararon la rentabilidad de su bono a 10 años== (hacia el 4,9 %) y el diferencial con Alemania (unos 147 pb, máximos de unos 15 años), y hundieron a la banca europea.",
+  "==El IBEX 35 perdió un 1,49 %== y salvó por poco los 19.000 puntos; Italia (−1,6 %) y Alemania (−1,2 %) cayeron aún más.",
+  "La TIR del bono de EE. UU. a 10 años subió 4 pb, al 5,14 %: ==el dinero caro sigue frenando a las tecnológicas==.",
+  "El franco suizo y la libra se revalorizaron frente al euro ==como refugio ante la crisis francesa==.",
+  "Fondos: suben biotecnología, tecnología y Asia; bajan ciberseguridad y crecimiento de EE. UU., ==en parte por valores liquidativos que recogen el viernes==."
+ ],
+ "suben": [
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "+1,17 %",
+   "por_que": "==Rebote de los semiconductores tras ocho sesiones seguidas de caídas== y la peor semana del Nasdaq desde junio; compras de oportunidad antes de la semana fuerte de resultados (Tesla y Meta el miércoles). El avance se moderó al cierre porque la TIR a 10 años siguió por encima del 5 %.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html"
+    },
+    {
+     "t": "TheStreet",
+     "u": "https://www.thestreet.com/stock-market-today/stock-market-today-oct-19-2026-nasdaq-futures-climb-as-tech-rebound-from-sell-off"
+    }
+   ]
+  },
+  {
+   "activo": "S&P 500",
+   "cambio": "+0,41 %",
+   "por_que": "Lo empujó el peso de la tecnología; fuera de ella hubo poco apetito (el Dow Jones cerró en −0,07 %), señal de que ==el mercado lo vio como un rebote de alivio==.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112734828.html"
+    }
+   ]
+  },
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "+1,76 %",
+   "por_que": "Samsung y SK Hynix, que pesan muchísimo en el índice, ==se sumaron al rebote mundial de los chips de memoria== tras las fuertes ventas de la semana anterior (la peor del Kospi desde 2008).",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo WTI",
+   "cambio": "+2,22 %",
+   "por_que": "El crudo estadounidense subió más que el Brent (−0,3 %) ==en la víspera del vencimiento del contrato de noviembre==, cuando los movimientos del primer contrato suelen exagerarse; el fondo sigue siendo la tensión en Ormuz.",
+   "fuentes": [
+    {
+     "t": "Bloomberg",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/latest-oil-market-news-and-analysis-for-oct-20"
+    }
+   ]
+  },
+  {
+   "activo": "Franco suizo y libra frente al euro",
+   "cambio": "+0,38 % / +0,37 %",
+   "por_que": "==La crisis política y fiscal francesa pesa sobre el euro== frente a otras divisas europeas consideradas más seguras; frente al dólar, en cambio, el euro subió un 0,1 %.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/economy/policy/articles/france-streets-start-shaking-bond-155138655.html"
+    }
+   ]
+  },
+  {
+   "activo": "Rentabilidad del bono francés a 10 años (OAT)",
+   "cambio": "+8/10 pb (≈4,9 %)",
+   "por_que": "Los disturbios del fin de semana hacen dudar de que el Gobierno pueda aprobar un presupuesto de 2027 con recorte de déficit; ==los inversores exigen más prima por prestar a Francia==.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/economy/policy/articles/france-streets-start-shaking-bond-155138655.html"
+    },
+    {
+     "t": "Admiral Markets",
+     "u": "https://admiralmarkets.com/analytics/traders-blog/france-riots-stock-market"
+    }
+   ]
+  },
+  {
+   "activo": "Bono EE. UU. 10 años (TIR)",
+   "cambio": "+3,8 pb (5,14 %)",
+   "por_que": "Siguió la presión alcista sobre los tipos largos ante una Reserva Federal (Fed) que, tras subir en septiembre, ==sigue abierta a otra subida en diciembre==.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html"
+    }
+   ]
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "IBEX 35",
+   "cambio": "−1,49 %",
+   "por_que": "==Contagio de la crisis de la deuda francesa==: la banca (Sabadell −2,4 %, BBVA entre los más castigados) sufre cuando sube el riesgo soberano europeo; Indra (−4 %) y Solaria (−4 %) lideraron las caídas. Solo tres valores cerraron en positivo.",
+   "fuentes": [
+    {
+     "t": "EFE (vía Infobae)",
+     "u": "https://www.infobae.com/espana/agencias/2026/10/19/el-ibex-salva-los-19000-puntos-pese-a-caer-un-149-lastrado-por-la-deuda-de-francia/"
+    }
+   ]
+  },
+  {
+   "activo": "FTSE MIB (Italia)",
+   "cambio": "−1,55 %",
+   "por_que": "Índice muy bancario y país con deuda alta: es ==el primero en sufrir cuando el mercado castiga la deuda== de un gran país del euro.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/economy/policy/articles/france-streets-start-shaking-bond-155138655.html"
+    }
+   ]
+  },
+  {
+   "activo": "DAX (Alemania)",
+   "cambio": "−1,18 %",
+   "por_que": "==Venta generalizada de renta variable europea por Francia== y por la guerra con Irán, que mantiene caro el petróleo.",
+   "fuentes": [
+    {
+     "t": "EFE (vía Infobae)",
+     "u": "https://www.infobae.com/espana/agencias/2026/10/19/el-ibex-salva-los-19000-puntos-pese-a-caer-un-149-lastrado-por-la-deuda-de-francia/"
+    }
+   ]
+  },
+  {
+   "activo": "CAC 40 (Francia)",
+   "cambio": "−1,11 %",
+   "por_que": "Disturbios, toques de queda y dudas presupuestarias: ==sube el coste de financiación del país y de sus bancos==.",
+   "fuentes": [
+    {
+     "t": "Admiral Markets",
+     "u": "https://admiralmarkets.com/analytics/traders-blog/france-riots-stock-market"
+    }
+   ]
+  },
+  {
+   "activo": "FTSE 100 (Reino Unido)",
+   "cambio": "−1,08 %",
+   "por_que": "Se sumó a la caída europea pese a su perfil defensivo; sin noticia británica concreta.",
+   "fuentes": [
+    {
+     "t": "EFE (vía Infobae)",
+     "u": "https://www.infobae.com/espana/agencias/2026/10/19/el-ibex-salva-los-19000-puntos-pese-a-caer-un-149-lastrado-por-la-deuda-de-francia/"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "−0,62 %",
+   "por_que": "Japón no acompañó el rebote de los chips coreanos; sin catalizador concreto localizado.",
+   "fuentes": []
+  },
+  {
+   "activo": "VIX (volatilidad del S&P 500)",
+   "cambio": "−7,75 % (18,4)",
+   "por_que": "==El rebote de la tecnología calmó la demanda de coberturas== tras el salto del viernes (+21 %).",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Crisis política y fiscal en Francia",
+   "texto": "Los disturbios del fin de semana (unos 2.400 detenidos, según algunas fuentes) reabren la duda de si Francia podrá recortar su déficit (objetivo del 5 % del PIB en 2027) con una deuda del 119 % del PIB. ==El mercado lo cobra en la deuda==: sube la rentabilidad del OAT y su diferencial con el Bund. Como los bancos europeos tienen mucha deuda pública en balance, ==el castigo se extiende a la banca de toda la zona euro==, incluida la española.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/economy/policy/articles/france-streets-start-shaking-bond-155138655.html"
+    },
+    {
+     "t": "Admiral Markets",
+     "u": "https://admiralmarkets.com/analytics/traders-blog/france-riots-stock-market"
+    },
+    {
+     "t": "EFE (vía Infobae)",
+     "u": "https://www.infobae.com/espana/agencias/2026/10/19/el-ibex-salva-los-19000-puntos-pese-a-caer-un-149-lastrado-por-la-deuda-de-francia/"
+    }
+   ]
+  },
+  {
+   "tema": "Rebote de los semiconductores",
+   "texto": "Tras ocho sesiones seguidas de caídas por las dudas sobre la rentabilidad del gasto en inteligencia artificial (IA) y la competencia de la memoria china, los chips rebotaron con fuerza. Sin embargo, ==la prensa lo describe como un rebote de alivio==: los temores de crédito en la infraestructura de IA y una TIR a 10 años por encima del 5 % siguen ahí.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/19/tech-stocks-rebound-meta-tesla-earnings.html"
+    },
+    {
+     "t": "TheStreet",
+     "u": "https://www.thestreet.com/stock-market-today/stock-market-today-oct-19-2026-nasdaq-futures-climb-as-tech-rebound-from-sell-off"
+    }
+   ]
+  },
+  {
+   "tema": "Irán y el petróleo",
+   "texto": "El Brent se mantuvo cerca de máximos de cinco meses (109,6 $): las amenazas de Irán a los petroleros en Ormuz se compensan con flujos de crudo del Golfo mejores de lo temido. ==Un petróleo caro alimenta la inflación y por tanto la expectativa de tipos altos==.",
+   "fuentes": [
+    {
+     "t": "Bloomberg",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-19/latest-oil-market-news-and-analysis-for-oct-20"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "Los tipos subieron a ambos lados del Atlántico, pero por motivos distintos. En EE. UU. la TIR a 10 años subió 3,8 pb (5,14 %) y la de 2 años 3 pb (4,77 %), devolviendo parte de la caída de casi 15 pb de la semana anterior. El mecanismo es la Reserva Federal (Fed): ==los futuros dan alrededor de un 75 % a una subida en diciembre==, porque ==el IPC y los precios industriales de la semana pasada salieron más altos de lo esperado== y un Brent cerca de 110 $ mantiene alta la inflación esperada. Cuando el mercado espera un tipo oficial más alto, sube el 2 años y arrastra al resto de la curva (30 años +3,6 pb, 5,47 %).\n\nEn Europa lo importante no fue el nivel sino el reparto. La deuda AAA de la zona euro a 10 años (≈ Bund) subió solo 2,5 pb (3,47 %), contagiada por EE. UU., mientras ==el bono francés a 10 años subía entre 8 y 10 pb==. Así ==el diferencial Francia–Alemania llegó a unos 147 pb (Reuters)==, la zona de máximos desde la crisis del euro de 2011-2012, unos 15 años, que ya había tocado el día 5. Es una prima de riesgo político: ==si el Gobierno cede ante la calle, el déficit no baja== y, con una deuda del 119 % del PIB, quien presta a Francia exige más rentabilidad que a Alemania. El Bund apenas hizo de refugio porque los tipos globales subían; España e Italia se movieron mucho menos (prima española en torno a 67 pb).",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "+3 pb (4,77 %)",
+    "por_que": "El tramo más pegado a la Fed: ==el mercado da ~75 % a una subida en diciembre== tras un IPC y unos precios industriales más altos de lo previsto. Rebota tras la bajada de la semana anterior.",
+    "fuentes": [
+     {
+      "t": "Trading Economics",
+      "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/593147"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "+3,8 pb (5,14 %)",
+    "por_que": "Recupera parte de los casi 15 pb que cedió la semana pasada. Al riesgo de más subidas de la Fed se suma ==el petróleo caro, que eleva la inflación esperada==; con el 10 años por encima del 5 % se encarecen las hipotecas y se presiona a las tecnológicas.",
+    "fuentes": [
+     {
+      "t": "Trading Economics",
+      "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/593147"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "+3,6 pb (5,47 %)",
+    "por_que": "Se movió en paralelo al 10 años: sin noticia propia del tramo largo; la prima por plazo (lo que se exige por prestar a muy largo plazo) sigue alta por el déficit federal."
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "+2,3 pb (3,05 %)",
+    "por_que": "Contagio de EE. UU. y del petróleo; el mercado no espera cambios del Banco Central Europeo (BCE) el 29 de octubre, así que el tramo corto apenas se mueve por Francia."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "+2,5 pb (3,47 %)",
+    "por_que": "==No hizo de refugio==: subió con los bonos globales. La tensión francesa se notó en el diferencial, no en el nivel del Bund."
+   },
+   {
+    "bono": "Diferencial Francia–Alemania 10 años",
+    "cambio": "≈ 147 pb (se amplía ~6–8 pb)",
+    "por_que": "==Disturbios con miles de detenidos ponen en duda el presupuesto de 2027==. El OAT subió 8–10 pb hacia el 4,9 % mientras el Bund apenas se movía: es riesgo francés, no subida general de tipos. Nivel en máximos desde 2011-2012.",
+    "fuentes": [
+     {
+      "t": "MNI Market News",
+      "u": "https://marketnews.com/mni-asia-markets-analysis-oat-bund-spread-widest-since-2012"
+     },
+     {
+      "t": "BabyPips (explicación del diferencial OAT–Bund)",
+      "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+     },
+     {
+      "t": "Yahoo Finance",
+      "u": "https://finance.yahoo.com/economy/policy/articles/france-streets-start-shaking-bond-155138655.html"
+     }
+    ]
+   },
+   {
+    "bono": "Prima de riesgo España (10 años frente al Bund)",
+    "cambio": "≈ 67 pb",
+    "por_que": "Contagio limitado: España tiene menos déficit y una prima mucho más baja; el castigo se notó más en la bolsa (banca) que en su deuda.",
+    "fuentes": [
+     {
+      "t": "EFE (vía Infobae)",
+      "u": "https://www.infobae.com/espana/agencias/2026/10/19/el-ibex-salva-los-19000-puntos-pese-a-caer-un-149-lastrado-por-la-deuda-de-francia/"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial del alto rendimiento (high yield) de EE. UU.",
+    "cambio": "−2 pb (3,29 %)",
+    "por_que": "El rebote de la bolsa estadounidense redujo un poco la prima que se exige a la deuda de empresas con peor calificación."
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Trading Economics",
+    "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/593147"
+   },
+   {
+    "t": "MNI Market News",
+    "u": "https://marketnews.com/mni-asia-markets-analysis-oat-bund-spread-widest-since-2012"
+   },
+   {
+    "t": "BabyPips (explicación del diferencial OAT–Bund)",
+    "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+   },
+   {
+    "t": "Yahoo Finance",
+    "u": "https://finance.yahoo.com/economy/policy/articles/france-streets-start-shaking-bond-155138655.html"
+   },
+   {
+    "t": "EFE (vía Infobae)",
+    "u": "https://www.infobae.com/espana/agencias/2026/10/19/el-ibex-salva-los-19000-puntos-pese-a-caer-un-149-lastrado-por-la-deuda-de-francia/"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "Día ligeramente negativo en fondos: mediana de renta variable −0,21 %, renta fija −0,10 % y mixtos −0,10 %. Hay que leer con cuidado este lunes: muchos fondos irlandeses y luxemburgueses calculan su valor liquidativo (VL) con precios anteriores al cierre de Wall Street, de modo que ==su dato del 19 recoge en parte el desplome tecnológico del viernes 16== (Nasdaq 100 −2,5 %) y no el rebote del lunes. ==Por eso conviven fondos tecnológicos en ambas listas.== Arriba destacan biotecnología, tecnología/robótica, energía norteamericana y Asia (rebote coreano). Abajo, ciberseguridad, crecimiento de EE. UU. (Baillie Gifford), algún fondo de biotecnología con VL desfasado (Erste), Indonesia y Turquía. Datos raros: las tres clases de reparto (Inc) del M&G (Lux) Emerging Markets Bond caen entre un 3,6 % y un 4,2 % en un día (la de euros sale en la lista; las de dólares y cubierta, como dudosas): ==casi seguro es el pago de un dividendo, no una pérdida real==.",
+  "suben": [
+   {
+    "isin": "IE00B3XLHR60",
+    "por_que": "Biotecnología de EE. UU. (Amgen, Madrigal, argenx, Insmed): ==subió con el rebote del Nasdaq==. Clase en dólares: +2,30 % en USD y +2,55 % en euros; los cambios oficiales del Banco Central Europeo (BCE) que usa el cálculo dieron un dólar algo más fuerte entre el viernes y el lunes."
+   },
+   {
+    "isin": "ES0111089001",
+    "por_que": "Mixto flexible global (Atmos, disponible en IronIA): no tenemos su cartera, pero ==un +2 % en un día es mucho para un mixto==; apunta a mucha bolsa con sesgo a crecimiento que recoge el rebote tecnológico. Compara con el VL del viernes 16."
+   },
+   {
+    "isin": "IE0004851352",
+    "por_que": "Recursos naturales cubierto a euros: petroleras y mineras ==se apoyan en el crudo cerca de máximos de cinco meses==."
+   },
+   {
+    "isin": "LU0823421689",
+    "por_que": "Tecnología disruptiva (Microsoft, NVIDIA, Alphabet, Amazon, AMD, ASML, TSMC), ≈ 89 % EE. UU. y ≈ 73 % tecnología: ==recoge el rebote de los chips y del Nasdaq 100 (+1,2 %)==. Disponible en Bankinter y ABANCA."
+   },
+   {
+    "isin": "IE00BDB53389",
+    "por_que": "Microcompañías de EE. UU. (clase en euros): las pequeñas también subieron (Russell 2000 +0,3 %) y ==las microcompañías suelen amplificar el movimiento==."
+   },
+   {
+    "isin": "LU2075955273",
+    "por_que": "Innovación de EE. UU. de gran capitalización (Franklin, en IronIA): ==rebote del crecimiento tecnológico del lunes==. Que otros fondos de crecimiento salgan abajo el mismo día se debe a la hora de cálculo del VL, no a carteras opuestas."
+   },
+   {
+    "isin": "LU1536921650",
+    "por_que": "Robótica y automatización (NVIDIA, AMD, TSMC, Teradyne y japonesas como Fanuc o Keyence): ==beneficiario directo del rebote de los semiconductores==."
+   },
+   {
+    "isin": "LU1819480192",
+    "por_que": "Fondo de inteligencia artificial con TSMC, Microsoft, Marvell, NVIDIA y Broadcom entre sus mayores posiciones: ==el rebote de los chips de este lunes==."
+   },
+   {
+    "isin": "LU1804833579",
+    "por_que": "Tecnología asiática cubierta a euros: se apoya en el ==rebote de los chips de memoria coreanos (Kospi +1,8 %)==."
+   },
+   {
+    "isin": "LU1046545502",
+    "por_que": "Energía e infraestructuras energéticas norteamericanas: ==acompañó la subida del crudo estadounidense (WTI +2,2 %)==. Ojo: las posiciones que figuran en holdings.json para este ISIN (contratos a plazo y swaps de tipos) no parecen de este fondo."
+   },
+   {
+    "isin": "LU1057489228",
+    "por_que": "Asia-Pacífico: ==recoge el rebote del Kospi== y de los chips de la región."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU2286300988",
+    "por_que": "Ciberseguridad pura (CrowdStrike, Palo Alto, Cloudflare, Fortinet): su −5,6 % casa con el desplome del sector del viernes 16 (CrowdStrike y Palo Alto cerca de −7 % por una vulnerabilidad explotada en los cortafuegos de Palo Alto y temores a la competencia de la IA); ==muy probablemente el VL del 19 lo recoge con un día de desfase==."
+   },
+   {
+    "isin": "IE00BJ5JS224",
+    "por_que": "Pequeñas compañías globales de crecimiento (Twist Bioscience, Axon, Xometry, Astera Labs): ==muy sensibles a tipos altos==; refleja sobre todo el castigo al crecimiento del viernes."
+   },
+   {
+    "isin": "LU1670631107",
+    "por_que": "Bonos emergentes (México, Sudáfrica, Brasil) en ==clase de reparto: el −3,6 % es casi seguro el pago del dividendo==, como en sus clases hermanas marcadas como dudosas; no es una pérdida real."
+   },
+   {
+    "isin": "AT0000673165",
+    "por_que": "Biotecnología que cae cuando el resto del sector sube: ==su VL va con desfase y recoge el viernes 16== (Nasdaq 100 −2,5 %), no el rebote del lunes. Lo devuelve el día 21 (+3,1 %)."
+   },
+   {
+    "isin": "IE00BK5TWD80",
+    "por_que": "Crecimiento de EE. UU. (NVIDIA, Amazon, Shopify, DoorDash, Cloudflare): ==su caída cuadra con el −2,5 % del Nasdaq 100 del viernes 16==, no con el rebote del lunes."
+   },
+   {
+    "isin": "LU0213961682",
+    "por_que": "Bolsa turca (BIM, Aselsan, Tüpraş, Akbank): sin noticia concreta localizada; ==la lira y el petróleo caro pesan sobre un país importador de energía==."
+   },
+   {
+    "isin": "LU0346391328",
+    "por_que": "Indonesia: la bolsa de Yakarta encadenó ==dos días de desplome (≈ −15 %, el peor desde 1989)== por el temor a que MSCI (proveedor de índices) rebaje el mercado de categoría. Clase en dólares: −2,91 % en USD, −2,67 % en euros."
+   },
+   {
+    "isin": "IE00BJM0B969",
+    "por_que": "Crecimiento global con Leonardo, Safran, Eli Lilly y Seagate: la defensa europea cayó con el mercado y ==el resto recoge la caída tecnológica del viernes==."
+   }
+  ]
+ },
+ "agenda": [
+  {
+   "fecha": "2026-10-21",
+   "evento": "Resultados de Tesla y Meta (tras el cierre)",
+   "por_que_importa": "Primeras «siete magníficas» en publicar: su gasto previsto en IA marcará si el rebote de los chips tiene continuidad."
+  },
+  {
+   "fecha": "2026-10-21",
+   "evento": "IPC (índice de precios de consumo) de septiembre en Reino Unido e intervención de Lagarde (BCE)",
+   "por_que_importa": "Tono de los bancos centrales europeos en plena tensión por la deuda francesa."
+  },
+  {
+   "fecha": "2026-10-23",
+   "evento": "Revisión de la calificación de Francia por Moody's",
+   "por_que_importa": "Una rebaja encarecería aún más la deuda francesa y ampliaría el diferencial con Alemania."
+  },
+  {
+   "fecha": "2026-10-28",
+   "evento": "Reunión de la Reserva Federal (Fed)",
+   "por_que_importa": "El mercado da pocas opciones a una subida en octubre pero descuenta otra en diciembre; con la TIR a 10 años por encima del 5 %, el tono importa mucho."
+  },
+  {
+   "fecha": "2026-10-29",
+   "evento": "Reunión del Banco Central Europeo (BCE)",
+   "por_que_importa": "Cómo trate la tensión en la deuda francesa y el petróleo caro."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: rentabilidad anual que obtiene quien compra hoy un bono y lo mantiene hasta su vencimiento. Sube cuando cae el precio del bono."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+  },
+  {
+   "sigla": "OAT",
+   "def": "Obligations assimilables du Trésor: bonos del Tesoro francés."
+  },
+  {
+   "sigla": "Bund",
+   "def": "Bono del Estado alemán; referencia de activo seguro en la zona euro."
+  },
+  {
+   "sigla": "PIB",
+   "def": "Producto interior bruto: valor de todo lo que produce un país en un año."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal: banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad implícita del S&P 500; sube cuando el mercado compra protección."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio de una participación del fondo, calculado una vez al día."
+  },
+  {
+   "sigla": "MSCI",
+   "def": "Proveedor de índices bursátiles; sus decisiones de clasificar un país como emergente, frontera, etc. mueven flujos de los fondos indexados."
+  },
+  {
+   "sigla": "WTI",
+   "def": "West Texas Intermediate: petróleo de referencia en EE. UU."
+  },
+  {
+   "sigla": "IPC",
+   "def": "Índice de precios de consumo (inflación)."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia. La curva «AAA» del BCE solo incluye la deuda de los países con esa nota (Alemania, Países Bajos…); por eso se usa como aproximación al Bund."
+  },
+  {
+   "sigla": "Prima por plazo",
+   "def": "Rentabilidad extra que se exige por prestar a largo plazo en vez de renovar préstamos a corto; sube con la incertidumbre sobre inflación y déficit."
+  },
+  {
+   "sigla": "Diferencial (spread)",
+   "def": "Diferencia de rentabilidad entre dos bonos, p. ej. el francés y el alemán a 10 años; mide la prima de riesgo de un país."
+  },
+  {
+   "sigla": "High yield",
+   "def": "Alto rendimiento: deuda de empresas con calificación por debajo de grado de inversión."
+  }
+ ],
+ "generado": "2026-10-23T11:00"
+}

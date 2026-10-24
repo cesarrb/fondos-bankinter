@@ -1,0 +1,543 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-06",
+  "fase": "completo",
+  "titulo": "Récord del S&P 500 al dar tregua el bono; Brasil consolida su euforia electoral",
+  "resumen": "Día de alivio tras el castigo de la víspera, cuando la TIR (tasa interna de rentabilidad) del bono de EE. UU. a 10 años había cerrado en el 5,31 %, su nivel más alto en 24 años. ==Las rentabilidades cedieron en toda la curva== (2 años −5 puntos básicos, pb, hasta el 4,79 %; 10 años −4 pb, al 5,27 %) y la volatilidad de los bonos (índice MOVE) se desinfló un 7,4 %. Con el coste del dinero algo menos asfixiante y la expectativa de un tercer trimestre seguido de beneficios creciendo más de un 25 %, el S&P 500 subió un 0,6 % hasta 7.819 puntos, ==su primer cierre por encima de 7.800 y récord histórico==; el Nasdaq 100 ganó un 0,5 % y el Dow Jones otro 0,5 %. Las pequeñas compañías (Russell 2000, −0,6 %) no acompañaron: ==dependen más del crédito y el alivio en tipos fue pequeño==.\n\nEl protagonista empresarial fue la energía para la inteligencia artificial (IA): ==Constellation Energy se disparó cerca de un 13 %== tras firmar con Google un contrato de suministro a largo plazo ligado a su parque nuclear, lo que arrastró a otras eléctricas y al uranio (ETF URA +4 %). También subieron Marvell (+5,8 %, mejora de previsiones) y Lamb Weston (+9/11 %, resultados), y Option Care Health se revalorizó un 33 % por una oferta de compra. El petróleo llegó a caer un 2 % por debajo de 99 $ en la sesión, lo que alimentó la bajada de rentabilidades ==al rebajar el riesgo de inflación==, pero recuperó al cierre (Brent +0,3 %, 100,6 $).\n\nEuropa subió de forma generalizada (Euro Stoxx 50 +0,5 %, DAX +0,8 %, IBEX 35 +0,75 %, FTSE MIB +0,9 %), aunque ==sus bonos no acompañaron al estadounidense==: el Bund apenas se movió (+2 pb) y el 2 años de la zona euro rebotó 5,5 pb tras haber caído más de 20 pb la semana anterior; la prensa sigue hablando de nerviosismo por la deuda y los presupuestos, con Francia en el centro (su bono a 10 años había rozado el 5 % el día 2). En Asia, Japón (+1,1 %) y Hong Kong (+1 %) subieron, mientras Corea (−0,9 %) cedió por ventas de inversores extranjeros. Brasil consolidó, con una leve recogida de beneficios (Bovespa −0,5 % en nuestro dato), el salto del 7,7 % del lunes tras la primera vuelta electoral, y Morgan Stanley elevó su recomendación sobre la bolsa brasileña.\n\nEn divisas, el dólar se debilitó (DXY −0,3 %). El oro subió un 0,7 % (4.187 $) ==apoyado en la bajada de rentabilidades reales==, y el gas europeo (TTF) se encareció un 3 % por la tensión en el Golfo y la llegada de la demanda de calefacción. Bitcoin, plano. En fondos fue un día de subidas moderadas (mediana de renta variable +0,37 %, renta fija +0,23 %), con dos notas: los fondos latinoamericanos que encabezan la lista ==recogen en realidad el salto del lunes== y la salud tecnológica y la biotecnología fueron las grandes perdedoras.",
+  "claves": [
+    "El S&P 500 cerró en récord (7.819, +0,6 %) ==gracias a la tregua del bono a 10 años de EE. UU.== (−4 pb, 5,27 %) tras tocar máximos de 24 años el lunes.",
+    "Constellation Energy (+13 %) y el uranio (+4 %) celebraron un contrato nuclear con Google: ==la demanda eléctrica de la IA sigue siendo un motor bursátil==.",
+    "Europa subió en bloque (DAX +0,8 %, IBEX +0,75 %), ==pero sus bonos no se relajaron==: el 2 años de la zona euro rebotó 5,5 pb.",
+    "Brasil digiere el vuelco electoral: tras el +7,7 % del lunes, el Bovespa hizo una pausa (−0,5 %) y los fondos latinoamericanos lideran el ranking porque su VL ==recoge con retraso el salto del lunes==.",
+    "Los fondos de ==salud digital, biotecnología y pequeñas compañías de EE. UU.== fueron los más castigados (−2 % a −3,7 %)."
+  ],
+  "suben": [
+    {
+      "activo": "S&P 500",
+      "cambio": "+0,58 %",
+      "por_que": "Primer cierre por encima de 7.800 y récord histórico. Ayudaron ==la caída de las rentabilidades del bono== (menor tipo de descuento para valorar beneficios futuros) y la expectativa de otro trimestre de beneficios con crecimientos superiores al 25 %; Constellation Energy, Marvell y Lamb Weston lideraron.",
+      "fuentes": [
+        {
+          "t": "AP vía La Nación (cierres del 6-oct)",
+          "u": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-1062026-nid06102026/"
+        },
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        },
+        {
+          "t": "Thrive in Markets (resumen 6-oct)",
+          "u": "https://thriveinmarkets.com/market-insights/evening-review-2026-10-06/"
+        }
+      ]
+    },
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "+1,05 %",
+      "por_que": "==Siguió la estela alcista de Wall Street== y de los valores ligados a la IA; sin noticia local concreta.",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        }
+      ]
+    },
+    {
+      "activo": "Hang Seng (Hong Kong)",
+      "cambio": "+1,00 %",
+      "por_que": "Hong Kong cotizó sin la China continental (cerrada por la Semana Dorada) y se apuntó al tono positivo global con ==petróleo y rentabilidades más bajos==.",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        },
+        {
+          "t": "investingLive (calendario Asia 8-oct)",
+          "u": "https://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-october-8-2026-chinese-markets-reopen/"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE MIB (Italia) / DAX (Alemania)",
+      "cambio": "+0,87 % / +0,77 %",
+      "por_que": "Tercera sesión de rebote en Europa tras los mínimos de casi cuatro meses de la semana anterior; la banca italiana subió con moderación. ==Rebote técnico apoyado en el menor precio del crudo== durante la mañana.",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        },
+        {
+          "t": "Yahoo Finance (Europa 7-oct)",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/european-stocks-fall-oil-prices-183328012.html"
+        }
+      ]
+    },
+    {
+      "activo": "IBEX 35 (España)",
+      "cambio": "+0,75 %",
+      "por_que": "==Se movió con Europa==; la exposición de grandes valores españoles a Latinoamérica sigue favorecida por el giro brasileño. Sin noticia local destacada.",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        },
+        {
+          "t": "Trading Economics (Ibovespa 6-oct)",
+          "u": "https://tradingeconomics.com/brazil/stock-market/news/589894"
+        }
+      ]
+    },
+    {
+      "activo": "Uranio (ETF URA)",
+      "cambio": "+4,0 %",
+      "por_que": "El contrato de suministro nuclear a largo plazo entre Constellation y Google refuerza la tesis de que ==la IA necesitará más electricidad de base nuclear==, lo que beneficia a productores y mineras de uranio (relación inferida: no hemos localizado noticia específica del uranio).",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        },
+        {
+          "t": "Thrive in Markets (resumen 6-oct)",
+          "u": "https://thriveinmarkets.com/market-insights/evening-review-2026-10-06/"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+2,96 %",
+      "por_que": "==La prima de riesgo por los ataques a la navegación== y a infraestructuras en el Golfo se suma al inicio de la temporada de calefacción en Europa.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance UK (Europa 8-oct)",
+          "u": "https://uk.finance.yahoo.com/news/european-stocks-fall-four-month-092256851.html"
+        }
+      ]
+    },
+    {
+      "activo": "Oro",
+      "cambio": "+0,73 %",
+      "por_que": "Bajada de las rentabilidades y del dólar: ==el oro no paga intereses==, así que se vuelve más atractivo cuando el bono rinde menos.",
+      "fuentes": [
+        {
+          "t": "Thrive in Markets (resumen 6-oct)",
+          "u": "https://thriveinmarkets.com/market-insights/evening-review-2026-10-06/"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Bono EE. UU. 2 años (TIR)",
+      "cambio": "−5 pb (4,79 %)",
+      "por_que": "Bajada de rentabilidad (subida de precio): ==el abaratamiento intradía del crudo rebajó el temor a inflación== y a más subidas de la Fed; el 10 años cayó 4 pb, al 5,27 %, desde máximos de 24 años.",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        },
+        {
+          "t": "Thrive in Markets (resumen 6-oct)",
+          "u": "https://thriveinmarkets.com/market-insights/evening-review-2026-10-06/"
+        }
+      ]
+    },
+    {
+      "activo": "MOVE (volatilidad de bonos)",
+      "cambio": "−7,4 %",
+      "por_que": "Tras el pico de tensión del lunes, ==el mercado de bonos se calmó==; menos volatilidad en tipos suele dar oxígeno a las bolsas.",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        }
+      ]
+    },
+    {
+      "activo": "Russell 2000 (pequeñas EE. UU.)",
+      "cambio": "−0,59 %",
+      "por_que": "Las grandes compañías marcaron récords mientras las pequeñas se quedaron atrás: ==dependen más de la financiación a tipo variable== y el alivio en tipos fue limitado.",
+      "fuentes": [
+        {
+          "t": "Thrive in Markets (resumen 6-oct)",
+          "u": "https://thriveinmarkets.com/market-insights/evening-review-2026-10-06/"
+        },
+        {
+          "t": "AP vía La Nación (cierres del 6-oct)",
+          "u": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-1062026-nid06102026/"
+        }
+      ]
+    },
+    {
+      "activo": "Kospi (Corea)",
+      "cambio": "−0,89 %",
+      "por_que": "==Ventas de inversores extranjeros== (cerca de 1,7 billones de wones, según la prensa coreana) que devolvieron al índice por debajo de 7.000 puntos, en contraste con el resto de Asia.",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        }
+      ]
+    },
+    {
+      "activo": "MSCI Emergentes (ETF EEM)",
+      "cambio": "−0,67 %",
+      "por_que": "==Pesaron Corea y la pausa de Brasil==; el ETF cotiza en Nueva York y recoge también el tramo final de la sesión.",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        },
+        {
+          "t": "Trading Economics (Ibovespa 6-oct)",
+          "u": "https://tradingeconomics.com/brazil/stock-market/news/589894"
+        }
+      ]
+    },
+    {
+      "activo": "Bovespa (Brasil)",
+      "cambio": "−0,52 %",
+      "por_que": "Pausa tras el +7,7 % del lunes (mayor subida diaria en más de seis años) por la ventaja de Flávio Bolsonaro en la primera vuelta. Durante la sesión llegó a subir cerca de un 0,5 % con mejoras de recomendación de Morgan Stanley; ==el cierre reflejó recogida de beneficios==.",
+      "fuentes": [
+        {
+          "t": "Trading Economics (Ibovespa 6-oct)",
+          "u": "https://tradingeconomics.com/brazil/stock-market/news/589894"
+        },
+        {
+          "t": "Trading Economics (Ibovespa tras la elección)",
+          "u": "https://tradingeconomics.com/brazil/stock-market/news/589584"
+        }
+      ]
+    },
+    {
+      "activo": "VIX (volatilidad S&P 500)",
+      "cambio": "−3,3 %",
+      "por_que": "Bolsa en máximos y menos tensión en los bonos ==reducen la demanda de coberturas==.",
+      "fuentes": [
+        {
+          "t": "AP vía La Nación (cierres del 6-oct)",
+          "u": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-1062026-nid06102026/"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Tregua en los bonos de EE. UU.",
+      "texto": "Tras cerrar el lunes en el 5,31 % (máximo en 24 años), el 10 años bajó al 5,27 %. El mecanismo: ==un crudo más barato durante la sesión reduce la inflación esperada== y, con ella, el riesgo de nuevas subidas de la Reserva Federal (Fed), que subió tipos en septiembre. Rentabilidades más bajas abaratan el descuento de los beneficios futuros y sostienen a las bolsas, sobre todo a las grandes tecnológicas.",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        },
+        {
+          "t": "Thrive in Markets (resumen 6-oct)",
+          "u": "https://thriveinmarkets.com/market-insights/evening-review-2026-10-06/"
+        }
+      ]
+    },
+    {
+      "tema": "Electricidad para la inteligencia artificial (IA)",
+      "texto": "El contrato de Constellation con Google, ligado a capacidad nuclear, ==vuelve a poner precio a la escasez de electricidad para centros de datos==: suben eléctricas con generación nuclear (Constellation, Vistra, Talen) y el uranio.",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        },
+        {
+          "t": "Thrive in Markets (resumen 6-oct)",
+          "u": "https://thriveinmarkets.com/market-insights/evening-review-2026-10-06/"
+        }
+      ]
+    },
+    {
+      "tema": "Brasil tras la primera vuelta",
+      "texto": "Flávio Bolsonaro (47 %) superó a Lula (45 %) contra lo que decían las encuestas. El mercado lo interpreta como ==un futuro gobierno más austero==, lo que bajó la rentabilidad del bono brasileño por debajo del 13 % y disparó a la banca. La segunda vuelta mantiene la incertidumbre.",
+      "fuentes": [
+        {
+          "t": "Trading Economics (Ibovespa tras la elección)",
+          "u": "https://tradingeconomics.com/brazil/stock-market/news/589584"
+        },
+        {
+          "t": "Trading Economics (Ibovespa 6-oct)",
+          "u": "https://tradingeconomics.com/brazil/stock-market/news/589894"
+        }
+      ]
+    },
+    {
+      "tema": "Deuda europea y Francia",
+      "texto": "Las bolsas europeas suben, pero ==los bonos siguen bajo presión por el déficit y el debate presupuestario==, con Francia como foco (su 10 años rozó el 5 % el 2 de octubre). El día 6 hubo cierto respiro: ==la OAT francesa bajó al 4,75 %== y su diferencial con Alemania se estrechó. Aun así, el 2 años de la zona euro rebotó 5,5 pb sin una causa clara en la prensa.",
+      "fuentes": [
+        {
+          "t": "AP vía Spectrum News",
+          "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+        },
+        {
+          "t": "Trading Economics (bono francés)",
+          "u": "https://tradingeconomics.com/france/government-bond-yield/news/589189"
+        },
+        {
+          "t": "Trading Economics (OAT 6-oct)",
+          "u": "https://tradingeconomics.com/france/government-bond-yield/news/589851"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "Respiro en EE. UU. tras el máximo de 24 años del lunes. El 2 años bajó 5 pb (4,79 %) y el 10 años 4,2 pb (5,27 %): ==el petróleo cayó durante la sesión== al ver que algunos petroleros cruzaban el estrecho de Ormuz, y eso rebaja la inflación esperada y el riesgo de otra subida de la Fed. El tramo corto bajó más, de nuevo por expectativas de Fed. El fondo no cambia: el 10 años acumula más de 110 pb de subida en el año por ==déficit creciente y más emisión de deuda==; la Oficina Presupuestaria del Congreso (CBO) proyecta que la deuda neta pase del 101 % al 175 % del PIB en 2056.\n\nEn la zona euro la mañana fue de alivio: el Bund bajó al 3,45 % y el mercado ==rebajó las subidas que espera del BCE== (un 80 % de probabilidad de una más este año, cuando antes descontaba al menos tres hasta marzo de 2027), tras decir Lane que los tipos altos ya frenan la demanda. Francia se relajó: su bono a 10 años bajó al 4,75 %, desde el 5 % de la semana anterior, y el diferencial con Alemania se estrechó el día en que el Gobierno presentaba el presupuesto de 2027. Aun así, la curva AAA del BCE al cierre marca +1,7 pb en el 10 años (3,52 %) y +5,5 pb en el 2 años (3,05 %). ==La prensa no explica ese giro de la tarde==; parece un rebote técnico tras bajar más de 20 pb desde el 28 de septiembre.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "−5,0 pb (4,79 %)",
+        "por_que": "==Crudo más barato en la sesión = menos inflación esperada== y menos riesgo de otra subida de la Fed, que es lo que mueve el tramo corto.",
+        "fuentes": [
+          {
+            "t": "AP",
+            "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−4,2 pb (5,27 %)",
+        "por_que": "Pausa tras el 5,33 % del lunes. Bajó menos que el 2 años porque ==el déficit y la emisión de deuda sostienen la prima por plazo==.",
+        "fuentes": [
+          {
+            "t": "Trading Economics",
+            "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/589866"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "+1,7 pb (3,52 %) al cierre del BCE",
+        "por_que": "Por la mañana bajó (Bund 3,45 %) con menos subidas del BCE descontadas; ==al cierre devolvió la bajada, sin causa clara en prensa==.",
+        "fuentes": [
+          {
+            "t": "Trading Economics",
+            "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589838"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "+5,5 pb (3,05 %)",
+        "por_que": "Rebote tras caer más de 20 pb en una semana. Choca con la menor probabilidad de subidas del BCE: ==dato a vigilar==."
+      },
+      {
+        "bono": "Diferencial Francia–Alemania (10 años)",
+        "cambio": "Se estrecha (OAT 4,75 %, desde ≈ 5 %)",
+        "por_que": "Los inversores ven ==exagerado el salto de la prima francesa==; ese día Francia presentaba el presupuesto de 2027.",
+        "fuentes": [
+          {
+            "t": "Trading Economics (OAT)",
+            "u": "https://tradingeconomics.com/france/government-bond-yield/news/589851"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "−9 pb (3,03 %)",
+        "por_que": "Bolsa en récord y tipos algo más bajos: ==menos prima por la deuda de empresas endeudadas==."
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Trading Economics (bono EE. UU., 6-oct)",
+        "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/589866"
+      },
+      {
+        "t": "Trading Economics (Bund y BCE, 6-oct)",
+        "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589838"
+      },
+      {
+        "t": "Trading Economics (OAT, 6-oct)",
+        "u": "https://tradingeconomics.com/france/government-bond-yield/news/589851"
+      },
+      {
+        "t": "AP",
+        "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Jornada de subidas moderadas: mediana de la renta variable +0,37 %, renta fija +0,23 % (alivio en tipos) y mixtos +0,24 %. Encabezan dos fondos latinoamericanos (Schroder +3,6 %, Nordea +2,9 %) y dos de emergentes globales, aunque el Bovespa cedió un 0,5 % y el ETF de emergentes un 0,7 % ese día: ==su VL recoge con un día de retraso el salto brasileño del lunes== (el día 5 subieron bastante menos que sus pares). Fuera de eso ganaron los semiconductores, las renovables y Japón; ==perdieron la salud digital, la biotecnología y las pequeñas de EE. UU.== En las clases en dólares, el euro se apreció un 0,6 % en el fijo del BCE, lo que restó rentabilidad en euros (ver UBS Biotech).",
+    "suben": [
+      {
+        "isin": "LU0248181363",
+        "por_que": "+3,6 % en un día en que el Bovespa cedió un 0,5 %: ==su VL recoge con retraso el salto electoral del lunes==. El día 5 solo marcó +7,9 %, frente al +12–14 % de sus pares; sumando los dos días, cuadra. Cartera: Petrobras, Itaú, Banorte, Nu y Vale."
+      },
+      {
+        "isin": "LU0309468808",
+        "por_que": "+2,9 % en un solo día pese a que el Bovespa cedió un 0,5 %: igual que Schroder, ==su VL valora con retraso y recoge parte del salto del día 5== (ese día marcó +9,0 %, menos que sus pares)."
+      },
+      {
+        "isin": "DE0009773010",
+        "por_que": "Emergentes globales (IronIA), clase de reparto: +2,5 % con el ETF de emergentes a −0,7 %. ==Probable VL con un día de retraso== que recoge el lunes (Brasil +7,7 %, Taiwán +2,6 %). No tenemos su cartera."
+      },
+      {
+        "isin": "AT0000745872",
+        "por_que": "Emergentes globales (IronIA): +2,3 %, mismo patrón que el DWS Global Emerging Markets: ==recoge el lunes de Brasil y Taiwán==, no el martes. No tenemos su cartera."
+      },
+      {
+        "isin": "LU1861216510",
+        "por_que": "+2,2 %: cartera de semiconductores y hardware de IA (Lumentum, NVIDIA, Micron); ==Marvell subió un 5,8 % al mejorar previsiones== y el Nasdaq 100 marcó máximos. Clase cubierta a euros, sin efecto divisa."
+      },
+      {
+        "isin": "LU1217870911",
+        "por_que": "+2,0 %: bolsa japonesa (Nikkei +1,05 %) con divisa cubierta; las pequeñas y medianas del fondo amplificaron la subida."
+      },
+      {
+        "isin": "LU1822773807",
+        "por_que": "+2,0 %: eléctricas y renovables (NextEra, National Grid, First Solar) se beneficiaron de la bajada de tipos y del tirón de la generación eléctrica para centros de datos tras el acuerdo Constellation–Google."
+      },
+      {
+        "isin": "IE00BJ5JS224",
+        "por_que": "+2,0 % pese a la caída de las pequeñas de EE. UU. (Russell 2000 −0,6 %). Sin noticia concreta; su cartera mezcla ==chips para IA (Astera Labs, Aspeed), en un buen día para Marvell==, con MercadoLibre (Brasil) y biotecnología (Twist, Alnylam). Clase en euros sin cubrir: la subida del euro le restó algo."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU1811048138",
+        "por_que": "−3,7 % tras +3,5 % el día anterior: salud digital y tecnología médica de EE. UU. (DexCom, Veeva, Natera, 10x Genomics). Sin noticia concreta localizada; parece recogida de beneficios en un segmento de crecimiento muy volátil."
+      },
+      {
+        "isin": "LU0069152568",
+        "por_que": "Biotecnología: −2,4 % en dólares y −3,0 % en euros. ==La diferencia es efecto divisa==: el euro subió un 0,6 % frente al dólar en el fijo del BCE."
+      },
+      {
+        "isin": "LU1339879832",
+        "por_que": "−2,6 %: pequeñas compañías de crecimiento de EE. UU.; el Russell 2000 cayó un 0,6 % y ==este estilo amplifica las caídas==."
+      },
+      {
+        "isin": "LU1861559471",
+        "por_que": "−2,6 %: tecnología disruptiva de pequeña capitalización (estilo ARK), muy sensible al mal día de las pequeñas compañías."
+      },
+      {
+        "isin": "LU1854458871",
+        "por_que": "−1,8 % en dólares y −2,4 % en euros: Asia ex-Japón con Corea (Kospi −0,9 %) como lastre; el resto es efecto divisa por la subida del euro."
+      },
+      {
+        "isin": "IE00BDB53389",
+        "por_que": "−2,3 %: microcompañías de EE. UU.; las pequeñas se quedaron fuera del récord de las grandes."
+      },
+      {
+        "isin": "IE00BH3Z9Y78",
+        "por_que": "−2,25 %: pequeñas compañías de crecimiento de EE. UU. (Russell 2000 −0,6 %)."
+      },
+      {
+        "isin": "LU2441282899",
+        "por_que": "−2,2 %: biotecnología de EE. UU. (Revolution Medicines, Praxis, BridgeBio, argenx). ==Venta en salud y biotecnología==, como en UBS Biotech. Clase en euros sin cubrir: parte de la caída es el euro más fuerte (+0,6 %)."
+      },
+      {
+        "isin": "NO0013528356",
+        "por_que": "−1,8 %: defensa europea; sin noticia concreta localizada, probable recogida de beneficios en un sector muy revalorizado en el año."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-07",
+      "evento": "Actas de la reunión de septiembre de la Fed (FOMC) y subasta de bonos a 10 años de EE. UU. (39.000 M$)",
+      "por_que_importa": "Dirán cuántos miembros ven otra subida de tipos este año; con el 10 años cerca del 5,3 %, una subasta floja podría volver a tensionar las rentabilidades."
+    },
+    {
+      "fecha": "2026-10-08",
+      "evento": "Reapertura de la bolsa de China continental tras la Semana Dorada; subasta de bonos a 30 años de EE. UU.; resultados de PepsiCo",
+      "por_que_importa": "China vuelve a cotizar con una semana de noticias por digerir; la subasta a 30 años mide el apetito por el plazo largo."
+    },
+    {
+      "fecha": "2026-10-09",
+      "evento": "Resultados de Delta Air Lines",
+      "por_que_importa": "Abre la temporada de resultados del tercer trimestre y mostrará el impacto del queroseno caro."
+    },
+    {
+      "fecha": "2026-10-14",
+      "evento": "Inflación (IPC) de septiembre en EE. UU.",
+      "por_que_importa": "Dato clave antes de la reunión de la Fed del 27–28 de octubre."
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "Segunda vuelta de las elecciones presidenciales en Brasil",
+      "por_que_importa": "El mercado ya descuenta en parte una victoria de Flávio Bolsonaro; un resultado distinto podría deshacer el rally."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene a vencimiento. Sube cuando cae su precio, y viceversa."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500; sube cuando el mercado paga más por protegerse de caídas."
+    },
+    {
+      "sigla": "MOVE",
+      "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU. (el «VIX de los bonos»)."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis divisas (el euro pesa más de la mitad)."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: el precio diario de una participación de un fondo."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos), en €/MWh."
+    },
+    {
+      "sigla": "WTI",
+      "def": "West Texas Intermediate: petróleo de referencia en EE. UU.; el Brent es la referencia europea e internacional."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Fondo cotizado en bolsa (exchange-traded fund)."
+    },
+    {
+      "sigla": "high yield",
+      "def": "Bonos de empresas con calificación inferior a «grado de inversión»; su diferencial es lo que pagan por encima de la deuda pública."
+    },
+    {
+      "sigla": "FOMC",
+      "def": "Comité Federal de Mercado Abierto: el órgano de la Fed que decide los tipos de interés."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán, referencia de la deuda de la zona euro."
+    },
+    {
+      "sigla": "IPC",
+      "def": "Índice de precios de consumo (inflación)."
+    },
+    {
+      "sigla": "OAT",
+      "def": "Obligations Assimilables du Trésor: bono del Estado francés."
+    },
+    {
+      "sigla": "CBO",
+      "def": "Congressional Budget Office: Oficina Presupuestaria del Congreso de EE. UU."
+    },
+    {
+      "sigla": "Prima por plazo",
+      "def": "Rentabilidad extra que se exige por prestar a largo plazo (riesgo de inflación y de oferta de deuda), aparte de lo que se espera de los tipos oficiales."
+    }
+  ],
+  "generado": "2026-10-23T14:30"
+}

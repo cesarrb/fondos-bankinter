@@ -1,0 +1,456 @@
+{
+ "periodo": "diario",
+ "clave": "2026-10-20",
+ "fase": "completo",
+ "titulo": "Wall Street rota hacia pequeñas y sanidad; Asia vuelve a castigar los chips",
+ "resumen": "En EE. UU. el protagonista no fue la tecnología sino la rotación. El Russell 2000 de pequeñas compañías subió un 1,65 %, su mejor día desde agosto, y el Dow Jones un 1,0 %, mientras el Nasdaq 100 cedía un 0,1 % y el S&P 500 avanzaba un 0,3 % (la versión equiponderada, más de un 1 %). Sanidad lideró los sectores, seguida de inmobiliario y eléctricas; la tecnología fue la peor. El mecanismo: unos ==datos de vivienda flojos (baja confianza de los constructores) bajaron los tipos a largo plazo== (TIR, tasa interna de rentabilidad, del bono a 10 años −2 puntos básicos, pb, al 5,12 %; a 30 años −5 pb), y eso ==alivia sobre todo a las empresas pequeñas, más endeudadas y a tipo variable==, y a los sectores sensibles a tipos. El bono a 2 años, en cambio, subió 2 pb: el mercado sigue esperando que la Reserva Federal (Fed) suba tipos en diciembre, ==así que la curva se aplanó==.\n\nAsia vivió otra jornada de castigo a los chips: el Kospi coreano cayó un 3,7 % (hasta 5.553), con Samsung y SK Hynix de nuevo a la baja ==por las dudas sobre si el gasto en inteligencia artificial (IA) será rentable==; Taiwán perdió un 1,1 %, el Nikkei un 1,3 % y Hong Kong un 1,3 %. En China pesó que el crecimiento del tercer trimestre (4,5 %) y unos tipos de referencia sin cambios por 17.º mes reduzcan la urgencia de nuevos estímulos. La excepción fue Indonesia: su bolsa rebotó con fuerza (en torno a +5 %/+6 % según la fuente) después de que ==las autoridades tomaran medidas para evitar una rebaja de categoría por parte de MSCI==, tras dos días de hundimiento. Brasil (+1,6 %) también subió.\n\nEuropa quedó prácticamente plana (Stoxx 600 −0,1 %, Euro Stoxx 50 −0,4 %, CAC 40 −0,4 %) en un día de tensión todavía alta en Francia, con toques de queda nocturnos en París y Niza y un diferencial del bono francés frente al alemán que, según J.P. Morgan, ==superó los 150 pb (cerró en torno a 153 tras tocar 157)==, el máximo desde 2012. El IBEX 35 se dio la vuelta y subió un 0,28 % (19.092) apoyado en la bajada del petróleo, y el SMI suizo (+0,8 %), muy cargado de farmacéuticas, se benefició del mismo tirón de la sanidad. ==La deuda alemana actuó de refugio==: la TIR de la deuda AAA de la zona euro a 10 años cayó 3 pb.\n\nEl Brent bajó un 0,7 % (108,8 $) ==por la esperanza de diplomacia entre EE. UU. e Irán==, pese a que la Guardia Revolucionaria aseguró que dos petroleros chocaron con minas en Ormuz (sin confirmación independiente). El gas europeo TTF cayó un 3,4 %. La volatilidad siguió bajando (VIX −6 %, 17,3) y el bitcoin subió un 1,3 %. En fondos, la mediana de renta variable perdió un 0,1 %, pero con una clara división: biotecnología, salud, Turquía y Brasil arriba; Corea, Taiwán y las pequeñas compañías japonesas abajo.",
+ "claves": [
+  "Rotación en Wall Street: ==Russell 2000 +1,65 % (mejor día desde agosto)== y Dow Jones +1,0 %, con la tecnología como peor sector.",
+  "Sanidad lideró en EE. UU. y Europa (SMI suizo +0,8 %), y ==los fondos de biotecnología coparon las subidas==.",
+  "El Kospi cayó un 3,7 % y Taiwán un 1,1 % ==por las dudas sobre la rentabilidad de la IA==; Indonesia rebotó con fuerza tras medidas frente a la amenaza de MSCI.",
+  "El diferencial del bono francés frente al alemán ==superó los 150 pb, máximo desde 2012==, pero el IBEX 35 cerró en positivo (+0,28 %).",
+  "Los tipos largos de EE. UU. bajaron y los cortos subieron: ==el mercado sigue esperando una subida de la Fed en diciembre==.",
+  "El Brent cedió un 0,7 % ==por las esperanzas de diplomacia con Irán==, pese a nuevas denuncias de minas en Ormuz."
+ ],
+ "suben": [
+  {
+   "activo": "Russell 2000 (pequeñas EE. UU.)",
+   "cambio": "+1,65 %",
+   "por_que": "Las pequeñas compañías dependen más de la financiación bancaria y a tipo variable: ==la bajada de los tipos largos tras datos de vivienda flojos== les da un alivio directo. Además, rotación de dinero desde las grandes tecnológicas; antes del rebote el ETF del índice había sufrido salidas de unos 1.100 millones de dólares.",
+   "fuentes": [
+    {
+     "t": "IBTimes",
+     "u": "https://www.ibtimes.com.au/small-cap-stocks-rally-treasury-yields-fall-1877128"
+    }
+   ]
+  },
+  {
+   "activo": "Dow Jones",
+   "cambio": "+1,02 %",
+   "por_que": "Índice con más peso de sanidad, industria y consumo que de tecnología: ==fue el gran beneficiado de la rotación sectorial==.",
+   "fuentes": [
+    {
+     "t": "IBTimes",
+     "u": "https://www.ibtimes.com.au/small-cap-stocks-rally-treasury-yields-fall-1877128"
+    }
+   ]
+  },
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "+1,57 %",
+   "por_que": "Se apuntó a la búsqueda de alternativas a la tecnología y a ==la bajada de los tipos largos de EE. UU.==; sin noticia local concreta localizada.",
+   "fuentes": []
+  },
+  {
+   "activo": "SMI (Suiza)",
+   "cambio": "+0,76 %",
+   "por_que": "Índice dominado por farmacéuticas y consumo defensivo (Roche, Novartis, Nestlé): ==el tirón mundial de la sanidad== lo puso por delante de Europa.",
+   "fuentes": [
+    {
+     "t": "Axios",
+     "u": "https://www.axios.com/2026/10/19/health-care-stocks-midterms"
+    }
+   ]
+  },
+  {
+   "activo": "IBEX 35",
+   "cambio": "+0,28 %",
+   "por_que": "Se dio la vuelta tras abrir por debajo de 19.000 ==apoyado en la caída del petróleo== y un cierto alivio en la deuda francesa a lo largo de la sesión.",
+   "fuentes": [
+    {
+     "t": "El Boletín",
+     "u": "https://www.elboletin.com/el-ibex-35-sube-un-033-al-cierre-y-recupera-los-19-100-puntos/"
+    },
+    {
+     "t": "Bolsamanía",
+     "u": "https://www.bolsamania.com/noticias/mercados-ultima-hora/el-ibex-35-cierra-con-subidas-del-028-hasta-1909240-puntos--23892988.html"
+    }
+   ]
+  },
+  {
+   "activo": "Plata",
+   "cambio": "+1,28 %",
+   "por_que": "Rebote técnico; el oro, en cambio, cedió un 0,4 %. Sin noticia concreta.",
+   "fuentes": []
+  },
+  {
+   "activo": "Bitcoin",
+   "cambio": "+1,33 %",
+   "por_que": "Recuperación del apetito por el riesgo fuera de las grandes tecnológicas.",
+   "fuentes": []
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "−3,73 %",
+   "por_que": "Nueva ola de ventas en Samsung y SK Hynix ==por las dudas sobre la rentabilidad del gasto en IA==, después del rebote del lunes: el índice cerró en 5.553, mínimo de seis meses, ligeramente por debajo incluso del desplome del día 15.",
+   "fuentes": [
+    {
+     "t": "Business Today",
+     "u": "https://www.businesstoday.com.my/2026/10/21/kospi-rebounds-3-after-six-month-low-as-samsung-sk-hynix-rally/"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "−1,30 %",
+   "por_que": "==Contagio de las ventas en tecnología asiática==; las pequeñas compañías japonesas cayeron aún más (ver fondos).",
+   "fuentes": []
+  },
+  {
+   "activo": "Hang Seng (Hong Kong)",
+   "cambio": "−1,32 %",
+   "por_que": "Un PIB (producto interior bruto) chino del 4,5 % en el tercer trimestre y tipos de referencia sin cambios ==reducen las apuestas por nuevos estímulos de Pekín==.",
+   "fuentes": [
+    {
+     "t": "Business Recorder (Reuters)",
+     "u": "https://www.brecorder.com/news/40445198/china-hk-shares-weaken-as-stable-growth-eases-stimulus-bets"
+    }
+   ]
+  },
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "−1,13 %",
+   "por_que": "==Mismo castigo a los semiconductores que en Corea==.",
+   "fuentes": []
+  },
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "−3,38 %",
+   "por_que": "==Acompañó el retroceso del crudo== por las esperanzas de diplomacia con Irán.",
+   "fuentes": [
+    {
+     "t": "Briefs",
+     "u": "https://www.briefs.co/news/oil-slides-as-hopes-for-u-s-iran-diplomacy-meet-rising-gulf/"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "−0,69 %",
+   "por_que": "Las informaciones sobre ==posibles avances diplomáticos entre Washington y Teherán== pesaron más que las denuncias iraníes de petroleros alcanzados por minas en Ormuz, no confirmadas de forma independiente. El WTI cayó un 1,8 % en el día del vencimiento de su contrato de noviembre.",
+   "fuentes": [
+    {
+     "t": "Briefs",
+     "u": "https://www.briefs.co/news/oil-slides-as-hopes-for-u-s-iran-diplomacy-meet-rising-gulf/"
+    },
+    {
+     "t": "Seoul Economic Daily",
+     "u": "https://en.sedaily.com/international/2026/10/20/two-more-tankers-hit-by-mines-in-hormuz-brent-hits-5-month"
+    }
+   ]
+  },
+  {
+   "activo": "VIX (volatilidad del S&P 500)",
+   "cambio": "−6,13 % (17,3)",
+   "por_que": "La subida amplia del mercado, más allá de la tecnología, ==redujo la demanda de protección==.",
+   "fuentes": []
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Rotación sectorial y bajada de tipos largos en EE. UU.",
+   "texto": "La debilidad del sector inmobiliario ==empujó a la baja la TIR a 10 y 30 años==. Eso favorece a las compañías pequeñas y a los sectores que se comportan como bonos (inmobiliario, eléctricas), y el dinero salió de la tecnología hacia sanidad, que ya acumulaba más de un 9 % en tres meses como refugio frente a la volatilidad de la IA. El bono a 2 años subió: el mercado sigue esperando que la Fed suba tipos en diciembre, ==por lo que la curva se aplanó==.",
+   "fuentes": [
+    {
+     "t": "IBTimes",
+     "u": "https://www.ibtimes.com.au/small-cap-stocks-rally-treasury-yields-fall-1877128"
+    },
+    {
+     "t": "Axios",
+     "u": "https://www.axios.com/2026/10/19/health-care-stocks-midterms"
+    }
+   ]
+  },
+  {
+   "tema": "Dudas sobre la rentabilidad de la IA en Asia",
+   "texto": "Corea y Taiwán, con índices dominados por fabricantes de chips, volvieron a caer: tras el rebote del lunes, el mercado ==sigue sin creerse que el gasto en centros de datos== vaya a mantener la demanda de memoria. Los fondos con mucho peso en Samsung, SK Hynix o TSMC lo notan directamente.",
+   "fuentes": [
+    {
+     "t": "Business Today",
+     "u": "https://www.businesstoday.com.my/2026/10/21/kospi-rebounds-3-after-six-month-low-as-samsung-sk-hynix-rally/"
+    }
+   ]
+  },
+  {
+   "tema": "Francia: toques de queda y diferencial en máximos desde 2012",
+   "texto": "==El diferencial del OAT francés frente al Bund superó los 150 pb==. La bolsa europea, sin embargo, aguantó mejor que el lunes: ==el mercado empieza a separar el riesgo francés del resto==, y la bajada del petróleo ayudó.",
+   "fuentes": [
+    {
+     "t": "J.P. Morgan AM",
+     "u": "https://am.jpmorgan.com/au/en/asset-management/adv/insights/market-insights/market-updates/on-the-minds-of-investors/france-update-our-take-on-equity-bond-and-policy-implications/"
+    },
+    {
+     "t": "Armenpress",
+     "u": "https://armenpress.am/en/article/1263362"
+    }
+   ]
+  },
+  {
+   "tema": "Indonesia y MSCI",
+   "texto": "Tras una caída de alrededor del 15 % en dos sesiones, la peor desde 1989, la bolsa indonesia rebotó cuando las autoridades se movieron para evitar una rebaja de dos escalones en la clasificación de MSCI, que ==obligaría a vender a los fondos indexados==.",
+   "fuentes": [
+    {
+     "t": "Bloomberg",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-20/indonesia-stocks-rebound-as-authorities-step-up-response-to-msci"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. ==la curva se aplanó==: el 2 años subió 2 pb (4,79 %) y el 10 años bajó 1,9 pb (5,12 %), con el 30 años cediendo 4,7 pb (5,43 %). Son dos fuerzas distintas. En el tramo corto manda la Reserva Federal (Fed): el mercado sigue viendo una subida en diciembre como lo más probable, así que el 2 años no baja. En el largo pesan el crecimiento y la inflación futuros: ==datos de vivienda flojos y un Brent a la baja (−0,7 %)== rebajan ambos, y por eso se exige menos rentabilidad a 10 y 30 años. Ese alivio en los tipos largos es lo que impulsó a las pequeñas compañías y al inmobiliario.\n\nEn Europa ==el Bund actuó como refugio==: la deuda AAA de la zona euro bajó 2,9 pb a 10 años (3,44 %) y 2,5 pb a 2 años (3,03 %). Con toques de queda en París y Niza, los inversores vendieron deuda francesa y compraron alemana, una «huida hacia la calidad» dentro del euro que ensancha el diferencial por los dos lados a la vez. ==El diferencial Francia–Alemania cerró hacia 153 pb, tras tocar 157==: por encima de 150 por primera vez desde 2012, máximos de unos 15 años. La caída del gas (TTF −3,4 %) y del crudo también ayudó, porque baja la inflación esperada. No tenemos cierres fiables de Italia y España ese día; la prensa no destaca tensión en ellos.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "+2 pb (4,79 %)",
+    "por_que": "El tramo que sigue a la Fed: ==la subida de diciembre sigue descontada== y nada del día cambió esa idea.",
+    "fuentes": [
+     {
+      "t": "Trading Economics",
+      "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/593147"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−1,9 pb (5,12 %)",
+    "por_que": "Vivienda floja y crudo a la baja: ==menos crecimiento e inflación esperados==, menos rentabilidad exigida a largo plazo."
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "−4,7 pb (5,43 %)",
+    "por_que": "El tramo más sensible a la inflación a largo plazo y a la prima por plazo: ==el que más bajó==, de ahí el aplanamiento."
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "−2,5 pb (3,03 %)",
+    "por_que": "Refugio y menor inflación esperada por la caída del gas y del crudo; el Banco Central Europeo (BCE) no se espera que mueva tipos el 29."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "−2,9 pb (3,44 %)",
+    "por_que": "==Compra de Bund como refugio== frente a la tensión en Francia, el mismo día en que la bolsa europea quedó plana."
+   },
+   {
+    "bono": "Diferencial Francia–Alemania 10 años",
+    "cambio": "≈ 153 pb (+5 pb; 157 en el día)",
+    "por_que": "Toques de queda nocturnos en grandes ciudades francesas: ==se vende OAT y se compra Bund==. Supera 150 pb por primera vez desde 2011-2012.",
+    "fuentes": [
+     {
+      "t": "MNI Market News",
+      "u": "https://marketnews.com/mni-asia-markets-analysis-oat-bund-spread-widest-since-2012"
+     },
+     {
+      "t": "ZeroHedge (nota de Goldman Sachs sobre fragmentación)",
+      "u": "https://www.zerohedge.com/markets/how-close-europe-another-whatever-it-takes-moment-goldman-builds-fragmentation-alarm-find"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial del alto rendimiento (high yield) de EE. UU.",
+    "cambio": "+4 pb (3,33 %)",
+    "por_que": "Ligera ampliación pese a la subida de las pequeñas; sin noticia concreta, dentro del rango de octubre."
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Trading Economics",
+    "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/593147"
+   },
+   {
+    "t": "MNI Market News",
+    "u": "https://marketnews.com/mni-asia-markets-analysis-oat-bund-spread-widest-since-2012"
+   },
+   {
+    "t": "ZeroHedge (nota de Goldman Sachs sobre fragmentación)",
+    "u": "https://www.zerohedge.com/markets/how-close-europe-another-whatever-it-takes-moment-goldman-builds-fragmentation-alarm-find"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "Día casi neutro en medianas (renta variable −0,11 %, renta fija −0,04 %, mixtos 0,0 %) pero con mucha dispersión, guiada por sectores y países. Arriba hay un bloque muy claro de ==biotecnología y salud (diez de los veinte primeros)==, coherente con el liderazgo de la sanidad en Wall Street y el SMI suizo; se suman Turquía y Brasil. ==Abajo dominan Corea, Taiwán y Asia emergente (chips)==, y un grupo de fondos de pequeñas compañías japonesas. Datos raros: en la lista de dudosos aparecen el Fidelity Indonesia (+7,8 %; el salto cuadra con el rebote de Yakarta, pero el filtro lo aparta por su tamaño), los mixtos de Flossbach von Storch de ABANCA (−3 % y −5 % en un día) y el BNY Mellon Global Real Return (+12 %), movimientos imposibles para esos fondos que ==apuntan a un error en el precio== (el BNY Mellon devuelve el −11 % al día siguiente).",
+  "suben": [
+   {
+    "isin": "LU0213961682",
+    "por_que": "Bolsa turca: ==rebote tras la caída del día anterior (−3 %)==; sin noticia concreta localizada."
+   },
+   {
+    "isin": "LU1803069274",
+    "por_que": "Biotecnología cubierta a euros (Jazz, Amgen, Gilead, Vertex, Regeneron): ==la sanidad fue el mejor sector de EE. UU.=="
+   },
+   {
+    "isin": "LU2441282899",
+    "por_que": "Biotecnología de pequeña y mediana capitalización (Revolution Medicines, Praxis, BridgeBio): ==doble viento a favor, sanidad y pequeñas compañías==, ambas impulsadas por la bajada de los tipos largos."
+   },
+   {
+    "isin": "LU1120766206",
+    "por_que": "Biotecnología de gran capitalización (Gilead, Vertex, Amgen, Regeneron), ≈ 87 % EE. UU. y cubierta a euros, sin efecto divisa: ==la sanidad fue el mejor sector de Wall Street==."
+   },
+   {
+    "isin": "LU0255977455",
+    "por_que": "Pictet Biotech (Vertex, Insmed, Revolution Medicines, argenx): ==mismo tirón de la biotecnología==."
+   },
+   {
+    "isin": "IE00B3XLHR60",
+    "por_que": "Biotecnología (Amgen, Madrigal, argenx, Insmed): ==rotación hacia la sanidad==. Clase en dólares: +3,10 % en USD y +3,19 % en euros (el dólar se apreció algo)."
+   },
+   {
+    "isin": "LU0265313147",
+    "por_que": "Bolsa brasileña: ==Bovespa +1,6 %==, con la búsqueda de alternativas a la tecnología. Clase en dólares: +3,06 % en USD y +3,15 % en euros (el dólar se apreció algo frente al euro)."
+   },
+   {
+    "isin": "LU0069152568",
+    "por_que": "Biotecnología (Vertex, Moderna, Insmed, Roivant, Gilead): ==mismo tirón de la sanidad==. Clase en dólares: +2,88 % en USD y +2,97 % en euros."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU0301637293",
+    "por_que": "Corea pura (SK Hynix, SK Square, Samsung ≈ 28 % entre las tres): ==replica casi exactamente el −3,7 % del Kospi==."
+   },
+   {
+    "isin": "LU0115142274",
+    "por_que": "Pequeñas y medianas japonesas: cayeron más que el Nikkei (−1,3 %) sin una noticia concreta localizada; las pequeñas compañías japonesas ==suelen amplificar los días de aversión al riesgo en Asia==."
+   },
+   {
+    "isin": "LU0348784041",
+    "por_que": "Asia-Pacífico con Aspeed, SK Hynix, EO Technics y ASE (chips): ==castigo a los semiconductores de Corea y Taiwán==."
+   },
+   {
+    "isin": "LU0476877054",
+    "por_que": "Pequeñas japonesas con ==mucho peso en bancos regionales== (Hachijuni, Yokohama Financial): mismo patrón."
+   },
+   {
+    "isin": "IE0030395846",
+    "por_que": "Pequeñas compañías japonesas (PineBridge, en IronIA): ==mismo patrón que el resto del grupo==, peor que el Nikkei (−1,3 %). Clase en dólares: −2,60 % en USD y −2,51 % en euros."
+   },
+   {
+    "isin": "LU0401357313",
+    "por_que": "Taiwán (MediaTek, TSMC, ASE, Delta): cae más que el Taiex (−1,1 %) ==por su peso en semiconductores==."
+   },
+   {
+    "isin": "IE00B3BC9X17",
+    "por_que": "Crecimiento asiático sin Japón, cubierto a euros (Barings, en IronIA): no tenemos su cartera, pero ==la región cayó por los chips de Corea y Taiwán==."
+   },
+   {
+    "isin": "LU0248172537",
+    "por_que": "Asia emergente con ==TSMC, Samsung y SK hynix ≈ 29 % de la cartera==: recoge el −3,7 % del Kospi y el −1,1 % de Taiwán."
+   },
+   {
+    "isin": "LU0270816068",
+    "por_que": "Taiwán en dólares (TSMC, MediaTek, ASE): −2,40 % en USD y −2,31 % en euros."
+   },
+   {
+    "isin": "IE00BYVJR916",
+    "por_que": "Mineras de oro y plata y vehículos de metal físico: el oro bajó un 0,4 % y ==las mineras suelen amplificar el movimiento del metal==; la subida de la plata no lo compensó."
+   }
+  ]
+ },
+ "agenda": [
+  {
+   "fecha": "2026-10-21",
+   "evento": "Resultados de Tesla y Meta (tras el cierre)",
+   "por_que_importa": "Su plan de inversión en IA decidirá si el castigo a los chips en Asia continúa."
+  },
+  {
+   "fecha": "2026-10-21",
+   "evento": "IPC (índice de precios de consumo) británico de septiembre e intervención de Christine Lagarde (BCE)",
+   "por_que_importa": "Se esperaba un repunte del IPC al 3,4 %; el tono de Lagarde sobre Francia y los tipos mueve el euro y la deuda periférica."
+  },
+  {
+   "fecha": "2026-10-23",
+   "evento": "Revisión de Moody's sobre Francia",
+   "por_que_importa": "Con el diferencial por encima de 150 pb, una rebaja de calificación presionaría aún más la deuda y la banca francesa."
+  },
+  {
+   "fecha": "2026-10-28",
+   "evento": "Reunión de la Reserva Federal (Fed)",
+   "por_que_importa": "Se espera que mantenga los tipos, pero el mercado descuenta una subida en diciembre."
+  },
+  {
+   "fecha": "2026-10-29",
+   "evento": "Reunión del Banco Central Europeo (BCE)",
+   "por_que_importa": "Primera reunión con la tensión francesa en máximos desde 2012."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: rentabilidad anual que obtiene quien compra hoy un bono y lo mantiene hasta su vencimiento. Sube cuando cae el precio del bono."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal: banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "PIB",
+   "def": "Producto interior bruto: valor de todo lo que produce un país en un año."
+  },
+  {
+   "sigla": "OAT",
+   "def": "Obligations assimilables du Trésor: bonos del Tesoro francés."
+  },
+  {
+   "sigla": "Bund",
+   "def": "Bono del Estado alemán; referencia de activo seguro en la zona euro."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia; la curva «AAA de la zona euro» agrupa la deuda de los países con esa nota (sobre todo Alemania)."
+  },
+  {
+   "sigla": "MSCI",
+   "def": "Proveedor de índices bursátiles; si rebaja la categoría de un país, los fondos indexados deben vender sus acciones."
+  },
+  {
+   "sigla": "ETF",
+   "def": "Fondo cotizado en bolsa (exchange-traded fund)."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "WTI",
+   "def": "West Texas Intermediate: petróleo de referencia en EE. UU."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad implícita del S&P 500."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio de una participación del fondo, calculado una vez al día."
+  },
+  {
+   "sigla": "IPC",
+   "def": "Índice de precios de consumo (inflación)."
+  },
+  {
+   "sigla": "Prima por plazo",
+   "def": "Rentabilidad extra que se exige por prestar a largo plazo en vez de renovar préstamos a corto; sube con la incertidumbre sobre inflación y déficit."
+  },
+  {
+   "sigla": "Diferencial (spread)",
+   "def": "Diferencia de rentabilidad entre dos bonos, p. ej. el francés y el alemán a 10 años; mide la prima de riesgo de un país."
+  },
+  {
+   "sigla": "High yield",
+   "def": "Alto rendimiento: deuda de empresas con calificación por debajo de grado de inversión."
+  }
+ ],
+ "generado": "2026-10-23T11:00"
+}

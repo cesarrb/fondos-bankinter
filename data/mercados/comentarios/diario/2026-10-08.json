@@ -1,0 +1,559 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-08",
+  "fase": "completo",
+  "titulo": "El crudo salta un 4 % por ataques de Irán a petroleros y los chips caen por OpenAI",
+  "resumen": "El petróleo volvió a mandar. El Brent subió un 4,1 %, hasta 104,3 $, y el WTI un 3,6 % (91,5 $) ==por ataques iraníes contra petroleros==, uno de ellos cerca del extremo norte de Catar, e informaciones de que la Casa Blanca había pedido al Pentágono preparar nuevas opciones de ataque contra Irán. El crudo moderó la subida cuando el presidente Trump afirmó que EE. UU. no atacará a Irán antes de las elecciones de mitad de mandato. Además, los productores cerraron ==más del 60 % de la producción de crudo del golfo de México== ante la llegada del huracán Isaias. El sector energético del S&P 500 subió casi un 3 %.\n\nLa otra cara fue la tecnología: según el Financial Times, ==los ingresos anualizados de OpenAI rondan los 50.000 millones de dólares==, frente a los 70.000 que se habían publicado, lo que ==reavivó las dudas sobre la rentabilidad de la inversión en inteligencia artificial (IA)==. Arm (−6,5 %), Oracle (−5,5 %), Intel (−5,3 %) y Micron (−4,8 %) lideraron las caídas; el Nasdaq 100 perdió un 1,4 % y el S&P 500 un 0,5 %, mientras el Dow Jones (+0,1 %, con Chevron) y el Russell 2000 (plano) aguantaron gracias a la rotación hacia energía y consumo básico (PepsiCo +3,7 % tras resultados).\n\nPese al crudo, los bonos de EE. UU. se relajaron: el 10 años bajó 4,6 puntos básicos (pb) hasta el 5,23 % y el 30 años 5,5 pb (5,61 %) ==tras una subasta a 30 años con demanda muy superior a la media==. Que las rentabilidades bajen con el petróleo al alza indica que el mercado empieza a ver el encarecimiento de la energía ==más como un freno al crecimiento que como un problema de inflación==. Aun así, el diferencial de los bonos de alto rendimiento (high yield) se amplió 6 pb, en parte por el temor a una avalancha de emisiones de deuda corporativa (SpaceX y Broadcom estudian colocar unos 80.000 millones de dólares).\n\nEuropa encadenó otra caída (Euro Stoxx 50 −0,9 %, DAX −1,2 %, IBEX 35 −1 %, FTSE MIB −1,35 %): chips (Infineon, ASML, BE Semiconductor), ==bancos franceses por su exposición a la deuda pública de Francia==, y la banca italiana por la disputa en torno a Monte dei Paschi. Asia cayó con fuerza (Kospi −2,6 %, Nikkei −1,4 %, Hang Seng −1,4 %) con ventas de inversores extranjeros, y Shanghái reabrió tras la Semana Dorada con un −0,8 % respecto al 30 de septiembre. Brasil (+0,9 %) fue la excepción, apoyado en Petrobras y Vale. El oro subió levemente (+0,4 %), pero la plata (−1,4 %) y el cobre (−1,2 %) cedieron; bitcoin perdió un 1,9 %, hasta su mínimo en tres semanas. En fondos, los de energía lideraron y los de semiconductores asiáticos, China, blockchain y oro/plata cerraron la tabla.",
+  "claves": [
+    "El Brent subió un 4,1 %, a 104,3 $, ==por ataques de Irán a petroleros== y el cierre preventivo de producción en el golfo de México por el huracán Isaias.",
+    "==Un informe sobre ingresos de OpenAI inferiores a lo publicado hundió a los chips==: Nasdaq 100 −1,4 %, mientras la energía subía casi un 3 %.",
+    "El 10 años de EE. UU. bajó al 5,23 % tras una subasta a 30 años muy demandada: ==el mercado lee el crudo caro como freno al crecimiento==.",
+    "Europa y Asia cayeron (FTSE MIB −1,35 %, Kospi −2,6 %); China reabrió tras la Semana Dorada con un −0,8 %.",
+    "En fondos, energía arriba (Guinness Global Energy +2,9 %) y tecnología asiática, China y blockchain abajo (−3 % a −5 %)."
+  ],
+  "suben": [
+    {
+      "activo": "Petróleo Brent",
+      "cambio": "+4,07 %",
+      "por_que": "Ataques iraníes contra petroleros (uno frente a Catar) y noticias de preparación de nuevas opciones militares de EE. UU. ==elevan el riesgo de cortes en el estrecho de Ormuz==; recortó subidas cuando Trump descartó atacar Irán antes de las elecciones de noviembre. Cierra en 104,3 $.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        },
+        {
+          "t": "Political.org (energía)",
+          "u": "https://political.org/category/policy-news/energy/"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo WTI",
+      "cambio": "+3,64 %",
+      "por_que": "Además de Oriente Medio, ==más del 60 % de la producción del golfo de México== quedó cerrada preventivamente por el huracán Isaias. Cierra en 91,5 $.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        }
+      ]
+    },
+    {
+      "activo": "Bovespa (Brasil)",
+      "cambio": "+0,94 %",
+      "por_que": "==Petrobras se beneficia directamente del crudo== y Vale aporta peso; Brasil vuelve a subir tras dos días de recogida de beneficios.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        },
+        {
+          "t": "Trading Economics (Ibovespa 6-oct)",
+          "u": "https://tradingeconomics.com/brazil/stock-market/news/589894"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+0,98 %",
+      "por_que": "Los ataques a infraestructuras y navegación en el Golfo amenazan el suministro de gas natural licuado catarí; tercera subida consecutiva.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance UK (Europa 8-oct)",
+          "u": "https://uk.finance.yahoo.com/news/european-stocks-fall-four-month-092256851.html"
+        }
+      ]
+    },
+    {
+      "activo": "Oro",
+      "cambio": "+0,39 %",
+      "por_que": "Leve rebote como refugio y por la bajada de rentabilidades del bono; el dólar apenas se movió (DXY −0,1 %).",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        }
+      ]
+    },
+    {
+      "activo": "Dow Jones",
+      "cambio": "+0,10 %",
+      "por_que": "Su menor peso tecnológico y la presencia de Chevron y Home Depot le permitieron cerrar en positivo pese a la caída del Nasdaq.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Nasdaq 100 (tecnológicas EE. UU.)",
+      "cambio": "−1,39 %",
+      "por_que": "El Financial Times informó de que ==OpenAI ingresa a ritmo de unos 50.000 millones de dólares anuales, no 70.000==: si el mayor cliente de la cadena de la IA factura menos, se cuestiona el ritmo de compra de chips y centros de datos. Arm, Micron, Oracle e Intel cayeron un 5–6 %.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        }
+      ]
+    },
+    {
+      "activo": "Kospi (Corea)",
+      "cambio": "−2,62 %",
+      "por_que": "Tercer día de caídas con ==fuertes ventas netas de inversores extranjeros== e institucionales; pesan Samsung y SK Hynix, muy ligados al ciclo de chips para IA, y los tipos largos de EE. UU. en máximos de dos décadas.",
+      "fuentes": [
+        {
+          "t": "Asia Economy (Kospi 8-oct)",
+          "u": "https://core.asiae.co.kr/article/2026100814260499988"
+        }
+      ]
+    },
+    {
+      "activo": "Hang Seng / Nikkei 225",
+      "cambio": "−1,43 % / −1,42 %",
+      "por_que": "Tono de aversión al riesgo en Asia tras el máximo del bono estadounidense del día anterior y la tensión en Oriente Medio (Japón importa casi todo su crudo). China continental reabrió tras la Semana Dorada.",
+      "fuentes": [
+        {
+          "t": "investingLive (calendario Asia 8-oct)",
+          "u": "https://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-october-8-2026-chinese-markets-reopen/"
+        },
+        {
+          "t": "Yahoo Finance UK (Europa 8-oct)",
+          "u": "https://uk.finance.yahoo.com/news/european-stocks-fall-four-month-092256851.html"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE MIB (Italia) / DAX (Alemania)",
+      "cambio": "−1,35 % / −1,18 %",
+      "por_que": "==Chips europeos (Infineon −2,7 %, ASML −2,3 %) y banca==: en Italia, la disputa sobre la junta de Monte dei Paschi del 29 de octubre y rumores sin confirmar sobre Mediobanca; en Francia, bancos castigados por su exposición a la deuda pública.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance UK (Europa 8-oct)",
+          "u": "https://uk.finance.yahoo.com/news/european-stocks-fall-four-month-092256851.html"
+        },
+        {
+          "t": "SoldiOnline / ANSA (banca italiana 8-oct)",
+          "u": "https://www.soldionline.it/notizie/azioni-italia/banche-sotto-pressione-a-milano-12-cosa-pesa-su-mps-e-mediobanca"
+        }
+      ]
+    },
+    {
+      "activo": "SMI (Suiza)",
+      "cambio": "−1,24 %",
+      "por_que": "Las farmacéuticas, que la víspera sostenían el índice, cedieron con la salud mundial (argenx −11,8 % en EE. UU. por un ensayo fallido) y en un día de dudas sobre el sector.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        }
+      ]
+    },
+    {
+      "activo": "Uranio (ETF URA)",
+      "cambio": "−3,43 %",
+      "por_que": "Tercera sesión de ventas en la temática «energía para IA», arrastrada por la reevaluación de la demanda de centros de datos tras el informe sobre OpenAI (relación inferida).",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        }
+      ]
+    },
+    {
+      "activo": "Bitcoin",
+      "cambio": "−1,92 %",
+      "por_que": "Hasta unos 81.000 $, mínimo en tres semanas, con ==casi 1.000 millones de dólares en liquidaciones== de posiciones apalancadas; Coinbase y Strategy cayeron.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        }
+      ]
+    },
+    {
+      "activo": "Cobre / plata",
+      "cambio": "−1,17 % / −1,39 %",
+      "por_que": "Metales industriales y semipreciosos sufren cuando el petróleo caro amenaza el crecimiento y la reapertura de China no trae compras.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        },
+        {
+          "t": "investingLive (calendario Asia 8-oct)",
+          "u": "https://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-october-8-2026-chinese-markets-reopen/"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Irán, el Golfo y el huracán Isaias",
+      "texto": "Ataques de Irán a petroleros e informaciones sobre nuevos planes militares de EE. UU. ==añadieron prima de riesgo al crudo==; ==la promesa de Trump de no atacar antes de las elecciones la recortó==. El cierre preventivo de producción en el golfo de México por Isaias sumó un riesgo de oferta propio de EE. UU.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        },
+        {
+          "t": "Political.org (energía)",
+          "u": "https://political.org/category/policy-news/energy/"
+        },
+        {
+          "t": "Yahoo Finance UK (Europa 8-oct)",
+          "u": "https://uk.finance.yahoo.com/news/european-stocks-fall-four-month-092256851.html"
+        }
+      ]
+    },
+    {
+      "tema": "Dudas sobre la inteligencia artificial (IA)",
+      "texto": "Si los ingresos de OpenAI son menores de lo que se pensaba, ==peligra la capacidad de pago de los grandes compradores de chips== y centros de datos. Por eso cayeron a la vez los diseñadores de chips, la memoria, el software de infraestructura y Asia (Corea, Taiwán).",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        }
+      ]
+    },
+    {
+      "tema": "Bonos: crudo como freno, no como inflación",
+      "texto": "El bono de EE. UU. bajó pese al petróleo ==por una subasta a 30 años muy demandada== (2,54 veces cubierta, frente a 2,41 de media) y porque ==un crudo caro resta consumo y crecimiento==. En el crédito, el temor a unos 80.000 millones de emisiones de SpaceX y Broadcom amplió los diferenciales.",
+      "fuentes": [
+        {
+          "t": "Ringside (cierre 8-oct)",
+          "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+        },
+        {
+          "t": "Yahoo Finance UK (Europa 8-oct)",
+          "u": "https://uk.finance.yahoo.com/news/european-stocks-fall-four-month-092256851.html"
+        }
+      ]
+    },
+    {
+      "tema": "Banca europea: Francia e Italia",
+      "texto": "Los bancos franceses siguen castigados por ==su cartera de deuda pública en plena crisis presupuestaria==; en Italia pesa la batalla accionarial en torno a Monte dei Paschi. El gobernador del Banco de Francia calificó la situación fiscal de seria pero descartó que haga falta ayuda del BCE.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance UK (Europa 8-oct)",
+          "u": "https://uk.finance.yahoo.com/news/european-stocks-fall-four-month-092256851.html"
+        },
+        {
+          "t": "SoldiOnline / ANSA (banca italiana 8-oct)",
+          "u": "https://www.soldionline.it/notizie/azioni-italia/banche-sotto-pressione-a-milano-12-cosa-pesa-su-mps-e-mediobanca"
+        }
+      ]
+    }
+  ],
+  "fondos": {
+    "texto": "Segundo día negativo: mediana de la renta variable −0,78 %, mixtos −0,30 % y renta fija −0,05 %. Las materias primas fueron la única gran categoría al alza (mediana +0,66 %). El reparto fue de manual: ==energía y materias primas arriba==; ==tecnología asiática (Samsung, TSMC, SK Hynix), China, semiconductores==, blockchain y metales preciosos abajo. Tras recalcular la tabla, todas las cifras son de una sola sesión (7→8-oct): los fondos asiáticos y el de blockchain caen en torno a un 2,7 %, no el 4–5 % que salía al sumar dos sesiones. Efecto divisa casi nulo: el dólar apenas se movió frente al euro (−0,1 % en el fijo del BCE). Datos raros: los dos fondos Cinvest (Multigestión y Azero Global) suben un 1,7 % en un día y el Candriam Absolute Return (+1,5 %) venía de un 0,0 %, lo que apunta a VL con desfase; y el Fidelity Global Healthcare (−2,8 %) cae mucho más que el sector de salud en EE. UU. (−0,4 %).",
+    "suben": [
+      {
+        "isin": "IE00B3CCJB88",
+        "por_que": "+2,9 %: petroleras integradas y refino (Exxon, Chevron, Shell, Valero, BP, Repsol); ==el Brent subió un 4 %== y el sector energético del S&P 500 casi un 3 %."
+      },
+      {
+        "isin": "IE00B5L6ZZ16",
+        "por_que": "+2,4 % en dólares, +2,3 % en euros: capital riesgo cotizado; sin noticia concreta, posible VL con desfase respecto al mercado."
+      },
+      {
+        "isin": "IE00B52VLZ70",
+        "por_que": "+1,8 %: aseguradoras y reaseguradoras (RenaissanceRe, Arch, Chubb); se comportaron como valores defensivos en la rotación fuera de la tecnología. Sin noticia concreta; curioso con un huracán en camino, que suele restarles."
+      },
+      {
+        "isin": "ES0107696009",
+        "por_que": "+1,7 % en un mixto flexible tras 0,0 % el día anterior, mientras la otra clase del mismo fondo cae: dato raro, probablemente desfase de VL entre clases."
+      },
+      {
+        "isin": "ES0174115032",
+        "por_que": "+1,71 %: mixto flexible de la misma familia Cinvest que el Cinvest Multigestión (+1,74 %). ==Dos fondos de la gestora suben lo mismo en un día de caídas==: apunta a un VL con desfase o a una revalorización puntual, no a un driver del día. Sin cartera en nuestros datos."
+      },
+      {
+        "isin": "LU0326422176",
+        "por_que": "+1,70 %: petroleras (Shell, Chevron, Exxon, TotalEnergies) y refino (Valero, Marathon), con la divisa cubierta a euros. ==El Brent subió un 4,1 % por los ataques de Irán a petroleros==."
+      },
+      {
+        "isin": "FI4000301312",
+        "por_que": "+1,59 %: bolsa global de la finlandesa Evli; sin cartera en nuestros datos ni noticia concreta. Sube en un día de caídas generalizadas: posible desfase de VL. Dato a vigilar."
+      },
+      {
+        "isin": "LU0213961682",
+        "por_que": "+1,6 %: bolsa turca (BIM, Aselsan, Tüpraş); Tüpraş (refino) se beneficia del crudo. Sin otra noticia concreta localizada."
+      },
+      {
+        "isin": "LU0984246958",
+        "por_que": "+1,2 %: materias primas diversificadas con peso en energía; el petróleo compensó la caída del cobre y la plata."
+      },
+      {
+        "isin": "LU1046545502",
+        "por_que": "+1,2 %: energía e infraestructuras energéticas de Norteamérica, beneficiadas por un crudo y un gas más caros."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "IE0006TUI4G7",
+        "por_que": "−3,9 %: pese a su nombre de «energía», la cartera es hardware para centros de datos (Lumentum, Marvell, Coherent, Corning), ==castigado por el informe sobre OpenAI==."
+      },
+      {
+        "isin": "IE000NUQFNN0",
+        "por_que": "−3,85 %: misma estrategia de Polar Capital que el anterior, con divisa cubierta."
+      },
+      {
+        "isin": "LU2305833589",
+        "por_que": "−3,3 %: salud china, en la reapertura de China continental con caídas y el Hang Seng −1,4 %."
+      },
+      {
+        "isin": "LU1760778917",
+        "por_que": "−3,2 %: crecimiento chino; China reabrió tras la Semana Dorada con un −0,8 % y la tecnología china sufrió con la de EE. UU."
+      },
+      {
+        "isin": "LU1585228882",
+        "por_que": "−3,05 %: salud de mercados emergentes, con mucho peso en China. ==La salud china cayó en la reapertura tras la Semana Dorada== (Invesco China Health −3,3 %; Hang Seng −1,4 %)."
+      },
+      {
+        "isin": "IE00BYVJR916",
+        "por_que": "−3,05 %: mineras de plata y oro y fideicomisos de plata física; la plata cayó un 1,4 % y las pequeñas mineras amplifican."
+      },
+      {
+        "isin": "LU2061961145",
+        "por_que": "−2,97 %: temáticas disruptivas con Micron (4,9 %) como primera posición, Nvidia, Samsung y Lumentum; el 55 % es tecnología. ==Micron cayó un 4,8 % tras el informe sobre los ingresos de OpenAI==."
+      },
+      {
+        "isin": "LU2476274647",
+        "por_que": "−2,88 % (ABANCA, divisa cubierta): tecnología china. ==Reapertura de China con caídas, sumada a la venta mundial de chips== por las dudas sobre la IA."
+      },
+      {
+        "isin": "LU0261952419",
+        "por_que": "−2,8 %: grandes farmacéuticas y salud; cae bastante más que el sector en EE. UU. (−0,4 %), tras subir un 1,7 % la víspera. argenx (−11,8 %) y las ventas en farmacéuticas europeas pesaron, pero puede haber desfase en la valoración."
+      },
+      {
+        "isin": "FR0014008M99",
+        "por_que": "−2,75 %: Coinbase, Galaxy y mineras de bitcoin. ==Bitcoin cayó un 1,9 %, a mínimos de tres semanas==, con casi 1.000 millones de dólares en liquidaciones; las acciones cripto amplifican el movimiento."
+      },
+      {
+        "isin": "LU0316493583",
+        "por_que": "−2,74 %: Asia emergente con TSMC, Samsung y SK Hynix a la cabeza, en plena ==venta de chips por las dudas sobre la IA==."
+      },
+      {
+        "isin": "LU1381420600",
+        "por_que": "−2,74 %: pese a su nombre de consumo, Samsung, TSMC y SK Hynix son el 25 % de la cartera. ==Kospi −2,6 % con la venta de chips==."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-09",
+      "evento": "Resultados de Delta Air Lines; llegada del huracán Isaias a la costa del golfo de México (noche del 9 al 10)",
+      "por_que_importa": "Delta mostrará el impacto del queroseno caro; Isaias puede prolongar el cierre de producción de crudo y gas."
+    },
+    {
+      "fecha": "2026-10-12",
+      "evento": "Mercado de bonos de EE. UU. cerrado (Columbus Day)",
+      "por_que_importa": "Menor liquidez en el arranque de la semana."
+    },
+    {
+      "fecha": "2026-10-14",
+      "evento": "IPC de septiembre en EE. UU.; comienzo de los resultados de la gran banca estadounidense",
+      "por_que_importa": "Con la Fed inclinada a otra subida y el crudo por encima de 100 $, la inflación decidirá el tono de octubre."
+    },
+    {
+      "fecha": "2026-10-27",
+      "evento": "Reunión de la Fed (27–28 de octubre)",
+      "por_que_importa": "Primera decisión después de unas actas que dejan abierta otra subida de tipos este año."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "Junta extraordinaria de Monte dei Paschi; reunión del BCE",
+      "por_que_importa": "La batalla accionarial pesa sobre la banca italiana; el BCE decidirá con la deuda francesa e italiana bajo presión."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene a vencimiento. Sube cuando cae su precio, y viceversa."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500; sube cuando el mercado paga más por protegerse de caídas."
+    },
+    {
+      "sigla": "MOVE",
+      "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU. (el «VIX de los bonos»)."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis divisas (el euro pesa más de la mitad)."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: el precio diario de una participación de un fondo."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos), en €/MWh."
+    },
+    {
+      "sigla": "WTI",
+      "def": "West Texas Intermediate: petróleo de referencia en EE. UU.; el Brent es la referencia europea e internacional."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Fondo cotizado en bolsa (exchange-traded fund)."
+    },
+    {
+      "sigla": "high yield",
+      "def": "Bonos de empresas con calificación inferior a «grado de inversión»; su diferencial es lo que pagan por encima de la deuda pública."
+    },
+    {
+      "sigla": "IPC",
+      "def": "Índice de precios de consumo (inflación)."
+    },
+    {
+      "sigla": "SMI",
+      "def": "Swiss Market Index: índice de las grandes compañías suizas."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán, referencia de la deuda de la zona euro."
+    },
+    {
+      "sigla": "OAT",
+      "def": "Obligation assimilable du Trésor: bono del Estado francés."
+    },
+    {
+      "sigla": "Prima por plazo",
+      "def": "Rentabilidad extra que exigen los inversores por prestar a largo plazo en vez de renovar préstamos a corto; sube con la incertidumbre sobre inflación, déficit y emisiones."
+    }
+  ],
+  "generado": "2026-10-23T11:00",
+  "tipos": {
+    "texto": "Los bonos de EE. UU. empezaron el día a la baja (TIR al alza) por el petróleo y lo acabaron con ganancias. El 10 años cerró en el 5,23 % (−4,6 pb) y el 30 años en el 5,61 % (−5,5 pb) por dos motivos. Uno, ==la subasta a 30 años de 22.000 millones fue muy demandada== (2,54 veces cubierta frente a 2,41 de media): demanda real a estos niveles rebaja la prima por plazo. Dos, ==el mercado leyó el crudo caro como freno al crecimiento==, y la promesa de Trump de no atacar Irán antes de las elecciones recortó la subida del Brent por la tarde. El 2 años bajó 2 pb (4,75 %): la expectativa sobre la Fed no cambió.\n\nEn la zona euro el movimiento fue el contrario en el tramo corto: el 2 años AAA subió 3,7 pb (3,03 %) porque ==el crudo alimenta las apuestas de subida del BCE== (el mercado descuenta que el tipo de depósito suba desde el 2,50 % antes de fin de año). El 10 años (≈ Bund) bajó 1,9 pb (3,52 %), arrastrado por el plazo largo de EE. UU. y por las caídas en bolsa. La deuda francesa siguió bajo presión (la banca francesa volvió a caer y el OAT seguía cerca del 4,9 %), sin un cierre del diferencial en nuestras series. El diferencial del high yield de EE. UU. se amplió otros 6 pb (3,15 %) por el temor a una oleada de emisiones (unos 80.000 millones de SpaceX y Broadcom).",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "−2 pb (4,75 %)",
+        "por_que": "Sin cambio relevante en lo que se espera de la Fed; acompaña al resto de la curva en la recuperación de la tarde.",
+        "fuentes": [
+          {
+            "t": "Virginia Business / Reuters (bonos 8-oct)",
+            "u": "https://virginiabusiness.com/us-treasury-yields-rise-oil-prices-30-year-auction/"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−4,6 pb (5,23 %)",
+        "por_que": "==Petróleo caro leído como freno al crecimiento==, no como más inflación, y arrastre de la buena subasta a 30 años.",
+        "fuentes": [
+          {
+            "t": "Virginia Business / Reuters (bonos 8-oct)",
+            "u": "https://virginiabusiness.com/us-treasury-yields-rise-oil-prices-30-year-auction/"
+          },
+          {
+            "t": "Ringside (cierre 8-oct)",
+            "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "−5,5 pb (5,61 %)",
+        "por_que": "==Subasta de 22.000 millones con demanda muy superior a la media== (cola de solo 0,1 pb): menos prima por plazo en el tramo más largo.",
+        "fuentes": [
+          {
+            "t": "Newsquawk (subasta a 30 años)",
+            "u": "https://www.newsquawk.com/headlines/us-sold-usd-22bln-of-30-year-bonds-tail-01bps"
+          },
+          {
+            "t": "Virginia Business / Reuters (bonos 8-oct)",
+            "u": "https://virginiabusiness.com/us-treasury-yields-rise-oil-prices-30-year-auction/"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "+3,7 pb (3,03 %)",
+        "por_que": "==Brent +4 %: más inflación esperada y más apuestas de subida del BCE==, que mueven el tramo corto. Europa importa casi toda su energía, así que el crudo pesa más en su inflación.",
+        "fuentes": [
+          {
+            "t": "Trading Economics (bono francés y apuestas sobre el BCE)",
+            "u": "https://tradingeconomics.com/france/government-bond-yield/news/590786"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "−1,9 pb (3,52 %)",
+        "por_que": "Sigue al plazo largo de EE. UU. y a la búsqueda de refugio con las bolsas europeas cayendo (Euro Stoxx 50 −0,9 %).",
+        "fuentes": [
+          {
+            "t": "Yahoo Finance (Europa 8-oct)",
+            "u": "https://uk.finance.yahoo.com/news/european-stocks-fall-four-month-092256851.html"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Francia–Alemania (10 años)",
+        "cambio": "Sin dato de cierre (OAT ≈ 4,9 %)",
+        "por_que": "Presión sostenida por la crisis presupuestaria: ==los bancos franceses cayeron por su cartera de deuda pública==. El Banco de Francia descartó que haga falta ayuda del BCE.",
+        "fuentes": [
+          {
+            "t": "Yahoo Finance (Europa 8-oct)",
+            "u": "https://uk.finance.yahoo.com/news/european-stocks-fall-four-month-092256851.html"
+          },
+          {
+            "t": "Trading Economics (bono francés y apuestas sobre el BCE)",
+            "u": "https://tradingeconomics.com/france/government-bond-yield/news/590786"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "+6 pb (3,15 %)",
+        "por_que": "Temor a una avalancha de emisiones corporativas (SpaceX y Broadcom, unos 80.000 millones): más oferta de deuda exige más prima.",
+        "fuentes": [
+          {
+            "t": "Ringside (cierre 8-oct)",
+            "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+          }
+        ]
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Virginia Business / Reuters (bonos 8-oct)",
+        "u": "https://virginiabusiness.com/us-treasury-yields-rise-oil-prices-30-year-auction/"
+      },
+      {
+        "t": "Newsquawk (subasta a 30 años)",
+        "u": "https://www.newsquawk.com/headlines/us-sold-usd-22bln-of-30-year-bonds-tail-01bps"
+      },
+      {
+        "t": "Ringside (cierre 8-oct)",
+        "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+      },
+      {
+        "t": "Trading Economics (bono francés y apuestas sobre el BCE)",
+        "u": "https://tradingeconomics.com/france/government-bond-yield/news/590786"
+      }
+    ]
+  }
+}

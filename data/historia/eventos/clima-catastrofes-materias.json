@@ -1,0 +1,2999 @@
+[
+ {
+  "id": "2019-09-03-huracan-dorian-bahamas",
+  "fecha": "2019-09-03",
+  "fecha_real": "2019-09-01",
+  "fin": "2019-09-06",
+  "titulo": "Huracán Dorian (cat. 5) arrasa las Bahamas y se aleja de Florida",
+  "pais": [
+   "BS",
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "Dorian tocó tierra en Ábaco el domingo 1-sep como categoría 5 y quedó casi inmóvil sobre Gran Bahama. Su giro al norte evitó Florida, así que la pérdida asegurada quedó muy por debajo del temor inicial: los cat bonds expuestos a Florida apenas cedieron y se recuperaron en días.",
+  "activos_afectados": [
+   {
+    "activo": "Cat bonds de huracán en Florida",
+    "sentido": "±",
+    "magnitud": "caída breve y recuperación al alejarse de la costa"
+   },
+   {
+    "activo": "Reaseguradoras",
+    "sentido": "-",
+    "magnitud": "impacto acotado"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "fin"
+  ],
+  "pérdidas_aseguradas": "~4.500 M$ en Bahamas y Carolina del Norte (Swiss Re sigma); AIR 1.500–3.000 M$ solo Bahamas",
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "KCC: daño total en Bahamas ~7.000 M$",
+    "u": "https://www.businessinsurance.com/hurricane-dorian-devastation-in-bahamas-could-cost-7-billion-karen-clark-co/"
+   },
+   {
+    "t": "Hurricane Dorian (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Hurricane_Dorian"
+   }
+  ],
+  "nota": "Lunes 2-sep festivo en EE. UU. (Labor Day): primera sesión estadounidense el 3-sep."
+ },
+ {
+  "id": "2019-10-14-tifon-hagibis-japon",
+  "fecha": "2019-10-14",
+  "fecha_real": "2019-10-12",
+  "fin": null,
+  "titulo": "Tifón Hagibis inunda el este de Japón",
+  "pais": [
+   "JP"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "Hagibis tocó tierra en la península de Izu el sábado 12-oct y casi el 60 % del daño vino de inundaciones fluviales tierra adentro. Segunda gran pérdida japonesa en dos años (tras Jebi 2018): presionó a las aseguradoras locales y al mercado retrocesional, preparando el endurecimiento de precios de 2020.",
+  "activos_afectados": [
+   {
+    "activo": "Aseguradoras japonesas (Tokio Marine, MS&AD, Sompo)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Fondos ILS con riesgo Japón",
+    "sentido": "-",
+    "magnitud": "leve"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "jp",
+   "fin"
+  ],
+  "pérdidas_aseguradas": "RMS 7.000–11.000 M$; AIR 8.000–16.000 M$; Swiss Re ~8.000 M$",
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "RMS: pérdida asegurada de 7.000–11.000 M$",
+    "u": "https://www.moodys.com/web/en/us/insights/announcements/rms-estimates-insured-losses-from-typhoon-hagibis-to-be-between-usd-7-billion-to-11-billion.html"
+   }
+  ],
+  "nota": "El 14-oct-2019 fue festivo en Japón; Tokio reabrió el 15-oct."
+ },
+ {
+  "id": "2020-01-02-incendios-australia-black-summer",
+  "fecha": "2020-01-02",
+  "fin": "2020-02-13",
+  "titulo": "«Black Summer»: incendios forestales récord en Australia",
+  "pais": [
+   "AU"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Sequía extrema y calor récord alimentaron incendios desde septiembre de 2019 que culminaron entre finales de diciembre y enero (estado de emergencia en Nueva Gales del Sur el 2-ene). La pérdida asegurada fue moderada frente a la económica, pero reforzó el riesgo climático percibido en aseguradoras australianas.",
+  "activos_afectados": [
+   {
+    "activo": "Aseguradoras australianas (IAG, Suncorp, QBE)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Dólar australiano",
+    "sentido": "-",
+    "magnitud": "leve"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "fin",
+   "esg"
+  ],
+  "pérdidas_aseguradas": "2.320 M A$ con 38.181 reclamaciones (Insurance Council of Australia, may-2020); revisado a ~2.400 M A$",
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "AIDR: Black Summer en NSW 2019-20",
+    "u": "https://knowledge.aidr.org.au/resources/black-summer-bushfires-nsw-2019-20/"
+   }
+  ],
+  "nota": "Fecha aproximada: la temporada empezó en sep-2019; se toma el estado de emergencia de NSW como hito."
+ },
+ {
+  "id": "2020-08-27-huracan-laura-luisiana",
+  "fecha": "2020-08-27",
+  "fin": null,
+  "titulo": "Huracán Laura (cat. 4) golpea Luisiana y la costa petroquímica",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "Laura tocó tierra de madrugada cerca de Cameron (Luisiana) con vientos de 240 km/h. Fue la mayor pérdida asegurada de 2020 y obligó a cerrar refinerías y plantas de GNL del lago Charles; la temporada récord de 30 tormentas con nombre erosionó la rentabilidad del reaseguro y alimentó las subidas de 2021.",
+  "activos_afectados": [
+   {
+    "activo": "Cat bonds / ILS",
+    "sentido": "-",
+    "magnitud": "leve"
+   },
+   {
+    "activo": "Márgenes de refino y gasolina en EE. UU.",
+    "sentido": "±"
+   },
+   {
+    "activo": "Exportaciones de GNL (Cameron, Sabine Pass)",
+    "sentido": "-",
+    "magnitud": "cierre temporal"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "ene",
+   "fin"
+  ],
+  "pérdidas_aseguradas": "RMS 9.000–13.000 M$ en tierra (+1.000–2.000 M$ offshore); AIR 4.000–8.000 M$; Fitch ~10.000 M$",
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "RMS: 9.000–13.000 M$ asegurados en tierra",
+    "u": "https://www.moodys.com/web/en/us/insights/announcements/rms-estimates-that-total-onshore-us-insured-losses-from-hurricane-laura-will-be-between-us9bn-us13bn.html"
+   }
+  ]
+ },
+ {
+  "id": "2021-07-15-inundaciones-alemania-belgica",
+  "fecha": "2021-07-15",
+  "fin": "2021-07-16",
+  "titulo": "Inundaciones de la borrasca Bernd en Alemania y Bélgica",
+  "pais": [
+   "DE",
+   "BE",
+   "NL"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Lluvias torrenciales del 13 al 15 de julio desbordaron el Ahr y el Erft; fue la catástrofe más cara para las aseguradoras alemanas. El golpe recayó en la cobertura de daños europea (no suele estar en cat bonds) y empujó a las reaseguradoras a subir precios y retenciones en Europa en 2022–2023.",
+  "activos_afectados": [
+   {
+    "activo": "Reaseguradoras europeas (Munich Re, Hannover Re, Swiss Re)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Aseguradoras alemanas (Allianz)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bund",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "fin",
+   "de",
+   "eu"
+  ],
+  "pérdidas_aseguradas": "Alemania 8.200 M€ (GDV, dic-2021); RMS 5.000–6.500 M€ para Europa occidental (≈25 % Bélgica)",
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Artemis: GDV eleva la estimación",
+    "u": "https://www.artemis.bm/news/flood-insured-loss-estimate-top-end-raised-to-eur-5-5bn-for-germany-gdv/"
+   },
+   {
+    "t": "2021 European floods (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2021_European_floods"
+   }
+  ]
+ },
+ {
+  "id": "2021-08-30-huracan-ida-luisiana-nueva-york",
+  "fecha": "2021-08-30",
+  "fecha_real": "2021-08-29",
+  "fin": null,
+  "titulo": "Huracán Ida: Luisiana y después inundaciones en Nueva York",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "Ida tocó tierra el domingo 29-ago en Port Fourchon como categoría 4, cerró más del 90 % de la producción del golfo de México y paralizó refinerías; sus restos causaron inundaciones mortales en el noreste. Fue la mayor pérdida del año para cat bonds y reaseguro, aunque los cat bonds de indemnización sufrieron menos que la cobertura colateralizada.",
+  "activos_afectados": [
+   {
+    "activo": "Crudo WTI / producción del golfo",
+    "sentido": "+",
+    "magnitud": "cierre de >90 % de la producción offshore"
+   },
+   {
+    "activo": "Cat bonds / ILS",
+    "sentido": "-"
+   },
+   {
+    "activo": "Reaseguradoras",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "ene",
+   "fin"
+  ],
+  "pérdidas_aseguradas": "RMS 31.000–44.000 M$ (incluye inundación del noreste y offshore); AIR 20.000–30.000 M$",
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "RMS: 31.000–44.000 M$ en total",
+    "u": "https://www.moodys.com/web/en/us/insights/announcements/rms-estimates-us31-44-billion-in-total-us-onshore-and-offshore-insured-losses-from-hurricane-ida.html"
+   }
+  ]
+ },
+ {
+  "id": "2022-09-28-huracan-ian-florida",
+  "fecha": "2022-09-28",
+  "fin": "2022-10-07",
+  "titulo": "Huracán Ian (cat. 4) en Florida: el gran golpe a los cat bonds",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "Ian tocó tierra en Cayo Costa (suroeste de Florida) con vientos de 240 km/h y marejada histórica en Fort Myers. Fue la segunda mayor pérdida asegurada de un huracán en EE. UU.; los cat bonds expuestos a Florida se desplomaron en el secundario, quedó atrapado capital ILS y el mercado entró en el endurecimiento del 1-ene-2023.",
+  "activos_afectados": [
+   {
+    "activo": "Fondos UCITS de cat bonds",
+    "sentido": "-",
+    "magnitud": "caída ~4–7 % según clase; en ene-2023 la pérdida en USD ya se había reducido al 3,7 %"
+   },
+   {
+    "activo": "Cat bonds de aseguradoras de Florida (Integrity Re, etc.)",
+    "sentido": "-",
+    "magnitud": "algunos con pérdida total"
+   },
+   {
+    "activo": "Reaseguradoras",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "fin"
+  ],
+  "pérdidas_aseguradas": "Consenso ~50.000–65.000 M$ (Plenum ~50.000 M$; estimaciones iniciales de hasta 70.000 M$); Fitch: 15.000–18.000 M$ de capital ILS atrapado",
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Funds Society: Ian pone a prueba el apetito por cat bonds",
+    "u": "https://www.fundssociety.com/en/news/alternatives/hurricane-ian-fallout-will-test-catastrophe-bond-investor-appetite/"
+   },
+   {
+    "t": "Intelligent Insurer: fondos cat bond recortan la pérdida de Ian al 3,7 %",
+    "u": "https://www.intelligentinsurer.com/insurance/cat-bond-funds-end-2022-on-enduring-recovery-cut-ian-losses-to-3-7-31459"
+   },
+   {
+    "t": "Insurance Day: agotamiento de capital tras Ian",
+    "u": "https://insuranceday.com/ID1142333/Cat-bonds-face-depletion-in-wake-of-Ian-losses"
+   }
+  ]
+ },
+ {
+  "id": "2023-01-02-renovaciones-reaseguro-endurecimiento",
+  "fecha": "2023-01-02",
+  "fecha_real": "2023-01-01",
+  "fin": null,
+  "titulo": "Renovaciones del 1 de enero: el mayor endurecimiento del reaseguro en décadas",
+  "pais": [
+   "GLOBAL",
+   "US",
+   "EU"
+  ],
+  "tipo": "flujos_posicionamiento",
+  "tipos_secundarios": [
+   "regulacion"
+  ],
+  "mecanismo": "Tras Ian, la inflación de costes y la huida de capital ILS, los reaseguradores impusieron subidas de precio y, sobre todo, retenciones mucho más altas. Más precio por menos riesgo de frecuencia elevó los márgenes de Munich Re, Swiss Re o Hannover Re y los diferenciales de los nuevos cat bonds, base de la rentabilidad récord de 2023.",
+  "activos_afectados": [
+   {
+    "activo": "Índice Guy Carpenter de rate-on-line global",
+    "sentido": "+",
+    "magnitud": "+27,5 % (EE. UU. +30,1 %, máximo histórico; Europa continental +30 %)"
+   },
+   {
+    "activo": "Reaseguradoras cotizadas",
+    "sentido": "+"
+   },
+   {
+    "activo": "Diferenciales de cat bonds nuevos",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "fin"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Reinsurance News: rate-on-line global +27,5 % el 1-ene",
+    "u": "https://www.reinsurancene.ws/global-property-cat-rates-on-line-up-27-5-at-jan-1-renewals-guy-carpenter/"
+   },
+   {
+    "t": "Artemis: rate-on-line de EE. UU. en máximo histórico",
+    "u": "https://www.artemis.bm/news/us-property-catastrophe-reinsurance-rates-record-high-guy-carpenter/"
+   }
+  ],
+  "nota": "Hito contractual (no de mercado): 2-ene-2023 sesión en Europa; EE. UU. cerrado ese día."
+ },
+ {
+  "id": "2023-02-06-terremoto-turquia-siria",
+  "fecha": "2023-02-06",
+  "fin": null,
+  "titulo": "Terremotos de Kahramanmaraş (Mw 7,8 y 7,5) en Turquía y Siria",
+  "pais": [
+   "TR",
+   "SY"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "Dos sismos de madrugada destruyeron ciudades del sureste turco; fue la catástrofe asegurada más cara de la historia de Turquía, aunque con baja penetración del seguro. La bolsa de Estambul suspendió la negociación el 8-feb; en reaseguro el impacto se concentró en programas turcos y en el pool TCIP.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa de Estambul (BIST 100)",
+    "sentido": "-",
+    "magnitud": "cierre temporal del mercado tras fuertes caídas"
+   },
+   {
+    "activo": "Reaseguradoras con cartera turca",
+    "sentido": "-"
+   },
+   {
+    "activo": "Cementeras y constructoras turcas",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "tr",
+   "cat",
+   "em"
+  ],
+  "pérdidas_aseguradas": "PERILS 116.900 M TRY ≈ 6.200 M$ (solo daños en Turquía); Fitch inicial ~1.000 M$",
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "PERILS: pérdida final 116.900 M TRY (~6.200 M$)",
+    "u": "https://www.insurancebusinessmag.com/nz/news/catastrophe/2023-turkey-earthquake-perils-reports-6-2-billion-in-insured-property-losses-500212.aspx"
+   },
+   {
+    "t": "Moody's RMS: >5.000 M$ asegurados",
+    "u": "https://www.moodys.com/web/en/us/insights/announcements/moodys-rms-estimates-total-economic-and-insured-losses-from-the-turkiye-earthquakes-likely-to-exceed-us25-billion-and-us5-billion-respectively.html"
+   }
+  ]
+ },
+ {
+  "id": "2023-08-08-incendio-maui-lahaina",
+  "fecha": "2023-08-08",
+  "fin": "2023-08-11",
+  "titulo": "Incendio de Lahaina (Maui, Hawái)",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Vientos del huracán Dora sobre vegetación seca propagaron incendios que arrasaron Lahaina. Las acusaciones contra la eléctrica Hawaiian Electric por no cortar la red hundieron su acción; el evento consolidó el riesgo de incendio provocado por líneas eléctricas como factor para utilities y aseguradoras.",
+  "activos_afectados": [
+   {
+    "activo": "Hawaiian Electric (HE)",
+    "sentido": "-",
+    "magnitud": "pérdida de más de la mitad del valor en pocos días"
+   },
+   {
+    "activo": "Aseguradoras de daños en EE. UU.",
+    "sentido": "-",
+    "magnitud": "leve"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "inf",
+   "us"
+  ],
+  "pérdidas_aseguradas": "KCC ~3.200 M$; Moody's RMS 2.500–4.000 M$",
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Moody's RMS: 2.500–4.000 M$",
+    "u": "https://www.captive.com/news/moodys-rms-estimates-maui-wildfire-insured-loss-at-up-to-4-billion"
+   },
+   {
+    "t": "KCC: ~3.200 M$ asegurados",
+    "u": "https://amp.insurancejournal.com/news/west/2023/08/15/735502.htm"
+   }
+  ]
+ },
+ {
+  "id": "2023-08-30-huracan-idalia-florida",
+  "fecha": "2023-08-30",
+  "fin": null,
+  "titulo": "Huracán Idalia (cat. 3) en el Big Bend de Florida",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "Idalia tocó tierra en una zona poco poblada de Florida, por lo que la pérdida quedó en la parte baja de las estimaciones. Los cat bonds de Florida apenas se movieron y el mercado ILS siguió acumulando rentabilidad en su mejor año.",
+  "activos_afectados": [
+   {
+    "activo": "Cat bonds de Florida",
+    "sentido": "±",
+    "magnitud": "movimiento mínimo"
+   }
+  ],
+  "temas_fondos": [
+   "cat"
+  ],
+  "pérdidas_aseguradas": "Moody's RMS 3.000–5.000 M$ (mejor estimación 3.500 M$) + ~500 M$ NFIP; Verisk 2.500–4.000 M$",
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Moody's RMS: 3.000–5.000 M$ privados",
+    "u": "https://www.moodys.com/web/en/us/insights/announcements/moodys-rms-estimates-us3-billion-to-us5-billion-in-private-market-insured-losses-from-major-hurricane-idalia.html"
+   }
+  ]
+ },
+ {
+  "id": "2023-09-11-terremoto-marruecos",
+  "fecha": "2023-09-11",
+  "fecha_real": "2023-09-08",
+  "fin": null,
+  "titulo": "Terremoto de Al Haouz (Mw 6,8) en Marruecos",
+  "pais": [
+   "MA"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "El sismo de la noche del viernes 8-sep en el Alto Atlas causó cerca de 3.000 muertos. La pérdida asegurada fue pequeña por la baja cobertura; el efecto de mercado se limitó a la bolsa de Casablanca y al bono soberano marroquí.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa de Casablanca (MASI)",
+    "sentido": "-",
+    "magnitud": "caída el primer día"
+   },
+   {
+    "activo": "Reaseguro",
+    "sentido": "±",
+    "magnitud": "irrelevante"
+   }
+  ],
+  "temas_fondos": [
+   "front",
+   "em"
+  ],
+  "pérdidas_aseguradas": "Baja; sin cifra consolidada de la industria",
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "2023 Marrakesh–Safi earthquake (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2023_Marrakesh%E2%80%93Safi_earthquake"
+   }
+  ]
+ },
+ {
+  "id": "2023-12-29-cat-bonds-rentabilidad-record-2023",
+  "fecha": "2023-12-29",
+  "fin": null,
+  "titulo": "Los cat bonds cierran 2023 con su mejor año: +19,7 % (índice Swiss Re)",
+  "pais": [
+   "GLOBAL"
+  ],
+  "tipo": "flujos_posicionamiento",
+  "tipos_secundarios": [
+   "estacionalidad"
+  ],
+  "mecanismo": "Diferenciales disparados tras Ian, renovaciones duras, tipos monetarios del 5 % sobre el colateral y un año sin gran huracán en EE. UU. se sumaron. El índice de cat bonds de Swiss Re batió su récord anterior (15,4 % en 2007) y atrajo entradas a los UCITS de cat bonds en 2024, que también fue un año muy rentable.",
+  "activos_afectados": [
+   {
+    "activo": "Swiss Re Global Cat Bond Index (total return)",
+    "sentido": "+",
+    "magnitud": "+19,69 % en 2023; +10,34 % en el primer semestre"
+   },
+   {
+    "activo": "UCITS de cat bonds",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "cat"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Artemis: índice Swiss Re +19,69 % en 2023",
+    "u": "https://www.artemis.bm/news/swiss-re-cat-bond-index-hits-record-19-69-total-return-for-2023/"
+   }
+  ]
+ },
+ {
+  "id": "2024-01-02-terremoto-noto-japon",
+  "fecha": "2024-01-02",
+  "fecha_real": "2024-01-01",
+  "fin": null,
+  "titulo": "Terremoto de Noto (Mw 7,5) el día de Año Nuevo en Japón",
+  "pais": [
+   "JP"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "El sismo del 1-ene golpeó la península de Noto (Ishikawa) con tsunami e incendios. Primera gran pérdida del año para aseguradoras japonesas y para el mutualismo (Kyosai); el efecto en cat bonds fue limitado porque la zona no concentraba exposición de los bonos de terremoto de Tokio.",
+  "activos_afectados": [
+   {
+    "activo": "Aseguradoras japonesas",
+    "sentido": "-",
+    "magnitud": "caídas en la reapertura de Tokio el 4-ene"
+   },
+   {
+    "activo": "Cat bonds de terremoto Japón",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "jp",
+   "cat"
+  ],
+  "pérdidas_aseguradas": "Moody's RMS 3.000–6.000 M$; Verisk 1.800–3.300 M$",
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Moody's RMS: 435.000–870.000 M¥ (3.000–6.000 M$)",
+    "u": "https://www.moodys.com/web/en/us/insights/announcements/moodys-rms-estimates-total-insured-losses-from-noto-peninsula-japan-earthquake-will-likely-range-between-jpy-y-435-billion-to-y-870-billion-us3-billion.html"
+   },
+   {
+    "t": "Verisk: 1.800–3.300 M$",
+    "u": "https://www.tipranks.com/news/press-releases/verisk-estimates-industry-insured-losses-for-the-noto-peninsula-earthquake-to-range-from-jpy-260-billion-to-jpy-480-billion-usd-1-8-billion-to-3-3-billion"
+   }
+  ],
+  "nota": "Primera sesión global el 2-ene; la bolsa de Tokio reabrió el 4-ene."
+ },
+ {
+  "id": "2024-07-08-huracan-beryl-texas",
+  "fecha": "2024-07-08",
+  "fin": null,
+  "titulo": "Huracán Beryl: el más temprano de categoría 5 y golpe a Houston",
+  "pais": [
+   "US",
+   "JM",
+   "MX"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "Beryl fue el huracán de categoría 5 más temprano registrado en el Atlántico (1-jul) y tocó tierra en Texas el 8-jul. Dejó a más de dos millones de clientes de CenterPoint sin luz y marcó el inicio de una temporada caliente por la temperatura récord del Atlántico, que mantuvo altos los diferenciales de cat bonds.",
+  "activos_afectados": [
+   {
+    "activo": "CenterPoint Energy",
+    "sentido": "-"
+   },
+   {
+    "activo": "Cat bonds / ILS",
+    "sentido": "±",
+    "magnitud": "pérdida modesta"
+   },
+   {
+    "activo": "Gasolina y refino de la costa del golfo",
+    "sentido": "±",
+    "magnitud": "breve"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "inf"
+  ],
+  "pérdidas_aseguradas": "Moody's RMS 2.500–4.500 M$; Verisk 2.000–3.000 M$ (solo viento)",
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Verisk: 2.000–3.000 M$",
+    "u": "https://www.tipranks.com/news/press-releases/verisk-estimates-industry-insured-losses-in-u-s-for-hurricane-beryl-will-range-between-usd-2-billion-to-usd-3-billion"
+   }
+  ]
+ },
+ {
+  "id": "2024-09-26-huracan-helene",
+  "fecha": "2024-09-26",
+  "fin": "2024-09-30",
+  "titulo": "Huracán Helene: Big Bend de Florida e inundaciones en los Apalaches",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "Helene tocó tierra en la noche del 26-sep como categoría 4 y sus lluvias devastaron el oeste de Carolina del Norte, gran parte sin seguro de inundación. Cerró la mina de cuarzo de alta pureza de Spruce Pine, clave para semiconductores, y precedió a Milton en dos semanas.",
+  "activos_afectados": [
+   {
+    "activo": "Cat bonds / ILS",
+    "sentido": "-",
+    "magnitud": "leve"
+   },
+   {
+    "activo": "Cadena de cuarzo de alta pureza para chips",
+    "sentido": "±",
+    "magnitud": "riesgo de suministro"
+   },
+   {
+    "activo": "Aseguradoras de daños en EE. UU.",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "semi"
+  ],
+  "pérdidas_aseguradas": "Verisk 6.000–11.000 M$ (excluye NFIP); Moody's RMS 8.000–14.000 M$",
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Verisk: 6.000–11.000 M$ (sin NFIP)",
+    "u": "https://www.verisk.com/company/newsroom/verisk-estimates-industry-insured-losses-in-u.s.-for-hurricane-helene-will-range-between-usd-6-billion-to-usd-11-billion/"
+   }
+  ]
+ },
+ {
+  "id": "2024-10-10-huracan-milton-florida",
+  "fecha": "2024-10-10",
+  "fecha_real": "2024-10-09",
+  "fin": "2024-10-15",
+  "titulo": "Huracán Milton en Siesta Key (Florida)",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [],
+  "mecanismo": "Milton se intensificó en el golfo hasta categoría 5 y tocó tierra la noche del 9-oct como categoría 3. El miedo a un impacto directo en Tampa hundió los cat bonds de Florida antes de la llegada; al desviarse al sur y debilitarse, el secundario rebotó con fuerza en los días siguientes.",
+  "activos_afectados": [
+   {
+    "activo": "UCITS de cat bonds",
+    "sentido": "±",
+    "magnitud": "caída previa y rebote tras la llegada"
+   },
+   {
+    "activo": "Aseguradoras de Florida",
+    "sentido": "±"
+   },
+   {
+    "activo": "Gasolina en Florida",
+    "sentido": "+",
+    "magnitud": "escasez local"
+   }
+  ],
+  "temas_fondos": [
+   "cat"
+  ],
+  "pérdidas_aseguradas": "Verisk 30.000–50.000 M$; Moody's RMS 35.000–55.000 M$ para Helene y Milton juntos",
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Bloomberg Law: Helene y Milton podrían costar hasta 55.000 M$",
+    "u": "https://news.bloomberglaw.com/insurance/helene-milton-seen-costing-insurers-as-much-as-55-billion"
+   },
+   {
+    "t": "Carrier Management: Verisk 30.000–50.000 M$ para Milton",
+    "u": "https://www.carriermanagement.com/news/2024/10/09/267422.htm"
+   }
+  ]
+ },
+ {
+  "id": "2024-10-30-dana-valencia",
+  "fecha": "2024-10-30",
+  "fecha_real": "2024-10-29",
+  "fin": null,
+  "titulo": "DANA de Valencia: la mayor catástrofe asegurada de España",
+  "pais": [
+   "ES"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Lluvias de más de 400 mm en pocas horas el martes 29-oct desbordaron la rambla del Poyo y anegaron l'Horta Sud. El Consorcio de Compensación de Seguros (riesgos extraordinarios) asume la mayor parte, por lo que el golpe a aseguradoras cotizadas (Mapfre, Mutua) y al reaseguro fue limitado; sí afectó a la industria y la logística del área de Valencia.",
+  "activos_afectados": [
+   {
+    "activo": "Mapfre, Línea Directa, Catalana Occidente",
+    "sentido": "±",
+    "magnitud": "impacto limitado al cubrir el Consorcio"
+   },
+   {
+    "activo": "Consorcio de Compensación de Seguros",
+    "sentido": "-",
+    "magnitud": ">4.000 M€ pagados a nov-2025"
+   },
+   {
+    "activo": "Logística/automoción en Valencia (Ford Almussafes)",
+    "sentido": "-",
+    "magnitud": "paradas de producción"
+   }
+  ],
+  "temas_fondos": [
+   "es",
+   "cat",
+   "fin"
+  ],
+  "pérdidas_aseguradas": "Consorcio: >4.000 M€ pagados (nov-2025); desembolso previsto ~4.800 M€ (ministro de Economía, sep-2025)",
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "La Moncloa: el Consorcio supera los 4.000 M€ pagados",
+    "u": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/economia-comercio-empresa/Paginas/2025/261125-indemnizacion-dana.aspx"
+   },
+   {
+    "t": "DANA de 2024 (Wikipedia)",
+    "u": "https://es.wikipedia.org/wiki/DANA_de_2024"
+   }
+  ],
+  "nota": "Fecha de mercado: 30-oct (primera sesión con el alcance conocido); la riada fue la tarde-noche del 29-oct."
+ },
+ {
+  "id": "2025-01-08-incendios-los-angeles",
+  "fecha": "2025-01-08",
+  "fecha_real": "2025-01-07",
+  "fin": "2025-01-31",
+  "titulo": "Incendios de Palisades y Eaton en Los Ángeles",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Vientos de Santa Ana sobre vegetación seca tras dos años húmedos y un otoño sin lluvia propagaron incendios desde el 7-ene que destruyeron miles de viviendas de alto valor. Mayor pérdida asegurada por incendio de la historia y del año 2025; hundió a Edison International por la posible responsabilidad de sus líneas en Eaton y tensionó al FAIR Plan californiano.",
+  "activos_afectados": [
+   {
+    "activo": "Edison International (EIX)",
+    "sentido": "-",
+    "magnitud": "fuerte caída en la semana"
+   },
+   {
+    "activo": "Aseguradoras de daños (Allstate, Chubb, Travelers)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Cat bonds",
+    "sentido": "-",
+    "magnitud": "impacto acotado; los incendios pesan más en reaseguro agregado"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "inf",
+   "us"
+  ],
+  "pérdidas_aseguradas": "Verisk 28.000–35.000 M$; Moody's RMS 20.000–30.000 M$; CoreLogic 35.000–45.000 M$",
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Verisk: 28.000–35.000 M$ asegurados",
+    "u": "https://amp.insurancejournal.com/news/west/2025/01/22/809159.htm"
+   },
+   {
+    "t": "The Insurer: Moody's RMS 20.000–30.000 M$",
+    "u": "https://theinsurer.com/ti/news/moodys-rms-estimates-la-wildfire-insured-losses-at-20bn-30bn-2025-01-17"
+   }
+  ]
+ },
+ {
+  "id": "2023-06-01-temporada-huracanes-estacionalidad-cat",
+  "fecha": "2023-06-01",
+  "fin": "2023-11-30",
+  "titulo": "Temporada de huracanes (1-jun a 30-nov): estacionalidad de los cat bonds",
+  "pais": [
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "estacionalidad",
+  "tipos_secundarios": [],
+  "mecanismo": "Los cat bonds de huracán devengan la mayor parte de su prima en verano y otoño y su precio en el secundario baja antes del pico (ago–oct) y se recupera al cerrar la temporada en noviembre. Por eso los UCITS de cat bonds suelen mostrar retornos más altos de diciembre a mayo y los «sustos» de huracán concentran su volatilidad.",
+  "activos_afectados": [
+   {
+    "activo": "UCITS de cat bonds",
+    "sentido": "±",
+    "magnitud": "patrón estacional recurrente cada año"
+   }
+  ],
+  "temas_fondos": [
+   "cat"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Artemis: la estacionalidad sale de los retornos tras la temporada",
+    "u": "https://www.artemis.bm/news/swiss-re-cat-bond-index-hits-record-19-69-total-return-for-2023/"
+   }
+  ],
+  "nota": "Evento recurrente; se fecha en 2023 como ejemplo, aplica a todos los años 2019–2025."
+ },
+ {
+  "id": "2020-09-10-la-nina-2020-2023",
+  "fecha": "2020-09-10",
+  "fin": "2023-03-09",
+  "titulo": "Arranca La Niña de «triple caída» (2020–2023)",
+  "pais": [
+   "GLOBAL",
+   "AR",
+   "BR",
+   "US",
+   "AU"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [],
+  "mecanismo": "La NOAA declaró condiciones de La Niña en septiembre de 2020 y el episodio se prolongó tres inviernos, algo poco habitual. Trajo sequías al sur de Brasil, Argentina y las Grandes Llanuras de EE. UU., y lluvias en Australia, sosteniendo el alza de soja, maíz, trigo de invierno y café hasta 2022.",
+  "activos_afectados": [
+   {
+    "activo": "Soja y maíz (CBOT)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Trigo HRW de Kansas",
+    "sentido": "+"
+   },
+   {
+    "activo": "Café y azúcar",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp",
+   "br",
+   "latam"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2020–2023 La Niña event (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2020%E2%80%932023_La_Ni%C3%B1a_event"
+   }
+  ]
+ },
+ {
+  "id": "2021-02-16-tormenta-uri-texas",
+  "fecha": "2021-02-16",
+  "fecha_real": "2021-02-13",
+  "fin": "2021-02-19",
+  "titulo": "Tormenta invernal Uri: congelación en Texas y caos en el gas",
+  "pais": [
+   "US"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [
+   "catastrofe_natural"
+  ],
+  "mecanismo": "Una ola de frío ártico del 13 al 17 de febrero congeló pozos, gasoductos y centrales; ERCOT impuso apagones masivos y fijó el precio mayorista en el techo de 9.000 $/MWh durante días. Los precios spot del gas en hubs regionales se dispararon a cientos de $/MMBtu y la producción de crudo de EE. UU. cayó temporalmente; también fue una gran pérdida asegurada.",
+  "activos_afectados": [
+   {
+    "activo": "Gas natural spot en hubs del centro de EE. UU.",
+    "sentido": "+",
+    "magnitud": "cientos de $/MMBtu"
+   },
+   {
+    "activo": "Electricidad ERCOT",
+    "sentido": "+",
+    "magnitud": "9.000 $/MWh (techo regulatorio)"
+   },
+   {
+    "activo": "Crudo WTI",
+    "sentido": "+",
+    "magnitud": "pérdida temporal de producción en Pérmico"
+   },
+   {
+    "activo": "Eléctricas texanas (Vistra) y cooperativas (Brazos, en quiebra)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "inf",
+   "cat",
+   "us"
+  ],
+  "pérdidas_aseguradas": "10.000–20.000 M$ (BMA); KCC ~18.000 M$; ~10.300 M$ en Texas (balance ene-2022)",
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "2021 Texas power crisis (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2021_Texas_power_crisis"
+   },
+   {
+    "t": "Artemis: Fitch ve hasta 20.000 M$ asegurados",
+    "u": "https://www.artemis.bm/news/winter-storm-uri-insured-loss-seen-up-to-20bn-fitch/"
+   }
+  ],
+  "nota": "Lunes 15-feb festivo en EE. UU. (Presidents Day); se toma el 16-feb como primera sesión completa."
+ },
+ {
+  "id": "2021-07-20-helada-cafe-brasil",
+  "fecha": "2021-07-20",
+  "fin": "2021-07-30",
+  "titulo": "Helada severa en el cinturón cafetero de Brasil",
+  "pais": [
+   "BR"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [],
+  "mecanismo": "Heladas del 20-jul, las peores desde 1994, dañaron entre 150.000 y 200.000 ha de arábica en Minas Gerais y São Paulo (≈11 % del área). Como el daño afecta a la cosecha siguiente, el arábica de Nueva York subió con fuerza y alcanzó máximos de siete años; el efecto se sumó a la sequía de La Niña y a los fletes caros.",
+  "activos_afectados": [
+   {
+    "activo": "Café arábica (ICE KC)",
+    "sentido": "+",
+    "magnitud": "+~30 % desde el 19-jul; 2,152 $/lb el 26-jul, máximo desde oct-2014"
+   },
+   {
+    "activo": "Azúcar y maíz brasileños",
+    "sentido": "+",
+    "magnitud": "daños menores"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp",
+   "br"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Fortune: el café se dispara por la helada",
+    "u": "https://fortune.com/2021/07/26/coffee-prices-surge-as-freezing-temperatures-destroy-brazils-crops"
+   },
+   {
+    "t": "Tea & Coffee: arábica en máximos desde 2014",
+    "u": "https://www.teaandcoffee.net/news/27534/arabica-prices-hit-highest-levels-since-2014-but-concerns-about-origins-grow/"
+   }
+  ]
+ },
+ {
+  "id": "2021-09-13-sequia-viento-europa",
+  "fecha": "2021-09-13",
+  "fin": "2021-10-06",
+  "titulo": "«Sequía de viento» en Europa y crisis eléctrica de otoño de 2021",
+  "pais": [
+   "GB",
+   "DE",
+   "EU"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "Un verano con vientos muy por debajo de lo normal en el mar del Norte redujo la eólica y obligó a quemar más gas cuando los almacenes estaban bajos y Rusia limitaba envíos. A mediados de septiembre la electricidad británica marcó récords (con un incendio en el cable IFA con Francia) y el TTF inició su escalada hacia los máximos de octubre-diciembre.",
+  "activos_afectados": [
+   {
+    "activo": "Gas TTF",
+    "sentido": "+"
+   },
+   {
+    "activo": "Electricidad Reino Unido y Alemania",
+    "sentido": "+",
+    "magnitud": "récords en sep-2021"
+   },
+   {
+    "activo": "Eléctricas renovables (SSE, Ørsted)",
+    "sentido": "-",
+    "magnitud": "menor producción"
+   },
+   {
+    "activo": "Derechos de CO2 (EUA)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "limpia",
+   "uk",
+   "eu"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "OE Digital: los vientos débiles agravaron la crisis eléctrica",
+    "u": "https://www.oedigital.com/amp/news/493030-weak-winds-worsened-europe-s-power-crunch-utilities-need-better-storage"
+   },
+   {
+    "t": "S&P Global: precios spot de electricidad récord en 2021",
+    "u": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/081821-eu-wind-solar-peak-at-123-gw-helping-to-ease-record-spot-power-prices"
+   }
+  ],
+  "nota": "Fecha aproximada: el déficit de viento abarca el verano; se toma el pico de precios británicos de mediados de septiembre."
+ },
+ {
+  "id": "2018-10-22-rin-bajo-2018-referencia",
+  "fecha": "2018-10-22",
+  "fin": "2018-11-30",
+  "titulo": "Referencia: Rin en mínimo histórico en Kaub (otoño de 2018)",
+  "pais": [
+   "DE",
+   "NL",
+   "CH"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [
+   "logistica"
+  ],
+  "mecanismo": "La sequía de 2018 dejó el Rin en Kaub por debajo de 30 cm durante semanas; las barcazas cargaban un tercio de lo normal, se dispararon los fletes fluviales y BASF tuvo que recortar producción. El episodio restó décimas al PIB alemán de 2018 y es el patrón de referencia para 2022.",
+  "activos_afectados": [
+   {
+    "activo": "Fletes fluviales del Rin",
+    "sentido": "+"
+   },
+   {
+    "activo": "Químicas alemanas (BASF)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Gasóleo en el sur de Alemania y Suiza",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "de",
+   "mat"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Bloomberg/BNN: Kaub y los niveles críticos del Rin",
+    "u": "https://ampvideo.bnnbloomberg.ca/rhine-river-water-level-at-kaub-seen-dropping-to-30cm-on-aug-15-1.1805204"
+   }
+  ],
+  "nota": "Fuera del periodo 2019–2025, incluido solo como referencia. Mínimo citado de ~25 cm en Kaub no verificado en esta búsqueda."
+ },
+ {
+  "id": "2022-08-12-rin-bajo-kaub",
+  "fecha": "2022-08-12",
+  "fin": "2022-08-26",
+  "titulo": "Sequía de 2022: el Rin en Kaub cae a ~30 cm",
+  "pais": [
+   "DE",
+   "NL",
+   "CH"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [
+   "logistica"
+  ],
+  "mecanismo": "La peor sequía en siglos en Europa bajó el Rin en Kaub hasta unos 30 cm el 15-ago, por debajo del umbral de 40 cm en que muchas barcazas dejan de ser rentables. Encareció el transporte de carbón a las centrales alemanas justo cuando se necesitaba sustituir gas ruso y elevó los precios eléctricos alemanes.",
+  "activos_afectados": [
+   {
+    "activo": "Electricidad alemana",
+    "sentido": "+"
+   },
+   {
+    "activo": "Carbón API2 en Europa",
+    "sentido": "+"
+   },
+   {
+    "activo": "Fletes fluviales",
+    "sentido": "+"
+   },
+   {
+    "activo": "Químicas y acereras alemanas",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "de",
+   "ene",
+   "mat"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "gCaptain: el Rin sigue bajando y detiene barcazas",
+    "u": "https://gcaptain.com/rhine-river-shrinks-further-halting-some-barges"
+   },
+   {
+    "t": "Bloomberg: el Rin cae más mientras la AIE ve crisis prolongada",
+    "u": "https://www.bloomberg.com/news/articles/2022-08-11/rhine-river-level-to-drop-further-as-iea-sees-prolonged-crisis"
+   }
+  ]
+ },
+ {
+  "id": "2022-08-22-ola-calor-europa-electricidad",
+  "fecha": "2022-08-22",
+  "fin": "2022-08-29",
+  "titulo": "Ola de calor y sequía de 2022 disparan la electricidad europea",
+  "pais": [
+   "FR",
+   "DE",
+   "EU"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "El calor del verano de 2022 coincidió con la mitad del parque nuclear francés parado (corrosión y mantenimiento) y con ríos demasiado cálidos para refrigerar; la hidráulica también se hundió. Con el gas ruso recortado, los futuros eléctricos anuales alemanes y franceses marcaron récords sucesivos en agosto.",
+  "activos_afectados": [
+   {
+    "activo": "Futuro eléctrico alemán año siguiente",
+    "sentido": "+",
+    "magnitud": "récord de 709 €/MWh el 22-ago (+50 % en dos semanas)"
+   },
+   {
+    "activo": "Futuro eléctrico francés año siguiente",
+    "sentido": "+",
+    "magnitud": "récords aún mayores"
+   },
+   {
+    "activo": "EDF",
+    "sentido": "-"
+   },
+   {
+    "activo": "Eléctricas con generación renovable",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "inf",
+   "eu",
+   "de"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Euronews/Reuters: récord del contrato anual alemán",
+    "u": "https://www.euronews.com/next/2022/08/24/europe-power"
+   },
+   {
+    "t": "Bloomberg: electricidad en récords con la ola de calor",
+    "u": "https://www.bloomberg.com/news/articles/2022-08-08/german-power-rises-to-record-as-heat-wave-scorches-europe"
+   },
+   {
+    "t": "2022 European heatwaves (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2022_European_heatwaves"
+   }
+  ],
+  "nota": "El pico posterior (~1.000 €/MWh alemán el 26-ago) no se verificó en fuente; solo se recoge el récord de 709 €/MWh."
+ },
+ {
+  "id": "2023-07-17-ola-calor-europa-2023",
+  "fecha": "2023-07-17",
+  "fin": "2023-07-28",
+  "titulo": "Ola de calor de julio de 2023 en el sur de Europa",
+  "pais": [
+   "IT",
+   "ES",
+   "GR"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [],
+  "mecanismo": "Un anticiclón persistente llevó temperaturas récord a Italia, Grecia y España e incendios en Rodas. Con almacenes de gas llenos y nuclear francesa recuperada, el efecto en precios fue mucho menor que en 2022: subidas puntuales de la electricidad italiana y del TTF, y mala temporada para turismo y agricultura mediterránea.",
+  "activos_afectados": [
+   {
+    "activo": "Electricidad italiana (PUN)",
+    "sentido": "+",
+    "magnitud": "puntual"
+   },
+   {
+    "activo": "Gas TTF",
+    "sentido": "±"
+   },
+   {
+    "activo": "Aceite de oliva",
+    "sentido": "+",
+    "magnitud": "sequía acumulada"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "agri",
+   "eu"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "2023 European heatwaves (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2023_European_heatwaves"
+   }
+  ]
+ },
+ {
+  "id": "2023-06-08-el-nino-2023-2024",
+  "fecha": "2023-06-08",
+  "fin": "2024-06-13",
+  "titulo": "La NOAA declara El Niño (2023–2024)",
+  "pais": [
+   "GLOBAL",
+   "IN",
+   "AU",
+   "ID",
+   "CI",
+   "GH",
+   "PA"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [],
+  "mecanismo": "La NOAA confirmó El Niño el 8-jun-2023. El episodio redujo lluvias en India, el sudeste asiático, Australia y Panamá, y alteró las de África occidental: detrás del monzón débil, el veto indio al arroz, la sequía del canal de Panamá y, en parte, el récord del cacao. También contribuyó al año más cálido registrado.",
+  "activos_afectados": [
+   {
+    "activo": "Arroz, azúcar y aceite de palma",
+    "sentido": "+"
+   },
+   {
+    "activo": "Cacao",
+    "sentido": "+"
+   },
+   {
+    "activo": "Fletes por el canal de Panamá",
+    "sentido": "+"
+   },
+   {
+    "activo": "Trigo australiano",
+    "sentido": "-",
+    "magnitud": "menor cosecha"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp",
+   "in"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2023–2024 El Niño event (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2023%E2%80%932024_El_Ni%C3%B1o_event"
+   },
+   {
+    "t": "S&P Global: el canal de Panamá y El Niño",
+    "u": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/crude-oil/103123-interview-panama-canal-faces-prolonged-impact-from-el-nino-climate-change"
+   }
+  ]
+ },
+ {
+  "id": "2023-07-20-india-veta-arroz-monzon-debil",
+  "fecha": "2023-07-20",
+  "fin": null,
+  "titulo": "India prohíbe exportar arroz blanco no basmati ante el monzón irregular",
+  "pais": [
+   "IN",
+   "GLOBAL"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Con El Niño amenazando el monzón y la inflación alimentaria al alza, India (40 % del comercio mundial de arroz) prohibió exportar arroz blanco no basmati. Los precios de exportación asiáticos se dispararon y el monzón acabó con déficit (agosto de 2023, extremadamente seco), lo que llevó después a limitar también el azúcar.",
+  "activos_afectados": [
+   {
+    "activo": "Arroz de exportación asiático (Tailandia, Vietnam)",
+    "sentido": "+",
+    "magnitud": "Indica indio de 355 $/t a 495 $/t a mediados de julio"
+   },
+   {
+    "activo": "Arroz CBOT",
+    "sentido": "+"
+   },
+   {
+    "activo": "Azúcar",
+    "sentido": "+",
+    "magnitud": "temor a límites de exportación indios"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "in",
+   "em"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "USDA FAS: India prohíbe exportar arroz blanco no basmati",
+    "u": "https://www.fas.usda.gov/data/india-india-bans-export-non-basmati-white-rice"
+   },
+   {
+    "t": "S&P Global: notificación de la DGFT",
+    "u": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/agriculture/072023-india-bans-export-of-non-basmati-white-rice-dgft"
+   }
+  ],
+  "nota": "El déficit concreto del monzón de 2023 (≈6 % según el IMD) no se verificó en esta búsqueda."
+ },
+ {
+  "id": "2023-07-31-sequia-canal-panama",
+  "fecha": "2023-07-31",
+  "fecha_real": "2023-07-30",
+  "fin": "2024-08-31",
+  "titulo": "Sequía del canal de Panamá: tránsitos y calados limitados",
+  "pais": [
+   "PA",
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "La falta de lluvia en el lago Gatún, agravada por El Niño, obligó a reducir los tránsitos a 32 diarios desde el 30-jul-2023 (frente a 36–38 normales) y a limitar el calado a 44 pies; en noviembre-febrero los cupos bajaron hasta 18. Encareció los fletes de GLP y GNL estadounidense hacia Asia y obligó a rutas por Suez o el cabo de Buena Esperanza.",
+  "activos_afectados": [
+   {
+    "activo": "Fletes de buques de GLP (VLGC)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Diferencial de GNL EE. UU.–Asia",
+    "sentido": "+"
+   },
+   {
+    "activo": "Exportaciones de grano del golfo de EE. UU.",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "inf",
+   "ene",
+   "agri"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Seatrade Maritime: Panamá reduce tránsitos por la sequía",
+    "u": "https://www.seatrade-maritime.com/panama/panama-canal-reduce-daily-vessel-transits-due-drought"
+   },
+   {
+    "t": "Marine Insight: Panamá sube el límite diario en enero",
+    "u": "https://www.marineinsight.com/shipping-news/panama-canal-to-raise-daily-ship-limit-from-january-after-improved-drought-conditions/"
+   }
+  ],
+  "nota": "Fin aproximado: la normalización fue gradual a lo largo de 2024."
+ },
+ {
+  "id": "2023-03-01-sequia-argentina-soja",
+  "fecha": "2023-03-01",
+  "fin": "2023-05-31",
+  "titulo": "Sequía histórica en Argentina: la cosecha de soja se reduce a la mitad",
+  "pais": [
+   "AR"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [],
+  "mecanismo": "El tercer año de La Niña dejó la peor sequía registrada en la Pampa. La Bolsa de Cereales de Buenos Aires fue recortando su estimación hasta cerrar en 21 Mt de soja (−51,5 %), la peor desde 2000. Argentina, primer exportador mundial de harina y aceite de soja, tuvo que importar soja de Paraguay y Brasil; subieron la harina de soja y los márgenes de molienda fuera de Argentina.",
+  "activos_afectados": [
+   {
+    "activo": "Harina de soja (CBOT)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Aceite de soja",
+    "sentido": "+"
+   },
+   {
+    "activo": "Peso argentino / reservas del BCRA",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bonos soberanos argentinos",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "latam",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Buenos Aires Times: la sequía recorta la soja un 51,5 %",
+    "u": "https://www.batimes.com.ar/news/economy/drought-slashes-argentinas-soybean-production-by-515.phtml"
+   },
+   {
+    "t": "The Poultry Site: la bolsa recorta previsiones de maíz y soja",
+    "u": "https://www.thepoultrysite.com/news/2023/03/argentina-grains-exchange-cuts-corn-soybean-forecast"
+   }
+  ],
+  "nota": "Fecha aproximada: los recortes sucesivos se concentraron entre febrero y abril de 2023."
+ },
+ {
+  "id": "2024-04-15-cacao-record-africa-occidental",
+  "fecha": "2024-04-15",
+  "fin": "2024-04-19",
+  "titulo": "El cacao supera 11.000 $/t por lluvias y plagas en Costa de Marfil y Ghana",
+  "pais": [
+   "CI",
+   "GH",
+   "GLOBAL"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "Lluvias excesivas en 2023 seguidas de calor y harmattan seco, junto a la enfermedad de la mazorca negra y el virus del brote hinchado, hundieron las cosechas de los dos productores que suman ~60 % de la oferta. Tercer año de déficit: el cacao de Nueva York pasó de ~2.500 $/t a principios de 2023 a más de 11.000 $/t en abril de 2024, con márgenes de garantía disparados que expulsaron a coberturistas.",
+  "activos_afectados": [
+   {
+    "activo": "Cacao (ICE NY)",
+    "sentido": "+",
+    "magnitud": "11.206 $/t el 15-abr-2024; cierre de marzo 9.766 $/t"
+   },
+   {
+    "activo": "Chocolateras (Barry Callebaut, Hershey, Lindt)",
+    "sentido": "-",
+    "magnitud": "presión en márgenes"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp",
+   "front"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Barchart/Nasdaq: ¿se acabó el rally del cacao?",
+    "u": "https://www.nasdaq.com/articles/cocoa-rally-over-oj-model"
+   }
+  ],
+  "nota": "Las cifras de máximos de abril varían según contrato (11.206–12.261 $/t)."
+ },
+ {
+  "id": "2024-12-16-cacao-nuevo-record",
+  "fecha": "2024-12-16",
+  "fin": null,
+  "titulo": "Nuevo récord del cacao en diciembre de 2024",
+  "pais": [
+   "CI",
+   "GH"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [],
+  "mecanismo": "Una segunda mala campaña en África occidental y los temores por la cosecha principal 2024-25 llevaron el cacao a superar el récord de abril. El rally alimentó la inflación del chocolate en 2025 y luego se desinfló con la destrucción de demanda y mejores lluvias.",
+  "activos_afectados": [
+   {
+    "activo": "Cacao (ICE NY)",
+    "sentido": "+",
+    "magnitud": "hasta 11.925 $/t intradía el 16-dic (récord previo 11.722 $/t)"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Bloomberg Law: el cacao marca un nuevo récord",
+    "u": "https://news.bloomberglaw.com/esg/cocoa-hits-new-record-in-blow-to-chocolate-makers-and-consumers"
+   }
+  ]
+ },
+ {
+  "id": "2023-01-02-invierno-suave-europa-2022-23",
+  "fecha": "2023-01-02",
+  "fin": "2023-02-28",
+  "titulo": "Invierno suave en Europa (2022-23): el gas se desploma",
+  "pais": [
+   "EU",
+   "DE",
+   "NL"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [],
+  "mecanismo": "Un otoño y un inicio de invierno anormalmente cálidos, con almacenes casi llenos y LNG récord, evitaron el racionamiento temido. El TTF cayó desde ~340 €/MWh en agosto a menos de 80 €/MWh a comienzos de 2023 y siguió bajando, aliviando a industria y eléctricas y hundiendo los ETC de gas.",
+  "activos_afectados": [
+   {
+    "activo": "Gas TTF",
+    "sentido": "-",
+    "magnitud": "por debajo de ~80 €/MWh a inicios de 2023"
+   },
+   {
+    "activo": "Electricidad europea",
+    "sentido": "-"
+   },
+   {
+    "activo": "Químicas e industria europea",
+    "sentido": "+"
+   },
+   {
+    "activo": "ETC de gas natural",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "eu",
+   "mat"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2021–2023 global energy crisis (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis"
+   }
+  ],
+  "nota": "Fecha y nivel aproximados (no verificados día a día)."
+ },
+ {
+  "id": "2024-02-22-invierno-suave-europa-2023-24",
+  "fecha": "2024-02-22",
+  "fin": "2024-02-29",
+  "titulo": "Segundo invierno suave (2023-24): TTF en mínimos de casi tres años",
+  "pais": [
+   "EU"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [],
+  "mecanismo": "Otro invierno templado, almacenes por encima del 60 % al final de febrero y la llegada de LNG llevaron el TTF por debajo de 25 €/MWh, mínimos desde 2021. Bajó la electricidad y se encareció relativamente el carbón frente al gas; la caída penalizó a los productores de gas europeos.",
+  "activos_afectados": [
+   {
+    "activo": "Gas TTF",
+    "sentido": "-",
+    "magnitud": "por debajo de ~25 €/MWh"
+   },
+   {
+    "activo": "Productores de gas (Equinor)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Utilities consumidoras de gas",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "eu"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "2021–2023 global energy crisis (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis"
+   }
+  ],
+  "nota": "Fecha y nivel aproximados (no verificados día a día)."
+ },
+ {
+  "id": "2020-04-13-opep-recorte-historico",
+  "fecha": "2020-04-13",
+  "fecha_real": "2020-04-12",
+  "fin": null,
+  "titulo": "OPEP+ acuerda el mayor recorte de la historia (9,7 mb/d)",
+  "pais": [
+   "SA",
+   "RU",
+   "GLOBAL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "Tras la guerra de precios entre Arabia Saudí y Rusia de marzo y el hundimiento de la demanda por el covid, la OPEP+ acordó el domingo 12-abr recortar 9,7 millones de barriles diarios desde mayo. El recorte llegó tarde para el almacenamiento de abril, pero puso suelo al Brent a medio plazo.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "±",
+    "magnitud": "reacción breve; el exceso de inventario siguió pesando en abril"
+   },
+   {
+    "activo": "Petroleras integradas",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mp"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "2020 Russia–Saudi Arabia oil price war (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war"
+   }
+  ]
+ },
+ {
+  "id": "2020-04-20-wti-negativo",
+  "fecha": "2020-04-20",
+  "fin": null,
+  "titulo": "El WTI de mayo cierra en negativo: −37,63 $/barril",
+  "pais": [
+   "US"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "flujos_posicionamiento",
+   "logistica"
+  ],
+  "mecanismo": "Con Cushing casi lleno y la demanda hundida por los confinamientos, los tenedores del contrato de mayo a un día del vencimiento no encontraron dónde almacenar el crudo. El contrato liquidó en −37,63 $; los ETF y ETC que replican futuros sufrieron por el contango extremo y algunos (USO) tuvieron que cambiar su estrategia de roll.",
+  "activos_afectados": [
+   {
+    "activo": "WTI (contrato de mayo)",
+    "sentido": "-",
+    "magnitud": "−37,63 $/barril"
+   },
+   {
+    "activo": "ETF/ETC de petróleo por futuros (USO, WisdomTree)",
+    "sentido": "-",
+    "magnitud": "pérdidas por roll"
+   },
+   {
+    "activo": "Fletes de petroleros (almacenamiento flotante)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mp"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Price of oil — abril de 2020 (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Price_of_oil"
+   },
+   {
+    "t": "2020 Russia–Saudi Arabia oil price war (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war"
+   }
+  ]
+ },
+ {
+  "id": "2020-08-06-oro-record-2020",
+  "fecha": "2020-08-06",
+  "fin": null,
+  "titulo": "El oro supera por primera vez los 2.000 $/oz",
+  "pais": [
+   "GLOBAL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [],
+  "mecanismo": "Tipos reales muy negativos, expansión monetaria por el covid y dólar débil llevaron al oro a máximos históricos en torno a 2.070 $/oz a principios de agosto; la plata se disparó aún más. Fue el máximo de ese ciclo: las vacunas y la subida de tipos reales lo devolvieron a ~1.700 $ en 2021.",
+  "activos_afectados": [
+   {
+    "activo": "Oro",
+    "sentido": "+",
+    "magnitud": "máximo ~2.070 $/oz"
+   },
+   {
+    "activo": "Plata",
+    "sentido": "+",
+    "magnitud": "cerca de 30 $/oz"
+   },
+   {
+    "activo": "Mineras de oro (GDX)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "oro",
+   "mat"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Gold as an investment (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Gold_as_an_investment"
+   }
+  ],
+  "nota": "Máximo de ~2.075 $/oz citado de memoria; no se confirmó en la búsqueda."
+ },
+ {
+  "id": "2021-05-12-mineral-hierro-record",
+  "fecha": "2021-05-12",
+  "fin": "2021-11-19",
+  "titulo": "El mineral de hierro marca récord por encima de 200 $/t",
+  "pais": [
+   "CN",
+   "AU",
+   "BR"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "regulacion"
+  ],
+  "mecanismo": "El estímulo chino a infraestructuras e inmobiliario, junto a una oferta brasileña aún tocada tras Brumadinho, llevó el 62 % Fe a máximos en mayo de 2021. Pekín respondió con límites a la producción de acero y ofensiva contra la especulación; en noviembre el precio había caído por debajo de 100 $/t, con la crisis de Evergrande de fondo.",
+  "activos_afectados": [
+   {
+    "activo": "Mineral de hierro 62 % Fe",
+    "sentido": "+",
+    "magnitud": "récord por encima de 200 $/t en mayo; −50 % al cierre de 2021"
+   },
+   {
+    "activo": "BHP, Rio Tinto, Vale, Fortescue",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "cn",
+   "br"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Iron ore (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Iron_ore"
+   }
+  ],
+  "nota": "Nivel exacto del récord (~230 $/t) no verificado en esta búsqueda."
+ },
+ {
+  "id": "2021-07-19-sput-uranio",
+  "fecha": "2021-07-19",
+  "fin": "2021-09-30",
+  "titulo": "Nace el Sprott Physical Uranium Trust y despega el uranio",
+  "pais": [
+   "CA",
+   "GLOBAL"
+  ],
+  "tipo": "flujos_posicionamiento",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "Sprott convirtió Uranium Participation Corp. en un fideicomiso con emisión continua (ATM) que compra uranio físico con cada entrada de dinero. Sus compras retiraron millones de libras del mercado spot: el U3O8 pasó de ~30 $/lb a ~41 $/lb el 10-sep (máximo desde 2014) y a cerca de 50 $ a finales de septiembre, arrastrando a Cameco, Kazatomprom y los ETF de uranio.",
+  "activos_afectados": [
+   {
+    "activo": "Uranio U3O8 spot",
+    "sentido": "+",
+    "magnitud": "41 $/lb el 10-sep-2021 (+34 % desde el 17-ago); ~50 $ a final de mes"
+   },
+   {
+    "activo": "ETF de uranio (URA, URNM) y mineras",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "nuc",
+   "mat",
+   "mp"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "S&P Global: el fondo de Sprott transforma el spot de uranio",
+    "u": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2021/10/sprott-fund-transforms-uranium-spot-market-67100457"
+   },
+   {
+    "t": "S&P Global: emisión de 1.000 M$ para ampliar compras",
+    "u": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/electric-power/091021-uranium-fund-files-for-1-billion-share-sale-to-expand-holdings"
+   }
+  ]
+ },
+ {
+  "id": "2021-10-18-cobre-lme-inventarios-minimos",
+  "fecha": "2021-10-18",
+  "fin": null,
+  "titulo": "Squeeze del cobre en la LME por inventarios mínimos",
+  "pais": [
+   "GB",
+   "GLOBAL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "Los inventarios disponibles de cobre en la LME cayeron a mínimos de décadas y el diferencial contado/tres meses se disparó a un backwardation récord, obligando a la bolsa a imponer límites. Señal de mercado físico muy tenso que precedió años de narrativa de escasez por la electrificación.",
+  "activos_afectados": [
+   {
+    "activo": "Cobre LME contado",
+    "sentido": "+",
+    "magnitud": "backwardation contado/3 meses récord"
+   },
+   {
+    "activo": "Mineras de cobre (Freeport, Antofagasta)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "mp"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Copper (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Copper"
+   }
+  ],
+  "nota": "Fecha y magnitud del backwardation (~1.000 $/t) de memoria, no verificadas en búsqueda."
+ },
+ {
+  "id": "2021-10-19-china-carbon-crisis-electrica",
+  "fecha": "2021-10-19",
+  "fin": "2021-11-01",
+  "titulo": "Crisis eléctrica china: carbón de Zhengzhou en récord e intervención de Pekín",
+  "pais": [
+   "CN"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "regulacion"
+  ],
+  "mecanismo": "Cupos de consumo energético, veto informal al carbón australiano y tarifas reguladas provocaron cortes de luz en fábricas chinas en septiembre-octubre de 2021. El carbón térmico de Zhengzhou alcanzó récords y Pekín intervino con órdenes de aumentar producción y amenazas a especuladores, lo que hundió el precio en días.",
+  "activos_afectados": [
+   {
+    "activo": "Carbón térmico (Zhengzhou, Newcastle)",
+    "sentido": "±",
+    "magnitud": "récord y desplome tras la intervención"
+   },
+   {
+    "activo": "Aluminio y silicio (producción china recortada)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Industria exportadora china",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mat",
+   "cn"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2021 China power outages (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2021_China_power_outages"
+   }
+  ]
+ },
+ {
+  "id": "2022-03-08-niquel-lme-suspension",
+  "fecha": "2022-03-08",
+  "fin": "2022-03-16",
+  "titulo": "La LME suspende el níquel tras superar 100.000 $/t y anula operaciones",
+  "pais": [
+   "GB",
+   "CN",
+   "RU"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "flujos_posicionamiento",
+   "geopolitica"
+  ],
+  "mecanismo": "Tras la invasión de Ucrania, una gran posición corta de Tsingshan sufrió un squeeze: el níquel pasó de 48.078 $/t al cierre del 7-mar a 101.365 $/t en la madrugada del 8-mar. La LME suspendió el mercado y anuló todas las operaciones del día, una decisión inédita que dañó la credibilidad del precio y provocó demandas de Elliott y Jane Street.",
+  "activos_afectados": [
+   {
+    "activo": "Níquel LME",
+    "sentido": "+",
+    "magnitud": "de 48.078 a 101.365 $/t intradía (+~110 %)"
+   },
+   {
+    "activo": "ETC de níquel y de metales industriales",
+    "sentido": "±",
+    "magnitud": "valoración distorsionada"
+   },
+   {
+    "activo": "London Metal Exchange (HKEX)",
+    "sentido": "-",
+    "magnitud": "reputación"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "mp",
+   "movil"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "S&P Global: récord de 101.365 $/t y suspensión",
+    "u": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/030822-lme-says-doubts-it-will-resume-nickel-trading-before-march-11"
+   },
+   {
+    "t": "LME Nickel (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/LME_Nickel"
+   }
+  ]
+ },
+ {
+  "id": "2022-03-08-trigo-record-guerra",
+  "fecha": "2022-03-08",
+  "fin": null,
+  "titulo": "El trigo de Chicago en récord por el cierre de los puertos ucranianos",
+  "pais": [
+   "UA",
+   "RU",
+   "GLOBAL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica",
+   "logistica"
+  ],
+  "mecanismo": "Rusia y Ucrania sumaban cerca de un 30 % de las exportaciones mundiales de trigo. El bloqueo del mar Negro tras la invasión llevó el trigo de Chicago a máximos históricos en la primera semana de marzo, junto al maíz y el aceite de girasol, disparando el miedo a crisis alimentarias en Oriente Medio y África.",
+  "activos_afectados": [
+   {
+    "activo": "Trigo CBOT",
+    "sentido": "+",
+    "magnitud": "máximo histórico en torno a 13–14 $/bushel"
+   },
+   {
+    "activo": "Maíz",
+    "sentido": "+"
+   },
+   {
+    "activo": "Aceite de girasol",
+    "sentido": "+"
+   },
+   {
+    "activo": "Fertilizantes (CF, Yara, Nutrien)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "2022–2023 food crises (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2022%E2%80%932023_food_crises"
+   }
+  ],
+  "nota": "Nivel exacto del máximo (~13,6 $/bu el 8-mar) citado de memoria."
+ },
+ {
+  "id": "2022-04-25-indonesia-prohibe-exportar-palma",
+  "fecha": "2022-04-25",
+  "fecha_real": "2022-04-22",
+  "fin": "2022-05-23",
+  "titulo": "Indonesia prohíbe exportar aceite de palma",
+  "pais": [
+   "ID",
+   "MY",
+   "GLOBAL"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "Para frenar el precio del aceite de cocina, el presidente Widodo anunció el viernes 22-abr la prohibición de exportar aceite de palma y derivados desde el 28-abr. Indonesia es el primer productor mundial; el veto encareció todos los aceites vegetales, ya tensos por la falta de girasol ucraniano, y se levantó el 23-may.",
+  "activos_afectados": [
+   {
+    "activo": "Aceite de palma (Bursa Malaysia)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Aceite de soja (CBOT)",
+    "sentido": "+",
+    "magnitud": "récord"
+   },
+   {
+    "activo": "Productores malasios de palma",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp",
+   "em"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Gulf News/Reuters: Indonesia levanta la prohibición",
+    "u": "https://gulfnews.com/amp/story/business%2Fretail%2Findonesia-lifts-palm-oil-export-ban-in-relief-to-global-market-1.1653018185748"
+   },
+   {
+    "t": "S&P Global: fin del veto el 23-may",
+    "u": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/agriculture/051922-indonesia-to-lift-ban-on-palm-oil-exports-from-may-23-trade-reactions-vary"
+   }
+  ],
+  "nota": "Fecha del anuncio (22-abr, viernes) no confirmada directamente en la búsqueda; sí la entrada en vigor (28-abr) y el fin (23-may)."
+ },
+ {
+  "id": "2022-05-16-india-prohibe-exportar-trigo",
+  "fecha": "2022-05-16",
+  "fecha_real": "2022-05-14",
+  "fin": null,
+  "titulo": "India prohíbe exportar trigo tras una ola de calor",
+  "pais": [
+   "IN",
+   "GLOBAL"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Una ola de calor récord en marzo-abril de 2022 recortó la cosecha india y el Gobierno prohibió el sábado 14-may las exportaciones de trigo. El lunes el trigo de Chicago subió el límite diario, en plena escasez por la guerra de Ucrania.",
+  "activos_afectados": [
+   {
+    "activo": "Trigo CBOT y Euronext",
+    "sentido": "+",
+    "magnitud": "subida al límite diario el 16-may"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "in"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2022–2023 food crises (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2022%E2%80%932023_food_crises"
+   }
+  ]
+ },
+ {
+  "id": "2022-06-08-explosion-freeport-lng",
+  "fecha": "2022-06-08",
+  "fin": "2023-02-28",
+  "titulo": "Explosión en Freeport LNG: 17 % de la exportación de GNL de EE. UU. fuera",
+  "pais": [
+   "US",
+   "EU"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "Una explosión paró la planta de Freeport (Texas), que exportaba cerca de una sexta parte del GNL estadounidense, buena parte hacia Europa. El gas que no se exportó quedó en EE. UU. y abarató el Henry Hub, mientras el TTF subió al perder Europa cargamentos justo cuando Rusia empezaba a recortar Nord Stream.",
+  "activos_afectados": [
+   {
+    "activo": "Henry Hub",
+    "sentido": "-",
+    "magnitud": "caída fuerte en la sesión"
+   },
+   {
+    "activo": "Gas TTF",
+    "sentido": "+"
+   },
+   {
+    "activo": "Diferencial TTF–Henry Hub",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "us",
+   "eu"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Freeport LNG (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Freeport_LNG"
+   }
+  ],
+  "nota": "Fin aproximado: la planta reanudó gradualmente en febrero-marzo de 2023."
+ },
+ {
+  "id": "2022-06-30-ue-reglamento-almacenamiento-gas",
+  "fecha": "2022-06-30",
+  "fin": null,
+  "titulo": "La UE impone llenar los almacenes de gas al 80 % antes del 1-nov",
+  "pais": [
+   "EU"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "estacionalidad"
+  ],
+  "mecanismo": "El reglamento (UE) 2022/1032 obligó a los Estados a llenar los almacenes subterráneos al 80 % para el 1-nov-2022 y al 90 % en años siguientes. Convirtió la demanda de inyección del verano en compra obligada a cualquier precio, lo que agravó el pico del TTF de agosto, pero aseguró el invierno; el objetivo se alcanzó antes de plazo.",
+  "activos_afectados": [
+   {
+    "activo": "Gas TTF verano 2022",
+    "sentido": "+"
+   },
+   {
+    "activo": "Diferenciales verano-invierno del TTF",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "eu"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "EUR-Lex: Reglamento (UE) 2022/1032",
+    "u": "https://eur-lex.europa.eu/eli/reg/2022/1032/oj"
+   }
+  ],
+  "nota": "Fecha de publicación aproximada (adopción a finales de junio de 2022)."
+ },
+ {
+  "id": "2022-08-26-ttf-maximo-historico",
+  "fecha": "2022-08-26",
+  "fin": null,
+  "titulo": "El gas TTF marca máximo histórico: ~340 €/MWh",
+  "pais": [
+   "EU",
+   "RU",
+   "NL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "Gazprom anunció una parada de Nord Stream 1 a finales de agosto, con almacenes obligados a llenarse, Rin bajo y nuclear francesa parada. El TTF de primer mes tocó 342 €/MWh y los contratos de invierno superaron los 350 €/MWh el 26-ago; desde ahí se desplomó con la llegada de LNG y la demanda destruida.",
+  "activos_afectados": [
+   {
+    "activo": "Gas TTF primer mes",
+    "sentido": "+",
+    "magnitud": "máximo 342 €/MWh; contrato de octubre liquidó en 346,52 €/MWh"
+   },
+   {
+    "activo": "Electricidad europea",
+    "sentido": "+"
+   },
+   {
+    "activo": "Químicas europeas (BASF)",
+    "sentido": "-"
+   },
+   {
+    "activo": "ETC de gas",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "eu",
+   "de",
+   "mat"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Quantum Commodity Intelligence: el TTF de invierno a 352 €/MWh",
+    "u": "https://qcintel.com/article/winter-ttf-gas-trades-at-record-352-mwh-goldman-says-market-overshoots-8125.html"
+   },
+   {
+    "t": "S&P Global: el TTF en máximo histórico",
+    "u": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/081622-dutch-ttf-prices-hit-all-time-high-with-no-signs-of-slowing"
+   }
+  ]
+ },
+ {
+  "id": "2022-09-09-carbon-newcastle-record",
+  "fecha": "2022-09-09",
+  "fin": null,
+  "titulo": "El carbón térmico de Newcastle en récord: ~445 $/t",
+  "pais": [
+   "AU",
+   "EU",
+   "GLOBAL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "El veto europeo al carbón ruso (en vigor desde agosto), la sustitución de gas por carbón en la generación y problemas de oferta en Australia llevaron el carbón de alta calidad a máximos históricos. Benefició a Whitehaven, Glencore y Thungela; en 2023 el precio cayó más de la mitad.",
+  "activos_afectados": [
+   {
+    "activo": "Carbón Newcastle 6.000 kcal",
+    "sentido": "+",
+    "magnitud": "444,59 $/t FOB el 9-sep-2022 (Argus)"
+   },
+   {
+    "activo": "Mineras de carbón (Whitehaven, Glencore)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mat"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Mining.com: el carbón se asienta en 200 $/t tras el volátil 2022",
+    "u": "https://www.mining.com/web/global-thermal-coal-prices-settling-into-200-per-tonne-range-after-volatile-2022/"
+   },
+   {
+    "t": "AIE: precios del carbón",
+    "u": "https://www.iea.org/reports/coal-market-update-july-2023/prices"
+   }
+  ]
+ },
+ {
+  "id": "2022-10-05-opep-recorte-2mbd",
+  "fecha": "2022-10-05",
+  "fin": null,
+  "titulo": "OPEP+ recorta 2 mb/d sus objetivos pese a la presión de EE. UU.",
+  "pais": [
+   "SA",
+   "RU",
+   "US"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "En plena crisis energética y antes de las legislativas estadounidenses, la OPEP+ redujo sus objetivos de producción en 2 millones de barriles diarios desde noviembre (el recorte real fue menor porque varios países ya producían por debajo). El Brent subió por encima de 90 $ y la Casa Blanca respondió con más ventas de la reserva estratégica.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "+",
+    "magnitud": "rebote hacia 90–95 $"
+   },
+   {
+    "activo": "Petroleras",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "OPEC (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/OPEC"
+   }
+  ]
+ },
+ {
+  "id": "2022-11-23-litio-maximo-china",
+  "fecha": "2022-11-23",
+  "fin": null,
+  "titulo": "Pico del litio: el carbonato chino roza 600.000 yuanes/t",
+  "pais": [
+   "CN",
+   "AU",
+   "CL",
+   "AR"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [],
+  "mecanismo": "La fiebre del vehículo eléctrico y el almacenamiento llevaron el carbonato de litio de grado batería a ~590.000–600.000 yuanes/t, más de diez veces el nivel de 2020. Fue el techo del ciclo: la nueva oferta australiana, africana y china y el fin de las ayudas al VE en China iniciaron el desplome de 2023.",
+  "activos_afectados": [
+   {
+    "activo": "Carbonato de litio (China)",
+    "sentido": "+",
+    "magnitud": "590.000 RMB/t el 23-nov-2022"
+   },
+   {
+    "activo": "Albemarle, SQM, Pilbara, Ganfeng; ETF LIT",
+    "sentido": "+",
+    "magnitud": "máximos del ciclo"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "movil",
+   "limpia"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "CnEVPost: el litio cae por debajo de 400.000 RMB",
+    "u": "https://cnevpost.com/2023/02/22/lithium-carbonate-falls-below-rmb-400000-per-ton/"
+   }
+  ]
+ },
+ {
+  "id": "2022-12-05-tope-precio-petroleo-ruso",
+  "fecha": "2022-12-05",
+  "fin": null,
+  "titulo": "Entran en vigor el embargo de la UE y el tope de 60 $ al crudo ruso por mar",
+  "pais": [
+   "RU",
+   "EU",
+   "G7"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "geopolitica",
+   "logistica"
+  ],
+  "mecanismo": "La UE prohibió importar crudo ruso por vía marítima y el G7 limitó a 60 $/barril el precio al que sus navieras y aseguradoras pueden transportarlo. Rusia redirigió el crudo a India y China con una «flota en la sombra», y el diferencial Urals–Brent se amplió; los productos refinados se sumaron el 5-feb-2023.",
+  "activos_afectados": [
+   {
+    "activo": "Diferencial Urals–Brent",
+    "sentido": "-",
+    "magnitud": "descuento amplio en el primer trimestre de 2023"
+   },
+   {
+    "activo": "Fletes de petroleros",
+    "sentido": "+",
+    "magnitud": "rutas más largas"
+   },
+   {
+    "activo": "Diésel europeo",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Russian oil price cap (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Russian_oil_price_cap"
+   }
+  ]
+ },
+ {
+  "id": "2023-04-03-opep-recorte-sorpresa",
+  "fecha": "2023-04-03",
+  "fecha_real": "2023-04-02",
+  "fin": null,
+  "titulo": "Recorte sorpresa de la OPEP+ (~1,16 mb/d)",
+  "pais": [
+   "SA",
+   "RU",
+   "AE"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [],
+  "mecanismo": "El domingo 2-abr, Arabia Saudí y otros miembros anunciaron recortes voluntarios de algo más de 1 mb/d desde mayo, sin reunión formal y tras la crisis bancaria de marzo que había hundido el crudo. El Brent abrió el lunes con un salto de ~6 %, aunque la debilidad china lo borró en semanas.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "+",
+    "magnitud": "~+6 % en la apertura del 3-abr"
+   },
+   {
+    "activo": "Petroleras",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "OPEC (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/OPEC"
+   }
+  ],
+  "nota": "Magnitud de la subida (~6 %) citada de memoria."
+ },
+ {
+  "id": "2023-06-05-arabia-recorte-voluntario",
+  "fecha": "2023-06-05",
+  "fecha_real": "2023-06-04",
+  "fin": "2023-09-27",
+  "titulo": "Arabia Saudí anuncia un recorte voluntario de 1 mb/d desde julio",
+  "pais": [
+   "SA"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [],
+  "mecanismo": "En la reunión del domingo 4-jun, Riad añadió un recorte unilateral de 1 mb/d (la «lollipop saudí»), luego prorrogado mes a mes hasta final de año. Junto con los recortes rusos, vació inventarios en verano y llevó el Brent de ~75 $ a ~95 $ a finales de septiembre de 2023.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "+",
+    "magnitud": "de ~75 $ a ~95 $ entre junio y septiembre"
+   },
+   {
+    "activo": "Diésel",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "OPEC (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/OPEC"
+   }
+  ]
+ },
+ {
+  "id": "2023-09-11-litio-desplome-2023",
+  "fecha": "2023-09-11",
+  "fin": "2024-12-31",
+  "titulo": "Desplome del litio en 2023-24: el carbonato pierde más de dos tercios",
+  "pais": [
+   "CN",
+   "AU",
+   "CL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [],
+  "mecanismo": "Exceso de oferta y frenazo del VE en China hicieron caer el carbonato de litio por debajo de 200.000 RMB/t en septiembre de 2023 (≈−2/3 desde el pico) y siguió cayendo en 2024, forzando cierres de minas australianas y recortes de inversión. Las mineras de litio y el ETF LIT perdieron gran parte de su valor.",
+  "activos_afectados": [
+   {
+    "activo": "Carbonato de litio (China)",
+    "sentido": "-",
+    "magnitud": "198.500 RMB/t el 1-sep-2023 (industrial)"
+   },
+   {
+    "activo": "Albemarle, SQM, Pilbara, Liontown; ETF LIT",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "movil",
+   "limpia"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "CnEVPost: el litio rompe niveles clave",
+    "u": "https://cnevpost.com/2023/09/11/lithium-prices-below-key-level-china/"
+   },
+   {
+    "t": "CnEVPost: mayor caída del año en marzo de 2023",
+    "u": "https://cnevpost.com/2023/03/20/lithium-prices-biggest-drop-this-year/"
+   }
+  ],
+  "nota": "La caída de ~80 % en 2023 que circula no se pudo confirmar en fuente primaria; se usa «más de dos tercios»."
+ },
+ {
+  "id": "2024-01-12-uranio-supera-100",
+  "fecha": "2024-01-12",
+  "fin": "2024-02-05",
+  "titulo": "El uranio supera los 100 $/lb por primera vez desde 2007",
+  "pais": [
+   "KZ",
+   "GLOBAL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [],
+  "mecanismo": "Los problemas de Kazatomprom (escasez de ácido sulfúrico) para cumplir objetivos, el golpe de Estado en Níger y la recompra de contratos por parte de las eléctricas llevaron el spot por encima de 100 $/lb en enero de 2024. Fue el pico del ciclo iniciado con el SPUT; luego retrocedió con menos compras financieras.",
+  "activos_afectados": [
+   {
+    "activo": "Uranio U3O8 spot",
+    "sentido": "+",
+    "magnitud": ">100 $/lb"
+   },
+   {
+    "activo": "Cameco, Kazatomprom, ETF URA/URNM",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "nuc",
+   "mat"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "S&P Global: el CEO de Sprott sobre los récords del uranio",
+    "u": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/electric-power/112123-interview-sprott-ceo-says-utility-restocking-low-supply-sparking-record-high-uranium-prices"
+   }
+  ],
+  "nota": "Fecha aproximada (aviso de Kazatomprom y cruce de 100 $/lb a mediados de enero); no verificada día a día."
+ },
+ {
+  "id": "2024-05-20-cobre-record",
+  "fecha": "2024-05-20",
+  "fin": null,
+  "titulo": "El cobre bate su récord: 11.104,50 $/t en la LME y squeeze en el COMEX",
+  "pais": [
+   "US",
+   "GB",
+   "CN"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "La narrativa de escasez (electrificación, centros de datos, cierre de Cobre Panamá) y un squeeze del contrato de julio en el COMEX, con prima récord sobre la LME, atrajeron a fondos macro. El cobre de la LME superó el récord de marzo de 2022; en semanas se corrigió al no confirmar la demanda china.",
+  "activos_afectados": [
+   {
+    "activo": "Cobre LME",
+    "sentido": "+",
+    "magnitud": "11.104,50 $/t intradía (+4,1 % en la sesión)"
+   },
+   {
+    "activo": "Cobre COMEX",
+    "sentido": "+",
+    "magnitud": "máximo histórico con prima récord"
+   },
+   {
+    "activo": "Mineras de cobre y ETF COPX",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "WisdomTree: el cobre en máximos históricos",
+    "u": "https://www.wisdomtree.com/es/insights/blog/red-hot-copper-hits-new-record-highs-will-other-metals-follow"
+   }
+  ]
+ },
+ {
+  "id": "2024-09-24-estimulo-china-metales",
+  "fecha": "2024-09-24",
+  "fin": "2024-10-08",
+  "titulo": "Paquete de estímulo chino reactiva hierro, cobre y mineras",
+  "pais": [
+   "CN"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "El Banco Popular de China anunció recortes de tipos y del coeficiente de reservas y apoyo a bolsa e inmobiliario, seguidos de anuncios del Politburó. El mineral de hierro, que había caído por debajo de 90 $/t, y el cobre rebotaron con fuerza, igual que las mineras y la bolsa china; el impulso se agotó en octubre por falta de estímulo fiscal concreto.",
+  "activos_afectados": [
+   {
+    "activo": "Mineral de hierro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Cobre",
+    "sentido": "+"
+   },
+   {
+    "activo": "Mineras (BHP, Rio, Vale)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bolsa china (CSI 300)",
+    "sentido": "+",
+    "magnitud": "rally de dos dígitos en una semana"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "cn",
+   "em"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Iron ore (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Iron_ore"
+   }
+  ]
+ },
+ {
+  "id": "2025-03-14-oro-3000",
+  "fecha": "2025-03-14",
+  "fin": null,
+  "titulo": "El oro supera los 3.000 $/oz",
+  "pais": [
+   "GLOBAL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "Compras récord de bancos centrales desde 2022 (tras congelarse las reservas rusas), entradas en ETF y el temor a aranceles llevaron el oro a romper 3.000 $/oz en marzo de 2025, después de que en febrero ya marcara récords (2.886 $ el 7-feb).",
+  "activos_afectados": [
+   {
+    "activo": "Oro",
+    "sentido": "+",
+    "magnitud": ">3.000 $/oz"
+   },
+   {
+    "activo": "Mineras de oro (GDX)",
+    "sentido": "+",
+    "magnitud": "fuerte apalancamiento al precio"
+   }
+  ],
+  "temas_fondos": [
+   "oro",
+   "mat"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Investment Week: 25 récords del oro en 2025",
+    "u": "https://investmentweek.co.uk/news-analysis/4412882/gold-price-hits-record-highs-2025"
+   }
+  ],
+  "nota": "Fecha del primer cruce de 3.000 $ (14-mar, intradía) citada de memoria."
+ },
+ {
+  "id": "2025-04-03-opep-acelera-subidas",
+  "fecha": "2025-04-03",
+  "fin": "2025-12-31",
+  "titulo": "OPEP+ acelera sin aviso la devolución de barriles (411.000 b/d en mayo)",
+  "pais": [
+   "SA",
+   "RU",
+   "GLOBAL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "El mismo día en que se digerían los aranceles del «Día de la Liberación», ocho miembros de la OPEP+ triplicaron la subida prevista para mayo (411.000 b/d frente a 135.000). El cambio de estrategia saudí, de defender precio a recuperar cuota, hundió el Brent por debajo de 70 $ y continuó con subidas similares en los meses siguientes.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "-",
+    "magnitud": "caída de más del 6 % hasta por debajo de 70 $ (−4 % ya por los aranceles)"
+   },
+   {
+    "activo": "Petroleras y servicios petroleros",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mp"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Fidelity/Reuters: la OPEP+ acelera por sorpresa",
+    "u": "https://fidelity.com/news/article/default/202504030812RTRSNEWSCOMBINED_L2N3QH0GK_1"
+   },
+   {
+    "t": "Offshore Technology: subida de 411.000 b/d",
+    "u": "https://www.offshore-technology.com/newsletters/opec-oil-output-hike-411000bpd"
+   }
+  ]
+ },
+ {
+  "id": "2025-10-08-oro-4000",
+  "fecha": "2025-10-08",
+  "fin": "2025-10-21",
+  "titulo": "El oro rompe los 4.000 $/oz y la plata supera su récord de 1980",
+  "pais": [
+   "GLOBAL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "Recortes de tipos de la Fed, dudas sobre su independencia, el cierre del Gobierno de EE. UU. y las compras de bancos centrales llevaron el oro por encima de 4.000 $/oz y hasta ~4.380 $ el 20-oct; la plata, con un squeeze del mercado físico en Londres, superó los 50 $/oz al contado el 9-oct (el futuro, el 13-oct; máximo de cierre de 53 $ el 16-oct). El 21-oct ambos sufrieron la mayor caída diaria en años.",
+  "activos_afectados": [
+   {
+    "activo": "Oro",
+    "sentido": "+",
+    "magnitud": "récord de ~4.381 $/oz el 20-oct-2025; +65 % en 2025"
+   },
+   {
+    "activo": "Plata",
+    "sentido": "+",
+    "magnitud": "por encima de 50 $/oz"
+   },
+   {
+    "activo": "Mineras de oro y plata",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "oro",
+   "mat"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Motilal Oswal: el oro cerca de su récord de 4.381 $",
+    "u": "https://www.motilaloswal.com/news/commodities/11876"
+   },
+   {
+    "t": "BullionVault: balance de oro y plata en 2025",
+    "u": "https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-2025-record-price-123120251"
+   }
+  ],
+  "nota": "Fechas exactas del cruce de 4.000 $ (8-oct) y de la plata sobre 50 $ (9-oct) citadas de memoria."
+ },
+ {
+  "id": "2021-03-23-ever-given-suez",
+  "fecha": "2021-03-23",
+  "fin": "2021-03-29",
+  "titulo": "El Ever Given bloquea el canal de Suez seis días",
+  "pais": [
+   "EG",
+   "GLOBAL"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [],
+  "mecanismo": "El portacontenedores encalló el 23-mar y cortó el paso por donde circula ~12 % del comercio mundial. Se acumularon cientos de buques y retrasos que agravaron la congestión portuaria y la escasez de contenedores de 2021; el efecto en el crudo fue breve, pero el de los fletes duró meses.",
+  "activos_afectados": [
+   {
+    "activo": "Fletes de contenedores",
+    "sentido": "+"
+   },
+   {
+    "activo": "Brent",
+    "sentido": "+",
+    "magnitud": "rebote breve"
+   },
+   {
+    "activo": "Navieras (Maersk, Hapag-Lloyd)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "inf",
+   "ene"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2021 Suez Canal obstruction (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2021_Suez_Canal_obstruction"
+   }
+  ]
+ },
+ {
+  "id": "2021-09-16-fletes-contenedores-maximo",
+  "fecha": "2021-09-16",
+  "fin": "2022-02-28",
+  "titulo": "Fletes de contenedores en máximos: el WCI de Drewry supera 10.000 $/FEU",
+  "pais": [
+   "CN",
+   "US",
+   "EU",
+   "GLOBAL"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [],
+  "mecanismo": "La demanda de bienes durante la pandemia, la congestión de puertos (Los Ángeles-Long Beach, Yantian) y la escasez de contenedores llevaron el índice compuesto de Drewry a ~10.375 $/FEU, más de cuatro veces el año anterior. Disparó los beneficios de las navieras (Maersk, Hapag-Lloyd, ZIM) y la inflación de bienes.",
+  "activos_afectados": [
+   {
+    "activo": "Drewry World Container Index",
+    "sentido": "+",
+    "magnitud": "10.374,64 $/FEU el 16-sep-2021 (+~300 % interanual)"
+   },
+   {
+    "activo": "Navieras de contenedores",
+    "sentido": "+",
+    "magnitud": "beneficios récord"
+   },
+   {
+    "activo": "Minoristas importadores",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "inf",
+   "lujo"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Hellenic Shipping News: el WCI de Drewry sigue subiendo",
+    "u": "https://www.hellenicshippingnews.com/drewry-world-container-index-keeps-climbing-higher-now-323-higher-than-last-year-and-2-9-on-week/"
+   },
+   {
+    "t": "2021–2023 global supply chain crisis (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/2021%E2%80%932023_global_supply_chain_crisis"
+   }
+  ],
+  "nota": "Fin aproximado: el índice se mantuvo cerca de máximos hasta principios de 2022 y luego se desplomó."
+ },
+ {
+  "id": "2021-10-07-baltic-dry-maximo",
+  "fecha": "2021-10-07",
+  "fin": null,
+  "titulo": "El Baltic Dry Index en máximo desde 2008",
+  "pais": [
+   "GLOBAL",
+   "CN"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [],
+  "mecanismo": "La demanda china de carbón por su crisis eléctrica, el mineral de hierro, las congestiones portuarias y la escasa flota nueva llevaron el índice de fletes de graneleros a ~5.650 puntos, su nivel más alto en 13 años. Benefició a navieras de graneles (Star Bulk, Golden Ocean) y luego se hundió con la intervención china.",
+  "activos_afectados": [
+   {
+    "activo": "Baltic Dry Index",
+    "sentido": "+",
+    "magnitud": "5.650 puntos (máximo desde sep-2008)"
+   },
+   {
+    "activo": "Navieras de graneles",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "inf",
+   "mat"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Hellenic Shipping News: el BDI sube a 5.650",
+    "u": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-5650-up-03-points/"
+   },
+   {
+    "t": "gCaptain: el BDI en máximo de 13 años",
+    "u": "https://gcaptain.com/baltic-dry-index-scales-13-year-peak-on-strong-rates-across-segments/"
+   }
+  ]
+ },
+ {
+  "id": "2022-07-22-iniciativa-grano-mar-negro",
+  "fecha": "2022-07-22",
+  "fin": "2023-07-17",
+  "titulo": "Firma de la Iniciativa de Granos del Mar Negro",
+  "pais": [
+   "UA",
+   "RU",
+   "TR",
+   "GLOBAL"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "Con mediación de Turquía y la ONU, Rusia y Ucrania pactaron un corredor seguro desde Odesa y otros dos puertos. La reanudación de las exportaciones ucranianas de trigo, maíz y girasol consolidó la caída de los cereales desde los máximos de marzo-mayo.",
+  "activos_afectados": [
+   {
+    "activo": "Trigo CBOT y Euronext",
+    "sentido": "-",
+    "magnitud": "caída fuerte en los días siguientes"
+   },
+   {
+    "activo": "Maíz",
+    "sentido": "-"
+   },
+   {
+    "activo": "Aceite de girasol",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Black Sea Grain Initiative (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Black_Sea_Grain_Initiative"
+   }
+  ]
+ },
+ {
+  "id": "2023-07-17-fin-iniciativa-grano",
+  "fecha": "2023-07-17",
+  "fin": "2023-07-28",
+  "titulo": "Rusia abandona la Iniciativa de Granos del Mar Negro",
+  "pais": [
+   "UA",
+   "RU",
+   "GLOBAL"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "Rusia no renovó el acuerdo y en los días siguientes bombardeó la infraestructura portuaria de Odesa y del Danubio. El trigo saltó con fuerza dos días después, pero Ucrania abrió su propio corredor marítimo en agosto-septiembre y la abundante cosecha rusa devolvió los precios a la baja.",
+  "activos_afectados": [
+   {
+    "activo": "Trigo CBOT",
+    "sentido": "+",
+    "magnitud": "subida de dos dígitos en la semana, revertida después"
+   },
+   {
+    "activo": "Maíz",
+    "sentido": "+",
+    "magnitud": "breve"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Black Sea Grain Initiative (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Black_Sea_Grain_Initiative"
+   }
+  ]
+ },
+ {
+  "id": "2023-12-15-mar-rojo-desvios",
+  "fecha": "2023-12-15",
+  "fin": "2024-12-31",
+  "titulo": "Ataques hutíes en el mar Rojo: las navieras evitan Suez",
+  "pais": [
+   "YE",
+   "EG",
+   "GLOBAL"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "Tras ataques a buques comerciales, Maersk y Hapag-Lloyd pausaron el paso por Bab el-Mandeb a mediados de diciembre y BP suspendió el tránsito de petroleros el 18-dic; tras un intento de reanudar, Maersk lo paró «hasta nuevo aviso» el 2-ene tras el ataque al Maersk Hangzhou. Los desvíos por el cabo de Buena Esperanza (+10–14 días) dispararon los fletes de contenedores Asia–Europa y elevaron las primas de seguro de guerra.",
+  "activos_afectados": [
+   {
+    "activo": "Drewry World Container Index",
+    "sentido": "+",
+    "magnitud": "+61 % en una semana hasta 2.670 $/FEU (4-ene-2024); más del doble a mediados de enero"
+   },
+   {
+    "activo": "Navieras de contenedores (Maersk, Hapag-Lloyd, ZIM)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Brent y diésel europeo",
+    "sentido": "+",
+    "magnitud": "prima de riesgo moderada"
+   },
+   {
+    "activo": "Ingresos del canal de Suez / Egipto",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "inf",
+   "ene",
+   "em"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Ship & Bunker: Maersk detiene los tránsitos hasta nuevo aviso",
+    "u": "https://shipandbunker.com/news/world/453879-maersk-halts-all-red-sea-transits-until-further-notice"
+   },
+   {
+    "t": "ITLN: el índice de Drewry sube un 61 %",
+    "u": "https://itln.in/shipping/drewry-index-up-61-red-sea-attacks-continue-1350816"
+   },
+   {
+    "t": "Red Sea crisis (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Red_Sea_crisis"
+   }
+  ],
+  "nota": "La pausa inicial de Maersk el 15-dic-2023 no la confirmó la búsqueda (sí la reanudación y la pausa indefinida del 2-ene-2024)."
+ },
+ {
+  "id": "2024-03-26-puente-baltimore",
+  "fecha": "2024-03-26",
+  "fin": "2024-06-10",
+  "titulo": "Derrumbe del puente Francis Scott Key cierra el puerto de Baltimore",
+  "pais": [
+   "US"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [],
+  "mecanismo": "Un portacontenedores sin propulsión derribó el puente y bloqueó el canal del principal puerto de EE. UU. para automóviles y el segundo exportador de carbón. El canal se reabrió del todo en junio; fue además una gran pérdida para el mercado de seguros marítimos (P&I y casco).",
+  "activos_afectados": [
+   {
+    "activo": "Exportaciones de carbón de EE. UU. (Consol)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Importadores de automóviles en la costa este",
+    "sentido": "-"
+   },
+   {
+    "activo": "Aseguradoras y reaseguradoras marítimas",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "inf",
+   "cat",
+   "us"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Francis Scott Key Bridge collapse (Wikipedia)",
+    "u": "https://en.wikipedia.org/wiki/Francis_Scott_Key_Bridge_collapse"
+   }
+  ]
+ }
+]

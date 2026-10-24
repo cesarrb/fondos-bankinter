@@ -1,0 +1,755 @@
+{
+ "periodo": "semestral",
+ "clave": "2026-S1",
+ "fase": "completo",
+ "en_curso": false,
+ "desde": "2025-12-31",
+ "hasta": "2026-06-30",
+ "titulo": "1.er semestre 2026: guerra con Irán, tregua y chips; el Kospi dobla y la Fed gira a subir",
+ "resumen": "Primer semestre de 2026, del 31 de diciembre al 30 de junio. En enero el consenso dibujaba un año plácido: la Reserva Federal (Fed) bajaría tipos dos veces más, el S&P 500 acabaría el año en torno a 7.500 puntos (media de los estrategas, 7.490), el dólar seguiría débil tras caer en 2025 y el petróleo, con exceso de oferta, rondaba los 61 $. ==Casi todo salió al revés salvo la bolsa==: el 28 de febrero EE. UU. e Israel atacaron Irán, que bloqueó de hecho el estrecho de Ormuz; el Brent llegó a 118 $ el 31 de marzo y la inflación obligó a los bancos centrales a cambiar recortes por subidas. Aun así, ==el S&P 500 cerró junio en 7.499, el objetivo de todo el año alcanzado en seis meses== (+9,6 %), y el Nasdaq 100 ganó un 19,9 %, porque el auge de la inteligencia artificial (IA) siguió inflando los beneficios de los fabricantes de chips.\n\nEl semestre tuvo dos tiempos (los dos primeros del comentario anual). ==Enero–marzo, el choque.== Enero fue el mes de la euforia en los metales: el oro cerró en un récord de 5.318 $ el 29 y la plata tocó 115 $, y ambos se desplomaron el 30, cuando Trump eligió a Kevin Warsh para presidir la Fed y el mercado temió menos recortes. Con la guerra, marzo fue el peor mes desde 2022: S&P 500 −5,1 %, Euro Stoxx 50 −9,3 %, DAX −10,3 %, Kospi −19,1 %; el VIX (volatilidad esperada de la bolsa) tocó 31 y el gas europeo TTF llegó a más que duplicarse (61,9 € el 19 de marzo). ==Abril–junio, la tregua y la IA.== La tregua del 8 de abril, mediada por Pakistán, hundió el crudo y desató el mayor rally del año: S&P 500 +14,9 % en el trimestre, Nasdaq 100 +27,5 %, Taiwán +45 %, Corea +68 %, Japón +37 %. El 17 de junio un memorando con Irán abrió una ventana de 60 días de negociación y ==el Brent volvió a 73 $, su nivel previo a la guerra==.\n\nEl precio de ese petróleo caro lo pagaron los tipos de interés. La inflación de EE. UU. llegó al 4,2 % en mayo; la Fed no se movió de su 3,50–3,75 %, pero en la primera reunión de Warsh (17 de junio) ==su diagrama de puntos pasó a anticipar una subida antes de fin de año==. El BCE (Banco Central Europeo) subió al 2,25 % el 11 de junio, su primera subida desde 2023, y el Banco de Japón al 1 % el 16, máximo desde 1995. Por eso ==el bono de EE. UU. a 2 años subió 67 puntos básicos (pb)== y el dólar, que se esperaba débil, se apreció un 3 % frente al euro. Junio no fue tranquilo: un empleo fuerte y la decepción de Broadcom hundieron el índice de semiconductores (SOX) un 10 % el día 5, el Kospi marcó máximos el 22 con ventas récord de los inversores extranjeros, y el oro y la plata cayeron un 12 % y un 21 % en el mes.\n\nPor regiones ganó claramente Asia con chips (Corea +101 %, Taiwán +59 %, Nikkei +39 %) y, en Europa, la periferia con banca (FTSE MIB +15 %, IBEX 35 +12,5 %); se quedaron atrás Alemania (DAX +2,1 %) y Francia (CAC 40 +3,1 %), más industriales y más expuestas al gas caro. ==Perdieron los importadores de petróleo sin chips==: India (Sensex −10,3 %) y Hong Kong (−10,7 %), además del bitcóin (−33 %), la plata (−15 %) y el oro (−7 %). En fondos, la mediana de renta variable ganó un 10,6 % y la de renta fija un 1,2 %; en cabeza, Taiwán, Corea y la tecnología de semiconductores (+64 % a +92 %); a la cola, Indonesia, la tecnología financiera ligada a las criptomonedas, la tecnología médica y las mineras de oro.",
+ "claves": [
+  "==El consenso de enero falló en casi todo==: se esperaban recortes de la Fed, dólar débil y petróleo barato; llegaron la guerra con Irán, el Brent a 118 $ y el giro hacia subidas de tipos.",
+  "==La bolsa sí cumplió==: el S&P 500 acabó junio en 7.499, el objetivo medio para todo 2026, y el Nasdaq 100 ganó un 19,9 % gracias a los beneficios de la IA.",
+  "Dos tiempos: ==choque en marzo== (S&P 500 −5,1 %, Euro Stoxx 50 −9,3 %, VIX 31) y ==rally desde la tregua del 8 de abril== (Nasdaq 100 +27,5 % en el trimestre).",
+  "==Corea dobló (+101 %) y Taiwán ganó un 59 %== con la memoria y los semiconductores; los fondos de esos países encabezan el ranking (+79 % a +92 %).",
+  "Los bancos centrales giraron: ==BCE al 2,25 % y Banco de Japón al 1 % en junio==, y la Fed mantuvo tipos pero anticipó una subida; el 2 años de EE. UU. sube 67 pb.",
+  "Perdieron los metales preciosos tras su euforia de enero (==oro −7 %, plata −15 %==), el bitcóin (−33 %) y los importadores de crudo sin chips (India −10 %, Hong Kong −11 %)."
+ ],
+ "suben": [
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "+101,1 % (4.214 → 8.476)",
+   "por_que": "==Samsung y SK hynix pesan más del 40 % del índice== y la memoria para servidores de IA vivió un ciclo de precios y beneficios récord. Marcó máximos el 22 de junio (9.115), cuando SK hynix superó a Samsung en capitalización. Curiosamente, los extranjeros vendieron unos 148 billones de wones en el semestre (récord diario el 29 de junio): ==el rally lo sostuvo el ahorrador local==, una señal de exceso que se pagó en el segundo semestre. Marzo, con la guerra, le costó un −19 %.",
+   "fuentes": [
+    {
+     "t": "Edaily (el Kospi dobla en el semestre; ventas extranjeras)",
+     "u": "https://en.edaily.co.kr/news/eda202606306059"
+    }
+   ]
+  },
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "+59,3 %",
+   "por_que": "TSMC (más del 40 % del índice) fabrica casi todos los chips avanzados de IA, y detrás van MediaTek, ASE (encapsulado) y los ensambladores de servidores. ==Los planes de inversión en centros de datos de los gigantes tecnológicos== son su motor. Cayó un 10 % en marzo y subió un 45 % en el segundo trimestre.",
+   "fuentes": [
+    {
+     "t": "Storebrand (comentario de mercado, julio 2026)",
+     "u": "https://www.storebrandam.com/globalassets/storebrand-asset-management/documents/market-outlook-monthly/86042_storebrand-market-commentary-july-2026.pdf"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "+39,2 % (50.339 → 70.062)",
+   "por_que": "Japón tiene mucho peso en equipos para fabricar chips (Tokyo Electron, Advantest, Screen), que ==se benefician del mismo gasto en IA==. Con un 16,9 % ya ganado antes de la guerra, cayó un 13 % en marzo (Japón importa casi todo su petróleo) y subió un 37 % en el segundo trimestre; superó los 70.000 puntos en junio pese a la subida del Banco de Japón.",
+   "fuentes": [
+    {
+     "t": "CommBank (el Banco de Japón, en máximos de tres décadas)",
+     "u": "https://www.commbank.com.au/articles/newsroom/2026/06/bank-of-japan-lifts-rates-three-decade-high.html"
+    }
+   ]
+  },
+  {
+   "activo": "MSCI Emergentes (ETF EEM, en dólares)",
+   "cambio": "+25,0 %",
+   "por_que": "La subida es casi toda Corea y Taiwán, que pesan cerca de un tercio del índice. ==Dentro de emergentes la dispersión fue enorme==: India (−10 %), Hong Kong (−11 %) e Indonesia en negativo, Brasil (+7 %) a medias.",
+   "fuentes": [
+    {
+     "t": "Storebrand (comentario de mercado, julio 2026)",
+     "u": "https://www.storebrandam.com/globalassets/storebrand-asset-management/documents/market-outlook-monthly/86042_storebrand-market-commentary-july-2026.pdf"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "+19,8 % (60,9 $ → 72,9 $; máximo 118,3 $)",
+   "por_que": "El cierre de facto de Ormuz tras el 28 de febrero ==convirtió un mercado con exceso de oferta en uno con miedo a la escasez==: +63 % en marzo, con ataques a petroleros y a instalaciones del Golfo. La tregua del 8 de abril y el memorando del 17 de junio lo devolvieron a 73 $. Ojo: ya había subido un 19 % antes de la guerra por la tensión con Irán.",
+   "fuentes": [
+    {
+     "t": "Malay Mail (Irán responde y los mercados se tambalean, 4-mar)",
+     "u": "https://www.malaymail.com/news/world/2026/03/04/us-says-iran-campaign-ahead-of-game-plan-as-tehran-hits-back-and-global-markets-reel/211312"
+    },
+    {
+     "t": "Al-Monitor / AFP (minas en Ormuz y caos en el petróleo)",
+     "u": "https://www.al-monitor.com/originals/2026/03/us-targets-iran-mine-laying-war-causes-oil-market-havoc"
+    },
+    {
+     "t": "The Daily Star (el crudo se hunde y las bolsas suben con la tregua, 8-abr)",
+     "u": "https://www.thedailystar.net/business/news/crude-prices-plunge-stocks-surge-us-and-iran-agree-ceasefire-4146626"
+    },
+    {
+     "t": "AGBI (acuerdo de paz y reapertura de Ormuz, junio)",
+     "u": "https://www.agbi.com/markets/2026/06/oil-drops-as-trump-announces-peace-deal-and-hormuz-reopening/"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "+54,3 % (28,2 € → 43,4 €; máximo 61,9 €)",
+   "por_que": "Europa compra parte de su gas licuado a Catar, que lo exporta por Ormuz. ==El bloqueo recortó esa oferta== justo cuando había que rellenar almacenes tras el invierno. A diferencia del petróleo, no volvió a su nivel de enero: cerró junio un 54 % más caro, un lastre para la industria alemana.",
+   "fuentes": [
+    {
+     "t": "Al-Monitor / AFP (minas en Ormuz y caos en el petróleo)",
+     "u": "https://www.al-monitor.com/originals/2026/03/us-targets-iran-mine-laying-war-causes-oil-market-havoc"
+    }
+   ]
+  },
+  {
+   "activo": "Russell 2000 (pequeñas de EE. UU.)",
+   "cambio": "+21,9 %",
+   "por_que": "Fue de los mejores índices del semestre pese a los tipos al alza: ==+6 % antes de la guerra y +21 % en el segundo trimestre==, con la economía de EE. UU. fuerte (empleo de mayo +172.000) y los beneficios al alza. Las pequeñas son más sensibles al ciclo, y el ciclo aguantó.",
+   "fuentes": [
+    {
+     "t": "TechJack (el 5 de junio: chips castigados y Nasdaq −4,2 %)",
+     "u": "https://techjacksolutions.com/ai-brief/nasdaq-falls-418-chip-stocks-hammered-inside-the-june-5-ai-m/"
+    }
+   ]
+  },
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "+19,9 %",
+   "por_que": "La guerra le restó un 4,9 % en marzo, pero ==abril (+15,6 %) y mayo (+10,5 %) fueron dos meses excepcionales==, con NVIDIA, Broadcom y Micron al frente. En junio llegó el aviso: el 5 de junio el SOX cayó un 10 % por un empleo fuerte (menos recortes) y unos resultados de Broadcom que no elevaron las previsiones de IA.",
+   "fuentes": [
+    {
+     "t": "TechJack (el 5 de junio: chips castigados y Nasdaq −4,2 %)",
+     "u": "https://techjacksolutions.com/ai-brief/nasdaq-falls-418-chip-stocks-hammered-inside-the-june-5-ai-m/"
+    },
+    {
+     "t": "Trading Economics (Wall Street se dispara con la esperanza de fin de la guerra, 31-mar)",
+     "u": "https://tradingeconomics.com/united-states/stock-market/news/537974"
+    }
+   ]
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Bitcoin (USD)",
+   "cambio": "−33,1 % (87.509 $ → 58.559 $)",
+   "por_que": "Es el activo más sensible a la liquidez: ==con la Fed pasando de recortar a subir, el dinero especulativo se retiró==. Cayó un 25 % hasta febrero, aguantó la guerra y se hundió un 20 % en junio con el giro de la Fed. Cerró el semestre en su mínimo. Arrastró a los fondos de tecnología financiera con criptomonedas en cartera.",
+   "fuentes": [
+    {
+     "t": "Trustnet (la Fed mantiene en la primera reunión de Warsh; puntos más duros)",
+     "u": "https://www.trustnet.com/news/13478711/fed-holds-rates-at-warshs-first-meeting-while-hawkish-dot-plot-divides-analyst-opinion"
+    }
+   ]
+  },
+  {
+   "activo": "Plata",
+   "cambio": "−15,2 % (70,1 $ → 59,5 $)",
+   "por_que": "Venía de una burbuja: ==115 $ el 26 de enero y una caída cercana al 30 % el día 30==, la peor en décadas, al deshacerse posiciones apalancadas tras la elección de Warsh. Después le pesaron los tipos al alza (no paga cupón) y el dólar fuerte: −21 % solo en junio.",
+   "fuentes": [
+    {
+     "t": "ETF.com (desplome histórico del oro y la plata tras la elección de Warsh)",
+     "u": "https://www.etf.com/sections/features/gold-silver-etfs-suffer-historic-collapse-trump-fed-pick"
+    },
+    {
+     "t": "Yahoo Finance (la plata sufre una caída récord)",
+     "u": "https://finance.yahoo.com/news/silver-suffers-record-breaking-fall-193646517.html"
+    }
+   ]
+  },
+  {
+   "activo": "Hang Seng (Hong Kong)",
+   "cambio": "−10,7 %",
+   "por_que": "==Es de las pocas bolsas asiáticas sin grandes fabricantes de chips==, así que no recibió el viento de la IA y sí el del petróleo caro y el consumo chino débil. Junio fue el peor tramo (−9,1 %), con mínimos de más de un año el 26 de junio.",
+   "fuentes": [
+    {
+     "t": "The Standard (Hang Seng y tensiones en Oriente Medio)",
+     "u": "https://www.thestandard.com.hk/finance/article/333808/Hang-Seng-Index-drops-on-Thursday-on-renewed-Middle-East-tensions"
+    },
+    {
+     "t": "Tiger Brokers (dos años después del suelo de 2024 en China)",
+     "u": "https://www.itiger.com/news/1121167630"
+    }
+   ]
+  },
+  {
+   "activo": "Sensex (India)",
+   "cambio": "−10,3 %",
+   "por_que": "India importa casi todo su petróleo: ==el crudo caro empeora su balanza, su inflación y su moneda== (la rupia pasó de 95 por dólar el 30 de abril, mínimo histórico). Los inversores extranjeros vendieron un récord de acciones indias, en parte para comprar Corea y Taiwán. Marzo le costó un 11,5 %.",
+   "fuentes": [
+    {
+     "t": "Angel One (salidas de capital de la India por el petróleo)",
+     "u": "https://www.angelone.in/news/economy/foreign-portfolio-outflows-top-20-billion-in-2026-amid-oil-price-rises"
+    },
+    {
+     "t": "Angel One (la rupia pasa de 95 por dólar, 30-abr)",
+     "u": "https://www.angelone.in/news/economy/rupee-slips-past-95-per-dollar-to-record-low-on-april-30-2026"
+    }
+   ]
+  },
+  {
+   "activo": "Oro",
+   "cambio": "−7,0 % (4.341 $ → 4.039 $)",
+   "por_que": "Ganaba un 21 % a finales de febrero pese al desplome del 30 de enero. ==Con la guerra no actuó de refugio==: el dólar y los tipos reales subieron (el oro no paga interés) y hubo ventas para cubrir pérdidas en otros activos. Junio, con la Fed anticipando subidas, le costó otro 12 %.",
+   "fuentes": [
+    {
+     "t": "ETF.com (desplome histórico del oro y la plata tras la elección de Warsh)",
+     "u": "https://www.etf.com/sections/features/gold-silver-etfs-suffer-historic-collapse-trump-fed-pick"
+    },
+    {
+     "t": "Nasdaq / Barchart (el dólar sube por miedo a una guerra larga)",
+     "u": "https://www.nasdaq.com/articles/dollar-climbs-fears-prolonged-iran-war"
+    }
+   ]
+  },
+  {
+   "activo": "Bono de EE. UU. a 2 años (precio)",
+   "cambio": "TIR +67 pb (3,47 % → 4,14 %)",
+   "por_que": "Una TIR (tasa interna de rentabilidad) más alta es un precio más bajo. ==El mercado pasó de descontar dos recortes de la Fed a descontar una subida==: el petróleo llevó la inflación al 4,2 % y el empleo siguió fuerte. Detalle en el bloque de tipos.",
+   "fuentes": [
+    {
+     "t": "Trustnet (la Fed mantiene en la primera reunión de Warsh; puntos más duros)",
+     "u": "https://www.trustnet.com/news/13478711/fed-holds-rates-at-warshs-first-meeting-while-hawkish-dot-plot-divides-analyst-opinion"
+    },
+    {
+     "t": "Amplify ETFs (comentario de mercado, julio 2026)",
+     "u": "https://blog.amplifyetfs.com/hubfs/Market%20Update/Market-Commentary-July-2026.pdf"
+    }
+   ]
+  },
+  {
+   "activo": "Euro / dólar",
+   "cambio": "−3,0 % (1,175 → 1,139 $)",
+   "por_que": "Se esperaba que el euro siguiera subiendo; ==el dólar actuó de refugio en la guerra== y EE. UU. es exportador de energía, mientras la zona euro la importa. En junio, el giro de la Fed hacia subidas lo reforzó (euro −2,1 % en el mes). Para el inversor en euros, ==sumó unos 3 puntos a todo lo que cotiza en dólares==.",
+   "fuentes": [
+    {
+     "t": "Nasdaq / Barchart (el dólar sube por miedo a una guerra larga)",
+     "u": "https://www.nasdaq.com/articles/dollar-climbs-fears-prolonged-iran-war"
+    },
+    {
+     "t": "Kitco / Reuters (encuesta: la subida del dólar no durará)",
+     "u": "https://www.kitco.com/news/off-the-wire/2026-03-04/us-dollar-surge-start-war-iran-unlikely-last-say-fx-strategists"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Guerra con Irán, Ormuz y petróleo",
+   "texto": "El 28 de febrero EE. UU. e Israel atacaron Irán, que respondió contra barcos e instalaciones energéticas del Golfo y ==paralizó la navegación por Ormuz==, por donde pasa cerca de una quinta parte del crudo mundial. El Brent superó los 100 $ el 9 de marzo y cerró el mes en 118 $. El 8 de abril, a petición de Pakistán, EE. UU. e Irán pactaron una tregua de dos semanas condicionada a reabrir el estrecho; fue frágil, pero ==bastó para hundir el crudo y disparar la bolsa==. El 17 de junio un memorando abrió 60 días de negociación con alivio parcial de sanciones, y el Brent cerró el semestre en 73 $. El mecanismo es el del año: ==petróleo caro → inflación → tipos más altos==, con premio para los exportadores de energía y castigo para los importadores (Europa, India, Japón).",
+   "fuentes": [
+    {
+     "t": "Malay Mail (Irán responde y los mercados se tambalean, 4-mar)",
+     "u": "https://www.malaymail.com/news/world/2026/03/04/us-says-iran-campaign-ahead-of-game-plan-as-tehran-hits-back-and-global-markets-reel/211312"
+    },
+    {
+     "t": "Al-Monitor / AFP (minas en Ormuz y caos en el petróleo)",
+     "u": "https://www.al-monitor.com/originals/2026/03/us-targets-iran-mine-laying-war-causes-oil-market-havoc"
+    },
+    {
+     "t": "Jang (tregua de dos semanas a petición de Pakistán)",
+     "u": "https://jang.com.pk/en/63242-us-iran-announce-two-week-ceasefire-at-pakistans-request-agree-to-peace-talks-news"
+    },
+    {
+     "t": "The Daily Star (el crudo se hunde y las bolsas suben con la tregua, 8-abr)",
+     "u": "https://www.thedailystar.net/business/news/crude-prices-plunge-stocks-surge-us-and-iran-agree-ceasefire-4146626"
+    },
+    {
+     "t": "AGBI (acuerdo de paz y reapertura de Ormuz, junio)",
+     "u": "https://www.agbi.com/markets/2026/06/oil-drops-as-trump-announces-peace-deal-and-hormuz-reopening/"
+    }
+   ]
+  },
+  {
+   "tema": "Bancos centrales: de recortar a subir",
+   "texto": "La Fed empezó el año en el 3,50–3,75 % y no lo tocó en todo el semestre, pero el mensaje cambió por completo. Kevin Warsh, elegido el 30 de enero, tomó posesión el 22 de mayo; en su primera reunión (17 de junio) ==la mediana de los puntos pasó del 3,4 % al 3,8 % para fin de 2026, una subida en vez de recortes==, y la probabilidad de subida antes de diciembre saltó de ~24 % a ~77 %. El BCE subió 25 pb el 11 de junio (facilidad de depósito al 2,25 %) con la inflación en el 3,2 % en mayo, ==un movimiento preventivo contra el contagio de la energía a los salarios==. El Banco de Japón subió al 1 % el 16 de junio porque las empresas trasladaban el coste del crudo «con rapidez». Subir tipos no fabrica petróleo, pero intenta que el choque no se convierta en inflación persistente.",
+   "fuentes": [
+    {
+     "t": "Trustnet (la Fed mantiene en la primera reunión de Warsh; puntos más duros)",
+     "u": "https://www.trustnet.com/news/13478711/fed-holds-rates-at-warshs-first-meeting-while-hawkish-dot-plot-divides-analyst-opinion"
+    },
+    {
+     "t": "Rankia Pro (la Fed mantiene; mensaje duro de Warsh)",
+     "u": "https://rankiapro.com/en/insights/fed-holds-rates-warsh-begins-term-hawkish-message/"
+    },
+    {
+     "t": "InvestmentNews (primera reunión de Warsh)",
+     "u": "https://investmentnews.com/equities/federal-reserve-keeps-interest-rates-steady-at-kevin-warshs-first-meeting-as-chair/267063"
+    },
+    {
+     "t": "Banco de España (el BCE sube 25 pb en junio)",
+     "u": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/decisiones-politica-monetaria/bce-tipos-junio26.html"
+    },
+    {
+     "t": "FXStreet / Reuters (encuesta: el BCE subirá en junio)",
+     "u": "https://www.fxstreet.com/news/ecb-to-hike-interest-rates-in-june-reuters-poll-202605131047"
+    },
+    {
+     "t": "Babypips (el BoJ sube al 1 % en junio)",
+     "u": "https://babypips.com/news/headline-boj-rate-hike-june-2026-1-percent-31-year-high"
+    }
+   ]
+  },
+  {
+   "tema": "Inteligencia artificial (IA) y chips",
+   "texto": "La IA fue el gran motor: memoria (Samsung, SK hynix, Micron), fundición (TSMC), diseño (NVIDIA, Broadcom, MediaTek) y equipos (Tokyo Electron, ASML). ==Un puñado de empresas explica casi toda la subida de Corea, Taiwán y el Nasdaq==. Hubo dos avisos de lo que vendría: el 5 de junio el SOX cayó un 10,3 %, su peor día desde 2020, por un empleo fuerte que alejaba los recortes y por unos resultados de Broadcom sin mejora de previsiones; y ==a finales de junio los extranjeros vendieron Corea a ritmo récord==. La concentración también explica el ranking de fondos: ganan los que llevan esos valores y pierden los estilos de calidad, salud y tecnología financiera.",
+   "fuentes": [
+    {
+     "t": "TechJack (el 5 de junio: chips castigados y Nasdaq −4,2 %)",
+     "u": "https://techjacksolutions.com/ai-brief/nasdaq-falls-418-chip-stocks-hammered-inside-the-june-5-ai-m/"
+    },
+    {
+     "t": "Edaily (el Kospi dobla en el semestre; ventas extranjeras)",
+     "u": "https://en.edaily.co.kr/news/eda202606306059"
+    },
+    {
+     "t": "Storebrand (comentario de mercado, julio 2026)",
+     "u": "https://www.storebrandam.com/globalassets/storebrand-asset-management/documents/market-outlook-monthly/86042_storebrand-market-commentary-july-2026.pdf"
+    }
+   ]
+  },
+  {
+   "tema": "Metales preciosos y bitcóin: de la euforia a la resaca",
+   "texto": "El semestre empezó con una burbuja en metales: ==plata a 115 $ (+64 % en un mes) y oro en récord== el 29 de enero. El 30, la elección de Warsh, visto como menos partidario de bajar tipos, provocó la mayor caída en un día de la plata en décadas y un desplome del oro de alrededor del 10 %. Lo llamativo es que ==la guerra no los rescató==: el dólar y los tipos reales al alza pesaron más que el miedo. El bitcóin siguió el mismo patrón de liquidez (−33 %). En fondos, las mineras de oro perdieron cerca de un 15 %.",
+   "fuentes": [
+    {
+     "t": "ETF.com (desplome histórico del oro y la plata tras la elección de Warsh)",
+     "u": "https://www.etf.com/sections/features/gold-silver-etfs-suffer-historic-collapse-trump-fed-pick"
+    },
+    {
+     "t": "Yahoo Finance (la plata sufre una caída récord)",
+     "u": "https://finance.yahoo.com/news/silver-suffers-record-breaking-fall-193646517.html"
+    }
+   ]
+  },
+  {
+   "tema": "Emergentes, Europa y el dólar",
+   "texto": "==La guerra separó a ganadores y perdedores según dos ejes: chips y petróleo.== Corea y Taiwán (chips) se dispararon; India (importa crudo) y Hong Kong (sin chips, consumo chino débil) cayeron un 10–11 %; Brasil (exportador) tocó récord el 14 de abril y devolvió casi todo en mayo con la salida de capital extranjero. En Europa ganaron Italia y España, con banca que se beneficia de tipos más altos, y se quedaron atrás Alemania y Francia; el diferencial francés con el Bund subió de unos 55 pb en febrero a unos 75 pb en mayo (cifras de prensa), todavía lejos de lo que vendría en otoño. El dólar, que se esperaba débil, ==ganó un 3 % como refugio y por la Fed==.",
+   "fuentes": [
+    {
+     "t": "Trading Economics (Ibovespa: récord en abril y caída en mayo)",
+     "u": "https://tradingeconomics.com/brazil/stock-market"
+    },
+    {
+     "t": "InfoMoney (salida de capital extranjero de la bolsa brasileña, mayo)",
+     "u": "https://www.infomoney.com.br/?p=3338474"
+    },
+    {
+     "t": "Angel One (salidas de capital de la India por el petróleo)",
+     "u": "https://www.angelone.in/news/economy/foreign-portfolio-outflows-top-20-billion-in-2026-amid-oil-price-rises"
+    },
+    {
+     "t": "Option Finance (el diferencial OAT–Bund, una cuestión francesa)",
+     "u": "https://www.optionfinance.fr/analyses/le-spread-oat-bund-une-question-francaise-aux-consequences-europeennes.html"
+    },
+    {
+     "t": "Nasdaq / Barchart (el dólar sube por miedo a una guerra larga)",
+     "u": "https://www.nasdaq.com/articles/dollar-climbs-fears-prolonged-iran-war"
+    },
+    {
+     "t": "Kitco / Reuters (encuesta: la subida del dólar no durará)",
+     "u": "https://www.kitco.com/news/off-the-wire/2026-03-04/us-dollar-surge-start-war-iran-unlikely-last-say-fx-strategists"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "El semestre tuvo un patrón claro: ==subió mucho más el tramo corto que el largo==. El 2 años de EE. UU., que refleja casi solo lo que se espera de la Fed, ganó 67 pb (3,47 % → 4,14 %); el 10 años, 25 pb (4,16 % → 4,42 %), y el 30 años apenas 6 pb. La curva se aplanó (diferencia 10–2 años de 69 a 28 pb). Por tramos: hasta el 27 de febrero las TIR bajaron (10 años −20 pb, al 3,96 %) con datos más flojos; ==marzo fue el salto (2 años +41 pb, 10 años +35 pb)==, porque el crudo a 118 $ disparó la inflación esperada y el mercado dejó de ver recortes; y en el segundo trimestre el corto siguió subiendo (+35 pb) con un IPC (índice de precios de consumo) del 4,2 % en mayo, un empleo fuerte y ==el diagrama de puntos de la Fed del 17 de junio, que anticipa una subida== (ese día el 2 años subió 15 pb). El largo subió menos por dos frenos: un petróleo caro también se lee como menos crecimiento futuro, y en los peores días (marzo, 5 de junio) la venta de bolsa llevó dinero a los bonos como refugio.\n\nEn la zona euro el patrón fue parecido pero más extremo. El 2 años AAA subió 37 pb (2,11 % → 2,48 %): ==+61 pb solo en marzo==, cuando el mercado pasó a descontar subidas del BCE, y −11 pb en el segundo trimestre, aunque el BCE subió el 11 de junio, porque ==la subida ya estaba descontada y el petróleo bajaba== con la tregua. El 10 años AAA (≈ Bund) acabó plano (−2 pb, 2,95 % → 2,92 %): subió 35 pb en marzo y devolvió 15 pb con la paz. En la periferia, el diferencial de España con Alemania se movió en una banda de 40–50 pb (37 pb antes de la guerra) y el de Francia subió de unos 55 a unos 75 pb (cifras de prensa; el panel no tiene serie propia). El crédito de alto riesgo vivió un susto y una vuelta: su diferencial pasó de 2,81 % a 3,46 % el 30 de marzo y ==cerró junio en 2,75 %, por debajo de donde empezó==, porque los beneficios empresariales siguieron fuertes.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "+67 pb (3,47 % → 4,14 %)",
+    "por_que": "==De descontar dos recortes a descontar una subida.== Febrero −9 pb, marzo +41 (petróleo e inflación), segundo trimestre +35 (IPC del 4,2 %, empleo fuerte y puntos de la Fed). Máximo del 4,24 % el 22 de junio.",
+    "fuentes": [
+     {
+      "t": "Trustnet (la Fed mantiene en la primera reunión de Warsh; puntos más duros)",
+      "u": "https://www.trustnet.com/news/13478711/fed-holds-rates-at-warshs-first-meeting-while-hawkish-dot-plot-divides-analyst-opinion"
+     },
+     {
+      "t": "Amplify ETFs (comentario de mercado, julio 2026)",
+      "u": "https://blog.amplifyetfs.com/hubfs/Market%20Update/Market-Commentary-July-2026.pdf"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "+25 pb (4,16 % → 4,42 %)",
+    "por_que": "Sube menos que el 2 años porque el largo plazo descuenta también menos crecimiento y ==actuó de refugio en los días de pánico==. Mínimo del 3,96 % el 27 de febrero (víspera de la guerra) y máximo del 4,67 % el 19 de mayo; el 5 de junio saltó al 4,53 % con el empleo.",
+    "fuentes": [
+     {
+      "t": "TechJack (el 5 de junio: chips castigados y Nasdaq −4,2 %)",
+      "u": "https://techjacksolutions.com/ai-brief/nasdaq-falls-418-chip-stocks-hammered-inside-the-june-5-ai-m/"
+     },
+     {
+      "t": "FRED (TIR del Tesoro a 10 años)",
+      "u": "https://fred.stlouisfed.org/series/DGS10"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "+6 pb (4,84 % → 4,90 %)",
+    "por_que": "Casi plano: ==la inflación esperada a largo plazo apenas se movió==, señal de que el mercado confiaba en que la Fed reaccionaría. Llegó al 5,18 % el 19 de mayo.",
+    "fuentes": [
+     {
+      "t": "FRED (TIR del Tesoro a 10 años)",
+      "u": "https://fred.stlouisfed.org/series/DGS10"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "+37 pb (2,11 % → 2,48 %)",
+    "por_que": "==Salto de 61 pb en marzo== al descontar subidas del BCE; en el segundo trimestre bajó 11 pb pese a la subida del 11 de junio (ya descontada) porque la tregua abarató el crudo.",
+    "fuentes": [
+     {
+      "t": "Banco de España (el BCE sube 25 pb en junio)",
+      "u": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/decisiones-politica-monetaria/bce-tipos-junio26.html"
+     },
+     {
+      "t": "FXStreet / Reuters (encuesta: el BCE subirá en junio)",
+      "u": "https://www.fxstreet.com/news/ecb-to-hike-interest-rates-in-june-reuters-poll-202605131047"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "−2 pb (2,95 % → 2,92 %)",
+    "por_que": "Plano en el semestre tras subir 35 pb en marzo. ==Cuando baja el petróleo baja la inflación esperada y bajan las TIR==, y el Bund recibió además dinero de refugio.",
+    "fuentes": [
+     {
+      "t": "Banco de España (el BCE sube 25 pb en junio)",
+      "u": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/decisiones-politica-monetaria/bce-tipos-junio26.html"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Francia–Alemania (10 años)",
+    "cambio": "≈ +20 pb (de ~55 pb en febrero a ~75 pb en mayo)",
+    "por_que": "Riesgo fiscal (déficit cercano al 5 % del PIB) y político, de momento contenido. ==La crisis francesa de verdad llegaría en el segundo semestre.== Cifras de prensa aproximadas.",
+    "fuentes": [
+     {
+      "t": "Option Finance (el diferencial OAT–Bund, una cuestión francesa)",
+      "u": "https://www.optionfinance.fr/analyses/le-spread-oat-bund-une-question-francaise-aux-consequences-europeennes.html"
+     },
+     {
+      "t": "Babypips (por qué importa el diferencial OAT–Bund)",
+      "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial high yield EE. UU.",
+    "cambio": "−6 pb (2,81 % → 2,75 %)",
+    "por_que": "Ida y vuelta: ==+65 pb hasta el 30 de marzo== con la guerra y −71 pb después. Los beneficios fuertes sostuvieron la solvencia de las empresas.",
+    "fuentes": [
+     {
+      "t": "Storebrand (comentario de mercado, julio 2026)",
+      "u": "https://www.storebrandam.com/globalassets/storebrand-asset-management/documents/market-outlook-monthly/86042_storebrand-market-commentary-july-2026.pdf"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Trustnet (la Fed mantiene en la primera reunión de Warsh; puntos más duros)",
+    "u": "https://www.trustnet.com/news/13478711/fed-holds-rates-at-warshs-first-meeting-while-hawkish-dot-plot-divides-analyst-opinion"
+   },
+   {
+    "t": "Banco de España (el BCE sube 25 pb en junio)",
+    "u": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/decisiones-politica-monetaria/bce-tipos-junio26.html"
+   },
+   {
+    "t": "Babypips (el BoJ sube al 1 % en junio)",
+    "u": "https://babypips.com/news/headline-boj-rate-hike-june-2026-1-percent-31-year-high"
+   },
+   {
+    "t": "Option Finance (el diferencial OAT–Bund, una cuestión francesa)",
+    "u": "https://www.optionfinance.fr/analyses/le-spread-oat-bund-une-question-francaise-aux-consequences-europeennes.html"
+   },
+   {
+    "t": "Amplify ETFs (comentario de mercado, julio 2026)",
+    "u": "https://blog.amplifyetfs.com/hubfs/Market%20Update/Market-Commentary-July-2026.pdf"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "En el semestre hubo 3.446 fondos con dato (una clase por fondo). ==El ranking es un mapa de la IA==: los diez primeros son fondos de Taiwán, Corea, semiconductores y conectividad para centros de datos, con subidas del 64 % al 92 % en euros. Los diez últimos mezclan tres historias: ==Indonesia (petróleo caro sin chips), la tecnología financiera con criptomonedas (bitcóin −33 %) y la tecnología médica==, olvidada en la rotación hacia la IA; más abajo aparecen las mineras de oro (−15 %) y China (−13 % a −14 %).\n\nEl efecto divisa jugó a favor: el dólar subió un 3 % frente al euro, así que ==un fondo en dólares sin cubrir ganó unos 3 puntos más en euros que en su moneda== (los monetarios en dólares, +1,8 % en dólares y +5 % en euros). Los fondos cubiertos a euros (clases «H» o «Hdg») no lo recibieron. Por clases, la mediana de renta variable ganó un 10,6 %, mixtos un 5,1 %, alternativos un 2,2 %, renta fija un 1,2 % y monetarios un 1,0 %.",
+  "suben": [
+   {
+    "isin": "LU0270816068",
+    "por_que": "Taiwán: TSMC (8,9 %), MediaTek (8,3 %), ASE (6,7 %), Hon Hai y Delta. +86,6 % en dólares; ==casi 6 puntos más en euros por el dólar==. Bate al Taiex (+59 %) porque no puede pesar TSMC como el índice (límite del 10 % de la normativa UCITS) y reparte más en diseño, encapsulado y servidores, la segunda línea de la IA."
+   },
+   {
+    "isin": "LU0301637293",
+    "por_que": "Corea: SK hynix (10,1 %), SK Square (9,4 %, holding de SK hynix) y Samsung (8,6 %). ==Es el ciclo de la memoria para IA en estado puro==. Gana algo menos que el Kospi (+101 %) porque el límite del 10 % le impide igualar el peso de Samsung y SK hynix en el índice."
+   },
+   {
+    "isin": "LU0401357313",
+    "por_que": "Taiwán con MediaTek (9,2 %) y TSMC (8,9 %) en cabeza, más ASE, Delta y UMC. Misma historia que el Schroder, ==sin efecto divisa porque la clase está en euros==."
+   },
+   {
+    "isin": "IE000EWWPFJ6",
+    "por_que": "Pese a su categoría de «energía alternativa», ==sus mayores posiciones son Lumentum, Marvell, Coherent y Corning==: láseres, fibra y conectividad óptica para centros de datos de IA. Por eso sube como un fondo de semiconductores. +67,8 % en dólares; unos 5 puntos más en euros."
+   },
+   {
+    "isin": "IE00BZ4D7648",
+    "por_que": "Tecnología global con NVIDIA (9,6 %), TSMC, AMD, Micron y Broadcom. ==Clase cubierta a euros==: no gana el efecto dólar, y aun así casi triplica el +20 % del Nasdaq 100 porque concentra en chips, no en software."
+   },
+   {
+    "isin": "LU1818606771",
+    "por_que": "Emergentes con un +68,9 %, casi el triple que el ETF EEM (+25 %). No tenemos su cartera; ==un resultado así solo se explica con mucho peso en Corea y Taiwán== (o un dato erróneo: conviene comprobar el VL, valor liquidativo)."
+   },
+   {
+    "isin": "IE000NUQFNN0",
+    "por_que": "Sin cartera publicada. Es de Polar Capital y de la misma categoría que el Smart Energy, con una rentabilidad casi igual a la de ese fondo en dólares (+67,8 %): ==apunta a la misma temática de conectividad para IA, cubierta a euros== (no confirmado)."
+   },
+   {
+    "isin": "ES0168799056",
+    "por_que": "Bolsa de EE. UU. con un +66,7 % cuando el S&P 500 ganó un 13 % en euros. No tenemos su cartera y ==no tiene dato en el segundo semestre==: hay que comprobar el VL antes de sacar conclusiones (ver avisos)."
+   },
+   {
+    "isin": "LU2145463613",
+    "por_que": "Materiales: mineras de oro y cobre (Aura, Hudbay; cobre +10 %) y, sobre todo, ==proveedores de materiales y equipos para chips== (Onto Innovation, Samsung Electro-Mechanics, Corning, Viavi). La IA también tira de aquí."
+   },
+   {
+    "isin": "IE00BMD7ZB71",
+    "por_que": "Redes de nueva generación: Apple, NVIDIA, Amazon, TSMC, Marvell y ==japonesas de equipos y cable (Screen, Furukawa Electric)==, que subieron con el Nikkei de los chips."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU0346391328",
+    "por_que": "Indonesia (−24,5 % en dólares; algo menos en euros por el dólar). Sin cartera, pero el mecanismo es el de India: ==importa petróleo y no tiene chips==, así que sufrió el crudo caro y la salida de capital extranjero hacia Corea y Taiwán."
+   },
+   {
+    "isin": "ES0174115032",
+    "por_que": "Mixto flexible con un −19,5 %, impropio de su categoría (la mediana de mixtos ganó un 5 %). Sin cartera. ==Otro fondo de la misma gestora (Cinvest Multigestión) ganó un 21,8 %==: estrategias muy concentradas y opuestas, o un dato que revisar."
+   },
+   {
+    "isin": "LU1700710939",
+    "por_que": "Tecnología financiera con ==BitMine Immersion, Coinbase y Block entre las primeras posiciones==: cayó con el bitcóin (−33 %). En el segundo semestre, con el bitcóin +39 %, rebotó un 17 %."
+   },
+   {
+    "isin": "IE00BKKJBP83",
+    "por_que": "Tecnología financiera (sin cartera publicada). Mismo patrón que el Robeco FinTech: ==cae con el bitcóin en el primer semestre y sube un 22,5 % en el segundo==."
+   },
+   {
+    "isin": "LU0329630130",
+    "por_que": "Tecnología médica: Intuitive Surgical, Abbott, Stryker, Boston Scientific. ==El dinero salió de la salud para entrar en la IA== y los tipos al alza penalizan a las compañías de crecimiento estable. Sin noticia concreta del sector en nuestras fuentes."
+   },
+   {
+    "isin": "ES0110407162",
+    "por_que": "Pequeñas compañías globales con un −17,8 % cuando el Russell 2000 ganó un 22 %. Sin cartera. ==En el tercer trimestre ganó un 24,7 % y en el segundo semestre un 18,6 %==: un comportamiento errático que pide revisar el VL."
+   },
+   {
+    "isin": "LU1378880410",
+    "por_que": "Marcas globales de calidad con estrategia de renta (vende opciones para cobrar primas, lo que recorta las subidas), cubierto a euros. Sin cartera; ==el estilo calidad y consumo quedó fuera de la fiesta de la IA==."
+   },
+   {
+    "isin": "LU2036817711",
+    "por_que": "Tecnología médica, como el Variopartner: ==rotación desde la salud hacia los chips==. Sin cartera publicada."
+   },
+   {
+    "isin": "LU1057468578",
+    "por_que": "Alternativo de materias primas (estrategia sistemática de BofA sobre futuros, cubierta a euros). Pierde un 16 % en un semestre en que el Brent subió un 20 %, ==lo que indica una estrategia relativa o a la baja que se vio sorprendida por la guerra==. Sin cartera."
+   },
+   {
+    "isin": "FR0011170182",
+    "por_que": "Metales preciosos (oro, plata, platino y paladio) mediante derivados; por eso su cartera publicada son bonos franceses y belgas, que sirven de garantía. ==Plata −15 % y oro −7 %==, sin el colchón del dólar porque replica en euros."
+   }
+  ],
+  "por_clase": [
+   {
+    "clase": "Renta variable",
+    "texto": "Mediana +10,6 % (1.665 fondos), con ==extremos de +92 % y −22 %==. Arriba, Taiwán, Corea, Asia emergente y temáticos de chips y conectividad; abajo, Indonesia, tecnología financiera, tecnología médica, mineras de oro (Ninety One Global Gold y BGF World Gold −15 %) y China (Comgest Growth China −14 %, Fidelity China Focus −13 %)."
+   },
+   {
+    "clase": "Renta fija",
+    "texto": "Mediana +1,2 % (1.070 fondos). ==Ganaron los convertibles== (UBAM +24 %, BNP +18 %, M&G +17 %), que se comportan como acciones cuando la bolsa sube. Los tipos al alza en EE. UU. y la deuda emergente lastraron (Invesco Emerging Flexible −6 %). Varios de los peores son clases de reparto (ver avisos): su caída exagera la pérdida real."
+   },
+   {
+    "clase": "Mixtos",
+    "texto": "Mediana +5,1 % (447 fondos). Arriba, los mixtos asiáticos y emergentes (Allianz Asian Multi Income +34 % en euros). Abajo, ==los de estilo valor y protección== (R-co Valor −6 %, Acatis −5 %, Flossbach −3 %, Ruffer −2 %), que suelen llevar oro y poca tecnología."
+   },
+   {
+    "clase": "Monetarios",
+    "texto": "Mediana +1,0 % (103 fondos). Los primeros son ==monetarios en dólares: +1,8 % en su moneda y +5 % en euros por el dólar==. En euros, +0,6 % a +0,8 %, con el tipo del BCE en el 2 % hasta junio."
+   },
+   {
+    "clase": "Alternativos",
+    "texto": "Mediana +2,2 % (149 fondos). ==Ganaron los de tendencia y volatilidad== (Fulcrum Equity Dispersion +15 %, Winton +14 %, Man AHL +11 %), porque el petróleo y los tipos dieron tendencias claras. Perdieron los neutrales al mercado (Exane Overdrive −13 %, AQR Adaptive −13 %), incómodos con una bolsa concentrada en pocos valores."
+   },
+   {
+    "clase": "Materias primas e inmobiliario",
+    "texto": "Mediana +9,1 % (solo 9 fondos). ==Los diversificados ganaron con el petróleo y el gas== (DWS Enhanced Commodity +20 %, MS Parametric +17 %); los de metales preciosos (Ofi −16 %) y de metales estratégicos (Ofi −9 %) perdieron."
+   },
+   {
+    "clase": "Otros",
+    "texto": "Mediana +0,3 % (3 fondos). El Bankinter Europeo Inverso perdió un 10,2 %, ==lo esperable cuando el Euro Stoxx 50 sube un 9,2 %==; los fondos con capital protegido, entre 0 % y +3 %."
+   }
+  ],
+  "avisos": [
+   "==Gestión Boutique IV Alclam US (ES0168799056) +66,7 %== frente a un S&P 500 de +13 % en euros, sin cartera publicada y sin dato en el segundo semestre: comprobar el VL.",
+   "==Gestión Boutique VI O «B» (ES0110407162)==: −17,8 % en el primer semestre, +24,7 % en el tercer trimestre y +18,6 % en el segundo semestre. Demasiado errático para un fondo de pequeñas compañías; ya se avisó en el trimestral.",
+   "Cinvest/Azero Global (ES0174115032) −19,5 % y Cinvest Multigestión (ES0107696066) +21,8 %, de la misma gestora: diferencia muy grande para dos mixtos flexibles.",
+   "==Clases de reparto que bajan por el cupón, no por el mercado==: BNP Paribas Euro Money Market C Dis (−1,1 %), Twelve Cat Bond P D (−6,0 %), BlueBay Global High Yield C D (−5,9 %), Franklin Strategic Income Mdis (−3,1 %), Amundi Strategic Income MGI D (−3,0 %) y BlueBay Investment Grade AID (−2,7 %). Su rentabilidad real es mayor.",
+   "Categorías engañosas: Polar Capital Smart Energy (IE000EWWPFJ6) figura como «energía alternativa», pero su cartera es de conectividad para centros de datos de IA.",
+   "Bradesco Brazilian Fixed Income (LU0508552956) +13,4 %: el comentario anual ya lo apartó por un VL atrasado (30-dic). Tomar con cautela."
+  ]
+ },
+ "agenda": [
+  {
+   "fecha": "2026-07",
+   "evento": "Negociación del memorando con Irán (ventana de 60 días desde el 17 de junio)",
+   "por_que_importa": "Visto a 30 de junio, ==era el gran riesgo del semestre==: si fracasaba, el Brent podía volver por encima de 100 $. (Se rompió el 8 de julio.)"
+  },
+  {
+   "fecha": "2026-07-23",
+   "evento": "Reunión del BCE",
+   "por_que_importa": "Se esperaba pausa tras la subida de junio, con la inflación en el 2,8 % en junio (dato adelantado)."
+  },
+  {
+   "fecha": "2026-07-29",
+   "evento": "Reunión de la Fed (28–29 de julio)",
+   "por_que_importa": "Tras unos puntos que piden una subida, el mercado vigilaba si llegaría en septiembre."
+  },
+  {
+   "fecha": "2026-07",
+   "evento": "Resultados del segundo trimestre (Samsung, SK hynix, TSMC y las grandes tecnológicas)",
+   "por_que_importa": "==Prueba para unas bolsas asiáticas que habían duplicado su valor== con la memoria y la IA."
+  },
+  {
+   "fecha": "2026-08-16",
+   "evento": "Fin de la ventana de 60 días del memorando (fecha aproximada)",
+   "por_que_importa": "Sin acuerdo, volvían las sanciones y el riesgo sobre Ormuz."
+  },
+  {
+   "fecha": "2026-09-10",
+   "evento": "Reunión del BCE",
+   "por_que_importa": "Posible segunda subida si la energía mantenía la inflación por encima del 3 %."
+  },
+  {
+   "fecha": "2026-09-16",
+   "evento": "Reunión de la Fed con nuevas proyecciones",
+   "por_que_importa": "La primera fecha en que el mercado veía probable la subida anticipada en junio."
+  },
+  {
+   "fecha": "2026-10-04",
+   "evento": "Primera vuelta de las presidenciales en Brasil",
+   "por_que_importa": "El Bovespa había devuelto en mayo casi todo lo ganado; las encuestas iban a marcar el real y la bolsa."
+  },
+  {
+   "fecha": "2026-10",
+   "evento": "Presupuesto francés de 2027",
+   "por_que_importa": "Con un déficit cercano al 5 % y un Gobierno sin mayoría, ==el diferencial francés era el riesgo europeo latente==."
+  },
+  {
+   "fecha": "2026-11-03",
+   "evento": "Elecciones de mitad de mandato en EE. UU.",
+   "por_que_importa": "Presión política para bajar el precio de la gasolina y cerrar el conflicto con Irán."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "BoJ",
+   "def": "Banco de Japón (Bank of Japan)."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene a vencimiento. Sube cuando cae su precio, y viceversa."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+  },
+  {
+   "sigla": "Prima por plazo",
+   "def": "Rentabilidad extra que se exige por prestar a largo plazo en lugar de renovar a corto."
+  },
+  {
+   "sigla": "Tipo real",
+   "def": "Rentabilidad de un bono descontada la inflación esperada."
+  },
+  {
+   "sigla": "Curva de tipos",
+   "def": "Rentabilidades de un mismo emisor a distintos plazos; se aplana cuando los cortos suben más que los largos."
+  },
+  {
+   "sigla": "Diagrama de puntos (dot plot)",
+   "def": "Gráfico de la Fed con el tipo que cada miembro del comité ve adecuado al final de cada año."
+  },
+  {
+   "sigla": "IPC",
+   "def": "Índice de precios de consumo (inflación). La subyacente excluye energía y alimentos."
+  },
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "SOX",
+   "def": "Índice de semiconductores de Filadelfia: 30 grandes empresas de chips cotizadas en EE. UU."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia; la curva AAA del BCE agrupa los bonos de los países euro con esa nota (Alemania, Países Bajos…)."
+  },
+  {
+   "sigla": "Bund",
+   "def": "Bono del Estado alemán; referencia de la deuda sin riesgo en euros."
+  },
+  {
+   "sigla": "OAT",
+   "def": "Obligation assimilable du Trésor: bono del Estado francés."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad implícita del S&P 500 («índice del miedo»)."
+  },
+  {
+   "sigla": "MOVE",
+   "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU."
+  },
+  {
+   "sigla": "High yield",
+   "def": "Bonos de empresas con baja calificación crediticia («alto rendimiento»); su diferencial frente a la deuda pública mide el miedo en el crédito."
+  },
+  {
+   "sigla": "DXY",
+   "def": "Índice del dólar frente a una cesta de seis divisas (el euro pesa un 58 %)."
+  },
+  {
+   "sigla": "ETF",
+   "def": "Exchange-traded fund: fondo que cotiza en bolsa como una acción."
+  },
+  {
+   "sigla": "EEM",
+   "def": "ETF de iShares que replica el índice MSCI de mercados emergentes (en dólares)."
+  },
+  {
+   "sigla": "MSCI",
+   "def": "Proveedor de índices bursátiles; sus clasificaciones (desarrollado, emergente…) obligan a comprar o vender a los fondos indexados."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio diario de una participación de un fondo."
+  },
+  {
+   "sigla": "PIB",
+   "def": "Producto interior bruto."
+  },
+  {
+   "sigla": "UCITS",
+   "def": "Normativa europea de fondos armonizados; entre otras cosas limita al 10 % el peso de una sola acción en cartera."
+  },
+  {
+   "sigla": "Ormuz",
+   "def": "Estrecho entre Irán y Omán por el que pasa cerca de una quinta parte del petróleo y del gas licuado del mundo."
+  }
+ ],
+ "generado": "2026-10-24T13:00"
+}

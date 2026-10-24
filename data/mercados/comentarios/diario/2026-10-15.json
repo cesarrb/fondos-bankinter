@@ -1,0 +1,526 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-15",
+  "fase": "completo",
+  "titulo": "Los chips hunden Asia (Kospi −7,6 %) y Wall Street rota hacia salud; bajan las TIR",
+  "resumen": "Asia digirió de golpe lo que Wall Street había vivido la tarde anterior: un IPC (índice de precios al consumo) de EE. UU. más alto de lo esperado y la venta de tecnológicas por el temor a la deuda con la que se financia la inteligencia artificial (IA). ==El Kospi coreano se hundió un 7,6 % (5.554 puntos)== y el Nikkei japonés un 4,9 % (64.426), su tercera mayor caída en puntos de la historia. El Taiex de Taiwán cayó un 3,4 %, el Hang Seng un 1,0 % y Shanghái un 1,6 %. Corea y Taiwán son las bolsas más expuestas porque ==sus índices dependen de unos pocos fabricantes de memoria y chips== (SK hynix, Samsung, TSMC), que eran los grandes ganadores del auge de la IA. La India fue la excepción: el Sensex subió un 2,1 % gracias a los resultados de las tecnológicas de servicios (HCL), a la banca privada y al alivio de un crudo y una rupia más favorables. El mercado lo vio como refugio fuera del negocio de la IA.\n\nEn EE. UU. los futuros del Nasdaq llegaron a caer un 1 %, pero ==la sesión acabó en rotación más que en pánico==. El S&P 500 subió un 0,33 % (7.744), el Dow Jones un 1,1 % y el Russell 2000 un 1,4 %, mientras el Nasdaq 100 quedaba plano (−0,05 %). El sector salud lideró (+1,8 %; Eli Lilly más de +3 %, UnitedHealth +2,8 %) y Walmart subió un 1,4 % tras una mejora de recomendación. En el lado contrario, Dell (−6,9 %) y HPE (−7,1 %) siguieron cayendo por el coste de su deuda y el índice de semiconductores encadenó su séptima sesión a la baja (−0,9 %). Nvidia cedió un 1,8 % porque TSMC, pese a su sexto beneficio trimestral récord, fue prudente sobre 2027. El IPP (índice de precios de producción) de septiembre tuvo su ==mayor subida en unos cuatro años y medio==, señal de que la inflación va más allá de la energía. La probabilidad de una subida de tipos de la Reserva Federal (Fed) antes de diciembre subió al 67 % (62 % el día anterior).\n\nAun así, los bonos subieron con fuerza: la TIR (tasa interna de rentabilidad) del 10 años de EE. UU. bajó 10 puntos básicos (pb), hasta el 5,09 %, y la del 30 años casi otro tanto. ==Fue una huida a la calidad por el desplome asiático==, amplificada por el cierre de coberturas compradas antes del IPC y por recompras de fondos de tendencia. Además, Mary Daly (Fed de San Francisco) ==no ve necesario subir en la reunión de octubre==. Tras rozar el 5,3 % el día anterior, el 10 años llegó a tocar el 5,04 %. En Europa la bajada fue aún mayor: el 10 años AAA de la zona euro (equivalente al Bund) ==cayó 12 pb (3,39 %)== y el 2 años casi 10 pb. El dólar se debilitó (índice DXY −0,54 %), y el oro (+1,5 %, 4.170 $) y la plata (+2,3 %) recuperaron parte de lo perdido. En el crudo hubo divergencia: el Brent quedó plano (105,9 $) y el WTI subió un 3,0 % (98,0 $). El cobre cayó un 1,5 %.\n\nLas bolsas europeas fueron por barrios. Las más defensivas subieron: SMI +1,55 % y FTSE 100 +1,1 %, con el sector salud europeo acumulando más de un 4,6 % en dos sesiones. También subieron el Stoxx 600 (+0,38 %), el CAC 40 (+0,8 %) y el DAX (+0,3 %). En cambio, el Euro Stoxx 50 (−0,36 %), más cargado de tecnología como ASML y SAP, el IBEX 35 (−0,3 %) y el FTSE MIB (−0,7 %), muy bancarios, cayeron. ==La bajada de rentabilidades estrecha el margen esperado de la banca.== Por la tarde, MSCI anunció que consultará si rebaja a Indonesia de mercado emergente a «independiente», una noticia que al día siguiente hundiría Yakarta.",
+  "claves": [
+    "Asia se desplomó por los chips: Kospi −7,6 %, Nikkei −4,9 % y Taiex −3,4 %, tras el IPC de EE. UU. y el temor a la deuda de la IA.",
+    "Wall Street rotó hacia salud y consumo: el Dow Jones subió un 1,1 % y el S&P 500 un 0,3 %, con el Nasdaq 100 plano y Dell y HPE cayendo cerca del 7 %.",
+    "Los bonos subieron con fuerza: ==el 10 años de EE. UU. bajó 10 pb (5,09 %)== y el Bund 12 pb (3,39 %), pese a un IPP de septiembre muy alto.",
+    "La India fue el refugio del día (Sensex +2,1 %) gracias a las tecnológicas de servicios y a la banca.",
+    "Oro (+1,5 %) y plata (+2,3 %) rebotaron con la caída del dólar y de las rentabilidades."
+  ],
+  "suben": [
+    {
+      "activo": "Sensex (India)",
+      "cambio": "+2,1 %",
+      "por_que": "Lo subieron los resultados de las tecnológicas de servicios (HCL Technologies) y la banca privada. Ayudaron el alivio del crudo y la rupia. Además, la India tiene poca exposición a los chips de IA y el mercado la usó como alternativa.",
+      "fuentes": [
+        {
+          "t": "Finology Ticker",
+          "u": "https://ticker.finology.in/discover/market-update/stock-market-today-15-october-2026"
+        }
+      ]
+    },
+    {
+      "activo": "Russell 2000 (pequeñas EE. UU.)",
+      "cambio": "+1,4 %",
+      "por_que": "Las pequeñas compañías apenas tienen exposición a la IA y se benefician mucho de la bajada de rentabilidades, porque se financian más con deuda a tipo variable.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        }
+      ]
+    },
+    {
+      "activo": "Dow Jones",
+      "cambio": "+1,1 %",
+      "por_que": "Rotación hacia salud (UnitedHealth +2,8 %) y consumo (Walmart +1,4 %), que pesan mucho en este índice de 30 valores.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        },
+        {
+          "t": "Quartz",
+          "u": "https://qz.com/eli-lilly-stock-healthcare-tech-selloff-101526"
+        }
+      ]
+    },
+    {
+      "activo": "SMI (Suiza)",
+      "cambio": "+1,55 %",
+      "por_que": "Segunda sesión de compras en farmacéuticas y consumo básico europeos. El sector salud acumuló más de un 4,6 % en dos días.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía AOL)",
+          "u": "https://www.aol.com/articles/european-stocks-gain-schneider-lifts-071956000.html"
+        }
+      ]
+    },
+    {
+      "activo": "Bono EE. UU. 10 años (precio)",
+      "cambio": "TIR −10 pb (5,09 %)",
+      "por_que": "==Huida a la calidad tras el desplome asiático==, amplificada por el cierre de coberturas del IPC y recompras de fondos de tendencia (CTA). Daly (Fed) no ve urgencia en octubre. Llegó pese a un IPP alto (+1,3 % mensual). Cierre oficial del Tesoro: −9 pb (5,10 %).",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        }
+      ]
+    },
+    {
+      "activo": "Bund (zona euro AAA 10 años)",
+      "cambio": "TIR −12 pb (3,39 %)",
+      "por_que": "==Siguió al bono estadounidense y a la búsqueda de refugio.== El 2 años bajó 9,6 pb, lo que también reduce algo la apuesta por más subidas del Banco Central Europeo (BCE).",
+      "fuentes": [
+        {
+          "t": "Reuters (vía AOL)",
+          "u": "https://www.aol.com/articles/european-stocks-gain-schneider-lifts-071956000.html"
+        }
+      ]
+    },
+    {
+      "activo": "Oro / plata",
+      "cambio": "+1,5 % / +2,3 %",
+      "por_que": "Rebote tras la caída del día anterior: el dólar más débil (DXY −0,54 %) y las menores rentabilidades reducen el coste de tener metales que no pagan intereses.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo WTI",
+      "cambio": "+3,0 % (98,0 $)",
+      "por_que": "Se mantiene la tensión con Irán. El Brent, en cambio, quedó plano (−0,1 %), y una divergencia tan grande puede deberse en parte al cambio de contrato de futuros del WTI.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Kospi (Corea)",
+      "cambio": "−7,6 %",
+      "por_que": "==Es el índice más concentrado en memoria para la IA== (SK hynix y Samsung pesan muchísimo). Reaccionó a la caída de los chips en Wall Street, y al IPC de EE. UU. Ya había caído un 5,5 % el día 13.",
+      "fuentes": [
+        {
+          "t": "Nikkei Asia",
+          "u": "https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite"
+        }
+      ]
+    },
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "−4,9 %",
+      "por_que": "Tercera mayor caída en puntos de su historia (−3.318). Pesaron los valores ligados a los semiconductores y a la IA y el temor a unos tipos más altos en EE. UU.",
+      "fuentes": [
+        {
+          "t": "The Japan Times",
+          "u": "https://www.japantimes.co.jp/business/2026/10/15/nagata-nikkei-decline/"
+        },
+        {
+          "t": "Nikkei Asia",
+          "u": "https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite"
+        }
+      ]
+    },
+    {
+      "activo": "Taiex (Taiwán)",
+      "cambio": "−3,4 %",
+      "por_que": "Mismo motivo que Corea. Además, TSMC fue prudente sobre 2027 pese a presentar un beneficio récord.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        }
+      ]
+    },
+    {
+      "activo": "Shanghái Composite",
+      "cambio": "−1,6 %",
+      "por_que": "Contagio de la venta de tecnología asiática. Sin noticia local relevante.",
+      "fuentes": [
+        {
+          "t": "Nikkei Asia",
+          "u": "https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite"
+        }
+      ]
+    },
+    {
+      "activo": "Cobre",
+      "cambio": "−1,5 %",
+      "por_que": "Es el metal más ligado al crecimiento global y al gasto en centros de datos y redes eléctricas, así que cae cuando se duda de la IA y de la economía.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE MIB (Italia)",
+      "cambio": "−0,7 %",
+      "por_que": "Es muy bancario, y la fuerte bajada de rentabilidades reduce el margen de intereses esperado de los bancos.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía AOL)",
+          "u": "https://www.aol.com/articles/european-stocks-gain-schneider-lifts-071956000.html"
+        }
+      ]
+    },
+    {
+      "activo": "Índice dólar (DXY)",
+      "cambio": "−0,54 %",
+      "por_que": "Bajan las rentabilidades de EE. UU. y, con ellas, el atractivo de los activos en dólares. El euro, aun así, apenas se movió en nuestros datos (−0,08 %).",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Desplome de los chips en Asia",
+      "texto": "Corea, Japón y Taiwán amplificaron la caída de la tecnología de Wall Street del día anterior. Sus índices dependen de los fabricantes de memoria y semiconductores que más habían subido con la IA. Es el mismo patrón de ventas del día 13, cuando los inversores extranjeros fueron los principales vendedores en Corea. La combinación de ==inflación en EE. UU. y dudas sobre la deuda de la IA== fue el detonante.",
+      "fuentes": [
+        {
+          "t": "Nikkei Asia",
+          "u": "https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite"
+        },
+        {
+          "t": "The Japan Times",
+          "u": "https://www.japantimes.co.jp/business/2026/10/15/nagata-nikkei-decline/"
+        }
+      ]
+    },
+    {
+      "tema": "Rotación de la IA hacia la salud y el consumo",
+      "texto": "En EE. UU. el dinero salió de las empresas de IA más endeudadas (Dell, HPE) y ==fue a negocios defensivos (Eli Lilly, UnitedHealth, Walmart)==. Por eso los índices equiponderados y el Dow Jones lo hicieron mejor que el Nasdaq. El S&P 500 cotiza a unas 19 veces beneficios, cerca de su nivel más bajo desde 2023.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        },
+        {
+          "t": "Quartz",
+          "u": "https://qz.com/eli-lilly-stock-healthcare-tech-selloff-101526"
+        }
+      ]
+    },
+    {
+      "tema": "Inflación, Reserva Federal (Fed) y bonos",
+      "texto": "El IPP de septiembre fue el más alto en unos cuatro años y medio y la probabilidad de una subida de la Fed antes de diciembre llegó al 67 %. Aun así, ==las rentabilidades bajaron con fuerza en EE. UU. y Europa por la búsqueda de refugio==, lo que sostuvo a los fondos de renta fija.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía The Spokesman-Review)",
+          "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+        },
+        {
+          "t": "Gotrade News",
+          "u": "https://www.heygotrade.com/en/news/hot-us-cpi-revives-fed-rate-hike-fears-stock-futures-fall/"
+        }
+      ]
+    },
+    {
+      "tema": "Indonesia y MSCI",
+      "texto": "MSCI abrió una consulta para pasar a Indonesia de «emergente» a mercado «independiente», por la poca transparencia sobre quién posee las acciones y por sospechas de negociación coordinada. Si se confirmara, ==los fondos que siguen índices de emergentes tendrían que vender esas acciones==.",
+      "fuentes": [
+        {
+          "t": "Taipei Times",
+          "u": "https://www.taipeitimes.com/News/front/archives/2026/10/17/2003866114"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "==Gran subida de los bonos pese a la inflación==: el 10 años de EE. UU. bajó 9–10 pb (5,09–5,10 %) y llegó a tocar el 5,04 %, mínimo de tres semanas y unos 20 pb por debajo del pico tras el IPC. Y eso con un IPP de septiembre de +1,3 % mensual (0,5 % esperado), el mayor desde marzo de 2022. El motivo fue ==la huida a la calidad por el desplome de los chips en Asia== (Kospi −7,6 %): los inversores venden acciones y compran bonos. Lo amplificaron factores técnicos: el cierre de apuestas a TIR más altas compradas como cobertura del IPC, recompras de los fondos de tendencia (CTA) y una gran compra de futuros a muy largo plazo. En el tramo corto ayudó Mary Daly (Fed de San Francisco): ==ve más subidas «más probables que no», pero sin necesidad en octubre==. El 2 años bajó 5 pb (4,77 %) y el 30 años 10 pb: un «aplanamiento alcista», en el que los plazos largos, más sensibles al refugio, suben más de precio.\n\nEn Europa la bajada fue aún mayor: ==el 10 años AAA cayó 12 pb (3,39 %)== y el 2 años 9,6 pb (2,99 %). El Bund tocó el 3,35 %, mínimo de más de cinco semanas. Pesó más la aversión al riesgo que el susto inflacionista del día anterior, y el mercado rebajó algo la probabilidad de más subidas del BCE si la economía se resiente. El diferencial high yield se estrechó 2 pb (3,23 %), en línea con el rebote de Wall Street. Sin dato diario del diferencial francés en nuestras series.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "−5 pb (4,77 %)",
+        "por_que": "Daly (Fed) ==no ve necesario subir en octubre==, aunque sí más adelante. Citi pasa a esperar la subida en diciembre.",
+        "fuentes": [
+          {
+            "t": "investingLive: el rally de los bonos hunde el dólar y sube el oro (Daly)",
+            "u": "https://investinglive.com/news/investinglive-asia-pacific-market-news-treasury-rally-sinks-dollar-lifts-gold/"
+          },
+          {
+            "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+            "u": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−9 pb (5,10 %; −10 pb en nuestra serie)",
+        "por_que": "==Refugio por el desplome asiático== y factores técnicos (cierre de coberturas del IPC, CTA). Llegó a tocar el 5,04 %.",
+        "fuentes": [
+          {
+            "t": "Saxo: Asia Market Quick Take (16-10)",
+            "u": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take-16-october-2026-16102026"
+          },
+          {
+            "t": "MUFG Research: Asia FX Talk (16-10)",
+            "u": "https://mufgresearch.com/fx/asia-fx-talk-16-october-2026/"
+          },
+          {
+            "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+            "u": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "−10 pb (5,43 %)",
+        "por_que": "El tramo largo es el más buscado como refugio; además hubo una gran compra de futuros a muy largo plazo.",
+        "fuentes": [
+          {
+            "t": "Saxo: Asia Market Quick Take (16-10)",
+            "u": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take-16-october-2026-16102026"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "−12 pb (3,39 %)",
+        "por_que": "==Aversión al riesgo por encima del susto del IPC==; mínimo intradía de más de cinco semanas (3,35 %).",
+        "fuentes": [
+          {
+            "t": "Saxo: Asia Market Quick Take (16-10)",
+            "u": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take-16-october-2026-16102026"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "−9,6 pb (2,99 %)",
+        "por_que": "Baja algo la apuesta por más subidas del BCE si la tormenta en bolsa frena la economía.",
+        "fuentes": [
+          {
+            "t": "Saxo: Asia Market Quick Take (16-10)",
+            "u": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take-16-october-2026-16102026"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "−2 pb (3,23 %)",
+        "por_que": "Ligero alivio con el rebote del S&P 500 y del Russell 2000.",
+        "fuentes": []
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Saxo: Asia Market Quick Take (16-10)",
+        "u": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take-16-october-2026-16102026"
+      },
+      {
+        "t": "investingLive: el rally de los bonos hunde el dólar y sube el oro (Daly)",
+        "u": "https://investinglive.com/news/investinglive-asia-pacific-market-news-treasury-rally-sinks-dollar-lifts-gold/"
+      },
+      {
+        "t": "MUFG Research: Asia FX Talk (16-10)",
+        "u": "https://mufgresearch.com/fx/asia-fx-talk-16-october-2026/"
+      },
+      {
+        "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+        "u": "https://fred.stlouisfed.org/series/DGS10"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Día de desplome para los fondos asiáticos y tecnológicos: la mediana de renta variable cayó un −0,39 % y ==varios fondos de Corea, Taiwán, Asia y tecnología== perdieron entre un 6,5 % y un 9,5 %. La renta fija tuvo su mejor día en semanas (mediana +0,11 %) ==gracias a la fuerte bajada de rentabilidades==: cuando baja la TIR, sube el precio de los bonos que ya tienen los fondos. Arriba aparecen los fondos de mineras de oro por el rebote del metal, los de salud y calidad por la rotación, y los de fintech, favorecidos por la entrada de dinero en financieras. Con el ranking recalculado, todas las cifras son de una sola sesión (del 14 al 15). Las clases en dólares perdieron un poco más en euros que en su divisa, pero el efecto fue pequeño porque el euro apenas se movió.",
+    "suben": [
+      {
+        "isin": "FR0013307675",
+        "por_que": "EdR Goldsphere (+4,14 %, IronIA): mineras de oro y plata. Recuperan con el rebote del oro (+1,5 %) y la plata (+2,3 %), favorecido por un dólar más débil y menores rentabilidades."
+      },
+      {
+        "isin": "IE00BKKJBP83",
+        "por_que": "Wellington FinTech (IronIA, +3,69 %): pagos, bolsas y software financiero. ==La rotación fuera de la IA llevó dinero a las financieras==, y la bajada de rentabilidades ayuda a las compañías de crecimiento con beneficios."
+      },
+      {
+        "isin": "LU1822774284",
+        "por_que": "BGF World Healthscience, cubierto a euros (+3,17 %): ==Eli Lilly (9,6 %)==, Johnson & Johnson, AbbVie, Merck y UnitedHealth. Eli Lilly subió más de un 3 % y UnitedHealth un 2,8 % en la rotación hacia salud."
+      },
+      {
+        "isin": "LU1578889864",
+        "por_que": "Ninety One Global Gold, cubierto a euros (+2,68 %): Barrick, AngloGold, Northern Star, Newmont. Rebota con el ==oro (+1,5 %) y la plata (+2,3 %)==: un dólar más débil y TIR más bajas abaratan tener metales sin cupón."
+      },
+      {
+        "isin": "LU0641506000",
+        "por_que": "Ninety One UK Alpha (clase en USD, +2,67 % en euros, +2,79 % en dólares): el FTSE 100 subió un 1,1 % por su sesgo defensivo. La diferencia de 0,1 puntos es el efecto divisa."
+      },
+      {
+        "isin": "LU1700710939",
+        "por_que": "Robeco FinTech (+2,58 %): Coinbase, Block, Adyen, Mastercard, Visa e Intercontinental Exchange. Mismo motivo que el de Wellington: ==entrada de dinero en financieras y pagos==, lejos del hardware de IA."
+      },
+      {
+        "isin": "IE00B4MB6665",
+        "por_que": "Seilern Europa (+2,57 %): calidad europea con peso en salud y consumo, en la segunda sesión fuerte seguida para esos sectores en Europa (SMI +1,55 %)."
+      },
+      {
+        "isin": "LU0323243989",
+        "por_que": "Finaltis, cubierto a euros (IronIA, +2,56 %): fondo de la categoría de oro y metales preciosos; rebota tras el −4,17 % del día 14, con el oro y la plata."
+      },
+      {
+        "isin": "IE00B2NXKW18",
+        "por_que": "Seilern World Growth (+2,38 %): cartera de calidad con poca IA (Mastercard, UnitedHealth, Lonza, IDEXX). Se benefició de ==la rotación hacia salud y consumo==."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU0301637293",
+        "por_que": "JPM Korea Equity (−9,45 %): SK hynix (10 %), SK Square (9 %) y Samsung (9 %) ==concentran casi un tercio de la cartera==. Cae más que el Kospi (−7,6 %) por su sobreponderación en memoria."
+      },
+      {
+        "isin": "LU1861216510",
+        "por_que": "BGF Next Generation Technology (EUR cubierta, −8,29 %): Lumentum, Nvidia, Micron, Asia Vital Components, SanDisk, Ibiden. ==Es hardware puro de IA==, en Asia y en EE. UU., el segmento más castigado por el temor a la financiación de los centros de datos."
+      },
+      {
+        "isin": "LU0336300933",
+        "por_que": "Mirae Asset ESG Emerging (−7,76 %, IronIA): emergentes asiáticos con mucho peso en Corea y Taiwán, que se desplomaron."
+      },
+      {
+        "isin": "LU2484078832",
+        "por_que": "Invesco Artificial Intelligence (−7,58 %): Nvidia, TSMC, Alphabet, SK hynix, Micron, Lam Research, SanDisk. Combina la caída asiática (TSMC, SK hynix) con la de los chips estadounidenses."
+      },
+      {
+        "isin": "LU2168317308",
+        "por_que": "Invesco Global Consumer Trends (−7,24 %): pese a su nombre, ==su primera posición es Nebius (10,5 %)==, una «neonube» de IA que crece financiándose con deuda, junto a Tesla, Amazon y Sumitomo Electric. Le afectó de lleno el temor a la deuda de la IA."
+      },
+      {
+        "isin": "LU0401357313",
+        "por_que": "JPM Taiwan (−7,16 %): MediaTek y TSMC suman el 18 %, y su cartera de chips y componentes cae más que el Taiex (−3,4 %)."
+      },
+      {
+        "isin": "LU0336299580",
+        "por_que": "Mirae Asset ESG Asia Sector Leader (−6,76 %): ==Samsung (9,8 %), TSMC (9,4 %) y SK hynix (6 %)==, más equipos chinos de chips (AMEC, NAURA). Cae con Corea y Taiwán."
+      },
+      {
+        "isin": "LU1381420600",
+        "por_que": "Mirae Asset ESG Asia Great Consumer, cubierto a euros (−6,59 %): pese al nombre, ==sus mayores posiciones son Samsung, TSMC y SK hynix==. Mismo castigo que el resto de Asia tecnológica."
+      },
+      {
+        "isin": "LU0270816068",
+        "por_que": "Schroder ISF Taiwanese Equity (clase en USD, −6,36 % en euros, −6,25 % en dólares): misma causa que JPM Taiwan. La diferencia es el efecto divisa."
+      },
+      {
+        "isin": "LU0115142274",
+        "por_que": "Invesco Nippon Small/Mid Cap (−5,38 %, IronIA): el Nikkei cayó un 4,9 % y las medianas y pequeñas japonesas no se libraron de la venta generalizada."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-16",
+      "evento": "Producción industrial y precios de importación de EE. UU.; IPCA final de la zona euro",
+      "por_que_importa": "Con la Fed y el BCE debatiendo más subidas, cualquier sorpresa de precios mueve los bonos."
+    },
+    {
+      "fecha": "2026-10-16",
+      "evento": "Reacción de Yakarta a la consulta de MSCI sobre Indonesia",
+      "por_que_importa": "Una rebaja de categoría obligaría a vender a los fondos que siguen índices de emergentes."
+    },
+    {
+      "fecha": "2026-10-21",
+      "evento": "Resultados de Meta y Tesla",
+      "por_que_importa": "Sus planes de inversión en IA dirán si el miedo a la financiación frena el gasto."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Decisión de la Fed",
+      "por_que_importa": "El mercado duda entre mantener o subir tipos. La probabilidad de una subida antes de diciembre ronda el 67 %."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "Reunión del BCE e índice PCE de EE. UU.",
+      "por_que_importa": "Inflación de la zona euro cerca del 3,8 % y BCE en 2,50 %: se discute otra subida en diciembre."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "IPC",
+      "def": "Índice de precios al consumo: mide la inflación que pagan los hogares."
+    },
+    {
+      "sigla": "IPP",
+      "def": "Índice de precios de producción (PPI en inglés): inflación de los precios que cobran los productores, adelanta la del consumo."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad de un bono. Cuando baja, el precio del bono sube."
+    },
+    {
+      "sigla": "pb",
+      "def": "Puntos básicos: centésimas de punto porcentual."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán. El 10 años AAA de la zona euro se usa aquí como aproximación."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis divisas."
+    },
+    {
+      "sigla": "WTI",
+      "def": "West Texas Intermediate, petróleo de referencia en EE. UU."
+    },
+    {
+      "sigla": "MSCI",
+      "def": "Proveedor de índices bursátiles. Su clasificación de países (desarrollado, emergente, frontera, independiente) guía billones en fondos indexados."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo de un fondo."
+    },
+    {
+      "sigla": "IPCA",
+      "def": "Índice de precios al consumo armonizado de la zona euro."
+    },
+    {
+      "sigla": "PCE",
+      "def": "Deflactor del gasto en consumo personal, la medida de inflación que prefiere la Fed."
+    },
+    {
+      "sigla": "EUR H",
+      "def": "Clase en euros con la divisa cubierta."
+    },
+    {
+      "sigla": "CTA",
+      "def": "Commodity Trading Advisor: fondos que siguen tendencias con futuros; al cerrar posiciones cortas (recompras) amplifican los movimientos."
+    },
+    {
+      "sigla": "Aplanamiento de la curva",
+      "def": "Cuando la diferencia entre la TIR a largo y a corto plazo se reduce. Si ocurre con TIR bajando, se llama «aplanamiento alcista» (bull flattening)."
+    },
+    {
+      "sigla": "FRED",
+      "def": "Base de datos de la Reserva Federal de San Luis; publica la TIR oficial de cierre del Tesoro de EE. UU."
+    }
+  ],
+  "generado": "2026-10-23T12:00"
+}

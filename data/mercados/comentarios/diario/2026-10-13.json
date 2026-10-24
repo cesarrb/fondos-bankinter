@@ -1,0 +1,447 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-13",
+  "fase": "completo",
+  "titulo": "Corea se hunde un 5,5 % por el miedo a la memoria china; Wall Street, plana antes del IPC",
+  "resumen": "Segunda y peor ronda en Asia de la venta de fabricantes de memoria ==provocada por el anuncio de la china ChangXin Memory Technologies (CXMT)==. El Kospi coreano cayó un 5,46 %, hasta 6.035 puntos, tras llegar a perder más de un 7 % durante la sesión y marcar mínimos desde finales de julio: ==Samsung Electronics se dejó un 7,4 % y SK hynix un 10,1 %==, con ventas netas de inversores extranjeros de unos 4,5 billones de wones, la sexta sesión seguida. El Taiex de Taiwán bajó un 1,95 % y el Nikkei japonés, que reabría tras el festivo, un 1,82 % frente al viernes, lastrado por Tokyo Electron (−7,2 %) y SoftBank (−8,5 %), dos de los valores más ligados a la inteligencia artificial (IA). El contraste lo dio la India: el Sensex subió un 1,54 % gracias a los resultados de HCLTech, una rupia más firme y comentarios del Gobierno sobre los impuestos a las plusvalías y a las transacciones bursátiles. Hong Kong (+0,30 %) y Shanghái (+0,10 %) apenas se movieron.\n\nWall Street terminó casi plana: S&P 500 −0,02 %, Nasdaq 100 −0,31 %, Dow Jones −0,35 % y Russell 2000 −0,40 %. Arrancó la temporada de resultados de la banca: ==JPMorgan ganó 5,57 $ por acción, por debajo de lo esperado== y su primer fallo desde finales de 2023, por una pérdida de 658 millones en su cartera de valores, aunque los ingresos crecieron un 8 % y la intermediación en renta variable un 49 %; el crecimiento del crédito limitó el castigo. El resto del mercado esperó al IPC (índice de precios de consumo) del miércoles, ==decisivo para saber si la Reserva Federal (Fed) vuelve a subir tipos==. El diferencial del high yield se amplió 5 puntos básicos (pb), hasta 3,16 %, señal de algo más de cautela con el crédito.\n\nLos bonos de EE. UU., de vuelta del festivo, bajaron ligeramente de rentabilidad: la TIR (tasa interna de rentabilidad) a 10 años cedió 2,7 pb frente al viernes, hasta el 5,22 %, y la del 30 años 3,7 pb, ==en un movimiento de prudencia antes del IPC==, aunque el MOVE (volatilidad de los bonos) subió un 2,7 % frente al viernes. En la zona euro, el 10 años AAA bajó 0,7 pb y el 2 años subió 1,5 pb. Las bolsas europeas retrocedieron levemente desde máximos de una semana: Euro Stoxx 50 −0,55 % (más tecnológico y con ASML a la espera de sus resultados), IBEX 35 −0,39 % tras su fuerte subida del lunes, Stoxx Europe 600 −0,10 % y el SMI suizo +0,36 %, refugio por sus farmacéuticas y alimentación.\n\nEn materias primas, el Brent bajó un 0,9 % (105,7 $) y el WTI subió un 0,4 % (94,1 $): el mercado sopesó el riesgo en Oriente Medio frente a la recuperación de las exportaciones del Golfo distintas de Irán, el aumento de producción de la OPEP+ y la expectativa de más gasóleo ruso. El gas subió con fuerza a ambos lados del Atlántico: ==TTF europeo +3,4 % (87,2 €/MWh, tercera subida seguida)== y Henry Hub estadounidense +3,7 %. Oro (−0,3 %) y plata (−1,6 %) siguieron a la baja. El dólar cedió (DXY −0,39 %) y el bitcoin rebotó un 1,6 %.",
+  "claves": [
+    "El Kospi cae un 5,46 % y SK hynix un 10 %: ==el mercado descuenta más competencia china en memoria== tras el anuncio de CXMT.",
+    "La venta se extiende a Japón (Tokyo Electron −7,2 %) y Taiwán (−1,95 %), mientras la India sube un 1,54 % con HCLTech.",
+    "JPMorgan abre la temporada con ==su primer fallo de beneficios desde 2023==, pero Wall Street queda plana a la espera del IPC.",
+    "El gas sube con fuerza (TTF +3,4 %, Henry Hub +3,7 %) y el Brent cede un 0,9 % entre el riesgo en el Golfo y más oferta.",
+    "En fondos, los de Corea, Asia tecnológica y memoria caen entre un 3,5 % y un 5,2 %; los de India lideran las subidas."
+  ],
+  "suben": [
+    {
+      "activo": "Sensex (India)",
+      "cambio": "+1,54 %",
+      "por_que": "Los resultados de HCLTech tiraron de las de servicios informáticos, ayudados por una rupia más firme y por comentarios oficiales sobre los impuestos a las plusvalías y a las transacciones de valores; además, la India apenas tiene fabricantes de memoria. Cierra en 73.034 puntos.",
+      "fuentes": [
+        {
+          "t": "Equentis",
+          "u": "https://www.equentis.com/blog/?p=71128"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural EE. UU. (Henry Hub)",
+      "cambio": "+3,66 %",
+      "por_que": "Sin noticia concreta: acompaña al gas europeo en plena tensión en el Golfo y a las puertas de la temporada de calefacción.",
+      "fuentes": []
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+3,40 %",
+      "por_que": "Tercera subida seguida (87,2 €/MWh): la prima de riesgo por los ataques en el Golfo, de donde llega gas natural licuado, y la escasez de productos refinados en Europa encarecen la energía antes del invierno.",
+      "fuentes": []
+    },
+    {
+      "activo": "Bono EE. UU. 10 años (precio)",
+      "cambio": "TIR −2,7 pb (5,22 %)",
+      "por_que": "==Ligeras compras antes del IPC del miércoles== y por la caída de la tecnología en Asia; el 30 años bajó 3,7 pb. Cambio frente al viernes, ya que el lunes (festivo de Colón) no abrió el mercado de bonos.",
+      "fuentes": []
+    },
+    {
+      "activo": "SMI (Suiza)",
+      "cambio": "+0,36 %",
+      "por_que": "Bolsa defensiva (farmacéuticas, alimentación, seguros) que gana cuando el dinero sale de la tecnología.",
+      "fuentes": []
+    },
+    {
+      "activo": "Bitcoin",
+      "cambio": "+1,63 %",
+      "por_que": "Rebote tras la caída del lunes, con el dólar a la baja.",
+      "fuentes": []
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Kospi (Corea)",
+      "cambio": "−5,46 %",
+      "por_que": "==Segunda jornada de ventas por el anuncio de CXMT==: Samsung −7,4 % y SK hynix −10,1 %, que concentran buena parte del índice; los extranjeros vendieron en neto unos 4,5 billones de wones. Intradía llegó a caer más de un 7 %.",
+      "fuentes": [
+        {
+          "t": "ForkLog",
+          "u": "https://forklog.com/en/?p=105174"
+        }
+      ]
+    },
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "−1,82 %",
+      "por_que": "Reabría tras el festivo del lunes y se puso al día de la venta de chips: Tokyo Electron −7,2 % y SoftBank −8,5 %, muy ligadas a la IA. Cambio frente al viernes.",
+      "fuentes": [
+        {
+          "t": "ForkLog",
+          "u": "https://forklog.com/en/?p=105174"
+        },
+        {
+          "t": "StockAnalysis (Tokyo Electron)",
+          "u": "https://stockanalysis.com/quote/tyo/8035/history/"
+        }
+      ]
+    },
+    {
+      "activo": "Taiex (Taiwán)",
+      "cambio": "−1,95 %",
+      "por_que": "Contagio de la venta de semiconductores en la región; Taiwán pesa mucho en chips, aunque menos en memoria que Corea.",
+      "fuentes": [
+        {
+          "t": "ForkLog",
+          "u": "https://forklog.com/en/?p=105174"
+        }
+      ]
+    },
+    {
+      "activo": "Plata",
+      "cambio": "−1,63 %",
+      "por_que": "Sin noticia concreta: sigue corrigiendo tras el fuerte rebote del viernes; su uso industrial en electrónica la hace sensible al castigo a los chips.",
+      "fuentes": []
+    },
+    {
+      "activo": "Petróleo Brent",
+      "cambio": "−0,90 %",
+      "por_que": "Tira y afloja: riesgo en Oriente Medio frente a la recuperación de las exportaciones del Golfo, la mayor producción de la OPEP+ y la expectativa de más gasóleo ruso. Cierra en 105,7 $ (el WTI, en cambio, sube un 0,4 %).",
+      "fuentes": [
+        {
+          "t": "Báo Lào Cai (con datos de Reuters)",
+          "u": "https://baolaocai.vn/gia-xang-dau-hom-nay-1410-dau-the-gioi-duy-tri-vung-cao-truoc-gio-dieu-chinh-post911877.html"
+        }
+      ]
+    },
+    {
+      "activo": "Euro Stoxx 50",
+      "cambio": "−0,55 %",
+      "por_que": "Se retira de máximos de una semana por la venta mundial de chips tras el avance de CXMT, que pesa en ASML, Infineon y compañía a un día de los resultados de ASML.",
+      "fuentes": [
+        {
+          "t": "Capital.com (Reuters)",
+          "u": "https://capital.com/en-eu/news/asml-earnings-boost-tech-stocks-lift-european-shares"
+        }
+      ]
+    },
+    {
+      "activo": "Dow Jones",
+      "cambio": "−0,35 %",
+      "por_que": "El primer fallo de beneficios de JPMorgan desde 2023 (5,57 $ por acción frente a unos 5,85 $ esperados) pesó en la banca, aunque el crecimiento del crédito limitó la caída.",
+      "fuentes": [
+        {
+          "t": "Beinsure",
+          "u": "https://beinsure.com/news/jpmorgan-chase-stock-forecast-earnings-miss/"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Memoria: el miedo a CXMT llega a Asia",
+      "texto": "Lo que en Wall Street fue un 2,6 % de caída en el SOX el lunes se convirtió el martes en desplome en Corea, porque allí el índice depende de Samsung y SK hynix. El razonamiento del mercado: si un rival chino iguala o supera en densidad a los coreanos, ==el ciclo de precios altos de la memoria por la IA podría acortarse==. ==Venían de máximos y con mucho dinero extranjero y apalancado dentro==, de ahí la violencia. Las empresas de equipos (Tokyo Electron) y los grandes inversores en IA (SoftBank) también sufrieron.",
+      "fuentes": [
+        {
+          "t": "ForkLog",
+          "u": "https://forklog.com/en/?p=105174"
+        }
+      ]
+    },
+    {
+      "tema": "Resultados de la banca de EE. UU.",
+      "texto": "JPMorgan abrió la temporada con un beneficio por acción inferior al esperado por una pérdida puntual en su cartera de valores, pero con ingresos al alza, mucha actividad en mercados de renta variable y mejores perspectivas de margen de intereses. El mensaje es de economía y crédito aún sólidos, lo que ==no da argumentos a la Reserva Federal (Fed) para relajar==.",
+      "fuentes": [
+        {
+          "t": "Beinsure",
+          "u": "https://beinsure.com/news/jpmorgan-chase-stock-forecast-earnings-miss/"
+        }
+      ]
+    },
+    {
+      "tema": "Energía: gas al alza y petróleo indeciso",
+      "texto": "El petróleo se mueve entre la prima de riesgo del Golfo (ataques hutíes en Arabia Saudí, petroleros en Ormuz) y señales de más oferta (exportaciones del Golfo recuperadas, OPEP+ y gasóleo ruso). El gas, en cambio, sube con más claridad: ==el invierno se acerca con los inventarios de refinados tensos== y Europa depende en parte del gas licuado de la región.",
+      "fuentes": [
+        {
+          "t": "Báo Lào Cai (con datos de Reuters)",
+          "u": "https://baolaocai.vn/gia-xang-dau-hom-nay-1410-dau-the-gioi-duy-tri-vung-cao-truoc-gio-dieu-chinh-post911877.html"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "Los bonos de EE. UU. volvían del festivo de Colón (el lunes 12 no abrió el mercado de bonos) y se movieron poco: ==el 10 años cedió 3 pb (5,21 %)== y el 2 años 1 pb (4,79 %) frente al viernes. Fue posicionamiento de espera antes del IPC (índice de precios al consumo) del miércoles. La Reserva Federal (Fed) ya subió en septiembre (3,75–4,00 %), pero tras un empleo de septiembre muy flojo (solo 29.000 puestos) ==el mercado solo daba ~20 % a otra subida en octubre==, y nadie quería apostar fuerte antes del dato. El largo plazo bajó algo más (30 años −4 pb) por la cautela con la tecnología asiática: cuando caen las bolsas, parte del dinero se refugia en bonos. Aun así, el 10 años sigue cerca de máximos desde 2002 (tocó el 5,36 % el día 7).\n\nEn la zona euro, ==el 10 años AAA (≈ Bund) apenas cedió 0,7 pb (3,49 %)== y el 2 años subió 1,5 pb (3,08 %). El tramo corto sigue anclado a la expectativa de ==otra subida del Banco Central Europeo (BCE) en diciembre==, con la inflación en el 3,8 %. El Bund, en cambio, hace de refugio frente al riesgo político de otros países. Ese riesgo se ve en ==Francia: su diferencial con Alemania ronda 147 pb, máximos desde 2012==, por las dudas sobre su presupuesto y un déficit de más del 5 % antes de las presidenciales de 2027. España añade la incertidumbre del adelanto electoral. No tenemos serie diaria del diferencial francés, así que no damos su cambio exacto del día.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "−1 pb (4,79 %)",
+        "por_que": "Sin cambios en la apuesta por la Fed (~20 % de subida en octubre tras el flojo empleo de septiembre). Espera al IPC del miércoles.",
+        "fuentes": [
+          {
+            "t": "Tiger Brokers: los bonos de EE. UU. esperan al IPC y a Warsh",
+            "u": "https://www.itiger.com/news/1160188971"
+          },
+          {
+            "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+            "u": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−3 pb (5,21 %; −2,7 pb en nuestra serie)",
+        "por_que": "==Posicionamiento prudente antes del IPC== y algo de refugio por la venta de chips en Asia. Sigue cerca de máximos de 24 años.",
+        "fuentes": [
+          {
+            "t": "Political.org: las TIR ceden antes del IPC (14-10)",
+            "u": "https://political.org/2026/10/14/u-s-treasury-yields-inch-lower-as-investors-await-key-september-inflation-report/"
+          },
+          {
+            "t": "Tiger Brokers: los bonos de EE. UU. esperan al IPC y a Warsh",
+            "u": "https://www.itiger.com/news/1160188971"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "−4 pb (5,56 %)",
+        "por_que": "El tramo largo es el que más se beneficia de las compras de refugio cuando cae la bolsa.",
+        "fuentes": [
+          {
+            "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+            "u": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "−0,7 pb (3,49 %)",
+        "por_que": "Casi plano: el Bund actúa de refugio frente al riesgo francés y español, mientras la inflación del 3,8 % impide más bajadas.",
+        "fuentes": [
+          {
+            "t": "Trading Economics: Bund y riesgo soberano europeo",
+            "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "+1,5 pb (3,08 %)",
+        "por_que": "El mercado mantiene ==una subida de 25 pb del BCE antes de diciembre==; el tramo corto refleja esa expectativa.",
+        "fuentes": [
+          {
+            "t": "Trading Economics: Bund y riesgo soberano europeo",
+            "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Francia–Alemania (10 años)",
+        "cambio": "≈ 147 pb (sin dato diario)",
+        "por_que": "Máximos desde la crisis del euro de 2011–2012: dudas sobre el presupuesto, deuda cercana al 119 % del PIB y las elecciones de 2027.",
+        "fuentes": [
+          {
+            "t": "BabyPips: por qué importa el diferencial OAT–Bund (12-10)",
+            "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+          },
+          {
+            "t": "Trading Economics: Bund y riesgo soberano europeo",
+            "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "+5 pb (3,16 %)",
+        "por_que": "Algo más de cautela con el crédito de peor calidad en un día de dudas sobre la tecnología.",
+        "fuentes": []
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Tiger Brokers: los bonos de EE. UU. esperan al IPC y a Warsh",
+        "u": "https://www.itiger.com/news/1160188971"
+      },
+      {
+        "t": "Political.org: las TIR ceden antes del IPC (14-10)",
+        "u": "https://political.org/2026/10/14/u-s-treasury-yields-inch-lower-as-investors-await-key-september-inflation-report/"
+      },
+      {
+        "t": "Trading Economics: Bund y riesgo soberano europeo",
+        "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+      },
+      {
+        "t": "BabyPips: por qué importa el diferencial OAT–Bund (12-10)",
+        "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+      },
+      {
+        "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+        "u": "https://fred.stlouisfed.org/series/DGS10"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Día negativo para la renta variable (mediana −0,25 % en 1.499 fondos; 2.948 fondos en total), con los mixtos en −0,11 % y la renta fija en +0,03 %. La lista de los que más caen es un retrato del driver del día: ==fondos de Corea, Asia emergente y tecnología con mucha memoria== (SK hynix, Samsung, TSMC, Micron). Arriba, ==siete de los ocho primeros son fondos de la India==, que subió un 1,54 % ajena a los chips; completa la lista Guinness Global Energy. Con el ranking recalculado (una clase por fondo, cambio frente al día hábil anterior), todas las cifras son de una sola sesión (del 12 al 13). El efecto divisa fue mínimo: en las clases en dólares, r y rn difieren menos de una décima, porque el euro subió algo frente al dólar. Quedan fuera del ranking como dudosos los dos mixtos de Flossbach von Storch (ABANCA), con −2,7 % y −4,4 %, impropio de carteras defensivas (posible reparto o error del dato).",
+    "suben": [
+      {
+        "isin": "IE00B3CCJB88",
+        "por_que": "Guinness Global Energy (+2,00 %): ExxonMobil, Chevron, Shell, Valero y BP son sus mayores posiciones; recoge el liderazgo de la energía en Wall Street del lunes (con el Brent en 106,7 $), probablemente por su hora de valoración, más que el martes, cuando el Brent cedió."
+      },
+      {
+        "isin": "LU0522352516",
+        "por_que": "JPMorgan India (+1,92 %): bancos (ICICI 8,8 %, HDFC 6,7 %, Kotak 5,6 %), Bajaj Finance y Reliance; sube con el Sensex."
+      },
+      {
+        "isin": "IE00B3SHDY84",
+        "por_que": "Nomura India Equity (IronIA, +1,85 %): Renta variable india: sube con el ==Sensex (+1,54 %)==, apoyado en los resultados de HCLTech y en una rupia más firme. La India apenas tiene fabricantes de memoria, así que quedó al margen del driver del día."
+      },
+      {
+        "isin": "LU0823429583",
+        "por_que": "BNP Paribas India Equity, clase en USD (ABANCA, +1,84 % en euros; +1,91 % en dólares): Renta variable india: sube con el ==Sensex (+1,54 %)==, apoyado en los resultados de HCLTech y en una rupia más firme. La India apenas tiene fabricantes de memoria, así que quedó al margen del driver del día. Los 0,07 puntos de diferencia son efecto divisa: el euro subió algo frente al dólar."
+      },
+      {
+        "isin": "LU0266116010",
+        "por_que": "Morgan Stanley Indian Equity, clase en USD (IronIA, +1,77 % en euros; +1,83 % en dólares): mismo motivo que el resto de fondos indios; la pequeña diferencia es el efecto divisa."
+      },
+      {
+        "isin": "FR0013307402",
+        "por_que": "EdR India (IronIA, +1,72 %): Renta variable india: sube con el ==Sensex (+1,54 %)==, apoyado en los resultados de HCLTech y en una rupia más firme. La India apenas tiene fabricantes de memoria, así que quedó al margen del driver del día."
+      },
+      {
+        "isin": "LU0329070915",
+        "por_que": "Jupiter India Select (+1,67 %): State Bank of India (5,3 %), Bharti Airtel, HDFC Bank y ==HCL Technologies (2,8 %), protagonista del día por sus resultados==. Sube con el Sensex."
+      },
+      {
+        "isin": "IE00B0JY6M65",
+        "por_que": "PineBridge India Equity, clase en USD (+1,64 % en euros; +1,71 % en dólares): banca pública (Indian Bank, Bank of Baroda) y servicios informáticos (Infosys, TCS), dos de los sectores que tiraron del Sensex. La diferencia es efecto divisa."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU0301637293",
+        "por_que": "JPMorgan Korea Equity (−5,20 %): ==SK hynix (10 %), SK Square (9,4 %)== (holding de SK hynix) y Samsung (8,6 %); cae en línea con el Kospi (−5,46 %)."
+      },
+      {
+        "isin": "LU0336300933",
+        "por_que": "Mirae Asset ESG Emerging Asia (IronIA, −4,23 %): asiático con fuerte peso en Samsung, TSMC y SK hynix."
+      },
+      {
+        "isin": "LU0336083810",
+        "por_que": "Carmignac Portfolio Asia Discovery (ABANCA, −4,03 %): pequeñas y medianas compañías asiáticas, más volátiles en las ventas de la región."
+      },
+      {
+        "isin": "LU0336299580",
+        "por_que": "Mirae Asset ESG Asia Sector Leader (−3,86 %): Samsung (9,8 %), TSMC (9,4 %) y SK hynix (6 %), más equipos chinos de semiconductores (AMEC, NAURA)."
+      },
+      {
+        "isin": "LU1381420600",
+        "por_que": "Mirae Asset ESG Asia Great Consumer, cubierto a euros (−3,82 %): pese al nombre, sus mayores posiciones son ==Samsung (10,3 %), TSMC (9,3 %) y SK hynix (5,9 %)==, más equipos chinos de chips (AMEC, NAURA). Cae con la memoria; al estar cubierto, no hay efecto divisa."
+      },
+      {
+        "isin": "LU1818606771",
+        "por_que": "Macquarie Emerging Markets (IronIA, −3,59 %): emergentes globales; no tenemos su cartera. Una caída tan superior a la media encaja con mucho peso en Corea y Taiwán, epicentro de la venta del día."
+      },
+      {
+        "isin": "LU0401357313",
+        "por_que": "JPMorgan Taiwan (−3,56 %): MediaTek, TSMC, ASE y Delta; cae más que el Taiex (−1,95 %) por su sesgo a diseño de chips y componentes para IA."
+      },
+      {
+        "isin": "LU2484078832",
+        "por_que": "Invesco Artificial Intelligence (−3,47 %): SK hynix (5,8 %), Micron (4,4 %), SanDisk (4 %) y Lam Research: ==el sesgo a memoria es justo lo que castigó el mercado==."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-14",
+      "evento": "IPC de septiembre en EE. UU. y resultados de ASML",
+      "por_que_importa": "Un IPC alto reforzaría otra subida de la Fed con la TIR a 10 años ya por encima del 5,2 %; ASML dirá si la demanda de equipos para IA aguanta tras el susto de la memoria."
+    },
+    {
+      "fecha": "2026-10-15",
+      "evento": "Resultados de TSMC y precios de producción (IPP) de EE. UU.",
+      "por_que_importa": "TSMC es la referencia de toda la cadena de chips; un buen dato podría frenar la venta en Corea y Taiwán."
+    },
+    {
+      "fecha": "2026-10-16",
+      "evento": "Siguen los resultados de la banca estadounidense",
+      "por_que_importa": "Confirmarán o no el tono de JPMorgan sobre crédito y márgenes."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Reunión de la Reserva Federal (Fed), 27 y 28 de octubre, y resultados de Santander",
+      "por_que_importa": "La Fed decidirá si repite la subida de septiembre; Santander abre los resultados de la gran banca española."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "Reunión del Banco Central Europeo (BCE)",
+      "por_que_importa": "Con el gas y el petróleo caros, su tono sobre la inflación moverá el euro y el Bund."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "CXMT",
+      "def": "ChangXin Memory Technologies, principal fabricante chino de memoria DRAM."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "IPC / IPP",
+      "def": "Índice de precios de consumo e índice de precios de producción."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, banco central de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad de un bono; sube cuando cae su precio."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: 0,01 puntos porcentuales."
+    },
+    {
+      "sigla": "High yield",
+      "def": "Bonos de empresas por debajo de grado de inversión; su diferencial mide el riesgo de crédito percibido."
+    },
+    {
+      "sigla": "MOVE",
+      "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU."
+    },
+    {
+      "sigla": "SOX",
+      "def": "Índice de semiconductores de Filadelfia."
+    },
+    {
+      "sigla": "OPEP+",
+      "def": "Organización de Países Exportadores de Petróleo más aliados como Rusia."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Mercado holandés de referencia del gas natural en Europa (€/MWh)."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis grandes divisas."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: precio diario de una participación de un fondo."
+    },
+    {
+      "sigla": "r / rn",
+      "def": "Rentabilidad del fondo en euros (r) y en la divisa de su clase (rn); la diferencia es el efecto divisa."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán; su TIR a 10 años es la referencia de tipos sin riesgo en la zona euro (en el panel usamos la curva AAA del BCE como aproximación)."
+    },
+    {
+      "sigla": "Diferencial (prima de riesgo)",
+      "def": "Diferencia entre la TIR del bono de un país y la del Bund alemán al mismo plazo; mide cuánto más exige el mercado por prestarle."
+    }
+  ],
+  "generado": "2026-10-23T12:00"
+}

@@ -1,0 +1,521 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-01",
+  "fase": "completo",
+  "titulo": "El bono de EE. UU., en máximos desde 2002, hunde a Europa; Japón vuela con los chips",
+  "resumen": "Día de dos velocidades marcado por la hora de cierre de cada mercado. Por la mañana en Nueva York, la TIR (tasa interna de rentabilidad) del bono de EE. UU. a 10 años llegó a rozar el 5,34 %, su nivel más alto desde 2002, y la del bono a 30 años tocó el 5,66 %. ==El empujón venía del petróleo== y del miedo a que la Reserva Federal (Fed), que ya subió tipos en septiembre, tenga que volver a hacerlo. ==Europa cerró en ese peor momento y lo pagó==: Stoxx Europe 600 −1,3 %, Euro Stoxx 50 −1,5 %, IBEX 35 −2,2 %, FTSE MIB −2,2 %, FTSE 100 −1,7 % y CAC 40 −1,6 %. Cayeron sobre todo la banca, las promotoras de vivienda y las inmobiliarias. ==Unos tipos de interés tan altos encarecen la deuda==, frenan el crédito y las hipotecas y rebajan lo que vale hoy cada euro de beneficio futuro. París y el euro sufrieron además por la incertidumbre política ante las presidenciales francesas de 2027.\n\nEn Wall Street las rentabilidades cedieron a partir de mediodía y el S&P 500 recuperó más de 60 puntos desde mínimos hasta cerrar con +0,2 % (Russell 2000 +0,35 %). ==El bono a 10 años terminó al 5,24 % (−5,6 pb)== y el de 2 años bajó 10 pb, hasta el 4,78 %. Pesaron un ISM (Institute for Supply Management) manufacturero de 54,5, algo peor de lo esperado, y la inflación (IPC) de agosto más suave del día anterior: ==ambos datos rebajaban la probabilidad de otra subida de la Fed==. El componente de precios pagados del ISM saltó a 77,9, así que el miedo a la inflación no desapareció. Por sectores, energía (+1,9 %) y tecnología (+1,7 %) subieron, mientras salud (−2,7 %), consumo básico (−1,9 %) e inmobiliario (−1,6 %) se hundieron. El diferencial del high yield (bonos de alto rendimiento) se amplió 12 pb.\n\nAsia fue la cara amable. El Nikkei 225 subió un 3,3 %, a 68.957 puntos, máximo en seis semanas, ==gracias a las previsiones de ingresos de Micron==, que confirman la fuerte demanda de memoria para inteligencia artificial (IA). Subieron Kioxia, Advantest y Lasertec. Ayudó también el Tankan (encuesta empresarial del Banco de Japón): el índice de grandes manufactureras subió a +24. El Kospi coreano ganó un 2 % por la misma razón (SK hynix, Samsung). Hong Kong y China continental estaban cerradas por la fiesta nacional.\n\nEn materias primas mandó el petróleo. ==Las refinerías chinas suspendieron casi todas sus exportaciones de combustibles en octubre== para proteger sus reservas, y se publicó que EE. UU. podría enviar hasta 10.000 soldados más a Oriente Medio. El contrato de diciembre del Brent subió alrededor de un 4,4 %, hasta 102,3 $, y el WTI un 2,7 %, hasta 92,9 $. La serie del Brent del panel marca −1,2 % solo porque compara con el contrato de noviembre, que vencía el día 30. El gas europeo (TTF) subió un 2,2 %. El dólar se apreció con fuerza (índice DXY +0,6 %, máximos desde mediados de mayo) y ==el euro perdió los 1,13 $== por primera vez desde mayo de 2025. El cobre cayó un 1,2 % por la peor lectura del crecimiento industrial.",
+  "claves": [
+    "La TIR del bono de EE. UU. a 10 años tocó el 5,34 % por la mañana, máximo desde 2002, y ==Europa cerró en ese peor momento==: IBEX 35 −2,2 %, FTSE MIB −2,2 %, Stoxx 600 −1,3 %.",
+    "==Wall Street se dio la vuelta cuando bajaron las rentabilidades por la tarde==: el bono a 10 años cerró al 5,24 % (−5,6 pb) y el S&P 500 al +0,2 %.",
+    "==Las buenas previsiones de Micron y un Tankan sólido== llevaron al Nikkei a subir un 3,3 % y al Kospi un 2 %, con los fabricantes de chips de memoria al frente.",
+    "==China suspende sus exportaciones de combustibles en octubre==: el Brent subió en torno a un 4,4 %, por encima de 100 $, y el WTI un 2,7 %.",
+    "==El dólar se fortaleció (DXY +0,6 %)== y el euro bajó de 1,13 $ por primera vez desde mayo de 2025."
+  ],
+  "suben": [
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "+3,3 %",
+      "por_que": "==Micron dio unas previsiones de ingresos muy fuertes== y Japón tiene mucho peso en el material y los componentes para chips de memoria (Kioxia, Advantest, Lasertec). El Tankan, con las grandes manufactureras en +24 (lo mejor en más de ocho años), reforzó la lectura de un ciclo industrial sólido.",
+      "fuentes": [
+        {
+          "t": "JM Financial",
+          "u": "https://www.jmfinancialservices.in/market-news-and-insights/1734915"
+        },
+        {
+          "t": "Securities.io (Tankan)",
+          "u": "https://www.securities.io/bank-of-japan-tankan-shows-large-manufacturer-sentiment-at-plus-24/"
+        }
+      ]
+    },
+    {
+      "activo": "Kospi (Corea)",
+      "cambio": "+1,95 %",
+      "por_que": "==SK hynix y Samsung son dos de los grandes fabricantes de memoria del mundo==: las previsiones de Micron se leen como más demanda y mejores precios para ellas. Juntas pesan muchísimo en el índice.",
+      "fuentes": [
+        {
+          "t": "JM Financial",
+          "u": "https://www.jmfinancialservices.in/market-news-and-insights/1734915"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo WTI (y Brent)",
+      "cambio": "+2,7 % (Brent dic. ≈ +4,4 %)",
+      "por_que": "==Las refinerías chinas suspendieron casi todas sus exportaciones de gasóleo y gasolina en octubre== para reponer reservas, en un mercado de destilados ya escaso por la guerra con Irán. Se sumaron las informaciones sobre el envío de hasta 10.000 soldados más de EE. UU. a Oriente Medio. El Brent superó los 100 $; la serie del panel marca −1,2 % solo por el cambio de contrato.",
+      "fuentes": [
+        {
+          "t": "Gulf Times (Bloomberg)",
+          "u": "https://www.gulf-times.com/article/734613/business/chinese-refiners-said-to-suspend-october-fuel-exports-to-bolster-stocks"
+        },
+        {
+          "t": "Roic.ai",
+          "u": "https://www.roic.ai/news/oil-surges-as-china-halts-refined-fuel-exports-brent-tops-100-10-01-2026"
+        },
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1589"
+        }
+      ]
+    },
+    {
+      "activo": "Bono EE. UU. 2 años (precio)",
+      "cambio": "TIR −10,0 pb (4,78 %)",
+      "por_que": "Un ISM manufacturero algo peor de lo esperado y la inflación de agosto más suave del día anterior ==rebajaron las apuestas por otra subida de la Fed==. El tramo corto es el más sensible a los tipos oficiales; el bono a 10 años bajó menos (−5,6 pb) porque sigue pesando el miedo a la inflación por el petróleo.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1589"
+        }
+      ]
+    },
+    {
+      "activo": "Índice dólar (DXY)",
+      "cambio": "+0,64 %",
+      "por_que": "El dólar se apreció hasta máximos desde mediados de mayo. Hubo búsqueda de refugio y ==unos tipos de EE. UU. muy por encima de los europeos==. El euro sufrió además por la incertidumbre política en Francia y perdió los 1,13 $.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1589"
+        },
+        {
+          "t": "Tapeboard",
+          "u": "https://tapeboard.com/blog/market-pulse-2026-10-01"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+2,2 %",
+      "por_que": "Con el petróleo al alza y Oriente Medio otra vez tenso, el gas europeo subió por contagio: ==Europa depende del gas natural licuado importado==, que compite con Asia por los mismos cargamentos.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1589"
+        }
+      ]
+    },
+    {
+      "activo": "Russell 2000 (pequeñas EE. UU.)",
+      "cambio": "+0,35 %",
+      "por_que": "Fue el mejor de los grandes índices de EE. UU. ==Las pequeñas empresas dependen más del crédito== y les favoreció que las rentabilidades bajaran por la tarde.",
+      "fuentes": [
+        {
+          "t": "Tapeboard",
+          "u": "https://tapeboard.com/blog/market-pulse-2026-10-01"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "FTSE MIB (Italia) e IBEX 35 (España)",
+      "cambio": "−2,2 % / −2,2 %",
+      "por_que": "Son los índices europeos con más peso de la banca, y ==la banca fue el sector más castigado por el repunte de las rentabilidades== a máximos de dos décadas. El mercado teme menos crédito y más morosidad con tipos tan altos, y la banca ya venía de un mal septiembre. Europa cerró antes de que las rentabilidades bajaran por la tarde en EE. UU.",
+      "fuentes": [
+        {
+          "t": "Share Talk",
+          "u": "https://www.share-talk.com/what-happened-overnight-friday-2nd-october-2026/"
+        },
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1589"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE 100 (Reino Unido)",
+      "cambio": "−1,7 %",
+      "por_que": "Bancos, promotoras de vivienda y otros valores sensibles a los tipos cayeron con fuerza ==al subir los costes de financiación de los Estados==.",
+      "fuentes": [
+        {
+          "t": "Share Talk",
+          "u": "https://www.share-talk.com/what-happened-overnight-friday-2nd-october-2026/"
+        }
+      ]
+    },
+    {
+      "activo": "CAC 40 (Francia)",
+      "cambio": "−1,6 %",
+      "por_que": "Al castigo general por los tipos se sumó ==la incertidumbre política ante las presidenciales de 2027==, que también pesó sobre el euro.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1589"
+        }
+      ]
+    },
+    {
+      "activo": "Euro Stoxx 50 / Stoxx Europe 600",
+      "cambio": "−1,5 % / −1,3 %",
+      "por_que": "Las bolsas europeas cerraron en el peor momento de las rentabilidades de EE. UU. Las inmobiliarias y los sectores defensivos (salud, consumo básico), que ==se valoran como si fueran bonos==, cayeron con fuerza, igual que en Wall Street.",
+      "fuentes": [
+        {
+          "t": "Share Talk",
+          "u": "https://www.share-talk.com/what-happened-overnight-friday-2nd-october-2026/"
+        },
+        {
+          "t": "Tapeboard",
+          "u": "https://tapeboard.com/blog/market-pulse-2026-10-01"
+        }
+      ]
+    },
+    {
+      "activo": "Diferencial high yield EE. UU.",
+      "cambio": "+12 pb (3,24 %)",
+      "por_que": "Los inversores pidieron más prima por prestar a las empresas más endeudadas: con tipos de referencia en máximos desde 2002, ==refinanciar su deuda será más caro==.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1589"
+        }
+      ]
+    },
+    {
+      "activo": "Cobre",
+      "cambio": "−1,2 %",
+      "por_que": "==El ISM manufacturero se quedó por debajo de lo esperado== y el dólar se fortaleció; además, sectores muy consumidores de cobre, como la construcción, sufren con tipos tan altos. Sin noticia concreta del metal.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1589"
+        }
+      ]
+    },
+    {
+      "activo": "Sensex (India)",
+      "cambio": "−0,8 %",
+      "por_que": "==La India importa casi todo el petróleo que consume==: cada subida del crudo encarece sus importaciones y presiona a la rupia y a la inflación. Sin noticia local concreta localizada.",
+      "fuentes": [
+        {
+          "t": "Roic.ai",
+          "u": "https://www.roic.ai/news/oil-surges-as-china-halts-refined-fuel-exports-brent-tops-100-10-01-2026"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Rentabilidades en máximos desde 2002 y la Reserva Federal (Fed)",
+      "texto": "Las TIR de EE. UU. llevan tres meses subiendo por el petróleo, la inflación y el miedo a nuevas subidas de la Fed. El 10 años tocó el 5,34 % y el 30 años el 5,66 %. Ese tipo de interés es la referencia con la que se descuentan todos los activos, así que ==su subida castiga primero lo que se valora como un bono== (inmobiliarias, eléctricas, consumo básico) y lo que depende del crédito (banca, vivienda). Por la tarde, ==un ISM manufacturero más flojo y el IPC suave del día anterior== permitieron un respiro.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1589"
+        },
+        {
+          "t": "Share Talk",
+          "u": "https://www.share-talk.com/what-happened-overnight-friday-2nd-october-2026/"
+        }
+      ]
+    },
+    {
+      "tema": "China corta sus exportaciones de combustibles",
+      "texto": "Pekín ordenó a sus refinerías detener las exportaciones de carburantes en octubre (salvo a Hong Kong y Macao) para reconstruir reservas, como ya hizo en marzo tras el inicio de la guerra con Irán. ==Menos gasóleo chino en el mercado mundial encarece el combustible refinado== y, con él, el crudo. El mercado esperaba saber si se reanudarían tras la fiesta del 7 de octubre.",
+      "fuentes": [
+        {
+          "t": "Gulf Times (Bloomberg)",
+          "u": "https://www.gulf-times.com/article/734613/business/chinese-refiners-said-to-suspend-october-fuel-exports-to-bolster-stocks"
+        },
+        {
+          "t": "Roic.ai",
+          "u": "https://www.roic.ai/news/oil-surges-as-china-halts-refined-fuel-exports-brent-tops-100-10-01-2026"
+        }
+      ]
+    },
+    {
+      "tema": "Chips de memoria e inteligencia artificial (IA)",
+      "texto": "Las previsiones de Micron confirmaron que ==la demanda de memoria para centros de datos de IA sigue fuerte==. Eso impulsó a Japón y Corea, cuyos índices tienen mucho peso de memoria y de equipos para fabricarla, y a la tecnología de EE. UU. (+1,7 %, con Synopsys +12,8 %).",
+      "fuentes": [
+        {
+          "t": "JM Financial",
+          "u": "https://www.jmfinancialservices.in/market-news-and-insights/1734915"
+        },
+        {
+          "t": "Tapeboard",
+          "u": "https://tapeboard.com/blog/market-pulse-2026-10-01"
+        }
+      ]
+    },
+    {
+      "tema": "Dólar fuerte, euro débil",
+      "texto": "El euro perdió en septiembre casi un 2,5 % frente al dólar, su peor mes desde julio de 2025, y el 1 de octubre bajó de 1,13 $. Le pesan los tipos más altos en EE. UU., el dólar como refugio y la incertidumbre política en Francia. Para un inversor en euros, ==el dólar fuerte suaviza las caídas de los activos en dólares==, o amplía sus subidas.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1589"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "En EE. UU. fue un día de ida y vuelta. Por la mañana la TIR del bono a 10 años tocó el 5,34 %, ==máximo desde 2002==, empujada por el petróleo (China corta sus exportaciones de combustibles) y por un ISM manufacturero con precios pagados en 77,9. Por la tarde se dio la vuelta: el ISM general fue algo más flojo y el IPC del día anterior había sido suave, así que ==la probabilidad de otra subida de la Fed en octubre cayó al 34 %==, desde el 70 % de una semana antes (Trading Economics). El 2 años, el tramo más pegado a la Fed, bajó 10 pb; el 10 años solo 5,6 pb y el 30 años 3,5 pb. ==La curva se empinó 4 pb==: el plazo largo sigue exigiendo prima por la inflación del petróleo y por el déficit público.\n\nEn la zona euro la curva AAA del BCE (Banco Central Europeo) se movió poco en el largo (+1 pb, 3,59 %) y bajó en el corto (2 años −5 pb, 3,11 %). El IPC de septiembre de los grandes países (España 5 %, Italia 4,1 %) empuja a más subidas del BCE, que ya subió al 2,50 % el 10 de septiembre. Pero Isabel Schnabel, del BCE, dijo que ==la subida global de rentabilidades ya enfría la economía==, lo que resta urgencia a nuevas subidas y alivia el tramo corto. No tenemos el cierre del día de Francia e Italia, pero ==su prima de riesgo se ampliaba con fuerza==: el diferencial francés pasó de 107 pb el 25 de septiembre a unos 153 pb el 2 de octubre.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "−10 pb (4,78 %)",
+        "por_que": "Es el tramo más sensible a la Fed. Un ISM algo más flojo y el IPC suave del día 30 ==bajaron al 34 % la probabilidad de subida en octubre== (70 % una semana antes).",
+        "fuentes": [
+          {
+            "t": "Trading Economics",
+            "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/588867"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−5,6 pb (5,24 %; máximo intradía 5,34 %)",
+        "por_que": "Por la mañana, ==petróleo caro y precios del ISM en 77,9 = más inflación esperada== y máximo desde 2002. Por la tarde bajó con el 2 años, pero menos: la prima por plazo (inflación y déficit) no cede.",
+        "fuentes": [
+          {
+            "t": "Trading Economics",
+            "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/588867"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "−3,5 pb (5,60 %; máximo intradía ≈ 5,68 %)",
+        "por_que": "El tramo más largo es el que más depende de la inflación a largo y de la oferta de deuda; por eso ==fue el que menos se relajó==."
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "+1,1 pb (3,59 %)",
+        "por_que": "Europa cerró antes del giro de la tarde en EE. UU., ==con los bonos aún cerca de máximos de 17 años==. Sin bajada que acompañara a la de Treasuries."
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "−5,3 pb (3,11 %)",
+        "por_que": "Pese a la inflación alta en España e Italia, el BCE deja ver que ==el endurecimiento del mercado ya le hace parte del trabajo== (Schnabel): algo menos de subidas descontadas.",
+        "fuentes": [
+          {
+            "t": "FXStreet",
+            "u": "https://www.fxstreet.com/news/the-euro-slips-as-europes-biggest-economies-report-hotter-inflation-202609302331"
+          },
+          {
+            "t": "Kurs.com.ua",
+            "u": "https://kurs.com.ua/en/novost/1482366-infljacija-v-evrozoni-pidskochila-do-maksimumu-za-tri-roki"
+          }
+        ]
+      },
+      {
+        "bono": "Diferenciales Francia e Italia frente a Alemania",
+        "cambio": "Sin cierre del día; Francia 107 → ~153 pb y Italia 92 → ~126 pb entre el 25-sep y el 2-oct",
+        "por_que": "Venta de deuda de los países con finanzas más frágiles: ==riesgo fiscal y político en Francia== (presupuesto 2027, presidenciales) e Italia por contagio.",
+        "fuentes": [
+          {
+            "t": "QuiFinanza (25-sep)",
+            "u": "https://quifinanza.it/economia/finanza/spread-btp-bund-25-settembre-2026/1016856/amp/"
+          },
+          {
+            "t": "Money.it (2-oct)",
+            "u": "https://www.money.it/spread-btp-bund-verso-quota-130-con-rendimenti-al-470-francia-peggio-dell-italia-oat-puntano-al-5"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "+12 pb (3,24 %)",
+        "por_que": "Con tipos de referencia en máximos de 24 años, ==refinanciar deuda de empresas endeudadas sale más caro==: los inversores piden más prima."
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Trading Economics (bono EE. UU., 1-oct)",
+        "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/588867"
+      },
+      {
+        "t": "FXStreet (IPC europeo)",
+        "u": "https://www.fxstreet.com/news/the-euro-slips-as-europes-biggest-economies-report-hotter-inflation-202609302331"
+      },
+      {
+        "t": "Money.it (diferenciales)",
+        "u": "https://www.money.it/spread-btp-bund-verso-quota-130-con-rendimenti-al-470-francia-peggio-dell-italia-oat-puntano-al-5"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Día de dispersión, con la mediana de los fondos de renta variable prácticamente plana (−0,06 %). ==Arriba quedaron los fondos de tecnología y de chips== (memoria, redes ópticas) y los de Japón, Corea y Turquía. ==Abajo, los de bolsa europea con mucha banca (España e Italia)==, los inmobiliarios, el sector salud y algunos de reparto con caídas que parecen pago de dividendo. La subida del dólar, alrededor de un +0,5 % frente al euro según el r y rn de las clases en USD, añadió algo de rentabilidad a lo invertido en dólares sin cubrir. Ojo con dos datos raros: un fondo de bonos municipales de EE. UU. que sube un 2 % en un día y varias clases de reparto con caídas superiores a las de su mercado.",
+    "suben": [
+      {
+        "isin": "IE0006TUI4G7",
+        "por_que": "Pese a su nombre (energía inteligente), su cartera es sobre todo de ==componentes para la electrificación y los centros de datos==: Lumentum, Marvell, Coherent y Corning pesan más del 26 %. Son redes ópticas y chips que se beneficiaron del tirón de los semiconductores tras las previsiones de Micron (tecnología EE. UU. +1,7 %)."
+      },
+      {
+        "isin": "LU0265293521",
+        "por_que": "Bolsa turca en clase en euros (Bankinter y ABANCA): es subida del mercado local, no de divisa. Cartera: BIM (9,4 %), Aselsan (9,2 %), Tupras (6,4 %) y Akbank. No hemos localizado una noticia concreta; un mecanismo posible es ==Tupras, la refinera, que gana con un gasóleo más caro== tras el corte de exportaciones chinas."
+      },
+      {
+        "isin": "LU0213961682",
+        "por_que": "Igual que el fondo turco de BNP: BIM, Aselsan y Tupras encabezan la cartera. Cerca de un tercio figura como «Capital Cash Ctrl», lo que sugiere exposición vía derivados o liquidez."
+      },
+      {
+        "isin": "LU0301637293",
+        "por_que": "==Cartera muy concentrada en memoria==: SK hynix (10 %), SK Square (9,4 %) y Samsung Electronics (8,6 %). El Kospi subió un 2 % por las previsiones de Micron."
+      },
+      {
+        "isin": "LU2092176515",
+        "por_que": "Tecnología global ligada a la IA: TSMC, Lam Research, Synopsys (que subió un 12,8 % ese día), Alphabet, Arista y NVIDIA."
+      },
+      {
+        "isin": "IE000NUQFNN0",
+        "por_que": "Energía alternativa en clase cubierta a euros (IronIA). Sube casi lo mismo que el Polar Capital Smart Energy (+3,3 %), lo que apunta a una cartera parecida: ==componentes para la electrificación y redes ópticas, al calor de Micron==. No tenemos su cartera detallada."
+      },
+      {
+        "isin": "LU2809794220",
+        "por_que": "TSMC (9 %), NVIDIA (8,6 %), SK Square y SK hynix: los mismos chips que movieron Asia y la tecnología de EE. UU."
+      },
+      {
+        "isin": "LU1951200481",
+        "por_que": "Inteligencia artificial y robótica global (IronIA), sin cartera en nuestros datos. Le favorecieron ==el tirón de los chips tras las previsiones de Micron== y la tecnología de EE. UU. (+1,7 %)."
+      },
+      {
+        "isin": "IE00B5L6ZZ16",
+        "por_que": "Capital riesgo cotizado de EE. UU. en clase USD: subió un +1,9 % en dólares y un +2,4 % en euros. Unos 0,5 puntos son efecto divisa por la subida del dólar."
+      },
+      {
+        "isin": "IE00BDZQR023",
+        "por_que": "Clasificado como Japón gran capitalización: recoge el +3,3 % del Nikkei, impulsado por los fabricantes de material para chips y por un Tankan sólido."
+      },
+      {
+        "isin": "IE00BDCJZ228",
+        "por_que": "Dato raro: un fondo de bonos municipales de EE. UU. no suele moverse un 2 % en un día. Las TIR solo bajaron 5–10 pb y la clase figura en euros. Puede ser un valor liquidativo atrasado o un error de la fuente (IronIA); conviene no sacar conclusiones."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU0942195586",
+        "por_que": "Clase de reparto trimestral (INC, H3Q) de dividendo asiático. Con Hong Kong cerrado y Asia mixta, una caída del 2,7 % apunta a un pago de dividendo de final de trimestre más que a un movimiento de mercado."
+      },
+      {
+        "isin": "LU1652855146",
+        "por_que": "Bolsa europea de estilo value (valor), con mucho peso en banca y cíclicas, los sectores más castigados por el repunte de las rentabilidades. Europa cerró en el peor momento del día."
+      },
+      {
+        "isin": "IE00BYSRYY24",
+        "por_que": "Pequeñas compañías británicas de dividendo: el FTSE 100 cayó un 1,7 % y las empresas pequeñas y de dividendo sufren más con tipos altos. La clase es de reparto (D), así que parte de la caída puede ser un dividendo."
+      },
+      {
+        "isin": "ES0138861036",
+        "por_que": "Bolsa española (IronIA): −2,14 %, en línea con el ==IBEX 35 (−2,17 %), lastrado por la banca== ante unos tipos a largo plazo en máximos de dos décadas."
+      },
+      {
+        "isin": "ES0110182039",
+        "por_que": "Réplica del IBEX 35 (IronIA): −2,14 %, casi idéntico al índice. ==La banca española fue de lo peor== por el repunte de las rentabilidades."
+      },
+      {
+        "isin": "ES0114794037",
+        "por_que": "Réplica del IBEX 35 (−2,17 %): ==la banca española fue de lo peor== por el repunte de los tipos a largo plazo."
+      },
+      {
+        "isin": "LU1803069274",
+        "por_que": "Biotecnología de EE. UU. en clase cubierta en euros, sin efecto divisa. Salud fue el peor sector del S&P 500 (−2,65 %) y arrastró a Jazz, Amgen, Gilead y Vertex."
+      },
+      {
+        "isin": "ES0162382016",
+        "por_que": "Sector financiero (IronIA): ==la banca fue el sector más castigado del día==. Con tipos tan altos el mercado teme menos crédito y más morosidad, y Europa cerró en el peor momento de los bonos de EE. UU."
+      },
+      {
+        "isin": "LU0922333322",
+        "por_que": "UniCredit e Intesa Sanpaolo suman casi el 20 % de la cartera, y BPER y Monte dei Paschi otro 10 %: ==la banca italiana fue el epicentro de la caída== del FTSE MIB (−2,2 %)."
+      },
+      {
+        "isin": "LU0340559557",
+        "por_que": "Madereras organizadas como sociedades inmobiliarias cotizadas (Weyerhaeuser, Rayonier) y papeleras. Se valoran como activos inmobiliarios, que cayeron un 1,6 % en EE. UU. por los tipos, y también bajaron los materiales (−1,1 %)."
+      },
+      {
+        "isin": "BE6213829094",
+        "por_que": "Inmobiliario europeo (Unibail-Rodamco-Westfield, Vonovia, Aedifica): es el activo bursátil más sensible a la TIR de los bonos, porque sube el coste de su deuda y baja el valor de sus edificios."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-02",
+      "evento": "Empleo de septiembre en EE. UU. (nóminas no agrícolas, paro y salarios)",
+      "por_que_importa": "El consenso esperaba unos 90.000–98.000 empleos y un paro del 4,1 %. Un dato fuerte devolvería al 10 años a sus máximos y reavivaría la subida de la Fed en octubre; uno flojo daría alivio a los bonos y a los valores sensibles a los tipos."
+    },
+    {
+      "fecha": "2026-10-02",
+      "evento": "Entregas trimestrales de Tesla",
+      "por_que_importa": "Primera pista sobre la demanda de coches eléctricos en el tercer trimestre (consenso en torno a 462.000)."
+    },
+    {
+      "fecha": "2026-10-04",
+      "evento": "Primera vuelta de las elecciones presidenciales en Brasil",
+      "por_que_importa": "La pugna entre Lula y Flávio Bolsonaro marca las expectativas fiscales de Brasil y, con ellas, la bolsa y el real."
+    },
+    {
+      "fecha": "2026-10-05",
+      "evento": "ISM de servicios de EE. UU. (septiembre)",
+      "por_que_importa": "Confirmará si la economía de servicios sigue fuerte y si los precios pagados siguen subiendo."
+    },
+    {
+      "fecha": "2026-10-07",
+      "evento": "Actas de la Fed y fin de la Semana Dorada en China",
+      "por_que_importa": "Las actas dirán cuántos miembros quieren otra subida. Al volver de la fiesta, Pekín decidirá si reanuda las exportaciones de combustibles."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene a vencimiento. Sube cuando cae su precio, y viceversa."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "ISM",
+      "def": "Institute for Supply Management: encuesta mensual a directores de compras de EE. UU. Por encima de 50 indica expansión."
+    },
+    {
+      "sigla": "IPC",
+      "def": "Índice de precios de consumo: la medida habitual de la inflación."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "Tankan",
+      "def": "Encuesta trimestral del Banco de Japón sobre la confianza de las empresas; un número positivo indica que hay más optimistas que pesimistas."
+    },
+    {
+      "sigla": "High yield",
+      "def": "Bonos de alto rendimiento: deuda de empresas con peor calificación crediticia, que pagan más interés por su mayor riesgo."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis grandes divisas (sobre todo el euro)."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+    },
+    {
+      "sigla": "WTI",
+      "def": "West Texas Intermediate: petróleo de referencia en EE. UU."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: precio de una participación de un fondo en una fecha."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo: fija los tipos de interés de la zona euro."
+    },
+    {
+      "sigla": "OAT",
+      "def": "Obligations Assimilables du Trésor: bono del Estado francés."
+    },
+    {
+      "sigla": "Prima por plazo",
+      "def": "Rentabilidad extra que se exige por prestar a largo plazo (riesgo de inflación y de oferta de deuda), aparte de lo que se espera de los tipos oficiales."
+    }
+  ],
+  "generado": "2026-10-23T14:30"
+}

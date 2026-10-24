@@ -1,0 +1,2780 @@
+[
+ {
+  "id": "2023-01-02-gas-europa-normaliza",
+  "fecha": "2023-01-02",
+  "fin": "2023-12-29",
+  "titulo": "Invierno suave y depósitos llenos: el gas europeo se desploma en 2023",
+  "pais": [
+   "EU",
+   "EZ",
+   "NO"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Tras la crisis de 2022, un invierno templado, almacenes casi llenos y la llegada masiva de GNL hundieron el precio del gas TTF. El abaratamiento de la energía redujo la inflación europea y aflojó la presión sobre industria y eléctricas, mientras recortaba los ingresos de productores y la corona noruega.",
+  "activos_afectados": [
+   {
+    "activo": "Gas europeo TTF",
+    "sentido": "-",
+    "magnitud": "−58 % en 2023 (serie del panel)"
+   },
+   {
+    "activo": "Eléctricas y química europeas",
+    "sentido": "+"
+   },
+   {
+    "activo": "Corona noruega",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "eu",
+   "nor",
+   "inf"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Gas natural en Europa (contexto de mercado)",
+    "u": "https://en.wikipedia.org/wiki/2022%E2%80%932023_Russia%E2%80%93European_Union_gas_dispute"
+   }
+  ]
+ },
+ {
+  "id": "2023-03-10-svb",
+  "fecha": "2023-03-10",
+  "fin": "2023-03-13",
+  "titulo": "Quiebra de Silicon Valley Bank y pánico en la banca regional de EE. UU.",
+  "pais": [
+   "US"
+  ],
+  "tipo": "crisis_financiera",
+  "tipos_secundarios": [
+   "politica_monetaria"
+  ],
+  "mecanismo": "Las pérdidas latentes en bonos de SVB, provocadas por la subida de tipos de 2022, desataron una fuga de depósitos y su intervención; Signature cayó el 12-mar. El mercado pasó a descontar menos subidas de la Fed: el 2 años se hundió y el oro subió como refugio, mientras la banca regional se desplomaba.",
+  "activos_afectados": [
+   {
+    "activo": "Bancos EE. UU.",
+    "sentido": "-",
+    "magnitud": "−20 % del 8 al 13-mar (serie del panel)"
+   },
+   {
+    "activo": "Bono EE. UU. 2 años (rentabilidad)",
+    "sentido": "-",
+    "magnitud": "−1,0 pp del 8 al 13-mar (serie del panel)"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+",
+    "magnitud": "+9 % del 8 al 20-mar (serie del panel)"
+   },
+   {
+    "activo": "Bonos largos EE. UU.",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "fin",
+   "us",
+   "oro",
+   "small"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Collapse of Silicon Valley Bank",
+    "u": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank"
+   }
+  ]
+ },
+ {
+  "id": "2023-03-20-credit-suisse-ubs",
+  "fecha": "2023-03-20",
+  "fecha_real": "2023-03-19",
+  "fin": "2023-03-24",
+  "titulo": "Rescate de Credit Suisse por UBS y amortización total de sus bonos AT1",
+  "pais": [
+   "CH",
+   "EU"
+  ],
+  "tipo": "crisis_financiera",
+  "tipos_secundarios": [],
+  "mecanismo": "Tras desplomarse el 15-mar, Credit Suisse fue absorbido por UBS el domingo 19-mar con respaldo de la Confederación y el BNS. FINMA amortizó a cero unos 16.000 M CHF de bonos AT1 mientras las acciones recibían algo, lo que invirtió la jerarquía esperada y castigó a toda la deuda subordinada bancaria europea.",
+  "activos_afectados": [
+   {
+    "activo": "Bonos AT1 / CoCos",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bancos Europa",
+    "sentido": "-",
+    "magnitud": "−5,7 % el 15-mar (serie del panel)"
+   },
+   {
+    "activo": "Franco suizo",
+    "sentido": "±"
+   },
+   {
+    "activo": "Acciones suizas",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "fin",
+   "ch",
+   "eu"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Acquisition of Credit Suisse by UBS",
+    "u": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS"
+   }
+  ]
+ },
+ {
+  "id": "2023-03-31-tokio-pvc",
+  "fecha": "2023-03-31",
+  "fin": null,
+  "titulo": "La Bolsa de Tokio exige planes a las cotizadas que valen menos que sus libros",
+  "pais": [
+   "JP"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [],
+  "mecanismo": "La TSE pidió a las empresas con P/VC inferior a 1 planes para mejorar su rentabilidad y su valoración. Junto con la entrada de Buffett en las sociedades comerciales japonesas, impulsó recompras, dividendos y un rally del value japonés que se prolongó en 2024.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa japonesa (value)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bancos y sociedades comerciales japonesas",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "jp",
+   "val",
+   "div"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Tokyo Stock Exchange",
+    "u": "https://en.wikipedia.org/wiki/Tokyo_Stock_Exchange"
+   }
+  ],
+  "nota": "Fecha de la petición formal de la TSE (31-mar-2023) de memoria."
+ },
+ {
+  "id": "2023-04-03-opep-recorte-sorpresa",
+  "fecha": "2023-04-03",
+  "fecha_real": "2023-04-02",
+  "fin": null,
+  "titulo": "La OPEP+ anuncia por sorpresa un recorte de ~1,16 Mb/d",
+  "pais": [
+   "SA",
+   "RU",
+   "GLOBAL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "Fuera de calendario, Arabia Saudí y otros miembros anunciaron recortes voluntarios desde mayo hasta fin de 2023. El Brent dio su mayor subida diaria en casi un año, favoreciendo a petroleras y reavivando expectativas de inflación tras el susto bancario.",
+  "activos_afectados": [
+   {
+    "activo": "Petróleo Brent",
+    "sentido": "+",
+    "magnitud": "+6,5 % el 3-abr (serie del panel)"
+   },
+   {
+    "activo": "Petroleras",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Bloomberg: Oil surges most in a year after OPEC+ shocking cut",
+    "u": "https://www.bloomberg.com/news/articles/2023-04-02/oil-surges-after-opec-makes-unexpected-crude-production-cut"
+   }
+  ]
+ },
+ {
+  "id": "2023-05-15-turquia-elecciones",
+  "fecha": "2023-05-15",
+  "fecha_real": "2023-05-14",
+  "fin": "2023-06-22",
+  "titulo": "Elecciones en Turquía: Erdogan gana y giro ortodoxo con Şimşek",
+  "pais": [
+   "TR"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "politica_monetaria",
+   "divisas"
+  ],
+  "mecanismo": "La primera vuelta (14-may) dejó a Erdogan por delante y la Bolsa turca se hundió; ganó la segunda vuelta del 28-may. El nombramiento de Mehmet Şimşek y las fuertes subidas de tipos desde junio llevaron a dejar caer la lira, que se depreció con rapidez, aunque a medio plazo mejoró la credibilidad.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa turca (USD)",
+    "sentido": "-",
+    "magnitud": "−8,4 % el 15-may (serie del panel)"
+   },
+   {
+    "activo": "Lira turca",
+    "sentido": "-",
+    "magnitud": "EUR/TRY +33 % del 12-may al 30-jun (serie del panel)"
+   }
+  ],
+  "temas_fondos": [
+   "tr",
+   "em",
+   "front"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2023 Turkish presidential election",
+    "u": "https://en.wikipedia.org/wiki/2023_Turkish_presidential_election"
+   }
+  ]
+ },
+ {
+  "id": "2023-05-25-nvidia-ia",
+  "fecha": "2023-05-25",
+  "fecha_real": "2023-05-24",
+  "fin": null,
+  "titulo": "Nvidia dispara su previsión de ventas y arranca el boom bursátil de la IA",
+  "pais": [
+   "US",
+   "TW",
+   "KR"
+  ],
+  "tipo": "resultados",
+  "tipos_secundarios": [
+   "tecnologia"
+  ],
+  "mecanismo": "Tras el cierre del 24-may Nvidia previó unos 11.000 M$ de ingresos trimestrales frente a ~7.200 M$ esperados por la demanda de chips para IA generativa. La acción llegó a subir un 26 % y arrastró a semiconductores, centros de datos y proveedores asiáticos (TSMC, SK Hynix), concentrando el mercado en las grandes tecnológicas.",
+  "activos_afectados": [
+   {
+    "activo": "Nvidia",
+    "sentido": "+",
+    "magnitud": "hasta +26 % intradía"
+   },
+   {
+    "activo": "Semiconductores",
+    "sentido": "+",
+    "magnitud": "+6,7 % el 25-may (serie del panel)"
+   },
+   {
+    "activo": "Nasdaq 100",
+    "sentido": "+"
+   },
+   {
+    "activo": "Taiwán y Corea",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "semi",
+   "ia",
+   "tec",
+   "krtw",
+   "us",
+   "calidad"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "BNN Bloomberg: Nvidia on track for record surge in market value",
+    "u": "https://www.bnnbloomberg.ca/nvidia-nvda-on-track-for-record-219-billion-surge-in-market-value-1.1924646"
+   }
+  ]
+ },
+ {
+  "id": "2023-05-30-techo-deuda",
+  "fecha": "2023-05-30",
+  "fecha_real": "2023-05-27",
+  "fin": "2023-06-03",
+  "titulo": "Acuerdo in extremis sobre el techo de deuda de EE. UU.",
+  "pais": [
+   "US"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [],
+  "mecanismo": "Con la fecha de impago prevista para principios de junio, Biden y McCarthy pactaron el fin de semana del 27-28 de mayo suspender el techo de deuda. Se despejó el riesgo sobre las letras del Tesoro que vencían en junio, pero el Tesoro tuvo que reponer caja con una avalancha de emisiones que drenó liquidez y presionó las rentabilidades en verano.",
+  "activos_afectados": [
+   {
+    "activo": "Letras del Tesoro de corto plazo",
+    "sentido": "±"
+   },
+   {
+    "activo": "Bolsa EE. UU.",
+    "sentido": "+"
+   },
+   {
+    "activo": "Rentabilidades del Tesoro",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "mon"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2023 United States debt-ceiling crisis",
+    "u": "https://en.wikipedia.org/wiki/2023_United_States_debt-ceiling_crisis"
+   }
+  ]
+ },
+ {
+  "id": "2023-07-03-china-galio-germanio",
+  "fecha": "2023-07-03",
+  "fin": "2024-12-03",
+  "titulo": "China somete a licencia la exportación de galio y germanio",
+  "pais": [
+   "CN",
+   "US"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "geopolitica",
+   "materias_primas"
+  ],
+  "mecanismo": "Pekín (98 % de la producción mundial de galio) anunció el 3-jul licencias de exportación desde el 1-ago como respuesta a los controles de chips de EE. UU. En dic-2024 lo endureció a una prohibición de envíos de galio, germanio y antimonio a EE. UU. Encarece insumos de semiconductores y defensa y revaloriza a los productores no chinos de metales críticos.",
+  "activos_afectados": [
+   {
+    "activo": "Galio y germanio fuera de China",
+    "sentido": "+"
+   },
+   {
+    "activo": "Mineras de metales críticos no chinas",
+    "sentido": "+"
+   },
+   {
+    "activo": "Cadena de semiconductores",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "semi",
+   "def",
+   "cn"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Deloitte China: export controls on gallium and germanium",
+    "u": "https://www2.deloitte.com/cn/en/pages/tax/articles/china-export-controls-on-gallium-and-germanium-related-items.html"
+   }
+  ]
+ },
+ {
+  "id": "2023-07-24-espana-elecciones",
+  "fecha": "2023-07-24",
+  "fecha_real": "2023-07-23",
+  "fin": "2023-11-16",
+  "titulo": "Elecciones generales en España sin mayoría clara",
+  "pais": [
+   "ES"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "El 23-jul el PP ganó sin mayoría y el bloqueo acabó con la investidura de Sánchez en noviembre. El mercado apenas reaccionó: la prima de riesgo se mantuvo contenida y el Ibex siguió dependiendo de banca y tipos del BCE más que de la política.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa española",
+    "sentido": "±",
+    "magnitud": "−0,8 % el 24-jul (serie del panel)"
+   },
+   {
+    "activo": "Prima de riesgo España",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "es"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "2023 Spanish general election",
+    "u": "https://en.wikipedia.org/wiki/2023_Spanish_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2023-08-02-fitch-rebaja-eeuu",
+  "fecha": "2023-08-02",
+  "fecha_real": "2023-08-01",
+  "fin": null,
+  "titulo": "Fitch rebaja la deuda de EE. UU. de AAA a AA+",
+  "pais": [
+   "US"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [
+   "politica_monetaria"
+  ],
+  "mecanismo": "Tras el cierre del 1-ago Fitch citó el deterioro fiscal y la gobernanza (crisis del techo de deuda). No forzó ventas, pero coincidió con el aumento de las emisiones del Tesoro anunciado ese mismo día y alimentó el repunte de la prima por plazo que llevó al 10 años hacia el 5 % en otoño.",
+  "activos_afectados": [
+   {
+    "activo": "Treasuries largos",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bolsa EE. UU.",
+    "sentido": "-"
+   },
+   {
+    "activo": "Dólar",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "mon"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Fitch Ratings: downgrade of the United States to AA+",
+    "u": "https://www.fitchratings.com/research/sovereigns/fitch-downgrades-united-states-long-term-ratings-to-aa-from-aaa-outlook-stable-01-08-2023"
+   }
+  ]
+ },
+ {
+  "id": "2023-10-09-israel-hamas",
+  "fecha": "2023-10-09",
+  "fecha_real": "2023-10-07",
+  "fin": null,
+  "titulo": "Ataque de Hamás y guerra en Gaza",
+  "pais": [
+   "IL",
+   "PS",
+   "IR",
+   "GLOBAL"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [],
+  "mecanismo": "El ataque del sábado 7-oct desencadenó la guerra de Gaza y el temor a un conflicto regional con Irán. El primer lunes subieron el petróleo y el oro y se compraron defensa y refugios; la prima de riesgo del crudo fue moderada porque no se cortó la oferta, pero la crisis se extendió al mar Rojo.",
+  "activos_afectados": [
+   {
+    "activo": "Petróleo Brent",
+    "sentido": "+",
+    "magnitud": "+4,2 % el 9-oct (serie del panel)"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+",
+    "magnitud": "+8 % hasta el 27-oct (serie del panel)"
+   },
+   {
+    "activo": "Defensa",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bolsa israelí y shekel",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "oro",
+   "def"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Israel–Hamas war",
+    "u": "https://en.wikipedia.org/wiki/Gaza_war"
+   }
+  ]
+ },
+ {
+  "id": "2023-10-19-treasury-5",
+  "fecha": "2023-10-19",
+  "fin": "2023-10-23",
+  "titulo": "El bono a 10 años de EE. UU. toca el 5 % por primera vez desde 2007",
+  "pais": [
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "fiscal_deuda"
+  ],
+  "mecanismo": "La combinación de «tipos altos más tiempo», déficit creciente y más emisión disparó la prima por plazo. El 10 años tocó el 5 % el 19-oct y marcó 5,02 % el 23-oct; los bonos largos acumularon caídas de dos dígitos y la bolsa, sobre todo pequeñas y sectores sensibles a tipos, corrigió hasta finales de octubre.",
+  "activos_afectados": [
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "+",
+    "magnitud": "3,96 → 4,98 % del 28-jul al 19-oct (serie del panel)"
+   },
+   {
+    "activo": "Bonos EE. UU. 20+ años",
+    "sentido": "-",
+    "magnitud": "−17 % en ese tramo (serie del panel)"
+   },
+   {
+    "activo": "Pequeñas compañías e inmobiliario",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "inmo",
+   "small",
+   "div",
+   "mon"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "IBJ/AP: yield on a 10-year Treasury reaches 5 % for first time since 2007",
+    "u": "https://www.ibj.com/articles/yield-on-a-10-year-treasury-reaches-5-for-first-time-since-2007"
+   }
+  ]
+ },
+ {
+  "id": "2023-11-20-argentina-milei",
+  "fecha": "2023-11-20",
+  "fecha_real": "2023-11-19",
+  "fin": null,
+  "titulo": "Javier Milei gana la presidencia de Argentina",
+  "pais": [
+   "AR"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "fiscal_deuda",
+   "divisas"
+  ],
+  "mecanismo": "La victoria del 19-nov anticipó devaluación, ajuste fiscal y desregulación. Las acciones y bonos argentinos se dispararon en Wall Street y en diciembre se devaluó el peso oficial más de un 50 %, iniciando el rally de activos argentinos de 2024.",
+  "activos_afectados": [
+   {
+    "activo": "ADR y bonos argentinos",
+    "sentido": "+"
+   },
+   {
+    "activo": "Peso argentino oficial",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "latam",
+   "front",
+   "em"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2023 Argentine general election",
+    "u": "https://en.wikipedia.org/wiki/2023_Argentine_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2023-12-13-fed-giro",
+  "fecha": "2023-12-13",
+  "fin": null,
+  "titulo": "La Fed señala recortes para 2024: giro y rally de fin de año",
+  "pais": [
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "estacionalidad"
+  ],
+  "mecanismo": "La Fed mantuvo tipos pero sus proyecciones pasaron a tres recortes en 2024 y Powell dio por cerradas las subidas. Las rentabilidades se hundieron y la bolsa amplió el rally iniciado a finales de octubre, con fuerte subida de pequeñas, inmobiliario y bonos largos.",
+  "activos_afectados": [
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "-",
+    "magnitud": "−0,28 pp del 12 al 14-dic (serie del panel)"
+   },
+   {
+    "activo": "Russell 2000",
+    "sentido": "+",
+    "magnitud": "+6,3 % del 12 al 14-dic (serie del panel)"
+   },
+   {
+    "activo": "S&P 500",
+    "sentido": "+",
+    "magnitud": "+15,8 % del 27-oct al 29-dic (serie del panel)"
+   },
+   {
+    "activo": "Dólar",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "small",
+   "inmo",
+   "mon"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Federal Reserve: FOMC statement 13-dic-2023",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231213a.htm"
+   }
+  ]
+ },
+ {
+  "id": "2023-12-15-mar-rojo",
+  "fecha": "2023-12-15",
+  "fin": "2024-01-31",
+  "titulo": "Ataques hutíes en el mar Rojo: las navieras evitan Suez",
+  "pais": [
+   "YE",
+   "EG",
+   "GLOBAL"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "Los ataques de los hutíes contra buques comerciales llevaron a Maersk y otras navieras a pausar el tránsito por Bab el-Mandeb y rodear África. Los fletes de contenedores Asia–Europa se triplicaron en semanas, alargando plazos y añadiendo presión puntual a los precios de bienes y al seguro marítimo; el crudo apenas reaccionó.",
+  "activos_afectados": [
+   {
+    "activo": "Fletes de contenedores",
+    "sentido": "+",
+    "magnitud": "Asia–Mediterráneo de ~1.600 a ~5.000 $/FEU"
+   },
+   {
+    "activo": "Navieras",
+    "sentido": "+"
+   },
+   {
+    "activo": "Petróleo Brent",
+    "sentido": "±",
+    "magnitud": "+2 % del 14-dic al 12-ene (serie del panel)"
+   }
+  ],
+  "temas_fondos": [
+   "inf",
+   "eu",
+   "ene"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "FreightWaves: container shipping rates spike as Red Sea crisis draws first blood",
+    "u": "https://www.freightwaves.com/news/container-shipping-rates-spike-as-red-sea-crisis-draws-first-blood"
+   },
+   {
+    "t": "Red Sea crisis",
+    "u": "https://en.wikipedia.org/wiki/Red_Sea_crisis"
+   }
+  ]
+ },
+ {
+  "id": "2024-01-11-etf-bitcoin",
+  "fecha": "2024-01-11",
+  "fecha_real": "2024-01-10",
+  "fin": null,
+  "titulo": "Arrancan los ETF de bitcoin al contado en EE. UU.",
+  "pais": [
+   "US"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "La SEC aprobó el 10-ene por la tarde once ETF de bitcoin al contado, que cotizaron desde el 11-ene. Las entradas de dinero institucional y minorista empujaron a bitcoin a máximos en marzo, beneficiando a mineras cripto y fondos de blockchain.",
+  "activos_afectados": [
+   {
+    "activo": "Bitcoin",
+    "sentido": "+",
+    "magnitud": "+53 % del 10-ene al 14-mar (serie del panel)"
+   },
+   {
+    "activo": "Acciones de blockchain y mineras cripto",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "fintech"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "CFRA: spot bitcoin ETF race kicks off with a fee war",
+    "u": "https://www.cfraresearch.com/insights/spot-bitcoin-etf-race-kicks-off-with-a-fee-war/"
+   }
+  ]
+ },
+ {
+  "id": "2024-01-12-uranio-kazatomprom",
+  "fecha": "2024-01-12",
+  "fin": "2024-02-01",
+  "titulo": "Kazatomprom avisa de menos producción y el uranio supera los 100 $/lb",
+  "pais": [
+   "KZ",
+   "NE",
+   "GLOBAL"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "Tras el golpe de Níger (jul-2023) y las compras de fondos físicos, el mayor productor mundial advirtió de recortes por escasez de ácido sulfúrico y retrasos. El spot de uranio superó los 100 $/lb a finales de enero, máximos desde 2007, y luego corrigió durante el resto de 2024.",
+  "activos_afectados": [
+   {
+    "activo": "Uranio spot",
+    "sentido": "+",
+    "magnitud": "de ~91 a ~101 $/lb en enero"
+   },
+   {
+    "activo": "Mineras de uranio",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "nuc",
+   "mat",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Sprott: uranium price returns to triple digits",
+    "u": "https://sprott.com/insights/uranium-price-returns-to-triple-digits/"
+   }
+  ]
+ },
+ {
+  "id": "2024-01-15-taiwan-elecciones",
+  "fecha": "2024-01-15",
+  "fecha_real": "2024-01-13",
+  "fin": null,
+  "titulo": "Lai Ching-te (DPP) gana las presidenciales de Taiwán",
+  "pais": [
+   "TW",
+   "CN"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "La victoria del sábado 13-ene prolongó el Gobierno del DPP, más distante de Pekín, pero sin mayoría parlamentaria. El mercado lo leyó como continuidad sin escalada inmediata y la bolsa taiwanesa siguió guiada por el ciclo de chips de IA.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa de Taiwán",
+    "sentido": "±"
+   },
+   {
+    "activo": "Dólar taiwanés",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "krtw",
+   "semi"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "2024 Taiwanese presidential election",
+    "u": "https://en.wikipedia.org/wiki/2024_Taiwanese_presidential_election"
+   }
+  ]
+ },
+ {
+  "id": "2024-03-04-oro-maximos-2024",
+  "fecha": "2024-03-04",
+  "fin": "2024-10-30",
+  "titulo": "El oro rompe máximos históricos y suma +27 % en 2024",
+  "pais": [
+   "GLOBAL",
+   "CN"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "flujos_posicionamiento",
+   "geopolitica"
+  ],
+  "mecanismo": "Las compras récord de bancos centrales (China, Polonia, India) para diversificar reservas fuera del dólar tras las sanciones a Rusia, y luego la expectativa de recortes de la Fed, llevaron al oro a romper sus máximos a principios de marzo y a encadenar récords hasta octubre. Las mineras de oro amplificaron la subida.",
+  "activos_afectados": [
+   {
+    "activo": "Oro",
+    "sentido": "+",
+    "magnitud": "+27,5 % en 2024 (serie del panel)"
+   },
+   {
+    "activo": "Mineras de oro",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "oro",
+   "mat"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "World Gold Council: Gold Demand Trends",
+    "u": "https://www.gold.org/goldhub/research/gold-demand-trends"
+   }
+  ],
+  "nota": "Fecha de ruptura aproximada (primera semana de marzo de 2024); no verificada día a día."
+ },
+ {
+  "id": "2024-03-19-boj-fin-negativos",
+  "fecha": "2024-03-19",
+  "fin": null,
+  "titulo": "El Banco de Japón pone fin a los tipos negativos",
+  "pais": [
+   "JP"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "La BoJ subió su tipo de −0,1 % a 0–0,1 % y abandonó el control de la curva, la primera subida en 17 años. Al ser muy gradual y estar descontada, el yen siguió debilitándose (carry trade), lo que obligó a intervenir en abril y preparó el terreno para el desplome de agosto.",
+  "activos_afectados": [
+   {
+    "activo": "Yen",
+    "sentido": "-",
+    "magnitud": "EUR/JPY +0,5 % el 19-mar (serie del panel)"
+   },
+   {
+    "activo": "Bolsa japonesa",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bancos japoneses",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "jp",
+   "fin"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Bank of Japan",
+    "u": "https://en.wikipedia.org/wiki/Bank_of_Japan"
+   }
+  ]
+ },
+ {
+  "id": "2024-03-21-snb-primer-recorte",
+  "fecha": "2024-03-21",
+  "fin": "2025-03-20",
+  "titulo": "El BNS es el primer gran banco central en bajar tipos",
+  "pais": [
+   "CH"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "El BNS recortó por sorpresa del 1,75 % al 1,5 %, adelantándose a BCE y Fed, y siguió en junio, septiembre, diciembre de 2024 (−50 pb) y marzo de 2025. El franco se debilitó al reducirse su diferencial y las inmobiliarias y bonos suizos se beneficiaron.",
+  "activos_afectados": [
+   {
+    "activo": "Franco suizo",
+    "sentido": "-",
+    "magnitud": "EUR/CHF +1,1 % el 21-mar (serie del panel)"
+   },
+   {
+    "activo": "Bonos e inmobiliario suizos",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ch",
+   "inmo",
+   "mon"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Swiss National Bank",
+    "u": "https://en.wikipedia.org/wiki/Swiss_National_Bank"
+   }
+  ]
+ },
+ {
+  "id": "2024-03-26-cacao-record",
+  "fecha": "2024-03-26",
+  "fin": "2024-12-18",
+  "titulo": "El cacao supera los 10.000 $/t por las malas cosechas de África Occidental",
+  "pais": [
+   "CI",
+   "GH"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "El Niño, lluvias excesivas y luego sequía, junto con la enfermedad del brote hinchado, provocaron el tercer y cuarto déficit consecutivo en Costa de Marfil y Ghana. El cacao multiplicó su precio y marcó récord en diciembre de 2024 (~12.900 $/t), castigando márgenes de chocolateros, antes de caer más de un 60 % hasta finales de 2025.",
+  "activos_afectados": [
+   {
+    "activo": "Cacao",
+    "sentido": "+",
+    "magnitud": "récord ~12.600–12.900 $/t el 18-dic-2024"
+   },
+   {
+    "activo": "Chocolateros (Barry Callebaut, Lindt, Hershey)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp",
+   "ch"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "BNN Bloomberg: cocoa soars above $12,000 to reach fresh record",
+    "u": "https://bnnbloomberg.ca/investing/commodities/2024/12/18/cocoa-soars-above-12000-to-reach-fresh-record-on-supply-fears"
+   },
+   {
+    "t": "Barchart: where is support in the cocoa futures market?",
+    "u": "https://www.barchart.com/story/news/31505925/where-is-support-in-the-cocoa-futures-market"
+   }
+  ],
+  "nota": "Día exacto del primer cierre por encima de 10.000 $/t no verificado (finales de marzo de 2024)."
+ },
+ {
+  "id": "2024-04-29-japon-interviene-yen",
+  "fecha": "2024-04-29",
+  "fin": "2024-05-01",
+  "titulo": "Japón interviene cuando el yen toca 160 por dólar",
+  "pais": [
+   "JP"
+  ],
+  "tipo": "divisas",
+  "tipos_secundarios": [
+   "politica_monetaria"
+  ],
+  "mecanismo": "El diferencial de tipos con EE. UU. hundió el yen hasta 160 por dólar, mínimos desde 1990, y el Ministerio de Finanzas vendió dólares el 29-abr y el 1-may. Las intervenciones solo frenaron temporalmente la caída; el yen débil seguía alimentando el carry trade y los beneficios de los exportadores japoneses.",
+  "activos_afectados": [
+   {
+    "activo": "Yen",
+    "sentido": "±"
+   },
+   {
+    "activo": "Exportadores japoneses",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "jp"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Bank of Japan",
+    "u": "https://en.wikipedia.org/wiki/Bank_of_Japan"
+   }
+  ]
+ },
+ {
+  "id": "2024-05-30-sudafrica-elecciones",
+  "fecha": "2024-05-30",
+  "fecha_real": "2024-05-29",
+  "fin": "2024-06-14",
+  "titulo": "El CNA pierde la mayoría en Sudáfrica y forma un Gobierno de unidad",
+  "pais": [
+   "ZA"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "Los resultados de las elecciones del 29-may confirmaron que el CNA perdía la mayoría por primera vez; el rand cayó ante el temor a una alianza con partidos nacionalizadores. El pacto con la proalianza de mercado DA (14-jun) disparó la banca sudafricana a récord y revalorizó el rand y los bonos.",
+  "activos_afectados": [
+   {
+    "activo": "Rand",
+    "sentido": "±",
+    "magnitud": "−2 % al conocer los resultados; rebote tras el pacto"
+   },
+   {
+    "activo": "Bancos sudafricanos",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bonos sudafricanos",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "em",
+   "fin"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Polity: markets cheer South Africa's move to broad government alliance",
+    "u": "https://polity.org.za/article/markets-cheer-south-africas-move-to-broad-government-alliance-2024-06-14"
+   },
+   {
+    "t": "2024 South African general election",
+    "u": "https://en.wikipedia.org/wiki/2024_South_African_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2024-06-03-mexico-elecciones",
+  "fecha": "2024-06-03",
+  "fecha_real": "2024-06-02",
+  "fin": "2024-06-12",
+  "titulo": "Sheinbaum arrasa en México y el peso se desploma",
+  "pais": [
+   "MX"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "La supermayoría de Morena (2-jun) hizo temer reformas constitucionales, sobre todo la judicial, sin contrapesos. El peso, que era la divisa estrella del carry, se hundió y la bolsa mexicana sufrió su peor sesión en años; la reforma judicial se aprobó en septiembre.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa mexicana (USD)",
+    "sentido": "-",
+    "magnitud": "−10,7 % el 3-jun (serie del panel)"
+   },
+   {
+    "activo": "Peso mexicano",
+    "sentido": "-",
+    "magnitud": "EUR/MXN +10 % del 31-may al 12-jun (serie del panel)"
+   }
+  ],
+  "temas_fondos": [
+   "latam",
+   "em"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2024 Mexican general election",
+    "u": "https://en.wikipedia.org/wiki/2024_Mexican_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2024-06-04-india-elecciones",
+  "fecha": "2024-06-04",
+  "fin": "2024-06-10",
+  "titulo": "Modi pierde la mayoría absoluta y la bolsa india se hunde un día",
+  "pais": [
+   "IN"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "El recuento mostró que el BJP necesitaba socios para gobernar, frente a los sondeos que le daban una gran mayoría. La bolsa cayó en torno al 6 % pero recuperó en días al confirmarse la continuidad de Modi con su coalición.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa india (USD)",
+    "sentido": "-",
+    "magnitud": "−6,1 % el 4-jun; +5,2 % hasta el 10-jun (serie del panel)"
+   },
+   {
+    "activo": "Rupia",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "in",
+   "em"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2024 Indian general election",
+    "u": "https://en.wikipedia.org/wiki/2024_Indian_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2024-06-06-bce-primer-recorte",
+  "fecha": "2024-06-06",
+  "fin": "2025-06-05",
+  "titulo": "El BCE baja tipos por primera vez desde 2019",
+  "pais": [
+   "EZ"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [],
+  "mecanismo": "El BCE recortó la facilidad de depósito del 4 % al 3,75 % y siguió con recortes en septiembre, octubre y diciembre de 2024 y en 2025 hasta el 2 % (jun-2025). Abarató la financiación, presionó los márgenes de la banca y apoyó la renta fija europea y los monetarios bajaron su rentabilidad.",
+  "activos_afectados": [
+   {
+    "activo": "Bonos zona euro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Euro",
+    "sentido": "±"
+   },
+   {
+    "activo": "Rentabilidad de monetarios en euros",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "mon",
+   "eu",
+   "fin"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "European Central Bank",
+    "u": "https://en.wikipedia.org/wiki/European_Central_Bank"
+   }
+  ]
+ },
+ {
+  "id": "2024-06-10-francia-disolucion",
+  "fecha": "2024-06-10",
+  "fecha_real": "2024-06-09",
+  "fin": "2024-07-08",
+  "titulo": "Macron disuelve la Asamblea: crisis política y prima de riesgo francesa",
+  "pais": [
+   "FR",
+   "EZ"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "fiscal_deuda"
+  ],
+  "mecanismo": "Tras la derrota en las europeas del 9-jun, Macron convocó legislativas (30-jun y 7-jul). El riesgo de un gobierno de extremos con más déficit amplió el diferencial OAT–Bund y hundió la banca francesa; el parlamento fragmentado mantuvo la incertidumbre presupuestaria en 2024–2025.",
+  "activos_afectados": [
+   {
+    "activo": "Bancos Europa",
+    "sentido": "-",
+    "magnitud": "−8,3 % del 7 al 14-jun (serie del panel)"
+   },
+   {
+    "activo": "Diferencial Francia–Alemania",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bund",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "eu",
+   "fin"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2024 French legislative election",
+    "u": "https://en.wikipedia.org/wiki/2024_French_legislative_election"
+   }
+  ]
+ },
+ {
+  "id": "2024-07-05-reino-unido-elecciones",
+  "fecha": "2024-07-05",
+  "fecha_real": "2024-07-04",
+  "fin": null,
+  "titulo": "Victoria laborista aplastante en Reino Unido",
+  "pais": [
+   "UK"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "El Partido Laborista ganó por mayoría amplia el 4-jul, un resultado descontado que el mercado leyó como estabilidad. La libra y los gilts apenas se movieron; el foco pasó al presupuesto de octubre de 2024, con más gasto e impuestos.",
+  "activos_afectados": [
+   {
+    "activo": "Libra",
+    "sentido": "±"
+   },
+   {
+    "activo": "Gilts",
+    "sentido": "±"
+   },
+   {
+    "activo": "Bolsa británica",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "uk"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "2024 United Kingdom general election",
+    "u": "https://en.wikipedia.org/wiki/2024_United_Kingdom_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2024-07-19-crowdstrike",
+  "fecha": "2024-07-19",
+  "fin": null,
+  "titulo": "Una actualización fallida de CrowdStrike tumba millones de ordenadores",
+  "pais": [
+   "GLOBAL",
+   "US"
+  ],
+  "tipo": "tecnologia",
+  "tipos_secundarios": [],
+  "mecanismo": "Un fichero defectuoso de su sensor bloqueó unos 8,5 millones de equipos Windows, paralizando aerolíneas, bancos y hospitales. CrowdStrike cayó con fuerza en las semanas siguientes y reabrió el debate sobre la concentración de riesgos en ciberseguridad.",
+  "activos_afectados": [
+   {
+    "activo": "CrowdStrike",
+    "sentido": "-"
+   },
+   {
+    "activo": "Ciberseguridad",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "ciber",
+   "tec"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "2024 CrowdStrike-related IT outages",
+    "u": "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages"
+   }
+  ]
+ },
+ {
+  "id": "2024-08-05-carry-yen",
+  "fecha": "2024-08-05",
+  "fin": "2024-08-07",
+  "titulo": "Desplome del carry trade del yen: el Nikkei cae un 12 % en un día",
+  "pais": [
+   "JP",
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "flujos_posicionamiento",
+  "tipos_secundarios": [
+   "divisas",
+   "politica_monetaria"
+  ],
+  "mecanismo": "La subida de la BoJ (31-jul) y un dato de empleo de EE. UU. débil (2-ago) dispararon el yen y forzaron a cerrar posiciones financiadas en yenes. El Nikkei sufrió su mayor caída desde 1987, el VIX se disparó por encima de 38 al cierre y los activos más apalancados (tecnología, pesos y monedas de carry) se vendieron; el rebote fue casi total en semanas.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa japonesa (USD)",
+    "sentido": "-",
+    "magnitud": "−10,6 % del 31-jul al 5-ago (serie del panel)"
+   },
+   {
+    "activo": "Yen",
+    "sentido": "+",
+    "magnitud": "EUR/JPY −10,5 % del 9-jul al 5-ago (serie del panel)"
+   },
+   {
+    "activo": "VIX",
+    "sentido": "+",
+    "magnitud": "de 23,4 a 38,6 el 5-ago (serie del panel)"
+   },
+   {
+    "activo": "Peso mexicano",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "jp",
+   "tec",
+   "latam"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "BIS Bulletin: the market turbulence and carry trade unwind of August 2024",
+    "u": "https://www.bis.org/publ/bisbull90.htm"
+   }
+  ]
+ },
+ {
+  "id": "2024-09-18-fed-50pb",
+  "fecha": "2024-09-18",
+  "fin": null,
+  "titulo": "La Fed inicia los recortes con 50 pb",
+  "pais": [
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [],
+  "mecanismo": "Primer recorte desde 2020, más amplio de lo habitual, para proteger el empleo; siguieron 25 pb en noviembre y diciembre. Debilitó el dólar y animó a emergentes, oro e inmobiliario, aunque las rentabilidades largas subieron después por el temor fiscal.",
+  "activos_afectados": [
+   {
+    "activo": "Dólar",
+    "sentido": "-"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Emergentes",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bono 2 años",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "em",
+   "oro",
+   "inmo",
+   "mon"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Federal Reserve: FOMC statement 18-sep-2024",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm"
+   }
+  ]
+ },
+ {
+  "id": "2024-09-20-ia-nuclear",
+  "fecha": "2024-09-20",
+  "fin": null,
+  "titulo": "Microsoft reabrirá Three Mile Island: la IA dispara la demanda nuclear",
+  "pais": [
+   "US"
+  ],
+  "tipo": "tecnologia",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "El acuerdo de Constellation para suministrar 20 años de energía a Microsoft desde una central reabierta confirmó que los centros de datos de IA necesitan electricidad firme sin CO2. Siguieron pactos de Amazon y Google con nucleares y reactores modulares, y en mayo de 2025 órdenes ejecutivas para cuadruplicar la nuclear en EE. UU.; uranio y eléctricas nucleares se dispararon en 2025.",
+  "activos_afectados": [
+   {
+    "activo": "Eléctricas nucleares",
+    "sentido": "+"
+   },
+   {
+    "activo": "Mineras de uranio",
+    "sentido": "+",
+    "magnitud": "índice del panel +60 % en 2025 (serie del panel)"
+   }
+  ],
+  "temas_fondos": [
+   "nuc",
+   "ia",
+   "inf",
+   "limpia"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Three Mile Island Nuclear Generating Station",
+    "u": "https://en.wikipedia.org/wiki/Three_Mile_Island_Nuclear_Generating_Station"
+   }
+  ]
+ },
+ {
+  "id": "2024-09-24-china-estimulos",
+  "fecha": "2024-09-24",
+  "fin": "2024-10-08",
+  "titulo": "Bazuca de estímulos en China: bolsa china +38 % en dos semanas",
+  "pais": [
+   "CN",
+   "HK"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "fiscal_deuda",
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "El PBoC anunció rebajas de tipos y de coeficiente de caja, alivio hipotecario y líneas de liquidez para comprar acciones, reforzado por el Politburó (26-sep). La bolsa china vivió un rally explosivo hasta la reapertura tras la Semana Dorada (8-oct), cuando la decepción fiscal provocó una fuerte recogida de beneficios. También subieron cobre, lujo europeo y mineras.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa china (MSCI China)",
+    "sentido": "+",
+    "magnitud": "+38 % del 23-sep al 7-oct; −10,8 % el 8-oct (serie del panel)"
+   },
+   {
+    "activo": "Cobre y mineras",
+    "sentido": "+"
+   },
+   {
+    "activo": "Lujo europeo",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "cn",
+   "em",
+   "lujo",
+   "mat"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "People's Bank of China",
+    "u": "https://en.wikipedia.org/wiki/People%27s_Bank_of_China"
+   }
+  ],
+  "nota": "Fechas de memoria (24-sep anuncio del PBoC, 8-oct reapertura)."
+ },
+ {
+  "id": "2024-10-09-huracan-milton",
+  "fecha": "2024-10-09",
+  "fecha_real": "2024-10-09",
+  "fin": "2024-10-11",
+  "titulo": "Huracanes Helene y Milton: susto para los bonos catástrofe",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Helene (26-sep) y Milton (9-oct, Florida) hicieron temer pérdidas aseguradas de hasta 100.000 M$. Milton tocó tierra más débil y al sur de Tampa, con pérdidas de 20.000–60.000 M$ y una caída de solo ~1,3 % del índice de cat bonds de Swiss Re (frente a ~10 % con Ian en 2022). Las primas de riesgo siguieron altas.",
+  "activos_afectados": [
+   {
+    "activo": "Cat bonds (índice Swiss Re)",
+    "sentido": "-",
+    "magnitud": "−1,34 % tras Milton"
+   },
+   {
+    "activo": "Aseguradoras y reaseguradoras",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "fin",
+   "us"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Insurance Insider ILS: Swiss Re cat bond index down 1.34 % on Milton",
+    "u": "https://insuranceinsiderils.com/article/2dvvwd4bhqjdvxski2mf4/swiss-re-global-cat-bond-price-return-index-down-1-34-on-milton"
+   },
+   {
+    "t": "Hurricane Milton",
+    "u": "https://en.wikipedia.org/wiki/Hurricane_Milton"
+   }
+  ]
+ },
+ {
+  "id": "2024-11-06-eeuu-elecciones",
+  "fecha": "2024-11-06",
+  "fecha_real": "2024-11-05",
+  "fin": null,
+  "titulo": "Trump gana las presidenciales de EE. UU.",
+  "pais": [
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "fiscal_deuda",
+   "divisas"
+  ],
+  "mecanismo": "Victoria republicana con control del Congreso: se descontaron rebajas fiscales, desregulación y aranceles. Subieron pequeñas compañías, bancos, bitcoin y el dólar; cayeron el euro, el peso mexicano, el yuan y la energía limpia, y las rentabilidades largas repuntaron.",
+  "activos_afectados": [
+   {
+    "activo": "Russell 2000",
+    "sentido": "+",
+    "magnitud": "+5,8 % el 6-nov (serie del panel)"
+   },
+   {
+    "activo": "Bitcoin",
+    "sentido": "+",
+    "magnitud": "+53 % hasta el 17-dic (serie del panel)"
+   },
+   {
+    "activo": "Euro / dólar",
+    "sentido": "-",
+    "magnitud": "−1,9 % el 6-nov (serie del panel)"
+   },
+   {
+    "activo": "Energía limpia",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bancos EE. UU.",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "small",
+   "fin",
+   "fintech",
+   "limpia",
+   "latam",
+   "cn"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "2024 United States presidential election",
+    "u": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election"
+   }
+  ]
+ },
+ {
+  "id": "2024-11-28-brasil-fiscal",
+  "fecha": "2024-11-28",
+  "fin": "2024-12-18",
+  "titulo": "Brasil: el plan fiscal decepciona y el real cae a mínimos",
+  "pais": [
+   "BR"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "El paquete de gasto de Haddad, acompañado de una exención del impuesto sobre la renta, se percibió insuficiente y el real superó 6 por dólar, mínimo histórico. El Banco Central respondió con una subida de 100 pb el 11-dic e intervenciones cambiarias; la bolsa brasileña en dólares se desplomó, para rebotar con fuerza en 2025.",
+  "activos_afectados": [
+   {
+    "activo": "Real brasileño",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bolsa brasileña (USD)",
+    "sentido": "-",
+    "magnitud": "−18 % del 26-nov al 18-dic; +41 % en 2025 (serie del panel)"
+   }
+  ],
+  "temas_fondos": [
+   "br",
+   "latam",
+   "em"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Brazilian real",
+    "u": "https://en.wikipedia.org/wiki/Brazilian_real"
+   }
+  ],
+  "nota": "Fecha del anuncio (27-nov por la tarde) verificada solo de memoria."
+ },
+ {
+  "id": "2024-12-03-corea-ley-marcial",
+  "fecha": "2024-12-03",
+  "fin": "2024-12-14",
+  "titulo": "Ley marcial fallida en Corea del Sur",
+  "pais": [
+   "KR"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "El presidente Yoon declaró la ley marcial la noche del 3-dic y el Parlamento la revocó en horas; siguió su destitución (14-dic). El won cayó a mínimos de dos años y la bolsa coreana, ya rezagada, sufrió; en 2025 rebotó con fuerza con el nuevo Gobierno y las reformas de gobierno corporativo.",
+  "activos_afectados": [
+   {
+    "activo": "Won",
+    "sentido": "-",
+    "magnitud": "1.445 por dólar, mínimo desde oct-2022"
+   },
+   {
+    "activo": "Bolsa coreana (USD)",
+    "sentido": "-",
+    "magnitud": "−5,4 % del 2 al 9-dic; +91 % en 2025 (serie del panel)"
+   }
+  ],
+  "temas_fondos": [
+   "krtw",
+   "em"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "NBC/CNBC: South Korean won falls sharply after martial law",
+    "u": "https://www.nbcwashington.com/news/business/money-report/south-korean-won-falls-sharply-against-the-u-s-dollar-after-president-declares-martial-law/3782028/"
+   },
+   {
+    "t": "2024 South Korean martial law crisis",
+    "u": "https://en.wikipedia.org/wiki/2024_South_Korean_martial_law_crisis"
+   }
+  ]
+ },
+ {
+  "id": "2024-12-18-fed-recorte-halcon",
+  "fecha": "2024-12-18",
+  "fin": null,
+  "titulo": "Recorte «halcón» de la Fed: menos bajadas para 2025",
+  "pais": [
+   "US"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [],
+  "mecanismo": "La Fed bajó 25 pb pero redujo a dos los recortes previstos para 2025 ante una inflación persistente. La bolsa cayó cerca del 3 % en la sesión, el VIX se disparó y el dólar y las rentabilidades subieron, enfriando el arranque de 2025.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "-"
+   },
+   {
+    "activo": "Dólar",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bono 10 años (rentabilidad)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "small",
+   "mon"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Federal Reserve: FOMC statement 18-dic-2024",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm"
+   }
+  ]
+ },
+ {
+  "id": "2025-01-08-incendios-los-angeles",
+  "fecha": "2025-01-08",
+  "fecha_real": "2025-01-07",
+  "fin": "2025-01-31",
+  "titulo": "Incendios de Los Ángeles: récord de pérdidas por incendio forestal",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Los incendios de Palisades y Eaton (desde el 7-ene) causaron unas pérdidas aseguradas de unos 40.000 M$, récord para un incendio. La mayor parte la absorbieron las aseguradoras primarias, pero el índice de cat bonds registró su primer enero negativo (~−1 %) y se erosionaron estructuras agregadas.",
+  "activos_afectados": [
+   {
+    "activo": "Cat bonds",
+    "sentido": "-",
+    "magnitud": "~−1 % en enero de 2025"
+   },
+   {
+    "activo": "Aseguradoras de California y eléctrica Edison",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "fin"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Artemis: LA wildfires trigger cat bond market's first-ever negative January return",
+    "u": "https://www.artemis.bm/news/la-wildfires-trigger-cat-bond-markets-first-ever-negative-january-return-icosa"
+   },
+   {
+    "t": "January 2025 Southern California wildfires",
+    "u": "https://en.wikipedia.org/wiki/January_2025_Southern_California_wildfires"
+   }
+  ]
+ },
+ {
+  "id": "2025-01-13-dolar-debil",
+  "fecha": "2025-01-13",
+  "fin": "2025-06-30",
+  "titulo": "Dólar débil: peor primer semestre desde 1973",
+  "pais": [
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "divisas",
+  "tipos_secundarios": [
+   "flujos_posicionamiento",
+   "elecciones_politica"
+  ],
+  "mecanismo": "Tras un máximo a mediados de enero, aranceles erráticos, dudas sobre la independencia de la Fed y el déficit impulsaron el «sell America» y la cobertura cambiaria de inversores extranjeros. El índice dólar cayó un 10,7 % en el semestre, lo que recortó en euros la rentabilidad de los fondos en dólares y favoreció a emergentes y oro.",
+  "activos_afectados": [
+   {
+    "activo": "Índice dólar (DXY)",
+    "sentido": "-",
+    "magnitud": "−10,7 % en el 1.er semestre de 2025 (serie del panel)"
+   },
+   {
+    "activo": "Euro / dólar",
+    "sentido": "+",
+    "magnitud": "+13 % en 2025 (serie del panel)"
+   },
+   {
+    "activo": "Emergentes",
+    "sentido": "+"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "em",
+   "oro",
+   "eu"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Yahoo Finance: the dollar posted its worst first half since Nixon",
+    "u": "https://finance.yahoo.com/news/dollar-posted-worst-first-half-153518559.html"
+   }
+  ],
+  "nota": "Inicio: máximo del DXY a mediados de enero de 2025 (día aproximado)."
+ },
+ {
+  "id": "2025-01-27-deepseek",
+  "fecha": "2025-01-27",
+  "fin": null,
+  "titulo": "DeepSeek: el modelo chino barato hunde a Nvidia un 17 %",
+  "pais": [
+   "CN",
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "tecnologia",
+  "tipos_secundarios": [],
+  "mecanismo": "El laboratorio chino DeepSeek mostró un modelo de razonamiento competitivo entrenado con muy poco coste, cuestionando el gasto masivo en chips y energía para IA. Nvidia perdió 589.000 M$ en un día (récord) y cayeron semiconductores, eléctricas y uranio ligados a centros de datos; el software y las tecnológicas chinas se beneficiaron.",
+  "activos_afectados": [
+   {
+    "activo": "Nvidia",
+    "sentido": "-",
+    "magnitud": "−17 %, −589.000 M$"
+   },
+   {
+    "activo": "Semiconductores",
+    "sentido": "-",
+    "magnitud": "−7,8 % (serie del panel)"
+   },
+   {
+    "activo": "Nasdaq 100",
+    "sentido": "-",
+    "magnitud": "−3,0 % (serie del panel)"
+   },
+   {
+    "activo": "Uranio y nuclear",
+    "sentido": "-",
+    "magnitud": "−11 % (serie del panel)"
+   },
+   {
+    "activo": "Tecnología china",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "semi",
+   "ia",
+   "nuc",
+   "tec",
+   "cn"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Bloomberg: Nvidia's $589 billion DeepSeek rout is largest in market history",
+    "u": "https://www.bloomberg.com/news/articles/2025-01-27/asml-sinks-as-china-ai-startup-triggers-panic-in-tech-stocks"
+   }
+  ]
+ },
+ {
+  "id": "2025-02-24-alemania-elecciones",
+  "fecha": "2025-02-24",
+  "fecha_real": "2025-02-23",
+  "fin": null,
+  "titulo": "Elecciones en Alemania: gana la CDU de Merz",
+  "pais": [
+   "DE",
+   "EZ"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "La victoria de la CDU/CSU (23-feb) y una coalición viable con el SPD abrieron la puerta a reformar el freno de deuda. Fue el preludio del plan fiscal de marzo: bolsa alemana y euro reaccionaron al alza.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa alemana",
+    "sentido": "+"
+   },
+   {
+    "activo": "Euro",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "de",
+   "eu"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "2025 German federal election",
+    "u": "https://en.wikipedia.org/wiki/2025_German_federal_election"
+   }
+  ]
+ },
+ {
+  "id": "2025-03-03-defensa-europea",
+  "fecha": "2025-03-03",
+  "fin": "2025-06-25",
+  "titulo": "Rearme europeo: las acciones de defensa europeas se disparan",
+  "pais": [
+   "EU",
+   "DE",
+   "UA",
+   "US"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "fiscal_deuda"
+  ],
+  "mecanismo": "El choque Trump–Zelenski del 28-feb y la amenaza de retirada estadounidense llevaron a la UE a lanzar ReArm Europe (hasta 800.000 M€, 4-mar) y a la OTAN a pactar en La Haya (24-25 jun) un objetivo del 5 % del PIB para 2035. Rheinmetall, Leonardo, Saab o Thales lideraron 2025 y nacieron ETF de defensa europea.",
+  "activos_afectados": [
+   {
+    "activo": "Defensa europea",
+    "sentido": "+"
+   },
+   {
+    "activo": "Defensa EE. UU.",
+    "sentido": "+",
+    "magnitud": "índice del panel +48 % en 2025 (serie del panel)"
+   }
+  ],
+  "temas_fondos": [
+   "def",
+   "eu",
+   "de"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "WisdomTree: key takeaways from the NATO summit",
+    "u": "https://www.wisdomtree.com/ch/en/insights/blog/the-key-takeaways-from-the-nato-summit/pdf"
+   }
+  ]
+ },
+ {
+  "id": "2025-03-05-plan-fiscal-aleman",
+  "fecha": "2025-03-05",
+  "fecha_real": "2025-03-04",
+  "fin": "2025-03-21",
+  "titulo": "Alemania rompe el freno de deuda: fondo de 500.000 M€ y defensa sin límite",
+  "pais": [
+   "DE",
+   "EZ"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [],
+  "mecanismo": "Merz anunció la noche del 4-mar un fondo de infraestructuras de 500.000 M€ y excluir del freno de deuda el gasto en defensa por encima del 1 % del PIB. El Bund a 10 años vivió su mayor subida diaria desde la reunificación y el euro su mejor racha en una década; subieron banca, constructoras, industria y defensa europeas.",
+  "activos_afectados": [
+   {
+    "activo": "Bund 10 años (rentabilidad)",
+    "sentido": "+",
+    "magnitud": "+0,24 pp el 5-mar (serie del panel); ~+30 pb según prensa"
+   },
+   {
+    "activo": "Euro / dólar",
+    "sentido": "+",
+    "magnitud": "+3,7 % del 28-feb al 6-mar (serie del panel)"
+   },
+   {
+    "activo": "Bancos Europa",
+    "sentido": "+",
+    "magnitud": "+3,5 % el 5-mar (serie del panel)"
+   },
+   {
+    "activo": "Infraestructuras y defensa europeas",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "de",
+   "eu",
+   "inf",
+   "def",
+   "fin"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Columbia Threadneedle: Germany cuts the debt brakes with defence spending set to soar",
+    "u": "https://www.columbiathreadneedle.com/en/gb/intermediary/insights/germany-cuts-the-debt-brakes-with-defence-spending-set-to-soar/"
+   }
+  ]
+ },
+ {
+  "id": "2025-03-19-turquia-imamoglu",
+  "fecha": "2025-03-19",
+  "fin": "2025-03-21",
+  "titulo": "Detención de İmamoğlu: la lira toca mínimos y la bolsa turca se hunde",
+  "pais": [
+   "TR"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "politica_monetaria",
+   "divisas"
+  ],
+  "mecanismo": "La detención del alcalde de Estambul, principal rival de Erdogan, provocó protestas y una venta masiva de activos turcos. La lira llegó a caer más de un 10 % intradía; el banco central vendió más de 10.000 M$ y subió tipos de urgencia, y la bolsa sufrió su peor semana desde 2008.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa turca (USD)",
+    "sentido": "-",
+    "magnitud": "−18,6 % del 18 al 21-mar (serie del panel)"
+   },
+   {
+    "activo": "Lira turca",
+    "sentido": "-",
+    "magnitud": "EUR/TRY +3,4 % al cierre del 19-mar (serie del panel)"
+   },
+   {
+    "activo": "Bonos turcos",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "tr",
+   "em",
+   "front",
+   "fin"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Erste AM: Turkish financial markets under pressure following political turbulence",
+    "u": "https://blog.en.erste-am.com/turkish-financial-markets-temporarily-under-pressure-following-political-turbulence/"
+   }
+  ]
+ },
+ {
+  "id": "2025-04-03-dia-liberacion",
+  "fecha": "2025-04-03",
+  "fecha_real": "2025-04-02",
+  "fin": "2025-04-08",
+  "titulo": "Aranceles del «Día de la Liberación»: desplome bursátil mundial",
+  "pais": [
+   "US",
+   "CN",
+   "GLOBAL"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "geopolitica",
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "Tras el cierre del 2-abr Trump anunció aranceles «recíprocos» muy superiores a lo esperado; China respondió con el 34 % el 4-abr. El S&P 500 cayó un 12 % en cuatro sesiones, el VIX superó 50, el crudo se desplomó por miedo a recesión y, de forma inusual, los Treasuries y el dólar también cayeron (venta de activos de EE. UU.).",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "-",
+    "magnitud": "−12,1 % del 2 al 8-abr (serie del panel)"
+   },
+   {
+    "activo": "VIX",
+    "sentido": "+",
+    "magnitud": "de 21,5 a 52,3 (serie del panel)"
+   },
+   {
+    "activo": "Petróleo Brent",
+    "sentido": "-",
+    "magnitud": "−16 % (serie del panel)"
+   },
+   {
+    "activo": "Diferencial high yield",
+    "sentido": "+",
+    "magnitud": "+1,15 pp (serie del panel)"
+   },
+   {
+    "activo": "Euro / dólar",
+    "sentido": "+",
+    "magnitud": "+5 % hasta el 11-abr (serie del panel)"
+   },
+   {
+    "activo": "Bono 10 años (rentabilidad)",
+    "sentido": "+",
+    "magnitud": "+0,42 pp del 3 al 11-abr (serie del panel)"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "cn",
+   "em",
+   "tec",
+   "small",
+   "ene"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Liberation Day tariffs",
+    "u": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs"
+   }
+  ]
+ },
+ {
+  "id": "2025-04-04-china-tierras-raras",
+  "fecha": "2025-04-04",
+  "fin": "2025-05-12",
+  "titulo": "China restringe la exportación de siete tierras raras pesadas",
+  "pais": [
+   "CN",
+   "US"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "geopolitica",
+   "materias_primas"
+  ],
+  "mecanismo": "En represalia a los aranceles, Pekín sometió a licencia la exportación de samario, gadolinio, terbio, disprosio y otros elementos y sus imanes. Los cortes de suministro paralizaron líneas de automóviles en Occidente y revalorizaron a productores no chinos (MP Materials, Lynas), convertidos en activos estratégicos con apoyo estatal de EE. UU.",
+  "activos_afectados": [
+   {
+    "activo": "Productores de tierras raras no chinos",
+    "sentido": "+"
+   },
+   {
+    "activo": "Fabricantes de automóviles y defensa occidentales",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "def",
+   "movil",
+   "cn"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "CMS: China tightens export controls on rare earths",
+    "u": "https://cms.law/en/chn/legal-updates/china-tightens-export-controls-on-rare-earths-takeaways-for-global-businesses"
+   }
+  ]
+ },
+ {
+  "id": "2025-04-09-pausa-aranceles",
+  "fecha": "2025-04-09",
+  "fin": null,
+  "titulo": "Pausa de 90 días en los aranceles: el S&P 500 sube un 9,5 %",
+  "pais": [
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "Ante la tensión en el mercado de bonos, Trump suspendió 90 días los aranceles recíprocos por encima del 10 % (salvo China, elevados al 125 %). El S&P 500 vivió una de sus mayores subidas diarias desde 1945 y el Nasdaq más; empezó una recuperación en V hasta nuevos máximos en junio.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "+",
+    "magnitud": "+9,5 % el 9-abr (serie del panel)"
+   },
+   {
+    "activo": "Nasdaq 100",
+    "sentido": "+"
+   },
+   {
+    "activo": "VIX",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "tec",
+   "semi",
+   "small"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Liberation Day tariffs",
+    "u": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs"
+   }
+  ]
+ },
+ {
+  "id": "2025-05-12-tregua-ginebra",
+  "fecha": "2025-05-12",
+  "fin": "2025-08-12",
+  "titulo": "Tregua comercial EE. UU.–China en Ginebra",
+  "pais": [
+   "US",
+   "CN"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "Ambos países rebajaron durante 90 días sus aranceles (EE. UU. del 145 % al 30 %, China del 125 % al 10 %) y China suspendió parte de sus restricciones no arancelarias. El S&P 500 subió un 3,3 % en la sesión y se aceleró la rotación hacia tecnología y bolsa china.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "+",
+    "magnitud": "+3,3 % el 12-may (serie del panel)"
+   },
+   {
+    "activo": "Bolsa china",
+    "sentido": "+",
+    "magnitud": "+3,4 % el 12-may (serie del panel)"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cn",
+   "us",
+   "tec",
+   "em"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "RFA: US and China agree to slash tariffs for 90 days",
+    "u": "https://rfa.org/english/china/2025/05/12/china-us-tariff-deal/"
+   }
+  ]
+ },
+ {
+  "id": "2025-05-19-moodys-rebaja-eeuu",
+  "fecha": "2025-05-19",
+  "fecha_real": "2025-05-16",
+  "fin": null,
+  "titulo": "Moody's retira a EE. UU. su última AAA",
+  "pais": [
+   "US"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [
+   "politica_monetaria"
+  ],
+  "mecanismo": "Tras el cierre del viernes 16-may Moody's rebajó a Aa1 por el aumento persistente del déficit y del coste de intereses, mientras el Congreso tramitaba una gran rebaja fiscal. No hubo ventas forzadas, pero el 30 años superó el 5 % esa semana y se reforzó el debate sobre la prima por plazo y el «sell America».",
+  "activos_afectados": [
+   {
+    "activo": "Treasuries largos",
+    "sentido": "-",
+    "magnitud": "10 años +0,15 pp del 16 al 21-may (serie del panel)"
+   },
+   {
+    "activo": "Dólar",
+    "sentido": "-"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "oro",
+   "mon"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Moody's: the US sovereign rating action",
+    "u": "https://www.moodys.com/web/en/us/about-us/usrating.html"
+   }
+  ]
+ },
+ {
+  "id": "2025-06-13-israel-iran",
+  "fecha": "2025-06-13",
+  "fin": "2025-06-24",
+  "titulo": "Guerra Israel–Irán de doce días y bombardeo estadounidense",
+  "pais": [
+   "IL",
+   "IR",
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "Israel atacó instalaciones nucleares y militares iraníes el 13-jun y EE. UU. bombardeó Fordo el fin de semana del 21-22. El temor al estrecho de Ormuz disparó el crudo, pero la respuesta iraní fue limitada y el alto el fuego del 24-jun deshizo la prima de riesgo de golpe.",
+  "activos_afectados": [
+   {
+    "activo": "Petróleo Brent",
+    "sentido": "±",
+    "magnitud": "+7 % el 13-jun; −12,8 % del 20 al 24-jun (serie del panel)"
+   },
+   {
+    "activo": "Petroleras y navieras de crudo",
+    "sentido": "±"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Defensa",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "oro",
+   "def",
+   "mp"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "S&P Global: crude surges 6 % as Israel launches strike on Iran",
+    "u": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/crude-oil/061325-oil-futures-crude-surges-6-as-israel-launches-preemptive-strike-on-iran"
+   },
+   {
+    "t": "Twelve-Day War",
+    "u": "https://en.wikipedia.org/wiki/Twelve-Day_War"
+   }
+  ]
+ },
+ {
+  "id": "2025-06-19-snb-tipo-cero",
+  "fecha": "2025-06-19",
+  "fin": null,
+  "titulo": "El BNS baja tipos al 0 % ante la inflación negativa y el franco fuerte",
+  "pais": [
+   "CH"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "Sexto recorte consecutivo, hasta el 0 %, con la inflación en −0,1 % y el franco disparado como refugio tras los aranceles. Los monetarios en francos quedaron prácticamente sin rentabilidad y el BNS dejó abierta la vuelta a tipos negativos, aunque mantuvo el 0 % en septiembre y diciembre.",
+  "activos_afectados": [
+   {
+    "activo": "Rentabilidad de monetarios en CHF",
+    "sentido": "-"
+   },
+   {
+    "activo": "Franco suizo",
+    "sentido": "±"
+   },
+   {
+    "activo": "Bonos e inmobiliario suizos",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ch",
+   "mon",
+   "inmo"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Euronews: Swiss central bank cuts interest rate to zero to fight deflation",
+    "u": "https://www.euronews.com/business/2025/06/19/swiss-central-bank-cut-interest-rate-to-zero-to-fight-deflation"
+   }
+  ]
+ },
+ {
+  "id": "2025-07-08-cobre-aranceles",
+  "fecha": "2025-07-08",
+  "fin": "2025-07-31",
+  "titulo": "Aranceles al cobre: récord en Comex y desplome del 20 % al excluir el refinado",
+  "pais": [
+   "US",
+   "CL",
+   "PE"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "El anuncio del 8-jul de un arancel del 50 % disparó el cobre de Comex a récords y una prima histórica frente a Londres, con importaciones masivas a EE. UU. El 30-jul la Casa Blanca excluyó el cobre refinado y la prima se evaporó: Comex sufrió su mayor caída diaria registrada mientras el LME apenas se movió.",
+  "activos_afectados": [
+   {
+    "activo": "Cobre Comex",
+    "sentido": "±",
+    "magnitud": "−22 % del 30 al 31-jul (serie del panel)"
+   },
+   {
+    "activo": "Cobre LME",
+    "sentido": "±",
+    "magnitud": "−1,6 %"
+   },
+   {
+    "activo": "Mineras de cobre",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "mp",
+   "latam"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "S&P Global: prices decline as US 50 % tariff excludes refined copper",
+    "u": "https://www.spglobal.com/market-intelligence/en/news-insights/research/prices-decline-as-us-50-tariff-excludes-refined-copper"
+   }
+  ]
+ },
+ {
+  "id": "2025-08-04-suiza-arancel-39",
+  "fecha": "2025-08-04",
+  "fecha_real": "2025-08-01",
+  "fin": "2025-11-14",
+  "titulo": "EE. UU. impone a Suiza un arancel del 39 %",
+  "pais": [
+   "CH",
+   "US"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [],
+  "mecanismo": "El 31-jul por la noche EE. UU. fijó a Suiza uno de los aranceles más altos del mundo desarrollado; la bolsa suiza estaba cerrada el 1-ago por la fiesta nacional y abrió a la baja el lunes 4. Relojeros, chocolateros y joyería fueron los más castigados; la farmacéutica, de momento exenta, amortiguó la caída. Se pactó una rebaja al 15 % en noviembre.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa suiza",
+    "sentido": "-",
+    "magnitud": "SMI −1,9 % en la apertura del 4-ago"
+   },
+   {
+    "activo": "Relojería y lujo suizos",
+    "sentido": "-"
+   },
+   {
+    "activo": "Franco suizo",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ch",
+   "lujo"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Swissinfo: Switzerland Today (4-ago-2025)",
+    "u": "https://www.swissinfo.ch/eng/swiss-abroad/switzerland-today/89780909"
+   },
+   {
+    "t": "City A.M.: Swiss shares fall as the country feels the wrath of Trump's tariffs",
+    "u": "https://www.cityam.com/?p=2353202"
+   }
+  ],
+  "nota": "Fecha de la rebaja al 15 % (nov-2025) no verificada en esta pasada."
+ },
+ {
+  "id": "2025-09-17-fed-reanuda-recortes",
+  "fecha": "2025-09-17",
+  "fin": "2025-12-10",
+  "titulo": "La Fed reanuda los recortes: tres bajadas de 25 pb hasta el 3,5–3,75 %",
+  "pais": [
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "elecciones_politica"
+  ],
+  "mecanismo": "Con el empleo enfriándose, la Fed recortó el 17-sep («recorte de gestión de riesgos»), el 29-oct y el 10-dic, este con tres votos discrepantes. Las presiones políticas sobre la Fed (intento de cese de Lisa Cook en agosto) alimentaron la debilidad del dólar y el rally del oro.",
+  "activos_afectados": [
+   {
+    "activo": "Dólar",
+    "sentido": "-"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Pequeñas compañías",
+    "sentido": "+"
+   },
+   {
+    "activo": "Monetarios en USD",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "oro",
+   "small",
+   "mon"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Federal Reserve: FOMC statement 17-sep-2025",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250917a.htm"
+   },
+   {
+    "t": "E*TRADE: Fed closes 2025 with cut",
+    "u": "https://us.etrade.com/knowledge/library/perspectives/market-happenings/fomc-dec2025-25bps"
+   }
+  ]
+ },
+ {
+  "id": "2025-09-24-grasberg",
+  "fecha": "2025-09-24",
+  "fecha_real": "2025-09-08",
+  "fin": null,
+  "titulo": "Fuerza mayor en Grasberg: el cobre roza máximos",
+  "pais": [
+   "ID",
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "Una colada de lodo el 8-sep cerró la segunda mayor mina de cobre del mundo (~3 % de la oferta) y Freeport declaró fuerza mayor el 24-sep, recortando un 35 % su producción prevista para 2026. El cobre saltó a máximos de 15 meses; Freeport se hundió y subieron otras mineras.",
+  "activos_afectados": [
+   {
+    "activo": "Cobre",
+    "sentido": "+",
+    "magnitud": "+3,7 % el 24-sep (serie del panel)"
+   },
+   {
+    "activo": "Freeport-McMoRan",
+    "sentido": "-",
+    "magnitud": "hasta −10 %"
+   },
+   {
+    "activo": "Otras mineras de cobre",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Mining.com: copper price spikes on Freeport's Grasberg force majeure",
+    "u": "https://www.mining.com/?p=1188922"
+   }
+  ]
+ },
+ {
+  "id": "2025-10-01-cierre-gobierno-eeuu",
+  "fecha": "2025-10-01",
+  "fin": "2025-11-12",
+  "titulo": "Cierre del Gobierno de EE. UU., el más largo de la historia",
+  "pais": [
+   "US"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [],
+  "mecanismo": "El bloqueo presupuestario paralizó la Administración federal 43 días y suspendió la publicación de datos oficiales (empleo, IPC), dejando a la Fed y al mercado a ciegas. El impacto bursátil fue limitado, pero reforzó la demanda de oro como refugio.",
+  "activos_afectados": [
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Dólar",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bolsa EE. UU.",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "oro"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "2025 United States federal government shutdown",
+    "u": "https://en.wikipedia.org/wiki/2025_United_States_federal_government_shutdown"
+   }
+  ]
+ },
+ {
+  "id": "2025-10-06-japon-takaichi",
+  "fecha": "2025-10-06",
+  "fecha_real": "2025-10-04",
+  "fin": null,
+  "titulo": "Takaichi gana el liderazgo del PLD: Nikkei récord y yen débil",
+  "pais": [
+   "JP"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "fiscal_deuda",
+   "divisas"
+  ],
+  "mecanismo": "La elección el sábado 4-oct de Sanae Takaichi, partidaria de estímulos al estilo Abenomics, hizo descontar más gasto y menos subidas de la BoJ. El Nikkei subió cerca de un 4,8 % hasta récord, el yen se depreció y las rentabilidades largas japonesas siguieron al alza.",
+  "activos_afectados": [
+   {
+    "activo": "Nikkei",
+    "sentido": "+",
+    "magnitud": "+4,75 % el 6-oct (en yenes)"
+   },
+   {
+    "activo": "Yen",
+    "sentido": "-",
+    "magnitud": "EUR/JPY +1,3 % (serie del panel)"
+   },
+   {
+    "activo": "JGB largos",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "jp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Adnkronos/Jiji: Nikkei ends at record high after Takaichi wins LDP poll",
+    "u": "https://english.adnkronos.com/2025/10/06/nikkei-ends-at-record-high-after-takaichi-wins-ldp-poll/"
+   }
+  ]
+ },
+ {
+  "id": "2025-10-08-oro-4000-plata-50",
+  "fecha": "2025-10-08",
+  "fin": "2025-10-21",
+  "titulo": "El oro supera los 4.000 $ y la plata los 50 $",
+  "pais": [
+   "GLOBAL",
+   "UK",
+   "US"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "flujos_posicionamiento",
+   "divisas"
+  ],
+  "mecanismo": "Compras de bancos centrales, dólar débil, dudas sobre la Fed y el cierre del Gobierno llevaron al oro por encima de 4.000 $ (8-oct) y la plata superó los 50 $ al contado el 9-oct (el futuro cerró por encima el 13-oct, con máximo de 53 $ el 16-oct) por primera vez desde 1980 en plena escasez en Londres. Tras máximos el 20-oct, el oro sufrió el 21-oct su mayor caída diaria en más de una década.",
+  "activos_afectados": [
+   {
+    "activo": "Oro",
+    "sentido": "+",
+    "magnitud": "+54 % del 31-dic al 8-oct; +64 % en 2025 (serie del panel)"
+   },
+   {
+    "activo": "Plata",
+    "sentido": "+",
+    "magnitud": "~+70 % en el año a 9-oct"
+   },
+   {
+    "activo": "Mineras de oro",
+    "sentido": "+",
+    "magnitud": "+153 % en 2025 (serie del panel)"
+   }
+  ],
+  "temas_fondos": [
+   "oro",
+   "mat",
+   "mp"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "World Gold Council: gold breaks through US$4,000/oz",
+    "u": "https://www.gold.org/goldhub/gold-focus/author/world-gold-council"
+   },
+   {
+    "t": "Mining.com: silver price hits $50 for first time since 1980",
+    "u": "https://www.mining.com/silver-price-hits-50-for-first-time-since-1980/"
+   }
+  ]
+ },
+ {
+  "id": "2025-10-09-china-tierras-raras-extraterritorial",
+  "fecha": "2025-10-09",
+  "fin": "2025-11-10",
+  "titulo": "China extiende sus controles de tierras raras y Trump amenaza con el 100 %",
+  "pais": [
+   "CN",
+   "US",
+   "GLOBAL"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "regulacion",
+   "materias_primas",
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "Pekín amplió los controles a productos fabricados fuera de China con ≥0,1 % de tierras raras chinas, a baterías y a tecnología. Trump respondió el 10-oct con la amenaza de aranceles del 100 %: el Nasdaq cayó con fuerza y se produjo la mayor liquidación de apalancamiento de la historia en cripto. La cumbre Trump–Xi del 30-oct suspendió las medidas un año.",
+  "activos_afectados": [
+   {
+    "activo": "Nasdaq 100",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bitcoin",
+    "sentido": "-",
+    "magnitud": "−9 % del 9 al 11-oct (serie del panel)"
+   },
+   {
+    "activo": "Productores de tierras raras no chinos",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bolsa china",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cn",
+   "semi",
+   "tec",
+   "fintech",
+   "mat",
+   "movil"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Mayer Brown: PRC announces new export controls on rare earth and battery materials",
+    "u": "https://www.mayerbrown.com/insights/publications/2025/10/prc-announces-new-export-controls-on-rare-earth-and-battery-materials-and-technology"
+   },
+   {
+    "t": "Pillsbury: China suspends export controls on certain critical minerals",
+    "u": "https://pillsburylaw.com/en/news-and-insights/china-suspends-export-controls-certain-critical-minerals-related-items.html"
+   }
+  ],
+  "nota": "Fecha fin: entrada en vigor aproximada de la suspensión tras la cumbre del 30-oct."
+ },
+ {
+  "id": "2025-10-16-zions-credito",
+  "fecha": "2025-10-16",
+  "fin": null,
+  "titulo": "Fraudes en préstamos de Zions y Western Alliance reavivan el miedo al crédito",
+  "pais": [
+   "US"
+  ],
+  "tipo": "crisis_financiera",
+  "tipos_secundarios": [],
+  "mecanismo": "Tras las quiebras de Tricolor y First Brands en septiembre, dos bancos regionales revelaron pérdidas por presunto fraude de prestatarios. La banca regional cayó un 6 % en un día, el peor desde abril, y creció la desconfianza hacia el crédito privado y los BDC.",
+  "activos_afectados": [
+   {
+    "activo": "Bancos regionales EE. UU.",
+    "sentido": "-",
+    "magnitud": "índice regional −6,3 %; bancos EE. UU. −5,4 % (serie del panel)"
+   },
+   {
+    "activo": "Crédito privado / BDC",
+    "sentido": "-"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "fin",
+   "us",
+   "small"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "S&P Global: Zions, Western Alliance shares slide on fraudulent loan news",
+    "u": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/10/zions-western-alliance-shares-slide-on-fraudulent-loan-news-93934633"
+   }
+  ]
+ },
+ {
+  "id": "2025-10-27-argentina-legislativas",
+  "fecha": "2025-10-27",
+  "fecha_real": "2025-10-26",
+  "fin": null,
+  "titulo": "Milei gana las legislativas con respaldo financiero de EE. UU.",
+  "pais": [
+   "AR",
+   "US"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "Tras semanas de presión sobre el peso y un swap de 20.000 M$ del Tesoro estadounidense, La Libertad Avanza ganó con ~41 % el 26-oct. Los bonos argentinos subieron 9–13 centavos, las acciones más del 20 % y el peso rebotó con fuerza.",
+  "activos_afectados": [
+   {
+    "activo": "Bonos argentinos en USD",
+    "sentido": "+",
+    "magnitud": "+9 a 13 centavos"
+   },
+   {
+    "activo": "Acciones argentinas",
+    "sentido": "+",
+    "magnitud": "más del 20 %"
+   },
+   {
+    "activo": "Peso argentino",
+    "sentido": "+",
+    "magnitud": "entre +3 % y +10 % intradía"
+   }
+  ],
+  "temas_fondos": [
+   "latam",
+   "front",
+   "em"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Al Jazeera/Reuters: Argentine assets cheer Milei party's election victory",
+    "u": "https://aljazeera.com/economy/2025/10/27/argentine-assets-cheer-milei-partys-election-victory-with-massive-rally"
+   }
+  ]
+ },
+ {
+  "id": "2025-10-28-huracan-melissa",
+  "fecha": "2025-10-28",
+  "fin": "2025-11-07",
+  "titulo": "Huracán Melissa activa el pago íntegro del cat bond de Jamaica",
+  "pais": [
+   "JM"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Melissa golpeó Jamaica como categoría 5 y cumplió los disparadores paramétricos del bono catástrofe del Banco Mundial: el 7-nov se confirmó el pago completo de 150 M$ y los inversores perdieron el principal. Recordó el riesgo de los cat bonds paramétricos de emergentes, aunque el impacto en el mercado global fue menor.",
+  "activos_afectados": [
+   {
+    "activo": "Cat bond de Jamaica (IBRD)",
+    "sentido": "-",
+    "magnitud": "pérdida total de 150 M$"
+   },
+   {
+    "activo": "Cat bonds (mercado amplio)",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "latam"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "World Bank: Hurricane Melissa triggers 100 % payout of $150 million cat bond for Jamaica",
+    "u": "https://www.worldbank.org/en/news/press-release/2025/11/07/hurricane-melissa-triggers-100-payout-of-150-million-world-bank-catastrophe-bond-for-jamaica"
+   }
+  ],
+  "nota": "Fecha de llegada a tierra en Jamaica (28-oct) de memoria."
+ }
+]

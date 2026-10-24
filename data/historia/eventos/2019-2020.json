@@ -1,0 +1,2502 @@
+[
+ {
+  "id": "2019-01-03-apple-aviso-china",
+  "fecha": "2019-01-03",
+  "fecha_real": "2019-01-02",
+  "fin": null,
+  "titulo": "Apple rebaja su previsión de ventas por la debilidad de China",
+  "pais": [
+   "EE. UU.",
+   "China"
+  ],
+  "tipo": "resultados",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "La carta de Tim Cook tras el cierre del 2 de enero atribuyó el recorte de ingresos a la desaceleración china y a la guerra comercial. Fue la primera gran empresa en cuantificar el daño del conflicto, y arrastró a los proveedores asiáticos de componentes y al yen como refugio (el 'flash crash' del yen se produjo esa misma madrugada).",
+  "activos_afectados": [
+   {
+    "activo": "Apple",
+    "sentido": "-",
+    "magnitud": "-10 % en la sesión del 3-ene"
+   },
+   {
+    "activo": "Nasdaq 100",
+    "sentido": "-"
+   },
+   {
+    "activo": "JPY",
+    "sentido": "+"
+   },
+   {
+    "activo": "Semiconductores / proveedores asiáticos",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "tecnología",
+   "semiconductores",
+   "China",
+   "Japón"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Apple (carta a inversores)",
+    "u": "https://www.apple.com/newsroom/2019/01/letter-from-tim-cook-to-apple-investors/"
+   }
+  ]
+ },
+ {
+  "id": "2019-01-04-giro-powell",
+  "fecha": "2019-01-04",
+  "fin": "2019-01-30",
+  "titulo": "Powell promete «paciencia»: la Fed abandona las subidas de tipos",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "estacionalidad"
+  ],
+  "mecanismo": "Tras el desplome de diciembre de 2018, Powell dijo en la reunión de la AEA (Asociación Económica Estadounidense) que la Fed sería flexible con tipos y balance; el comunicado del 30 de enero lo formalizó. La expectativa de fin del endurecimiento redujo la prima de riesgo y alimentó el rebote de enero en bolsa, crédito de alto rendimiento y emergentes.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "+",
+    "magnitud": "+3,4 % el 4-ene"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Alto rendimiento (high yield)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Emergentes",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "renta variable EE. UU.",
+   "renta fija",
+   "emergentes",
+   "high yield"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Reserva Federal (comunicado 30-ene-2019)",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130a.htm"
+   }
+  ]
+ },
+ {
+  "id": "2019-01-28-brumadinho-hierro",
+  "fecha": "2019-01-28",
+  "fecha_real": "2019-01-25",
+  "fin": "2019-07-03",
+  "titulo": "Rotura de la presa de Vale en Brumadinho dispara el mineral de hierro",
+  "pais": [
+   "Brasil",
+   "China",
+   "Australia"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "catastrofe_natural",
+   "regulacion"
+  ],
+  "mecanismo": "El colapso de la presa de relaves (25-ene, festivo en São Paulo) causó cientos de muertos y obligó a Vale a paralizar minas y retirar presas similares. La pérdida de oferta brasileña, sumada al ciclón Veronica en Pilbara, llevó el hierro de 62 % a máximos de 5 años en julio; ganaron las mineras australianas y perdió Vale.",
+  "activos_afectados": [
+   {
+    "activo": "Vale",
+    "sentido": "-",
+    "magnitud": "≈ -24 % el 28-ene"
+   },
+   {
+    "activo": "Mineral de hierro 62 %",
+    "sentido": "+",
+    "magnitud": "máximo de ≈ 127 $/t el 3-jul-2019 (≈ +70 % en el año)"
+   },
+   {
+    "activo": "BHP / Rio Tinto / Fortescue",
+    "sentido": "+"
+   },
+   {
+    "activo": "BRL",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "materias primas",
+   "minería",
+   "Brasil",
+   "Australia",
+   "ESG"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Brumadinho_dam_disaster"
+   },
+   {
+    "t": "Mining Journal",
+    "u": "https://www.mining-journal.com/capital-markets/news/1363690/iron-ore"
+   }
+  ]
+ },
+ {
+  "id": "2019-03-11-boeing-737max",
+  "fecha": "2019-03-11",
+  "fecha_real": "2019-03-10",
+  "fin": "2019-03-13",
+  "titulo": "Segundo accidente del 737 MAX y prohibición mundial de vuelo",
+  "pais": [
+   "EE. UU.",
+   "Etiopía"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "tecnologia"
+  ],
+  "mecanismo": "El accidente de Ethiopian Airlines (10-mar, domingo) siguió al de Lion Air; en tres días los reguladores de todo el mundo dejaron en tierra el modelo. La parada de entregas golpeó a Boeing, a su cadena de proveedores y a aerolíneas con flota MAX, y restó PIB manufacturero de EE. UU. durante 2019–2020.",
+  "activos_afectados": [
+   {
+    "activo": "Boeing",
+    "sentido": "-",
+    "magnitud": "≈ -5 % el 11-mar"
+   },
+   {
+    "activo": "Aeroespacial y defensa",
+    "sentido": "-"
+   },
+   {
+    "activo": "Airbus",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "industria",
+   "aeroespacial",
+   "transporte"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Boeing_737_MAX_groundings"
+   }
+  ]
+ },
+ {
+  "id": "2019-04-29-elecciones-espana-abril",
+  "fecha": "2019-04-29",
+  "fecha_real": "2019-04-28",
+  "fin": null,
+  "titulo": "Elecciones generales en España: gana el PSOE sin mayoría",
+  "pais": [
+   "España"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "El PSOE ganó el 28-abr (domingo) y el mercado descontó un Gobierno moderado sin necesidad de independentistas; la prima de riesgo española se estrechó. El bloqueo posterior obligó a repetir las elecciones en noviembre, con efecto bursátil limitado y concentrado en bancos y eléctricas.",
+  "activos_afectados": [
+   {
+    "activo": "IBEX 35",
+    "sentido": "±"
+   },
+   {
+    "activo": "Prima de riesgo España",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bancos españoles",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "España",
+   "renta fija periférica",
+   "bancos"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/April_2019_Spanish_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2019-05-06-guerra-comercial-mayo",
+  "fecha": "2019-05-06",
+  "fecha_real": "2019-05-05",
+  "fin": "2019-05-31",
+  "titulo": "Guerra comercial: Trump sube aranceles al 25 % y veta a Huawei",
+  "pais": [
+   "EE. UU.",
+   "China"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "tecnologia",
+   "regulacion"
+  ],
+  "mecanismo": "Un tuit del domingo 5-may rompió la tregua: los aranceles sobre 200.000 M$ de importaciones chinas pasaron del 10 % al 25 % el 10-may y el 15-may Huawei entró en la lista negra de exportación. El canal fue doble: menos comercio y beneficios (industria, semiconductores) y huida a refugios (bonos, yen); el yuan se depreció y el mes cerró con caídas generalizadas.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "-",
+    "magnitud": "≈ -6,6 % en mayo"
+   },
+   {
+    "activo": "Bolsa china (CSI 300)",
+    "sentido": "-"
+   },
+   {
+    "activo": "CNY",
+    "sentido": "-"
+   },
+   {
+    "activo": "Semiconductores",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Soja",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "China",
+   "tecnología",
+   "semiconductores",
+   "emergentes Asia",
+   "agricultura"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war"
+   }
+  ]
+ },
+ {
+  "id": "2019-05-23-elecciones-india",
+  "fecha": "2019-05-23",
+  "fin": null,
+  "titulo": "Modi gana con mayoría absoluta las elecciones de India",
+  "pais": [
+   "India"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "El recuento del 23-may dio al BJP (Partido Popular Indio) una mayoría mayor de lo esperado, lo que redujo la incertidumbre sobre la continuidad de las reformas. El Sensex superó por primera vez los 40.000 puntos en la sesión y la rupia se apreció; el impulso se diluyó en verano ante la desaceleración y el presupuesto de julio.",
+  "activos_afectados": [
+   {
+    "activo": "Sensex / Nifty",
+    "sentido": "+"
+   },
+   {
+    "activo": "INR",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "India",
+   "emergentes Asia"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2019_Indian_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2019-05-28-maiz-inundaciones",
+  "fecha": "2019-05-28",
+  "fin": "2019-06-28",
+  "titulo": "Lluvias récord en el Medio Oeste retrasan la siembra y disparan el maíz",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "La primavera más húmeda registrada impidió sembrar a tiempo en el cinturón del maíz (el ritmo más lento de la serie del USDA, Departamento de Agricultura de EE. UU.). Con los fondos especulativos cortos, el temor a menos hectáreas y rendimientos forzó un cierre de posiciones; el maíz tuvo su mejor trimestre desde 2010 hasta que el informe de superficie del 28-jun lo desinfló.",
+  "activos_afectados": [
+   {
+    "activo": "Maíz (CBOT)",
+    "sentido": "+",
+    "magnitud": "≈ +20 % en mayo; máximo de 5 años a mediados de junio"
+   },
+   {
+    "activo": "Soja",
+    "sentido": "+"
+   },
+   {
+    "activo": "Trigo",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "agricultura",
+   "materias primas"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "CNBC",
+    "u": "https://www.cnbc.com/2019/05/29/corn-futures-surge-bringing-may-gain-to-20percent-as-soft-commodities-rally-on-midwest-flooding.html"
+   },
+   {
+    "t": "Bloomberg",
+    "u": "https://www.bloomberg.com/news/articles/2019-06-27/midwest-deluge-drives-corn-to-biggest-quarterly-gain-since-10"
+   }
+  ]
+ },
+ {
+  "id": "2019-06-10-protestas-hong-kong",
+  "fecha": "2019-06-10",
+  "fecha_real": "2019-06-09",
+  "fin": "2020-06-30",
+  "titulo": "Protestas masivas en Hong Kong contra la ley de extradición",
+  "pais": [
+   "Hong Kong",
+   "China"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "La marcha del 9-jun (domingo) inició meses de protestas que paralizaron el aeropuerto en agosto y llevaron a Hong Kong a la recesión. Sufrieron el comercio minorista, el turismo, las inmobiliarias y la Bolsa de Hong Kong, y aumentó la prima de riesgo política del territorio; en 2020 la ley de seguridad nacional (30-jun) cerró el episodio.",
+  "activos_afectados": [
+   {
+    "activo": "Hang Seng",
+    "sentido": "-"
+   },
+   {
+    "activo": "Inmobiliarias y consumo de Hong Kong",
+    "sentido": "-"
+   },
+   {
+    "activo": "HKD (presión sobre la paridad)",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "China",
+   "Hong Kong",
+   "emergentes Asia",
+   "inmobiliario"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests"
+   }
+  ]
+ },
+ {
+  "id": "2019-06-13-ataques-petroleros-ormuz",
+  "fecha": "2019-06-13",
+  "fin": "2019-06-21",
+  "titulo": "Ataques a petroleros en el golfo de Omán y derribo de un dron de EE. UU.",
+  "pais": [
+   "Irán",
+   "EE. UU.",
+   "Oriente Medio"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "materias_primas",
+   "logistica"
+  ],
+  "mecanismo": "Los ataques a dos petroleros (13-jun) y el derribo de un dron estadounidense por Irán (20-jun) elevaron el riesgo de cierre del estrecho de Ormuz, por donde pasa una quinta parte del crudo mundial. Subieron la prima geopolítica del crudo, los fletes de petroleros y sus seguros, además del oro.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "+"
+   },
+   {
+    "activo": "Fletes de petroleros",
+    "sentido": "+"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "energía",
+   "transporte marítimo",
+   "oro",
+   "Oriente Medio"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/June_2019_Gulf_of_Oman_incident"
+   }
+  ]
+ },
+ {
+  "id": "2019-07-31-fed-recortes-2019",
+  "fecha": "2019-07-31",
+  "fin": "2019-10-30",
+  "titulo": "La Fed baja tipos por primera vez desde 2008 (tres recortes en 2019)",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [],
+  "mecanismo": "La Fed recortó 25 pb el 31-jul, el 18-sep y el 30-oct como «seguro» ante la guerra comercial y la desaceleración global, y adelantó el fin de la reducción de balance. La bajada de tipos reales impulsó el oro y la renta fija larga, debilitó la presión sobre el dólar y apoyó la búsqueda de rentabilidad en emergentes y crédito.",
+  "activos_afectados": [
+   {
+    "activo": "Fed funds",
+    "sentido": "-",
+    "magnitud": "-75 pb en total (2,25–2,50 % → 1,50–1,75 %)"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bonos largos EE. UU.",
+    "sentido": "+"
+   },
+   {
+    "activo": "Emergentes",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "renta fija",
+   "oro",
+   "emergentes",
+   "renta variable EE. UU."
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Reserva Federal",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190731a.htm"
+   },
+   {
+    "t": "Reserva Federal",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20191030a.htm"
+   }
+  ]
+ },
+ {
+  "id": "2019-08-05-yuan-7-escalada-agosto",
+  "fecha": "2019-08-05",
+  "fin": "2019-08-23",
+  "titulo": "Escalada de agosto: nuevos aranceles y el yuan rompe el nivel de 7 por dólar",
+  "pais": [
+   "EE. UU.",
+   "China"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "Trump anunció el 1-ago aranceles del 10 % sobre otros 300.000 M$; China respondió dejando que el yuan superase 7 por dólar y el Tesoro estadounidense la declaró manipuladora de divisas. El 23-ago llegó otra ronda de represalias. Hubo aversión al riesgo global, caída de las divisas asiáticas y de los metales industriales, y compras de bonos y oro.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "-",
+    "magnitud": "≈ -3 % el 5-ago"
+   },
+   {
+    "activo": "CNY",
+    "sentido": "-"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Cobre",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "China",
+   "emergentes Asia",
+   "oro",
+   "metales industriales",
+   "divisas"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war"
+   }
+  ]
+ },
+ {
+  "id": "2019-08-12-argentina-paso",
+  "fecha": "2019-08-12",
+  "fecha_real": "2019-08-11",
+  "fin": "2019-09-01",
+  "titulo": "Argentina: la derrota de Macri en las PASO hunde el peso y la bolsa",
+  "pais": [
+   "Argentina"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "fiscal_deuda",
+   "divisas"
+  ],
+  "mecanismo": "La ventaja de unos 15 puntos de Alberto Fernández en las primarias (11-ago, domingo) anticipó un giro populista y una posible reestructuración de la deuda. El peso y el Merval se desplomaron en un solo día, los bonos cayeron hacia niveles de impago y a finales de agosto el Gobierno aplazó vencimientos y luego impuso el control de cambios.",
+  "activos_afectados": [
+   {
+    "activo": "ARS",
+    "sentido": "-",
+    "magnitud": "≈ -15 % a -19 % al cierre del 12-ago (récord intradía ≈ 65 por dólar)"
+   },
+   {
+    "activo": "Merval",
+    "sentido": "-",
+    "magnitud": "≈ -38 % en pesos el 12-ago"
+   },
+   {
+    "activo": "Bonos soberanos argentinos",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "Argentina",
+   "Latinoamérica",
+   "emergentes",
+   "deuda emergente"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Al Jazeera",
+    "u": "https://www.aljazeera.com/amp/economy/2019/8/12/argentina-peso-plunges-after-voters-punish-macri-at-polls"
+   },
+   {
+    "t": "CGTN",
+    "u": "https://news.cgtn.com/news/2019-08-13/Argentine-stocks-and-currency-crash-after-Macri-vote-defeat-J7nDDcgGsM/share_amp.html"
+   }
+  ]
+ },
+ {
+  "id": "2019-08-14-inversion-curva",
+  "fecha": "2019-08-14",
+  "fin": "2019-08-30",
+  "titulo": "Se invierte la curva 2–10 años de EE. UU.; récord de deuda con tipos negativos",
+  "pais": [
+   "EE. UU.",
+   "Alemania",
+   "Zona euro"
+  ],
+  "tipo": "inflacion_macro",
+  "tipos_secundarios": [
+   "politica_monetaria"
+  ],
+  "mecanismo": "Por primera vez desde 2007, la rentabilidad del bono a 10 años cayó por debajo de la del 2 años, una señal histórica de recesión. Coincidió con unos 17 billones de dólares de deuda mundial con rentabilidad negativa y el Bund a 30 años por debajo de cero. Bancos y aseguradoras sufrieron por la compresión de márgenes; ganaron los bonos largos y el oro.",
+  "activos_afectados": [
+   {
+    "activo": "Dow Jones",
+    "sentido": "-",
+    "magnitud": "≈ -3 % el 14-ago"
+   },
+   {
+    "activo": "Bonos largos",
+    "sentido": "+"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bancos",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "renta fija",
+   "oro",
+   "bancos",
+   "seguros"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia (curva invertida)",
+    "u": "https://en.wikipedia.org/wiki/Inverted_yield_curve"
+   }
+  ]
+ },
+ {
+  "id": "2019-09-12-bce-paquete",
+  "fecha": "2019-09-12",
+  "fin": null,
+  "titulo": "El BCE baja la facilidad de depósito al -0,50 % y reanuda las compras de deuda",
+  "pais": [
+   "Zona euro"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [],
+  "mecanismo": "La última reunión de Draghi recortó 10 pb, reinició el QE (expansión cuantitativa) con 20.000 M€ al mes sin fecha de fin e introdujo un sistema escalonado para aliviar a los bancos. Mantuvo las rentabilidades soberanas en mínimos y la prima periférica contenida, pero dividió al Consejo y el euro apenas reaccionó.",
+  "activos_afectados": [
+   {
+    "activo": "Bonos periféricos (Italia, España)",
+    "sentido": "+"
+   },
+   {
+    "activo": "EUR",
+    "sentido": "±"
+   },
+   {
+    "activo": "Bancos europeos",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "renta fija europea",
+   "España",
+   "Italia",
+   "bancos"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "BCE",
+    "u": "https://www.ecb.europa.eu/press/pr/date/2019/html/ecb.mp190912~08de50b4d2.en.html"
+   }
+  ]
+ },
+ {
+  "id": "2019-09-16-ataque-abqaiq",
+  "fecha": "2019-09-16",
+  "fecha_real": "2019-09-14",
+  "fin": "2019-09-30",
+  "titulo": "Ataque con drones a Abqaiq y Khurais: se pierde la mitad del crudo saudí",
+  "pais": [
+   "Arabia Saudí",
+   "Irán",
+   "Yemen"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "El ataque del sábado 14-sep dejó fuera de servicio unos 5,7 Mb/d (millones de barriles diarios), cerca del 5 % de la oferta mundial. El Brent registró en la apertura su mayor subida intradía desde 1991; Aramco restableció la producción en semanas y la prima se evaporó antes de fin de mes, lo que demostró la abundancia de inventarios.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "+",
+    "magnitud": "hasta +19,5 % intradía; ≈ +10–15 % al cierre del 16-sep"
+   },
+   {
+    "activo": "Petroleras",
+    "sentido": "+"
+   },
+   {
+    "activo": "Aerolíneas",
+    "sentido": "-"
+   },
+   {
+    "activo": "Fletes de petroleros",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "energía",
+   "petróleo",
+   "Oriente Medio",
+   "transporte"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Abqaiq%E2%80%93Khurais_attack"
+   },
+   {
+    "t": "EIA",
+    "u": "https://www.eia.gov/todayinenergy/detail.php?id=42675"
+   }
+  ]
+ },
+ {
+  "id": "2019-09-17-crisis-repo",
+  "fecha": "2019-09-17",
+  "fin": "2019-10-11",
+  "titulo": "Crisis del repo: el tipo a un día se dispara y la Fed vuelve a inyectar liquidez",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "crisis_financiera",
+  "tipos_secundarios": [
+   "politica_monetaria",
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "El pago trimestral de impuestos y la liquidación de bonos del Tesoro drenaron reservas: el SOFR (tipo de financiación garantizado a un día) saltó del 2,43 % al 5,25 % y el repo tocó el 10 % intradía. La Fed de Nueva York lanzó operaciones repo diarias y el 11-oct anunció compras de letras de 60.000 M$ al mes, una ampliación de balance que los mercados trataron como QE.",
+  "activos_afectados": [
+   {
+    "activo": "SOFR / repo a un día",
+    "sentido": "+",
+    "magnitud": "2,43 % → 5,25 % (16→17-sep); 10 % intradía"
+   },
+   {
+    "activo": "Balance de la Fed",
+    "sentido": "+"
+   },
+   {
+    "activo": "Letras del Tesoro",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "monetarios",
+   "renta fija",
+   "bancos"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/September_2019_events_in_the_U.S._repo_market"
+   }
+  ]
+ },
+ {
+  "id": "2019-09-20-india-impuesto-sociedades",
+  "fecha": "2019-09-20",
+  "fin": null,
+  "titulo": "India rebaja por sorpresa el impuesto de sociedades del 30 % al 22 %",
+  "pais": [
+   "India"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [],
+  "mecanismo": "El Gobierno de Modi recortó por sorpresa el tipo base (y al 15 % para nuevas fábricas), con un coste de unos 20.500 M$. El aumento directo del beneficio neto esperado (≈ +10 %) desató la mayor subida diaria del Sensex desde 2009 y atrajo flujos extranjeros, aunque empeoró el déficit fiscal.",
+  "activos_afectados": [
+   {
+    "activo": "Sensex",
+    "sentido": "+",
+    "magnitud": "+5,3 % el 20-sep"
+   },
+   {
+    "activo": "INR",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bonos indios",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "India",
+   "emergentes Asia"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "CNBC",
+    "u": "https://www.cnbc.com/2019/09/20/indias-stock-market-skyrockets-after-surprise-tax-cut.html"
+   }
+  ]
+ },
+ {
+  "id": "2019-10-14-tifon-hagibis",
+  "fecha": "2019-10-14",
+  "fecha_real": "2019-10-12",
+  "fin": null,
+  "titulo": "Tifón Hagibis en Japón; huracán Dorian en Bahamas (cat bonds)",
+  "pais": [
+   "Japón",
+   "Bahamas",
+   "EE. UU."
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Hagibis tocó tierra el 12-oct (sábado; el lunes 14 fue festivo en Tokio) con inundaciones fluviales y pérdidas aseguradas estimadas en 7.000–16.000 M$; a inicios de septiembre Dorian había devastado Bahamas, pero apenas tocó Florida. Los cat bonds japoneses de tifón cayeron un 10–17 % por incertidumbre sobre el siniestro, pero no llegó a activarse ninguno y se recuperaron.",
+  "activos_afectados": [
+   {
+    "activo": "Cat bonds de tifón en Japón",
+    "sentido": "-",
+    "magnitud": "-10 % a -17 % en los tramos de más riesgo"
+   },
+   {
+    "activo": "Aseguradoras y reaseguradoras japonesas",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cat bonds",
+   "seguros",
+   "Japón"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Artemis",
+    "u": "https://www.artemis.bm/news/japan-typhoon-cat-bonds-marked-down-on-hagibis-uncertainty/"
+   },
+   {
+    "t": "Artemis",
+    "u": "https://www.artemis.bm/news/no-cat-bond-loss-from-hagibis-price-impacts-to-be-short-lived-plenum/"
+   },
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Typhoon_Hagibis"
+   }
+  ]
+ },
+ {
+  "id": "2019-10-21-chile-estallido",
+  "fecha": "2019-10-21",
+  "fecha_real": "2019-10-18",
+  "fin": "2019-11-29",
+  "titulo": "Estallido social en Chile: el peso cae a mínimos históricos",
+  "pais": [
+   "Chile"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "La subida del billete de metro desató el 18-oct (viernes) protestas masivas y el estado de emergencia. El temor a un cambio constitucional y a más gasto público hundió el peso, la bolsa y los bonos, y obligó al banco central a intervenir en divisas a finales de noviembre; también afectó a las expectativas sobre la oferta de cobre.",
+  "activos_afectados": [
+   {
+    "activo": "CLP",
+    "sentido": "-",
+    "magnitud": "mínimos históricos a finales de nov-2019"
+   },
+   {
+    "activo": "IPSA",
+    "sentido": "-"
+   },
+   {
+    "activo": "Cobre",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "Chile",
+   "Latinoamérica",
+   "emergentes",
+   "metales industriales"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2019%E2%80%932022_Chilean_protests"
+   }
+  ]
+ },
+ {
+  "id": "2019-11-11-elecciones-espana-noviembre",
+  "fecha": "2019-11-11",
+  "fecha_real": "2019-11-10",
+  "fin": null,
+  "titulo": "Repetición electoral en España: más fragmentación y auge de Vox",
+  "pais": [
+   "España"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "Los comicios del 10-nov (domingo) no despejaron la mayoría; el PSOE pactó en días un Gobierno con Unidas Podemos. El mercado temió más impuestos para bancos y eléctricas y un aumento del gasto, con un impacto acotado en el IBEX y la prima de riesgo.",
+  "activos_afectados": [
+   {
+    "activo": "IBEX 35",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bancos y eléctricas españolas",
+    "sentido": "-"
+   },
+   {
+    "activo": "Prima de riesgo España",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "España",
+   "bancos",
+   "utilities"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/November_2019_Spanish_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2019-12-11-ipo-aramco",
+  "fecha": "2019-12-11",
+  "fin": null,
+  "titulo": "Saudi Aramco sale a bolsa: la mayor salida a bolsa de la historia",
+  "pais": [
+   "Arabia Saudí"
+  ],
+  "tipo": "flujos_posicionamiento",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "La colocación de 25.600 M$ en Tadawul valoró la petrolera en unos 1,7 billones de dólares. Su inclusión en los índices de emergentes (MSCI, FTSE) forzó a los fondos indexados a comprar y aumentó el peso de Arabia Saudí y del sector energía en los índices de Oriente Medio.",
+  "activos_afectados": [
+   {
+    "activo": "Saudi Aramco",
+    "sentido": "+",
+    "magnitud": "+10 % (límite) en el debut"
+   },
+   {
+    "activo": "Índices MSCI EM / Oriente Medio",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "Oriente Medio",
+   "energía",
+   "emergentes"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Saudi_Aramco"
+   }
+  ]
+ },
+ {
+  "id": "2019-12-13-brexit-elecciones-fase1",
+  "fecha": "2019-12-13",
+  "fin": "2020-01-15",
+  "titulo": "Johnson arrasa en Reino Unido y EE. UU.–China cierran la «fase 1»",
+  "pais": [
+   "Reino Unido",
+   "EE. UU.",
+   "China"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "La mayoría conservadora del 12-dic despejó una salida ordenada del Brexit el 31-ene-2020; ese mismo viernes Washington y Pekín anunciaron el acuerdo comercial de fase 1 (firmado el 15-ene-2020), que suspendió nuevos aranceles y comprometió compras agrícolas y energéticas. La libra y las empresas británicas orientadas al mercado interior se dispararon, y los activos cíclicos cerraron 2019 en máximos.",
+  "activos_afectados": [
+   {
+    "activo": "GBP",
+    "sentido": "+",
+    "magnitud": "≈ +2 % frente al dólar en la noche electoral"
+   },
+   {
+    "activo": "FTSE 250",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bolsa china",
+    "sentido": "+"
+   },
+   {
+    "activo": "Soja",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "Reino Unido",
+   "China",
+   "agricultura",
+   "renta variable global"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2019_United_Kingdom_general_election"
+   },
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Phase_One_trade_deal"
+   }
+  ]
+ },
+ {
+  "id": "2020-01-03-soleimani",
+  "fecha": "2020-01-03",
+  "fin": "2020-01-08",
+  "titulo": "EE. UU. mata al general iraní Soleimani en Bagdad",
+  "pais": [
+   "Irán",
+   "EE. UU.",
+   "Irak"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "El ataque con dron y la represalia iraní con misiles contra bases en Irak (8-ene) hicieron temer una guerra regional. El crudo y el oro subieron con fuerza durante unos días hasta que ambas partes rebajaron la tensión; los activos de riesgo se recuperaron enseguida.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "+",
+    "magnitud": "≈ +3,5 % el 3-ene"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "energía",
+   "oro",
+   "Oriente Medio",
+   "defensa"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Assassination_of_Qasem_Soleimani"
+   }
+  ]
+ },
+ {
+  "id": "2020-01-20-covid-wuhan",
+  "fecha": "2020-01-20",
+  "fin": "2020-02-03",
+  "titulo": "Primeros casos de COVID-19: China confirma el contagio humano y cierra Wuhan",
+  "pais": [
+   "China"
+  ],
+  "tipo": "pandemia",
+  "tipos_secundarios": [
+   "logistica",
+   "estacionalidad"
+  ],
+  "mecanismo": "El 20-ene China admitió la transmisión entre personas y el 23-ene aisló Wuhan; el Año Nuevo Lunar se prolongó y la actividad industrial china se paralizó. Al reabrir el 3-feb, la bolsa china sufrió su peor día en años; cayeron el crudo, el cobre y el mineral de hierro por la demanda china, y las cadenas de suministro asiáticas empezaron a cortarse.",
+  "activos_afectados": [
+   {
+    "activo": "Shanghai Composite",
+    "sentido": "-",
+    "magnitud": "≈ -7,7 % el 3-feb"
+   },
+   {
+    "activo": "Brent",
+    "sentido": "-"
+   },
+   {
+    "activo": "Cobre",
+    "sentido": "-"
+   },
+   {
+    "activo": "CNY",
+    "sentido": "-"
+   },
+   {
+    "activo": "Lujo y turismo",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "China",
+   "emergentes Asia",
+   "materias primas",
+   "lujo",
+   "turismo"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_mainland_China"
+   }
+  ]
+ },
+ {
+  "id": "2020-02-24-covid-italia-caida",
+  "fecha": "2020-02-24",
+  "fecha_real": "2020-02-21",
+  "fin": "2020-02-28",
+  "titulo": "Brotes en Italia: comienza la caída de febrero–marzo de 2020",
+  "pais": [
+   "Italia",
+   "Zona euro",
+   "EE. UU.",
+   "Global"
+  ],
+  "tipo": "pandemia",
+  "tipos_secundarios": [],
+  "mecanismo": "Los focos de Lombardía y Véneto (21–23-feb, fin de semana) mostraron que el virus había salido de Asia. Desde el máximo del 19-feb el S&P 500 entró en corrección en seis sesiones, la más rápida de la historia hasta entonces, con huida a bonos y fuerte subida de la volatilidad.",
+  "activos_afectados": [
+   {
+    "activo": "FTSE MIB",
+    "sentido": "-",
+    "magnitud": "≈ -5,4 % el 24-feb"
+   },
+   {
+    "activo": "S&P 500",
+    "sentido": "-",
+    "magnitud": "≈ -3,4 % el 24-feb; ≈ -12 % en la semana al 28-feb"
+   },
+   {
+    "activo": "VIX",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "-",
+    "magnitud": "mínimos históricos"
+   }
+  ],
+  "temas_fondos": [
+   "renta variable global",
+   "Italia",
+   "turismo",
+   "renta fija"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2020_stock_market_crash"
+   }
+  ]
+ },
+ {
+  "id": "2020-03-03-fed-recorte-urgencia",
+  "fecha": "2020-03-03",
+  "fin": null,
+  "titulo": "La Fed recorta 50 pb de urgencia fuera de calendario",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "pandemia"
+  ],
+  "mecanismo": "Fue el primer recorte de emergencia desde 2008. Más que calmar, transmitió alarma; la bolsa cayó en la sesión mientras el bono a 10 años perforaba el 1 % por primera vez y el oro subía.",
+  "activos_afectados": [
+   {
+    "activo": "Fed funds",
+    "sentido": "-",
+    "magnitud": "1,50–1,75 % → 1,00–1,25 %"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "-",
+    "magnitud": "por debajo del 1 %"
+   },
+   {
+    "activo": "S&P 500",
+    "sentido": "-",
+    "magnitud": "≈ -2,8 % el 3-mar"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "renta fija",
+   "oro",
+   "renta variable EE. UU."
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Reserva Federal",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200303a.htm"
+   }
+  ]
+ },
+ {
+  "id": "2020-03-09-carrera-por-liquidez",
+  "fecha": "2020-03-09",
+  "fin": "2020-03-23",
+  "titulo": "Carrera por la liquidez: se dispara el dólar y se atasca el mercado del Tesoro",
+  "pais": [
+   "EE. UU.",
+   "Global"
+  ],
+  "tipo": "flujos_posicionamiento",
+  "tipos_secundarios": [
+   "crisis_financiera",
+   "divisas"
+  ],
+  "mecanismo": "Fondos apalancados (operaciones de base entre bonos y futuros), gestoras de renta fija y bancos centrales extranjeros vendieron bonos del Tesoro para obtener dólares: la rentabilidad subió en plena huida del riesgo, los ETF de bonos cotizaron con fuertes descuentos sobre su valor liquidativo y el dólar subió con fuerza. Se cortó con las líneas de dólares y las compras de la Fed.",
+  "activos_afectados": [
+   {
+    "activo": "Índice del dólar (DXY)",
+    "sentido": "+",
+    "magnitud": "≈ +8 % del 9 al 19-mar"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "+"
+   },
+   {
+    "activo": "ETF de crédito (descuento)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "-"
+   },
+   {
+    "activo": "Divisas emergentes",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "renta fija",
+   "divisas",
+   "emergentes",
+   "crédito"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2020_stock_market_crash"
+   }
+  ]
+ },
+ {
+  "id": "2020-03-09-guerra-precios-petroleo",
+  "fecha": "2020-03-09",
+  "fecha_real": "2020-03-07",
+  "fin": null,
+  "titulo": "Guerra de precios Arabia Saudí–Rusia: el crudo se hunde",
+  "pais": [
+   "Arabia Saudí",
+   "Rusia",
+   "EE. UU."
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica",
+   "pandemia"
+  ],
+  "mecanismo": "La OPEP+ no llegó a un acuerdo el 6-mar y Arabia Saudí respondió el sábado 7 con descuentos récord y la promesa de bombear al máximo. Unido al desplome de la demanda por la COVID, el crudo vivió su mayor caída diaria desde 1991; se hundieron las petroleras, el rublo, las divisas de exportadores y los bonos de alto rendimiento energéticos de EE. UU. (esquisto).",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "-",
+    "magnitud": "≈ -24 % el 9-mar"
+   },
+   {
+    "activo": "S&P 500",
+    "sentido": "-",
+    "magnitud": "≈ -7,6 % el 9-mar (se activó el corte de cotización)"
+   },
+   {
+    "activo": "RUB",
+    "sentido": "-"
+   },
+   {
+    "activo": "High yield energético",
+    "sentido": "-"
+   },
+   {
+    "activo": "NOK / MXN",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "energía",
+   "petróleo",
+   "Rusia",
+   "emergentes",
+   "high yield",
+   "Noruega"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war"
+   }
+  ]
+ },
+ {
+  "id": "2020-03-12-pandemia-oms-desplome",
+  "fecha": "2020-03-12",
+  "fin": null,
+  "titulo": "La OMS declara la pandemia; el BCE decepciona y llega el peor día desde 1987",
+  "pais": [
+   "Global",
+   "EE. UU.",
+   "Zona euro"
+  ],
+  "tipo": "pandemia",
+  "tipos_secundarios": [
+   "politica_monetaria",
+   "crisis_financiera"
+  ],
+  "mecanismo": "Tras la declaración de pandemia (11-mar) y el veto de EE. UU. a los viajes desde Europa, Lagarde dijo que el BCE «no está para cerrar diferenciales», lo que disparó las primas periféricas. Hubo ventas forzadas en todos los activos, incluido el oro, por la búsqueda de liquidez.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "-",
+    "magnitud": "≈ -9,5 % el 12-mar"
+   },
+   {
+    "activo": "FTSE MIB",
+    "sentido": "-",
+    "magnitud": "≈ -17 % el 12-mar"
+   },
+   {
+    "activo": "Prima de riesgo de Italia",
+    "sentido": "+"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "renta variable global",
+   "Italia",
+   "España",
+   "renta fija periférica"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2020_stock_market_crash"
+   }
+  ]
+ },
+ {
+  "id": "2020-03-16-fed-cero",
+  "fecha": "2020-03-16",
+  "fecha_real": "2020-03-15",
+  "fin": null,
+  "titulo": "La Fed baja los tipos a cero y lanza 700.000 M$ de compras de activos",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "pandemia"
+  ],
+  "mecanismo": "En una reunión de emergencia del domingo 15-mar la Fed recortó 100 pb hasta el 0–0,25 %, compró bonos del Tesoro e hipotecas y abrió líneas de dólares con otros bancos centrales. El mercado lo leyó como señal de pánico: el 16-mar fue el peor día del S&P 500 desde 1987 y el VIX cerró en su máximo histórico.",
+  "activos_afectados": [
+   {
+    "activo": "Fed funds",
+    "sentido": "-",
+    "magnitud": "1,00–1,25 % → 0–0,25 %"
+   },
+   {
+    "activo": "S&P 500",
+    "sentido": "-",
+    "magnitud": "≈ -12 % el 16-mar"
+   },
+   {
+    "activo": "VIX",
+    "sentido": "+",
+    "magnitud": "cierre récord ≈ 82,7"
+   }
+  ],
+  "temas_fondos": [
+   "renta fija",
+   "renta variable EE. UU.",
+   "monetarios"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Reserva Federal",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm"
+   }
+  ]
+ },
+ {
+  "id": "2020-03-19-bce-pepp",
+  "fecha": "2020-03-19",
+  "fecha_real": "2020-03-18",
+  "fin": null,
+  "titulo": "El BCE lanza el programa de compras de emergencia (PEPP) de 750.000 M€",
+  "pais": [
+   "Zona euro",
+   "Italia",
+   "España"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "pandemia"
+  ],
+  "mecanismo": "Anunciado la noche del 18-mar, el PEPP (programa de compras de emergencia frente a la pandemia) permitía desviarse de la clave de capital para comprar más deuda de los países más castigados. Corrigió el error del 12-mar: las primas italiana y española se estrecharon de inmediato.",
+  "activos_afectados": [
+   {
+    "activo": "Prima de riesgo de Italia",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bonos periféricos",
+    "sentido": "+"
+   },
+   {
+    "activo": "Crédito europeo",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "renta fija europea",
+   "Italia",
+   "España",
+   "crédito"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "BCE",
+    "u": "https://www.ecb.europa.eu/press/pr/date/2020/html/ecb.pr200318_1~3949d6f266.en.html"
+   }
+  ]
+ },
+ {
+  "id": "2020-03-23-qe-ilimitado-minimos",
+  "fecha": "2020-03-23",
+  "fin": null,
+  "titulo": "QE ilimitado y compra de bonos corporativos: suelo del mercado",
+  "pais": [
+   "EE. UU.",
+   "Global"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "pandemia",
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "Antes de la apertura la Fed prometió comprar bonos del Tesoro e hipotecas «en la cantidad necesaria» y, por primera vez, bonos corporativos y ETF de crédito. Ese día marcó el mínimo del S&P 500 (-34 % desde el 19-feb); el CARES Act (27-mar) completó el soporte y comenzó el rally más rápido de la historia.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "+",
+    "magnitud": "mínimo el 23-mar (≈ -34 % desde el 19-feb); ≈ +17 % en los 3 días siguientes"
+   },
+   {
+    "activo": "Crédito con grado de inversión",
+    "sentido": "+"
+   },
+   {
+    "activo": "High yield",
+    "sentido": "+"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "renta variable global",
+   "crédito",
+   "high yield",
+   "oro"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Reserva Federal",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm"
+   },
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2020_stock_market_crash"
+   }
+  ]
+ },
+ {
+  "id": "2020-03-27-cares-act",
+  "fecha": "2020-03-27",
+  "fin": null,
+  "titulo": "EE. UU. aprueba el CARES Act: estímulo fiscal de 2,2 billones",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [
+   "pandemia"
+  ],
+  "mecanismo": "El mayor paquete fiscal de la historia de EE. UU. (cheques directos, prestaciones de desempleo ampliadas y préstamos a pymes) sostuvo la renta de las familias. Disparó la emisión del Tesoro y el déficit, apoyó el consumo de bienes (y con ello el comercio electrónico y la logística) y alimentó la entrada de inversores minoristas en bolsa.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "+"
+   },
+   {
+    "activo": "Emisión del Tesoro",
+    "sentido": "+"
+   },
+   {
+    "activo": "USD",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "renta variable EE. UU.",
+   "consumo",
+   "renta fija"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/CARES_Act"
+   }
+  ]
+ },
+ {
+  "id": "2020-04-13-opep-recorte-record",
+  "fecha": "2020-04-13",
+  "fecha_real": "2020-04-12",
+  "fin": null,
+  "titulo": "Acuerdo OPEP+ de recorte récord de 9,7 Mb/d",
+  "pais": [
+   "Arabia Saudí",
+   "Rusia",
+   "EE. UU."
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "Cerrado el domingo 12-abr bajo presión de EE. UU., puso fin a la guerra de precios, pero era insuficiente frente a una caída de la demanda de unos 20–30 Mb/d en abril. El crudo no repuntó hasta mayo, cuando entraron en vigor los recortes y empezó la reapertura económica.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "±"
+   },
+   {
+    "activo": "Petroleras",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "energía",
+   "petróleo",
+   "Oriente Medio",
+   "Rusia"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war"
+   }
+  ]
+ },
+ {
+  "id": "2020-04-20-wti-negativo-uso",
+  "fecha": "2020-04-20",
+  "fin": "2020-04-29",
+  "titulo": "El WTI cotiza en negativo y obliga a reestructurar el ETF USO",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "flujos_posicionamiento",
+   "logistica",
+   "regulacion"
+  ],
+  "mecanismo": "Con Cushing (Oklahoma) casi lleno, el contrato de mayo cerró a -37,63 $ el día anterior a su vencimiento: quien tenía futuros no podía recibir ni almacenar el crudo. El ETF USO, con una posición enorme en el primer vencimiento, dejó de concentrarse en él, repartió su posición en varios meses, hizo un contrasplit 1:8 (28-abr) y quedó investigado por la SEC (Comisión de Bolsa y Valores de EE. UU.). Los productos que siguen el primer vencimiento y los ETP apalancados de crudo sufrieron pérdidas permanentes por el contango.",
+  "activos_afectados": [
+   {
+    "activo": "WTI (contrato de mayo)",
+    "sentido": "-",
+    "magnitud": "-37,63 $/b al cierre del 20-abr (-306 %)"
+   },
+   {
+    "activo": "USO",
+    "sentido": "-"
+   },
+   {
+    "activo": "Diferencial de contango WTI",
+    "sentido": "+"
+   },
+   {
+    "activo": "Fletes de petroleros (almacenamiento flotante)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "energía",
+   "petróleo",
+   "materias primas",
+   "transporte marítimo"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war"
+   },
+   {
+    "t": "SEC (10-Q de USO)",
+    "u": "https://www.sec.gov/Archives/edgar/data/1327068/000110465920058624/uso-20200331x10q.htm"
+   }
+  ]
+ },
+ {
+  "id": "2020-05-12-real-minimo",
+  "fecha": "2020-05-12",
+  "fin": null,
+  "titulo": "El real brasileño marca su mínimo histórico (≈ 5,90 por dólar)",
+  "pais": [
+   "Brasil"
+  ],
+  "tipo": "divisas",
+  "tipos_secundarios": [
+   "politica_monetaria",
+   "pandemia",
+   "elecciones_politica"
+  ],
+  "mecanismo": "Con los contagios en aumento, la crisis política alrededor de Bolsonaro y el Selic (tipo oficial) recortado hasta el 3 %, se acabó el diferencial de tipos que sostenía el real. Fue la divisa principal con peor comportamiento de 2020, lo que amplificó las pérdidas en euros de la bolsa brasileña y abarató sus exportaciones de materias primas.",
+  "activos_afectados": [
+   {
+    "activo": "BRL",
+    "sentido": "-",
+    "magnitud": "cierre ≈ 5,90 por dólar el 12-may (≈ -30 % en el año)"
+   },
+   {
+    "activo": "Ibovespa en USD",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "Brasil",
+   "Latinoamérica",
+   "emergentes",
+   "divisas"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Focus Economics",
+    "u": "https://www.focus-economics.com/countries/brazil/news/exchange-rate/real-hits-fresh-record-low-amid-rising-covid-19-cases-and/"
+   }
+  ]
+ },
+ {
+  "id": "2020-06-18-wirecard",
+  "fecha": "2020-06-18",
+  "fin": "2020-06-25",
+  "titulo": "Escándalo Wirecard: faltan 1.900 M€ y quiebra una empresa del DAX",
+  "pais": [
+   "Alemania"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "crisis_financiera"
+  ],
+  "mecanismo": "El auditor no encontró la caja que figuraba en Filipinas y Wirecard solicitó la insolvencia el 25-jun. Fue el primer integrante del DAX en quebrar, puso en entredicho al supervisor alemán (BaFin) y a EY y castigó a los fondos de pagos y fintech europeos que lo tenían en cartera.",
+  "activos_afectados": [
+   {
+    "activo": "Wirecard",
+    "sentido": "-",
+    "magnitud": "≈ -98 % en una semana"
+   },
+   {
+    "activo": "Pagos y fintech europeos",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "fintech",
+   "tecnología",
+   "Alemania",
+   "ESG"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Wirecard_scandal"
+   }
+  ]
+ },
+ {
+  "id": "2020-07-21-fondo-recuperacion-ue",
+  "fecha": "2020-07-21",
+  "fin": null,
+  "titulo": "La UE aprueba el fondo de recuperación Next Generation EU (750.000 M€)",
+  "pais": [
+   "Zona euro",
+   "Italia",
+   "España"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "Partiendo de la propuesta franco-alemana del 18-may, el Consejo Europeo pactó deuda común y transferencias a los países más dañados. Redujo el riesgo de ruptura del euro: estrechó las primas periféricas, apreció el euro frente al dólar y favoreció a la bolsa europea cíclica y a las renovables (por la parte verde del plan).",
+  "activos_afectados": [
+   {
+    "activo": "EUR/USD",
+    "sentido": "+",
+    "magnitud": "por encima de 1,18 a finales de julio"
+   },
+   {
+    "activo": "Prima de riesgo de Italia y España",
+    "sentido": "-"
+   },
+   {
+    "activo": "Renovables europeas",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "renta variable europea",
+   "España",
+   "Italia",
+   "renovables",
+   "renta fija europea"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Next_Generation_EU"
+   }
+  ]
+ },
+ {
+  "id": "2020-08-04-argentina-reestructuracion",
+  "fecha": "2020-08-04",
+  "fin": null,
+  "titulo": "Argentina cierra la reestructuración de 65.000 M$ en bonos extranjeros",
+  "pais": [
+   "Argentina",
+   "Ecuador"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [],
+  "mecanismo": "Tras impagar en mayo, el Gobierno de Fernández acordó con los grandes acreedores (BlackRock, Ashmore…) un canje con recorte de cupones y principal; Ecuador cerró un canje similar el mismo mes. Puso fin al impago, pero los nuevos bonos cayeron pronto ante la presión cambiaria y los cepos, castigando a los fondos de deuda emergente con sobreponderación en Argentina.",
+  "activos_afectados": [
+   {
+    "activo": "Bonos soberanos argentinos",
+    "sentido": "±"
+   },
+   {
+    "activo": "ARS (paralelo, «blue»)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "Argentina",
+   "Ecuador",
+   "deuda emergente",
+   "Latinoamérica"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2020_Argentine_debt_restructuring"
+   }
+  ]
+ },
+ {
+  "id": "2020-08-07-oro-maximo",
+  "fecha": "2020-08-07",
+  "fin": null,
+  "titulo": "El oro supera los 2.000 $ y marca máximo histórico; la plata se dispara",
+  "pais": [
+   "Global",
+   "EE. UU."
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "politica_monetaria",
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "Con tipos reales estadounidenses en mínimos (el TIPS a 10 años, bono ligado a la inflación, por debajo del -1 %), expansión monetaria y fiscal y un dólar débil, el oro encadenó máximos hasta unos 2.075 $ intradía el 7-ago. La plata más que dobló su mínimo de marzo; las mineras de oro y los ETF físicos recibieron entradas récord. El rally se agotó con la subida de los tipos reales y la vacuna de noviembre.",
+  "activos_afectados": [
+   {
+    "activo": "Oro",
+    "sentido": "+",
+    "magnitud": "máximo ≈ 2.075 $/oz intradía el 7-ago (≈ +37 % desde el mínimo de marzo)"
+   },
+   {
+    "activo": "Plata",
+    "sentido": "+"
+   },
+   {
+    "activo": "Mineras de oro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Índice del dólar (DXY)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "oro",
+   "metales preciosos",
+   "minería"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Perth Mint",
+    "u": "https://www.perthmint.com/news/investor/market-research-and-analysis/new-usd-record-gold-price-in-august/"
+   }
+  ]
+ },
+ {
+  "id": "2020-08-11-derecho-iowa",
+  "fecha": "2020-08-11",
+  "fecha_real": "2020-08-10",
+  "fin": null,
+  "titulo": "Un derecho (tormenta de viento) arrasa los cultivos de Iowa",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [],
+  "mecanismo": "La tormenta del 10-ago aplastó millones de hectáreas de maíz y destruyó silos. Junto con la sequía y las fuertes compras chinas de la fase 1, cambió el discurso de exceso de oferta por uno de escasez: el maíz y la soja iniciaron una subida que se prolongó hasta 2021.",
+  "activos_afectados": [
+   {
+    "activo": "Maíz (CBOT)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Soja",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "agricultura",
+   "materias primas"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/August_2020_Midwest_derecho"
+   }
+  ]
+ },
+ {
+  "id": "2020-08-27-huracanes-2020",
+  "fecha": "2020-08-27",
+  "fin": "2020-11-17",
+  "titulo": "Temporada récord de huracanes de 2020: Laura, Delta y otras 28 tormentas",
+  "pais": [
+   "EE. UU.",
+   "Golfo de México",
+   "Centroamérica"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima",
+   "materias_primas"
+  ],
+  "mecanismo": "La temporada atlántica con más tormentas con nombre de la historia (30) obligó a usar el alfabeto griego. Laura (27-ago, categoría 4 en Luisiana) causó pérdidas aseguradas de unos 8.000–13.000 M$ y cerró gran parte del crudo del golfo y de las refinerías; Delta (9-oct) repitió en la misma zona. Pocas impactaron en zonas muy pobladas, así que los cat bonds sufrieron poco, pero las reaseguradoras endurecieron precios en las renovaciones de 2021.",
+  "activos_afectados": [
+   {
+    "activo": "Producción de crudo del golfo de México",
+    "sentido": "-"
+   },
+   {
+    "activo": "Gasolina / márgenes de refino",
+    "sentido": "±"
+   },
+   {
+    "activo": "Cat bonds de huracán en EE. UU.",
+    "sentido": "±"
+   },
+   {
+    "activo": "Reaseguradoras",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cat bonds",
+   "seguros",
+   "energía",
+   "refino"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2020_Atlantic_hurricane_season"
+   },
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Hurricane_Laura"
+   },
+   {
+    "t": "Business Insurance (Willis Re)",
+    "u": "https://www.businessinsurance.com/article/20210202/NEWS06/912339524/Insured-natural-catastrophe-losses-reached-$78B-in-2020-Report-Willis-Re"
+   }
+  ]
+ },
+ {
+  "id": "2020-08-27-jackson-hole-inflacion-media",
+  "fecha": "2020-08-27",
+  "fin": null,
+  "titulo": "Jackson Hole: la Fed adopta un objetivo de inflación media del 2 %",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "inflacion_macro"
+  ],
+  "mecanismo": "Powell presentó la revisión de la estrategia: tolerar inflación por encima del 2 % para compensar periodos por debajo y priorizar el empleo pleno. Implicaba tipos a cero más tiempo; empinó la curva (subieron los tipos largos y las expectativas de inflación) y debilitó el dólar.",
+  "activos_afectados": [
+   {
+    "activo": "Bono EE. UU. 30 años (rentabilidad)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Breakevens de inflación",
+    "sentido": "+"
+   },
+   {
+    "activo": "USD",
+    "sentido": "-"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "renta fija",
+   "bonos ligados a inflación",
+   "oro",
+   "divisas"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Reserva Federal (discurso)",
+    "u": "https://www.federalreserve.gov/newsevents/speech/powell20200827a.htm"
+   }
+  ]
+ },
+ {
+  "id": "2020-08-28-abe-buffett-japon",
+  "fecha": "2020-08-28",
+  "fin": "2020-08-31",
+  "titulo": "Dimite Abe y Buffett compra el 5 % de las cinco grandes comerciales japonesas",
+  "pais": [
+   "Japón"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "La dimisión de Abe por salud (28-ago) hizo temer el fin de la Abenomía, pero Suga garantizó la continuidad. El lunes 31 Berkshire reveló participaciones en Mitsubishi, Mitsui, Itochu, Marubeni y Sumitomo, que subieron con fuerza y reavivaron el interés por el valor japonés y por las empresas con exposición a materias primas.",
+  "activos_afectados": [
+   {
+    "activo": "Nikkei 225",
+    "sentido": "±"
+   },
+   {
+    "activo": "Sogo shosha (comerciales japonesas)",
+    "sentido": "+",
+    "magnitud": "≈ +4 % a +10 % el 31-ago"
+   },
+   {
+    "activo": "JPY",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "Japón",
+   "value",
+   "materias primas"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Resignation_of_Shinz%C5%8D_Abe"
+   },
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Sogo_shosha"
+   }
+  ]
+ },
+ {
+  "id": "2020-09-03-correccion-nasdaq",
+  "fecha": "2020-09-03",
+  "fin": "2020-09-23",
+  "titulo": "Corrección del Nasdaq tras la euforia de opciones (la «ballena» SoftBank)",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "flujos_posicionamiento",
+  "tipos_secundarios": [
+   "tecnologia"
+  ],
+  "mecanismo": "Las compras masivas de opciones de compra sobre tecnológicas por parte de minoristas y de SoftBank forzaron a los creadores de mercado a cubrirse comprando acciones (gamma), inflando la subida de agosto. Al revertir, el Nasdaq 100 cayó con fuerza en tres sesiones y más de un 10 % en septiembre; fue un aviso para los fondos temáticos de tecnología muy concentrados.",
+  "activos_afectados": [
+   {
+    "activo": "Nasdaq 100",
+    "sentido": "-",
+    "magnitud": "≈ -5 % el 3-sep; > -10 % del máximo del 2-sep"
+   },
+   {
+    "activo": "Tesla / Apple",
+    "sentido": "-"
+   },
+   {
+    "activo": "VIX",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "tecnología",
+   "temáticos",
+   "renta variable EE. UU."
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2020_stock_market_crash"
+   }
+  ]
+ },
+ {
+  "id": "2020-11-02-fletes-contenedores",
+  "fecha": "2020-11-02",
+  "fin": "2020-12-31",
+  "titulo": "Escasez de contenedores: los fletes Asia–Europa marcan máximos",
+  "pais": [
+   "China",
+   "Zona euro",
+   "EE. UU."
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [
+   "inflacion_macro"
+  ],
+  "mecanismo": "Los contenedores vacíos quedaron atascados en Europa y EE. UU. tras la primera ola, mientras la demanda de bienes se disparaba y las navieras habían reducido su capacidad. El SCFI (índice de fletes de contenedores de Shanghái) hacia el norte de Europa batió récords en diciembre y el coste de un contenedor de 40 pies se multiplicó; subieron las navieras y se encarecieron las importaciones.",
+  "activos_afectados": [
+   {
+    "activo": "SCFI Shanghái–norte de Europa",
+    "sentido": "+",
+    "magnitud": "récord ≈ 2.948 $/TEU en diciembre (más del triple interanual)"
+   },
+   {
+    "activo": "Navieras (Maersk, Hapag-Lloyd, COSCO)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "transporte marítimo",
+   "logística",
+   "industria",
+   "inflación"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Seatrade Maritime",
+    "u": "https://www.seatrade-maritime.com/containers/box-shipping-rates-spike-container-shortages-and-strong-demand"
+   },
+   {
+    "t": "UNCTAD",
+    "u": "https://unctad.org/node/35550"
+   }
+  ]
+ },
+ {
+  "id": "2020-11-04-ant-group-suspension",
+  "fecha": "2020-11-04",
+  "fecha_real": "2020-11-03",
+  "fin": null,
+  "titulo": "China suspende la salida a bolsa de Ant Group: comienza la ofensiva regulatoria",
+  "pais": [
+   "China"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "tecnologia"
+  ],
+  "mecanismo": "Dos días antes del debut (la mayor colocación prevista, ≈ 34.000 M$), los reguladores la frenaron tras las críticas de Jack Ma al sistema financiero. Inició la ofensiva contra las plataformas tecnológicas (antimonopolio de noviembre, Alibaba) que castigó a las tecnológicas chinas hasta 2022.",
+  "activos_afectados": [
+   {
+    "activo": "Alibaba",
+    "sentido": "-",
+    "magnitud": "≈ -8 % en Hong Kong el 4-nov"
+   },
+   {
+    "activo": "Tecnológicas chinas (KWEB / Hang Seng Tech)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "China",
+   "tecnología",
+   "fintech",
+   "emergentes Asia"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Ant_Group"
+   }
+  ]
+ },
+ {
+  "id": "2020-11-04-elecciones-eeuu",
+  "fecha": "2020-11-04",
+  "fecha_real": "2020-11-03",
+  "fin": "2020-11-07",
+  "titulo": "Elecciones de EE. UU.: gana Biden con un Congreso dividido (por el momento)",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "La votación del 3-nov pasó sin el caos temido; Biden fue proclamado ganador el sábado 7. La expectativa de un Senado republicano (estímulo menor pero sin subidas de impuestos) impulsó las tecnológicas y los bonos; las renovables descontaron un giro climático y la segunda vuelta de Georgia en enero de 2021 inclinó la balanza hacia un paquete fiscal mayor.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "+",
+    "magnitud": "≈ +7 % en la semana del 2 al 6-nov"
+   },
+   {
+    "activo": "Renovables (energía limpia)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "-"
+   },
+   {
+    "activo": "VIX",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "renta variable EE. UU.",
+   "renovables",
+   "tecnología",
+   "salud"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/2020_United_States_presidential_election"
+   }
+  ]
+ },
+ {
+  "id": "2020-11-09-turquia-lira",
+  "fecha": "2020-11-09",
+  "fecha_real": "2020-11-07",
+  "fin": "2020-11-19",
+  "titulo": "Turquía: la lira toca mínimos y Erdogan sustituye al gobernador y al ministro",
+  "pais": [
+   "Turquía"
+  ],
+  "tipo": "divisas",
+  "tipos_secundarios": [
+   "politica_monetaria",
+   "elecciones_politica"
+  ],
+  "mecanismo": "Tras perder ≈ 30 % en el año por tipos reales negativos y la quema de reservas, la lira marcó ≈ 8,58 por dólar el 6-nov. Erdogan nombró gobernador a Naci Agbal (7-nov) y dimitió el ministro Albayrak (8-nov); la subida de tipos de 475 pb del 19-nov provocó un fuerte rebote de la lira y de la bolsa turca, que se deshizo en marzo de 2021 con el cese de Agbal.",
+  "activos_afectados": [
+   {
+    "activo": "TRY",
+    "sentido": "+",
+    "magnitud": "mínimo ≈ 8,58 por dólar el 6-nov; ≈ +2 % el 9-nov"
+   },
+   {
+    "activo": "BIST 100",
+    "sentido": "+"
+   },
+   {
+    "activo": "Eurobonos turcos",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "Turquía",
+   "emergentes",
+   "divisas",
+   "deuda emergente"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Al Jazeera",
+    "u": "https://www.aljazeera.com/news/2020/11/8/turkish-finance-minister-albayrak-resigns-through-instagram-post"
+   },
+   {
+    "t": "Intellinews",
+    "u": "https://intellinews.com/turkey-s-finance-minister-resigns-day-after-central-bank-governor-is-fired-by-erdogan-196088"
+   }
+  ]
+ },
+ {
+  "id": "2020-11-09-vacuna-pfizer",
+  "fecha": "2020-11-09",
+  "fin": "2020-11-16",
+  "titulo": "Pfizer–BioNTech anuncian una vacuna eficaz al 90 %: gran rotación hacia el value",
+  "pais": [
+   "EE. UU.",
+   "Alemania",
+   "Global"
+  ],
+  "tipo": "pandemia",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "El resultado intermedio del ensayo superó las expectativas y puso fecha al fin de los confinamientos. Desató la mayor rotación de factores en décadas: subieron bancos, energía, aerolíneas, viajes y pequeñas compañías, y cayeron los valores beneficiados por el confinamiento, el oro y los bonos. Moderna (16-nov) lo confirmó.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "+",
+    "magnitud": "≈ +8 % el 9-nov"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "-",
+    "magnitud": "≈ -5 % el 9-nov"
+   },
+   {
+    "activo": "Bancos / energía / aerolíneas",
+    "sentido": "+"
+   },
+   {
+    "activo": "Valores del confinamiento (Zoom, Peloton)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "value",
+   "energía",
+   "bancos",
+   "turismo",
+   "small caps",
+   "salud",
+   "oro"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Pfizer%E2%80%93BioNTech_COVID-19_vaccine"
+   }
+  ]
+ },
+ {
+  "id": "2020-11-17-tesla-sp500",
+  "fecha": "2020-11-17",
+  "fecha_real": "2020-11-16",
+  "fin": "2020-12-21",
+  "titulo": "S&P anuncia la entrada de Tesla en el S&P 500",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "flujos_posicionamiento",
+  "tipos_secundarios": [
+   "tecnologia"
+  ],
+  "mecanismo": "Tras el anuncio del 16-nov (después del cierre), los fondos indexados tuvieron que comprar ≈ 80.000 M$ en acciones para su entrada el 21-dic, la mayor reponderación de la historia del índice. Tesla subió con fuerza hasta esa fecha y arrastró a los fondos temáticos de vehículo eléctrico y baterías (litio).",
+  "activos_afectados": [
+   {
+    "activo": "Tesla",
+    "sentido": "+",
+    "magnitud": "≈ +13 % el 17-nov; ≈ +70 % hasta el 18-dic"
+   },
+   {
+    "activo": "Litio / baterías",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "vehículo eléctrico",
+   "temáticos",
+   "litio",
+   "renta variable EE. UU."
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Tesla,_Inc."
+   }
+  ]
+ },
+ {
+  "id": "2020-12-01-cobre-hierro-reflacion",
+  "fecha": "2020-12-01",
+  "fin": "2020-12-31",
+  "titulo": "Reflación de metales: el cobre en máximos de 7 años y el hierro en récord",
+  "pais": [
+   "China",
+   "Chile",
+   "Australia",
+   "Brasil"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "El estímulo en infraestructuras de China, la debilidad del dólar, los problemas de oferta (cierres por COVID en Perú y Chile, recuperación lenta de Vale) y el discurso de la transición energética llevaron el cobre de ≈ 4.600 $/t en marzo a más de 8.000 $/t en diciembre y el hierro a récords en Dalian. Beneficiados: mineras, divisas de exportadores (AUD, CLP) y fondos de recursos naturales.",
+  "activos_afectados": [
+   {
+    "activo": "Cobre (LME)",
+    "sentido": "+",
+    "magnitud": "≈ 8.000 $/t en dic-2020, máximo desde 2013"
+   },
+   {
+    "activo": "Mineral de hierro",
+    "sentido": "+",
+    "magnitud": "récord en Dalian en diciembre"
+   },
+   {
+    "activo": "AUD / CLP",
+    "sentido": "+"
+   },
+   {
+    "activo": "Mineras",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "metales industriales",
+   "minería",
+   "materias primas",
+   "Australia",
+   "Chile",
+   "transición energética"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Business Standard",
+    "u": "https://www.business-standard.com/amp/article/markets/2020-a-gloom-doom-and-boom-year-for-metals-amid-covid-19-pandemic-120122700855_1.html"
+   },
+   {
+    "t": "SMM",
+    "u": "https://news.metal.com/newscontent/101368989-copper-prices-achieved-new-record-in-2020"
+   }
+  ]
+ },
+ {
+  "id": "2020-12-24-acuerdo-brexit",
+  "fecha": "2020-12-24",
+  "fin": null,
+  "titulo": "Acuerdo comercial UE–Reino Unido in extremis: no hay Brexit sin acuerdo",
+  "pais": [
+   "Reino Unido",
+   "Zona euro"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "geopolitica",
+   "regulacion"
+  ],
+  "mecanismo": "Tras meses de amenaza de salida sin acuerdo al final del periodo transitorio (31-dic), Bruselas y Londres pactaron un tratado sin aranceles ni cuotas. Eliminó el riesgo extremo para la libra y las empresas británicas orientadas al mercado interno, aunque los servicios financieros quedaron fuera.",
+  "activos_afectados": [
+   {
+    "activo": "GBP",
+    "sentido": "+"
+   },
+   {
+    "activo": "FTSE 250",
+    "sentido": "+"
+   },
+   {
+    "activo": "Pesca / transporte transfronterizo",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "Reino Unido",
+   "renta variable europea"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/EU%E2%80%93UK_Trade_and_Cooperation_Agreement"
+   }
+  ]
+ },
+ {
+  "id": "2020-12-28-paquete-fiscal-diciembre",
+  "fecha": "2020-12-28",
+  "fecha_real": "2020-12-27",
+  "fin": null,
+  "titulo": "Trump firma el paquete de estímulo de 900.000 M$",
+  "pais": [
+   "EE. UU."
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [
+   "inflacion_macro"
+  ],
+  "mecanismo": "Tras semanas de bloqueo, el acuerdo del Congreso (21-dic) se firmó el domingo 27: cheques de 600 $, prestaciones de desempleo y nuevos préstamos a pymes. Junto con la vacuna, reforzó la reflación de comienzos de 2021: tipos largos y expectativas de inflación al alza, pequeñas compañías y cíclicas.",
+  "activos_afectados": [
+   {
+    "activo": "Russell 2000",
+    "sentido": "+"
+   },
+   {
+    "activo": "Breakevens de inflación",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "renta variable EE. UU.",
+   "small caps",
+   "bonos ligados a inflación"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia",
+    "u": "https://en.wikipedia.org/wiki/Consolidated_Appropriations_Act,_2021"
+   }
+  ]
+ }
+]

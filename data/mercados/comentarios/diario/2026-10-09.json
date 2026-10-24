@@ -1,0 +1,459 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-09",
+  "fase": "completo",
+  "titulo": "Rebote tras el jueves tecnológico: Europa sube cerca del 1 % y el oro repunta un 1,4 %",
+  "resumen": "Viernes de recuperación después de la venta del jueves 8, cuando la tecnología arrastró a Wall Street y el DAX alemán cerró en mínimos de casi dos meses por la energía cara y las dudas fiscales en Europa. Las bolsas europeas recuperaron casi todo lo perdido: Stoxx Europe 600 +0,97 %, DAX +1,13 %, SMI suizo +1,10 %, FTSE 100 +1,06 %, CAC 40 +0,95 %, FTSE MIB +0,91 % y Euro Stoxx 50 +0,76 %; el IBEX 35 (+0,55 %) fue de los más rezagados. En Wall Street, el S&P 500 subió un 0,59 % hasta 7.811,5 puntos, a un paso de su récord de cierre del martes 6, con el Dow Jones (+0,83 %) por delante del Nasdaq 100 (+0,51 %) y del Russell 2000 de pequeñas compañías (+0,46 %). No hubo un detonante único: el rebote se apoyó en que ==el petróleo dejó de subir== después de que el presidente Trump dijera que ==EE. UU. no atacará Irán antes de las elecciones legislativas del 3 de noviembre== y calificara de «productivas» las conversaciones, y en noticias empresariales concretas (aprobaciones de fármacos, torres de telecomunicaciones, óptica para centros de datos).\n\nEl bono no acompañó del todo. La TIR (tasa interna de rentabilidad) del bono de EE. UU. a 10 años subió 1,3 puntos básicos (pb), hasta el 5,24 %, y la del 2 años, más sensible a la Reserva Federal (Fed), 5 pb, hasta el 4,80 %. El motivo es la mezcla incómoda que dejó la encuesta de la Universidad de Michigan: la confianza del consumidor cayó a 46,3 (peor de lo esperado), pero ==la inflación que esperan los hogares subió al 4,7 % a un año== y al 3,5 % a cinco. Con la Fed recién estrenada en subidas de tipos (septiembre, la primera desde 2023), consumidores débiles con expectativas de inflación al alza le dejan poco margen para relajar, y ==eso pesa en los plazos cortos==. Aun así, el miedo bajó: el VIX (volatilidad del S&P 500) cayó un 3,7 % hasta 14,8, el MOVE (volatilidad de los bonos) un 2,2 % y el diferencial del high yield estadounidense se estrechó 4 pb. En Europa, el Bund alemán a 10 años apenas se movió (−0,8 pb).\n\nEn materias primas brillaron los metales: oro +1,4 % (4.216 $ la onza), plata +2,7 % y cobre +1,9 %, con el dólar estable (índice DXY +0,07 %). No hubo una noticia concreta: ==el oro recuperó la caída de días previos como cobertura== frente a la guerra entre EE. UU. e Irán y a la inflación. El Brent cerró casi plano (+0,4 %, 104,7 $) tras borrar una caída inicial: las palabras de Trump restaban prima de riesgo, pero el huracán Isaias mantenía paralizada buena parte de la producción del golfo de México (en torno a 1,3 millones de barriles diarios el jueves, según los datos oficiales citados por la prensa). El gas europeo TTF subió un 3,3 % (81,4 €/MWh).\n\nEn Asia, ==el Hang Seng de Hong Kong subió un 1,8 % empujado por las tecnológicas== (el índice Hang Seng TECH +3,1 %, Xiaomi cerca de +10 %) y el Sensex indio un 1,2 % con las de servicios informáticos tras los resultados de TCS; el Nikkei japonés quedó plano y Corea y Taiwán estuvieron cerrados por festivos. El Bovespa brasileño ganó un 1,4 %. En la semana, el S&P 500 sumó un 1,2 %.",
+  "claves": [
+    "==Europa recupera casi toda la caída del jueves== (Stoxx 600 +0,97 %, DAX +1,13 %) y el S&P 500 (+0,59 %) cierra a un paso de su récord.",
+    "La encuesta de Michigan mezcla consumidores pesimistas con expectativas de inflación al alza (4,7 % a un año): ==la TIR a 2 años de EE. UU. sube 5 pb==.",
+    "El oro (+1,4 %) y la plata (+2,7 %) rebotan con fuerza y llevan a la cabeza a los fondos de mineras de oro.",
+    "El Brent queda plano: Trump descarta atacar Irán antes del 3 de noviembre, pero el huracán Isaias sigue frenando la producción del golfo de México.",
+    "En fondos, los de oro, biotecnología e infraestructuras lideran; muchos fondos alemanes y austriacos caen porque ==su valor liquidativo (VL) aún refleja el mal jueves==."
+  ],
+  "suben": [
+    {
+      "activo": "DAX (Alemania)",
+      "cambio": "+1,13 %",
+      "por_que": "==Rebote técnico== tras cerrar el jueves en mínimos de casi dos meses por la energía cara y las dudas fiscales europeas; el respiro en el petróleo y el tono positivo de Wall Street animaron la recompra en industriales y tecnología.",
+      "fuentes": [
+        {
+          "t": "Trading Economics (jueves 8)",
+          "u": "https://tradingeconomics.com/germany/stock-market/news/590583"
+        },
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1610"
+        }
+      ]
+    },
+    {
+      "activo": "Stoxx Europe 600",
+      "cambio": "+0,97 %",
+      "por_que": "Subida amplia en casi todas las plazas (FTSE 100 +1,06 %, SMI +1,10 %, CAC 40 +0,95 %) que deshace casi toda la caída del jueves; el IBEX 35 (+0,55 %) se quedó atrás.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1610"
+        }
+      ]
+    },
+    {
+      "activo": "S&P 500",
+      "cambio": "+0,59 %",
+      "por_que": "Recupera la venta tecnológica del jueves y se queda a menos de un 0,1 % de su récord de cierre; el Dow Jones (+0,83 %) lideró con aseguradoras de salud (Humana) y torres de telecomunicaciones tras el acuerdo de espectro de SpaceX.",
+      "fuentes": [
+        {
+          "t": "AP (vía La Nación)",
+          "u": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/"
+        },
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1610"
+        }
+      ]
+    },
+    {
+      "activo": "Oro",
+      "cambio": "+1,43 %",
+      "por_que": "Sin noticia concreta: recupera terreno como ==cobertura frente a la guerra entre EE. UU. e Irán== y frente a una inflación que los consumidores ven al alza, con el dólar estable. La plata (+2,7 %) y el cobre (+1,9 %) subieron más.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1610"
+        }
+      ]
+    },
+    {
+      "activo": "Hang Seng (Hong Kong)",
+      "cambio": "+1,79 %",
+      "por_que": "Compras en tecnológicas: ==el Hang Seng TECH ganó un 3,1 %== con Xiaomi, Tencent y Alibaba al alza, mientras la biotecnología quedó plana.",
+      "fuentes": [
+        {
+          "t": "Business Today",
+          "u": "https://www.businesstoday.com.my/2026/10/10/tech-led-rally-lifts-hang-seng-but-biotech-shares-lag/"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+3,28 %",
+      "por_que": "Sin noticia concreta del día: la prima de riesgo de Oriente Medio y la escasez de productos refinados mantienen caro el gas de cara al invierno (81,4 €/MWh).",
+      "fuentes": []
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Trigo",
+      "cambio": "−1,79 %",
+      "por_que": "Sin noticia concreta: recogida de beneficios en los cereales en un día de menos tensión geopolítica.",
+      "fuentes": []
+    },
+    {
+      "activo": "VIX (volatilidad del S&P 500)",
+      "cambio": "−3,70 %",
+      "por_que": "La vuelta a máximos de la bolsa y el respiro del petróleo ==reducen la demanda de coberturas==; el VIX baja a 14,8.",
+      "fuentes": [
+        {
+          "t": "AP (vía La Nación)",
+          "u": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/"
+        }
+      ]
+    },
+    {
+      "activo": "Bono EE. UU. 2 años (precio)",
+      "cambio": "TIR +5 pb (4,80 %)",
+      "por_que": "==La encuesta de Michigan elevó las expectativas de inflación a un año al 4,7 %==: el mercado aleja recortes y mantiene la puerta abierta a más subidas de la Fed, lo que castiga sobre todo los plazos cortos.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1610"
+        }
+      ]
+    },
+    {
+      "activo": "Bono EE. UU. 10 años (precio)",
+      "cambio": "TIR +1,3 pb (5,24 %)",
+      "por_que": "Varios vaivenes en la sesión; sigue cerca del 5,31 % del lunes 5, su nivel más alto desde 2002, por la inflación y el aumento de emisión de deuda en las grandes economías.",
+      "fuentes": [
+        {
+          "t": "AP (vía La Nación)",
+          "u": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/"
+        },
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1610"
+        }
+      ]
+    },
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "−0,02 %",
+      "por_que": "Plano: sin el empuje de Corea y Taiwán (cerrados) y con el yen débil (cerca de 158 por dólar) ya descontado.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1610"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Rebote tras la venta tecnológica del jueves",
+      "texto": "El jueves 8 la tecnología había tirado de Wall Street a la baja y el DAX cayó a mínimos de dos meses. El viernes no hubo una gran noticia: ==entró dinero en busca de oportunidades== y las noticias empresariales fueron favorables (aprobación de Teva en la FDA, subida de las torres de telecomunicaciones por el acuerdo de espectro de SpaceX, óptica para centros de datos con la producción de Lumentum agotada hasta 2029). Lo negativo vino de Apple, que según la prensa recortó pedidos de componentes del iPhone por el encarecimiento de la memoria.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1610"
+        },
+        {
+          "t": "AP (vía La Nación)",
+          "u": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/"
+        }
+      ]
+    },
+    {
+      "tema": "Inflación esperada y Reserva Federal (Fed)",
+      "texto": "La confianza del consumidor de la Universidad de Michigan cayó a 46,3 y la valoración de la situación actual se hundió, pero las expectativas de inflación subieron (4,7 % a un año, 3,5 % a cinco). Para una Fed que subió tipos en septiembre por primera vez desde 2023, es la peor combinación: ==crecimiento que flojea con inflación que no cede==. ==Por eso subió la TIR a 2 años== y no hubo alivio en el tramo largo, que sigue cerca de máximos desde 2002.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1610"
+        }
+      ]
+    },
+    {
+      "tema": "Petróleo: Irán y el huracán Isaias",
+      "texto": "==Dos fuerzas opuestas==: Trump dijo que no atacará Irán antes de las elecciones del 3 de noviembre y que las conversaciones para acabar la guerra son productivas (menos prima de riesgo), mientras el huracán Isaias obligó a parar gran parte de la producción del golfo de México (más escasez a corto plazo). Resultado: Brent plano por encima de 100 $, todavía muy caro para la inflación.",
+      "fuentes": [
+        {
+          "t": "Trading Economics",
+          "u": "https://tradingeconomics.com/commodity/brent-crude-oil/news/590624"
+        },
+        {
+          "t": "Nation Thailand",
+          "u": "https://www.nationthailand.com/news/40072074"
+        }
+      ]
+    }
+  ],
+  "fondos": {
+    "texto": "Día bueno para casi todo: la mediana de los fondos de renta variable subió un 0,79 %, la de mixtos un 0,33 % y la de renta fija un 0,09 % (3.387 fondos). Arriba dominan tres temas que encajan con los drivers del día: ==mineras de oro (el oro +1,4 % y la plata +2,7 %==; las mineras amplifican el movimiento del metal), biotecnología (rebote de vacunas y ARNm en EE. UU.) e infraestructuras (torres de telecomunicaciones tras el acuerdo de SpaceX). Abajo ==hay una trampa de calendario==: buena parte de los que más caen son fondos alemanes y austriacos (DWS, Erste, Raiffeisen) o con hora de valoración temprana (Blue Whale), cuyo valor liquidativo (VL) de hoy refleja todavía el mal jueves 8 de la tecnología; el lunes 12 esos mismos fondos suben. Efecto divisa casi nulo: en las clases en dólares, la rentabilidad en euros (r) quedó unas dos décimas por debajo de la de su divisa (rn), porque el euro se apreció ligeramente.",
+    "suben": [
+      {
+        "isin": "LU1345291485",
+        "por_que": "Selective Thematic (IronIA, tecnología, +3,87 %): fondo temático muy concentrado que recupera con fuerza la venta tecnológica del jueves; sin cartera detallada en nuestros datos. Ojo: el lunes devuelve un −2,75 %, señal de que es muy volátil."
+      },
+      {
+        "isin": "LU0069152568",
+        "por_que": "UBS Biotech (+3,00 % en EUR; +3,19 % en USD): Moderna pesa un 6,4 % y Vertex un 7,5 %; las de vacunas y ARNm se dispararon ==tras un artículo del New York Times sobre vacunas contra el cáncer==. La diferencia entre ambas cifras es el ligero avance del euro."
+      },
+      {
+        "isin": "LU1048657123",
+        "por_que": "Fidelity FAST Global (+2,82 %): su tercera posición, Teva (5,6 %), recibió la aprobación de la FDA para Weltruza; también pesan Bayer (6,5 %) y Golar LNG (6 %), esta última favorecida por el gas caro."
+      },
+      {
+        "isin": "IE00B23S7K36",
+        "por_que": "Clase en euros del BNY Mellon Brazil Equity (Bankinter y ABANCA, +2,80 %): Petrobras (8,9 %), Bradesco, Nu Holdings y Vale encabezan la cartera. ==Sigue al Bovespa (+1,38 %)==, con apoyo de los metales y del mayor apetito por emergentes."
+      },
+      {
+        "isin": "LU0326422689",
+        "por_que": "BGF World Gold, clase cubierta a euros (+2,80 %): Barrick, Agnico Eagle, Newmont y Wheaton son sus mayores posiciones; al estar cubierta, la cifra es casi puro efecto del oro sobre las mineras."
+      },
+      {
+        "isin": "LU1120766206",
+        "por_que": "Candriam Biotech, cubierto a euros (+2,79 %): Gilead, Vertex, Amgen y Regeneron encabezan la cartera; mismo rebote de la biotecnología estadounidense."
+      },
+      {
+        "isin": "IE00BZC0SB97",
+        "por_que": "Lazard Global Listed Infrastructure, clase en USD (+2,74 % en EUR; +2,93 % en USD): American Tower (8,2 %) y Crown Castle (7,8 %) se dispararon con el ==acuerdo de espectro de unos 8.000 millones de dólares de SpaceX==, que da valor a sus emplazamientos."
+      },
+      {
+        "isin": "FR0013307675",
+        "por_que": "EdR Goldsphere (IronIA, +2,68 %): fondo de mineras de oro y metales preciosos; mismo motor que el resto de fondos de oro."
+      },
+      {
+        "isin": "IE00BZ0X9W87",
+        "por_que": "Comgest Growth China (IronIA, +2,62 %): se beneficia del tirón de las tecnológicas de Hong Kong (Hang Seng TECH +3,1 %)."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU1548497699",
+        "por_que": "Allianz Global Artificial Intelligence, clase en euros sin cubrir (−2,29 %): Nvidia (7,6 %), TSMC, Broadcom, Lam Research y Micron. ==Recoge con un día de retraso la caída tecnológica del jueves== y el recorte de pedidos del iPhone por el coste de la memoria; el leve avance del euro restó algo más."
+      },
+      {
+        "isin": "AT0000745872",
+        "por_que": "Raiffeisen Azionario emergente (IronIA, −2,06 %): fondo austriaco cuyo VL de hoy recoge el cierre del jueves 8, día de venta en tecnología asiática y emergente; ==no es una caída del viernes== (el lunes sube un 0,4 %)."
+      },
+      {
+        "isin": "IE00BJM0B969",
+        "por_que": "Blue Whale Growth (−2,01 %): con Seagate, AppLovin, Leonardo y Safran entre sus mayores posiciones, su VL parece reflejar la sesión estadounidense del jueves (fondo irlandés con hora de valoración temprana)."
+      },
+      {
+        "isin": "DE0009773010",
+        "por_que": "DWS Global Emerging Markets (IronIA, −1,72 %): fondo alemán con VL desfasado un día; recoge la caída emergente del jueves y no el rebote del viernes (Hang Seng +1,8 %)."
+      },
+      {
+        "isin": "AT0000A1TW05",
+        "por_que": "Raiffeisen Central Europe (IronIA, −1,62 %): mismo desfase de los fondos austriacos; refleja el jueves, cuando Europa cayó."
+      },
+      {
+        "isin": "AT0000673165",
+        "por_que": "Erste Stock Biotec (IronIA, −1,57 %): VL desfasado; mientras los fondos de biotecnología que valoran el mismo día subían un 3 %, este recoge aún el jueves y el lunes 12 sube un 2,5 %."
+      },
+      {
+        "isin": "AT0000A03N37",
+        "por_que": "Erste WWF Stock Environment (−1,37 %): renovables y eficiencia (First Solar, ABB, Schneider); desfase de un día y sensibilidad a la subida de tipos de interés."
+      },
+      {
+        "isin": "AT0000A2BYG1",
+        "por_que": "Erste Stock Environment (IronIA, −1,36 %): otra clase de la misma estrategia que el Erste WWF Stock Environment (−1,37 %). ==Mismo desfase de un día de los fondos austriacos==: refleja el jueves 8, no el rebote del viernes."
+      },
+      {
+        "isin": "DE0008490897",
+        "por_que": "DWS US Growth (IronIA, −1,15 %): crecimiento estadounidense con VL que refleja la venta tecnológica del jueves; el lunes 12 sube un 1,1 %."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-12",
+      "evento": "Columbus Day en EE. UU.: bolsa abierta, mercado de bonos cerrado",
+      "por_que_importa": "Sesión con poco volumen; las TIR del Tesoro no tendrán cotización representativa."
+    },
+    {
+      "fecha": "2026-10-13",
+      "evento": "Arranque de los resultados de la gran banca de EE. UU. (JPMorgan y otros, del martes al viernes)",
+      "por_que_importa": "Primera prueba de la temporada del tercer trimestre y termómetro del crédito con tipos por encima del 5 %."
+    },
+    {
+      "fecha": "2026-10-14",
+      "evento": "IPC (índice de precios de consumo) de septiembre en EE. UU.",
+      "por_que_importa": "Con las expectativas de inflación al alza, un dato alto reforzaría otra subida de la Fed y presionaría la TIR a 10 años, cerca de máximos desde 2002."
+    },
+    {
+      "fecha": "2026-10-15",
+      "evento": "Precios de producción (IPP) de EE. UU.",
+      "por_que_importa": "Muestra si el petróleo por encima de 100 $ se está trasladando a la cadena de precios."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Reunión de la Reserva Federal (Fed), 27 y 28 de octubre",
+      "por_que_importa": "Decidirá si repite la subida de tipos de septiembre."
+    },
+    {
+      "fecha": "2026-11-03",
+      "evento": "Elecciones legislativas de mitad de mandato en EE. UU.",
+      "por_que_importa": "Trump ha dicho que no atacará Irán antes de esa fecha: es la referencia para la prima de riesgo del petróleo."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde anualmente un bono si se compra hoy y se mantiene a vencimiento. Sube cuando cae su precio."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500; sube cuando los inversores pagan más por protegerse."
+    },
+    {
+      "sigla": "MOVE",
+      "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis grandes divisas (sobre todo el euro)."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: mercado holandés de referencia del precio del gas natural en Europa (€/MWh)."
+    },
+    {
+      "sigla": "High yield",
+      "def": "Bonos de empresas con calificación inferior a grado de inversión; su diferencial frente a la deuda pública mide el riesgo de crédito percibido."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: precio diario de una participación de un fondo."
+    },
+    {
+      "sigla": "FDA",
+      "def": "Food and Drug Administration, la agencia que aprueba medicamentos en EE. UU."
+    },
+    {
+      "sigla": "ARNm",
+      "def": "Ácido ribonucleico mensajero, tecnología usada en vacunas como las de Moderna."
+    },
+    {
+      "sigla": "IPC / IPP",
+      "def": "Índice de precios de consumo e índice de precios de producción."
+    },
+    {
+      "sigla": "TCS",
+      "def": "Tata Consultancy Services, la mayor empresa india de servicios informáticos."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán, referencia de la deuda de la zona euro."
+    },
+    {
+      "sigla": "OAT",
+      "def": "Obligation assimilable du Trésor: bono del Estado francés."
+    },
+    {
+      "sigla": "PIB",
+      "def": "Producto interior bruto."
+    }
+  ],
+  "generado": "2026-10-23T11:00",
+  "tipos": {
+    "texto": "En EE. UU. la curva se aplanó: ==el 2 años subió 5 pb (4,80 %) y el 30 años quedó plano== (5,60 %, −0,6 pb). La causa fue la encuesta de la Universidad de Michigan. ==Las expectativas de inflación de los hogares subieron al 4,7 % a un año== y al 3,5 % a cinco, y una Fed que acaba de volver a subir tipos no puede ignorarlo: el mercado aleja cualquier bajada y mantiene viva otra subida, y eso empuja el tramo corto. En cambio, la confianza se hundió a 46,3, y un consumidor débil anticipa menos crecimiento, lo que frena las ventas en el plazo largo. El 10 años quedó en medio (+1,3 pb, 5,24 %).\n\nEn la zona euro apenas hubo movimiento: el 2 años AAA subió 1,4 pb (3,05 %) y el 10 años (≈ Bund) bajó 0,8 pb (3,51 %), con un petróleo plano que no añadió presión inflacionista. ==Francia volvió a ser la excepción: el OAT superó el 4,9 %==, cerca de su máximo de más de 20 años, por las dudas sobre un presupuesto que debe recortar el déficit al 5 % del PIB con un Parlamento dividido. Menos miedo en general: el diferencial del high yield de EE. UU. se estrechó 4 pb (3,11 %) y la volatilidad de los bonos (MOVE) cayó un 2,2 %.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "+5 pb (4,80 %)",
+        "por_que": "==Inflación esperada a un año del 4,7 % (Michigan)==: menos margen para que la Fed relaje y más probabilidad de otra subida, lo que mueve primero el tramo corto.",
+        "fuentes": [
+          {
+            "t": "Investrade (cierre 9-oct)",
+            "u": "https://investrade.com/?p=1610"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "+1,3 pb (5,24 %)",
+        "por_que": "A medio camino: la inflación esperada empuja al alza, pero la caída de la confianza (46,3) anticipa menos crecimiento. Sigue cerca del 5,31 % del día 5, máximo desde 2002.",
+        "fuentes": [
+          {
+            "t": "Investrade (cierre 9-oct)",
+            "u": "https://investrade.com/?p=1610"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "−0,6 pb (5,60 %)",
+        "por_que": "Plano: ==un consumidor débil pesa más en el largo que la inflación a un año==; la curva se aplana.",
+        "fuentes": [
+          {
+            "t": "Investrade (cierre 9-oct)",
+            "u": "https://investrade.com/?p=1610"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "+1,4 pb (3,05 %)",
+        "por_que": "Movimiento pequeño: con el Brent plano no cambiaron las apuestas sobre el BCE.",
+        "fuentes": [
+          {
+            "t": "Trading Economics (Brent)",
+            "u": "https://tradingeconomics.com/commodity/brent-crude-oil/news/590624"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "−0,8 pb (3,51 %)",
+        "por_que": "Prácticamente sin cambios pese al rebote de las bolsas; sin noticia concreta en Europa.",
+        "fuentes": [
+          {
+            "t": "Trading Economics (bono francés 9-oct)",
+            "u": "https://tradingeconomics.com/france/government-bond-yield/news/590139"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Francia–Alemania (10 años)",
+        "cambio": "Se amplía (OAT > 4,9 %; sin dato de cierre)",
+        "por_que": "==Riesgo fiscal: presupuesto 2027 con recortes difíciles de aprobar== antes de las presidenciales; el petróleo caro añade presión. El Bund apenas se movió, así que la subida del OAT es casi toda diferencial.",
+        "fuentes": [
+          {
+            "t": "Trading Economics (bono francés 9-oct)",
+            "u": "https://tradingeconomics.com/france/government-bond-yield/news/590139"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "−4 pb (3,11 %)",
+        "por_que": "Bolsa cerca de máximos y menos volatilidad: el crédito arriesgado recupera parte de lo perdido en la semana.",
+        "fuentes": [
+          {
+            "t": "Investrade (cierre 9-oct)",
+            "u": "https://investrade.com/?p=1610"
+          }
+        ]
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Investrade (cierre 9-oct)",
+        "u": "https://investrade.com/?p=1610"
+      },
+      {
+        "t": "Trading Economics (bono francés 9-oct)",
+        "u": "https://tradingeconomics.com/france/government-bond-yield/news/590139"
+      },
+      {
+        "t": "Trading Economics (Brent)",
+        "u": "https://tradingeconomics.com/commodity/brent-crude-oil/news/590624"
+      }
+    ]
+  }
+}

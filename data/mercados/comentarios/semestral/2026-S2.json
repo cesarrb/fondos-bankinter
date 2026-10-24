@@ -1,0 +1,827 @@
+{
+ "periodo": "semestral",
+ "clave": "2026-S2",
+ "fase": "completo",
+ "en_curso": true,
+ "desde": "2026-06-30",
+ "hasta": "2026-10-23",
+ "titulo": "2.º semestre 2026 (hasta el 23 de octubre): vuelve la guerra, crudo a 117 $ y bonos al 5 %",
+ "resumen": "Segundo semestre en curso, del 30 de junio al 23 de octubre de 2026 (algunas series cierran el 22). El 1 de julio el mercado venía de un semestre excelente y de un respiro: el memorando del 17 de junio con Irán había devuelto el Brent a 73 $, el bono de EE. UU. a 10 años estaba en el 4,42 % y ==solo se discutía si la Reserva Federal (Fed) subiría tipos una vez==, como apuntaba su diagrama de puntos. El escenario central era de calma con inflación algo alta. ==Duró una semana==: el 8 de julio, tras ataques iraníes a tres buques en Ormuz y represalias de EE. UU., Trump dio por muerto el alto el fuego y retiró la exención que dejaba a Irán vender crudo. Desde entonces el Brent ha subido un 60 % (de 72,9 $ a 116,7 $, cerca del máximo de marzo) y el gas europeo TTF más que se ha duplicado (de 43 € a 94 €).\n\nEl semestre va por su tercer tiempo (el tercero y el cuarto del comentario anual). ==Julio–septiembre, vuelve la inflación.== Al petróleo se sumó en septiembre el cierre del oleoducto saudí Este–Oeste tras un ataque con drones, la vía de escape del crudo que no puede pasar por Ormuz. Los tres grandes bancos centrales subieron en ocho días: BCE (Banco Central Europeo) al 2,50 % el 10 de septiembre, Fed al 3,75–4,00 % el 16 (primera subida desde 2023) y Banco de Japón al 1,25 % el 18. ==El 10 años de EE. UU. sumó 88 puntos básicos (pb) en el trimestre== y la bolsa aguantó solo gracias a los beneficios: el S&P 500 subió un 2 %, pero las pequeñas cayeron un 7,5 % y el Kospi coreano un 19 % tras un desplome de las posiciones en chips a finales de julio. ==Octubre, dudas sobre la IA.== El 10 años cerró en el 5,31 % el 5 de octubre (máximo desde 2002) y desde entonces baja: la memoria china de CXMT, los ingresos de OpenAI, la deuda de los centros de datos y los resultados de Meta y Tesla (SOX −6,7 % el 22 de octubre) han llevado el dinero de la inteligencia artificial (IA) a los bonos y a los sectores defensivos.\n\nEl balance hasta hoy es de ==bolsas planas o en rojo y bonos castigados==. S&P 500 +1,7 %, Dow Jones −0,2 %, Nasdaq 100 −4,4 %, Russell 2000 −8,2 %; en Europa, Stoxx 600 −0,9 %, Euro Stoxx 50 −4,1 % y ==CAC 40 −7,4 %, lastrado por la crisis fiscal y política de Francia== (su diferencial con Alemania supera los 150 pb, máximos desde 2012); aguantan el Reino Unido (+1,8 %) y Suiza (+1,9 %), cargados de farmacéuticas y energía. Asia devuelve parte del primer semestre: Kospi −34,5 %, Nikkei −10,5 % y Shanghái −9,9 %. ==El gran ganador es Brasil (+19,2 %)==, exportador de materias primas y con el giro electoral de octubre (Flávio Bolsonaro ganó la primera vuelta). El bitcóin rebota un 39 % y el oro está plano (−0,8 %) tras una ida y vuelta de agosto.\n\nPara el inversor en euros, el dólar ha sumado poco (euro −1,8 %, a 1,119 $), el yen se ha revalorizado un 5,5 % y la libra un 2,9 %. ==La renta fija vuelve a ser mal refugio==: la mediana de los fondos de renta fija pierde un 2,1 % (los de deuda euro a más de 20 años, un 8,6 %), la de renta variable un 0,4 % y solo ganan con claridad los de materias primas (+14,7 %). En cabeza, energía y Brasil (+22 % a +27 %); a la cola, China tecnológica, energías limpias y Asia con memoria (−23 % a −33 %), el espejo del primer semestre.",
+ "claves": [
+  "==Se esperaba calma tras el memorando de junio y llegó lo contrario==: el alto el fuego se rompió el 8 de julio y el Brent sube un 60 %, hasta 116,7 $; el gas europeo, un 116 %.",
+  "==Fed, BCE y Banco de Japón subieron tipos en septiembre==; el mercado aún da ~75 % a otra subida de la Fed en diciembre.",
+  "El 10 años de EE. UU. sube 57 pb (4,42 % → 4,99 %) tras ==cerrar en el 5,31 % el 5 de octubre, máximo desde 2002==; el 2 años, 51 pb.",
+  "==La IA pasa de motor a duda==: Kospi −34,5 % y Nasdaq 100 −4,4 %, mientras el S&P 500 sube un 1,7 % por los sectores defensivos.",
+  "Europa sufre por la energía y ==por Francia (CAC 40 −7,4 %, diferencial por encima de 150 pb)==; Brasil (+19 %) es el gran ganador.",
+  "En fondos ganan la energía y Brasil (+22 % a +27 %) y pierden China tecnológica, energías limpias y ==la renta fija de larga duración==."
+ ],
+ "suben": [
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "+116,0 % (43,4 € → 93,9 €)",
+   "por_que": "==El bloqueo de Ormuz recorta el gas licuado de Catar== y el invierno llega con almacenes tensos; cierra el periodo en máximos. Encarece la electricidad y la industria europea y empuja la inflación de la zona euro (3,8 % en septiembre). Julio +36 %, agosto +18 % y octubre +30 %.",
+   "fuentes": [
+    {
+     "t": "GMK Center (IPC de la zona euro, 3,8 % en septiembre)",
+     "u": "https://gmk.center/en/news/inflation-in-the-eurozone-accelerated-to-3-8-in-september/"
+    },
+    {
+     "t": "S&P Global (Brent por encima de 90 $ por Ormuz y Bab el-Mandeb)",
+     "u": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/072226-factbox-ice-brent-holds-above-90b-on-hormuz-bab-al-mandab-shipping-risks"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "+60,1 % (72,9 $ → 116,7 $)",
+   "por_que": "Tres golpes: ==la ruptura del alto el fuego el 8 de julio== (+23,6 % en julio, con ataques en Ormuz y Bab el-Mandeb), el cierre del oleoducto saudí Este–Oeste en septiembre (máximo de 108,8 $ el 15) y los ataques a petroleros y a Arabia Saudí en octubre. Se queda a 1,6 $ del máximo de marzo.",
+   "fuentes": [
+    {
+     "t": "The Week (se rompe el alto el fuego, 9-jul)",
+     "u": "https://www.theweek.in/news/defence/2026/07/09/opinion-patience-runs-out-the-us-iran-ceasefire-collapses-into-strikes.html"
+    },
+    {
+     "t": "FN2 (colapso del alto el fuego, petróleo y Ormuz, julio)",
+     "u": "https://fn2.ai/blog/iran-ceasefire-collapse-oil-hormuz-july-2026"
+    },
+    {
+     "t": "S&P Global (Brent por encima de 90 $ por Ormuz y Bab el-Mandeb)",
+     "u": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/072226-factbox-ice-brent-holds-above-90b-on-hormuz-bab-al-mandab-shipping-risks"
+    },
+    {
+     "t": "Khaleej Times (Brent por encima de 107 $ por ataques y cierre del oleoducto saudí)",
+     "u": "https://www.khaleejtimes.com/business/brent-rises-above-107-as-attacks-pipeline-outage-deepen-saudi-supply-concerns"
+    },
+    {
+     "t": "Yeni Şafak (el Brent supera 100 $ por ataques de Irán)",
+     "u": "https://en.yenisafak.com/economy/brent-crude-tops-100-as-iran-targets-us-vessels-in-gulf-3722951"
+    }
+   ]
+  },
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "+19,2 % (172.024 → 205.083)",
+   "por_que": "Brasil exporta petróleo y materias primas, y ==en octubre se sumó el vuelco electoral==: Flávio Bolsonaro ganó la primera vuelta del día 4 contra pronóstico y el mercado lo asocia a más disciplina fiscal, lo que baja los tipos brasileños y sube el real (+10 % en octubre). Segunda vuelta el 25 de octubre, con empate técnico en las encuestas.",
+   "fuentes": [
+    {
+     "t": "Trading Economics (Ibovespa y encuestas de la segunda vuelta)",
+     "u": "https://tradingeconomics.com/brazil/stock-market/news/593227"
+    }
+   ]
+  },
+  {
+   "activo": "Bitcoin (USD)",
+   "cambio": "+38,9 % (58.559 $ → 81.352 $)",
+   "por_que": "Rebote desde el mínimo de junio, ==sobre todo en agosto (+25 %)==, cuando un empleo negativo en EE. UU. rebajó las apuestas de subida de la Fed. Máximo de 86.603 $ el 21 de septiembre; cede algo en octubre con la huida del riesgo en la tecnología.",
+   "fuentes": [
+    {
+     "t": "Endowus (resumen del tercer trimestre 2026)",
+     "u": "https://endowus.com/article/q3-2026-market-update-outlook"
+    }
+   ]
+  },
+  {
+   "activo": "Yen (frente al euro)",
+   "cambio": "+5,5 % (EUR/JPY 185,1 → 175,5)",
+   "por_que": "Tras la intervención conjunta de EE. UU. y Japón en julio, ==la subida del Banco de Japón al 1,25 % el 18 de septiembre== (máximo desde 1995) y la búsqueda de refugio en octubre lo han revalorizado: septiembre −3,8 % en el EUR/JPY.",
+   "fuentes": [
+    {
+     "t": "NST (intervención en el yen y subidas del BoJ)",
+     "u": "https://www.nst.com.my/amp/business/economy/2026/08/1510794/japan-may-see-more-yen-intervention-faster-boj-rate-hikes-ex-top"
+    },
+    {
+     "t": "Nation Thailand (el Banco de Japón sube al 1,25 %)",
+     "u": "https://www.nationthailand.com/news/world/40071184"
+    }
+   ]
+  },
+  {
+   "activo": "FTSE 100 y SMI (Reino Unido y Suiza)",
+   "cambio": "+1,8 % y +1,9 %",
+   "por_que": "==Son las bolsas más defensivas de Europa==: farmacéuticas (GSK, AstraZeneca, Roche, Novartis), consumo básico y, en Londres, petroleras. En octubre recibieron el dinero que salía de la IA (SMI +4,6 % en el mes), mientras el resto de Europa caía por Francia.",
+   "fuentes": [
+    {
+     "t": "Bloomberg (la banca europea cae con los bonos, 7-oct)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/european-bank-stocks-sink-toward-lowest-since-july-as-bonds-fall"
+    }
+   ]
+  },
+  {
+   "activo": "Trigo y cobre",
+   "cambio": "+7,6 % y +4,6 %",
+   "por_que": "El trigo sube por ==el encarecimiento de fertilizantes y transporte== con la crisis energética (máximo de 767 el 28 de agosto, +32 %) y devuelve parte desde septiembre. El cobre se apoya en la electrificación y los centros de datos (máximo el 9 de septiembre).",
+   "fuentes": [
+    {
+     "t": "Endowus (resumen del tercer trimestre 2026)",
+     "u": "https://endowus.com/article/q3-2026-market-update-outlook"
+    }
+   ]
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "−34,5 % (8.476 → 5.550)",
+   "por_que": "==La otra cara de haber doblado en el primer semestre==: la caída récord de SK hynix el 13 de julio, el desplome de las posiciones en chips de finales de julio (−22 % en el mes) y, en octubre, la memoria china de CXMT y las dudas sobre la rentabilidad de la IA (−18,8 % en el mes). Samsung y SK hynix pesan más del 40 % del índice.",
+   "fuentes": [
+    {
+     "t": "Advisor Perspectives / Bloomberg (SK hynix, mayor caída de su historia)",
+     "u": "https://www.advisorperspectives.com/articles/2026/07/13/sk-hynix-shares-plunge-record-deepening-korea-selloff"
+    },
+    {
+     "t": "Saxo (chips y resultados, 22-oct)",
+     "u": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-sold-off-after-key-earnings---22-october-2026-22102026"
+    }
+   ]
+  },
+  {
+   "activo": "Uranio (ETF URA)",
+   "cambio": "−21,9 %",
+   "por_que": "Era una apuesta por la demanda eléctrica de la IA. ==Los tipos al 5 % encarecen proyectos nucleares de muy largo plazo== y las dudas sobre los centros de datos han golpeado todo lo ligado a la IA. Mínimo del año el 22 de octubre.",
+   "fuentes": [
+    {
+     "t": "Saxo (chips y resultados, 22-oct)",
+     "u": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-sold-off-after-key-earnings---22-october-2026-22102026"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "−10,5 %",
+   "por_que": "Los equipos de chips (Tokyo Electron, Advantest) caen con la IA (−8,1 % en julio, −6,1 % en octubre) y ==el yen fuerte resta valor a los beneficios de los exportadores==. Japón importa casi todo su crudo.",
+   "fuentes": [
+    {
+     "t": "Saxo (chips y resultados, 22-oct)",
+     "u": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-sold-off-after-key-earnings---22-october-2026-22102026"
+    },
+    {
+     "t": "Nation Thailand (el Banco de Japón sube al 1,25 %)",
+     "u": "https://www.nationthailand.com/news/world/40071184"
+    }
+   ]
+  },
+  {
+   "activo": "Shanghái Composite (China)",
+   "cambio": "−9,9 %",
+   "por_que": "La tecnología china se hundió a finales de julio (el STAR 50, un 26 %) y ==las esperanzas de estímulo se diluyen== con un crecimiento del 4,5 % en el tercer trimestre y tipos sin cambios. Cierra cerca del mínimo del año; el CSI 300 roza el mercado bajista (−20 % desde junio).",
+   "fuentes": [
+    {
+     "t": "Endowus (resumen del tercer trimestre 2026)",
+     "u": "https://endowus.com/article/q3-2026-market-update-outlook"
+    }
+   ]
+  },
+  {
+   "activo": "Russell 2000 (pequeñas de EE. UU.)",
+   "cambio": "−8,2 %",
+   "por_que": "==Las pequeñas son las más endeudadas y a tipo variable==: cada subida de la TIR les encarece la financiación. Cayó un 5,4 % en septiembre con la Fed y el 10 años por encima del 5 %.",
+   "fuentes": [
+    {
+     "t": "Invezz (el 10 años supera el 5 % al descontar una subida)",
+     "u": "https://invezz.com/news/2026/09/14/us-10-year-yield-tops-5-as-markets-price-fed-hike/"
+    }
+   ]
+  },
+  {
+   "activo": "CAC 40 (Francia)",
+   "cambio": "−7,4 %",
+   "por_que": "==La crisis presupuestaria y política==: un presupuesto de 2027 con emisión récord y un déficit que no baja del 5 %, Gobierno sin mayoría y disturbios en octubre. Castiga a su banca, gran tenedora de deuda pública, y el lujo sufre por el consumidor chino.",
+   "fuentes": [
+    {
+     "t": "Option Finance (el riesgo soberano francés, en niveles de la crisis del euro)",
+     "u": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-10-01-france-le-risque-souverain-retrouve-ses-niveaux-de-la-crise-de-la-dette-europeenne.html"
+    },
+    {
+     "t": "Hedgeweek (los fondos amplifican la venta de deuda francesa)",
+     "u": "https://hedgeweek.com/news/hedge-fund-trade-unwinds-amplify-french-bond-market-rout"
+    },
+    {
+     "t": "Babypips (por qué importa el diferencial OAT–Bund)",
+     "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+    }
+   ]
+  },
+  {
+   "activo": "Bono de EE. UU. a 10 años (precio)",
+   "cambio": "TIR +57 pb (4,42 % → 4,99 %)",
+   "por_que": "==Fed que sube, petróleo que alimenta la inflación y más prima por plazo== por el déficit y las emisiones. Cerró en el 5,31 % el 5 de octubre y desde entonces baja con las dudas sobre la IA. Detalle en el bloque de tipos.",
+   "fuentes": [
+    {
+     "t": "Roic.ai (el 10 años en máximos desde 2002)",
+     "u": "https://www.roic.ai/news/us-10-year-treasury-yield-touches-5304-highest-since-may-2002-09-30-2026"
+    },
+    {
+     "t": "Invezz (el 10 años supera el 5 % al descontar una subida)",
+     "u": "https://invezz.com/news/2026/09/14/us-10-year-yield-tops-5-as-markets-price-fed-hike/"
+    },
+    {
+     "t": "CNBC (bonos e IA, 22-oct)",
+     "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+    }
+   ]
+  },
+  {
+   "activo": "Plata",
+   "cambio": "−9,7 % (59,5 $ → 53,7 $)",
+   "por_que": "Ida y vuelta: +15 % en agosto con el empleo flojo y ==−19 % desde entonces con la Fed subiendo y el dólar fuerte==; su uso industrial pesa en un mundo con dudas sobre el crecimiento. Mínimo del año el 23 de octubre.",
+   "fuentes": [
+    {
+     "t": "Endowus (resumen del tercer trimestre 2026)",
+     "u": "https://endowus.com/article/q3-2026-market-update-outlook"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Guerra con Irán y petróleo: segunda ronda",
+   "texto": "El memorando del 17 de junio (60 días para negociar, alivio parcial de sanciones) ==aguantó tres semanas==. El 8 de julio, tras ataques a tres buques comerciales en Ormuz y represalias de EE. UU., Trump lo dio por terminado y el Tesoro retiró la exención que permitía a Irán vender petróleo; el Brent saltó más de un 7 % ese día. Siguieron los ataques en Ormuz y Bab el-Mandeb, el cierre del oleoducto saudí Este–Oeste en septiembre y nuevos ataques en octubre. ==El petróleo vuelve a ser la correa de transmisión==: más inflación, más tipos, castigo a los importadores (Europa, India, Japón) y premio a los exportadores (Brasil, Noruega, petroleras: los fondos de energía ganan un 20–27 %).",
+   "fuentes": [
+    {
+     "t": "The Week (se rompe el alto el fuego, 9-jul)",
+     "u": "https://www.theweek.in/news/defence/2026/07/09/opinion-patience-runs-out-the-us-iran-ceasefire-collapses-into-strikes.html"
+    },
+    {
+     "t": "FN2 (colapso del alto el fuego, petróleo y Ormuz, julio)",
+     "u": "https://fn2.ai/blog/iran-ceasefire-collapse-oil-hormuz-july-2026"
+    },
+    {
+     "t": "Hellenic Shipping News / GlobalData (el petróleo vuelve a cobrar el riesgo)",
+     "u": "https://www.hellenicshippingnews.com/oil-markets-reprice-risk-as-us-iran-ceasefire-falters-again-says-globaldata/"
+    },
+    {
+     "t": "S&P Global (Brent por encima de 90 $ por Ormuz y Bab el-Mandeb)",
+     "u": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/072226-factbox-ice-brent-holds-above-90b-on-hormuz-bab-al-mandab-shipping-risks"
+    },
+    {
+     "t": "Khaleej Times (Brent por encima de 107 $ por ataques y cierre del oleoducto saudí)",
+     "u": "https://www.khaleejtimes.com/business/brent-rises-above-107-as-attacks-pipeline-outage-deepen-saudi-supply-concerns"
+    }
+   ]
+  },
+  {
+   "tema": "Bancos centrales: tres subidas en ocho días",
+   "texto": "El BCE mantuvo en julio y ==subió al 2,50 % el 10 de septiembre== con la inflación en el 3,8 % (energía +18,8 %). La Fed, ya con Warsh, subió al 3,75–4,00 % el 16 de septiembre por unanimidad y sus puntos piden otra subida este año. El Banco de Japón subió al 1,25 % el 18. Desde entonces el mensaje se ha moderado: con solo 29.000 empleos en septiembre, ==una subida de la Fed el 28 de octubre está casi descartada (~5 %)==, pero diciembre sigue en ~75 % porque el IPC de septiembre (3,7 %) salió más alto de lo esperado.",
+   "fuentes": [
+    {
+     "t": "Banco de España (el BCE mantiene tipos en julio)",
+     "u": "https://www.bde.es/wbe/en/noticias-eventos/actualidad-bce/decisiones-politica-monetaria/tipos-de-interes--julio-2026.html"
+    },
+    {
+     "t": "Il Foglio (segunda subida del BCE, 10-sep)",
+     "u": "https://www.ilfoglio.it/en/economy/2026/09/10/news/the-ecb-raises-interest-rates-this-is-the-second-rise-of-2026--407136"
+    },
+    {
+     "t": "Morningstar (la Fed sube tipos, sep-2026)",
+     "u": "https://www.morningstar.com/economy/with-inflation-elevated-federal-reserve-hikes-interest-rates"
+    },
+    {
+     "t": "Chase (la Fed sube y señala otra subida en 2026)",
+     "u": "https://www.chase.com/personal/investments/learning-and-insights/article/federal-reserve-raises-rates-officials-signal-one-more-hike-in-2026"
+    },
+    {
+     "t": "Nation Thailand (el Banco de Japón sube al 1,25 %)",
+     "u": "https://www.nationthailand.com/news/world/40071184"
+    },
+    {
+     "t": "Yahoo Finance (menos apuestas por una subida de la Fed)",
+     "u": "https://finance.yahoo.com/markets/article/bond-traders-are-backing-off-fed-rate-hike-bets--heres-what-it-means-for-mortgage-rates-180507914.html"
+    }
+   ]
+  },
+  {
+   "tema": "Bonos al 5 %: tipos reales y prima por plazo",
+   "texto": "El 10 años de EE. UU. superó el 5 % el 14 de septiembre y ==cerró en el 5,31 % el 5 de octubre, máximo desde 2002==. La inflación esperada a 5 años sigue en torno al 2,4 %, así que ==la subida es de tipos reales==: Fed más dura y más prima por plazo por el déficit, la deuda federal por encima de 40 billones de dólares y la emisión de bonos de empresas para financiar la IA. Con el bono sin riesgo al 5 %, todo lo que se valora a largo plazo se abarata: pequeñas compañías, inmobiliario, eléctricas, energías limpias. En octubre la tendencia se ha girado (−30 pb) por el refugio y las dudas sobre el crecimiento.",
+   "fuentes": [
+    {
+     "t": "Roic.ai (el 10 años en máximos desde 2002)",
+     "u": "https://www.roic.ai/news/us-10-year-treasury-yield-touches-5304-highest-since-may-2002-09-30-2026"
+    },
+    {
+     "t": "Invezz (el 10 años supera el 5 % al descontar una subida)",
+     "u": "https://invezz.com/news/2026/09/14/us-10-year-yield-tops-5-as-markets-price-fed-hike/"
+    },
+    {
+     "t": "BBVA Research (suben las TIR reales; inflación implícita estable)",
+     "u": "https://www.bbvaresearch.com/en/publicaciones/us-treasury-yields-rise-as-geopolitical-risks-resurface/"
+    },
+    {
+     "t": "CNBC (bonos e IA, 22-oct)",
+     "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+    },
+    {
+     "t": "Eurasia Business News (subasta a 10 años muy demandada, 7-oct)",
+     "u": "https://eurasiabusinessnews.com/2026/10/07/stock-market-today-treasury-yields-retreat-after-strong-auction-dow-slips/"
+    }
+   ]
+  },
+  {
+   "tema": "Inteligencia artificial (IA): de motor a duda",
+   "texto": "Los beneficios siguieron fuertes (S&P 500 +52 % interanual en el segundo trimestre), pero ==las posiciones en chips estaban saturadas==. Primer aviso a finales de julio (Kospi −22 % en el mes tras SK hynix), segundo el 14 de septiembre (SOX −5,9 % cuando varios líderes de la IA pidieron frenar el desarrollo) y el golpe de octubre: memoria china de CXMT, ingresos de OpenAI menores de lo publicado, rumores sobre CoreWeave y Meta y Tesla el día 22. ==Por primera vez el miedo llega al crédito==: el diferencial high yield sube 65 pb, hasta el 3,40 %. El dinero rota hacia salud, consumo básico y Europa defensiva.",
+   "fuentes": [
+    {
+     "t": "FactSet (temporada de resultados, agosto)",
+     "u": "https://insight.factset.com/sp-500-earnings-season-update-august-7-2026"
+    },
+    {
+     "t": "Advisor Perspectives / Bloomberg (SK hynix, mayor caída de su historia)",
+     "u": "https://www.advisorperspectives.com/articles/2026/07/13/sk-hynix-shares-plunge-record-deepening-korea-selloff"
+    },
+    {
+     "t": "FXStreet (el miedo a frenar la IA golpea a los chips)",
+     "u": "https://www.fxstreet.com/news/equities-ai-slowdown-fears-hit-chip-stocks-deutsche-bank-202609150639"
+    },
+    {
+     "t": "Saxo (chips y resultados, 22-oct)",
+     "u": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-sold-off-after-key-earnings---22-october-2026-22102026"
+    },
+    {
+     "t": "CNBC (bonos e IA, 22-oct)",
+     "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+    }
+   ]
+  },
+  {
+   "tema": "Francia, Europa y los emergentes",
+   "texto": "Europa paga dos veces: por la energía, que importa, y por Francia, con una deuda del 119 % del PIB, un presupuesto de 2027 con emisión récord y presidenciales en 2027. ==Su diferencial con el Bund pasó de unos 90 pb a principios de septiembre a más de 150 pb en octubre== (154 pb el 21) y la OAT tocó el 5 %; los fondos de cobertura amplificaron la venta al deshacer operaciones entre bonos y swaps. Italia se contagia (BTP–Bund de 87 a 97 pb en septiembre); España aguanta (≈ 67 pb). En emergentes, ==Brasil gana con las materias primas y las urnas== y China, Corea e India pierden; Indonesia se hundió en octubre por la amenaza de MSCI de rebajarla de categoría.",
+   "fuentes": [
+    {
+     "t": "Option Finance (el riesgo soberano francés, en niveles de la crisis del euro)",
+     "u": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-10-01-france-le-risque-souverain-retrouve-ses-niveaux-de-la-crise-de-la-dette-europeenne.html"
+    },
+    {
+     "t": "Hedgeweek (los fondos amplifican la venta de deuda francesa)",
+     "u": "https://hedgeweek.com/news/hedge-fund-trade-unwinds-amplify-french-bond-market-rout"
+    },
+    {
+     "t": "Money.it (BTP, OAT y Bund)",
+     "u": "https://www.money.it/spread-btp-bund-verso-quota-130-con-rendimenti-al-470-francia-peggio-dell-italia-oat-puntano-al-5"
+    },
+    {
+     "t": "Bloomberg (la banca europea cae con los bonos, 7-oct)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/european-bank-stocks-sink-toward-lowest-since-july-as-bonds-fall"
+    },
+    {
+     "t": "Trading Economics (Ibovespa y encuestas de la segunda vuelta)",
+     "u": "https://tradingeconomics.com/brazil/stock-market/news/593227"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "Ha sido una venta de bonos en toda regla, en cuatro tiempos. ==Julio (10 años de EE. UU. +33 pb)==: la ruptura del alto el fuego disparó el petróleo y la inflación esperada, y el mercado empezó a descontar una subida de la Fed. ==Agosto (+1 pb)== fue una pausa: el empleo de julio salió negativo (−23.000) y la probabilidad de subida en septiembre bajó. ==Septiembre (+54 pb)== lo juntó todo: IPC (índice de precios de consumo) subyacente caliente, la subida de la Fed del día 16 con unos puntos que piden más, el Brent en 108 $ y subastas con poca demanda. Y ==octubre (−30 pb)== es el giro: tras cerrar en el 5,31 % el día 5, un empleo de solo 29.000 en septiembre, unas subastas muy demandadas el 7 y el 8, y la venta de tecnología han llevado dinero a los bonos; el 22 de octubre el 10 años cayó 19 pb, su mayor bajada diaria desde 2023. En el conjunto, el 2 años sube 51 pb (4,14 % → 4,65 %) por la Fed y el 10 años 57 pb (4,42 % → 4,99 %): la curva se empina algo (de 28 a ~34 pb) porque ==a la Fed se ha sumado prima por plazo== (déficit, oferta de deuda pública y de empresas para la IA, volatilidad de los bonos: índice MOVE +44 %). Como la inflación esperada a 5 años sigue en ~2,4 %, la subida es de tipos reales, y por eso cualquier duda sobre el crecimiento la deshace deprisa.\n\nEn la zona euro, la curva AAA (≈ Bund) ha subido casi tanto como la estadounidense: 2 años +53 pb (2,48 % → 3,01 %) y 10 años +46 pb (2,92 % → 3,38 %), con máximos del 3,25 % y el 3,63 % a finales de septiembre. El mecanismo: ==la subida del BCE de septiembre y la expectativa de una tercera con la inflación al 3,8 %==, más el contagio de las TIR de EE. UU., porque los bonos del mundo compiten por el mismo dinero. En octubre ha bajado (2 años −15 pb, 10 años −20 pb) por la huida a la calidad dentro del euro: ==se vende deuda francesa e italiana y se compra alemana==. El diferencial de Francia con Alemania supera los 150 pb (unos 90 pb a principios de septiembre), el de Italia rondaba los 97 pb a finales de septiembre y el de España sigue contenido (≈ 67 pb). En el crédito, el diferencial high yield de EE. UU. sube 65 pb (2,75 % → 3,40 %), la mitad en septiembre y el resto en octubre con la deuda de la IA.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "+51 pb (4,14 % → 4,65 %, dato del 22-oct)",
+    "por_que": "==Sigue a la Fed==: de dudar sobre una subida a verla en septiembre y descontar otra en diciembre (~75 %). Julio +14, agosto +6, septiembre +54 y octubre −23 pb. Máximo del 4,92 % el 28 de septiembre.",
+    "fuentes": [
+     {
+      "t": "Morningstar (la Fed sube tipos, sep-2026)",
+      "u": "https://www.morningstar.com/economy/with-inflation-elevated-federal-reserve-hikes-interest-rates"
+     },
+     {
+      "t": "Yahoo Finance (menos apuestas por una subida de la Fed)",
+      "u": "https://finance.yahoo.com/markets/article/bond-traders-are-backing-off-fed-rate-hike-bets--heres-what-it-means-for-mortgage-rates-180507914.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "+57 pb (4,42 % → 4,99 %)",
+    "por_que": "Fed + petróleo + ==prima por plazo==. Cerró en el 5,31 % el 5 de octubre (máximo desde 2002) y ha bajado 32 pb desde entonces, 19 de ellos el 22 de octubre por el refugio y la menor probabilidad de una subida en octubre.",
+    "fuentes": [
+     {
+      "t": "Roic.ai (el 10 años en máximos desde 2002)",
+      "u": "https://www.roic.ai/news/us-10-year-treasury-yield-touches-5304-highest-since-may-2002-09-30-2026"
+     },
+     {
+      "t": "Invezz (el 10 años supera el 5 % al descontar una subida)",
+      "u": "https://invezz.com/news/2026/09/14/us-10-year-yield-tops-5-as-markets-price-fed-hike/"
+     },
+     {
+      "t": "CNBC (bonos e IA, 22-oct)",
+      "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+     },
+     {
+      "t": "FRED (TIR del Tesoro a 10 años)",
+      "u": "https://fred.stlouisfed.org/series/DGS10"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "+41 pb (4,90 % → 5,32 %)",
+    "por_que": "Llegó al 5,67 % el 5 de octubre. ==Sube menos que el 10 años porque un crudo caro también se lee como freno al crecimiento== y las subastas a largo plazo de octubre encontraron compradores.",
+    "fuentes": [
+     {
+      "t": "Eurasia Business News (subasta a 10 años muy demandada, 7-oct)",
+      "u": "https://eurasiabusinessnews.com/2026/10/07/stock-market-today-treasury-yields-retreat-after-strong-auction-dow-slips/"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "+53 pb (2,48 % → 3,01 %, dato del 22-oct)",
+    "por_que": "==Subida del BCE el 10 de septiembre (2,50 %)== y expectativa de otra en diciembre con la inflación al 3,8 %. Julio +28, agosto +10, septiembre +30 y octubre −15 pb.",
+    "fuentes": [
+     {
+      "t": "Il Foglio (segunda subida del BCE, 10-sep)",
+      "u": "https://www.ilfoglio.it/en/economy/2026/09/10/news/the-ecb-raises-interest-rates-this-is-the-second-rise-of-2026--407136"
+     },
+     {
+      "t": "Option Finance (inflación confirmada al 3,8 %, 16-oct)",
+      "u": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-10-16-zone-euro-linflation-confirmee-a-38-en-septembre.html"
+     },
+     {
+      "t": "Admiral Markets (reunión del BCE de octubre)",
+      "u": "https://admiralmarkets.com/analytics/traders-blog/ecb-meeting-october-2026"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "+46 pb (2,92 % → 3,38 %, dato del 22-oct)",
+    "por_que": "BCE, inflación energética y ==contagio de las TIR de EE. UU.==; máximo del 3,63 % el 28 de septiembre. En octubre baja porque el Bund recibe el dinero que sale de Francia e Italia.",
+    "fuentes": [
+     {
+      "t": "Il Foglio (segunda subida del BCE, 10-sep)",
+      "u": "https://www.ilfoglio.it/en/economy/2026/09/10/news/the-ecb-raises-interest-rates-this-is-the-second-rise-of-2026--407136"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Francia–Alemania (10 años)",
+    "cambio": "≈ de 90 pb (principios de septiembre) a más de 150 pb (octubre)",
+    "por_que": "==Riesgo fiscal y político==: deuda del 119 % del PIB, déficit cercano al 5 %, presupuesto bloqueado, disturbios y presidenciales de 2027. La OAT tocó el 5 % el 21 de octubre. Cifras de prensa: el panel no tiene serie propia.",
+    "fuentes": [
+     {
+      "t": "Option Finance (el riesgo soberano francés, en niveles de la crisis del euro)",
+      "u": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-10-01-france-le-risque-souverain-retrouve-ses-niveaux-de-la-crise-de-la-dette-europeenne.html"
+     },
+     {
+      "t": "Hedgeweek (los fondos amplifican la venta de deuda francesa)",
+      "u": "https://hedgeweek.com/news/hedge-fund-trade-unwinds-amplify-french-bond-market-rout"
+     },
+     {
+      "t": "Babypips (por qué importa el diferencial OAT–Bund)",
+      "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+     },
+     {
+      "t": "Money.it (BTP, OAT y Bund)",
+      "u": "https://www.money.it/spread-btp-bund-verso-quota-130-con-rendimenti-al-470-francia-peggio-dell-italia-oat-puntano-al-5"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial high yield EE. UU.",
+    "cambio": "+65 pb (2,75 % → 3,40 %)",
+    "por_que": "==El miedo llega al crédito==: tipos al 5 % y dudas sobre la deuda de los centros de datos de IA. Bajó en agosto (−22 pb) y subió en septiembre (+49) y octubre (+28).",
+    "fuentes": [
+     {
+      "t": "CNBC (bonos e IA, 22-oct)",
+      "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Roic.ai (el 10 años en máximos desde 2002)",
+    "u": "https://www.roic.ai/news/us-10-year-treasury-yield-touches-5304-highest-since-may-2002-09-30-2026"
+   },
+   {
+    "t": "Morningstar (la Fed sube tipos, sep-2026)",
+    "u": "https://www.morningstar.com/economy/with-inflation-elevated-federal-reserve-hikes-interest-rates"
+   },
+   {
+    "t": "Il Foglio (segunda subida del BCE, 10-sep)",
+    "u": "https://www.ilfoglio.it/en/economy/2026/09/10/news/the-ecb-raises-interest-rates-this-is-the-second-rise-of-2026--407136"
+   },
+   {
+    "t": "Option Finance (el riesgo soberano francés, en niveles de la crisis del euro)",
+    "u": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-10-01-france-le-risque-souverain-retrouve-ses-niveaux-de-la-crise-de-la-dette-europeenne.html"
+   },
+   {
+    "t": "CNBC (bonos e IA, 22-oct)",
+    "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+   },
+   {
+    "t": "BBVA Research (suben las TIR reales; inflación implícita estable)",
+    "u": "https://www.bbvaresearch.com/en/publicaciones/us-treasury-yields-rise-as-geopolitical-risks-resurface/"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "En lo que va de semestre hay 3.367 fondos con dato (VL, valor liquidativo, del 21 al 23 de octubre según el fondo). ==El ranking es casi el espejo del primer semestre==: arriba, energía (Guinness Global Energy +26,9 %, BGF World Energy +22,3 %) y Brasil (cinco fondos entre +22 % y +26 %); abajo, China tecnológica, energías limpias y Asia con memoria (−23 % a −33 %), con varios fondos que encabezaban el ranking en junio (Matthews China Innovators, Mirae Asia, PSI Polar Capital) ahora entre los peores.\n\nEl efecto divisa ha sido pequeño: el dólar sube un 1,8 % frente al euro, así que ==un fondo en dólares sin cubrir gana unos 2 puntos más en euros==. Más ha contado en libras (+2,9 %) y en yenes (+5,5 %). Por clases, solo las materias primas ganan con claridad (mediana +14,7 %); monetarios +0,7 %, alternativos +0,3 %, renta variable −0,4 %, mixtos −0,7 % y ==renta fija −2,1 %, la peor clase por segundo trimestre seguido==.",
+  "suben": [
+   {
+    "isin": "IE00B3CCJB88",
+    "por_que": "Petroleras globales: ExxonMobil, Chevron, Shell, Valero, BP y TotalEnergies. ==Con el Brent +60 %, sus beneficios se disparan==; las refineras (Valero) ganan además por la falta de capacidad de refino."
+   },
+   {
+    "isin": "LU0616856935",
+    "por_que": "Brasil: B3, Axia Energia, Vale, WEG y Petrobras. ==Doble motor: bolsa +19 % y real al alza== tras el vuelco electoral de octubre, más las materias primas."
+   },
+   {
+    "isin": "IE00B5L6ZZ16",
+    "por_que": "Capital riesgo cotizado de EE. UU. (sin cartera publicada). +23,1 % en dólares y +25,2 % en euros, ==algo llamativo con el Russell 2000 en −8 %==; perdió un 5 % en el primer semestre. Conviene confirmar el VL."
+   },
+   {
+    "isin": "IE00B23S7K36",
+    "por_que": "Brasil con Petrobras (8,9 %), Bradesco, Axia, Nu Holdings y Embraer: ==petróleo, banca y elecciones==."
+   },
+   {
+    "isin": "LU0265313147",
+    "por_que": "Brasil, clase en dólares: +22,5 % en su moneda y ==unos 2 puntos más en euros por el dólar==. Sin cartera; misma historia que el resto de fondos brasileños."
+   },
+   {
+    "isin": "ES0162305033",
+    "por_que": "Mixto flexible de estilo valor (sin cartera publicada) con +24,1 %. El comentario anual lo apartó por un VL atrasado al 30 de diciembre; ==en este semestre la base (30 de junio) es correcta==, aunque la subida es extraordinaria para un mixto."
+   },
+   {
+    "isin": "IE00BKKJBP83",
+    "por_que": "Tecnología financiera (sin cartera). ==Rebota con el bitcóin (+39 %)== tras perder un 18,6 % en el primer semestre."
+   },
+   {
+    "isin": "LU0551369712",
+    "por_que": "Brasil con Itaú, Vale, Petrobras, Nu Holdings y B3. Mismo motor. (Su cartera publicada muestra un 67 % en una línea de liquidez, ==un dato de ficha que no cuadra== con un fondo de bolsa: ver avisos.)"
+   },
+   {
+    "isin": "LU0326422176",
+    "por_que": "Petroleras (Shell, Chevron, ExxonMobil, TotalEnergies) ==cubiertas a euros==: gana por el crudo sin depender del dólar."
+   },
+   {
+    "isin": "FI4000301312",
+    "por_que": "Bolsa global flexible con +22,0 % cuando la mediana de renta variable pierde un 0,4 %. Sin cartera publicada: ==no podemos explicar la diferencia==; revisar el VL."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU1760778917",
+    "por_que": "China de crecimiento (sin cartera). ==Tecnología e internet chinos hundidos== desde finales de julio y estímulos que no llegan; Shanghái −9,9 % y el CSI 300 cerca del −20 % desde junio."
+   },
+   {
+    "isin": "LU0823414635",
+    "por_que": "Energías limpias con ==Samsung, SK hynix y Cameco entre las primeras posiciones==: suma la caída de la memoria (Kospi −34,5 %), la del uranio (−22 %) y la de las renovables, que sufren con tipos al 5 %."
+   },
+   {
+    "isin": "LU0721876364",
+    "por_que": "Innovación china (SITC, NetEase, Luckin, Huafeng, Lenovo). Ganó un 64 % en el primer semestre y ==ahora devuelve un 30 % con la tecnología china==. −31,4 % en dólares."
+   },
+   {
+    "isin": "LU2482937724",
+    "por_que": "Energía alternativa (sin cartera publicada): ==los tipos altos encarecen los proyectos renovables== y el sector ha caído con todo lo ligado a la demanda eléctrica de la IA."
+   },
+   {
+    "isin": "LU2476274647",
+    "por_que": "Tecnología china, cubierta a euros. Sin cartera; ==mismo movimiento que el resto de tecnología china==."
+   },
+   {
+    "isin": "LU2476274308",
+    "por_que": "Mismo fondo que el anterior en otra clase (el nombre dice USD, pero el dato llega en euros: ver avisos)."
+   },
+   {
+    "isin": "LU0336299580",
+    "por_que": "Asia con ==Samsung (9,8 %), TSMC (9,4 %) y SK hynix (6 %)== más equipos chinos (AMEC, NAURA): la caída de la memoria coreana y de los chips chinos."
+   },
+   {
+    "isin": "LU0593848723",
+    "por_que": "Consumo asiático, pero su cartera publicada lleva Samsung, TSMC y SK hynix, ==casi idéntica a la del Sector Leader==: eso explica la caída (−25,9 %), aunque el dato de cartera merece revisión."
+   },
+   {
+    "isin": "IE000NUQFNN0",
+    "por_que": "Polar Capital, sin cartera. Ganó un 67 % en el primer semestre con la conectividad para IA y ==devuelve un 26 % con las dudas sobre los centros de datos==."
+   },
+   {
+    "isin": "LU1710457893",
+    "por_que": "Energías limpias cubiertas a euros (sin cartera): ==tipos altos y menos demanda esperada de los centros de datos==."
+   }
+  ],
+  "por_clase": [
+   {
+    "clase": "Renta variable",
+    "texto": "Mediana −0,4 % (1.651 fondos), con extremos de +27 % y −33 %. ==Arriba, energía y Brasil==, más algunos fondos de calidad (GuardCap Global +21,8 %, Seilern America +19,8 %) y salud digital (Bellevue +19,7 %). Abajo, China, energías limpias, Asia con memoria y pequeñas compañías (Abante Quant Value Small −25 %, iMGP US Small & Mid −23 %)."
+   },
+   {
+    "clase": "Renta fija",
+    "texto": "Mediana −2,1 % (1.057 fondos). ==Cuanta más duración, más pérdida==: Vanguard 20+ Year Euro Treasury −8,6 %. Los convertibles, que ganaron un 12–24 % en el primer semestre, ahora son los peores (UBAM −12,8 %, Fisch −12,2 %) porque siguen a la bolsa tecnológica. Ganan Brasil (Bradesco +13 %, ver avisos), Noruega (corona ligada al petróleo, +6 % a +9 %), los bonos asiáticos en divisa local y los de yenes (+4,8 %)."
+   },
+   {
+    "clase": "Mixtos",
+    "texto": "Mediana −0,7 % (401 fondos). Arriba, ==los de estilo valor con energía== (Merch-Oportunidades +24 %, Gane Value Event +15 %, True Capital +12 %) y los prudentes de MFS (+11 % a +12 %). Abajo, Atmos Global (−23 %), Altex Prudent Growth (−16 %) y Varenne (−13 %)."
+   },
+   {
+    "clase": "Monetarios",
+    "texto": "Mediana +0,7 % (102 fondos). ==Los de libras ganan un 4 % en euros== (libra +2,9 % e intereses del 4 %) y los de dólares un 3 %; los de francos suizos, cerca de cero (tipo suizo nulo y franco plano frente al euro)."
+   },
+   {
+    "clase": "Alternativos",
+    "texto": "Mediana +0,3 % (145 fondos). ==Ganan los de factores y tendencia de AQR== (Style Premia +20,8 %, Delphi +13,6 %, Alternative Trend +11,6 %) y DNB TMT Long/Short (+20 %), que pueden apostar a la baja en tecnología; pierden Quadriga (−22,9 %) y algunos long/short de emergentes y Europa."
+   },
+   {
+    "clase": "Materias primas e inmobiliario",
+    "texto": "Mediana +14,7 % (9 fondos), ==la mejor clase por el petróleo y el gas==: GAM Galena +20 %, DWS Enhanced Commodity +20 %, Vontobel +17 %. Los de metales preciosos, planos (−0,3 %)."
+   },
+   {
+    "clase": "Otros",
+    "texto": "Dos fondos inversos de Bankinter: el europeo gana un 2,4 % (==Euro Stoxx 50 −4,1 %==) y el de EE. UU. pierde un 2,5 % (S&P 500 +1,7 %), lo esperable."
+   }
+  ],
+  "avisos": [
+   "==Fechas de VL distintas==: el ranking usa el VL del 21, 22 o 23 de octubre según el fondo, y algunas series de mercado (2 años de EE. UU., curva AAA, Taiwán) cierran el 22.",
+   "==Evli Global (FI4000301312) +22,0 %== y GAM Star Private Equity (IE00B5L6ZZ16) +25,2 % sin cartera publicada y muy lejos de su categoría: comprobar el VL.",
+   "HSBC GIF Brazil Equity (LU0551369712): la cartera publicada muestra un 67 % en una línea de liquidez («Capital Cash Ctrl»), impropio de un fondo de bolsa; su rentabilidad sí cuadra con el resto de fondos de Brasil.",
+   "Mirae Asset ESG Asia Great Consumer (LU0593848723): ==cartera publicada casi idéntica a la del Mirae Sector Leader== (Samsung, TSMC, SK hynix) pese a ser un fondo de consumo. Revisar la ficha.",
+   "Allianz China Future Technologies AT ACC USD (LU2476274308, ABANCA): el nombre dice USD pero el dato llega en euros (rentabilidad en euros = en divisa). Posible clase mal etiquetada.",
+   "Monetarios en libras de reparto (Fidelity Institutional GBP D, BlackRock ICS Sterling D) con rentabilidad en divisa del 0,0 %: ==el VL es fijo y el interés se reparte==, así que su +2,9 % en euros es solo el efecto libra.",
+   "Oscilaciones extremas de un semestre a otro: Altex Prudent Growth (+28 % → −16 %), UBAM Global Convertible (+24 % → −13 %), Gestión Boutique VI O (−18 % → +19 %). Las dos primeras tienen explicación de mercado; la tercera ya se avisó en el trimestral.",
+   "Merch-Oportunidades (ES0162305033): primer semestre +4,0 % y segundo +24,1 % (≈ +29 % compuesto), que no cuadra con el +37,5 % anual que se apartó por un VL atrasado al 30 de diciembre: confirma que el problema era la base del anual."
+  ]
+ },
+ "agenda": [
+  {
+   "fecha": "2026-10-25",
+   "evento": "Segunda vuelta de las elecciones en Brasil",
+   "por_que_importa": "El Bovespa (+19 % en el semestre) y el real descuentan un cambio de Gobierno; ==las encuestas dan empate técnico==."
+  },
+  {
+   "fecha": "2026-10-26",
+   "evento": "Reacción a la revisión de Moody's sobre Francia (publicada el 23 tras el cierre)",
+   "por_que_importa": "Una rebaja de nota ampliaría un diferencial ya por encima de 150 pb y presionaría a la banca europea."
+  },
+  {
+   "fecha": "2026-10-28",
+   "evento": "Reunión de la Reserva Federal (Fed)",
+   "por_que_importa": "Subida casi descartada (~5 %); importa la guía para diciembre, que decidirá si el 10 años vuelve por encima del 5 %."
+  },
+  {
+   "fecha": "2026-10-29",
+   "evento": "Reunión del BCE",
+   "por_que_importa": "Se espera pausa, con la puerta abierta a una tercera subida en diciembre; inflación al 3,8 %."
+  },
+  {
+   "fecha": "2026-10-30",
+   "evento": "Banco de Japón (29–30 de octubre), con informe de perspectivas",
+   "por_que_importa": "Otra subida reforzaría el yen, que ya gana un 5,5 % frente al euro en el semestre."
+  },
+  {
+   "fecha": "2026-11-03",
+   "evento": "Elecciones de mitad de mandato en EE. UU.",
+   "por_que_importa": "La prensa vincula esa fecha a posibles nuevos ataques contra Irán: ==riesgo de otro salto del petróleo==."
+  },
+  {
+   "fecha": "2026-11-05",
+   "evento": "Huelga nacional en Francia",
+   "por_que_importa": "Prueba de la crisis política y presupuestaria; afecta al diferencial francés y a la banca."
+  },
+  {
+   "fecha": "2026-11-06",
+   "evento": "Empleo de EE. UU. de octubre (fecha prevista)",
+   "por_que_importa": "Tras solo 29.000 empleos en septiembre, otro dato flojo restaría argumentos a la subida de diciembre."
+  },
+  {
+   "fecha": "2026-11",
+   "evento": "Resultados de NVIDIA (fecha por confirmar)",
+   "por_que_importa": "==Prueba de fuego para las dudas sobre la IA== que han hundido a Corea y a los chips."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Reunión de la Fed (8–9 de diciembre)",
+   "por_que_importa": "El mercado da ~75 % a una subida; sería la segunda del año."
+  },
+  {
+   "fecha": "2026-12-17",
+   "evento": "Reunión del BCE con nuevas proyecciones",
+   "por_que_importa": "Posible tercera subida del año si la energía mantiene la inflación cerca del 4 %."
+  },
+  {
+   "fecha": "2026-12-31",
+   "evento": "Cierre del semestre y del año",
+   "por_que_importa": "El comentario semestral definitivo se escribirá el 3 de enero."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "BoJ",
+   "def": "Banco de Japón (Bank of Japan)."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene a vencimiento. Sube cuando cae su precio, y viceversa."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+  },
+  {
+   "sigla": "Prima por plazo",
+   "def": "Rentabilidad extra que se exige por prestar a largo plazo en lugar de renovar a corto."
+  },
+  {
+   "sigla": "Tipo real",
+   "def": "Rentabilidad de un bono descontada la inflación esperada."
+  },
+  {
+   "sigla": "Curva de tipos",
+   "def": "Rentabilidades de un mismo emisor a distintos plazos; se aplana cuando los cortos suben más que los largos."
+  },
+  {
+   "sigla": "Diagrama de puntos (dot plot)",
+   "def": "Gráfico de la Fed con el tipo que cada miembro del comité ve adecuado al final de cada año."
+  },
+  {
+   "sigla": "IPC",
+   "def": "Índice de precios de consumo (inflación). La subyacente excluye energía y alimentos."
+  },
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "SOX",
+   "def": "Índice de semiconductores de Filadelfia: 30 grandes empresas de chips cotizadas en EE. UU."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia; la curva AAA del BCE agrupa los bonos de los países euro con esa nota (Alemania, Países Bajos…)."
+  },
+  {
+   "sigla": "Bund",
+   "def": "Bono del Estado alemán; referencia de la deuda sin riesgo en euros."
+  },
+  {
+   "sigla": "OAT",
+   "def": "Obligation assimilable du Trésor: bono del Estado francés."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad implícita del S&P 500 («índice del miedo»)."
+  },
+  {
+   "sigla": "MOVE",
+   "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU."
+  },
+  {
+   "sigla": "High yield",
+   "def": "Bonos de empresas con baja calificación crediticia («alto rendimiento»); su diferencial frente a la deuda pública mide el miedo en el crédito."
+  },
+  {
+   "sigla": "DXY",
+   "def": "Índice del dólar frente a una cesta de seis divisas (el euro pesa un 58 %)."
+  },
+  {
+   "sigla": "ETF",
+   "def": "Exchange-traded fund: fondo que cotiza en bolsa como una acción."
+  },
+  {
+   "sigla": "EEM",
+   "def": "ETF de iShares que replica el índice MSCI de mercados emergentes (en dólares)."
+  },
+  {
+   "sigla": "MSCI",
+   "def": "Proveedor de índices bursátiles; sus clasificaciones (desarrollado, emergente…) obligan a comprar o vender a los fondos indexados."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio diario de una participación de un fondo."
+  },
+  {
+   "sigla": "PIB",
+   "def": "Producto interior bruto."
+  },
+  {
+   "sigla": "UCITS",
+   "def": "Normativa europea de fondos armonizados; entre otras cosas limita al 10 % el peso de una sola acción en cartera."
+  },
+  {
+   "sigla": "Ormuz",
+   "def": "Estrecho entre Irán y Omán por el que pasa cerca de una quinta parte del petróleo y del gas licuado del mundo."
+  },
+  {
+   "sigla": "PCE",
+   "def": "Deflactor del gasto en consumo personal: la medida de inflación que prefiere la Fed."
+  },
+  {
+   "sigla": "CTA",
+   "def": "Commodity trading advisor: fondos que siguen tendencias en futuros (bonos, divisas, materias primas)."
+  },
+  {
+   "sigla": "BTP",
+   "def": "Buono del Tesoro Poliennale: bono del Estado italiano."
+  }
+ ],
+ "generado": "2026-10-24T13:00"
+}

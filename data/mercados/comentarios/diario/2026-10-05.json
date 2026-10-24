@@ -1,0 +1,515 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-05",
+  "fase": "completo",
+  "titulo": "Brasil se dispara tras la primera vuelta y el Nasdaq marca récord; París sufre por Francia",
+  "resumen": "El gran movimiento del día llegó de Brasil. En la primera vuelta de las presidenciales del domingo, el senador ==Flávio Bolsonaro quedó por delante de Lula==, con un 47,0 % de los votos válidos frente a un 45,2 %, cuando buena parte de las encuestas daba ventaja al presidente. La segunda vuelta será el 25 de octubre. El Bovespa subió un 7,7 %, hasta cerca de 206.900 puntos, su mayor alza diaria desde marzo de 2020, y superó por primera vez los 200.000. El real se apreció un 4,1 % y el dólar bajó de 5 reales. El mercado lee el resultado como una mayor probabilidad de relevo y de ==una política fiscal más austera a partir de 2027==, lo que hizo bajar también los tipos de interés a largo plazo brasileños. Para un inversor en euros, ==las dos subidas se suman==: los fondos de bolsa brasileña ganaron entre un 14 % y un 18 % en euros.\n\nWall Street prolongó el rebote: Nasdaq 100 +0,9 %, hasta un récord de 31.076 puntos, S&P 500 +0,7 % y Dow Jones +0,2 %, con la IA (inteligencia artificial) y los chips al frente (NVIDIA en máximos). El ISM (Institute for Supply Management) de servicios bajó a 54,9, algo por debajo de lo esperado, pero ==su componente de precios subió a 74, el más alto desde julio de 2022==. Eso explica el movimiento de la curva de tipos. La TIR (tasa interna de rentabilidad) del bono a 2 años apenas se movió, porque el mercado ya no ve una subida inminente de la Reserva Federal (Fed). La del 10 años subió 3,4 pb, hasta el 5,31 %, y la del 30 años hasta el 5,66 %, ==por la prima de inflación a largo plazo==. La volatilidad de los bonos (MOVE) saltó un 5,9 %.\n\nEuropa fue mixta. El CAC 40 cayó un 0,8 %, hasta mínimos de siete meses, ==por el riesgo fiscal y político en Francia==: la oposición no quiere pactar con un Gobierno de Macron en final de mandato, el plan es recortar el déficit al 5 % del PIB (producto interior bruto) en 2027 y crece la prima de riesgo francesa frente a Alemania. ==Schneider Electric se hundió cerca de un 10 %== tras anunciar la compra de PTC por unos 22.600 millones de euros, financiada con 5.000–6.000 millones de ampliación de capital y 16.000–17.000 millones de deuda, y Société Générale bajó un 2,5 %. En cambio, el IBEX 35 subió un 1,1 %, el FTSE MIB un 0,7 % y el Stoxx Europe 600 un 0,4 %. Parte del IBEX probablemente se debe a la exposición de la banca española a Brasil, aunque no hemos encontrado una crónica que lo confirme. En Asia, el Nikkei subió un 2,4 % y el Taiex taiwanés un 2,6 % con la tecnología: Foxconn publicó unos ingresos del tercer trimestre un 47 % superiores a los de hace un año gracias a la demanda de IA.\n\nEl petróleo bajó un 1,9 % (Brent 100,3 $, WTI 89,4 $). Por la mañana subió por una información de AFP sobre la parada del oleoducto saudí Este-Oeste tras un ataque, pero ==Bloomberg aclaró después que los flujos eran normales==. La recuperación de las exportaciones del Golfo y la liberación de reservas acordada por el G7 (grupo de las siete grandes economías avanzadas) lo devolvieron a la baja. El oro quedó plano (−0,1 %) presionado por el dólar y las rentabilidades, pero las mineras de oro cayeron con fuerza. El cobre y la plata subieron cerca de un 1,5 %. El dólar se fortaleció frente a casi todas las grandes divisas; el euro cayó alrededor de un 0,3 %, hasta 1,122 $, por Francia. La serie del panel (+0,04 %) no lo recoge todavía por su desfase de un día.",
+  "claves": [
+    "==Flávio Bolsonaro ganó la primera vuelta en Brasil contra pronóstico==: Bovespa +7,7 % (máximo histórico, por encima de 200.000) y real +4,1 %.",
+    "==En euros se suman bolsa y divisa==: los fondos de bolsa brasileña subieron entre un 14 % y un 18 %, y los de Latinoamérica entre un 10 % y un 14 %.",
+    "El Nasdaq 100 marcó un récord (+0,9 %) con los chips; ==el ISM de servicios mostró precios en máximos desde 2022== y la TIR a 10 años subió al 5,31 %.",
+    "París (−0,8 %, mínimo de siete meses) sufrió por ==el riesgo fiscal y político francés== y por el desplome de Schneider (~−10 %) tras comprar PTC.",
+    "El petróleo cayó un 1,9 % ==tras desmentirse la parada de un oleoducto saudí==; las mineras de oro bajaron con fuerza con el oro plano."
+  ],
+  "suben": [
+    {
+      "activo": "Bovespa (Brasil)",
+      "cambio": "+7,7 %",
+      "por_que": "Flávio Bolsonaro superó a Lula en la primera vuelta (47,0 % frente a 45,2 %), contra lo que daban las encuestas. El mercado descuenta ==más probabilidad de relevo y de ajuste fiscal desde 2027==: bajan los tipos de interés a largo, sube el real y se revalorizan las empresas domésticas y semipúblicas. Es la mayor subida diaria desde marzo de 2020 y un récord por encima de 200.000 puntos.",
+      "fuentes": [
+        {
+          "t": "Correio da Manhã",
+          "u": "https://www.correiodamanha.com.br/economia/2026/10/amp/324430-ibovespa-dispara-apos-eleicao-e-supera-200-mil-pontos.html"
+        },
+        {
+          "t": "O Povo",
+          "u": "https://mais.opovo.com.br/jornal/economia/2026/10/06/ibovespa-rompe-200-mil-pontos-e-bate-recordes-com-euforia-apos-1-turno.html"
+        },
+        {
+          "t": "Nomad",
+          "u": "https://www.nomadglobal.com/portal/analises/rali-pos-eleicao-ibovespa-bate-recorde-e-dolar-despenca-05-10"
+        }
+      ]
+    },
+    {
+      "activo": "Taiex (Taiwán)",
+      "cambio": "+2,6 %",
+      "por_que": "Tecnología e IA: ==Foxconn publicó unos ingresos del tercer trimestre un 47 % superiores== a los de hace un año. Taiwán concentra la fabricación de chips y servidores para IA, así que cada dato de demanda mueve al índice.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1595"
+        }
+      ]
+    },
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "+2,4 %",
+      "por_que": "==Siguió el tirón de los chips y de la IA en Asia==, tras el récord de la tecnología de EE. UU. del viernes. No hemos localizado una crónica japonesa con causas propias.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1595"
+        }
+      ]
+    },
+    {
+      "activo": "MSCI Emergentes (ETF EEM, en USD)",
+      "cambio": "+1,6 %",
+      "por_que": "==Brasil, Taiwán y Corea pesan mucho en el índice emergente==, y los tres subieron con fuerza (Brasil por las elecciones; Taiwán y Corea por los chips).",
+      "fuentes": [
+        {
+          "t": "Nomad",
+          "u": "https://www.nomadglobal.com/portal/analises/rali-pos-eleicao-ibovespa-bate-recorde-e-dolar-despenca-05-10"
+        }
+      ]
+    },
+    {
+      "activo": "IBEX 35 (España)",
+      "cambio": "+1,1 %",
+      "por_que": "Fue de las mejores bolsas europeas. Es probable que ayudara ==la exposición de la gran banca española a Brasil y Latinoamérica==, que se dispararon, pero no hemos encontrado una crónica que lo confirme.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-oct-nasdaq-close-at-record-as-the-dollar-firms-oil-falls/"
+        }
+      ]
+    },
+    {
+      "activo": "Nasdaq 100 (tecnológicas EE. UU.)",
+      "cambio": "+0,9 % (récord)",
+      "por_que": "==La IA y los chips siguieron tirando== (NVIDIA en máximos). El empleo flojo del viernes alejó otra subida de la Fed y eso favorece a las compañías de crecimiento.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-oct-nasdaq-close-at-record-as-the-dollar-firms-oil-falls/"
+        }
+      ]
+    },
+    {
+      "activo": "Cobre / plata",
+      "cambio": "+1,4 % / +1,5 %",
+      "por_que": "==Metales industriales apoyados por el buen tono de los emergentes== y por la tecnología (centros de datos, redes eléctricas). No hay una noticia concreta del metal.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1595"
+        }
+      ]
+    },
+    {
+      "activo": "MOVE (volatilidad bonos EE. UU.)",
+      "cambio": "+5,9 %",
+      "por_que": "==La curva se empinó==: el tramo largo subió por la inflación de servicios (precios del ISM en 74) mientras el corto quedaba quieto. Además, esa semana había subastas de deuda con rentabilidades en máximos de décadas.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-oct-nasdaq-close-at-record-as-the-dollar-firms-oil-falls/"
+        },
+        {
+          "t": "Penn Mutual AM",
+          "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "CAC 40 (Francia)",
+      "cambio": "−0,8 %",
+      "por_que": "==Mínimo de siete meses por el riesgo fiscal y político==: no hay compromiso de la oposición con el Gobierno, el ajuste es de 54.000 millones para bajar el déficit al 5 % del PIB en 2027 y Le Pen y Mélenchon se ven en la segunda vuelta de 2027. Pesaron Schneider (~−10 %, compra de PTC con mucha deuda y ampliación de capital) y Société Générale (−2,5 %).",
+      "fuentes": [
+        {
+          "t": "Trading Economics",
+          "u": "https://tradingeconomics.com/france/stock-market/news/589637"
+        },
+        {
+          "t": "RTTNews (Schneider)",
+          "u": "https://www.rttnews.com/story.aspx?Id=3696592"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo Brent / WTI",
+      "cambio": "−1,9 % / −1,8 %",
+      "por_que": "Por la mañana subió por la parada del oleoducto saudí Este-Oeste tras un ataque, según AFP. ==Bloomberg informó después de que los flujos eran normales==, y la recuperación de las exportaciones del Golfo y la liberación de reservas del G7 devolvieron el crudo a la baja, hasta 100,3 $ el Brent.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-oct-nasdaq-close-at-record-as-the-dollar-firms-oil-falls/"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "−1,7 %",
+      "por_que": "==Se contagió de la bajada del petróleo== al calmarse el temor por el suministro en el Golfo.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-oct-nasdaq-close-at-record-as-the-dollar-firms-oil-falls/"
+        }
+      ]
+    },
+    {
+      "activo": "Bono EE. UU. 10 años (precio)",
+      "cambio": "TIR +3,4 pb (5,31 %)",
+      "por_que": "El ISM de servicios mostró precios en máximos desde 2022, así que ==el mercado exige más prima por la inflación a largo plazo==. El 2 años apenas se movió porque no se espera una subida inminente de la Fed: la curva se empina.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-oct-nasdaq-close-at-record-as-the-dollar-firms-oil-falls/"
+        },
+        {
+          "t": "Stocktwits",
+          "u": "https://stocktwits.com/news-articles/markets/equity/treasury-yields-oil-bitcoin-3-charts-to-watch-before-the-fed-minutes/cZDpMJ7RBSo"
+        }
+      ]
+    },
+    {
+      "activo": "Euro / dólar",
+      "cambio": "≈ −0,3 % (1,122) según prensa; +0,04 % en la serie del panel",
+      "por_que": "El dólar subió frente a casi todas las grandes divisas. ==El euro sufrió por Francia== y por el aumento de la prima de riesgo francesa frente a Alemania. La serie del panel, con un día de desfase, mostrará esta bajada el día 6.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-oct-nasdaq-close-at-record-as-the-dollar-firms-oil-falls/"
+        }
+      ]
+    },
+    {
+      "activo": "Mineras de oro (oro −0,1 %)",
+      "cambio": "Fondos de mineras −1,7 % / −2,6 %",
+      "por_que": "El oro se acercaba a mínimos de dos meses, presionado por el dólar firme y las rentabilidades al alza. ==Las mineras amplifican los movimientos del metal porque sus costes son fijos==: una pequeña bajada del precio recorta mucho su margen.",
+      "fuentes": [
+        {
+          "t": "RoboForex",
+          "u": "https://roboforex.com/beginners/analytics/forex-forecast/commodities/xau-usd-gold-forecast-2026-10-06/"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Elecciones en Brasil",
+      "texto": "Flávio Bolsonaro (47,0 %) superó a Lula (45,2 %) en la primera vuelta, contra las encuestas. ==El mercado asocia un posible relevo a más disciplina fiscal==: bajan los tipos de interés brasileños, sube el real (+4,1 %) y se dispara la bolsa (+7,7 %), sobre todo los bancos, las empresas domésticas y las semipúblicas. La segunda vuelta, el 25 de octubre, puede deshacer o ampliar el movimiento.",
+      "fuentes": [
+        {
+          "t": "Correio da Manhã",
+          "u": "https://www.correiodamanha.com.br/economia/2026/10/amp/324430-ibovespa-dispara-apos-eleicao-e-supera-200-mil-pontos.html"
+        },
+        {
+          "t": "Mercado & Consumo",
+          "u": "https://mercadoeconsumo.com.br/05/10/2026/mc-capital/bolsa-chega-a-maxima-historica-apos-1o-turno-e-varejo-aparece-entre-os-maiores-ganhos-da-b3/amp/"
+        }
+      ]
+    },
+    {
+      "tema": "Inflación de servicios en EE. UU. y curva de tipos",
+      "texto": "El ISM de servicios (54,9) se moderó, pero ==los precios pagados subieron a 74, máximo desde julio de 2022==. Tras el empleo flojo, la Fed no parece tener prisa (2 años plano), pero ==el largo plazo exige más prima por la inflación== (10 años al 5,31 %). Una curva más empinada perjudica a los bonos largos y a los sectores que se valoran como bonos.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-oct-nasdaq-close-at-record-as-the-dollar-firms-oil-falls/"
+        }
+      ]
+    },
+    {
+      "tema": "Francia: riesgo fiscal y político",
+      "texto": "Un Gobierno en final de mandato, ==una oposición que no quiere pactar== y unas presidenciales en 2027 con los extremos favoritos mantienen la presión sobre la bolsa francesa, la prima de riesgo y el euro. Se sumó la compra de PTC por Schneider, financiada con mucha deuda y una ampliación de capital.",
+      "fuentes": [
+        {
+          "t": "Trading Economics",
+          "u": "https://tradingeconomics.com/france/stock-market/news/589637"
+        },
+        {
+          "t": "RTTNews",
+          "u": "https://www.rttnews.com/story.aspx?Id=3696592"
+        }
+      ]
+    },
+    {
+      "tema": "Inteligencia artificial (IA) y chips",
+      "texto": "==Los ingresos de Foxconn (+47 %) y el récord de NVIDIA== confirmaron la fuerza de la demanda de IA: Taiwán (+2,6 %), Japón (+2,4 %) y el Nasdaq 100 (récord) subieron juntos.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1595"
+        },
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-oct-nasdaq-close-at-record-as-the-dollar-firms-oil-falls/"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "En EE. UU. la curva se empinó. El 2 años apenas se movió (+1 pb, 4,84 %): tras el empleo flojo del viernes, el mercado da ==un 76 % de probabilidad de que la Fed no toque tipos en octubre== (reunión del 27–28). En cambio, el 10 años subió 3,4 pb, hasta el 5,31 % (llegó a 5,33–5,34 %, máximo en 24 años), y el 30 años 3,5 pb. El motivo: ==los precios del ISM de servicios, en 74, elevan la inflación esperada== a largo plazo, y la crisis fiscal francesa alimentó la venta de bonos largos en todo el mundo. Es prima por plazo, no expectativa de Fed; la volatilidad de los bonos (MOVE) subió un 5,9 %.\n\nEn la zona euro, la prensa de la mañana situaba el Bund en el 3,41 %, ==mínimo desde el 8 de septiembre, por refugio== ante el riesgo soberano de Francia. Pero la curva AAA del BCE, que se fija al cierre, marca +3,8 pb en el 10 años (3,50 %). Lo más probable es que por la tarde se impusiera el contagio del bono estadounidense tras el ISM (16:00 en Europa); no hemos encontrado una crónica de cierre que lo confirme. El 2 años quedó plano (+0,5 pb) porque Philip Lane, economista jefe del BCE, dijo ese lunes que ==el encarecimiento de la financiación ya frena la demanda==, lo que reduce las subidas necesarias. La prima de riesgo francesa siguió en máximos desde la crisis del euro de 2011.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "+1,0 pb (4,84 %)",
+        "por_que": "Quieto: ==el mercado no ve una subida inminente de la Fed== tras el empleo flojo (76 % de que mantenga tipos en octubre).",
+        "fuentes": [
+          {
+            "t": "FXStreet",
+            "u": "https://www.fxstreet.com/news/us-treasury-yields-scale-multi-year-highs-as-inflation-fears-return-202610052231"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "+3,4 pb (5,31 %; máximo intradía ≈ 5,33 %)",
+        "por_que": "==Precios del ISM de servicios en 74, máximos desde 2022==: más inflación esperada a largo plazo. Francia añadió presión a los bonos largos globales.",
+        "fuentes": [
+          {
+            "t": "FXStreet",
+            "u": "https://www.fxstreet.com/news/us-treasury-yields-scale-multi-year-highs-as-inflation-fears-return-202610052231"
+          },
+          {
+            "t": "investingLive",
+            "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-oct-nasdaq-close-at-record-as-the-dollar-firms-oil-falls/"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "+3,5 pb (5,67 %)",
+        "por_que": "El tramo más largo recoge más prima por plazo: inflación y déficit. Con el corto quieto, ==la curva se empina==."
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "+3,8 pb (3,50 %) al cierre del BCE",
+        "por_que": "Por la mañana bajó (Bund 3,41 %) por refugio; al cierre subió, ==probablemente por contagio del bono de EE. UU.== tras el ISM. Dato de prensa y serie del BCE no cuadran en la mañana.",
+        "fuentes": [
+          {
+            "t": "Trading Economics (Bund 5-oct)",
+            "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "+0,5 pb (3,00 %)",
+        "por_que": "Plano: Lane (BCE) sugirió que ==las TIR altas reducen las subidas necesarias==, aunque la inflación esté en el 3,8 %.",
+        "fuentes": [
+          {
+            "t": "Trading Economics",
+            "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589838"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Francia–Alemania (10 años)",
+        "cambio": "En máximos desde 2011 (sin cifra de cierre)",
+        "por_que": "Dudas de que Francia apruebe un presupuesto que baje el déficit antes de las presidenciales: ==la oposición no quiere pactar==. Presiona al CAC 40 y al euro.",
+        "fuentes": [
+          {
+            "t": "Trading Economics (Bund 5-oct)",
+            "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "+2 pb (3,12 %)",
+        "por_que": "Casi sin cambios: bolsas al alza compensan unos tipos largos más altos."
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "FXStreet (bonos EE. UU., 5-oct)",
+        "u": "https://www.fxstreet.com/news/us-treasury-yields-scale-multi-year-highs-as-inflation-fears-return-202610052231"
+      },
+      {
+        "t": "Trading Economics (Bund, 5-oct)",
+        "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+      },
+      {
+        "t": "Trading Economics (Lane y BCE, 6-oct)",
+        "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589838"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Día dominado por Brasil. 18 de los 20 fondos que más suben son de bolsa brasileña o latinoamericana, con subidas del 9 % al 18 % en euros. El Bovespa subió un 7,7 % y el real se apreció alrededor de un 4,5 % frente al euro; ==combinados, dan cerca de un +12,5 %==. Los fondos que superan esa cifra (DWS Brazil +18 %, HSBC Brazil +18 %) probablemente reflejan su mayor exposición a valores domésticos y semipúblicos, que subieron más que el índice, y quizá parte del +2,6 % del viernes si su VL de ese día se calculó con precios anteriores. Las clases cubiertas en euros (Barings, +11 %) ==solo cubren el dólar, no el real==, y por eso también suben mucho. La mediana de renta variable subió un 0,77 %. A la cola quedan las mineras de oro, los fondos de dispersión de volatilidad, la bolsa francesa y algunas renovables.",
+    "suben": [
+      {
+        "isin": "LU0616856935",
+        "por_que": "Bolsa brasileña con sesgo doméstico: B3 (la bolsa), Axia Energia (antigua Eletrobras), Vale, WEG, Petrobras y Equatorial. ==Las semipúblicas y las ligadas a los tipos de interés locales== son las que más ganan con la expectativa de relevo. Su +18,2 % supera el índice más la divisa (~+12,5 %)."
+      },
+      {
+        "isin": "LU0551369712",
+        "por_que": "Brasil: Itaú, Vale, Petrobras, Nu y BTG Pactual. El 67 % figura como «Capital Cash Ctrl», lo que sugiere exposición vía futuros sobre el índice más liquidez. El +17,9 % parece alto frente al índice más la divisa; podría incluir parte del viernes."
+      },
+      {
+        "isin": "LU0265313147",
+        "por_que": "Brasil (ABANCA, clase en euros): +14,7 %, coherente con el Bovespa (+7,7 %) más la subida del real y algo del viernes."
+      },
+      {
+        "isin": "LU1213835942",
+        "por_que": "Latinoamérica con mucho Brasil: Nu (9,8 %), Petrobras, Vale y BTG, además de Grupo México. Brasil pesa más de la mitad, por eso sube un 14 %."
+      },
+      {
+        "isin": "LU0072463663",
+        "por_que": "Clase en USD: +13,8 % en dólares y +14,0 % en euros. El efecto divisa euro-dólar es pequeño (~0,2 puntos); lo grande es el real. Cartera: Southern Copper, Banorte, Vale, XP y Nu."
+      },
+      {
+        "isin": "IE00B23S7K36",
+        "por_que": "Bolsa brasileña en euros (Bankinter y ABANCA): +13,9 %, ==bolsa (+7,7 %) más real (≈ +4,5 % frente al euro)==. Cartera: Petrobras, Bradesco, Axia Energia (antigua Eletrobras), Nu y Embraer, con mucho peso de banca y semipúblicas, las más favorecidas por el giro electoral."
+      },
+      {
+        "isin": "LU0399356780",
+        "por_que": "Latinoamérica con más México (Grupo México, Banorte, Cemex), lo que diluye algo el efecto Brasil: +13,1 %."
+      },
+      {
+        "isin": "LU0831102792",
+        "por_que": "Petrobras (10,5 %), Itaú, Vale y BTG: Brasil predomina, pero México y Perú (Credicorp) moderan la subida (+12,0 %)."
+      },
+      {
+        "isin": "IE0004851022",
+        "por_que": "Latinoamérica en clase cubierta en euros: la cobertura es frente al dólar, no frente al real, así que también capta la apreciación de la moneda brasileña (+11,2 %)."
+      },
+      {
+        "isin": "LU0552029406",
+        "por_que": "Petrobras, Grupo México, Nu y Banorte: Latinoamérica diversificada, +10,6 %."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU0326422689",
+        "por_que": "Mineras de oro (Barrick, Agnico Eagle, Newmont, Wheaton) en clase cubierta. ==El oro cerca de mínimos de dos meses==, por el dólar y las rentabilidades, castigó a las mineras, que amplifican el movimiento del metal; puede sumar también el −1 % del oro del viernes."
+      },
+      {
+        "isin": "LU0273159177",
+        "por_que": "Mineras de oro (Newmont 9,5 %, AngloGold, Agnico Eagle, Gold Fields): mismo motivo."
+      },
+      {
+        "isin": "FR0013396926",
+        "por_que": "Estrategia de dispersión: gana cuando las acciones se mueven de forma dispar y pierde cuando suben juntas o cuando sube la volatilidad de los índices. Es una explicación del mecanismo; no hay una noticia concreta."
+      },
+      {
+        "isin": "LU1822773807",
+        "por_que": "Energía sostenible en clase cubierta: devuelve parte del +3,1 % del viernes. ==La subida de los tipos a largo (+3,4 pb) pesa sobre las renovables==, financiadas con mucha deuda, y Schneider (1,25 % de la cartera) se hundió."
+      },
+      {
+        "isin": "LU2482937724",
+        "por_que": "Energía alternativa: misma presión de los tipos a largo sobre las renovables."
+      },
+      {
+        "isin": "ES0116848013",
+        "por_que": "Gestión macro global (IronIA), sin cartera en nuestros datos; el cálculo abarca solo del viernes 2 al lunes 5. Perder un 0,9 % en un día alcista apunta a ==apuestas en contra del movimiento del día==: coberturas de bolsa o bonos largos, que bajaron con la subida de la TIR a 10 años. Es una hipótesis, no lo podemos confirmar."
+      },
+      {
+        "isin": "LU1710457893",
+        "por_que": "Energía limpia en clase cubierta: mismo patrón que el resto de renovables tras el rebote del viernes."
+      },
+      {
+        "isin": "LU1494416545",
+        "por_que": "Bolsa de la zona euro (UEM): mucho peso de Francia, con el CAC 40 a −0,8 % y Schneider a ~−10 %."
+      },
+      {
+        "isin": "LU2164655040",
+        "por_que": "Otra estrategia de dispersión de volatilidad, con el mismo patrón que la de THEAM."
+      },
+      {
+        "isin": "LU0280851253",
+        "por_que": "Bonos hipotecarios de EE. UU. en clase cubierta. Un −0,7 % es mucho para unos tipos que solo subieron 1–3 pb en el tramo medio: puede recoger dos días o un ajuste de valoración. Dato a vigilar."
+      },
+      {
+        "isin": "FR0010588343",
+        "por_que": "Bolsa francesa de gran capitalización: el CAC 40 cayó a mínimos de siete meses por el riesgo fiscal y político y por Schneider y Société Générale."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-07",
+      "evento": "Actas de la reunión de septiembre de la Reserva Federal (Fed)",
+      "por_que_importa": "Dirán cuántos miembros quieren otra subida este año, en pleno debate entre un empleo flojo y una inflación de servicios persistente."
+    },
+    {
+      "fecha": "2026-10-08",
+      "evento": "Reapertura de las bolsas de China continental tras la Semana Dorada",
+      "por_que_importa": "Vuelve la liquidez a Hong Kong; además, el mercado de petróleo espera saber si China reanuda sus exportaciones de combustible."
+    },
+    {
+      "fecha": "2026-10-09",
+      "evento": "Confianza del consumidor de la Universidad de Míchigan (preliminar de octubre) y resultados de Delta y PepsiCo (día 8)",
+      "por_que_importa": "Expectativas de inflación de los hogares y primeras lecturas del consumo; arranque informal de la temporada de resultados."
+    },
+    {
+      "fecha": "2026-10-25",
+      "evento": "Segunda vuelta de las presidenciales en Brasil",
+      "por_que_importa": "Decidirá si el giro que ya ha descontado el mercado (+7,7 % en un día) se consolida o se deshace."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Reunión de la Fed",
+      "por_que_importa": "Tras el empleo flojo, el mercado da pocas probabilidades a una subida en octubre, pero los precios del ISM mantienen viva la de diciembre."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "ISM",
+      "def": "Institute for Supply Management: encuesta mensual a directores de compras de EE. UU. Por encima de 50 indica expansión."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene a vencimiento. Sube cuando cae su precio, y viceversa."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "MOVE",
+      "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU. (el «VIX de los bonos»)."
+    },
+    {
+      "sigla": "PIB",
+      "def": "Producto interior bruto: el valor de todo lo que produce un país en un año."
+    },
+    {
+      "sigla": "G7",
+      "def": "Grupo de las siete grandes economías avanzadas (EE. UU., Japón, Alemania, Reino Unido, Francia, Italia y Canadá)."
+    },
+    {
+      "sigla": "AFP",
+      "def": "Agence France-Presse, agencia de noticias francesa."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+    },
+    {
+      "sigla": "UEM",
+      "def": "Unión Económica y Monetaria: los países que usan el euro."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: precio de una participación de un fondo en una fecha."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Exchange-traded fund: fondo cotizado en bolsa."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo: fija los tipos de interés de la zona euro."
+    },
+    {
+      "sigla": "Prima por plazo",
+      "def": "Rentabilidad extra que se exige por prestar a largo plazo (riesgo de inflación y de oferta de deuda), aparte de lo que se espera de los tipos oficiales."
+    }
+  ],
+  "generado": "2026-10-23T14:30"
+}

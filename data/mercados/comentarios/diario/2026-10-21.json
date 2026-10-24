@@ -1,0 +1,550 @@
+{
+ "periodo": "diario",
+ "clave": "2026-10-21",
+ "fase": "completo",
+ "titulo": "Super Micro y SpaceX reavivan la IA: Kospi +3,3 % y Europa sube pese a Francia",
+ "resumen": "La inteligencia artificial (IA) volvió a tirar del mercado. Super Micro Computer adelantó unos ingresos preliminares de 18.500–19.500 millones de dólares para su primer trimestre fiscal, ==muy por encima de los 15.200 millones que esperaba el consenso==, y la acción subió alrededor de un 12 %, con Dell y HPE detrás; SpaceX ganó cerca de un 11 % tras presentar su primer beneficio trimestral como cotizada. Es la mejor respuesta posible a la duda que había hundido a los chips: si los fabricantes de servidores venden más de lo previsto, ==la demanda de IA sigue viva==. El Nasdaq 100 subió un 1,1 %, el S&P 500 un 0,6 % y el Dow Jones un 0,7 %; Netflix fue la nota negativa por una previsión floja para el cuarto trimestre. Tesla y Meta publicaban tras el cierre.\n\nAsia se adelantó al movimiento: el Kospi coreano subió un 3,3 % (5.736) desde mínimos de seis meses, con Samsung (+5,7 %) y SK Hynix (+5,8 %) al frente y ==la vuelta de las compras de extranjeros en SK Hynix== por primera vez en 19 sesiones; Taiwán subió un 1,3 % y el Nikkei un 0,9 %. China fue la excepción: el CSI 300 perdió cerca de un 1 % y Hong Kong un 0,9 %, con el índice chino rozando el mercado bajista (−20 % desde junio) entre la debilidad de la tecnología y ==unas esperanzas de estímulo que se diluyen== tras un crecimiento del 4,5 %.\n\nEuropa rebotó con fuerza (Euro Stoxx 50 +1,4 %, DAX +1,35 %, CAC 40 +1,1 %, IBEX 35 +1,21 % hasta 19.323) gracias a unos buenos resultados empresariales que compensaron la preocupación por Francia, donde la rentabilidad del bono a 10 años llegó a ==superar brevemente el 5 % por primera vez desde 2002== y el diferencial con Alemania abrió en torno a 154 puntos básicos (pb). Que la bolsa subiera con ese telón de fondo indica que ==el mercado trata, de momento, el problema francés como local==. La libra se apreció un 0,4 % frente al euro el día del IPC (índice de precios de consumo) británico de septiembre.\n\nEn bonos, la TIR (tasa interna de rentabilidad) del bono de EE. UU. a 10 años subió 3 pb, al 5,15 %, y la del 2 años 2 pb: los futuros dan poca probabilidad (en torno al 12–17 %) a una subida de la Reserva Federal (Fed) el 28 de octubre, ==pero sí descuentan una en diciembre==. La volatilidad cayó en todos los frentes (VIX −3,6 %, a 16,7; MOVE −5,7 %) y el diferencial de los bonos de alto rendimiento se estrechó 6 pb. El Brent llegó a tocar 112 $, máximo desde mayo, pero cerró plano (108,8 $) por informaciones de una propuesta de Catar y Pakistán para reactivar el diálogo con Irán; el −4,6 % del WTI ==se debe sobre todo al cambio de contrato de referencia== (vence noviembre, entra diciembre), no a una caída real de esa magnitud. En fondos fue el mejor día de los tres: mediana de renta variable +0,67 %, con blockchain, crecimiento de EE. UU., Corea y Taiwán arriba, y China abajo.",
+ "claves": [
+  "Super Micro (+12 %) disparó sus previsiones y SpaceX (+11 %) presentó su primer beneficio: ==la demanda de IA sigue viva== y el Nasdaq 100 subió un 1,1 %.",
+  "==El Kospi rebotó un 3,3 % desde mínimos de seis meses==, con Samsung y SK Hynix cerca de +6 %.",
+  "Europa subió con fuerza (Euro Stoxx 50 +1,4 %, IBEX 35 +1,21 %) por los resultados, pese a que el bono francés a 10 años ==tocó el 5 % por primera vez desde 2002==.",
+  "China (CSI 300 −1 %) y Hong Kong (−0,9 %) fueron la excepción, ==al borde del mercado bajista por la falta de estímulos==.",
+  "La TIR a 10 años de EE. UU. subió 3 pb (5,15 %): el mercado espera que la Fed ==no suba en octubre pero sí en diciembre==.",
+  "El Brent tocó 112 $ y cerró plano por la posible mediación de Catar y Pakistán con Irán; ==la caída del WTI es sobre todo un efecto del cambio de contrato==."
+ ],
+ "suben": [
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "+3,29 %",
+   "por_que": "Las previsiones de Super Micro, muy por encima de lo esperado, ==calmaron el miedo a un frenazo en la demanda de servidores de IA== y, con ella, de memoria: Samsung y SK Hynix subieron casi un 6 % y volvieron las compras de extranjeros.",
+   "fuentes": [
+    {
+     "t": "Korea JoongAng Daily",
+     "u": "https://www.koreajoongangdaily.com/business/kospi-rebounds-over-3-on-eased-ai-spending-woes/12932490"
+    },
+    {
+     "t": "Business Today",
+     "u": "https://www.businesstoday.com.my/2026/10/21/kospi-rebounds-3-after-six-month-low-as-samsung-sk-hynix-rally/"
+    }
+   ]
+  },
+  {
+   "activo": "Euro Stoxx 50",
+   "cambio": "+1,40 %",
+   "por_que": "==Buenos resultados empresariales del tercer trimestre compensaron las dudas por Francia==; la tecnología europea se sumó al rebote de los chips.",
+   "fuentes": [
+    {
+     "t": "U.S. News (Reuters)",
+     "u": "https://money.usnews.com/investing/news/articles/2026-10-21/european-shares-flat-as-strong-earnings-offset-french-unrest-worries"
+    }
+   ]
+  },
+  {
+   "activo": "DAX (Alemania)",
+   "cambio": "+1,35 %",
+   "por_que": "Rebote tras dos sesiones de caídas ==apoyado en resultados== y en el tono positivo de la tecnología.",
+   "fuentes": [
+    {
+     "t": "U.S. News (Reuters)",
+     "u": "https://money.usnews.com/investing/news/articles/2026-10-21/european-shares-flat-as-strong-earnings-offset-french-unrest-worries"
+    }
+   ]
+  },
+  {
+   "activo": "IBEX 35",
+   "cambio": "+1,21 %",
+   "por_que": "Recupera los 19.300 puntos (19.323,5) ==arrastrado por el rebote europeo== y la estabilidad del petróleo.",
+   "fuentes": [
+    {
+     "t": "El Español",
+     "u": "https://www.elespanol.com/invertia/mercados/20261021/ibex-bolsa-directo-hoy-cotizaciones-noticias-tiempo-real/1003744428756_10.html"
+    }
+   ]
+  },
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "+1,13 %",
+   "por_que": "Super Micro (+12 %) y SpaceX (+11 %, primer beneficio trimestral) ==reavivaron la apuesta por la IA== antes de los resultados de Tesla y Meta.",
+   "fuentes": [
+    {
+     "t": "Coinpaper",
+     "u": "https://coinpaper.com/37668/stock-market-today-nasdaq-rises-as-space-x-gains-11-super-micro-jumps-12-and-netflix-falls"
+    },
+    {
+     "t": "Chartmill",
+     "u": "https://www.chartmill.com/news/PM/Chartmill-56603-stock-market-today-spacex-super-micro-revive-ai-trade-meta-capex-tesla-q3-2026-10-21"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "+2,78 %",
+   "por_que": "Recupera parte de la caída del martes ==con el Brent tocando máximos desde mayo== durante la sesión por la tensión en Ormuz.",
+   "fuentes": [
+    {
+     "t": "FinanceFeeds",
+     "u": "https://financefeeds.com/brent-crude-oil-price-110-iran-talks-rumours-five-month-high-bull-113-bear-105/"
+    }
+   ]
+  },
+  {
+   "activo": "Bono EE. UU. 10 años (TIR)",
+   "cambio": "+2,9 pb (5,15 %)",
+   "por_que": "Más apetito por el riesgo y ==expectativas de que la Fed suba tipos en diciembre==; la probabilidad de una subida en octubre sigue baja.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/economy/policy/articles/odds-oct-28-fed-rate-082601411.html"
+    },
+    {
+     "t": "Pomegra",
+     "u": "https://pomegra.io/news/10-year-treasury-yield-holds-at-51-before-fed-meeting"
+    }
+   ]
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Petróleo WTI",
+   "cambio": "−4,56 %",
+   "por_que": "==Mayormente efecto técnico==: vencido el contrato de noviembre, la serie pasa a reflejar el de diciembre, más barato porque el mercado está en «backwardation» (los plazos cortos cotizan más caros). El Brent, sin ese cambio, cerró plano (+0,03 %) tras tocar 112 $ y retroceder por la posible mediación de Catar y Pakistán con Irán.",
+   "fuentes": [
+    {
+     "t": "FinanceFeeds",
+     "u": "https://financefeeds.com/brent-crude-oil-price-110-iran-talks-rumours-five-month-high-bull-113-bear-105/"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural EE. UU. (Henry Hub)",
+   "cambio": "−5,84 %",
+   "por_que": "Prolonga la caída de las últimas sesiones (cerca de −14 % en cuatro sesiones); sin noticia concreta localizada.",
+   "fuentes": []
+  },
+  {
+   "activo": "MOVE (volatilidad de bonos de EE. UU.)",
+   "cambio": "−5,66 %",
+   "por_que": "El mercado da por descartada una subida de la Fed en octubre, lo que ==reduce la incertidumbre a corto plazo sobre los tipos==.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/economy/policy/articles/odds-oct-28-fed-rate-082601411.html"
+    }
+   ]
+  },
+  {
+   "activo": "Shanghái Composite (China)",
+   "cambio": "−0,60 %",
+   "por_que": "La tecnología china sigue a la baja y ==un crecimiento del 4,5 % resta urgencia a los estímulos==; el CSI 300 (−1 %) se acerca a un −20 % desde junio.",
+   "fuentes": [
+    {
+     "t": "Investing.com",
+     "u": "https://www.investing.com/indices/csi300-historical-data"
+    },
+    {
+     "t": "Coinpaper",
+     "u": "https://coinpaper.com/37741/china-s-csi-300-falls-20-from-june-peak-after-tech-stocks-extend-months-long-selloff"
+    }
+   ]
+  },
+  {
+   "activo": "Hang Seng (Hong Kong)",
+   "cambio": "−0,90 %",
+   "por_que": "Mismo motivo: las grandes tecnológicas chinas (Tencent, Alibaba) ==no participaron del rebote mundial de la IA==.",
+   "fuentes": [
+    {
+     "t": "Coinpaper",
+     "u": "https://coinpaper.com/37741/china-s-csi-300-falls-20-from-june-peak-after-tech-stocks-extend-months-long-selloff"
+    }
+   ]
+  },
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "−0,86 %",
+   "por_que": "==Recogida de beneficios tras el +1,6 % del martes==; sin noticia concreta.",
+   "fuentes": []
+  },
+  {
+   "activo": "Trigo",
+   "cambio": "−2,33 %",
+   "por_que": "Cuarta sesión seguida de caídas (−4,9 % en lo que va de semana); sin noticia concreta localizada.",
+   "fuentes": []
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "La IA recupera el pulso",
+   "texto": "Super Micro anticipó ingresos muy por encima de lo previsto y SpaceX presentó su primer beneficio como cotizada. Es justo el tipo de dato que necesitaba un mercado preocupado por si el gasto en IA genera ingresos: ==los fabricantes de servidores y de memoria (Samsung, SK Hynix) lo celebraron==. Netflix, por su parte, cayó por una previsión floja, señal de que el mercado sigue siendo selectivo.",
+   "fuentes": [
+    {
+     "t": "Coinpaper",
+     "u": "https://coinpaper.com/37668/stock-market-today-nasdaq-rises-as-space-x-gains-11-super-micro-jumps-12-and-netflix-falls"
+    },
+    {
+     "t": "Korea JoongAng Daily",
+     "u": "https://www.koreajoongangdaily.com/business/kospi-rebounds-over-3-on-eased-ai-spending-woes/12932490"
+    }
+   ]
+  },
+  {
+   "tema": "Francia: el bono a 10 años toca el 5 %",
+   "texto": "La rentabilidad del OAT francés ==superó brevemente el 5 % por primera vez desde 2002== y el diferencial con el Bund abrió en torno a 154 pb. Aun así, la bolsa europea subió por los resultados: ==por ahora el mercado aísla el problema francés==. El riesgo está en la revisión de Moody's del viernes 23 y en la huelga nacional del 5 de noviembre.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html"
+    },
+    {
+     "t": "U.S. News (Reuters)",
+     "u": "https://money.usnews.com/investing/news/articles/2026-10-21/european-shares-flat-as-strong-earnings-offset-french-unrest-worries"
+    }
+   ]
+  },
+  {
+   "tema": "Reserva Federal (Fed): octubre descartado, diciembre en juego",
+   "texto": "Los futuros dan ==solo un 12–17 % de probabilidad a una subida el 28 de octubre==, pero descuentan una en diciembre. Por eso el bono a 2 años sigue subiendo poco a poco y el 10 años se mantiene por encima del 5 %, ==una losa para las valoraciones==.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/economy/policy/articles/odds-oct-28-fed-rate-082601411.html"
+    },
+    {
+     "t": "Pomegra",
+     "u": "https://pomegra.io/news/10-year-treasury-yield-holds-at-51-before-fed-meeting"
+    }
+   ]
+  },
+  {
+   "tema": "Petróleo e Irán",
+   "texto": "El Brent tocó 112 $, máximo desde mayo, por la tensión en Ormuz, pero ==lo devolvió todo ante informaciones de una propuesta de Catar y Pakistán== para reactivar las conversaciones; Trump niega negociar e Irán dice que hay contactos indirectos.",
+   "fuentes": [
+    {
+     "t": "FinanceFeeds",
+     "u": "https://financefeeds.com/brent-crude-oil-price-110-iran-talks-rumours-five-month-high-bull-113-bear-105/"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. los tipos volvieron a subir, sobre todo en el tramo medio: 2 años +2 pb (4,81 %), 5 años +3,7 pb (4,97 %), 10 años +2,9 pb (5,15 %) y 30 años +1,4 pb (5,44 %). Hay dos mecanismos. Primero, ==el apetito por el riesgo: con la bolsa al alza se venden bonos refugio==. Segundo, la Reserva Federal (Fed): una subida el 28 de octubre está casi descartada (12–17 %), pero ==el mercado da ~75 % de probabilidad a una subida en diciembre==, y el tramo de 2 a 5 años es el que mejor refleja esa senda. El Brent tocó 112 $ durante la sesión, lo que mantuvo alta la inflación esperada aunque cerrara plano.\n\nEn Europa, ==el Bund hizo de refugio aunque la bolsa subió un 1,4 %==: la deuda AAA de la zona euro a 10 años bajó 1,1 pb (3,43 %) y la de 2 años no se movió (3,03 %). La razón es Francia: ==el OAT a 10 años tocó el 5 %, máximo desde 2002== (24 años), y el diferencial con Alemania abrió en torno a 154 pb, en máximos desde 2011-2012. El mercado cobra la duda sobre el presupuesto y teme una rebaja de Moody's el viernes 23; por eso Francia ya paga más que Italia (4,85 % frente a 4,61 % el día 6). El contagio a Italia y España es limitado: a principios de mes sus diferenciales rondaban 116 y 64 pb; no tenemos el cierre del día 21.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "+2 pb (4,81 %)",
+    "por_que": "==Diciembre sigue descontado (~75 %)== y octubre casi descartado (12–17 %): el 2 años sube poco a poco.",
+    "fuentes": [
+     {
+      "t": "Trading Economics",
+      "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/593147"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 5 años",
+    "cambio": "+3,7 pb (4,97 %)",
+    "por_que": "==El tramo que más subió==: es el más sensible a cuántas subidas hará la Fed en el próximo año."
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "+2,9 pb (5,15 %)",
+    "por_que": "Tras las previsiones de Super Micro ==se venden bonos para comprar acciones==; el Brent en 112 $ durante la sesión sostuvo la inflación esperada.",
+    "fuentes": [
+     {
+      "t": "Trading Economics",
+      "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/593147"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "+1,4 pb (5,44 %)",
+    "por_que": "Subió menos que el resto: sin noticia propia; la curva entre 5 y 30 años se aplanó algo."
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "0 pb (3,03 %)",
+    "por_que": "Sin cambios: no se espera movimiento del Banco Central Europeo (BCE) el 29 de octubre."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "−1,1 pb (3,43 %)",
+    "por_que": "==Refugio frente a Francia== pese a la subida de las bolsas europeas."
+   },
+   {
+    "bono": "Diferencial Francia–Alemania 10 años",
+    "cambio": "≈ 154 pb (OAT al 5 %)",
+    "por_que": "==El OAT a 10 años tocó el 5 % por primera vez desde 2002==. Presupuesto en el aire y revisión de Moody's el 23: el inversor exige más prima.",
+    "fuentes": [
+     {
+      "t": "Reuters (vía The Daily Guardian)",
+      "u": "https://thedailyguardian.com/business/french-10-year-bond-yields-hit-5-highest-since-2002-767763/"
+     },
+     {
+      "t": "Reuters (vía Devdiscourse)",
+      "u": "https://www.devdiscourse.com/article/international/3995876-euro-zone-bond-yields-rise-as-french-borrowing-costs-hit-24-year-high"
+     },
+     {
+      "t": "MNI Market News",
+      "u": "https://marketnews.com/mni-asia-markets-analysis-oat-bund-spread-widest-since-2012"
+     }
+    ]
+   },
+   {
+    "bono": "Diferenciales de Italia y España",
+    "cambio": "sin cierre del día (≈ 116 y 64 pb el 6-10)",
+    "por_que": "Contagio limitado: se mueven en la misma dirección que Francia, pero mucho menos. Dato de prensa de principios de mes.",
+    "fuentes": [
+     {
+      "t": "QuiFinanza",
+      "u": "https://quifinanza.it/economia/finanza/spread-btp-bund-6-ottobre-2026/1018444/"
+     },
+     {
+      "t": "Il Foglio",
+      "u": "https://www.ilfoglio.it/en/economy/2026/10/01/news/frances-fiscal-crisis-is-spilling-over-into-italy--409280"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial del alto rendimiento (high yield) de EE. UU.",
+    "cambio": "−6 pb (3,27 %)",
+    "por_que": "==El buen tono de la bolsa estrecha la prima== que se exige a la deuda de peor calidad."
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Trading Economics",
+    "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/593147"
+   },
+   {
+    "t": "Reuters (vía The Daily Guardian)",
+    "u": "https://thedailyguardian.com/business/french-10-year-bond-yields-hit-5-highest-since-2002-767763/"
+   },
+   {
+    "t": "Reuters (vía Devdiscourse)",
+    "u": "https://www.devdiscourse.com/article/international/3995876-euro-zone-bond-yields-rise-as-french-borrowing-costs-hit-24-year-high"
+   },
+   {
+    "t": "MNI Market News",
+    "u": "https://marketnews.com/mni-asia-markets-analysis-oat-bund-spread-widest-since-2012"
+   },
+   {
+    "t": "QuiFinanza",
+    "u": "https://quifinanza.it/economia/finanza/spread-btp-bund-6-ottobre-2026/1018444/"
+   },
+   {
+    "t": "Il Foglio",
+    "u": "https://www.ilfoglio.it/en/economy/2026/10/01/news/frances-fiscal-crisis-is-spilling-over-into-italy--409280"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "Buen día para la renta variable: mediana +0,67 %, mixtos +0,22 % y renta fija plana. Las subidas se concentran en temáticas de crecimiento (blockchain, IA, espacio, ciberseguridad), crecimiento de EE. UU. (gama de Morgan Stanley, con SpaceX y Cloudflare en cartera), Corea y Taiwán. Las caídas, en cambio, ==son casi monográficas de China y Hong Kong==, más Turquía, India y Brasil. Hay dos efectos a tener en cuenta: los fondos de biotecnología de DWS y Erste suben ahora un 3 % porque ==su VL (valor liquidativo) va con desfase== y recoge el tirón de la sanidad del martes (el lunes ya habían salido entre los peores cuando el resto subía); y el La Française Rendement Global 2028 (−2,6 %, ahora en la lista de dudosos) es un fondo de bonos a vencimiento en clase de reparto, así que su caída es ==casi con seguridad el pago de un dividendo==. En la lista de dudosos, el BNY Mellon Global Real Return de ABANCA (−10,9 %) deshace el +12 % erróneo del día anterior.",
+  "suben": [
+   {
+    "isin": "LU2638914734",
+    "por_que": "Blockchain: empresas ligadas a las criptomonedas y a la minería de bitcoin, que ==se mueven con el bitcoin (+1,3 %)== y, cada vez más, con la demanda de centros de datos para IA."
+   },
+   {
+    "isin": "DE0009769976",
+    "por_que": "Biotecnología (Vertex, Gilead, argenx, Amgen): ==VL con desfase que recoge el liderazgo de la sanidad del martes 20==, no el día 21."
+   },
+   {
+    "isin": "LU0270816068",
+    "por_que": "Taiwán (TSMC, MediaTek, ASE): ==rebote de los semiconductores asiáticos==. Clase en dólares: +3,29 % en USD y +3,12 % en euros (el euro subió frente al dólar)."
+   },
+   {
+    "isin": "AT0000673165",
+    "por_que": "Biotecnología con ==VL desfasado: recoge el tirón de la sanidad del martes 20==, igual que el DWS. El lunes había salido entre los peores (−3,1 %) por el mismo motivo."
+   },
+   {
+    "isin": "LU2295320068",
+    "por_que": "Crecimiento global concentrado: Cloudflare, Royalty Pharma, Roivant, Tesla y SpaceX (≈ 5 %) entre sus mayores posiciones; ==el +11 % de SpaceX y el día tecnológico explican el +3 %==."
+   },
+   {
+    "isin": "LU1121088667",
+    "por_que": "Bolsa de EE. UU. (US Insight, clase Z en dólares, en IronIA): no tenemos su cartera; ==subió con el día tecnológico y de crecimiento== (Nasdaq 100 +1,1 %). +3,15 % en USD y +2,97 % en euros: el euro subió frente al dólar."
+   },
+   {
+    "isin": "LU0301637293",
+    "por_que": "Corea pura (SK Hynix, SK Square, Samsung): ==replica el +3,3 % del Kospi==."
+   },
+   {
+    "isin": "LU1345291485",
+    "por_que": "Temático de tecnología (Selective Thematic, en IronIA): no tenemos su cartera; ==rebote de la IA tras las previsiones de Super Micro==."
+   },
+   {
+    "isin": "FR0014008M99",
+    "por_que": "Blockchain (Coinbase, Galaxy Digital, Hut 8, Core Scientific): subida del bitcoin y de los ==mineros reconvertidos en centros de datos para IA==."
+   },
+   {
+    "isin": "LU2295319565",
+    "por_que": "Crecimiento de EE. UU. con Cloudflare, Tesla, SpaceX y Strategy: ==mismo motor que su hermano global==."
+   },
+   {
+    "isin": "LU2466448532",
+    "por_que": "Economía espacial: Rocket Lab, SpaceX (≈ 6 %), MDA Space y Viasat; ==el primer beneficio de SpaceX revalorizó todo el sector==."
+   },
+   {
+    "isin": "LU0099161993",
+    "por_que": "Crecimiento europeo con ==ASML (≈ 7 %) como primera posición==: se benefició del rebote europeo y de los chips."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU0187077309",
+    "por_que": "China (Tencent, Alibaba, China Construction Bank, ICBC): ==debilidad de la bolsa china, al borde del mercado bajista==. Su −3,6 % es más del doble que la caída de los índices del día; podría recoger parte del desplome de Hong Kong del 22 (−3 %) según su hora de valoración, a confirmar."
+   },
+   {
+    "isin": "LU0213961682",
+    "por_que": "Turquía: ==tercer día de vaivenes fuertes== (−3 %, +3,9 %, −2,5 %); sin noticia concreta localizada."
+   },
+   {
+    "isin": "LU0594300096",
+    "por_que": "Consumo chino (Tencent, Alibaba, NetEase, Trip.com, PDD): ==la falta de estímulos castiga al consumo doméstico==."
+   },
+   {
+    "isin": "LU0140696666",
+    "por_que": "Asia-Pacífico con Japón (NEF, en IronIA): cae cuando Corea, Taiwán y Japón subieron, así que ==o su VL va con un día de desfase== (recogería el martes: Kospi −3,7 %, Nikkei −1,3 %) o pesa mucho China; sin cartera para confirmarlo."
+   },
+   {
+    "isin": "LU0455706654",
+    "por_que": "Innovación china (Tencent, Alibaba, Trip.com, AMEC): ==la tecnología china no participó del rebote mundial de la IA==."
+   },
+   {
+    "isin": "IE00BZ0X9W87",
+    "por_que": "Gran China de calidad: ==mismo entorno de debilidad en China y Hong Kong==."
+   },
+   {
+    "isin": "LU0265293521",
+    "por_que": "Turquía (BIM, Aselsan, Tüpraş, Akbank): ==mismo movimiento que el fondo turco de HSBC==, tercer día de vaivenes; sin noticia concreta localizada. Disponible en Bankinter y ABANCA."
+   },
+   {
+    "isin": "LU0318931192",
+    "por_que": "China (Tencent ≈ 10 %, Prosus, China Merchants Bank, Alibaba), ≈ 77 % en China: ==CSI 300 −1 % y Hong Kong −0,9 %==, sin rebote de la tecnología china."
+   },
+   {
+    "isin": "LU0491217419",
+    "por_que": "India (HDFC Bank, ICICI, Reliance): el Sensex solo cedió un 0,2 %, así que el −1,7 % parece recoger algo más (==posible desfase tras el festivo del 20==); sin noticia concreta."
+   },
+   {
+    "isin": "LU0265313147",
+    "por_que": "Brasil: ==recogida de beneficios tras el +1,6 % del martes== (Bovespa −0,9 %). Clase en dólares: −1,36 % en USD y −1,52 % en euros (el euro subió frente al dólar)."
+   }
+  ]
+ },
+ "agenda": [
+  {
+   "fecha": "2026-10-22",
+   "evento": "Reacción a los resultados de Tesla y Meta y decisión del Banco de Corea",
+   "por_que_importa": "El gasto en IA que anuncien Meta y Tesla dirá si el rebote de los chips se sostiene; el Banco de Corea vigila la volatilidad de su bolsa."
+  },
+  {
+   "fecha": "2026-10-23",
+   "evento": "Revisión de Moody's sobre Francia",
+   "por_que_importa": "Con el bono a 10 años en el 5 %, una rebaja de nota puede ampliar más el diferencial."
+  },
+  {
+   "fecha": "2026-10-28",
+   "evento": "Reunión de la Reserva Federal (Fed)",
+   "por_que_importa": "Se espera que mantenga tipos; el mensaje sobre diciembre marcará la rentabilidad del bono."
+  },
+  {
+   "fecha": "2026-10-29",
+   "evento": "Reunión del Banco Central Europeo (BCE)",
+   "por_que_importa": "Cómo responde a la tensión en la deuda francesa y al petróleo por encima de 100 $."
+  },
+  {
+   "fecha": "2026-11-03",
+   "evento": "Elecciones de mitad de mandato en EE. UU.",
+   "por_que_importa": "Fuente de volatilidad política y, según la prensa, fecha ligada a la estrategia de EE. UU. frente a Irán."
+  },
+  {
+   "fecha": "2026-11-05",
+   "evento": "Huelga nacional en Francia",
+   "por_que_importa": "Prueba de fuerza para un Gobierno que necesita aprobar el presupuesto de 2027."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: rentabilidad anual que obtiene quien compra hoy un bono y lo mantiene hasta su vencimiento. Sube cuando cae el precio del bono."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal: banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "OAT",
+   "def": "Obligations assimilables du Trésor: bonos del Tesoro francés."
+  },
+  {
+   "sigla": "Bund",
+   "def": "Bono del Estado alemán; referencia de activo seguro en la zona euro."
+  },
+  {
+   "sigla": "IPC",
+   "def": "Índice de precios de consumo (inflación)."
+  },
+  {
+   "sigla": "CSI 300",
+   "def": "Índice de las 300 mayores empresas cotizadas en Shanghái y Shenzhen."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad implícita del S&P 500."
+  },
+  {
+   "sigla": "MOVE",
+   "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU."
+  },
+  {
+   "sigla": "WTI",
+   "def": "West Texas Intermediate: petróleo de referencia en EE. UU."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa."
+  },
+  {
+   "sigla": "Backwardation",
+   "def": "Situación en la que los contratos de futuros más cercanos cotizan más caros que los lejanos; al cambiar de contrato la serie «cae» sin que el precio real lo haga."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio de una participación del fondo, calculado una vez al día."
+  },
+  {
+   "sigla": "HPE",
+   "def": "Hewlett Packard Enterprise, fabricante de servidores."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia. La curva «AAA» del BCE solo incluye la deuda de los países con esa nota (Alemania, Países Bajos…); por eso se usa como aproximación al Bund."
+  },
+  {
+   "sigla": "Prima por plazo",
+   "def": "Rentabilidad extra que se exige por prestar a largo plazo en vez de renovar préstamos a corto; sube con la incertidumbre sobre inflación y déficit."
+  },
+  {
+   "sigla": "Diferencial (spread)",
+   "def": "Diferencia de rentabilidad entre dos bonos, p. ej. el francés y el alemán a 10 años; mide la prima de riesgo de un país."
+  },
+  {
+   "sigla": "High yield",
+   "def": "Alto rendimiento: deuda de empresas con calificación por debajo de grado de inversión."
+  }
+ ],
+ "generado": "2026-10-23T11:00"
+}

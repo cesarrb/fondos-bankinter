@@ -1,0 +1,494 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-02",
+  "fase": "completo",
+  "titulo": "Un empleo flojo en EE. UU. enfría la subida de la Fed y da alas a chips y renovables",
+  "resumen": "El dato del día fue el empleo de septiembre en EE. UU.: ==solo se crearon 29.000 puestos==, frente a los 84.000–98.000 que se esperaban. El paro subió al 4,2 % y julio y agosto se revisaron a la baja en 60.000 empleos. Como la Reserva Federal (Fed) subió tipos en septiembre y amenazaba con repetir, ==el mercado redujo la probabilidad de una subida en octubre a alrededor del 14 %==, frente al ~70 % de principios de semana. La TIR (tasa interna de rentabilidad) del bono a 10 años bajó al 5,16 % tras el dato, pero rebotó hasta cerrar cerca del 5,28 % (+4 pb), y la del 2 años subió 5 pb. El mercado sigue pidiendo prima por la inflación (petróleo por encima de 90 $, precios del ISM en máximos) y por la enorme emisión de deuda pública, así que ==el empleo flojo no bastó para bajar los tipos a largo==.\n\nLa bolsa sí lo celebró: S&P 500 +0,7 %, Nasdaq 100 +1,0 % y Russell 2000 +0,9 %. Lideraron energía (+2,2 %), tecnología (+2,1 %, con un fuerte rebote de los fabricantes de chips) e industria (+1,8 %); salud (−1,3 %) volvió a ser el peor sector. El VIX (volatilidad del S&P 500) cayó un 6,6 %, hasta 15,3, y el diferencial del high yield (bonos de alto rendimiento) se estrechó 14 pb, deshaciendo el castigo de la víspera. Europa rebotó tras el mal jueves: Stoxx Europe 600 +0,75 %, DAX +1,2 % y Euro Stoxx 50 +1,0 %. El IBEX 35 (+0,4 %) y el FTSE 100 (+0,3 %) se quedaron atrás. La rentabilidad del bono AAA de la zona euro a 10 años (≈ Bund) ==se desplomó 12,8 pb, hasta el 3,46 %==, y la del 2 años 11,5 pb. Fue una ==huida a la calidad dentro del euro==: se vendió deuda de Francia e Italia y se compró Bund, pese a que la inflación de la zona euro subió al 3,8 %. Ayudó el empleo flojo de EE. UU., publicado en plena sesión europea.\n\nEn Asia, Hong Kong reabrió tras la fiesta nacional con una caída del 2,6 %, por debajo de 24.000 puntos y la mayor desde julio. ==HSBC se hundió un 5,4 %== por el temor a nuevos impuestos a la banca en el Reino Unido y por la subida global de las rentabilidades, y las tecnológicas sufrieron por el bono de EE. UU. Sin China continental (Semana Dorada) faltaba además la compra habitual a través del Stock Connect. El Nikkei recogió beneficios (−0,9 %) tras su +3,3 %. En Brasil, el Bovespa subió un 2,6 % en la última sesión antes de la primera vuelta, después de una encuesta Datafolha que estrechaba la ventaja de Lula frente a Flávio Bolsonaro: ==el mercado descuenta un posible cambio de política fiscal en 2027==.\n\nEn divisas, ==el franco suizo se disparó==: el euro perdió un 1,3 %, hasta 0,934 francos. ==Es la demanda de refugio ante las tensiones fiscales de la zona euro==, con Francia en el centro. La caída del euro frente al dólar (−0,7 % en la serie del panel) recoge sobre todo la bajada del día 1, porque esta serie de divisas va con un día de desfase. El petróleo se calmó (Brent plano en 102,2 $, WTI −1,9 %) y el oro (−1,0 %) y la plata (−1,2 %) cedieron ante unos tipos reales altos.",
+  "claves": [
+    "EE. UU. ==solo creó 29.000 empleos en septiembre== y el paro subió al 4,2 %: la probabilidad de otra subida de la Fed en octubre cayó a ~14 %.",
+    "El bono de EE. UU. a 10 años bajó al 5,16 % tras el dato, pero cerró en el 5,28 %: ==la inflación y la oferta de deuda siguen pesando en el largo plazo==.",
+    "Bolsas al alza con chips, energía e industria (Nasdaq 100 +1 %, DAX +1,2 %); ==la TIR del Bund se desplomó 12,8 pb==, hasta el 3,46 %.",
+    "Hong Kong reabrió con −2,6 %, con ==HSBC hundida un 5,4 %== por el temor a un impuesto a la banca británica.",
+    "==El franco suizo, refugio frente a las tensiones fiscales de la zona euro==: el euro cayó un 1,3 %, hasta 0,934 francos."
+  ],
+  "suben": [
+    {
+      "activo": "Bovespa (Brasil)",
+      "cambio": "+2,6 %",
+      "por_que": "Última sesión antes de la primera vuelta. Una encuesta Datafolha estrechaba la ventaja de Lula sobre Flávio Bolsonaro, y ==el mercado asocia un posible cambio de gobierno a una política fiscal más austera==, que bajaría los tipos de interés brasileños y la prima de riesgo.",
+      "fuentes": [
+        {
+          "t": "Times Brasil (CNBC)",
+          "u": "https://timesbrasil.com.br/investimentos/bolsa/ibovespa-dispara-263-e-fecha-acima-de-192-mil-pontos-antes-das-eleicoes-dolar-fica-estavel-a-r-522/"
+        }
+      ]
+    },
+    {
+      "activo": "DAX (Alemania) / Euro Stoxx 50",
+      "cambio": "+1,2 % / +1,0 %",
+      "por_que": "Rebote tras el −1,5 % de la víspera, con tecnología e industria a la cabeza. ==La fuerte bajada de la TIR del Bund abarata el descuento de los beneficios futuros==, y el empleo flojo de EE. UU. aleja otra subida de la Fed. No hemos encontrado una crónica de cierre europea con causas concretas.",
+      "fuentes": [
+        {
+          "t": "Tapeboard (sectores EE. UU.)",
+          "u": "https://tapeboard.com/blog/market-pulse-2026-10-02"
+        }
+      ]
+    },
+    {
+      "activo": "Nasdaq 100 (tecnológicas EE. UU.)",
+      "cambio": "+1,0 %",
+      "por_que": "Las empresas de crecimiento son ==las que más ganan cuando se alejan las subidas de tipos==. Los fabricantes de chips se dispararon (MaxLinear, ChipMOS y Synaptics, +14–15 %), aunque Western Digital y Seagate cayeron un 10 %.",
+      "fuentes": [
+        {
+          "t": "Tapeboard",
+          "u": "https://tapeboard.com/blog/market-pulse-2026-10-02"
+        },
+        {
+          "t": "Penn Mutual AM",
+          "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+        }
+      ]
+    },
+    {
+      "activo": "Bono AAA zona euro 10 años (≈ Bund), precio",
+      "cambio": "TIR −12,8 pb (3,46 %)",
+      "por_que": "La deuda europea recuperó la venta del jueves. ==Huida a la calidad: se vende deuda francesa e italiana y se compra Bund==. Ayudó el empleo flojo de EE. UU., publicado en plena sesión europea. Bajó pese a que la inflación de la zona euro subió al 3,8 %.",
+      "fuentes": [
+        {
+          "t": "Money.it",
+          "u": "https://www.money.it/spread-btp-bund-verso-quota-130-con-rendimenti-al-470-francia-peggio-dell-italia-oat-puntano-al-5"
+        },
+        {
+          "t": "Penn Mutual AM",
+          "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+        }
+      ]
+    },
+    {
+      "activo": "Franco suizo (frente al euro)",
+      "cambio": "EUR/CHF −1,3 % (0,934)",
+      "por_que": "==Demanda de refugio ante las tensiones fiscales en la zona euro==, con Francia en el centro. Rabobank espera que el euro siga cerca de 0,93 francos mientras duren esas tensiones.",
+      "fuentes": [
+        {
+          "t": "FXStreet (Rabobank)",
+          "u": "https://www.fxstreet.com/news/swiss-franc-safe-haven-demand-keeps-chf-firm-against-euro-rabobank-202610071145"
+        }
+      ]
+    },
+    {
+      "activo": "Bonos high yield EE. UU.",
+      "cambio": "Diferencial −14 pb (3,10 %)",
+      "por_que": "Con ==menos riesgo de otra subida de la Fed== y las bolsas al alza, los inversores volvieron a aceptar menos prima por la deuda de empresas más endeudadas, y se deshizo la ampliación del día anterior.",
+      "fuentes": [
+        {
+          "t": "Penn Mutual AM",
+          "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Hang Seng (Hong Kong)",
+      "cambio": "−2,6 %",
+      "por_que": "Reabrió tras la fiesta nacional (el cambio es frente al 30 de septiembre) con banca y tecnología en caída. HSBC se hundió un 5,4 % por ==el temor a nuevos impuestos a la banca británica== y por las rentabilidades globales, y las tecnológicas sufrieron por el bono de EE. UU. en el 5,34 %. Con China continental cerrada faltaba la compra del Stock Connect.",
+      "fuentes": [
+        {
+          "t": "Business Today",
+          "u": "https://www.businesstoday.com.my/2026/10/03/hang-seng-sinks-nearly-641-points-as-banks-tech-stocks-slide/"
+        },
+        {
+          "t": "Trading Economics",
+          "u": "https://tradingeconomics.com/hong-kong/stock-market/news/588961"
+        }
+      ]
+    },
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "−0,9 %",
+      "por_que": "==Recogida de beneficios== tras el +3,3 % de la víspera, a la espera del empleo de EE. UU.",
+      "fuentes": [
+        {
+          "t": "Share Talk",
+          "u": "https://www.share-talk.com/what-happened-overnight-friday-2nd-october-2026/"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo WTI",
+      "cambio": "−1,9 %",
+      "por_que": "Respiro tras la subida del jueves, sin noticias nuevas sobre suministro. ==Un empleo flojo en EE. UU. también apunta a menos demanda de combustible==. El Brent quedó plano (−0,1 %).",
+      "fuentes": [
+        {
+          "t": "Tapeboard",
+          "u": "https://tapeboard.com/blog/market-pulse-2026-10-02"
+        },
+        {
+          "t": "Share Talk",
+          "u": "https://www.share-talk.com/what-happened-overnight-friday-2nd-october-2026/"
+        }
+      ]
+    },
+    {
+      "activo": "Oro / plata",
+      "cambio": "−1,0 % / −1,2 %",
+      "por_que": "Con la TIR a 10 años cerrando de nuevo cerca del 5,3 %, ==el coste de oportunidad de tener metales que no pagan interés sigue siendo alto==. El empleo flojo no bastó para cambiar esa ecuación.",
+      "fuentes": [
+        {
+          "t": "Tapeboard",
+          "u": "https://tapeboard.com/blog/market-pulse-2026-10-02"
+        }
+      ]
+    },
+    {
+      "activo": "Bono EE. UU. 2 años (precio)",
+      "cambio": "TIR +5,0 pb (4,83 %)",
+      "por_que": "Bajó con el dato de empleo, pero acabó subiendo: tras dos días de fuertes caídas de rentabilidad, ==el mercado no quiso descartar del todo otra subida de la Fed== este año, que la propia Fed había anticipado en septiembre.",
+      "fuentes": [
+        {
+          "t": "Penn Mutual AM",
+          "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+        }
+      ]
+    },
+    {
+      "activo": "Euro / dólar",
+      "cambio": "−0,7 % (1,125)",
+      "por_que": "Recoge sobre todo la caída del jueves por debajo de 1,13 $, porque ==la serie de divisas del panel va con un día de desfase==. Pesan el dólar refugio y la incertidumbre política y fiscal en Francia.",
+      "fuentes": [
+        {
+          "t": "Investrade",
+          "u": "https://investrade.com/?p=1589"
+        }
+      ]
+    },
+    {
+      "activo": "VIX (volatilidad S&P 500)",
+      "cambio": "−6,6 % (15,3)",
+      "por_que": "Baja el seguro contra caídas: un empleo débil, pero no catastrófico, ==aleja las subidas de tipos sin disparar el miedo a una recesión==.",
+      "fuentes": [
+        {
+          "t": "Tapeboard",
+          "u": "https://tapeboard.com/blog/market-pulse-2026-10-02"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Empleo de EE. UU. y Reserva Federal (Fed)",
+      "texto": "Solo 29.000 empleos nuevos, paro al 4,2 % y revisiones a la baja. Tras subir tipos en septiembre (hasta el 3,75–4,00 %), la Fed había anticipado otra subida este año; ahora ==el mercado solo ve un ~14 % de probabilidades de que llegue en octubre==. Aun así, el bono a 10 años cerró cerca del 5,28 %, porque ==el largo plazo depende también de la inflación esperada y de la oferta de deuda==.",
+      "fuentes": [
+        {
+          "t": "Penn Mutual AM",
+          "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+        },
+        {
+          "t": "XTB (previa)",
+          "u": "https://www.xtb.com/en/market-analysis/nfp-preview-8"
+        }
+      ]
+    },
+    {
+      "tema": "Banca y rentabilidades: Hong Kong y Reino Unido",
+      "texto": "HSBC (−5,4 %) se convirtió en el símbolo de dos riesgos para la banca: los impuestos (se especula con un recargo mayor en el presupuesto británico) y ==unas rentabilidades globales que suben más deprisa que el negocio==. Hong Kong, con mucho peso de banca y tecnología, cayó un 2,6 % al reabrir.",
+      "fuentes": [
+        {
+          "t": "Business Today",
+          "u": "https://www.businesstoday.com.my/2026/10/03/hang-seng-sinks-nearly-641-points-as-banks-tech-stocks-slide/"
+        }
+      ]
+    },
+    {
+      "tema": "Elecciones en Brasil",
+      "texto": "A dos días de la primera vuelta, el mercado compró Brasil (+2,6 %) al ver una carrera más ajustada de lo que daban las encuestas. ==Un posible relevo se asocia a más disciplina fiscal== y, por tanto, a tipos de interés más bajos en el país.",
+      "fuentes": [
+        {
+          "t": "Times Brasil (CNBC)",
+          "u": "https://timesbrasil.com.br/investimentos/bolsa/ibovespa-dispara-263-e-fecha-acima-de-192-mil-pontos-antes-das-eleicoes-dolar-fica-estavel-a-r-522/"
+        }
+      ]
+    },
+    {
+      "tema": "Refugio en el franco suizo",
+      "texto": "==Las tensiones fiscales de la zona euro (Francia) empujan dinero hacia el franco==. Un franco más fuerte abarata las importaciones suizas y castiga a sus exportadoras; para un inversor en euros, en cambio, revaloriza los fondos en francos (los de bonos o bolsa suiza).",
+      "fuentes": [
+        {
+          "t": "FXStreet (Rabobank)",
+          "u": "https://www.fxstreet.com/news/swiss-franc-safe-haven-demand-keeps-chf-firm-against-euro-rabobank-202610071145"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "En EE. UU. el empleo de septiembre (29.000 puestos, paro al 4,2 %) hundió al principio las TIR: el 10 años bajó al 5,16 %. Pero acabaron el día al alza: 2 años +5 pb (4,83 %) y 10 años +4 pb (5,28 %). ==El mercado no se atreve a descartar otra subida de la Fed==, que la propia Fed anticipó en septiembre, y el largo plazo sigue pidiendo prima por plazo: ==petróleo por encima de 90 $ y mucha emisión de deuda==.\n\nEn Europa pasó lo contrario. La curva AAA cayó con fuerza (10 años −12,8 pb, 3,46 %; 2 años −11,5 pb, 2,99 %) por una ==huida a la calidad dentro del euro==: se vendió deuda de los países con finanzas más frágiles y se compró Bund. Por eso la prima de riesgo de Francia se amplió a unos 153 pb (OAT, su bono a 10 años, en el 4,94 %, rozando el 5 %) y la de Italia a unos 126 pb (BTP en el 4,67 %). Ocurrió el mismo día en que ==la inflación de la zona euro subió al 3,8 %==, máxima desde 2023 (se esperaba 3,6 %). En otro momento ese dato habría subido las TIR; pesaron más el refugio y el empleo flojo de EE. UU.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "+5,0 pb (4,83 %)",
+        "por_que": "Bajó con el dato de empleo y luego se dio la vuelta: tras caer 15 pb en dos días, ==el mercado no quiso descartar otra subida de la Fed== este año (octubre, ~14 %).",
+        "fuentes": [
+          {
+            "t": "Penn Mutual AM",
+            "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "+4,0 pb (5,28 %; mínimo intradía 5,16 %)",
+        "por_que": "El empleo flojo bajó la TIR, pero el largo plazo depende de la ==inflación esperada (petróleo, precios del ISM) y de la oferta de deuda==, que no cambiaron.",
+        "fuentes": [
+          {
+            "t": "Penn Mutual AM",
+            "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "−12,8 pb (3,46 %)",
+        "por_que": "==Refugio en el Bund frente a Francia e Italia==; la prensa italiana daba el Bund a 10 años en el 3,41 % (−10 pb) a media sesión.",
+        "fuentes": [
+          {
+            "t": "Money.it",
+            "u": "https://www.money.it/spread-btp-bund-verso-quota-130-con-rendimenti-al-470-francia-peggio-dell-italia-oat-puntano-al-5"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "−11,5 pb (2,99 %)",
+        "por_que": "Bajó pese a la inflación del 3,8 %: el refugio y el empleo de EE. UU. pesaron más, y el BCE ya avisa de que ==las TIR altas enfrían la economía por sí solas==.",
+        "fuentes": [
+          {
+            "t": "FXStreet (previa del IPC)",
+            "u": "https://www.fxstreet.com/news/the-euro-slips-as-europes-biggest-economies-report-hotter-inflation-202609302331"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Francia–Alemania (10 años)",
+        "cambio": "≈ 153 pb (107 pb el 25-sep)",
+        "por_que": "La OAT apenas bajó mientras el Bund caía: ==el mercado castiga el riesgo fiscal y político francés== (presupuesto 2027, presidenciales).",
+        "fuentes": [
+          {
+            "t": "Money.it",
+            "u": "https://www.money.it/spread-btp-bund-verso-quota-130-con-rendimenti-al-470-francia-peggio-dell-italia-oat-puntano-al-5"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Italia–Alemania (10 años)",
+        "cambio": "≈ 126 pb (92 pb el 25-sep)",
+        "por_que": "Contagio: en una huida a la calidad se vende la deuda más endeudada, aunque Italia esté mejor que Francia.",
+        "fuentes": [
+          {
+            "t": "Money.it",
+            "u": "https://www.money.it/spread-btp-bund-verso-quota-130-con-rendimenti-al-470-francia-peggio-dell-italia-oat-puntano-al-5"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "−14 pb (3,10 %)",
+        "por_que": "Bolsas al alza y menos riesgo de subida de la Fed: ==se deshizo la ampliación del día anterior==."
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Money.it (diferenciales y Bund, 2-oct)",
+        "u": "https://www.money.it/spread-btp-bund-verso-quota-130-con-rendimenti-al-470-francia-peggio-dell-italia-oat-puntano-al-5"
+      },
+      {
+        "t": "Penn Mutual AM",
+        "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+      },
+      {
+        "t": "FXStreet (IPC zona euro)",
+        "u": "https://www.fxstreet.com/news/the-euro-slips-as-europes-biggest-economies-report-hotter-inflation-202609302331"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Buen día para la renta variable (mediana de los fondos +0,63 %; mixtos +0,30 %), ==liderado por la tecnología, los chips y las renovables==. ==Las renovables son muy sensibles a los tipos==: la fuerte bajada de la TIR del Bund y el alejamiento de otra subida de la Fed las favorecen doblemente. Brasil y Latinoamérica subieron antes de las elecciones. A la cola, China y Hong Kong, la biotecnología y la Europa emergente. La mediana de materias primas e inmobiliario cayó un 0,6 % por el oro y la plata. El dólar subió alrededor de un 0,65 % frente al euro según el r y rn de las clases en USD, así que esas clases sin cubrir ganaron algo más en euros. Algún fondo (Blue Whale) parece reflejar precios del día anterior, y un mixto (Cinvest Multigestión, −1,9 %) da un dato raro.",
+    "suben": [
+      {
+        "isin": "LU1861216510",
+        "por_que": "Tecnología de nueva generación en clase cubierta en euros: Lumentum, NVIDIA, Micron y SanDisk encabezan la cartera. Se benefició del rebote de los semiconductores, y la cobertura neutraliza la subida del dólar."
+      },
+      {
+        "isin": "LU0280435388",
+        "por_que": "Mezcla de chips para electrificación (Broadcom, Marvell, ASML, Infineon) y eléctricas como Iberdrola (5,5 %): ganó por la tecnología y por ==la fuerte bajada de la TIR europea==, que abarata la financiación de las renovables."
+      },
+      {
+        "isin": "LU0210532015",
+        "por_que": "Tecnología europea: ASML, Infineon, Nokia, SAP y ASM International. Rebote del DAX y del Euro Stoxx 50 con la caída del Bund."
+      },
+      {
+        "isin": "LU1822773807",
+        "por_que": "Energía sostenible en clase cubierta: Nextpower, First Solar, NextEra, EDP Renováveis y National Grid. Son ==negocios intensivos en deuda que suben cuando bajan las rentabilidades==."
+      },
+      {
+        "isin": "IE000NUQFNN0",
+        "por_que": "Energía alternativa en clase cubierta a euros (IronIA). Repite en cabeza junto al Polar Capital Smart Energy: ==rebote de chips y renovables con la caída del Bund==. No tenemos su cartera detallada."
+      },
+      {
+        "isin": "LU2106860534",
+        "por_que": "Clase en USD: subió un +2,3 % en dólares y un +2,9 % en euros, así que unos 0,65 puntos son efecto divisa por el dólar más fuerte."
+      },
+      {
+        "isin": "LU0265313147",
+        "por_que": "Bolsa brasileña (ABANCA): recoge el +2,6 % del Bovespa antes de la primera vuelta electoral."
+      },
+      {
+        "isin": "IE0006TUI4G7",
+        "por_que": "Repite en cabeza: redes ópticas y chips (Lumentum, Marvell, Coherent) con el rebote de los semiconductores."
+      },
+      {
+        "isin": "LU0492943443",
+        "por_que": "Latinoamérica en clase USD: +2,2 % en dólares y +2,8 % en euros. A la subida de Brasil se suma el efecto divisa."
+      },
+      {
+        "isin": "IE00BJM0B969",
+        "por_que": "Cartera concentrada (Leonardo, Modine, Eli Lilly, Seagate, Safran) con un 17 % de liquidez. Un +2,7 % no cuadra del todo con el −10 % de Seagate ese día, lo que sugiere precios de la víspera o cambios recientes de cartera."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "AT0000A1TW05",
+        "por_que": "Bolsa de Europa central y del este, con mucho peso de banca. No hemos localizado una noticia concreta; puede recoger con retraso la venta de la banca europea del día 1."
+      },
+      {
+        "isin": "LU0106817157",
+        "por_que": "Europa emergente: OTP (9,3 %), PKO (8,5 %) y bancos griegos (Eurobank, Piraeus, NBG). ==Es banca regional==, presionada por las rentabilidades y por el temor a impuestos especiales sobre la banca, el mismo que hundió a HSBC."
+      },
+      {
+        "isin": "ES0107696009",
+        "por_que": "Dato raro: un mixto flexible que cae un 1,9 % el día en que la mediana de los mixtos subió un 0,3 %. ==Probablemente su VL recoge con retraso la caída del día 1== (IBEX −2,2 %). No tenemos su cartera; dato a vigilar."
+      },
+      {
+        "isin": "LU0625737753",
+        "por_que": "Índice chino, en buena parte cotizado en Hong Kong: la reapertura con −2,6 % sin el apoyo del Stock Connect, con China continental cerrada."
+      },
+      {
+        "isin": "LU1775966044",
+        "por_que": "China en clase cubierta: mismo motivo, caída de la tecnología china en Hong Kong con las rentabilidades de EE. UU. altas."
+      },
+      {
+        "isin": "LU0946220265",
+        "por_que": "Financieras e innovación financiera, clase de reparto (IronIA). ==Mal día para la banca: HSBC −5,4 % por el temor a impuestos==. No tenemos su cartera; la clase de reparto puede sumar el pago de un dividendo."
+      },
+      {
+        "isin": "LU0255977455",
+        "por_que": "Biotecnología de EE. UU. (Vertex, Insmed, Revolution Medicines, argenx). Salud fue el peor sector del S&P 500 por segundo día (−1,3 %); no hemos localizado una noticia concreta del sector."
+      },
+      {
+        "isin": "LU1587985224",
+        "por_que": "Salud de Asia-Pacífico (IronIA). ==Hong Kong reabrió con −2,6 %== y la salud fue el peor sector del S&P 500 por segundo día; las farmacéuticas y CRO (Contract Research Organization, investigación por encargo) chinas, como WuXi, bajaron en Hong Kong."
+      },
+      {
+        "isin": "LU0318931192",
+        "por_que": "Fidelity China Focus: China cotizada en Hong Kong, a la baja en la reapertura."
+      },
+      {
+        "isin": "LU2053353079",
+        "por_que": "Terapias genéticas (Twist, WuXi AppTec, Iovance, Amgen): salud débil en EE. UU. y WuXi en Hong Kong a la baja."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-04",
+      "evento": "Primera vuelta de las elecciones presidenciales en Brasil",
+      "por_que_importa": "Una victoria o un buen resultado de Flávio Bolsonaro se leería como un giro fiscal; el mercado ya empezó a apostar por ello el viernes."
+    },
+    {
+      "fecha": "2026-10-05",
+      "evento": "ISM de servicios de EE. UU. (septiembre)",
+      "por_que_importa": "Tras el empleo flojo, confirmará si los servicios siguen fuertes y si los precios siguen subiendo, la clave para la Fed."
+    },
+    {
+      "fecha": "2026-10-07",
+      "evento": "Actas de la reunión de septiembre de la Fed",
+      "por_que_importa": "Dirán cuántos miembros apoyaban otra subida este año."
+    },
+    {
+      "fecha": "2026-10-08",
+      "evento": "Reapertura de las bolsas de China continental y decisión sobre las exportaciones de combustible",
+      "por_que_importa": "Vuelve el Stock Connect a Hong Kong, y el petróleo está pendiente de si Pekín reanuda las exportaciones de carburantes."
+    },
+    {
+      "fecha": "2026-10-09",
+      "evento": "Confianza del consumidor de la Universidad de Míchigan y resultados de Delta",
+      "por_que_importa": "Incluye las expectativas de inflación de los hogares y marca el arranque informal de la temporada de resultados del tercer trimestre."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene a vencimiento. Sube cuando cae su precio, y viceversa."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500: sube cuando el mercado paga más por protegerse de caídas."
+    },
+    {
+      "sigla": "High yield",
+      "def": "Bonos de alto rendimiento: deuda de empresas con peor calificación crediticia."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán; referencia de la deuda de la zona euro."
+    },
+    {
+      "sigla": "AAA",
+      "def": "La máxima calificación crediticia. La curva AAA del Banco Central Europeo (BCE) se construye con los bonos de los Estados de la zona euro con esa nota."
+    },
+    {
+      "sigla": "Stock Connect",
+      "def": "Canal que permite a inversores de China continental comprar acciones en Hong Kong (y viceversa)."
+    },
+    {
+      "sigla": "ISM",
+      "def": "Institute for Supply Management: encuesta mensual a directores de compras de EE. UU. Por encima de 50 indica expansión."
+    },
+    {
+      "sigla": "WTI",
+      "def": "West Texas Intermediate: petróleo de referencia en EE. UU."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: precio de una participación de un fondo en una fecha."
+    },
+    {
+      "sigla": "CRO",
+      "def": "Contract Research Organization: empresa que hace investigación clínica por encargo de farmacéuticas."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo: fija los tipos de interés de la zona euro."
+    },
+    {
+      "sigla": "OAT",
+      "def": "Obligations Assimilables du Trésor: bono del Estado francés."
+    },
+    {
+      "sigla": "BTP",
+      "def": "Buoni del Tesoro Poliennali: bono del Estado italiano."
+    },
+    {
+      "sigla": "Prima por plazo",
+      "def": "Rentabilidad extra que se exige por prestar a largo plazo (riesgo de inflación y de oferta de deuda), aparte de lo que se espera de los tipos oficiales."
+    }
+  ],
+  "generado": "2026-10-23T14:30"
+}

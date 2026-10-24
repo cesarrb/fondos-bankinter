@@ -1,0 +1,703 @@
+{
+ "periodo": "quincenal",
+ "clave": "2026-10-1",
+ "fase": "completo",
+ "titulo": "1–15 oct: Brasil vuela, Corea se hunde un 19 % y los bonos bajan de máximos",
+ "resumen": "La primera quincena de octubre empezó con ==el bono de EE. UU. en máximos desde 2002== y acabó con una venta en masa de chips en Asia. Entre medias, el mercado cambió de miedo. El 1 de octubre la TIR (tasa interna de rentabilidad) del 10 años de EE. UU. tocó el 5,34 %, China suspendió sus exportaciones de combustibles y Europa se hundió (IBEX 35 −2,2 %, FTSE MIB −2,2 %). Al día siguiente ==el empleo de septiembre en EE. UU. salió muy flojo (29.000 puestos, paro al 4,2 %)== y la probabilidad de otra subida de la Reserva Federal (Fed) en octubre cayó de ~70 % a ~14 %. Las subastas de bonos a 10 y 30 años del 7 y el 8 tuvieron ==mucha demanda==, lo que demostró que hay compradores por encima del 5 %.\n\nLa gran noticia de la segunda semana fue Brasil. ==Flávio Bolsonaro superó a Lula en la primera vuelta del 4 de octubre==, contra lo que decían las encuestas, y el mercado lo leyó como un futuro Gobierno más austero. El Bovespa subió un 7,7 % el lunes 5, por encima de 200.000 puntos, y un 9,7 % en la quincena; ==para el inversor en euros, bolsa y real se suman==, y los fondos de Brasil ganaron un 14–16 %. Wall Street marcó récord el 6 (S&P 500 en 7.819). Europa, en cambio, sufrió: ==cada repunte de las TIR golpea a la banca por la deuda que tiene en balance==, y en Francia e Italia se suma el riesgo del propio país. El FTSE MIB cayó un 3,8 % en la quincena.\n\nLa tercera parte la mandaron los chips. El 8, un informe sobre ==ingresos de OpenAI inferiores a lo publicado== hizo dudar de quién pagará los chips; el sábado 10, ==la china CXMT anunció una memoria para servidores más densa que la de Samsung==, y el 14 un IPC (índice de precios de consumo) de EE. UU. más alto de lo esperado (3,7 %) devolvió la probabilidad de subida de la Fed a ~50 %. El Kospi coreano, que depende de Samsung y SK hynix, ==se hundió un 18,8 % en la quincena==, con −5,5 % el 13 y −7,6 % el 15. El Nikkei cayó un 3,5 % tras marcar récord y el Nasdaq 100 un 1,6 %, mientras ==el dinero rotaba hacia salud y consumo básico==: Dow Jones +2,5 %, SMI suizo +3,8 % y FTSE 100 +2,2 %.\n\nLos bonos fueron el refugio. ==El 10 años de EE. UU. bajó 20 pb (puntos básicos), hasta el 5,09 %==, y el Bund 19 pb, con la mayor bajada el 15, el día del desplome asiático. El petróleo siguió caro (Brent +2,3 %, 105,9 $; WTI +8,4 %) por ataques de Irán a petroleros, el huracán Isaias en el golfo de México y los ataques hutíes contra Riad, y ==el gas europeo subió un 19,5 %== con la llegada del frío. El dólar ganó un 1,3 % frente al euro y el franco suizo un 1,8 %, refugio frente a Francia. ==La plata (−5,4 %) y el uranio (−9,4 %) cayeron== con la IA y un dólar firme.",
+ "claves": [
+  "==Empleo flojo (29.000) y subastas muy demandadas== bajaron el 10 años de EE. UU. del 5,34 % al 5,09 % (−20 pb en la quincena).",
+  "==Flávio Bolsonaro gana la primera vuelta en Brasil==: Bovespa +9,7 % y fondos de Brasil +14–16 % en euros.",
+  "==Memoria china (CXMT), dudas sobre OpenAI y un IPC alto== hunden los chips: Kospi −18,8 %, Nikkei −3,5 %, Nasdaq 100 −1,6 %.",
+  "==Rotación hacia salud y defensivos==: Dow Jones +2,5 %, SMI +3,8 %, FTSE 100 +2,2 %.",
+  "==La banca europea sufre por los bonos y Francia==: FTSE MIB −3,8 %; diferencial francés en ~140–150 pb.",
+  "Crudo y gas caros: ==Brent 105,9 $ y TTF +19,5 %== por Irán, el huracán Isaias y el frío."
+ ],
+ "suben": [
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "+19,5 % (86,4 €/MWh)",
+   "por_que": "==Llegada del frío y ataques en el Golfo==, por donde sale el gas licuado de Catar. Subió en ocho de las once sesiones.",
+   "fuentes": [
+    {
+     "t": "Argus Media: ataque al aeropuerto de Riad",
+     "u": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2889398-strike-on-riyadh-airport-kills-12-injures-309-update"
+    }
+   ]
+  },
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "+9,7 %",
+   "por_que": "==Flávio Bolsonaro (47,0 %) por delante de Lula (45,2 %) en la primera vuelta==: el mercado descuenta un relevo más austero, baja la prima de riesgo del país y se dispara la banca. +7,7 % el día 5, la mayor subida desde 2020.",
+   "fuentes": [
+    {
+     "t": "Correio da Manhã: el Ibovespa se dispara tras la elección y supera los 200.000 puntos",
+     "u": "https://www.correiodamanha.com.br/economia/2026/10/amp/324430-ibovespa-dispara-apos-eleicao-e-supera-200-mil-pontos.html"
+    },
+    {
+     "t": "Trading Economics: el Ibovespa tras la elección",
+     "u": "https://tradingeconomics.com/brazil/stock-market/news/589584"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo WTI",
+   "cambio": "+8,4 % (98,0 $)",
+   "por_que": "==El huracán Isaias paró más del 60 % del crudo del golfo de México==, que es producción estadounidense; por eso subió más que el Brent.",
+   "fuentes": [
+    {
+     "t": "Trading Economics: el Brent con Irán y el huracán Isaias",
+     "u": "https://tradingeconomics.com/commodity/brent-crude-oil/news/590624"
+    }
+   ]
+  },
+  {
+   "activo": "SMI (Suiza)",
+   "cambio": "+3,8 %",
+   "por_que": "==Nestlé, Roche y Novartis: el refugio de la rotación fuera de la IA==, con la salud europea subiendo con fuerza el 14 y el 15. Para el inversor en euros suma la subida del franco (+1,8 %).",
+   "fuentes": [
+    {
+     "t": "Reuters (vía Devdiscourse): Europa sube con ASML y la salud",
+     "u": "https://www.devdiscourse.com/article/international/3992492-european-shares-edge-up-after-solid-asml-results-healthcare-gains"
+    },
+    {
+     "t": "FXStreet (Rabobank): el franco suizo, refugio frente al euro",
+     "u": "https://www.fxstreet.com/news/swiss-franc-safe-haven-demand-keeps-chf-firm-against-euro-rabobank-202610071145"
+    }
+   ]
+  },
+  {
+   "activo": "Sensex (India)",
+   "cambio": "+2,5 %",
+   "por_que": "==Refugio dentro de Asia==: su bolsa apenas tiene fabricantes de chips y la mueven la banca y las tecnológicas de servicios (HCLTech). +2,1 % el 15, el día del desplome coreano.",
+   "fuentes": [
+    {
+     "t": "Finology: la bolsa india el 15 de octubre",
+     "u": "https://ticker.finology.in/discover/market-update/stock-market-today-15-october-2026"
+    }
+   ]
+  },
+  {
+   "activo": "Dow Jones",
+   "cambio": "+2,5 %",
+   "por_que": "==Más salud y consumo, poca IA==: recibió el dinero que salía de los chips (Eli Lilly, UnitedHealth, Walmart). +1,1 % el 15.",
+   "fuentes": [
+    {
+     "t": "Reuters (vía The Spokesman-Review): el S&P 500 sube con la rotación de la IA a la salud",
+     "u": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/"
+    },
+    {
+     "t": "Quartz: Eli Lilly y la rotación hacia la salud",
+     "u": "https://qz.com/eli-lilly-stock-healthcare-tech-selloff-101526"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "+2,3 % (105,9 $)",
+   "por_que": "Por arriba: ==China dejó de exportar combustibles, Irán atacó petroleros y los hutíes atacaron Riad==. Por abajo: liberación de reservas de la AIE (Agencia Internacional de la Energía) y Trump prometiendo no atacar Irán antes del 3 de noviembre.",
+   "fuentes": [
+    {
+     "t": "Gulf Times (Bloomberg): las refinerías chinas suspenden sus exportaciones de octubre",
+     "u": "https://www.gulf-times.com/article/734613/business/chinese-refiners-said-to-suspend-october-fuel-exports-to-bolster-stocks"
+    },
+    {
+     "t": "Trading Economics: el Brent con Irán y el huracán Isaias",
+     "u": "https://tradingeconomics.com/commodity/brent-crude-oil/news/590624"
+    },
+    {
+     "t": "Nation Thailand: Trump descarta atacar Irán antes de las elecciones",
+     "u": "https://www.nationthailand.com/news/40072074"
+    },
+    {
+     "t": "Argus Media: ataque al aeropuerto de Riad",
+     "u": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2889398-strike-on-riyadh-airport-kills-12-injures-309-update"
+    }
+   ]
+  },
+  {
+   "activo": "FTSE 100 (Reino Unido)",
+   "cambio": "+2,2 %",
+   "por_que": "==Farmacéuticas, consumo básico y petroleras==: la combinación perfecta para una quincena de crudo caro y rotación defensiva.",
+   "fuentes": [
+    {
+     "t": "Reuters (vía Devdiscourse): Europa sube con ASML y la salud",
+     "u": "https://www.devdiscourse.com/article/international/3992492-european-shares-edge-up-after-solid-asml-results-healthcare-gains"
+    }
+   ]
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "−18,8 %",
+   "por_que": "==Samsung y SK hynix tienen un peso enorme en el índice==. El anuncio de CXMT amenaza los márgenes récord de la memoria (−3,7 % el 12 y −5,5 % el 13, con SK hynix −10 %), y el IPC de EE. UU. añadió el miedo a cómo se financian los centros de datos (−7,6 % el 15). Los extranjeros venden lo que más había subido.",
+   "fuentes": [
+    {
+     "t": "ForkLog: CXMT y la memoria china",
+     "u": "https://forklog.com/en/?p=105174"
+    },
+    {
+     "t": "Herald Business: el Kospi y la memoria (12-oct)",
+     "u": "https://biz.heraldcorp.com/article/10900315"
+    },
+    {
+     "t": "Nikkei Asia: las bolsas asiáticas se hunden por la deuda de la IA y la inflación",
+     "u": "https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite"
+    }
+   ]
+  },
+  {
+   "activo": "Uranio (ETF URA)",
+   "cambio": "−9,4 %",
+   "por_que": "==La tesis del uranio es la electricidad para la IA==: cae cuando se duda de la inversión en centros de datos, pese al contrato nuclear de Constellation con Google del 6.",
+   "fuentes": [
+    {
+     "t": "AP (vía Spectrum News): Wall Street roza el récord con el crudo más tranquilo (6-oct)",
+     "u": "https://mynews13.com/fl/orlando/ap-top-news/2026/10/06/us-stocks-flirt-with-a-record-after-oil-prices-ease"
+    }
+   ]
+  },
+  {
+   "activo": "Plata",
+   "cambio": "−5,4 %",
+   "por_que": "==−6,1 % el 14 con el IPC==: más tipos y dólar firme. Su uso industrial (electrónica, paneles) también sufre con la venta de tecnología.",
+   "fuentes": [
+    {
+     "t": "Gotrade: un IPC alto reaviva el miedo a una subida de la Fed",
+     "u": "https://www.heygotrade.com/en/news/hot-us-cpi-revives-fed-rate-hike-fears-stock-futures-fall/"
+    }
+   ]
+  },
+  {
+   "activo": "MSCI Emergentes (ETF EEM, USD)",
+   "cambio": "−4,2 %",
+   "por_que": "==Corea, Taiwán y China pesan más de la mitad del índice== y los tres cayeron; Brasil e India no bastaron para compensar.",
+   "fuentes": [
+    {
+     "t": "Nikkei Asia: las bolsas asiáticas se hunden por la deuda de la IA y la inflación",
+     "u": "https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite"
+    }
+   ]
+  },
+  {
+   "activo": "FTSE MIB (Italia)",
+   "cambio": "−3,8 %",
+   "por_que": "==La banca pesa mucho en el índice italiano== y cayó con cada repunte de las TIR (−2,2 % el 1 y −2,5 % el 7). El diferencial italiano pasó de ~97 a ~126 pb a principios de mes, por contagio de Francia.",
+   "fuentes": [
+    {
+     "t": "Bloomberg: la banca europea cae a mínimos desde julio por los bonos (7-oct)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/european-bank-stocks-sink-toward-lowest-since-july-as-bonds-fall"
+    },
+    {
+     "t": "SoldiOnline / ANSA: la banca italiana, bajo presión (8-oct)",
+     "u": "https://www.soldionline.it/notizie/azioni-italia/banche-sotto-pressione-a-milano-12-cosa-pesa-su-mps-e-mediobanca"
+    },
+    {
+     "t": "Money.it: el diferencial BTP–Bund hacia 130 pb (2-oct)",
+     "u": "https://www.money.it/spread-btp-bund-verso-quota-130-con-rendimenti-al-470-francia-peggio-dell-italia-oat-puntano-al-5"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "−3,5 %",
+   "por_que": "Máximos a principios de mes con Micron y el Tankan (+3,3 % el 1), y ==desplome el 15 (−4,9 %) con los fabricantes de chips==, por la misma venta de chips que Corea.",
+   "fuentes": [
+    {
+     "t": "Securities.io: el Tankan de grandes manufactureras, en +24",
+     "u": "https://www.securities.io/bank-of-japan-tankan-shows-large-manufacturer-sentiment-at-plus-24/"
+    },
+    {
+     "t": "Nikkei Asia: las bolsas asiáticas se hunden por la deuda de la IA y la inflación",
+     "u": "https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite"
+    }
+   ]
+  },
+  {
+   "activo": "Nasdaq 100 (tecnológicas EE. UU.)",
+   "cambio": "−1,6 %",
+   "por_que": "Récord el 5, y luego ==OpenAI (8), CXMT (12) y el IPC (14, −2 %)==. Cayó menos que Asia porque el software y las plataformas pesan más que la memoria.",
+   "fuentes": [
+    {
+     "t": "Ringside: cierre del 8 de octubre (OpenAI y chips)",
+     "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+    },
+    {
+     "t": "Gotrade: un IPC alto reaviva el miedo a una subida de la Fed",
+     "u": "https://www.heygotrade.com/en/news/hot-us-cpi-revives-fed-rate-hike-fears-stock-futures-fall/"
+    }
+   ]
+  },
+  {
+   "activo": "Euro / dólar",
+   "cambio": "−1,3 % (1,121 $)",
+   "por_que": "==Francia y la banca europea frente a unas TIR de EE. UU. todavía más altas==: el euro bajó de 1,13 $ el 1 por primera vez desde mayo de 2025.",
+   "fuentes": [
+    {
+     "t": "Babypips: por qué importa el diferencial OAT–Bund (12-oct)",
+     "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Reserva Federal (Fed): de ~70 % a ~14 % y vuelta a ~50 %",
+   "texto": "La probabilidad de una subida en la reunión del 28 de octubre fue una montaña rusa. ==El empleo de septiembre (29.000 puestos) la hundió a ~14 % el 2==. Las actas del 7 mostraron a la mayoría a favor de otra subida este año, y la encuesta de Míchigan (expectativas de inflación del 4,7 %) la subió algo. ==El IPC del 14 (3,7 % general, 2,6 % subyacente, una décima más de lo esperado)== y un IPP (índice de precios de producción) muy alto la devolvieron a ~50 %, aunque Mary Daly (Fed de San Francisco) la enfrió el 15.",
+   "fuentes": [
+    {
+     "t": "Penn Mutual AM: un empleo flojo enfría las apuestas de subida",
+     "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+    },
+    {
+     "t": "Gotrade: un IPC alto reaviva el miedo a una subida de la Fed",
+     "u": "https://www.heygotrade.com/en/news/hot-us-cpi-revives-fed-rate-hike-fears-stock-futures-fall/"
+    },
+    {
+     "t": "investingLive: el rally de los bonos hunde el dólar y sube el oro (Daly)",
+     "u": "https://investinglive.com/news/investinglive-asia-pacific-market-news-treasury-rally-sinks-dollar-lifts-gold/"
+    }
+   ]
+  },
+  {
+   "tema": "Elecciones en Brasil",
+   "texto": "==Flávio Bolsonaro superó a Lula en la primera vuelta contra pronóstico==. El mercado descuenta más disciplina fiscal desde 2027, lo que baja la prima de riesgo del país y el bono brasileño, y sube la banca. ==El real se apreció un 4 % el día 5==, una doble ganancia para quien invierte desde euros. La segunda vuelta del 25 de octubre puede confirmarlo o deshacerlo.",
+   "fuentes": [
+    {
+     "t": "Correio da Manhã: el Ibovespa se dispara tras la elección y supera los 200.000 puntos",
+     "u": "https://www.correiodamanha.com.br/economia/2026/10/amp/324430-ibovespa-dispara-apos-eleicao-e-supera-200-mil-pontos.html"
+    },
+    {
+     "t": "Trading Economics: el Ibovespa tras la elección",
+     "u": "https://tradingeconomics.com/brazil/stock-market/news/589584"
+    }
+   ]
+  },
+  {
+   "tema": "Chips e inteligencia artificial (IA): primero los márgenes, luego la financiación",
+   "texto": "Tres golpes en una semana. El 8, ==el Financial Times cifró los ingresos anualizados de OpenAI en unos 50.000 millones de dólares, no 70.000==: si el gran comprador gana menos, peligra su capacidad de pagar chips. El 10, ==CXMT anunció una memoria más densa que la de Samsung==, una amenaza a los márgenes récord de la memoria. El 14, el IPC alto encareció la deuda con la que se construyen los centros de datos (Dell y HPE −7 % el 15). ==Asia, con índices concentrados en memoria y chips, se llevó la peor parte==.",
+   "fuentes": [
+    {
+     "t": "Ringside: cierre del 8 de octubre (OpenAI y chips)",
+     "u": "https://buttondown.com/Ringside/archive/ringside-post-bell-october-8/"
+    },
+    {
+     "t": "ForkLog: CXMT y la memoria china",
+     "u": "https://forklog.com/en/?p=105174"
+    },
+    {
+     "t": "Nikkei Asia: las bolsas asiáticas se hunden por la deuda de la IA y la inflación",
+     "u": "https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite"
+    }
+   ]
+  },
+  {
+   "tema": "Banca europea y Francia",
+   "texto": "El diferencial francés pasó de ~120 a ~150 pb los primeros días, máximo desde 2011–2012, y ==se quedó en 140–150 pb== tras la presentación del presupuesto de 2027 el 6, con emisión récord y sin mayoría. La OAT volvió a superar el 4,9 % el 9. ==Cada repunte de las TIR hunde a los bancos== (Deutsche Bank y Société Générale −5 % el 7), y por eso Europa quedó por detrás de Wall Street.",
+   "fuentes": [
+    {
+     "t": "Bloomberg: la banca europea cae a mínimos desde julio por los bonos (7-oct)",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-07/european-bank-stocks-sink-toward-lowest-since-july-as-bonds-fall"
+    },
+    {
+     "t": "Trading Economics: el bono francés (9-oct)",
+     "u": "https://tradingeconomics.com/france/government-bond-yield/news/590139"
+    },
+    {
+     "t": "Babypips: por qué importa el diferencial OAT–Bund (12-oct)",
+     "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+    }
+   ]
+  },
+  {
+   "tema": "Petróleo y gas: Irán, Isaias y el frío",
+   "texto": "China suspendió sus exportaciones de combustibles (1), Irán atacó petroleros (8), ==el huracán Isaias cerró más del 60 % del crudo del golfo de México== y los hutíes atacaron el aeropuerto de Riad (12). La AIE adelantó la liberación de reservas y Trump descartó atacar Irán antes de las elecciones. ==El gas europeo subió un 19,5 %== con el frío. Un crudo caro con el crecimiento flojeando ==complica a los bancos centrales==.",
+   "fuentes": [
+    {
+     "t": "Gulf Times (Bloomberg): las refinerías chinas suspenden sus exportaciones de octubre",
+     "u": "https://www.gulf-times.com/article/734613/business/chinese-refiners-said-to-suspend-october-fuel-exports-to-bolster-stocks"
+    },
+    {
+     "t": "Trading Economics: el Brent con Irán y el huracán Isaias",
+     "u": "https://tradingeconomics.com/commodity/brent-crude-oil/news/590624"
+    },
+    {
+     "t": "Argus Media: ataque al aeropuerto de Riad",
+     "u": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2889398-strike-on-riyadh-airport-kills-12-injures-309-update"
+    },
+    {
+     "t": "Nation Thailand: Trump descarta atacar Irán antes de las elecciones",
+     "u": "https://www.nationthailand.com/news/40072074"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. ==bajó toda la curva y más los plazos largos: 2 años −11 pb (4,77 %), 10 años −20 pb (5,09 %) y 30 años −21 pb (5,43 %)==. Hubo tres mecanismos. Primero, la Fed: el empleo flojo del 2 hundió la probabilidad de subida y ==alivió el tramo corto==. Segundo, la prima por plazo: tras tocar el 5,36 % el 7, ==las subastas a 10 años (2,77 veces cubierta, la mejor desde 2016) y a 30 años demostraron que hay demanda a estos niveles==, y el mercado empezó a leer el crudo caro como freno al crecimiento más que como inflación. Tercero, ==la huida a la calidad del 15: con Asia hundiéndose, el 10 años bajó 10 pb en un día==. El IPC del 14 impidió que el 2 años bajara más, porque devolvió la probabilidad de subida de la Fed a ~50 %. El día 12 el mercado de bonos estuvo cerrado por Columbus Day.\n\nEn la zona euro bajaron más los plazos cortos: ==2 años AAA −17 pb (2,99 %) y 10 años −19 pb (3,39 %)==, pese a una inflación del 3,8 %. El 2 de octubre el 10 años cayó 13 pb: ==el dinero salió de la deuda francesa e italiana hacia el Bund==, e Isabel Schnabel (BCE, Banco Central Europeo) avisó de que la subida global de TIR ya enfría la economía. El mercado siguió dando ~80 % a otra subida del BCE este año por el petróleo, y eso frenó la caída del tramo corto a mitad de quincena. ==El 15 el Bund bajó 12 pb con el desplome asiático==. Los diferenciales fueron en sentido contrario: Francia en 140–150 pb e Italia hacia 126–130 pb. El crédito empezó a cobrar más: ==el diferencial high yield de EE. UU. se amplió 11 pb (3,23 %)== por el miedo a la deuda de la IA.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "−11 pb (4,77 %)",
+    "por_que": "==Empleo flojo (29.000) → menos subidas de la Fed==; el IPC del 14 frenó la bajada.",
+    "fuentes": [
+     {
+      "t": "Penn Mutual AM: un empleo flojo enfría las apuestas de subida",
+      "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+     },
+     {
+      "t": "Gotrade: un IPC alto reaviva el miedo a una subida de la Fed",
+      "u": "https://www.heygotrade.com/en/news/hot-us-cpi-revives-fed-rate-hike-fears-stock-futures-fall/"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−20 pb (5,09 %)",
+    "por_que": "Del 5,34 % del día 1 al 5,09 %: ==subastas muy demandadas y refugio el 15== (−10 pb).",
+    "fuentes": [
+     {
+      "t": "Trading Economics: el 10 años de EE. UU. (1-oct)",
+      "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/588867"
+     },
+     {
+      "t": "Eurasia Business News: las TIR ceden tras una subasta sólida (7-oct)",
+      "u": "https://eurasiabusinessnews.com/2026/10/07/stock-market-today-treasury-yields-retreat-after-strong-auction-dow-slips/"
+     },
+     {
+      "t": "Trading Economics: el 10 años tras el IPC (14-oct)",
+      "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "−21 pb (5,43 %)",
+    "por_que": "Llegó al 5,73 % el 7; ==la subasta a 30 años del 8 tuvo mucha demanda== y bajó la prima por plazo.",
+    "fuentes": [
+     {
+      "t": "Newsquawk: subasta de bonos a 30 años (8-oct)",
+      "u": "https://www.newsquawk.com/headlines/us-sold-usd-22bln-of-30-year-bonds-tail-01bps"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "−17 pb (2,99 %)",
+    "por_que": "==Huida desde Francia hacia el Bund y aviso de Schnabel== de que las TIR altas ya enfrían la economía.",
+    "fuentes": [
+     {
+      "t": "Trading Economics: el Bund (5-oct)",
+      "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+     },
+     {
+      "t": "Trading Economics: bono francés y apuestas sobre el BCE (8-oct)",
+      "u": "https://tradingeconomics.com/france/government-bond-yield/news/590786"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "−19 pb (3,39 %)",
+    "por_que": "==Refugio dos veces: frente a Francia (2 de octubre, −13 pb) y frente a Asia (15, −12 pb)==.",
+    "fuentes": [
+     {
+      "t": "Trading Economics: el Bund (5-oct)",
+      "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+     },
+     {
+      "t": "Nikkei Asia: las bolsas asiáticas se hunden por la deuda de la IA y la inflación",
+      "u": "https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Francia–Alemania (10 años)",
+    "cambio": "≈ +20–30 pb (de ~120 a 140–150 pb)",
+    "por_que": "==Presupuesto de 2027 con emisión récord y sin mayoría==; máximo desde 2011–2012. Dato de prensa, no del panel.",
+    "fuentes": [
+     {
+      "t": "Trading Economics: el bono francés (9-oct)",
+      "u": "https://tradingeconomics.com/france/government-bond-yield/news/590139"
+     },
+     {
+      "t": "Babypips: por qué importa el diferencial OAT–Bund (12-oct)",
+      "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Italia–Alemania (10 años)",
+    "cambio": "≈ +30 pb (de ~97 a ~126 pb a principios de mes)",
+    "por_que": "==Contagio francés y banca italiana a la baja==.",
+    "fuentes": [
+     {
+      "t": "Money.it: el diferencial BTP–Bund hacia 130 pb (2-oct)",
+      "u": "https://www.money.it/spread-btp-bund-verso-quota-130-con-rendimenti-al-470-francia-peggio-dell-italia-oat-puntano-al-5"
+     },
+     {
+      "t": "QuiFinanza: BTP, OAT y Bund (6-oct)",
+      "u": "https://quifinanza.it/economia/finanza/spread-btp-bund-6-ottobre-2026/1018444/"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial high yield EE. UU.",
+    "cambio": "+11 pb (3,23 %)",
+    "por_que": "==Miedo a la deuda con la que se financian los centros de datos de IA==.",
+    "fuentes": []
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Penn Mutual AM: un empleo flojo enfría las apuestas de subida",
+    "u": "https://www.pennmutualam.com/market-insights/blogs/monday-morning-perspectives/2026-10-05-soft-jobs-report-cools-hike-bets-as-yields-hold-near-multi-decade-highs"
+   },
+   {
+    "t": "Eurasia Business News: las TIR ceden tras una subasta sólida (7-oct)",
+    "u": "https://eurasiabusinessnews.com/2026/10/07/stock-market-today-treasury-yields-retreat-after-strong-auction-dow-slips/"
+   },
+   {
+    "t": "Gotrade: un IPC alto reaviva el miedo a una subida de la Fed",
+    "u": "https://www.heygotrade.com/en/news/hot-us-cpi-revives-fed-rate-hike-fears-stock-futures-fall/"
+   },
+   {
+    "t": "Trading Economics: el 10 años tras el IPC (14-oct)",
+    "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950"
+   },
+   {
+    "t": "Babypips: por qué importa el diferencial OAT–Bund (12-oct)",
+    "u": "https://www.babypips.com/news/explainer-why-the-oat-bund-spread-matters-for-the-euro-2026-10-12"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "Quincena con ==medianas casi planas (renta variable −0,0 %, renta fija +0,6 %, mixtos +0,5 %) y extremos enormes==. Arriba, todos los fondos de ==Brasil y Latinoamérica (+11 a +16 %)==, por bolsa y divisa a la vez. Abajo, ==Corea, Asia y tecnología ligada a la memoria (−9 a −17 %)==. La renta fija tuvo su mejor quincena en meses porque ==cuando baja la TIR, sube el precio del bono==, salvo los convertibles (−5 %), que van ligados a acciones tecnológicas. El dólar (+1,3 % frente al euro) sumó algo en las clases en dólares: BNP Paribas Brazil Equity ganó un 13,4 % en dólares y un 14,9 % en euros. Los monetarios en francos suizos ganaron un 1,9 % solo por el franco. ==Varios fondos deshacen lo de la quincena anterior== (T. Rowe Global Tech +9,7 % y ahora −9,8 %; Atmos Global +6,7 % y ahora −8,9 %).",
+  "suben": [
+   {
+    "isin": "LU0616856935",
+    "por_que": "Bolsa brasileña (B3, Axia, Vale, WEG, Petrobras). ==Flávio Bolsonaro gana la primera vuelta: Bovespa +9,7 % y real al alza==, dos ganancias que se suman en euros."
+   },
+   {
+    "isin": "LU0551369712",
+    "por_que": "Bolsa brasileña: ==Itaú, Vale, Petrobras, Nu y B3==; la banca fue lo que más subió tras la elección. (Su ficha muestra un 67 % en «Capital Cash Ctrl», probable error de datos.)"
+   },
+   {
+    "isin": "LU0265313147",
+    "por_que": "Bolsa brasileña, clase en dólares (sin cartera). ==+13,4 % en dólares y +14,9 % en euros: 1,5 puntos de efecto divisa== por la subida del dólar."
+   },
+   {
+    "isin": "LU0171289498",
+    "por_que": "Latinoamérica: ==Brasil (Vale, XP, Nu, Itaú) y México (Banorte, Walmex, Southern Copper)==. Brasil explica casi toda la subida."
+   },
+   {
+    "isin": "LU1213835942",
+    "por_que": "Latinoamérica con ==Nu Holdings (9,8 %) y Petrobras== al frente: banca digital brasileña y crudo caro."
+   },
+   {
+    "isin": "IE00B23S7K36",
+    "por_que": "Bolsa brasileña: ==Petrobras, Bradesco, Axia, Nu y Embraer==. Mismo motor electoral."
+   },
+   {
+    "isin": "LU0309468808",
+    "por_que": "Latinoamérica de Nordea (sin cartera). ==Mismo movimiento que el resto de fondos de la región==, dominados por Brasil."
+   },
+   {
+    "isin": "IE00BKKJBP83",
+    "por_que": "Tecnología financiera de Wellington (sin cartera en nuestros datos). ==+12,3 % cuando el Nasdaq 100 cayó un 1,6 %==: le ayudó la rotación hacia las financieras del día 15 (+3,7 % ese día), pero una subida así no la explican solo los índices. Conviene revisar su ficha."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU0301637293",
+    "por_que": "Corea: ==SK hynix (10 %), SK Square (9 %) y Samsung (8,6 %)==, casi un 30 % en memoria. El Kospi cayó un 18,8 %; el fondo algo menos en euros por la caída del euro."
+   },
+   {
+    "isin": "LU1861216510",
+    "por_que": "Tecnología de nueva generación cubierta a euros: ==Lumentum, NVIDIA, Micron, SanDisk, Ibiden y Asia Vital==. Mucha memoria y componentes de servidores para IA. Deshace su subida de septiembre."
+   },
+   {
+    "isin": "ES0162950002",
+    "por_que": "Pequeñas compañías globales con modelo cuantitativo de valor (sin cartera). ==−12,6 % frente a −1,1 % del Russell 2000==: caída propia del fondo; puede tener mucho peso en Asia. Revisar su VL (valor liquidativo)."
+   },
+   {
+    "isin": "LU0336299580",
+    "por_que": "Líderes asiáticos: ==Samsung, TSMC y SK hynix (25 %), más AMEC y NAURA (equipos chinos de chips)==. Toda la cadena de semiconductores de la región."
+   },
+   {
+    "isin": "LU0593848723",
+    "por_que": "Pese a llamarse «consumo», ==sus primeras posiciones son Samsung, TSMC y SK hynix==, como el fondo hermano de Mirae: cae lo mismo."
+   },
+   {
+    "isin": "LU0336300933",
+    "por_que": "Asia emergente de Mirae (sin cartera). ==Misma caída que sus fondos hermanos==, probablemente con las mismas posiciones en chips."
+   },
+   {
+    "isin": "LU1602119973",
+    "por_que": "Tecnología global cubierta a euros: ==NVIDIA, AMD, TSMC, Samsung, Intel y SK hynix==. Devuelve el +9,7 % de la segunda quincena de septiembre."
+   },
+   {
+    "isin": "LU1480990909",
+    "por_que": "Asia de alta convicción de Lombard Odier, cubierto a euros (sin cartera). ==Asia ex-Japón concentrada en tecnología==: Corea y Taiwán."
+   }
+  ],
+  "por_clase": [
+   {
+    "clase": "Renta variable",
+    "texto": "Mediana −0,0 % (1.674 fondos), pero ==con una distancia de 33 puntos entre Brasil (+16 %) y Corea (−17 %)==. Salud, India, Suiza y Reino Unido arriba; Asia tecnológica e Italia abajo."
+   },
+   {
+    "clase": "Renta fija",
+    "texto": "Mediana +0,6 %: ==la bajada de 17–20 pb en las TIR sube el precio de los bonos==. Destacan los bonos brasileños (Bradesco +7,6 %, por el real); caen los convertibles (−5 %)."
+   },
+   {
+    "clase": "Mixtos",
+    "texto": "Mediana +0,5 %: ==bonos al alza compensan una bolsa plana==. Algunos mixtos flexibles españoles vuelven a mostrar vaivenes de ±6–9 %."
+   },
+   {
+    "clase": "Monetarios",
+    "texto": "Mediana +0,1 %. ==Los monetarios en francos ganan un 1,9 % por el franco==, refugio frente a Francia; los de euros, en torno al 0,1 %."
+   },
+   {
+    "clase": "Alternativos",
+    "texto": "Mediana +0,1 %. Ganan los long/short de tecnología (DNB TMT +6,4 %), que ==ganan con sus posiciones cortas cuando caen los chips==; pierden los de tendencias, porque se dio la vuelta la tendencia de los bonos."
+   },
+   {
+    "clase": "Materias primas e inmobiliario",
+    "texto": "Mediana +1,4 %: ==energía y gas compensan la caída de la plata==; pierden los de metales preciosos y estratégicos."
+   },
+   {
+    "clase": "Otros",
+    "texto": "Garantizados y protegidos de Bankinter casi planos; ==el Europeo Inverso (+1,9 %) gana con la caída de la bolsa europea a principios de mes==."
+   }
+  ]
+ },
+ "agenda": [
+  {
+   "fecha": "2026-10-16",
+   "evento": "Inflación final de la zona euro (septiembre) y producción industrial de EE. UU.",
+   "por_que_importa": "Con la Fed y el BCE debatiendo más subidas, cualquier sorpresa de precios mueve los bonos."
+  },
+  {
+   "fecha": "2026-10-21",
+   "evento": "Resultados de Tesla y Meta",
+   "por_que_importa": "Sus planes de inversión en IA dirán si el miedo a la financiación frena el gasto en centros de datos."
+  },
+  {
+   "fecha": "2026-10-22",
+   "evento": "Resultados de SAP, ABB, Barclays y Bankinter",
+   "por_que_importa": "Prueba para la banca europea y la tecnología no ligada a chips."
+  },
+  {
+   "fecha": "2026-10-23",
+   "evento": "Revisión de la calificación de Francia por Moody's",
+   "por_que_importa": "Una rebaja ampliaría el diferencial francés, ya en máximos desde 2011–2012."
+  },
+  {
+   "fecha": "2026-10-25",
+   "evento": "Segunda vuelta de las presidenciales en Brasil",
+   "por_que_importa": "Confirmará o deshará la subida de la bolsa y del real de octubre."
+  },
+  {
+   "fecha": "2026-10-28",
+   "evento": "Reunión de la Fed (27–28 de octubre)",
+   "por_que_importa": "Tras el IPC, el mercado duda entre subir ya o esperar a diciembre."
+  },
+  {
+   "fecha": "2026-10-29",
+   "evento": "Reunión del BCE e índice PCE de EE. UU.",
+   "por_que_importa": "Inflación de la zona euro en el 3,8 % y BCE en el 2,50 %: se discute otra subida en diciembre."
+  },
+  {
+   "fecha": "2026-10-30",
+   "evento": "Banco de Japón (29–30 de octubre)",
+   "por_que_importa": "Con la bolsa japonesa castigada por los chips, cualquier pista sobre otra subida mueve el yen y el Nikkei."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento. Si sube la TIR, baja el precio del bono."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: una centésima de punto porcentual (100 pb = 1 %)."
+  },
+  {
+   "sigla": "IPC",
+   "def": "Índice de precios de consumo; el «subyacente» excluye energía y alimentos."
+  },
+  {
+   "sigla": "IPP",
+   "def": "Índice de precios de producción: lo que cobran los productores; adelanta parte de la inflación."
+  },
+  {
+   "sigla": "PCE",
+   "def": "Deflactor del consumo personal: la medida de inflación que sigue la Fed."
+  },
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "CXMT",
+   "def": "ChangXin Memory Technologies, fabricante chino de memoria DRAM."
+  },
+  {
+   "sigla": "Tankan",
+   "def": "Encuesta trimestral del Banco de Japón sobre la confianza de las empresas."
+  },
+  {
+   "sigla": "AIE",
+   "def": "Agencia Internacional de la Energía."
+  },
+  {
+   "sigla": "OAT",
+   "def": "Bono del Estado francés."
+  },
+  {
+   "sigla": "Bund",
+   "def": "Bono del Estado alemán; referencia de la zona euro."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia; la curva AAA del BCE agrupa los bonos de los países con esa nota."
+  },
+  {
+   "sigla": "Prima por plazo",
+   "def": "Rentabilidad extra que se exige por prestar a largo plazo (riesgo de inflación, déficit y exceso de deuda)."
+  },
+  {
+   "sigla": "Prima de riesgo / diferencial",
+   "def": "Diferencia de rentabilidad entre el bono de un país y el alemán (Bund) al mismo plazo."
+  },
+  {
+   "sigla": "High yield",
+   "def": "Bonos de alto rendimiento, emitidos por empresas con peor calificación crediticia."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa."
+  },
+  {
+   "sigla": "WTI",
+   "def": "West Texas Intermediate: petróleo de referencia en EE. UU."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio diario de una participación de un fondo."
+  },
+  {
+   "sigla": "Long/short",
+   "def": "Estrategia que compra unas acciones y vende otras a la vez (posiciones cortas), para ganar con la diferencia."
+  }
+ ],
+ "generado": "2026-10-24T13:00"
+}

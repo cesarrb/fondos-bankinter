@@ -1,0 +1,2818 @@
+[
+ {
+  "id": "2021-01-06-georgia-ola-azul",
+  "fecha": "2021-01-06",
+  "fin": "2021-03-11",
+  "titulo": "Doble victoria demócrata en Georgia y plan de estímulo de 1,9 billones",
+  "pais": [
+   "US"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "fiscal_deuda",
+   "inflacion_macro"
+  ],
+  "mecanismo": "Las dos victorias en la segunda vuelta de Georgia dieron a los demócratas el control del Senado y despejaron el plan de rescate (American Rescue Plan, firmado el 11-mar). Más gasto público elevó las expectativas de crecimiento e inflación: subieron las rentabilidades de los bonos y rotaron los flujos hacia cíclicas, bancos, pequeñas compañías y energía limpia.",
+  "activos_afectados": [
+   {
+    "activo": "Bono EE. UU. 10 años (rentabilidad)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Russell 2000",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bancos EE. UU.",
+    "sentido": "+"
+   },
+   {
+    "activo": "Energía limpia",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "small",
+   "val",
+   "fin",
+   "limpia",
+   "inf"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2020–21 United States Senate election in Georgia",
+    "u": "https://en.wikipedia.org/wiki/2020%E2%80%9321_United_States_Senate_election_in_Georgia"
+   },
+   {
+    "t": "Wikipedia: American Rescue Plan Act of 2021",
+    "u": "https://en.wikipedia.org/wiki/American_Rescue_Plan_Act_of_2021"
+   }
+  ]
+ },
+ {
+  "id": "2021-01-25-gamestop-meme",
+  "fecha": "2021-01-25",
+  "fin": "2021-02-02",
+  "titulo": "GameStop y las acciones «meme»: estrangulamiento de cortos minorista",
+  "pais": [
+   "US"
+  ],
+  "tipo": "flujos_posicionamiento",
+  "tipos_secundarios": [
+   "regulacion",
+   "materias_primas"
+  ],
+  "mecanismo": "Pequeños inversores coordinados en foros compraron acciones y opciones de compra de valores muy vendidos en corto, forzando recompras de cortos y la cobertura en delta de los creadores de mercado. Varios hedge funds perdieron mucho y redujeron exposición (desapalancamiento que golpeó también a sus posiciones largas); Robinhood restringió compras el 28-ene. El intento posterior de repetirlo con la plata (1-feb) duró apenas un día.",
+  "activos_afectados": [
+   {
+    "activo": "GameStop",
+    "sentido": "+",
+    "magnitud": "cierre récord ~347 $ el 27-ene (antes del desdoblamiento)"
+   },
+   {
+    "activo": "Cestas de acciones muy vendidas en corto",
+    "sentido": "+"
+   },
+   {
+    "activo": "Hedge funds long/short",
+    "sentido": "-"
+   },
+   {
+    "activo": "Plata",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "small",
+   "fintech"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: GameStop short squeeze",
+    "u": "https://en.wikipedia.org/wiki/GameStop_short_squeeze"
+   }
+  ]
+ },
+ {
+  "id": "2021-02-16-tormenta-uri-texas",
+  "fecha": "2021-02-16",
+  "fecha_real": "2021-02-15",
+  "fin": "2021-02-19",
+  "titulo": "Ola de frío Uri en Texas: apagones y precios eléctricos al tope",
+  "pais": [
+   "US"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [
+   "materias_primas",
+   "catastrofe_natural"
+  ],
+  "mecanismo": "Una ola de frío extremo congeló pozos, gasoductos y centrales en Texas, con apagones masivos. El regulador fijó la electricidad mayorista en el máximo de 9.000 $/MWh y el gas al contado regional se disparó; algunas comercializadoras quebraron y la producción de petróleo y la petroquímica del Golfo se pararon varios días.",
+  "activos_afectados": [
+   {
+    "activo": "Electricidad ERCOT",
+    "sentido": "+",
+    "magnitud": "9.000 $/MWh fijado por el regulador"
+   },
+   {
+    "activo": "Gas natural (spot Texas)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Petróleo WTI",
+    "sentido": "+"
+   },
+   {
+    "activo": "Eléctricas integradas de Texas",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "inf",
+   "us",
+   "cat"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "UT Austin: datos sobre los apagones de febrero en Texas",
+    "u": "https://news.utexas.edu/2021/07/13/new-data-on-february-texas-blackouts-reveals-unprecedented-impact-on-energy-and-financial-systems/"
+   },
+   {
+    "t": "S&P Global: la ola de frío deja sin luz a millones de clientes",
+    "u": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/021721-deep-freeze-keeps-28-million-texas-power-customers-in-the-cold-prices-remain-high"
+   }
+  ]
+ },
+ {
+  "id": "2021-02-25-rabieta-bonos-reflacion",
+  "fecha": "2021-02-25",
+  "fin": "2021-03-31",
+  "titulo": "Repunte brusco del bono a 10 años: el mercado teme la reflación",
+  "pais": [
+   "US",
+   "Global"
+  ],
+  "tipo": "inflacion_macro",
+  "tipos_secundarios": [
+   "politica_monetaria"
+  ],
+  "mecanismo": "Las expectativas de reapertura y estímulo fiscal empujaron la rentabilidad del bono de EE. UU. a 10 años por encima del 1,5–1,6 %, en una subasta floja a 7 años. Al subir el tipo de descuento cayeron las tecnológicas de alta valoración y los ETF de innovación, mientras ganaban bancos, energía y value.",
+  "activos_afectados": [
+   {
+    "activo": "Bono EE. UU. 10 años (precio)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Nasdaq / crecimiento",
+    "sentido": "-"
+   },
+   {
+    "activo": "Value y bancos",
+    "sentido": "+"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "tec",
+   "calidad",
+   "val",
+   "fin",
+   "oro",
+   "ia",
+   "bio"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2021–2023 inflation surge",
+    "u": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge"
+   }
+  ]
+ },
+ {
+  "id": "2021-03-23-ever-given-suez",
+  "fecha": "2021-03-23",
+  "fin": "2021-03-29",
+  "titulo": "El Ever Given bloquea el canal de Suez durante seis días",
+  "pais": [
+   "EG",
+   "Global"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "Un portacontenedores gigante encallado bloqueó el canal de Suez, por donde pasa en torno al 12 % del comercio mundial. Cientos de buques quedaron retenidos, se añadió presión a fletes y cadenas de suministro ya tensas y el petróleo subió por el desvío de tanqueros; tras reflotarlo el 29-mar el efecto fue sobre todo de retrasos.",
+  "activos_afectados": [
+   {
+    "activo": "Fletes de contenedores",
+    "sentido": "+"
+   },
+   {
+    "activo": "Petróleo Brent",
+    "sentido": "±"
+   },
+   {
+    "activo": "Navieras",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "inf",
+   "ene",
+   "eu"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2021 Suez Canal obstruction",
+    "u": "https://en.wikipedia.org/wiki/2021_Suez_Canal_obstruction"
+   }
+  ]
+ },
+ {
+  "id": "2021-03-26-archegos",
+  "fecha": "2021-03-26",
+  "fin": "2021-04-06",
+  "titulo": "Quiebra de Archegos: ventas forzosas en bloque y pérdidas en bancos",
+  "pais": [
+   "US",
+   "CH",
+   "JP"
+  ],
+  "tipo": "crisis_financiera",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "El family office de Bill Hwang tenía posiciones muy apalancadas mediante swaps con varios bancos. La caída de ViacomCBS tras su ampliación provocó peticiones de margen y los bancos liquidaron en bloque el viernes 26-mar. Quien vendió tarde perdió: Credit Suisse (~5.500 M$) y Nomura sufrieron en bolsa a partir del lunes 29.",
+  "activos_afectados": [
+   {
+    "activo": "ViacomCBS y Discovery",
+    "sentido": "-",
+    "magnitud": ">27 % el 26-mar"
+   },
+   {
+    "activo": "ADR chinos (Baidu, Tencent Music…)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Credit Suisse",
+    "sentido": "-"
+   },
+   {
+    "activo": "Nomura",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "fin",
+   "ch",
+   "jp",
+   "cn",
+   "us"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "CNBC: la liquidación de Archegos hunde a Viacom y Discovery",
+    "u": "https://www.cnbc.com/2021/03/27/archegos-capital-forced-position-liquidation-contributes-to-viacom-discovery-plunge.html"
+   },
+   {
+    "t": "Wikipedia: Archegos Capital Management",
+    "u": "https://en.wikipedia.org/wiki/Archegos_Capital_Management"
+   }
+  ]
+ },
+ {
+  "id": "2021-05-21-china-mineria-bitcoin",
+  "fecha": "2021-05-21",
+  "fin": "2021-06-30",
+  "titulo": "China ordena perseguir la minería y el comercio de bitcoin",
+  "pais": [
+   "CN",
+   "Global"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "tecnologia"
+  ],
+  "mecanismo": "El comité de estabilidad financiera del Consejo de Estado anunció medidas contra la minería y la negociación de bitcoin, tras una semana ya bajista (Tesla dejó de aceptarlo el 12-may). Los mineros chinos cerraron o emigraron y el bitcoin cayó con fuerza durante mayo–junio, arrastrando a mineras cotizadas y acciones ligadas a cripto.",
+  "activos_afectados": [
+   {
+    "activo": "Bitcoin",
+    "sentido": "-",
+    "magnitud": "−6 % a −10 % el 21-may; caída ~50 % desde el máximo de abril"
+   },
+   {
+    "activo": "Mineras de cripto cotizadas",
+    "sentido": "-"
+   },
+   {
+    "activo": "Coinbase",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "fintech",
+   "cn"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Business Standard: el bitcoin cae al anunciar China la ofensiva",
+    "u": "https://www.business-standard.com/amp/article/international/bitcoin-tumbles-as-china-says-to-crack-down-on-mining-trading-activities-121052101390_1.html"
+   }
+  ]
+ },
+ {
+  "id": "2021-06-07-peru-castillo",
+  "fecha": "2021-06-07",
+  "fecha_real": "2021-06-06",
+  "fin": "2021-07-19",
+  "titulo": "Perú: Pedro Castillo gana la segunda vuelta; hundimiento del sol y la bolsa",
+  "pais": [
+   "PE"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "El candidato de izquierda radical se adelantó en el escrutinio frente a Keiko Fujimori. El temor a nacionalizaciones mineras, cambios constitucionales y fuga de capitales hundió el sol y la bolsa de Lima; la incertidumbre siguió hasta la proclamación (19-jul) y la elección del ministro de Economía.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa de Lima (S&P/BVL)",
+    "sentido": "-",
+    "magnitud": "~−7 % el 7-jun"
+   },
+   {
+    "activo": "Sol peruano",
+    "sentido": "-",
+    "magnitud": "−2,5 %, mayor caída diaria en 7 años"
+   },
+   {
+    "activo": "Bonos soberanos de Perú",
+    "sentido": "-"
+   },
+   {
+    "activo": "Mineras de cobre peruanas",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "latam",
+   "em",
+   "mat"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Nippon.com/Reuters: caen el sol y la bolsa al adelantarse Castillo",
+    "u": "https://www.nippon.com/en/news/reu20210607KCN2DJ0Y3"
+   },
+   {
+    "t": "Wikipedia: 2021 Peruvian general election",
+    "u": "https://en.wikipedia.org/wiki/2021_Peruvian_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2021-07-02-china-didi-tecnologicas",
+  "fecha": "2021-07-02",
+  "fin": "2021-08-31",
+  "titulo": "Ofensiva china contra sus tecnológicas: Didi, datos y «prosperidad común»",
+  "pais": [
+   "CN",
+   "US"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "elecciones_politica"
+  ],
+  "mecanismo": "Días después de salir a bolsa en Nueva York, Didi fue investigada por el regulador del ciberespacio y retirada de las tiendas de aplicaciones. Se sumaron reglas sobre datos, antimonopolio y plataformas y el lema de «prosperidad común» (agosto). Los inversores exigieron más prima de riesgo a las tecnológicas chinas y a las cotizadas en EE. UU. con estructura VIE.",
+  "activos_afectados": [
+   {
+    "activo": "Didi",
+    "sentido": "-",
+    "magnitud": "~−20 % el 6-jul"
+   },
+   {
+    "activo": "Hang Seng Tech",
+    "sentido": "-"
+   },
+   {
+    "activo": "ADR chinos (KWEB)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cn",
+   "em",
+   "tec",
+   "fintech"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2020–2021 Chinese tech crackdown",
+    "u": "https://en.wikipedia.org/wiki/2020%E2%80%932021_Chinese_tech_crackdown"
+   }
+  ]
+ },
+ {
+  "id": "2021-07-14-inundaciones-europa",
+  "fecha": "2021-07-14",
+  "fin": "2021-07-16",
+  "titulo": "Inundaciones catastróficas en Alemania y Bélgica (tormenta Bernd)",
+  "pais": [
+   "DE",
+   "BE",
+   "NL"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Lluvias extremas desbordaron ríos en Renania y Valonia, con más de 200 muertos y daños de decenas de miles de millones. Fue de las catástrofes más caras de Europa para aseguradoras y reaseguradoras y reavivó el debate sobre adaptación climática e infraestructuras.",
+  "activos_afectados": [
+   {
+    "activo": "Reaseguradoras europeas",
+    "sentido": "-"
+   },
+   {
+    "activo": "Aseguradoras alemanas",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "fin",
+   "de",
+   "inf",
+   "esg",
+   "agua"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2021 European floods",
+    "u": "https://en.wikipedia.org/wiki/2021_European_floods"
+   }
+  ]
+ },
+ {
+  "id": "2021-07-20-helada-brasil-cafe",
+  "fecha": "2021-07-20",
+  "fin": "2021-07-30",
+  "titulo": "Heladas en Brasil disparan el café arábica",
+  "pais": [
+   "BR"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "Heladas poco habituales dañaron cafetales en Minas Gerais, primer productor mundial de arábica, cuando la oferta ya sufría sequía y fletes caros. El futuro de arábica se disparó a máximos de varios años y también subió el azúcar; los cafetos dañados lastraron cosechas posteriores.",
+  "activos_afectados": [
+   {
+    "activo": "Café arábica (ICE)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Azúcar",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp",
+   "br"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: Coffee production in Brazil",
+    "u": "https://en.wikipedia.org/wiki/Coffee_production_in_Brazil"
+   }
+  ]
+ },
+ {
+  "id": "2021-07-23-china-educacion",
+  "fecha": "2021-07-23",
+  "fin": "2021-07-28",
+  "titulo": "China prohíbe el lucro en la enseñanza extraescolar",
+  "pais": [
+   "CN",
+   "HK",
+   "US"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [],
+  "mecanismo": "Un borrador filtrado el viernes y publicado el sábado obligó a las academias de refuerzo de materias troncales a ser entidades sin ánimo de lucro y les prohibió cotizar o captar capital. Las educativas perdieron la mayor parte de su valor en días y el contagio se extendió a todas las tecnológicas chinas por miedo a que ningún sector estuviera a salvo.",
+  "activos_afectados": [
+   {
+    "activo": "TAL Education / New Oriental",
+    "sentido": "-",
+    "magnitud": "−66 % a −73 % del 23 al 27-jul"
+   },
+   {
+    "activo": "Hang Seng / Hang Seng Tech",
+    "sentido": "-"
+   },
+   {
+    "activo": "ADR chinos",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cn",
+   "em"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Morningstar: las educativas chinas «en revisión» tras la ofensiva",
+    "u": "https://www.morningstar.com.au/stocks/analysts-place-chinese-education-stocks-under-review-following-government-crackdown"
+   },
+   {
+    "t": "Al Jazeera: las nuevas reglas golpean a la enseñanza privada china",
+    "u": "https://www.aljazeera.com/economy/2021/7/26/china-pvt-education-firms-brace-for-a-material-hit-on-new-rules"
+   }
+  ]
+ },
+ {
+  "id": "2021-08-11-fletes-atascos-portuarios",
+  "fecha": "2021-08-11",
+  "fin": "2021-09-23",
+  "titulo": "Atascos portuarios y fletes de contenedores en máximos históricos",
+  "pais": [
+   "CN",
+   "US",
+   "Global"
+  ],
+  "tipo": "logistica",
+  "tipos_secundarios": [
+   "inflacion_macro",
+   "pandemia"
+  ],
+  "mecanismo": "La demanda de bienes durante la pandemia, los cierres por covid de terminales chinas (Yantian en junio, Ningbo-Meishan en agosto) y la congestión en Los Ángeles/Long Beach dispararon los fletes. El encarecimiento del transporte y la escasez de componentes (chips, automóvil) alimentaron la inflación de bienes y beneficiaron a navieras.",
+  "activos_afectados": [
+   {
+    "activo": "Índice Drewry WCI (40 pies)",
+    "sentido": "+",
+    "magnitud": "pico ~10.377 $ en sept-2021"
+   },
+   {
+    "activo": "Navieras (Maersk, Hapag-Lloyd)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Fabricantes de automóviles",
+    "sentido": "-"
+   },
+   {
+    "activo": "Minoristas importadores",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "inf",
+   "movil",
+   "lujo",
+   "semi",
+   "cn",
+   "de",
+   "nor"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Hellenic Shipping News/Drewry: el WCI deja de subir tras 22 semanas",
+    "u": "https://www.hellenicshippingnews.com/drewry-world-container-index-keeps-climbing-higher-now-323-higher-than-last-year-and-2-9-on-week/"
+   },
+   {
+    "t": "Wikipedia: 2021–2023 global supply chain crisis",
+    "u": "https://en.wikipedia.org/wiki/2021%E2%80%932023_global_supply_chain_crisis"
+   }
+  ]
+ },
+ {
+  "id": "2021-08-17-uranio-sprott",
+  "fecha": "2021-08-17",
+  "fin": "2021-09-15",
+  "titulo": "El fondo físico de uranio de Sprott compra a mercado y el precio se dispara",
+  "pais": [
+   "CA",
+   "Global"
+  ],
+  "tipo": "flujos_posicionamiento",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "El Sprott Physical Uranium Trust empezó a emitir participaciones a mercado y a comprar uranio físico con lo captado, retirando oferta de un mercado al contado pequeño. El precio al contado subió de unos 30 $/lb a más de 40–50 $/lb en semanas y arrastró a mineras y ETF de uranio.",
+  "activos_afectados": [
+   {
+    "activo": "Uranio al contado (U3O8)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Mineras de uranio (Cameco, Kazatomprom)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "nuc",
+   "mat",
+   "mp"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: Sprott Inc. (Sprott Physical Uranium Trust)",
+    "u": "https://en.wikipedia.org/wiki/Sprott_Inc."
+   }
+  ]
+ },
+ {
+  "id": "2021-08-30-huracan-ida",
+  "fecha": "2021-08-30",
+  "fecha_real": "2021-08-29",
+  "fin": "2021-09-03",
+  "titulo": "Huracán Ida: Luisiana, cierre del Golfo y daños hasta Nueva York",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "Ida tocó tierra en Luisiana como categoría 4, paralizó casi toda la producción de crudo del Golfo de México y refinerías, y sus restos inundaron el noreste. Las pérdidas aseguradas (~30.000 M$) lo situaron entre los huracanes más caros y presionaron a reaseguradoras y bonos catastróficos de viento en EE. UU.",
+  "activos_afectados": [
+   {
+    "activo": "Producción de crudo del Golfo",
+    "sentido": "-"
+   },
+   {
+    "activo": "Gasolina / márgenes de refino",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bonos catastróficos de viento EE. UU.",
+    "sentido": "-"
+   },
+   {
+    "activo": "Reaseguradoras",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "ene",
+   "fin",
+   "us"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: Hurricane Ida",
+    "u": "https://en.wikipedia.org/wiki/Hurricane_Ida"
+   }
+  ]
+ },
+ {
+  "id": "2021-09-20-evergrande",
+  "fecha": "2021-09-20",
+  "fin": "2021-12-09",
+  "titulo": "Evergrande al borde del impago: contagio al inmobiliario chino",
+  "pais": [
+   "CN",
+   "HK"
+  ],
+  "tipo": "crisis_financiera",
+  "tipos_secundarios": [
+   "fiscal_deuda",
+   "regulacion"
+  ],
+  "mecanismo": "La promotora más endeudada del mundo (~300.000 M$ de pasivos), asfixiada por las «tres líneas rojas» de crédito, empezó a incumplir pagos. El 20-sep el Hang Seng cayó un 3,3 % y hubo contagio global; los bonos high yield chinos en dólares se desplomaron y la crisis se extendió a otras promotoras hasta su impago formal (dic-2021).",
+  "activos_afectados": [
+   {
+    "activo": "Evergrande",
+    "sentido": "-",
+    "magnitud": "−10 % el 20-sep"
+   },
+   {
+    "activo": "Hang Seng",
+    "sentido": "-",
+    "magnitud": "−3,3 % el 20-sep"
+   },
+   {
+    "activo": "High yield chino en dólares",
+    "sentido": "-"
+   },
+   {
+    "activo": "Mineral de hierro y acero",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cn",
+   "em",
+   "inmo",
+   "mat",
+   "fin"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Fortune: el índice inmobiliario de Hong Kong se hunde con Evergrande",
+    "u": "https://fortune.com/2021/09/20/hang-seng-property-index-shares-evergrande-collapse-hong-kong"
+   },
+   {
+    "t": "Business Standard: el mercado de Hong Kong cae un 3,3 %",
+    "u": "https://www.business-standard.com/amp/article/news-cm/hong-kong-market-stumbles-3-3-121092001209_1.html"
+   }
+  ]
+ },
+ {
+  "id": "2021-09-27-china-cortes-electricos",
+  "fecha": "2021-09-27",
+  "fin": "2021-10-19",
+  "titulo": "Cortes eléctricos en China y carbón en máximos",
+  "pais": [
+   "CN",
+   "Global"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "regulacion",
+   "logistica"
+  ],
+  "mecanismo": "Los objetivos de reducción de consumo energético y un carbón carísimo (con tarifas eléctricas reguladas) llevaron a racionamientos a la industria en varias provincias. Se paró producción de aluminio, acero y componentes, subieron metales y carbón, y se recortaron previsiones de crecimiento chino hasta que Pekín intervino el precio del carbón a mediados de octubre.",
+  "activos_afectados": [
+   {
+    "activo": "Carbón térmico (Zhengzhou/Newcastle)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Aluminio",
+    "sentido": "+"
+   },
+   {
+    "activo": "Fertilizantes",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bolsa china (industriales)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "mp",
+   "mat",
+   "cn",
+   "agri",
+   "ene"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2021 China power outages",
+    "u": "https://en.wikipedia.org/wiki/2021_China_power_outages"
+   }
+  ]
+ },
+ {
+  "id": "2021-10-06-crisis-energetica-europa-2021",
+  "fecha": "2021-10-06",
+  "fin": "2021-12-21",
+  "titulo": "Crisis energética europea: el gas TTF multiplica su precio",
+  "pais": [
+   "EU",
+   "UK",
+   "RU"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "inflacion_macro",
+   "geopolitica"
+  ],
+  "mecanismo": "Almacenes bajos, poco viento, demanda asiática de GNL y menores envíos rusos fuera de contrato dispararon el gas europeo desde verano; el 6-oct el TTF tocó ~162 €/MWh antes de que Putin ofreciera más suministro, y volvió a récords en diciembre. La electricidad, los fertilizantes y la industria electrointensiva sufrieron; quebraron comercializadoras británicas.",
+  "activos_afectados": [
+   {
+    "activo": "Gas TTF",
+    "sentido": "+",
+    "magnitud": "~162 €/MWh intradía el 6-oct"
+   },
+   {
+    "activo": "Electricidad europea",
+    "sentido": "+"
+   },
+   {
+    "activo": "Eléctricas renovables",
+    "sentido": "+"
+   },
+   {
+    "activo": "Química y fertilizantes europeos",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "limpia",
+   "eu",
+   "uk",
+   "de",
+   "agri",
+   "es"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Intellinews: el gas europeo retrocede tras las palabras de Putin",
+    "u": "https://www.intellinews.com/european-gas-prices-slide-back-after-putin-hints-russia-may-help-stabilise-the-market-222904/"
+   },
+   {
+    "t": "Wikipedia: 2021–2023 global energy crisis",
+    "u": "https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis"
+   }
+  ]
+ },
+ {
+  "id": "2021-11-23-lira-turca",
+  "fecha": "2021-11-23",
+  "fin": "2021-12-21",
+  "titulo": "Lira turca: hundimiento por bajadas de tipos y rebote con depósitos garantizados",
+  "pais": [
+   "TR"
+  ],
+  "tipo": "divisas",
+  "tipos_secundarios": [
+   "politica_monetaria",
+   "inflacion_macro"
+  ],
+  "mecanismo": "El banco central, presionado por Erdogan, bajó tipos con inflación al alza; la lira llegó a perder ~15 % el 23-nov y tocó ~18,4 por dólar el 20-dic. Esa noche el Gobierno garantizó los depósitos en liras contra la depreciación y la divisa rebotó ~25 % intradía; la bolsa turca en liras subía como refugio pero en euros perdía.",
+  "activos_afectados": [
+   {
+    "activo": "Lira turca",
+    "sentido": "-",
+    "magnitud": "−44 % en 2021 hasta el 20-dic"
+   },
+   {
+    "activo": "Lira turca (tras el 20-dic)",
+    "sentido": "+",
+    "magnitud": "~+25 % intradía"
+   },
+   {
+    "activo": "BIST 100 (en liras)",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "tr",
+   "em",
+   "front"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Business Standard: rebote histórico del 25 % de la lira",
+    "u": "https://www.business-standard.com/amp/article/international/lira-mounts-historic-25-rally-as-erdogan-moves-to-protect-savings-121122200025_1.html"
+   },
+   {
+    "t": "Cyprus Mail: la lira oscila tras la protección de ahorros",
+    "u": "https://cyprus-mail.com/2021/12/21/turkish-lira-whiplashes-after-erdogan-moves-to-protect-savings"
+   }
+  ]
+ },
+ {
+  "id": "2021-11-26-omicron",
+  "fecha": "2021-11-26",
+  "fin": "2021-12-03",
+  "titulo": "Aparece la variante Ómicron: caída del petróleo y de las acciones de reapertura",
+  "pais": [
+   "ZA",
+   "Global"
+  ],
+  "tipo": "pandemia",
+  "tipos_secundarios": [],
+  "mecanismo": "Sudáfrica comunicó una variante con muchas mutaciones y se reimpusieron restricciones de viaje. En una sesión de bajo volumen (post Acción de Gracias) cayeron con fuerza el petróleo, las aerolíneas, el turismo y los bancos, y ganaron bonos y farmacéuticas de vacunas; la menor gravedad posterior permitió recuperarse en semanas.",
+  "activos_afectados": [
+   {
+    "activo": "Petróleo WTI",
+    "sentido": "-",
+    "magnitud": "~−13 % el 26-nov"
+   },
+   {
+    "activo": "Dow Jones",
+    "sentido": "-",
+    "magnitud": "~−2,5 % el 26-nov"
+   },
+   {
+    "activo": "Aerolíneas y turismo",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (precio)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Moderna / BioNTech",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "hc",
+   "bio",
+   "lujo",
+   "front"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: SARS-CoV-2 Omicron variant",
+    "u": "https://en.wikipedia.org/wiki/SARS-CoV-2_Omicron_variant"
+   }
+  ]
+ },
+ {
+  "id": "2021-11-30-powell-retira-transitoria",
+  "fecha": "2021-11-30",
+  "fin": "2022-01-05",
+  "titulo": "Powell retira la palabra «transitoria»: la Fed acelera la retirada de estímulos",
+  "pais": [
+   "US"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "inflacion_macro"
+  ],
+  "mecanismo": "Tras un IPC del 6,2 % (máximo desde 1990, publicado el 10-nov) y la reducción de compras anunciada el 3-nov, Powell dijo en el Senado que era hora de dejar de llamar transitoria a la inflación y abrió la puerta a acelerar el fin de las compras. El mercado adelantó subidas para 2022: se aplanó la curva y empezó el castigo al crecimiento sin beneficios.",
+  "activos_afectados": [
+   {
+    "activo": "Bono EE. UU. 2 años (rentabilidad)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Nasdaq / crecimiento no rentable",
+    "sentido": "-"
+   },
+   {
+    "activo": "Dólar",
+    "sentido": "+"
+   },
+   {
+    "activo": "Value",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "tec",
+   "calidad",
+   "bio",
+   "small",
+   "us",
+   "mon"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2021–2023 inflation surge",
+    "u": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge"
+   }
+  ]
+ },
+ {
+  "id": "2021-12-20-chile-boric",
+  "fecha": "2021-12-20",
+  "fecha_real": "2021-12-19",
+  "fin": "2021-12-31",
+  "titulo": "Chile elige a Gabriel Boric: caen el peso y la bolsa",
+  "pais": [
+   "CL"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "La victoria del candidato de izquierdas (56 %) frente a Kast avivó el temor a más impuestos, reforma de pensiones privadas y frenos a la minería, en plena redacción de una nueva Constitución. El peso tocó mínimos desde 2020 y la bolsa vivió su peor día en meses, con rebote parcial al moderarse el mensaje.",
+  "activos_afectados": [
+   {
+    "activo": "IPSA (bolsa chilena)",
+    "sentido": "-",
+    "magnitud": "~−6 % el 20-dic"
+   },
+   {
+    "activo": "Peso chileno",
+    "sentido": "-",
+    "magnitud": ">−3 % intradía"
+   },
+   {
+    "activo": "ETF MSCI Chile",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "latam",
+   "em",
+   "mat"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Al Jazeera: caen los activos chilenos tras ganar Boric",
+    "u": "https://www.aljazeera.com/economy/2021/12/20/chile-assets-slump-after-left-wing-boric-wins-presidency"
+   },
+   {
+    "t": "Bloomberg Línea: se desploman los activos chilenos",
+    "u": "https://www.bloomberglinea.com/2021/12/20/chile-assets-tumble-after-left-wing-borics-presidential-win/"
+   }
+  ]
+ },
+ {
+  "id": "2022-01-05-actas-fed-balance",
+  "fecha": "2022-01-05",
+  "fin": "2022-01-27",
+  "titulo": "Las actas de la Fed anticipan subidas rápidas y reducción del balance",
+  "pais": [
+   "US"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "Las actas de diciembre mostraron que la Fed podía empezar pronto a reducir su balance además de subir tipos. El bono a 10 años saltó y se inició una rotación violenta: el Nasdaq entró en corrección en enero y los ETF de innovación se hundieron, mientras energía, bancos y value se comportaban mejor.",
+  "activos_afectados": [
+   {
+    "activo": "Nasdaq 100",
+    "sentido": "-",
+    "magnitud": "~−3 % el 5-ene"
+   },
+   {
+    "activo": "Bono EE. UU. 10 años (precio)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Energía y bancos",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "tec",
+   "ia",
+   "bio",
+   "calidad",
+   "small",
+   "val",
+   "ene",
+   "fin"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Federal Reserve: actas del FOMC de 14–15 de diciembre de 2021",
+    "u": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20211215.htm"
+   }
+  ]
+ },
+ {
+  "id": "2022-02-03-meta-resultados",
+  "fecha": "2022-02-03",
+  "fin": "2022-02-04",
+  "titulo": "Meta pierde un 26 % en un día por sus resultados",
+  "pais": [
+   "US"
+  ],
+  "tipo": "resultados",
+  "tipos_secundarios": [
+   "tecnologia"
+  ],
+  "mecanismo": "Meta publicó la primera caída de usuarios diarios de Facebook y avisó del impacto de los cambios de privacidad de Apple y de la competencia de TikTok. Perdió unos 230.000 M$ de capitalización en una sesión, el mayor desplome de valor de la historia de EE. UU. hasta entonces, golpeando a fondos de crecimiento y publicidad digital.",
+  "activos_afectados": [
+   {
+    "activo": "Meta Platforms",
+    "sentido": "-",
+    "magnitud": "~−26 % el 3-feb"
+   },
+   {
+    "activo": "Publicidad digital (Snap, Pinterest)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "tec",
+   "calidad",
+   "us"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: Meta Platforms",
+    "u": "https://en.wikipedia.org/wiki/Meta_Platforms"
+   }
+  ]
+ },
+ {
+  "id": "2022-02-24-invasion-ucrania",
+  "fecha": "2022-02-24",
+  "fin": "2022-03-08",
+  "titulo": "Rusia invade Ucrania",
+  "pais": [
+   "RU",
+   "UA",
+   "EU",
+   "Global"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "materias_primas",
+   "inflacion_macro"
+  ],
+  "mecanismo": "La invasión a gran escala disparó el riesgo sobre el principal proveedor de gas, petróleo, fertilizantes, trigo y metales de Europa. El Brent superó los 100 $ por primera vez desde 2014, se hundió la bolsa rusa y se desplomaron los valores europeos más expuestos (bancos con negocio ruso, automóvil), mientras subían defensa, oro y materias primas.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa de Moscú (MOEX)",
+    "sentido": "-",
+    "magnitud": "~−33 % el 24-feb"
+   },
+   {
+    "activo": "Brent",
+    "sentido": "+",
+    "magnitud": ">100 $/b"
+   },
+   {
+    "activo": "Gas TTF",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bancos europeos",
+    "sentido": "-"
+   },
+   {
+    "activo": "Defensa europea",
+    "sentido": "+"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "eu",
+   "de",
+   "ene",
+   "mp",
+   "agri",
+   "def",
+   "oro",
+   "em",
+   "fin",
+   "front"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2022 Russian invasion of Ukraine",
+    "u": "https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine"
+   },
+   {
+    "t": "Wikipedia: Economic impact of the Russian invasion of Ukraine",
+    "u": "https://en.wikipedia.org/wiki/Economic_impact_of_the_Russian_invasion_of_Ukraine"
+   }
+  ]
+ },
+ {
+  "id": "2022-02-28-sanciones-rusia-swift",
+  "fecha": "2022-02-28",
+  "fecha_real": "2022-02-26",
+  "fin": "2022-03-09",
+  "titulo": "Sanciones: Rusia fuera de SWIFT y reservas del banco central congeladas",
+  "pais": [
+   "RU",
+   "EU",
+   "US"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "divisas",
+   "regulacion",
+   "crisis_financiera"
+  ],
+  "mecanismo": "El fin de semana Occidente excluyó a bancos rusos de SWIFT y congeló las reservas del banco central. El rublo se hundió, el banco central de Rusia subió tipos del 9,5 % al 20 % y cerró la bolsa; los índices MSCI y FTSE retiraron a Rusia a precio prácticamente cero, dejando atrapados a los fondos de emergentes y de Europa del Este.",
+  "activos_afectados": [
+   {
+    "activo": "Rublo",
+    "sentido": "-",
+    "magnitud": "~−30 % frente al dólar el 28-feb"
+   },
+   {
+    "activo": "Acciones y bonos rusos en fondos",
+    "sentido": "-",
+    "magnitud": "valoración casi nula"
+   },
+   {
+    "activo": "Bancos con exposición rusa (Raiffeisen, UniCredit, SocGen)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "em",
+   "front",
+   "fin",
+   "eu"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia: International sanctions during the Russian invasion of Ukraine",
+    "u": "https://en.wikipedia.org/wiki/International_sanctions_during_the_Russian_invasion_of_Ukraine"
+   }
+  ]
+ },
+ {
+  "id": "2022-03-07-petroleo-pico-guerra",
+  "fecha": "2022-03-07",
+  "fin": "2022-03-16",
+  "titulo": "Petróleo a 139 $ y pico de las materias primas por la guerra",
+  "pais": [
+   "Global",
+   "RU"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica",
+   "inflacion_macro"
+  ],
+  "mecanismo": "La posibilidad de un embargo occidental al crudo ruso llevó al Brent a ~139 $/b intradía, máximo desde 2008, con aluminio, paladio y trigo también en récords. La espiral de costes reforzó la inflación y las previsiones de recesión en Europa; los precios retrocedieron en días al descartarse un embargo inmediato.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "+",
+    "magnitud": "~139 $/b intradía el 7-mar"
+   },
+   {
+    "activo": "Aluminio, paladio",
+    "sentido": "+"
+   },
+   {
+    "activo": "Aerolíneas",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bolsas europeas",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mp",
+   "mat",
+   "eu",
+   "nor",
+   "br",
+   "latam"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2021–2023 global energy crisis",
+    "u": "https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis"
+   }
+  ]
+ },
+ {
+  "id": "2022-03-08-niquel-lme",
+  "fecha": "2022-03-08",
+  "fin": "2022-03-16",
+  "titulo": "Estrangulamiento del níquel: la LME suspende la cotización y anula operaciones",
+  "pais": [
+   "CN",
+   "UK",
+   "ID"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "crisis_financiera",
+   "regulacion"
+  ],
+  "mecanismo": "El productor chino Tsingshan tenía una enorme posición corta; la guerra amenazó la oferta rusa y la subida forzó recompras en cadena. El níquel superó los 100.000 $/t y la Bolsa de Metales de Londres suspendió el contrato y anuló las operaciones del día, dañando la credibilidad del mercado y encareciendo las baterías.",
+  "activos_afectados": [
+   {
+    "activo": "Níquel LME",
+    "sentido": "+",
+    "magnitud": "> 100.000 $/t brevemente (+~250 % en dos días)"
+   },
+   {
+    "activo": "Mineras de níquel",
+    "sentido": "+"
+   },
+   {
+    "activo": "Fabricantes de baterías y VE",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "mat",
+   "mp",
+   "movil",
+   "limpia"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: LME Nickel",
+    "u": "https://en.wikipedia.org/wiki/LME_Nickel"
+   },
+   {
+    "t": "Bloomberg: la LME suspende el níquel tras una subida sin precedentes",
+    "u": "https://www.bloomberg.com/news/articles/2022-03-08/lme-suspends-nickel-trading-after-unprecedented-price-spike"
+   }
+  ]
+ },
+ {
+  "id": "2022-03-08-trigo-guerra",
+  "fecha": "2022-03-08",
+  "fin": "2022-05-17",
+  "titulo": "Trigo y fertilizantes en máximos por la guerra; India veta exportaciones",
+  "pais": [
+   "UA",
+   "RU",
+   "IN",
+   "Global"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica",
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Rusia y Ucrania suman cerca de un tercio del trigo exportado; el bloqueo de los puertos del mar Negro llevó el trigo de Chicago a récords en marzo. En mayo, tras una ola de calor, India prohibió exportar (14-may) y se marcaron nuevos máximos en Europa. Fertilizantes, maíz y aceites vegetales subieron a la par; el corredor de grano del 22-jul alivió los precios.",
+  "activos_afectados": [
+   {
+    "activo": "Trigo CBOT",
+    "sentido": "+",
+    "magnitud": "récord intradía ~13,6 $/bu (8-mar)"
+   },
+   {
+    "activo": "Trigo Euronext / Londres",
+    "sentido": "+",
+    "magnitud": "nuevo máximo el 16-may"
+   },
+   {
+    "activo": "Fertilizantes (Nutrien, Yara)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Emergentes importadores de alimentos",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "agri",
+   "mp",
+   "em",
+   "front",
+   "in"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "CNBC: India bloquea todas las exportaciones de trigo",
+    "u": "https://www.cnbc.com/2022/05/14/india-blocks-all-wheat-exports-with-immediate-effect.html"
+   },
+   {
+    "t": "Wikipedia: Black Sea Grain Initiative",
+    "u": "https://en.wikipedia.org/wiki/Black_Sea_Grain_Initiative"
+   }
+  ]
+ },
+ {
+  "id": "2022-03-16-fed-primera-subida",
+  "fecha": "2022-03-16",
+  "fin": "2022-05-04",
+  "titulo": "La Fed sube tipos por primera vez desde 2018",
+  "pais": [
+   "US",
+   "Global"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "inflacion_macro"
+  ],
+  "mecanismo": "La Fed subió 25 pb (al 0,25–0,50 %) y señaló muchas subidas más; en mayo subió 50 pb y anunció la reducción del balance. Empezó el ciclo de endurecimiento más rápido en cuatro décadas: los bonos vivieron su peor año en generaciones, el dólar subió y el crédito y el crecimiento se encarecieron.",
+  "activos_afectados": [
+   {
+    "activo": "Bono EE. UU. 2 años (precio)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Dólar (DXY)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Renta fija agregada",
+    "sentido": "-"
+   },
+   {
+    "activo": "Monetarios (rentabilidad)",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "mon",
+   "us",
+   "tec",
+   "inmo",
+   "em",
+   "oro"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Federal Reserve: comunicado del FOMC 16-mar-2022",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm"
+   }
+  ]
+ },
+ {
+  "id": "2022-03-28-confinamiento-shanghai",
+  "fecha": "2022-03-28",
+  "fin": "2022-06-01",
+  "titulo": "Confinamiento de Shanghái por la política «covid cero»",
+  "pais": [
+   "CN",
+   "Global"
+  ],
+  "tipo": "pandemia",
+  "tipos_secundarios": [
+   "logistica"
+  ],
+  "mecanismo": "China confinó durante dos meses a los 25 millones de habitantes de Shanghái, su principal puerto y polo industrial. Se paralizaron fábricas (Tesla, proveedores de Apple), se alargaron retrasos logísticos y cayó la demanda china de materias primas; la bolsa china tocó mínimos y el yuan se depreció en abril–mayo.",
+  "activos_afectados": [
+   {
+    "activo": "Bolsa china (CSI 300)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Yuan",
+    "sentido": "-"
+   },
+   {
+    "activo": "Cobre y mineral de hierro",
+    "sentido": "-"
+   },
+   {
+    "activo": "Cadena de suministro automóvil",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "cn",
+   "em",
+   "mat",
+   "movil",
+   "lujo",
+   "semi"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2022 Shanghai COVID-19 outbreak",
+    "u": "https://en.wikipedia.org/wiki/2022_Shanghai_COVID-19_outbreak"
+   }
+  ]
+ },
+ {
+  "id": "2022-04-12-sri-lanka-impago",
+  "fecha": "2022-04-12",
+  "fin": "2022-05-19",
+  "titulo": "Sri Lanka suspende el pago de su deuda externa",
+  "pais": [
+   "LK"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [
+   "divisas",
+   "materias_primas"
+  ],
+  "mecanismo": "Sin reservas para importar combustible y alimentos tras el golpe del turismo y el encarecimiento energético, Sri Lanka declaró la suspensión de pagos externos y entró en impago formal en mayo. Fue el primer impago soberano asiático en décadas y elevó la prima de riesgo de los emergentes frontera importadores de energía (Pakistán, Egipto, Ghana).",
+  "activos_afectados": [
+   {
+    "activo": "Bonos soberanos de Sri Lanka",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bonos de frontera importadores de energía",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "front",
+   "em"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2019–present Sri Lankan economic crisis",
+    "u": "https://en.wikipedia.org/wiki/2019%E2%80%93present_Sri_Lankan_economic_crisis"
+   }
+  ]
+ },
+ {
+  "id": "2022-04-25-francia-macron-reelegido",
+  "fecha": "2022-04-25",
+  "fecha_real": "2022-04-24",
+  "fin": "2022-04-25",
+  "titulo": "Francia: Macron reelegido frente a Le Pen",
+  "pais": [
+   "FR"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "Tras una primera vuelta (10-abr) ajustada, Macron venció a Le Pen con ~58 %. Se disipó el riesgo de un giro euroescéptico en la segunda economía del euro y se estrechó levemente la prima de los bonos franceses frente a los alemanes; el impacto en bolsa fue limitado.",
+  "activos_afectados": [
+   {
+    "activo": "Diferencial OAT–Bund",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bancos franceses",
+    "sentido": "+"
+   },
+   {
+    "activo": "Euro",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "eu",
+   "fin"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2022 French presidential election",
+    "u": "https://en.wikipedia.org/wiki/2022_French_presidential_election"
+   }
+  ]
+ },
+ {
+  "id": "2022-05-09-terra-luna",
+  "fecha": "2022-05-09",
+  "fin": "2022-05-13",
+  "titulo": "Colapso de Terra/Luna: la stablecoin UST pierde la paridad",
+  "pais": [
+   "Global",
+   "KR"
+  ],
+  "tipo": "crisis_financiera",
+  "tipos_secundarios": [
+   "tecnologia",
+   "flujos_posicionamiento"
+  ],
+  "mecanismo": "La stablecoin algorítmica UST, sostenida por el token Luna y los altos rendimientos de Anchor, perdió la paridad con el dólar tras retiradas masivas. La espiral de emisión de Luna lo llevó a casi cero y borró unos 45.000 M$; la fundación vendió reservas de bitcoin y la crisis abrió una cadena de quiebras de prestamistas cripto (Celsius, Three Arrows) en junio.",
+  "activos_afectados": [
+   {
+    "activo": "Luna / UST",
+    "sentido": "-",
+    "magnitud": "~−100 % en una semana"
+   },
+   {
+    "activo": "Bitcoin",
+    "sentido": "-",
+    "magnitud": "por debajo de 27.000 $"
+   },
+   {
+    "activo": "Coinbase y mineras de cripto",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "fintech",
+   "krtw"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "CNBC: Luna se hunde a 0 $ mientras UST se aleja de su paridad",
+    "u": "https://www.cnbc.com/amp/2022/05/13/cryptocurrency-luna-crashes-to-0-as-ust-falls-from-peg-bitcoin-rises.html"
+   }
+  ]
+ },
+ {
+  "id": "2022-06-15-fed-75pb",
+  "fecha": "2022-06-15",
+  "fin": "2022-06-16",
+  "titulo": "La Fed sube 75 pb, la mayor subida desde 1994",
+  "pais": [
+   "US",
+   "Global"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "inflacion_macro"
+  ],
+  "mecanismo": "El IPC de mayo (8,6 %, publicado el 10-jun) y las expectativas de inflación de los consumidores llevaron a la Fed a subir 75 pb (al 1,50–1,75 %), la primera de cuatro subidas consecutivas de ese tamaño. Las bolsas entraron en mercado bajista, los bonos sufrieron y el crédito high yield amplió diferenciales.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "-",
+    "magnitud": "entra en mercado bajista el 13-jun"
+   },
+   {
+    "activo": "Bono EE. UU. 2 años (precio)",
+    "sentido": "-"
+   },
+   {
+    "activo": "High yield (diferencial)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Dólar",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "tec",
+   "small",
+   "inmo",
+   "mon",
+   "em"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Federal Reserve: comunicado del FOMC 15-jun-2022",
+    "u": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm"
+   }
+  ]
+ },
+ {
+  "id": "2022-06-16-snb-sorpresa",
+  "fecha": "2022-06-16",
+  "fin": "2022-06-17",
+  "titulo": "El Banco Nacional Suizo sube tipos por sorpresa por primera vez en 15 años",
+  "pais": [
+   "CH"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "El BNS subió 50 pb (de −0,75 % a −0,25 %), adelantándose al BCE y diciendo que ya no veía el franco sobrevalorado. El franco se apreció con fuerza frente al euro y se aceleró el fin de la era de tipos negativos en Europa.",
+  "activos_afectados": [
+   {
+    "activo": "Franco suizo",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bonos de la Confederación (precio)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bolsa suiza (SMI)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ch",
+   "mon",
+   "eu"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "SNB: evaluación de política monetaria de 16-jun-2022",
+    "u": "https://www.snb.ch/en/publications/communication/press-releases/2022/pre_20220616"
+   }
+  ]
+ },
+ {
+  "id": "2022-07-21-bce-fin-tipos-negativos",
+  "fecha": "2022-07-21",
+  "fin": "2022-09-08",
+  "titulo": "El BCE sube 50 pb y pone fin a ocho años de tipos negativos",
+  "pais": [
+   "EU"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "fiscal_deuda",
+   "elecciones_politica"
+  ],
+  "mecanismo": "El BCE subió más de lo anunciado (depósito del −0,50 % al 0 %) y creó el instrumento antifragmentación TPI para contener las primas periféricas, el mismo día en que caía el Gobierno de Draghi en Italia. Siguieron subidas de 75 pb en septiembre y octubre: los bancos europeos ganaron margen y los monetarios en euros volvieron a rentar.",
+  "activos_afectados": [
+   {
+    "activo": "Bancos de la zona euro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Bono italiano (diferencial)",
+    "sentido": "±"
+   },
+   {
+    "activo": "Bonos de la zona euro (precio)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Monetarios en euros",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "eu",
+   "fin",
+   "es",
+   "mon",
+   "inmo"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "BCE: decisiones de política monetaria de 2022",
+    "u": "https://www.ecb.europa.eu/press/pr/date/2022/html/index.en.html"
+   }
+  ]
+ },
+ {
+  "id": "2022-07-25-gas-ttf-pico",
+  "fecha": "2022-07-25",
+  "fin": "2022-09-05",
+  "titulo": "Rusia recorta Nord Stream: el gas TTF marca su récord histórico",
+  "pais": [
+   "EU",
+   "RU",
+   "DE"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica",
+   "inflacion_macro"
+  ],
+  "mecanismo": "Gazprom redujo el flujo de Nord Stream al 20 % y Europa compró a cualquier precio para llenar almacenes antes del invierno. El TTF tocó un récord el 26-ago y, tras el cierre indefinido anunciado el viernes 2-sep, volvió a saltar el lunes 5. Disparó la electricidad, hundió a la industria química y forzó rescates (Uniper) e intervenciones fiscales.",
+  "activos_afectados": [
+   {
+    "activo": "Gas TTF",
+    "sentido": "+",
+    "magnitud": "récord ~340–350 €/MWh el 26-ago"
+   },
+   {
+    "activo": "Electricidad europea (futuros)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Uniper y comercializadoras",
+    "sentido": "-"
+   },
+   {
+    "activo": "Euro",
+    "sentido": "-",
+    "magnitud": "por debajo de la paridad con el dólar"
+   },
+   {
+    "activo": "Química europea",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "eu",
+   "de",
+   "limpia",
+   "uk",
+   "inf",
+   "es"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "QCIntel: el gas TTF de invierno cotiza en récord de 352 €/MWh",
+    "u": "https://qcintel.com/article/winter-ttf-gas-trades-at-record-352-mwh-goldman-says-market-overshoots-8125.html"
+   },
+   {
+    "t": "S&P Global: el TTF neerlandés marca máximos históricos",
+    "u": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/081622-dutch-ttf-prices-hit-all-time-high-with-no-signs-of-slowing"
+   }
+  ]
+ },
+ {
+  "id": "2022-08-02-pelosi-taiwan",
+  "fecha": "2022-08-02",
+  "fin": "2022-08-10",
+  "titulo": "Visita de Pelosi a Taiwán y maniobras militares chinas",
+  "pais": [
+   "TW",
+   "CN",
+   "US"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "tecnologia"
+  ],
+  "mecanismo": "La visita de la presidenta de la Cámara de EE. UU. provocó los mayores ejercicios militares chinos alrededor de la isla y sanciones comerciales. Volvió a ponerse precio al riesgo de un conflicto en el estrecho, donde se fabrica la mayoría de los chips avanzados del mundo, aunque el impacto en bolsa fue breve.",
+  "activos_afectados": [
+   {
+    "activo": "TSMC y bolsa de Taiwán",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bolsa china",
+    "sentido": "-"
+   },
+   {
+    "activo": "Defensa",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "krtw",
+   "semi",
+   "cn",
+   "def"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2022 visit by Nancy Pelosi to Taiwan",
+    "u": "https://en.wikipedia.org/wiki/2022_visit_by_Nancy_Pelosi_to_Taiwan"
+   }
+  ]
+ },
+ {
+  "id": "2022-08-08-sequia-europa-2022",
+  "fecha": "2022-08-08",
+  "fin": "2022-08-31",
+  "titulo": "Sequía en Europa: el Rin sin calado y la nuclear francesa a medio gas",
+  "pais": [
+   "DE",
+   "FR",
+   "EU"
+  ],
+  "tipo": "meteorologia_clima",
+  "tipos_secundarios": [
+   "logistica",
+   "materias_primas"
+  ],
+  "mecanismo": "El verano más cálido registrado dejó el Rin con calado mínimo en Kaub, encareciendo el transporte de carbón, gasóleo y productos químicos, y obligó a recortar la producción nuclear y la hidráulica. Con media flota nuclear francesa parada por corrosión, el futuro eléctrico francés y alemán para 2023 superó los 1.000 €/MWh a finales de agosto.",
+  "activos_afectados": [
+   {
+    "activo": "Electricidad Francia/Alemania (año 2023)",
+    "sentido": "+",
+    "magnitud": ">1.000 €/MWh a finales de agosto"
+   },
+   {
+    "activo": "EDF",
+    "sentido": "-"
+   },
+   {
+    "activo": "Barcazas y químicas del Rin",
+    "sentido": "-"
+   },
+   {
+    "activo": "Cosechas europeas (maíz)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "eu",
+   "de",
+   "ene",
+   "limpia",
+   "nuc",
+   "agua",
+   "agri"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2022 European drought",
+    "u": "https://en.wikipedia.org/wiki/2022_European_drought"
+   }
+  ]
+ },
+ {
+  "id": "2022-08-16-ley-reduccion-inflacion",
+  "fecha": "2022-08-16",
+  "fin": "2022-08-31",
+  "titulo": "EE. UU. aprueba la Ley de Reducción de la Inflación (IRA)",
+  "pais": [
+   "US"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [
+   "regulacion"
+  ],
+  "mecanismo": "La ley comprometió unos 370.000 M$ en créditos fiscales a renovables, baterías, vehículo eléctrico, hidrógeno y nuclear durante una década, con exigencias de fabricación local. Los valores de energía limpia de EE. UU. subieron con fuerza en agosto y el plan atrajo inversión industrial desde Europa y Asia.",
+  "activos_afectados": [
+   {
+    "activo": "Solar y renovables EE. UU. (First Solar, Enphase)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Vehículo eléctrico y baterías",
+    "sentido": "+"
+   },
+   {
+    "activo": "Uranio y nuclear",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "limpia",
+   "movil",
+   "nuc",
+   "us",
+   "esg",
+   "inf"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: Inflation Reduction Act",
+    "u": "https://en.wikipedia.org/wiki/Inflation_Reduction_Act"
+   }
+  ]
+ },
+ {
+  "id": "2022-08-26-jackson-hole-powell",
+  "fecha": "2022-08-26",
+  "fin": "2022-08-31",
+  "titulo": "Jackson Hole: Powell avisa de «dolor» para hogares y empresas",
+  "pais": [
+   "US"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [],
+  "mecanismo": "En un discurso de ocho minutos Powell descartó un giro pronto y avisó de que frenar la inflación tendría costes para el empleo y el crecimiento. Se cortó en seco el rebote de verano de la bolsa, que se basaba en esperar recortes en 2023.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "-",
+    "magnitud": "~−3,4 % el 26-ago"
+   },
+   {
+    "activo": "Nasdaq",
+    "sentido": "-",
+    "magnitud": "~−3,9 % el 26-ago"
+   },
+   {
+    "activo": "Bono EE. UU. 2 años (precio)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "tec",
+   "calidad",
+   "small"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Federal Reserve: discurso de Powell en Jackson Hole, 26-ago-2022",
+    "u": "https://www.federalreserve.gov/newsevents/speech/powell20220826a.htm"
+   }
+  ]
+ },
+ {
+  "id": "2022-09-05-chile-plebiscito-rechazo",
+  "fecha": "2022-09-05",
+  "fecha_real": "2022-09-04",
+  "fin": "2022-09-06",
+  "titulo": "Chile rechaza la nueva Constitución en el plebiscito",
+  "pais": [
+   "CL"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "regulacion"
+  ],
+  "mecanismo": "Con voto obligatorio, ~62 % rechazó el texto constitucional que ampliaba derechos sociales, reforzaba el papel del Estado en agua y minería y cambiaba el sistema político. El mercado lo celebró como menor riesgo regulatorio: subieron el peso, la bolsa y los bonos chilenos.",
+  "activos_afectados": [
+   {
+    "activo": "Peso chileno",
+    "sentido": "+"
+   },
+   {
+    "activo": "IPSA",
+    "sentido": "+"
+   },
+   {
+    "activo": "Mineras y sanitarias chilenas",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "latam",
+   "em",
+   "mat",
+   "agua"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2022 Chilean national plebiscite",
+    "u": "https://en.wikipedia.org/wiki/2022_Chilean_national_plebiscite"
+   }
+  ]
+ },
+ {
+  "id": "2022-09-13-ipc-eeuu-agosto",
+  "fecha": "2022-09-13",
+  "fin": "2022-09-30",
+  "titulo": "Un IPC peor de lo esperado provoca la mayor caída bursátil desde 2020",
+  "pais": [
+   "US",
+   "Global"
+  ],
+  "tipo": "inflacion_macro",
+  "tipos_secundarios": [
+   "politica_monetaria"
+  ],
+  "mecanismo": "El IPC subyacente de agosto se aceleró cuando el mercado esperaba alivio, lo que consolidó otra subida de 75 pb (21-sep) y tipos terminales más altos. El S&P 500 cayó un 4,3 % y el Nasdaq un 5,2 % en el día; el dólar y los rendimientos a 2 años siguieron subiendo hasta octubre.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "-",
+    "magnitud": "−4,3 % el 13-sep"
+   },
+   {
+    "activo": "Nasdaq",
+    "sentido": "-",
+    "magnitud": "−5,2 % el 13-sep"
+   },
+   {
+    "activo": "Dólar",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "tec",
+   "semi",
+   "calidad",
+   "em"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2022 stock market decline",
+    "u": "https://en.wikipedia.org/wiki/2022_stock_market_decline"
+   }
+  ]
+ },
+ {
+  "id": "2022-09-22-japon-interviene-yen",
+  "fecha": "2022-09-22",
+  "fin": "2022-10-24",
+  "titulo": "Japón interviene para frenar la caída del yen por primera vez desde 1998",
+  "pais": [
+   "JP"
+  ],
+  "tipo": "divisas",
+  "tipos_secundarios": [
+   "politica_monetaria"
+  ],
+  "mecanismo": "Con el BoJ manteniendo tipos negativos y la Fed subiendo, el diferencial de tipos hundió el yen. El Ministerio de Finanzas compró yenes el 22-sep (~2,8 billones de yenes) y, sin anunciarlo, el 21 y 24-oct (~6,3 billones) cuando el dólar tocó ~152. Los fondos japoneses sin cubrir la divisa perdían para el inversor en euros o dólares.",
+  "activos_afectados": [
+   {
+    "activo": "Yen",
+    "sentido": "+",
+    "magnitud": "rebote tras cada intervención"
+   },
+   {
+    "activo": "Dólar/yen",
+    "sentido": "-",
+    "magnitud": "máximo de 32 años ~151,9 el 21-oct"
+   },
+   {
+    "activo": "Exportadoras japonesas",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "jp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Nippon.com: datos de las intervenciones",
+    "u": "https://www.nippon.com/en/japan-data/h01492/"
+   },
+   {
+    "t": "Kitco/Reuters: Japón confirma intervenciones récord",
+    "u": "https://www.kitco.com/news/off-the-wire/2023-02-06/update-1-japan-confirms-record-interventions-support-yen"
+   }
+  ]
+ },
+ {
+  "id": "2022-09-23-gilts-minipresupuesto",
+  "fecha": "2022-09-23",
+  "fin": "2022-10-20",
+  "titulo": "Mini-presupuesto de Truss: crisis de los gilts y rescate del Banco de Inglaterra",
+  "pais": [
+   "UK"
+  ],
+  "tipo": "fiscal_deuda",
+  "tipos_secundarios": [
+   "crisis_financiera",
+   "divisas",
+   "elecciones_politica"
+  ],
+  "mecanismo": "El Gobierno anunció recortes de impuestos sin financiar. La libra se hundió a mínimos históricos (~1,035 $ el 26-sep) y los gilts largos se desplomaron, provocando peticiones de margen en los planes de pensiones con estrategias LDI apalancadas y ventas forzosas. El BoE anunció compras de gilts largos el 28-sep; el ministro y luego Truss (20-oct) dimitieron.",
+  "activos_afectados": [
+   {
+    "activo": "Gilt 30 años (precio)",
+    "sentido": "-",
+    "magnitud": "rentabilidad >5 %"
+   },
+   {
+    "activo": "Libra esterlina",
+    "sentido": "-",
+    "magnitud": "mínimo histórico frente al dólar"
+   },
+   {
+    "activo": "Pensiones LDI británicas",
+    "sentido": "-"
+   },
+   {
+    "activo": "Inmobiliario británico",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "uk",
+   "inmo",
+   "fin"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Bank of England: operación en el mercado de gilts (28-sep-2022)",
+    "u": "https://www.bankofengland.co.uk/news/2022/september/bank-of-england-announces-gilt-market-operation"
+   },
+   {
+    "t": "Wikipedia: September 2022 United Kingdom mini-budget",
+    "u": "https://en.wikipedia.org/wiki/September_2022_United_Kingdom_mini-budget"
+   }
+  ]
+ },
+ {
+  "id": "2022-09-26-italia-meloni",
+  "fecha": "2022-09-26",
+  "fecha_real": "2022-09-25",
+  "fin": "2022-10-31",
+  "titulo": "Italia: victoria de la coalición de derechas de Meloni",
+  "pais": [
+   "IT"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "fiscal_deuda"
+  ],
+  "mecanismo": "La coalición liderada por Hermanos de Italia ganó la mayoría tras la caída de Draghi. El mercado temía choques fiscales con Bruselas, pero el tono moderado del nuevo Gobierno y el escudo TPI del BCE contuvieron la prima de riesgo italiana tras un pico a finales de septiembre.",
+  "activos_afectados": [
+   {
+    "activo": "Diferencial BTP–Bund",
+    "sentido": "±"
+   },
+   {
+    "activo": "Bancos italianos",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "eu",
+   "fin"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2022 Italian general election",
+    "u": "https://en.wikipedia.org/wiki/2022_Italian_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2022-09-27-nord-stream-sabotaje",
+  "fecha": "2022-09-27",
+  "fecha_real": "2022-09-26",
+  "fin": "2022-09-30",
+  "titulo": "Explosiones en los gasoductos Nord Stream",
+  "pais": [
+   "DE",
+   "RU",
+   "DK",
+   "SE"
+  ],
+  "tipo": "geopolitica",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "Varias explosiones submarinas dañaron Nord Stream 1 y 2, eliminando de forma casi definitiva la opción de recuperar el gas ruso por el Báltico. El TTF repuntó y se extendió la preocupación por la seguridad de las infraestructuras energéticas; con los almacenes casi llenos, los precios cayeron con fuerza en octubre.",
+  "activos_afectados": [
+   {
+    "activo": "Gas TTF",
+    "sentido": "+"
+   },
+   {
+    "activo": "Defensa e infraestructuras críticas",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "eu",
+   "de",
+   "def",
+   "inf",
+   "nor"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: Nord Stream pipelines sabotage",
+    "u": "https://en.wikipedia.org/wiki/Nord_Stream_pipelines_sabotage"
+   }
+  ]
+ },
+ {
+  "id": "2022-09-28-huracan-ian",
+  "fecha": "2022-09-28",
+  "fin": "2022-10-28",
+  "titulo": "Huracán Ian golpea Florida: la mayor caída del mercado de cat bonds",
+  "pais": [
+   "US"
+  ],
+  "tipo": "catastrofe_natural",
+  "tipos_secundarios": [
+   "meteorologia_clima"
+  ],
+  "mecanismo": "Ian tocó tierra como categoría 4 en el suroeste de Florida, con pérdidas aseguradas de unos 50.000–60.000 M$. Los bonos catastróficos de viento en Florida se marcaron a la baja de golpe y los fondos UCITS de cat bonds sufrieron su peor caída semanal; después, el endurecimiento del reaseguro elevó primas y rentabilidades esperadas para 2023.",
+  "activos_afectados": [
+   {
+    "activo": "Índice Swiss Re de cat bonds",
+    "sentido": "-",
+    "magnitud": "~−10 % al viernes siguiente"
+   },
+   {
+    "activo": "Fondos UCITS de cat bonds",
+    "sentido": "-",
+    "magnitud": "~−5 % a −6 %"
+   },
+   {
+    "activo": "Aseguradoras de Florida",
+    "sentido": "-"
+   },
+   {
+    "activo": "Primas de reaseguro 2023",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "cat",
+   "fin",
+   "us"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "Artemis: el índice de cat bonds se desploma con Ian",
+    "u": "https://www.artemis.bm/news/swiss-re-cat-bond-index-plummets-on-hurricane-ian-us-wind-down-32/"
+   },
+   {
+    "t": "Intelligent Insurer: los fondos de cat bonds empiezan a recuperar",
+    "u": "https://www.intelligentinsurer.com/news/cat-bond-funds-start-to-scratch-back-hurricane-ian-losses-31005"
+   }
+  ]
+ },
+ {
+  "id": "2022-10-03-brasil-elecciones",
+  "fecha": "2022-10-03",
+  "fecha_real": "2022-10-02",
+  "fin": "2022-10-31",
+  "titulo": "Brasil: Bolsonaro supera las encuestas y Lula gana la segunda vuelta",
+  "pais": [
+   "BR"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "En la primera vuelta (2-oct) Bolsonaro y sus aliados lograron más apoyo del previsto, lo que el mercado leyó como un Congreso que frenaría giros fiscales: el Bovespa subió ~5 % y el real se apreció. Lula ganó por estrecho margen el 30-oct; la atención pasó al techo de gasto y la estrategia de Petrobras.",
+  "activos_afectados": [
+   {
+    "activo": "Bovespa",
+    "sentido": "+",
+    "magnitud": "~+5 % el 3-oct"
+   },
+   {
+    "activo": "Real brasileño",
+    "sentido": "+"
+   },
+   {
+    "activo": "Petrobras y empresas estatales",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "br",
+   "latam",
+   "em",
+   "ene"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2022 Brazilian general election",
+    "u": "https://en.wikipedia.org/wiki/2022_Brazilian_general_election"
+   }
+  ]
+ },
+ {
+  "id": "2022-10-05-opep-recorte-2mbd",
+  "fecha": "2022-10-05",
+  "fin": "2022-10-14",
+  "titulo": "La OPEP+ recorta su objetivo de producción en 2 millones de barriles diarios",
+  "pais": [
+   "SA",
+   "RU",
+   "Global"
+  ],
+  "tipo": "materias_primas",
+  "tipos_secundarios": [
+   "geopolitica"
+  ],
+  "mecanismo": "Pese a las presiones de EE. UU., la OPEP+ anunció el mayor recorte desde 2020 para sostener precios ante el miedo a una recesión. El recorte efectivo fue menor (muchos miembros ya producían por debajo de su cuota), pero el Brent subió ~8 $ en la semana; después volvió a ceder por la debilidad china.",
+  "activos_afectados": [
+   {
+    "activo": "Brent",
+    "sentido": "+",
+    "magnitud": "~93–94 $/b tras el anuncio"
+   },
+   {
+    "activo": "Petroleras",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "mp",
+   "em",
+   "nor"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "QCIntel: la OPEP+ recorta su producción en 2 millones de b/d",
+    "u": "https://qcintel.com/article/opec-slashes-headline-output-by-2-million-bpd-from-november-8880.html"
+   }
+  ]
+ },
+ {
+  "id": "2022-10-07-eeuu-controles-chips",
+  "fecha": "2022-10-07",
+  "fin": "2022-10-14",
+  "titulo": "EE. UU. restringe la exportación de chips avanzados y equipos a China",
+  "pais": [
+   "US",
+   "CN",
+   "NL",
+   "JP",
+   "TW",
+   "KR"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "geopolitica",
+   "tecnologia"
+  ],
+  "mecanismo": "El Departamento de Comercio prohibió vender a China chips avanzados para IA y supercomputación y el equipo para fabricarlos, y limitó el trabajo de técnicos estadounidenses en fábricas chinas. Golpeó a fabricantes de equipos (Applied, Lam, KLA) y a la industria china de semiconductores, y aceleró la carrera por el autoabastecimiento.",
+  "activos_afectados": [
+   {
+    "activo": "Fabricantes de equipos de semiconductores",
+    "sentido": "-"
+   },
+   {
+    "activo": "Semiconductores chinos (SMIC)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Nvidia / AMD (ventas en China)",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "semi",
+   "cn",
+   "krtw",
+   "tec",
+   "ia"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: United States New Export Controls on Advanced Computing and Semiconductors to China",
+    "u": "https://en.wikipedia.org/wiki/United_States_New_Export_Controls_on_Advanced_Computing_and_Semiconductors_to_China"
+   }
+  ]
+ },
+ {
+  "id": "2022-11-08-ftx-quiebra",
+  "fecha": "2022-11-08",
+  "fin": "2022-11-11",
+  "titulo": "Quiebra de FTX",
+  "pais": [
+   "Global",
+   "US",
+   "BS"
+  ],
+  "tipo": "crisis_financiera",
+  "tipos_secundarios": [
+   "regulacion",
+   "tecnologia"
+  ],
+  "mecanismo": "Tras revelarse la dependencia de Alameda del token FTT, Binance anunció ventas de FTT y los clientes retiraron fondos en masa. Binance ofreció comprar FTX el 8-nov y se retiró al día siguiente; FTX se declaró en quiebra el 11-nov y se descubrió que había usado depósitos de clientes. El bitcoin tocó mínimos del ciclo y quebraron otros prestamistas cripto.",
+  "activos_afectados": [
+   {
+    "activo": "Bitcoin",
+    "sentido": "-",
+    "magnitud": "mínimos de ~2 años"
+   },
+   {
+    "activo": "Token FTT / Solana",
+    "sentido": "-"
+   },
+   {
+    "activo": "Coinbase, MicroStrategy, mineras",
+    "sentido": "-"
+   }
+  ],
+  "temas_fondos": [
+   "fintech"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: Bankruptcy of FTX",
+    "u": "https://en.wikipedia.org/wiki/Bankruptcy_of_FTX"
+   }
+  ]
+ },
+ {
+  "id": "2022-11-08-midterms-eeuu",
+  "fecha": "2022-11-08",
+  "fin": "2022-11-09",
+  "titulo": "Elecciones de mitad de mandato en EE. UU.: Congreso dividido",
+  "pais": [
+   "US"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [
+   "estacionalidad"
+  ],
+  "mecanismo": "Los republicanos ganaron por poco la Cámara y los demócratas retuvieron el Senado, sin la «ola roja» esperada. Un Congreso dividido redujo la probabilidad de grandes cambios fiscales; históricamente el periodo posterior a las midterms es estacionalmente favorable para la bolsa.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "±"
+   },
+   {
+    "activo": "Sanidad y defensa",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "hc",
+   "def",
+   "limpia"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2022 United States elections",
+    "u": "https://en.wikipedia.org/wiki/2022_United_States_elections"
+   }
+  ]
+ },
+ {
+  "id": "2022-11-10-ipc-eeuu-octubre",
+  "fecha": "2022-11-10",
+  "fin": "2022-11-30",
+  "titulo": "Un IPC más suave de lo esperado provoca un gran rally de bolsas y bonos",
+  "pais": [
+   "US",
+   "Global"
+  ],
+  "tipo": "inflacion_macro",
+  "tipos_secundarios": [
+   "politica_monetaria",
+   "divisas"
+  ],
+  "mecanismo": "El IPC de octubre (7,7 %) salió por debajo de lo previsto y el mercado pasó a esperar subidas menores. El S&P 500 subió ~5,5 % y el Nasdaq ~7,4 % en el día, el dólar inició una fuerte caída y el bono a 10 años bajó con fuerza: arranque del rebote de emergentes, Europa y oro hacia final de año.",
+  "activos_afectados": [
+   {
+    "activo": "S&P 500",
+    "sentido": "+",
+    "magnitud": "~+5,5 % el 10-nov"
+   },
+   {
+    "activo": "Nasdaq",
+    "sentido": "+",
+    "magnitud": "~+7,4 % el 10-nov"
+   },
+   {
+    "activo": "Dólar (DXY)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Oro",
+    "sentido": "+"
+   },
+   {
+    "activo": "Emergentes",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "us",
+   "tec",
+   "em",
+   "oro",
+   "eu",
+   "small"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2021–2023 inflation surge",
+    "u": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge"
+   }
+  ]
+ },
+ {
+  "id": "2022-11-30-chatgpt",
+  "fecha": "2022-11-30",
+  "fin": null,
+  "titulo": "OpenAI lanza ChatGPT",
+  "pais": [
+   "US",
+   "Global"
+  ],
+  "tipo": "tecnologia",
+  "tipos_secundarios": [],
+  "mecanismo": "El chatbot alcanzó un millón de usuarios en cinco días y popularizó la IA generativa. El impacto bursátil llegó sobre todo en 2023 (Nvidia, hiperescaladores, fondos de IA), pero marcó el inicio del ciclo de inversión en IA y centros de datos que dominó los años siguientes.",
+  "activos_afectados": [
+   {
+    "activo": "Nvidia y semiconductores de IA",
+    "sentido": "+",
+    "magnitud": "efecto diferido a 2023"
+   },
+   {
+    "activo": "Microsoft (socio de OpenAI)",
+    "sentido": "+"
+   },
+   {
+    "activo": "Fondos temáticos de IA",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ia",
+   "semi",
+   "tec",
+   "krtw"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "OpenAI: presentación de ChatGPT",
+    "u": "https://openai.com/blog/chatgpt"
+   },
+   {
+    "t": "Wikipedia: ChatGPT",
+    "u": "https://en.wikipedia.org/wiki/ChatGPT"
+   }
+  ]
+ },
+ {
+  "id": "2022-12-05-tope-petroleo-ruso",
+  "fecha": "2022-12-05",
+  "fin": "2022-12-12",
+  "titulo": "Entran en vigor el embargo de la UE al crudo ruso por mar y el tope del G7",
+  "pais": [
+   "RU",
+   "EU",
+   "Global"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "materias_primas",
+   "geopolitica"
+  ],
+  "mecanismo": "La UE prohibió importar crudo ruso por mar y el G7 limitó a 60 $/b el precio para usar sus seguros y transporte. El crudo ruso se desvió a India, China y Turquía con fuerte descuento (Urals) mediante una «flota fantasma», y el Brent apenas reaccionó; los márgenes de refino y el gasóleo siguieron tensos.",
+  "activos_afectados": [
+   {
+    "activo": "Urals (descuento frente a Brent)",
+    "sentido": "-"
+   },
+   {
+    "activo": "Navieras de petroleros",
+    "sentido": "+"
+   },
+   {
+    "activo": "Refinerías indias",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "in",
+   "tr",
+   "mp"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Wikipedia: Russian oil price cap",
+    "u": "https://en.wikipedia.org/wiki/Russian_oil_price_cap"
+   }
+  ]
+ },
+ {
+  "id": "2022-12-07-peru-caida-castillo",
+  "fecha": "2022-12-07",
+  "fin": "2022-12-31",
+  "titulo": "Perú: Castillo intenta disolver el Congreso y es destituido",
+  "pais": [
+   "PE"
+  ],
+  "tipo": "elecciones_politica",
+  "tipos_secundarios": [],
+  "mecanismo": "Castillo anunció la disolución del Congreso, fue destituido en horas y detenido; asumió Dina Boluarte y estallaron protestas con decenas de muertos. Pese al ruido, los mercados peruanos reaccionaron poco, respaldados por la independencia del banco central y la institucionalidad económica.",
+  "activos_afectados": [
+   {
+    "activo": "Sol peruano",
+    "sentido": "±"
+   },
+   {
+    "activo": "Bolsa de Lima",
+    "sentido": "±"
+   }
+  ],
+  "temas_fondos": [
+   "latam",
+   "em"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "Wikipedia: 2022 Peruvian self-coup attempt",
+    "u": "https://en.wikipedia.org/wiki/2022_Peruvian_self-coup_attempt"
+   }
+  ]
+ },
+ {
+  "id": "2022-12-07-reapertura-china",
+  "fecha": "2022-12-07",
+  "fin": "2023-01-27",
+  "titulo": "China abandona el «covid cero» y reabre su economía",
+  "pais": [
+   "CN",
+   "HK",
+   "Global"
+  ],
+  "tipo": "pandemia",
+  "tipos_secundarios": [
+   "inflacion_macro"
+  ],
+  "mecanismo": "Tras protestas en noviembre, el Consejo de Estado aprobó diez medidas que eliminaban pruebas y confinamientos masivos; en enero reabrió fronteras. Las bolsas china y de Hong Kong prolongaron un rebote de más del 30 % desde octubre, junto con lujo europeo, cobre y petróleo por la esperada recuperación de la demanda.",
+  "activos_afectados": [
+   {
+    "activo": "Hang Seng",
+    "sentido": "+",
+    "magnitud": "+3,4 % el 8-dic; +32 % desde el mínimo de octubre"
+   },
+   {
+    "activo": "Lujo europeo",
+    "sentido": "+"
+   },
+   {
+    "activo": "Cobre y petróleo",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "cn",
+   "em",
+   "lujo",
+   "mat",
+   "mp",
+   "krtw"
+  ],
+  "importancia": 3,
+  "fuentes": [
+   {
+    "t": "SCMP: Alibaba y Tencent impulsan el rebote al relajar China las medidas",
+    "u": "https://scmp.com/business/china-business/article/3202477/alibaba-tencent-fuel-stock-rebound-china-eases-more-covid-measures-bullish-signal-reopening"
+   },
+   {
+    "t": "Business Standard: el mercado de Hong Kong rebota un 3,4 %",
+    "u": "https://www.business-standard.com/amp/article/news-cm/hong-kong-market-rebounds-3-4-122120800994_1.html"
+   }
+  ]
+ },
+ {
+  "id": "2022-12-19-tope-gas-ue",
+  "fecha": "2022-12-19",
+  "fin": "2023-02-15",
+  "titulo": "La UE acuerda un tope dinámico al precio del gas (180 €/MWh)",
+  "pais": [
+   "EU"
+  ],
+  "tipo": "regulacion",
+  "tipos_secundarios": [
+   "materias_primas"
+  ],
+  "mecanismo": "Los ministros aprobaron por mayoría cualificada un «mecanismo de corrección del mercado» que se activa si el TTF supera 180 €/MWh tres días y excede en 35 € el precio del GNL. Con condiciones tan exigentes nunca llegó a aplicarse; el TTF ya había caído muy por debajo gracias a un invierno suave y almacenes llenos.",
+  "activos_afectados": [
+   {
+    "activo": "Gas TTF",
+    "sentido": "-"
+   },
+   {
+    "activo": "Eléctricas y utilities europeas",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "ene",
+   "eu",
+   "limpia",
+   "inf"
+  ],
+  "importancia": 1,
+  "fuentes": [
+   {
+    "t": "CNBC: la UE aprueba un tope al precio del gas",
+    "u": "https://www.cnbc.com/2022/12/19/european-union-approves-cap-on-natural-gas-prices.html"
+   }
+  ]
+ },
+ {
+  "id": "2022-12-20-boj-ajusta-ycc",
+  "fecha": "2022-12-20",
+  "fin": "2023-01-18",
+  "titulo": "El Banco de Japón amplía la banda del bono a 10 años al ±0,5 %",
+  "pais": [
+   "JP",
+   "Global"
+  ],
+  "tipo": "politica_monetaria",
+  "tipos_secundarios": [
+   "divisas"
+  ],
+  "mecanismo": "Por sorpresa, el BoJ duplicó el margen de fluctuación del rendimiento a 10 años alrededor del 0 %. Se leyó como primer paso hacia el fin de la política ultralaxa: el yen se apreció ~4 %, subieron los rendimientos japoneses y globales y cayó la bolsa japonesa, mientras ganaban los bancos japoneses.",
+  "activos_afectados": [
+   {
+    "activo": "Yen",
+    "sentido": "+",
+    "magnitud": "~+4 % frente al dólar"
+   },
+   {
+    "activo": "JGB 10 años (rentabilidad)",
+    "sentido": "+",
+    "magnitud": "de 0,25 % a ~0,45 %"
+   },
+   {
+    "activo": "Nikkei",
+    "sentido": "-"
+   },
+   {
+    "activo": "Bancos japoneses",
+    "sentido": "+"
+   }
+  ],
+  "temas_fondos": [
+   "jp",
+   "fin",
+   "mon"
+  ],
+  "importancia": 2,
+  "fuentes": [
+   {
+    "t": "Focus Economics: el BoJ cambia por sorpresa el control de la curva",
+    "u": "https://www.focus-economics.com/countries/japan/news/monetary-policy/boj-unexpectedly-changes-yield-curve-control-policy-sending-shockwaves-through-financial-markets/"
+   }
+  ]
+ }
+]

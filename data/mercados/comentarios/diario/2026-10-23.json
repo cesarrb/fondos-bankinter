@@ -1,0 +1,512 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-23",
+  "fase": "completo",
+  "titulo": "El crudo a 117 $ frena a Wall Street y Moody's da un respiro a Francia tras el cierre",
+  "resumen": "El protagonista del viernes fue el petróleo. ==Nuevos ataques de los hutíes contra Arabia Saudí==, entre ellos contra una instalación de Aramco en Yanbu (la terminal del mar Rojo por la que el reino exporta sin pasar por Ormuz), y las informaciones sobre planes de EE. UU. e Israel para volver a atacar Irán llevaron al ==Brent a subir un 3,1 %, hasta 116,7 $==, su cierre más alto desde finales de abril (WTI +3,8 %, 103,3 $). El mecanismo es doble: el mercado añade prima de riesgo por posibles cortes de suministro y, a la vez, descuenta más inflación, lo que endurece lo que se espera de la Reserva Federal (Fed). El gas europeo TTF (Title Transfer Facility, referencia de Países Bajos) subió con él un 4,2 %.\n\nWall Street cerró a la baja pero sin pánico: S&P 500 −0,52 %, Dow Jones −1,23 % y Nasdaq 100 plano (0,0 %). ==Fue un día de rotación inversa a la del jueves==: los chips se estabilizaron (+0,4 %) tras su peor día desde junio, mientras tres de cada cuatro valores del S&P 500 caían. El Dow sufrió más por American Express (−3,7 %) tras sus resultados y por las telecos (Verizon), golpeadas por la noticia de que SpaceX estudia lanzar su propio operador móvil. ==La energía subió un 2,5 % hasta máximos históricos==. Los datos no ayudaron: la confianza del consumidor de la Universidad de Míchigan bajó a 48, mínimo de cinco meses, con una ==inflación esperada a un año del 4,7 %==.\n\nEuropa cayó menos (Stoxx 600 −0,31 %, Euro Stoxx 50 −0,31 %), con dos caras. Abajo, el lujo: ==Kering se hundió más de un 15 % por la caída de ventas de Gucci== (−6 % frente al −2,8 % esperado) y arrastró al CAC 40 (−0,36 %); el DAX (−0,75 %) sufrió por el automóvil tras el desplome de las ventas de Volvo Cars en China. Arriba, el sur: ==el IBEX 35 subió un 0,40 % (18.989,8) gracias a Repsol (+4,25 %)==, que suma al crudo una resolución de la Audiencia Nacional que suspende el pago de 120 millones del gravamen energético; el FTSE MIB italiano ganó un 0,36 %. En Asia, ==China rebotó con compras del «equipo nacional»== (CSI 300 +1,7 %, Shenzhen +2,8 %, Hang Seng +0,7 %) tras entrar el jueves en mercado bajista, y el Kospi acabó en positivo (+0,3 %) después de caer hasta un 4 %.\n\nLos refugios se repartieron: el bono de EE. UU. devolvió parte de la gran subida del jueves (TIR a 10 años +4 pb, 4,99 %), ==el oro cayó un 1,3 % y perforó los 4.000 $ durante la sesión== (mínimo de tres meses) porque un crudo más caro alimenta las apuestas a una subida de la Fed en diciembre, y el euro cedió un 0,1 % frente al dólar (1,119 en el cambio del BCE). Ya con los mercados cerrados, ==Moody's mantuvo la nota de Francia en Aa3 con perspectiva negativa==, cuando la mayoría de economistas esperaba una rebaja a A1: un respiro que se notará el lunes en la deuda francesa, aunque la agencia advierte de que bajará la nota si el Parlamento no frena el deterioro de las cuentas.",
+  "claves": [
+    "==El Brent subió un 3,1 %, hasta 116,7 $==, máximo desde abril, por los ataques hutíes contra Arabia Saudí (Yanbu) y los planes de nuevos ataques a Irán.",
+    "Wall Street cayó con amplitud (S&P 500 −0,52 %, Dow −1,23 %) pero ==los chips se estabilizaron== tras el desplome del jueves; la energía marcó máximos.",
+    "==Moody's mantuvo a Francia en Aa3 (perspectiva negativa)== tras el cierre, contra el consenso que esperaba una rebaja.",
+    "El IBEX 35 subió un 0,40 % ==gracias a Repsol (+4,25 %)==, mientras Kering (−15 %) hundía el lujo y el CAC 40.",
+    "La TIR a 10 años de EE. UU. rebotó 4 pb (4,99 %): ==el crudo y una inflación esperada del 4,7 % reavivan la subida de diciembre==.",
+    "En fondos, ==ganan China A (+2–2,6 %)== y pierden oro, plata y temáticos de IA, ==varios con un día de desfase== que recoge el jueves."
+  ],
+  "suben": [
+    {
+      "activo": "Petróleo Brent",
+      "cambio": "+3,14 % (116,72 $)",
+      "por_que": "Ola de ataques de los hutíes contra Arabia Saudí en 48 horas (Ministerio de Defensa, dos aeropuertos y una instalación de Aramco en Yanbu) y prensa sobre planes de EE. UU. e Israel contra Irán. Yanbu es la salida alternativa a Ormuz: ==si se daña, el Golfo pierde su vía de escape== y el mercado paga prima de riesgo. Cierre más alto desde el 29 de abril.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        },
+        {
+          "t": "The National",
+          "u": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo WTI",
+      "cambio": "+3,82 % (103,27 $)",
+      "por_que": "Mismo motivo que el Brent; vuelve por encima de 100 $, ==nivel que mantiene alta la inflación esperada== en EE. UU.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+4,23 % (93,85 €/MWh)",
+      "por_que": "El gas europeo sigue al crudo cuando sube el riesgo en el Golfo, de donde llega gas natural licuado (GNL); ==con almacenes bajos, cualquier amenaza de suministro pesa más==.",
+      "fuentes": [
+        {
+          "t": "FXStreet",
+          "u": "https://www.fxstreet.com/analysis/ecb-october-pause-mrr-in-focus-202610201244"
+        }
+      ]
+    },
+    {
+      "activo": "CSI 300 / Shanghái (China)",
+      "cambio": "+1,7 % / +0,89 %",
+      "por_que": "==Rebote por compras de fondos cotizados ligados al «equipo nacional»== (inversores estatales), un día después de entrar en mercado bajista. Shenzhen, más tecnológico, +2,8 %. Aun así, el CSI 300 encadena su 11.ª semana de caídas.",
+      "fuentes": [
+        {
+          "t": "Bloomberg",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-23/china-stocks-sink-deeper-into-bear-market-despite-state-buying"
+        }
+      ]
+    },
+    {
+      "activo": "IBEX 35",
+      "cambio": "+0,40 % (18.989,8)",
+      "por_que": "Repsol (+4,25 %) por el crudo y por la suspensión judicial de 120,3 millones del gravamen energético de 2024; Endesa +2,1 %. ==El peso de la energía y de la banca, sin lujo, protegió al índice==. No recupera los 19.000 puntos.",
+      "fuentes": [
+        {
+          "t": "Tiempo de Inversión",
+          "u": "https://tiempodeinversion.com/2026/10/23/cierre-ibex-35-hoy-23-octubre-2026/"
+        },
+        {
+          "t": "Merca2",
+          "u": "https://www.merca2.es/2026/10/23/repsol-subida-petroleo-brent-2480333/"
+        }
+      ]
+    },
+    {
+      "activo": "Cobre",
+      "cambio": "+1,78 %",
+      "por_que": "Sin noticia concreta: ==probable rebote ligado a la recuperación de la bolsa china==, primer consumidor del metal, tras caer un 2,8 % el jueves."
+    },
+    {
+      "activo": "VIX (volatilidad S&P 500)",
+      "cambio": "+2,2 % (19,45)",
+      "por_que": "Ligera subida con la bolsa a la baja y la reunión de la Fed y los grandes resultados tecnológicos a la vista; ==no hubo nuevo pánico== tras el salto del jueves."
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Dow Jones",
+      "cambio": "−1,23 % (−653 puntos)",
+      "por_que": "Pesaron American Express (−3,7 %) tras sus resultados, las telecos por la noticia de SpaceX y ==la caída generalizada de los valores no tecnológicos== ante el petróleo caro. Aun así cierra su tercera semana de subidas.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        },
+        {
+          "t": "AP (vía Washington Times)",
+          "u": "https://www.washingtontimes.com/news/2026/oct/23/wall-street-loses-ground-friday-pressure-rising-oil-prices/"
+        }
+      ]
+    },
+    {
+      "activo": "S&P 500",
+      "cambio": "−0,52 %",
+      "por_que": "Casi tres de cada cuatro valores cayeron: ==el crudo encarece costes y reaviva la subida de tipos de diciembre==. Lo compensaron la energía (+2,5 %, récord) y la estabilización de los chips.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        }
+      ]
+    },
+    {
+      "activo": "Oro",
+      "cambio": "−1,29 % (4.008 $)",
+      "por_que": "Llegó a perder los 4.000 $ (mínimo de tres meses). ==El crudo caro sube las apuestas a una Fed más dura== (más tipos reales, peor para un activo sin cupón) y siguen las ventas forzadas tras las pérdidas en bolsa.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/23/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns.html"
+        },
+        {
+          "t": "FXStreet",
+          "u": "https://www.fxstreet.com/news/gold-falls-below-4-000-as-oil-surge-deepens-weekly-rout-ahead-of-fed-202610231819"
+        }
+      ]
+    },
+    {
+      "activo": "Plata",
+      "cambio": "−1,92 %",
+      "por_que": "Mismo motivo que el oro, ==amplificado por ser más volátil== y tener más inversión especulativa."
+    },
+    {
+      "activo": "Gas natural EE. UU. (Henry Hub)",
+      "cambio": "−5,58 % (2,64 $)",
+      "por_que": "==Previsiones de tiempo templado hasta noviembre== reducen la demanda de calefacción y permiten seguir llenando almacenes: el gas estadounidense va por libre respecto al europeo.",
+      "fuentes": [
+        {
+          "t": "TradingNews",
+          "u": "https://www.tradingnews.com/news/ng-2829-drops-7-percent-in-2-session-while-ttf-holds-29-usd"
+        }
+      ]
+    },
+    {
+      "activo": "DAX (Alemania)",
+      "cambio": "−0,75 %",
+      "por_que": "El automóvil, tras ==la caída cercana al 50 % de los ingresos de Volvo Cars en China==, y el petróleo caro, malo para una economía importadora de energía.",
+      "fuentes": [
+        {
+          "t": "Tiempo de Inversión",
+          "u": "https://tiempodeinversion.com/2026/10/23/cierre-ibex-35-hoy-23-octubre-2026/"
+        }
+      ]
+    },
+    {
+      "activo": "CAC 40 (Francia)",
+      "cambio": "−0,36 %",
+      "por_que": "==Kering cayó más de un 15 % por las ventas de Gucci== y Hermès moderó su crecimiento: el lujo pesa mucho en el índice. La decisión de Moody's llegó después del cierre.",
+      "fuentes": [
+        {
+          "t": "U.S. News / Reuters",
+          "u": "https://money.usnews.com/investing/news/articles/2026-10-23/stoxx-600-extends-fall-as-kering-slumps-oil-climbs"
+        },
+        {
+          "t": "Tiempo de Inversión",
+          "u": "https://tiempodeinversion.com/2026/10/23/cierre-ibex-35-hoy-23-octubre-2026/"
+        }
+      ]
+    },
+    {
+      "activo": "Euro / dólar (BCE)",
+      "cambio": "−0,11 % (1,119)",
+      "por_que": "La incertidumbre en Francia antes de Moody's y ==un crudo caro, que daña más a Europa (importadora)==, empujaron al euro a la baja; en Nueva York cedió un 0,21 %.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Petróleo, hutíes e Irán",
+      "texto": "Los hutíes de Yemen, aliados de Irán, lanzaron otra oleada de ataques contra Arabia Saudí, incluido Yanbu, por donde sale el crudo saudí por el oleoducto Este-Oeste sin cruzar Ormuz. A eso se sumaron informaciones sobre planes de EE. UU. e Israel para nuevos ataques a Irán. ==El Brent ya acumula un +6 % en la semana==. El mecanismo hacia el resto de mercados es la inflación: un barril a 117 $ ==sube la inflación esperada y las probabilidades de que la Fed suba tipos==, y eso pesa en bolsas y oro y favorece a las petroleras (Repsol, energía del S&P 500 en récord).",
+      "fuentes": [
+        {
+          "t": "The National",
+          "u": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+        },
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        }
+      ]
+    },
+    {
+      "tema": "Francia y Moody's",
+      "texto": "La mayoría de economistas esperaba que Moody's rebajara la nota de Francia de Aa3 a A1, igualándola con S&P y Fitch (A+). ==La agencia la mantuvo en Aa3 con perspectiva negativa==, en una revisión periódica publicada tras el cierre de Nueva York, pero avisó de que ==bajará la nota si se debilita más la capacidad del Parlamento para frenar el deterioro de la deuda==. Antes del anuncio, el bono francés a 10 años ya había bajado 5 pb (5,04 %), en parte por compras tras una semana de fuertes ventas. Lo veremos el lunes: sin rebaja no hay ventas forzadas de inversores que exigen notas altas.",
+      "fuentes": [
+        {
+          "t": "Bloomberg",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-23/france-avoids-moody-s-downgrade-in-reprieve-after-week-of-crisis"
+        },
+        {
+          "t": "Euronews",
+          "u": "https://www.euronews.com/2026/10/24/debt-moodys-spares-france-a-brief-respite-not-a-vote-of-confidence"
+        },
+        {
+          "t": "Boursorama",
+          "u": "https://www.boursorama.com/bourse/actualites/dette-francaise-l-agence-moody-s-devrait-degrader-la-note-de-la-france-vendredi-estime-la-plupart-des-economistes-2f9bf4142e1dd174c99a6f728c1c7129"
+        }
+      ]
+    },
+    {
+      "tema": "Reserva Federal (Fed) e inflación esperada",
+      "texto": "A cinco días de la reunión del 27–28 de octubre, el mercado da por hecho que la Fed no tocará los tipos (~90 %), pero ==la probabilidad de subida en diciembre volvió a la zona del 78–85 %== (≈ 75 % el jueves). El motivo: el crudo y la encuesta de Míchigan, con una inflación esperada a un año del 4,7 % y a cinco años del 3,5 %, ==muy por encima del objetivo del 2 %==. Los PMI (índices de gestores de compras) siguieron fuertes (manufacturas 56, servicios 57,9), lo que no da argumentos para relajarse.",
+      "fuentes": [
+        {
+          "t": "FXStreet",
+          "u": "https://www.fxstreet.com/news/gold-falls-below-4-000-as-oil-surge-deepens-weekly-rout-ahead-of-fed-202610231819"
+        },
+        {
+          "t": "The Globe and Mail",
+          "u": "https://www.theglobeandmail.com/investing/article-wall-streets-week-ahead-earnings-flood-fed-meeting-pose-pivotal-tests/"
+        }
+      ]
+    },
+    {
+      "tema": "Resultados empresariales",
+      "texto": "Kering (Gucci), American Express y Volvo Cars decepcionaron y fueron castigados, mientras ==los chips encontraron suelo tras el −6,7 % del jueves==. La próxima semana publica un tercio del S&P 500, incluidos Microsoft, Alphabet, Meta, Amazon y Apple: ==su gasto en IA (inteligencia artificial) decidirá si la duda de esta semana va a más==.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía MarketScreener)",
+          "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+        },
+        {
+          "t": "U.S. News / Reuters",
+          "u": "https://money.usnews.com/investing/news/articles/2026-10-23/stoxx-600-extends-fall-as-kering-slumps-oil-climbs"
+        },
+        {
+          "t": "The Globe and Mail",
+          "u": "https://www.theglobeandmail.com/investing/article-wall-streets-week-ahead-earnings-flood-fed-meeting-pose-pivotal-tests/"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "En EE. UU. ==los tipos devolvieron parte del gran rally del jueves==: la TIR (tasa interna de rentabilidad) a 10 años subió unos 4 pb hasta el 4,99 % (sigue por debajo del 5 %), la de 5 años 4 pb (4,81 %), la de 30 años 3 pb (5,32 %) y la de 2 años unos 4–5 pb, hasta el 4,69 % según prensa (la Reserva Federal aún no ha publicado el dato oficial del día). La subida fue paralela en la curva, señal de que ==el motor fueron otra vez las expectativas sobre la Fed==: el Brent a 117 $ y una ==inflación esperada a un año del 4,7 %== devolvieron la probabilidad de una subida en diciembre a la zona del 78–85 %. Además, el miedo que empujó a comprar bonos el jueves se calmó al estabilizarse los chips, y parte de esa demanda de refugio se deshizo.\n\nEn la zona euro el Bund alemán a 10 años subió unos 2 pb (≈ 3,33–3,35 %, según prensa; el BCE aún no tiene la curva AAA del día), contagiado por EE. UU. y el crudo. Lo llamativo fue Francia: ==el bono francés (OAT) a 10 años bajó 5 pb, al 5,04 %==, y su diferencial con Alemania se estrechó unos 3 pb, hasta ~172 pb, aún en máximos desde 2011. Sin noticia nueva antes del cierre, fue sobre todo ==recogida de beneficios de quienes apostaban contra la deuda francesa== antes de Moody's, tras una semana de +27 pb. España se mantuvo tranquila: bono a 10 años en ~4,05 % y prima de riesgo de ~70 pb. Italia no ofreció cifras de cierre fiables.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "+4 pb (4,99 %)",
+        "por_que": "Rebote tras la mayor caída diaria desde 2023: ==el crudo vuelve a subir la inflación esperada== y la probabilidad de subida de la Fed en diciembre; se deshace parte de la compra de refugio del jueves.",
+        "fuentes": [
+          {
+            "t": "Reuters (vía MarketScreener)",
+            "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+          },
+          {
+            "t": "ETF Trends",
+            "u": "https://www.etftrends.com/fixed-income-content-hub/treasury-yields-snapshot-october-23-2026/"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "≈ +4/5 pb (≈ 4,69 %, prensa)",
+        "por_que": "El tramo que mejor refleja la Fed: ==diciembre vuelve a cotizar una subida probable== (78–85 %). FRED aún no tiene el dato del 23.",
+        "fuentes": [
+          {
+            "t": "ETF Trends",
+            "u": "https://www.etftrends.com/fixed-income-content-hub/treasury-yields-snapshot-october-23-2026/"
+          },
+          {
+            "t": "FXStreet",
+            "u": "https://www.fxstreet.com/news/gold-falls-below-4-000-as-oil-surge-deepens-weekly-rout-ahead-of-fed-202610231819"
+          }
+        ]
+      },
+      {
+        "bono": "Alemania 10 años (Bund) / Zona euro AAA",
+        "cambio": "≈ +2 pb (≈ 3,33–3,35 %, prensa)",
+        "por_que": "Contagio de EE. UU. y del petróleo, que ==aleja una pausa larga del BCE (Banco Central Europeo)==. La curva AAA del BCE del 23 aún no está publicada.",
+        "fuentes": [
+          {
+            "t": "Ideal Investisseur",
+            "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+          }
+        ]
+      },
+      {
+        "bono": "Francia 10 años y diferencial con Alemania",
+        "cambio": "−5 pb (5,04 %); diferencial ≈ −3 pb (~172 pb)",
+        "por_que": "==Cierre de posiciones bajistas antes de Moody's==, tras subir unos 27 pb en la semana. Moody's mantuvo la nota tras el cierre: el efecto llegará el lunes.",
+        "fuentes": [
+          {
+            "t": "Reuters (vía MarketScreener)",
+            "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+          },
+          {
+            "t": "Ideal Investisseur",
+            "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+          },
+          {
+            "t": "Bloomberg",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-23/france-avoids-moody-s-downgrade-in-reprieve-after-week-of-crisis"
+          }
+        ]
+      },
+      {
+        "bono": "España 10 años y prima de riesgo",
+        "cambio": "≈ 4,05 %; prima ~70 pb",
+        "por_que": "==España no sufre el contagio francés==: su prima sigue en niveles bajos porque su déficit y crecimiento son mejores.",
+        "fuentes": [
+          {
+            "t": "The Objective",
+            "u": "https://theobjective.com/economia/2026-10-23/ibex-35-sube-19-000-puntos-subida-petroleo/"
+          }
+        ]
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Reuters (vía MarketScreener)",
+        "u": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c"
+      },
+      {
+        "t": "ETF Trends",
+        "u": "https://www.etftrends.com/fixed-income-content-hub/treasury-yields-snapshot-october-23-2026/"
+      },
+      {
+        "t": "Ideal Investisseur",
+        "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+      },
+      {
+        "t": "Bloomberg",
+        "u": "https://www.bloomberg.com/news/articles/2026-10-23/france-avoids-moody-s-downgrade-in-reprieve-after-week-of-crisis"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Día flojo para la renta variable (mediana −0,43 %) y plano para la renta fija (+0,01 %). ==Arriba, en bloque, la renta variable china== (fondos de acciones A entre +2 % y +2,6 %), que recoge el rebote de Shanghái y Shenzhen del mismo día, y algunos fondos de energía. Abajo, oro y plata, IA, industria y medioambiente. Ojo: ==muchos de los que más bajan tienen el valor liquidativo (VL) con un día de desfase== y recogen el desplome tecnológico y de metales del jueves 22 (el día anterior apenas se movieron), no el viernes, cuando los chips subieron. La divisa casi no influyó: el euro solo cedió un 0,1 % frente al dólar.",
+    "suben": [
+      {
+        "isin": "LU2191242283",
+        "por_que": "Acciones A chinas: ==CSI 300 +1,7 % y Shenzhen +2,8 % por las compras del «equipo nacional»==, tras caer el jueves (−2,5 % el día 22). Clase en euros."
+      },
+      {
+        "isin": "LU1255011097",
+        "por_que": "Acciones A chinas (CATL, China Merchants Bank, Ping An, Zhongji Innolight): ==mismo rebote estatal==; ojo, nuestros datos muestran un 69 % en liquidez, probablemente por cómo se reporta la exposición vía derivados."
+      },
+      {
+        "isin": "LU1997244873",
+        "por_que": "Acciones A (Zijin Mining, CATL, Zhongji Innolight, CITIC Securities, Moutai): ==se benefician del rebote de Shenzhen==, más tecnológico, y de la subida del cobre (Zijin)."
+      },
+      {
+        "isin": "LU1848873714",
+        "por_que": "Acciones A con sesgo tecnológico (CATL, Zhongji Innolight, NAURA, WUS Printed Circuit): ==el rebote de la tecnología china== tras su caída del jueves."
+      },
+      {
+        "isin": "LU0954270491",
+        "por_que": "Bolsa china en dólares: +2,11 % en USD y +2,22 % en EUR; ==la pequeña diferencia es efecto divisa== (el dólar ganó un 0,1 % al euro)."
+      },
+      {
+        "isin": "LU2305833589",
+        "por_que": "Salud china con clase cubierta al euro: ==rebote del mercado chino==, tras perder un 3,6 % el jueves."
+      },
+      {
+        "isin": "IE0008368742",
+        "por_que": "Crecimiento chino (FSSA), clase en dólares: +1,95 % en USD y +2,06 % en EUR, ==mismo rebote de China== con algo de efecto divisa."
+      },
+      {
+        "isin": "IE00BYSJTY39",
+        "por_que": "Infraestructuras cotizadas globales (sin cartera en nuestros datos): ==probable tirón de oleoductos con el crudo== y de torres de telecomunicaciones (Crown Castle +9 % en el S&P 500)."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "IE00BYVJR916",
+        "por_que": "Mineras pequeñas de oro y plata, más fondos físicos de Sprott: ==recoge el desplome de la plata del jueves (−4,6 %) y la caída del viernes==; las mineras amplifican el movimiento del metal."
+      },
+      {
+        "isin": "LU1128910137",
+        "por_que": "Metales preciosos (Baker Steel): ==+0,4 % el jueves y −5,3 % el viernes, típico de VL desfasado== que recoge la caída del oro y la plata del jueves y parte del viernes."
+      },
+      {
+        "isin": "IE00BJM0B969",
+        "por_que": "Blue Whale (Seagate, Modine, Eli Lilly, Leonardo, Safran): ==plano el jueves y −5,2 % el viernes, VL con un día de desfase== que recoge la caída de los valores ligados a centros de datos (Seagate, Modine); cartera muy concentrada."
+      },
+      {
+        "isin": "LU1923361049",
+        "por_que": "Recursos naturales y minería (Baker Steel): ==mismo desfase== que su fondo de metales preciosos; recoge la caída de oro, plata y cobre del jueves."
+      },
+      {
+        "isin": "LU1223083087",
+        "por_que": "Mineras de oro (Agnico Eagle, Barrick, Newmont): ==segundo día de caída== (−2,6 % el jueves); el oro perdió los 4.000 $ y las mineras caen más que el metal."
+      },
+      {
+        "isin": "LU1548497772",
+        "por_que": "IA global (NVIDIA, TSMC, Broadcom, Lam, Micron): ==plano el jueves y −3,4 % el viernes: VL desfasado que recoge el −6,7 % de los chips del 22==, no el viernes, cuando el sector subió un 0,4 %."
+      },
+      {
+        "isin": "AT0000A03N37",
+        "por_que": "Medioambiente (First Solar, ABB, Schneider): ==+1,6 % el jueves y −3,3 % el viernes, desfase de un día== que recoge la venta de industria y renovables del 22; también le perjudica la subida de los tipos del viernes."
+      },
+      {
+        "isin": "DE000DWS29E6",
+        "por_que": "Tecnología industrial (Howmet, GE Aerospace, Caterpillar, Vertiv): ==recoge con desfase la caída del jueves== en los proveedores de centros de datos como Vertiv."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-26",
+      "evento": "Reacción a la decisión de Moody's sobre Francia",
+      "por_que_importa": "Sin rebaja, el bono francés podría aliviarse; la perspectiva negativa mantiene la presión."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Decisión de la Reserva Federal (Fed), reunión del 27–28",
+      "por_que_importa": "Se espera que no toque los tipos; importa si abre la puerta a subir en diciembre (78–85 % descontado)."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Resultados de Microsoft, Alphabet y Meta (tras el cierre, según la mayoría de calendarios)",
+      "por_que_importa": "Su gasto en IA decide si continúa la duda que hundió los chips el jueves."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "Reunión del Banco Central Europeo (BCE)",
+      "por_que_importa": "Se espera que mantenga la facilidad de depósito en el 2,50 %; el tono sobre el crudo y Francia moverá euro y deuda periférica."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "PCE (deflactor del gasto en consumo) de septiembre y PIB del tercer trimestre en EE. UU.; resultados de Amazon y Apple",
+      "por_que_importa": "El PCE es la medida de inflación preferida por la Fed; se espera que suba al 3,6 % (subyacente 3,1 %)."
+    },
+    {
+      "fecha": "2026-11-03",
+      "evento": "Elecciones de mitad de mandato en EE. UU.",
+      "por_que_importa": "La prensa vincula a esta fecha posibles nuevos ataques a Irán, clave para el crudo."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento. Cuando sube, el precio del bono baja."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "OAT",
+      "def": "Obligations Assimilables du Trésor: bono del Tesoro francés."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán, referencia sin riesgo de la zona euro."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+    },
+    {
+      "sigla": "GNL",
+      "def": "Gas natural licuado, transportado en barco."
+    },
+    {
+      "sigla": "PMI",
+      "def": "Índice de gestores de compras: encuesta de actividad; por encima de 50 indica expansión."
+    },
+    {
+      "sigla": "PCE",
+      "def": "Deflactor del gasto en consumo personal: la medida de inflación preferida por la Fed."
+    },
+    {
+      "sigla": "PIB",
+      "def": "Producto interior bruto."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: precio diario de una participación de un fondo."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "CSI 300",
+      "def": "Índice de las 300 mayores empresas cotizadas en Shanghái y Shenzhen (acciones A)."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500, conocido como «índice del miedo»."
+    }
+  ],
+  "generado": "2026-10-24T12:30"
+}

@@ -1,0 +1,551 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-16",
+  "fase": "completo",
+  "titulo": "Peor semana desde junio en Wall Street por la deuda de la IA; el Brent sube un 3,7 %",
+  "resumen": "Wall Street cerró la semana como la había empezado: vendiendo todo lo relacionado con la inteligencia artificial (IA). Corrieron rumores de que un fondo especializado en IA estaba en apuros y de que CoreWeave, la mayor de las llamadas «neonubes» (empresas que alquilan capacidad de cálculo para IA financiándose con deuda), ==podría tener que emitir acciones para atender sus deudas==. Esos rumores hundieron a todo el grupo. El índice de semiconductores ==encadenó su octava caída seguida, la racha más larga desde 2008==, con AMD −6,0 %, Intel −5,8 %, Micron −5,6 % y Broadcom −4,5 %. Meta cayó un 3,7 % antes de sus resultados de la semana siguiente. El Nasdaq 100 se dejó un 2,5 %, el S&P 500 un 1,1 % (7.659 puntos) y el Russell 2000 un 1,7 %. El Dow Jones resistió mejor (−0,3 %) gracias a la salud, que RBC acababa de recomendar sobreponderar a costa de la tecnología. En la semana, el Nasdaq perdió cerca de un 4,5 % y el S&P 500 un 2 %, su peor semana desde junio. El VIX (volatilidad esperada del S&P 500) subió un 21 %, hasta 20, y el diferencial de la deuda de alto rendimiento (high yield) se amplió 8 puntos básicos (pb), hasta el 3,31 %. ==El mercado de crédito empieza a cobrar más por el riesgo de las empresas endeudadas.==\n\nEl petróleo fue el otro protagonista. El Brent subió un 3,7 % (109,9 $) y el WTI un 3,5 %, por encima de los 100 $ (101,4 $), con la subida concentrada en la tarde estadounidense ante el ==riesgo de una escalada de EE. UU. con Irán== durante el fin de semana. Las petroleras (Exxon +2,5 %, Chevron +2,6 %) fueron de lo poco que subió. El gas europeo TTF ganó un 1,3 %. Los datos de EE. UU. fueron más fuertes de lo previsto: los precios de importación subieron un 1,1 % mensual (0,8 % esperado) y la producción industrial un 0,7 % (0,4 %). La TIR (tasa interna de rentabilidad) del 10 años de EE. UU. apenas se movió (5,09 %, −1 pb según el cierre oficial; +0,9 pb en nuestra serie), con ==fuerzas opuestas que se anularon: refugio por la bolsa frente a inflación por el crudo==. El presidente de la Reserva Federal (Fed), Kevin Warsh, no dio pistas sobre la reunión del 27–28 de octubre, y el mercado mantiene una probabilidad de subida en diciembre en torno al 74 %. El dólar cedió (DXY −0,16 %; euro +0,16 % a 1,121 $), y el oro y la plata subieron un 0,3 %.\n\nEuropa terminó en verde y firmó su mejor semana desde finales de junio: Stoxx 600 +0,72 % (644,7, máximo de tres semanas), DAX +0,95 %, FTSE MIB +0,9 %, IBEX 35 +0,8 % y Euro Stoxx 50 +0,6 %. Ayudaron los resultados, sobre todo de tecnológicas europeas que muestran demanda real (ASML, Aixtron +6 %, Ericsson). También influyó Nordex (+12,3 %), que mejoró su previsión de márgenes, y Nestlé (+1,7 %), por una mejora de recomendación. Además, Europa cerró antes de la caída de la tarde en Wall Street. ==La inflación final de septiembre en la zona euro se confirmó en el 3,8 %==, lejos del objetivo del 2 % del Banco Central Europeo (BCE), que ya ha subido tipos hasta el 2,50 % y al que el mercado atribuye otra subida en diciembre. El 10 años AAA de la zona euro subió 5 pb (3,44 %) y recuperó parte del desplome del día anterior.\n\nAsia rebotó tras el desplome del jueves: Kospi +2,1 %, Nikkei +1,4 % y Hang Seng +0,5 %. El gobernador del Banco de Japón (BoJ), Ueda, repitió que seguirá subiendo tipos. La gran excepción fue ==Indonesia: la bolsa de Yakarta se hundió un 11,6 %==, su peor día desde enero de 1998, con media hora de suspensión. La causa fue la consulta de MSCI para sacarla de la categoría de emergentes por la falta de transparencia sobre quién posee las acciones y por sospechas de negociación coordinada. Esto, unido a la caída tecnológica de la tarde, explica que el ETF (fondo cotizado) de emergentes EEM perdiera un 1,7 % en dólares.",
+  "claves": [
+    "==Los rumores sobre las finanzas de CoreWeave y de un fondo de IA== hundieron los chips por octavo día seguido: Nasdaq 100 −2,5 % y S&P 500 −1,1 %, en su peor semana desde junio.",
+    "El Brent subió un 3,7 % (109,9 $) y el WTI volvió a superar los 100 $ por el riesgo de una escalada con Irán durante el fin de semana.",
+    "La volatilidad se disparó (VIX +21 %, hasta 20) y el diferencial high yield se amplió 8 pb: ==el crédito empieza a notar el miedo a la deuda de la IA==.",
+    "Europa subió (Stoxx 600 +0,7 %) y cerró su mejor semana desde junio gracias a resultados como los de ASML, Aixtron, Ericsson y Nordex.",
+    "Indonesia se hundió un 11,6 % después de que MSCI abriera la puerta a sacarla de los índices de emergentes."
+  ],
+  "suben": [
+    {
+      "activo": "Petróleo Brent",
+      "cambio": "+3,7 % (109,9 $)",
+      "por_que": "==El mercado se cubrió ante una posible escalada militar de EE. UU. con Irán== durante el fin de semana, que amenazaría el suministro del golfo Pérsico. La subida llegó por la tarde.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+        },
+        {
+          "t": "TS2",
+          "u": "https://ts2.tech/en/nasdaq-drops-2-1-as-chip-rout-caps-a-4-5-weekly-slide/"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo WTI",
+      "cambio": "+3,5 % (101,4 $)",
+      "por_que": "Mismo motivo. Vuelve por encima de los 100 $, lo que ==alimenta el temor a más inflación y a una Fed más dura==.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+        }
+      ]
+    },
+    {
+      "activo": "VIX (volatilidad S&P 500)",
+      "cambio": "+21 % (20,0)",
+      "por_que": "La protección contra caídas se encarece en la peor semana desde junio, con la tecnología cayendo con fuerza y el riesgo geopolítico del fin de semana.",
+      "fuentes": [
+        {
+          "t": "TS2",
+          "u": "https://ts2.tech/en/nasdaq-drops-2-1-as-chip-rout-caps-a-4-5-weekly-slide/"
+        }
+      ]
+    },
+    {
+      "activo": "Kospi (Corea)",
+      "cambio": "+2,1 %",
+      "por_que": "Rebote técnico tras perder un 7,6 % el día anterior. Asia cotizó antes de la nueva caída de los chips en Wall Street.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-just-fell-8-161520543.html"
+        }
+      ]
+    },
+    {
+      "activo": "DAX (Alemania)",
+      "cambio": "+0,95 %",
+      "por_que": "Buenos resultados de empresas europeas e industriales (Aixtron +6 %, Nordex +12,3 %) y cierre antes de la caída de la tarde en EE. UU. El Stoxx 600 subió un 0,7 % y logró su mejor semana desde junio.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía AOL)",
+          "u": "https://www.aol.com/articles/european-stocks-gain-schneider-lifts-071956000.html"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE MIB (Italia) / IBEX 35",
+      "cambio": "+0,93 % / +0,77 %",
+      "por_que": "La subida de rentabilidades europeas (10 años AAA +5 pb) ayuda a la banca, que pesa mucho en ambos índices, tras el castigo del día anterior.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía AOL)",
+          "u": "https://www.aol.com/articles/european-stocks-gain-schneider-lifts-071956000.html"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+1,3 %",
+      "por_que": "Contagio del riesgo en Oriente Medio, que también afecta al gas natural licuado que llega de la región.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Nasdaq 100",
+      "cambio": "−2,5 %",
+      "por_que": "Rumores de que un fondo de IA estaba en apuros y de que CoreWeave podría emitir acciones para pagar su deuda. Los semiconductores cayeron por octavo día seguido (AMD −6 %, Intel −5,8 %, Micron −5,6 %) y Meta un 3,7 %.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+        },
+        {
+          "t": "TS2",
+          "u": "https://ts2.tech/en/nasdaq-drops-2-1-as-chip-rout-caps-a-4-5-weekly-slide/"
+        },
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-just-fell-8-161520543.html"
+        }
+      ]
+    },
+    {
+      "activo": "Russell 2000 (pequeñas EE. UU.)",
+      "cambio": "−1,7 %",
+      "por_que": "En días de aversión al riesgo, las pequeñas compañías, más endeudadas y menos líquidas, caen con el resto. Sube el diferencial de crédito.",
+      "fuentes": [
+        {
+          "t": "TS2",
+          "u": "https://ts2.tech/en/nasdaq-drops-2-1-as-chip-rout-caps-a-4-5-weekly-slide/"
+        }
+      ]
+    },
+    {
+      "activo": "S&P 500",
+      "cambio": "−1,1 % (7.659)",
+      "por_que": "La tecnología lastró al índice. La salud apenas cayó (−0,3 %) tras la mejora de recomendación de RBC, y la energía subió.",
+      "fuentes": [
+        {
+          "t": "TS2",
+          "u": "https://ts2.tech/en/nasdaq-drops-2-1-as-chip-rout-caps-a-4-5-weekly-slide/"
+        }
+      ]
+    },
+    {
+      "activo": "MSCI Emergentes (ETF EEM, USD)",
+      "cambio": "−1,7 %",
+      "por_que": "Cotiza en horario de EE. UU., así que recoge la caída de la tecnología por la tarde y el hundimiento de Indonesia (−11,6 %) por la consulta de MSCI.",
+      "fuentes": [
+        {
+          "t": "Taipei Times",
+          "u": "https://www.taipeitimes.com/News/front/archives/2026/10/17/2003866114"
+        },
+        {
+          "t": "Tempo",
+          "u": "https://en.tempo.co/read/2122091/indonesias-market-meltdown-warnings-ignored"
+        }
+      ]
+    },
+    {
+      "activo": "Diferencial high yield EE. UU.",
+      "cambio": "+8 pb (3,31 %)",
+      "por_que": "==El temor a que las empresas de IA no puedan refinanciar su deuda== se traslada al crédito de peor calidad.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural EE. UU. (Henry Hub)",
+      "cambio": "−3,7 %",
+      "por_que": "Sin noticia concreta localizada. Es un mercado local, poco expuesto a Oriente Medio, que no siguió la subida del gas europeo.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+        }
+      ]
+    },
+    {
+      "activo": "Bund (zona euro AAA 10 años)",
+      "cambio": "TIR +5 pb (3,44 %)",
+      "por_que": "Recupera parte del desplome del día anterior, con la inflación de la zona euro confirmada en el 3,8 % y ==un BCE que podría volver a subir tipos en diciembre==. Al subir la TIR, el precio del bono baja.",
+      "fuentes": [
+        {
+          "t": "Reuters (vía AOL)",
+          "u": "https://www.aol.com/articles/european-stocks-gain-schneider-lifts-071956000.html"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Financiación de la inteligencia artificial (IA)",
+      "texto": "Los rumores sobre las finanzas de CoreWeave y de un fondo de IA en apuros reavivaron la pregunta de la semana: ==quién pagará la construcción de centros de datos con tipos al 5 %==. El castigo se extendió de las «neonubes» a los fabricantes de chips y redes, con ocho sesiones seguidas de caídas en los semiconductores. Es la primera vez en este ciclo que el miedo se nota también en el crédito (high yield +8 pb).",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+        },
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-just-fell-8-161520543.html"
+        }
+      ]
+    },
+    {
+      "tema": "Irán y petróleo",
+      "texto": "El Brent volvió a casi 110 $ y el WTI superó los 100 $ por el riesgo de una escalada de EE. UU. con Irán durante el fin de semana. Un crudo caro complica el trabajo de los bancos centrales, porque ==eleva la inflación justo cuando la economía empieza a dudar==.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+        },
+        {
+          "t": "TS2",
+          "u": "https://ts2.tech/en/nasdaq-drops-2-1-as-chip-rout-caps-a-4-5-weekly-slide/"
+        }
+      ]
+    },
+    {
+      "tema": "Bancos centrales",
+      "texto": "Warsh (Fed) no dio pistas y el mercado mantiene ==~74 % de probabilidad de una subida en diciembre==. En Europa, la inflación final del 3,8 % mantiene sobre la mesa otra subida del BCE en diciembre, y Ueda (BoJ) insistió en seguir subiendo tipos en Japón.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+        },
+        {
+          "t": "Reuters (vía AOL)",
+          "u": "https://www.aol.com/articles/european-stocks-gain-schneider-lifts-071956000.html"
+        }
+      ]
+    },
+    {
+      "tema": "Indonesia y MSCI",
+      "texto": "La consulta de MSCI para sacar a Indonesia de los emergentes ==provocó la peor caída de Yakarta desde 1998==. Si se aprueba, los fondos indexados a emergentes tendrían que vender esas acciones, y el mercado lo adelantó.",
+      "fuentes": [
+        {
+          "t": "Taipei Times",
+          "u": "https://www.taipeitimes.com/News/front/archives/2026/10/17/2003866114"
+        },
+        {
+          "t": "Tempo",
+          "u": "https://en.tempo.co/read/2122091/indonesias-market-meltdown-warnings-ignored"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "Día casi plano en EE. UU., con fuerzas opuestas. ==El 10 años cerró en el 5,09 %, −1 pb según el Tesoro== (+0,9 pb en nuestra serie, tomada a otra hora: ninguna de las dos cifras es un movimiento relevante). Empujaban al alza ==el petróleo (WTI por encima de 100 $) y unos datos fuertes== (precios de importación +1,1 % y producción industrial +0,7 %): más inflación esperada y más probabilidad de subidas de la Fed (~74 % en diciembre). Empujaba a la baja ==la venta de bolsa por la deuda de la IA==, que llevó dinero a los bonos. Ese día el bono siguió más a la bolsa que al crudo. Warsh (Fed) no dio pistas, y el mercado lo leyó como un aval a lo que ya descontaba. El 2 años bajó 3 pb (4,74 %).\n\nEn Europa, ==el 10 años AAA rebotó 5 pb (3,44 %)== y el 2 años 4 pb (3,03 %), tras la caída de 12 pb del jueves. ==La inflación final del 3,8 % mantiene viva otra subida del BCE en diciembre==, y los bonos europeos cerraron antes del giro de Wall Street. El diferencial francés seguía en ~147 pb, sin dato diario en nuestras series; el lunes 20 superaría los 150 pb por las protestas sociales. El diferencial high yield se amplió 8 pb (3,31 %): ==el crédito empieza a cobrar más a las empresas endeudadas de la IA==.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "−3 pb (4,74 %)",
+        "por_que": "Warsh no cambió la apuesta: la subida se espera para diciembre, no para octubre. Leve refugio por la caída de la bolsa.",
+        "fuentes": [
+          {
+            "t": "investingLive: resumen de la sesión americana (16-10)",
+            "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+          },
+          {
+            "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+            "u": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−1 pb (5,09 %; +0,9 pb en nuestra serie)",
+        "por_que": "==El refugio por la caída del Nasdaq compensó el crudo caro== y los datos fuertes de precios e industria.",
+        "fuentes": [
+          {
+            "t": "investingLive: resumen de la sesión americana (16-10)",
+            "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+          },
+          {
+            "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+            "u": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "0 pb (5,43 %)",
+        "por_que": "Sin cambios: el tramo largo quedó entre la inflación del petróleo y la búsqueda de refugio.",
+        "fuentes": [
+          {
+            "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+            "u": "https://fred.stlouisfed.org/series/DGS10"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "+5 pb (3,44 %)",
+        "por_que": "Rebote tras el −12 pb del jueves, con ==la inflación del 3,8 % y el BCE pensando en diciembre==.",
+        "fuentes": [
+          {
+            "t": "Bolsas europeas al alza (inflación final de la zona euro)",
+            "u": "https://www.aol.com/articles/european-stocks-gain-schneider-lifts-071956000.html"
+          },
+          {
+            "t": "Trading Economics: Bund y diferenciales europeos (20-10)",
+            "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "+4 pb (3,03 %)",
+        "por_que": "El tramo más ligado al BCE recupera la apuesta por otra subida de tipos.",
+        "fuentes": []
+      },
+      {
+        "bono": "Diferencial Francia–Alemania (10 años)",
+        "cambio": "≈ 147 pb (sin dato diario)",
+        "por_que": "Máximos desde 2012 por las dudas fiscales; la semana siguiente se ampliaría hasta ~160 pb y la TIR francesa superaría el 5 %.",
+        "fuentes": [
+          {
+            "t": "Trading Economics: Bund y diferenciales europeos (20-10)",
+            "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+          },
+          {
+            "t": "Trading Economics: TIR de Francia a 10 años",
+            "u": "https://tradingeconomics.com/france/government-bond-yield"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "+8 pb (3,31 %)",
+        "por_que": "Los rumores sobre CoreWeave llevan el miedo de la IA al crédito de peor calidad.",
+        "fuentes": [
+          {
+            "t": "investingLive: resumen de la sesión americana (16-10)",
+            "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+          }
+        ]
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "investingLive: resumen de la sesión americana (16-10)",
+        "u": "https://investinglive.com/news/investinglive-americas-market-news-wrap-nasdaq-sinks-and-oil-jumps/"
+      },
+      {
+        "t": "Bolsas europeas al alza (inflación final de la zona euro)",
+        "u": "https://www.aol.com/articles/european-stocks-gain-schneider-lifts-071956000.html"
+      },
+      {
+        "t": "Trading Economics: Bund y diferenciales europeos (20-10)",
+        "u": "https://tradingeconomics.com/germany/government-bond-yield/news/589486"
+      },
+      {
+        "t": "Trading Economics: TIR de Francia a 10 años",
+        "u": "https://tradingeconomics.com/france/government-bond-yield"
+      },
+      {
+        "t": "FRED (Reserva Federal de San Luis): TIR oficiales del Tesoro",
+        "u": "https://fred.stlouisfed.org/series/DGS10"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "En fondos, el día 16 se repartió entre la recuperación de las mineras y el castigo a la IA y los emergentes. La mediana de renta variable subió un 0,39 %, porque ==muchos fondos europeos y globales valoran con el cierre europeo, en verde==. La renta fija quedó plana. Arriba dominan los fondos de mineras de oro y metales (+3,2 % a +5 %), defensa e industria europea, y el de Corea por el rebote. Abajo, los de blockchain, IA, crecimiento disruptivo y emergentes. Con el ranking recalculado, todas las cifras son de una sola sesión (del 15 al 16). Hay que tomar con cautela varios casos. ==Los fondos de oro parecen valorar con un día de retraso==: el 15, con el oro +1,5 %, BGF World Gold quedó plano y Baker Steel cayó un 3,9 %, y el 16 suben un 3–5 % con el oro solo +0,3 %. Algo parecido ocurre con algunos emergentes, que el 16 recogen el desplome asiático del 15. MS INVF US Growth figura con +2,6 % en un día de Nasdaq −2,5 % (ver más abajo). Quedan fuera del ranking como dudosos dos mixtos de Flossbach von Storch (ABANCA), con +3,6 % y +5,8 %, y Fidelity Indonesia (−12,9 %): este sí es real, ==la bolsa de Yakarta cayó un 11,6 % por la consulta de MSCI==, pero el filtro lo aparta por la magnitud.",
+    "suben": [
+      {
+        "isin": "ES0174115065",
+        "por_que": "Cinvest A&A Internacional, de Gesalcalá (IronIA, +5,08 %): no tenemos su cartera y ==no podemos atribuir la subida a un driver concreto==. Es su tercera subida fuerte de la semana (+2,25 % el 14, +1,33 % el 15) y el 19 cedió un 2 %. Conviene vigilar si el VL es correcto."
+      },
+      {
+        "isin": "LU0326422689",
+        "por_que": "BGF World Gold (EUR cubierta, +5,01 %): Barrick, Agnico Eagle, Newmont, Wheaton. El oro apenas subió el 16 (+0,3 %), pero el día 15 (+1,5 %) el fondo quedó plano (−0,16 %). ==Lo más probable es que este VL recoja con retraso el rebote== del metal y de las mineras."
+      },
+      {
+        "isin": "LU0273159177",
+        "por_que": "DWS Invest Gold and Precious Metals (+4,58 %): Newmont, AngloGold, Agnico Eagle, Gold Fields. Mismo patrón que el de BlackRock: −0,9 % el 15 y +4,6 % el 16, señal de desfase en la valoración."
+      },
+      {
+        "isin": "LU0408222593",
+        "por_que": "BGF World Mining (+3,81 %): Glencore, Rio Tinto, Anglo American, BHP y mineras de oro. Recuperan tras dos días de caídas (−2,2 % y −2,7 %), con el cobre estable (+0,3 %) y un dólar más débil."
+      },
+      {
+        "isin": "IE00BYVJR916",
+        "por_que": "Jupiter Gold & Silver (+3,65 %): mineras de oro y plata, en rebote tras la fuerte caída de la plata del día 14."
+      },
+      {
+        "isin": "LU1822851884",
+        "por_que": "Finserve Global Defence & Security (+3,35 %): Rolls-Royce, ST Engineering, Leonardo, GE Aerospace, Saab, RTX, Indra. La amenaza de escalada con Irán favorece a la defensa, en un día bueno para la bolsa europea."
+      },
+      {
+        "isin": "LU0301637293",
+        "por_que": "JPM Korea Equity (+3,22 %): ==rebote del Kospi (+2,1 %)== tras el −7,6 % del día anterior. El fondo, cargado de SK hynix y Samsung, sube más que el índice."
+      },
+      {
+        "isin": "LU1128910137",
+        "por_que": "Baker Steel Precious Metals (IronIA, +3,21 %): mineras de oro y plata. ==Mismo patrón de desfase que BGF y DWS==: cayó un 3,9 % el 15, con el oro +1,5 %, y sube el 16."
+      },
+      {
+        "isin": "LU3076185084",
+        "por_que": "Nordea 1 Empower Europe (+2,97 %): ASML, Siemens, Nokia, SAP, Infineon, Siemens Energy, Prysmian. Industria y tecnología europeas, respaldadas por los resultados de la semana (ASML, Aixtron, Ericsson) y por el cierre europeo previo a la caída de Wall Street."
+      },
+      {
+        "isin": "LU2295319565",
+        "por_que": "MS INVF US Growth (+2,60 %): ==resultado difícil de cuadrar==. Su cartera (Cloudflare, Royalty Pharma, Tesla, Affirm, SpaceX, Shopify, Strategy) es de crecimiento puro y el Nasdaq cayó un 2,5 %. Los días anteriores encadenó −2,2 % y −3,7 %. Conviene vigilar si el VL es correcto o va desfasado."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "FR0014008M99",
+        "por_que": "R-co Thematic Blockchain (−6,23 %): Coinbase, Galaxy, Hut 8, Core Scientific, BitMine. Varios se han reconvertido en alojamiento para IA y caen con CoreWeave y las «neonubes». El bitcoin bajó un 0,8 %."
+      },
+      {
+        "isin": "LU1861559471",
+        "por_que": "Nikko AM ARK Disruptive Innovation (IronIA, −5,27 %): aplica la estrategia de ARK Invest, ==crecimiento disruptivo muy sensible a los tipos y a la IA==: tecnológicas caras, cripto y biotecnología. Cae más que el Nasdaq 100 (−2,5 %)."
+      },
+      {
+        "isin": "DE0009773010",
+        "por_que": "DWS Global Emerging Markets (−4,96 %, IronIA): emergentes con peso en la Asia tecnológica. Su caída, mayor que la del día en Asia, parece recoger también parte del desplome asiático del 15."
+      },
+      {
+        "isin": "LU1345291485",
+        "por_que": "Selective Thematic (−4,63 %, IronIA): fondo temático tecnológico, en la misma venta de la IA."
+      },
+      {
+        "isin": "AT0000745872",
+        "por_que": "Raiffeisen Azionario, emergentes (IronIA, −4,50 %): el 15, con Corea −7,6 %, solo subió un 0,46 %, así que ==su VL parece recoger el desplome asiático con un día de retraso==, junto con la caída de Indonesia."
+      },
+      {
+        "isin": "ES0110407162",
+        "por_que": "Gestión Boutique VI Opportunity, de Andbank (IronIA, −4,48 %): pequeñas compañías globales. Cae con el Russell 2000 (−1,7 %) en un día de aversión al riesgo, como ya hizo el 14 (−3,3 %)."
+      },
+      {
+        "isin": "DE0008474149",
+        "por_que": "DWS Artificial Intelligence (−4,46 %): invierte el 99 % en DWS Invest Artificial Intelligence, cartera de grandes tecnológicas y chips castigados por el temor a la financiación de la IA."
+      },
+      {
+        "isin": "ES0162305033",
+        "por_que": "Merchbanc Oportunidades (IronIA, −4,35 %): mixto flexible, pero con caídas impropias de un mixto (sexta en siete sesiones: −2,1 %, −1,6 %, −2,9 %, −0,8 % y −4,35 %). No tenemos su cartera; ==apunta a mucha renta variable de riesgo==, castigada en la semana de la IA."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-19",
+      "evento": "Apertura tras el fin de semana: noticias de Irán",
+      "por_que_importa": "Si hay escalada, el petróleo podría seguir subiendo; si se relaja la tensión, la prima de riesgo del crudo podría deshacerse."
+    },
+    {
+      "fecha": "2026-10-21",
+      "evento": "Resultados de Meta y Tesla",
+      "por_que_importa": "Sus planes de inversión mostrarán si el miedo a la financiación de la IA empieza a frenar la demanda de chips y centros de datos."
+    },
+    {
+      "fecha": "2026-10-22",
+      "evento": "Semana del 19 al 23: resultados de SAP, ABB, Barclays y de la banca española (Bankinter, el 22)",
+      "por_que_importa": "Prueba para la tesis de que los resultados sostienen a la bolsa europea mientras sufre la IA estadounidense."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Decisión de la Fed (reunión del 27–28 de octubre)",
+      "por_que_importa": "Se espera que mantenga tipos, pero con el crudo por encima de 100 $ el mercado da ~74 % a una subida en diciembre."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "Reunión del BCE e índice PCE de EE. UU.",
+      "por_que_importa": "Inflación de la zona euro en el 3,8 %: el mensaje sobre diciembre moverá los bonos europeos."
+    },
+    {
+      "fecha": "2026-11-03",
+      "evento": "Elecciones de mitad de mandato en EE. UU.",
+      "por_que_importa": "Incertidumbre sobre la política fiscal y la exterior (Irán)."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "Neonube",
+      "def": "Empresa (como CoreWeave o Nebius) que alquila capacidad de cálculo con chips de IA y financia sus centros de datos sobre todo con deuda."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad de un bono. Cuando sube, el precio baja."
+    },
+    {
+      "sigla": "pb",
+      "def": "Puntos básicos: centésimas de punto porcentual."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Volatilidad implícita del S&P 500, llamado «índice del miedo»."
+    },
+    {
+      "sigla": "High yield",
+      "def": "Bonos de alto rendimiento: deuda de empresas con peor calificación. Su diferencial mide la prima de riesgo de crédito."
+    },
+    {
+      "sigla": "WTI",
+      "def": "West Texas Intermediate, el petróleo de referencia en EE. UU."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility, el mercado de referencia del gas natural en Europa (Países Bajos)."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "BoJ",
+      "def": "Banco de Japón."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis divisas."
+    },
+    {
+      "sigla": "MSCI",
+      "def": "Proveedor de índices bursátiles. Su clasificación de países guía a los fondos indexados."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Fondo cotizado en bolsa."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo de un fondo."
+    },
+    {
+      "sigla": "PCE",
+      "def": "Deflactor del gasto en consumo personal, la medida de inflación que prefiere la Fed."
+    },
+    {
+      "sigla": "EUR H",
+      "def": "Clase en euros con la divisa cubierta."
+    },
+    {
+      "sigla": "FRED",
+      "def": "Base de datos de la Reserva Federal de San Luis; publica la TIR oficial de cierre del Tesoro de EE. UU."
+    },
+    {
+      "sigla": "Diferencial (prima de riesgo)",
+      "def": "Diferencia entre la TIR del bono de un país y la del Bund alemán al mismo plazo; mide cuánto más exige el mercado por prestarle."
+    }
+  ],
+  "generado": "2026-10-23T12:00"
+}
