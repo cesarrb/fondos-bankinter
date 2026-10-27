@@ -1,0 +1,557 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-26",
+  "fase": "completo",
+  "titulo": "Lula hunde la bolsa de Brasil un 14 %; Wall Street sube con la IA y el crudo cede",
+  "resumen": "El lunes tuvo dos caras. En Brasil, ==Lula ganó la segunda vuelta (51,8 % frente al 48,2 %)== contra Flávio Bolsonaro, al que el mercado daba como favorito y consideraba más disciplinado con las cuentas públicas. ==El Bovespa se desplomó un 13,9 % (176.608)==, con una suspensión automática de la negociación (circuit breaker) al poco de abrir, y el dólar se disparó hasta unos 5,40 reales. El mecanismo: los inversores temen más gasto y déficit, exigen más rentabilidad a la deuda brasileña a largo plazo y eso hunde a las empresas más sensibles a los tipos, sobre todo distribución (Magazine Luiza y Assaí cayeron cerca de un 50 %); Petrobras perdió un 14 % en Nueva York por el temor a una gestión más política. Bolsonaro dice que impugnará el resultado.\n\nEn el resto del mundo el tono fue positivo. ==Wall Street subió con la tecnología==: S&P 500 +0,70 %, Nasdaq 100 +1,09 %, Dow Jones +0,28 % y Russell 2000 +0,38 %. El impulso vino de la ==presentación del folleto de salida a bolsa (S-1) de Anthropic==, cuyas cifras de crecimiento calmaron el miedo a que el auge de la inteligencia artificial (IA) se esté agotando (Nvidia +2,4 %, Microsoft +1,5 %, Tesla +5,2 % por una mejora de Barclays). La excepción fue Meta (−1,9 %): ==anunció que captará hasta 95.000 millones de dólares== en acciones y preferentes convertibles para financiar centros de datos, lo que diluye a sus accionistas. La volatilidad bajó (VIX −5,5 %, 18,4).\n\nEuropa también subió con el ==alivio por Francia y la bajada del crudo==: Euro Stoxx 50 +0,79 %, DAX +0,91 %, CAC 40 +0,83 % y ==FTSE MIB +1,29 % gracias a la banca==. Que Moody's no rebajara la nota de Francia el viernes estrechó los diferenciales de la deuda francesa y de la periférica, algo que favorece a los bancos, grandes tenedores de esos bonos. ==El IBEX 35 se quedó atrás (+0,23 %)==: además de un petróleo más barato para Repsol, en la bolsa española pesan mucho empresas con negocio en Brasil (Santander, Telefónica, Iberdrola vía Neoenergia), lo que probablemente frenó el índice. En Asia hubo ==debilidad en los chips==: Nikkei −0,80 % (Advantest −3,9 %) y Kospi −1,46 %, mientras Hong Kong subió un 0,51 %, la India un 0,66 % y Shanghái apenas se movió (+0,19 %) al arrancar el pleno del Partido Comunista.\n\nEn materias primas, ==el Brent bajó por la diplomacia con Irán==: delegaciones de Arabia Saudí, Turquía y Pakistán se reunieron en Teherán, e Irán propuso un plan de siete días para reabrir el estrecho de Ormuz. La bajada fue moderada porque el riesgo sigue vivo: ==Brent −0,78 % (115,8 $) y WTI −1,46 % (101,8 $)==. En cambio, el gas europeo (TTF) subió un 3,0 % (96,7 €/MWh). El oro recuperó los 4.000 $ (+0,76 %, 4.038 $) al ceder el crudo y el dólar se mantuvo firme (índice DXY +0,2 %, euro en 1,119 en el cambio del BCE).\n\nEn los fondos (datos del día siguiente), ==los emergentes fueron los grandes perdedores==: el desplome de Brasil se multiplicó al pasarlo a euros, porque ==el real se depreció un 7,6 %== (el dólar subió un 8,2 %, a 5,40 reales). Los que más subieron fueron los de ciberseguridad y tecnología, de la mano del rebote del Nasdaq.",
+  "claves": [
+    "==Lula reelegido: el Bovespa cae un 13,9 %== con circuit breaker y el real se hunde (dólar a ~5,40 reales) por el miedo fiscal.",
+    "Wall Street sube (S&P 500 +0,70 %, Nasdaq 100 +1,09 %) ==por el folleto de salida a bolsa de Anthropic==, que reaviva la confianza en la IA.",
+    "==Meta capta hasta 95.000 millones $== para IA y cae un 1,9 % por la dilución.",
+    "==Europa sube con el alivio francés tras Moody's==: FTSE MIB +1,29 % por la banca; el IBEX 35 se queda atrás (+0,23 %), lastrado por Brasil.",
+    "El crudo cede ante la diplomacia en Teherán (WTI −2 %); ==la curva de EE. UU. se aplana a la espera de la Fed== del miércoles."
+  ],
+  "suben": [
+    {
+      "activo": "Nasdaq 100",
+      "cambio": "+1,09 %",
+      "por_que": "==El S-1 de Anthropic calmó el miedo a una burbuja de IA==: sus cifras de ingresos muestran que la demanda de IA sigue creciendo, y eso empuja a quienes le venden chips y nube (Nvidia +2,4 %, Microsoft +1,5 %). Tesla +5,2 % por la mejora de Barclays.",
+      "fuentes": [
+        {
+          "t": "The Motley Fool",
+          "u": "https://www.fool.com/coverage/stock-market-today/2026/10/26/stock-market-today-oct-26-ai-optimism-lifts-nasdaq-as-tech-stocks-rebound/"
+        },
+        {
+          "t": "TheStreet",
+          "u": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-26-2026"
+        }
+      ]
+    },
+    {
+      "activo": "S&P 500",
+      "cambio": "+0,70 %",
+      "por_que": "Arrastrado por la tecnología y el inmobiliario; el crudo más barato reduce el temor a más inflación. Comunicaciones fue el sector peor por Meta.",
+      "fuentes": [
+        {
+          "t": "The Motley Fool",
+          "u": "https://www.fool.com/coverage/stock-market-today/2026/10/26/stock-market-today-oct-26-ai-optimism-lifts-nasdaq-as-tech-stocks-rebound/"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE MIB (Italia)",
+      "cambio": "+1,29 %",
+      "por_que": "==La banca italiana rebotó== al estrecharse la prima de riesgo periférica tras el respiro de Moody's a Francia: menor diferencial = más valor de los bonos que tienen en balance y menos riesgo percibido.",
+      "fuentes": [
+        {
+          "t": "Ad-hoc-news",
+          "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/ftse-mib-closes-1-3-percent-higher-as-banks-rebound/70416221"
+        },
+        {
+          "t": "Seeking Alpha",
+          "u": "https://seekingalpha.com/article/4957479-moodys-france-peripheral-premiums-narrower-euro-struggles-to-find-traction"
+        },
+        {
+          "t": "Newsquawk",
+          "u": "https://www.newsquawk.com/headlines/market-analysis-european-bourses-start-the-week-on-a-strong-footing-cac-40-outperforms-as-france-escapes-a-moodys-downgrade"
+        }
+      ]
+    },
+    {
+      "activo": "DAX (Alemania)",
+      "cambio": "+0,91 %",
+      "por_que": "Contagio del buen tono tecnológico y alivio por la bajada del crudo, que abarata la energía a la industria europea.",
+      "fuentes": [
+        {
+          "t": "Seeking Alpha",
+          "u": "https://seekingalpha.com/article/4957479-moodys-france-peripheral-premiums-narrower-euro-struggles-to-find-traction"
+        },
+        {
+          "t": "Newsquawk",
+          "u": "https://www.newsquawk.com/headlines/market-analysis-european-bourses-start-the-week-on-a-strong-footing-cac-40-outperforms-as-france-escapes-a-moodys-downgrade"
+        }
+      ]
+    },
+    {
+      "activo": "CAC 40 (Francia)",
+      "cambio": "+0,83 %",
+      "por_que": "==Moody's mantuvo a Francia en Aa3== cuando se temía una rebaja: baja la TIR francesa y suben los bancos franceses.",
+      "fuentes": [
+        {
+          "t": "Seeking Alpha",
+          "u": "https://seekingalpha.com/article/4957479-moodys-france-peripheral-premiums-narrower-euro-struggles-to-find-traction"
+        },
+        {
+          "t": "Newsquawk",
+          "u": "https://www.newsquawk.com/headlines/market-analysis-european-bourses-start-the-week-on-a-strong-footing-cac-40-outperforms-as-france-escapes-a-moodys-downgrade"
+        }
+      ]
+    },
+    {
+      "activo": "Oro",
+      "cambio": "+0,76 % (4.038 $)",
+      "por_que": "Recupera los 4.000 $ porque el crudo más barato reduce algo la presión para que la Fed suba tipos, y el oro no paga intereses.",
+      "fuentes": [
+        {
+          "t": "FXStreet",
+          "u": "https://www.fxstreet.com/news/gold-reclaims-4-000-as-oil-eases-fed-decision-tests-recovery-202610261742"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+3,01 % (96,7 €/MWh)",
+      "por_que": "Sin noticia concreta encontrada. Encadena cuatro sesiones al alza (+13,7 % desde el día 20): ==parte del gas natural licuado (GNL) que llega a Europa sale de Qatar por Ormuz==, así que el riesgo en el estrecho pesa más en el gas que la diplomacia del día; se suma la cercanía del invierno.",
+      "fuentes": [
+        {
+          "t": "ZeroHedge (resumen de apertura)",
+          "u": "https://zerohedge.com/markets/futures-rise-meta-jumps-95bn-equity-raise-oil-slides-brazil-crashes-after-lula-shock"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Bovespa (Brasil)",
+      "cambio": "−13,88 %",
+      "por_que": "==Victoria inesperada de Lula== (51,8 %). El mercado había apostado por Flávio Bolsonaro; ahora descuenta más gasto público, más déficit y tipos largos más altos. Caen sobre todo distribución (Magalu, Assaí, ~−50 %) y Petrobras (−14 % en EE. UU.).",
+      "fuentes": [
+        {
+          "t": "InfoMoney",
+          "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+        },
+        {
+          "t": "B3 Bora Investir",
+          "u": "https://borainvestir.b3.com.br/noticias/mercado/apos-circuit-breaker-ibovespa-b3-recua-13-com-eleicao-no-foco-dolar-vai-a-r-540/"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo Brent",
+      "cambio": "−0,78 % (115,8 $)",
+      "por_que": "==Esperanza diplomática con Irán==: reunión de Arabia Saudí, Turquía y Pakistán en Teherán y plan iraní de 7 días para reabrir Ormuz. Menos riesgo de corte de suministro = menos prima de riesgo. La bajada es pequeña porque los ataques recientes cerca de Ormuz mantienen la prima.",
+      "fuentes": [
+        {
+          "t": "ZeroHedge (resumen de apertura)",
+          "u": "https://zerohedge.com/markets/futures-rise-meta-jumps-95bn-equity-raise-oil-slides-brazil-crashes-after-lula-shock"
+        },
+        {
+          "t": "Goodreturns",
+          "u": "https://www.goodreturns.in/news/crude-oil-prices-today-brent-crude-falls-below-115-why-oil-prices-are-falling-despite-middle-east-1543357.html"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo WTI",
+      "cambio": "−1,46 % (101,8 $)",
+      "por_que": "Misma causa: menor prima geopolítica tras subir el viernes a máximos de seis meses.",
+      "fuentes": [
+        {
+          "t": "ZeroHedge (resumen de apertura)",
+          "u": "https://zerohedge.com/markets/futures-rise-meta-jumps-95bn-equity-raise-oil-slides-brazil-crashes-after-lula-shock"
+        }
+      ]
+    },
+    {
+      "activo": "Meta",
+      "cambio": "−1,9 %",
+      "por_que": "Anunció una captación de hasta 95.000 millones $ (35.000 millones ya, con acciones a plazo y preferentes convertibles, y hasta 60.000 millones más desde 2027): ==más acciones = menos beneficio por acción==.",
+      "fuentes": [
+        {
+          "t": "ZeroHedge (resumen de apertura)",
+          "u": "https://zerohedge.com/markets/futures-rise-meta-jumps-95bn-equity-raise-oil-slides-brazil-crashes-after-lula-shock"
+        },
+        {
+          "t": "The Motley Fool",
+          "u": "https://www.fool.com/coverage/stock-market-today/2026/10/26/stock-market-today-oct-26-ai-optimism-lifts-nasdaq-as-tech-stocks-rebound/"
+        }
+      ]
+    },
+    {
+      "activo": "Kospi (Corea)",
+      "cambio": "−1,46 %",
+      "por_que": "Los chips siguieron débiles en Asia (Goldman habla de ventas récord de tecnología en dos semanas), ==antes del rebote tecnológico de Wall Street==; SK Hynix se desmarcó al alza por un posible dividendo extraordinario.",
+      "fuentes": [
+        {
+          "t": "ZeroHedge (resumen de apertura)",
+          "u": "https://zerohedge.com/markets/futures-rise-meta-jumps-95bn-equity-raise-oil-slides-brazil-crashes-after-lula-shock"
+        }
+      ]
+    },
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "−0,80 %",
+      "por_que": "Peso de los fabricantes de equipos para semiconductores (Advantest −3,9 %) antes del rebote tecnológico de Wall Street.",
+      "fuentes": [
+        {
+          "t": "ZeroHedge (resumen de apertura)",
+          "u": "https://zerohedge.com/markets/futures-rise-meta-jumps-95bn-equity-raise-oil-slides-brazil-crashes-after-lula-shock"
+        }
+      ]
+    },
+    {
+      "activo": "VIX (volatilidad S&P 500)",
+      "cambio": "−5,45 % (18,4)",
+      "por_que": "Baja el miedo con la bolsa al alza y el crudo cediendo, a pesar de la reunión de la Fed esta semana.",
+      "fuentes": [
+        {
+          "t": "The Motley Fool",
+          "u": "https://www.fool.com/coverage/stock-market-today/2026/10/26/stock-market-today-oct-26-ai-optimism-lifts-nasdaq-as-tech-stocks-rebound/"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Elecciones en Brasil",
+      "texto": "==Lula ganó por 4,3 millones de votos== contra lo que descontaba el mercado. Mecanismo: se teme una política fiscal más laxa (deuda pública por encima del 82 % del PIB) → suben los tipos a largo plazo → caen las empresas endeudadas y de consumo, y ==se hunde el real (−7,6 %)==. El Tesoro canceló las subastas de deuda del 27 y el 29. Afecta a fondos de Brasil, Latinoamérica y emergentes y, en menor medida, a empresas españolas con negocio allí.",
+      "fuentes": [
+        {
+          "t": "InfoMoney",
+          "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+        },
+        {
+          "t": "B3 Bora Investir",
+          "u": "https://borainvestir.b3.com.br/noticias/mercado/apos-circuit-breaker-ibovespa-b3-recua-13-com-eleicao-no-foco-dolar-vai-a-r-540/"
+        },
+        {
+          "t": "Suno",
+          "u": "https://www.suno.com.br/noticias/circuit-breaker-ibovespa-b3-reeleicao-lula-26102026-go/"
+        },
+        {
+          "t": "Money Times",
+          "u": "https://www.moneytimes.com.br/tempo-real-ibovespa-reage-a-vitoria-de-lula-rens-apsa-lils-jcav/"
+        }
+      ]
+    },
+    {
+      "tema": "Inteligencia artificial (IA): Anthropic y Meta",
+      "texto": "==El folleto de Anthropic reanimó la tecnología== tras las dudas de la semana pasada, mientras Meta muestra el coste: necesita ==hasta 95.000 millones $ en capital nuevo== para sus centros de datos. Elon Musk advirtió de que el crédito está casi cerrado para empresas sin ingresos ajenos a la IA (CoreWeave y Nebius cayeron).",
+      "fuentes": [
+        {
+          "t": "The Motley Fool",
+          "u": "https://www.fool.com/coverage/stock-market-today/2026/10/26/stock-market-today-oct-26-ai-optimism-lifts-nasdaq-as-tech-stocks-rebound/"
+        },
+        {
+          "t": "ZeroHedge (resumen de apertura)",
+          "u": "https://zerohedge.com/markets/futures-rise-meta-jumps-95bn-equity-raise-oil-slides-brazil-crashes-after-lula-shock"
+        }
+      ]
+    },
+    {
+      "tema": "Irán y el petróleo",
+      "texto": "Las conversaciones en Teherán y el plan iraní para reabrir Ormuz rebajaron la prima de riesgo del crudo. Pero ==el riesgo sigue vivo==: un petrolero fue atacado cerca de Ormuz el viernes, los hutíes reivindicaron ataques a bombeos saudíes y Trump dice que se acerca la «hora de decidir» entre acuerdo o nuevos ataques.",
+      "fuentes": [
+        {
+          "t": "ZeroHedge (resumen de apertura)",
+          "u": "https://zerohedge.com/markets/futures-rise-meta-jumps-95bn-equity-raise-oil-slides-brazil-crashes-after-lula-shock"
+        },
+        {
+          "t": "Goodreturns",
+          "u": "https://www.goodreturns.in/news/crude-oil-prices-today-brent-crude-falls-below-115-why-oil-prices-are-falling-despite-middle-east-1543357.html"
+        }
+      ]
+    },
+    {
+      "tema": "Francia tras Moody's",
+      "texto": "Al mantener la nota en Aa3 (perspectiva negativa), ==el diferencial francés se estrechó hacia ~158 pb== desde el máximo de 176 pb, y arrastró a la baja las primas de Italia y España. La perspectiva negativa mantiene la amenaza de rebaja si no se corrige el déficit.",
+      "fuentes": [
+        {
+          "t": "Seeking Alpha",
+          "u": "https://seekingalpha.com/article/4957479-moodys-france-peripheral-premiums-narrower-euro-struggles-to-find-traction"
+        },
+        {
+          "t": "Newsquawk",
+          "u": "https://www.newsquawk.com/headlines/market-analysis-european-bourses-start-the-week-on-a-strong-footing-cac-40-outperforms-as-france-escapes-a-moodys-downgrade"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "En EE. UU. ==la curva se aplanó a la espera de la Reserva Federal (Fed)==: la TIR (tasa interna de rentabilidad) a 2 años subió unos 3 pb, hasta ~4,72 % según prensa (el dato oficial de la Fed del día aún no está publicado), la de 5 años +2 pb (4,82 %), la de 10 años quedó plana (4,99 %) y la de 30 años bajó 1 pb (5,30 %). El tramo corto, que sigue las expectativas de tipos oficiales, sube porque ==el mercado ve un 79–83 % de probabilidad de subida en diciembre== (para este miércoles casi nadie espera cambio). El largo no subió porque ==el crudo más barato rebaja la inflación esperada== y porque una Fed más dura se interpreta como menos inflación futura, lo que contiene la prima por plazo.\n\nEn la zona euro el BCE aún no tiene la curva AAA del lunes (el último dato, del viernes, deja la AAA a 10 años en 3,37 %). Lo relevante fue Francia: ==el diferencial con Alemania se estrechó hasta ~158 pb== desde un máximo de 176 pb, porque Moody's no rebajó la nota y los inversores que apostaban contra el bono francés cerraron posiciones. Las primas de riesgo de Italia y España también se estrecharon por contagio. No hemos encontrado una cifra fiable de cierre del Bund del día.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "+3 pb (~4,72 %, prensa)",
+        "por_que": "Se afianza la subida de la Fed en diciembre (79–83 %) con la inflación aún alta.",
+        "fuentes": [
+          {
+            "t": "CNBC",
+            "u": "https://www.cnbc.com/2026/10/26/us-treasury-yields-investors-feds-interest-rate-decision-.html"
+          },
+          {
+            "t": "FXStreet",
+            "u": "https://www.fxstreet.com/news/united-states-dollar-index-nears-10200-as-traders-brace-for-central-bank-decisions-202610261342"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "0 pb (4,99 %)",
+        "por_que": "El crudo más barato compensa el empuje del tramo corto; la curva se aplana.",
+        "fuentes": [
+          {
+            "t": "CNBC",
+            "u": "https://www.cnbc.com/2026/10/26/us-treasury-yields-investors-feds-interest-rate-decision-.html"
+          },
+          {
+            "t": "FXStreet",
+            "u": "https://www.fxstreet.com/news/united-states-dollar-index-nears-10200-as-traders-brace-for-central-bank-decisions-202610261342"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "−1 pb (5,30 %)",
+        "por_que": "Menor inflación esperada a largo plazo si la Fed endurece y el petróleo cede.",
+        "fuentes": [
+          {
+            "t": "CNBC",
+            "u": "https://www.cnbc.com/2026/10/26/us-treasury-yields-investors-feds-interest-rate-decision-.html"
+          },
+          {
+            "t": "FXStreet",
+            "u": "https://www.fxstreet.com/news/united-states-dollar-index-nears-10200-as-traders-brace-for-central-bank-decisions-202610261342"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "sin dato del día (3,37 % el viernes)",
+        "por_que": "El BCE publica con un día de retraso; la prensa no da un cierre fiable."
+      },
+      {
+        "bono": "Diferencial Francia–Alemania",
+        "cambio": "≈ −14 pb (~158 pb)",
+        "por_que": "Alivio por la decisión de Moody's: se deshacen apuestas contra la deuda francesa.",
+        "fuentes": [
+          {
+            "t": "Seeking Alpha",
+            "u": "https://seekingalpha.com/article/4957479-moodys-france-peripheral-premiums-narrower-euro-struggles-to-find-traction"
+          },
+          {
+            "t": "Newsquawk",
+            "u": "https://www.newsquawk.com/headlines/market-analysis-european-bourses-start-the-week-on-a-strong-footing-cac-40-outperforms-as-france-escapes-a-moodys-downgrade"
+          }
+        ]
+      },
+      {
+        "bono": "Diferenciales de Italia y España",
+        "cambio": "se estrechan",
+        "por_que": "Contagio del alivio francés; apoya a la banca del sur.",
+        "fuentes": [
+          {
+            "t": "Seeking Alpha",
+            "u": "https://seekingalpha.com/article/4957479-moodys-france-peripheral-premiums-narrower-euro-struggles-to-find-traction"
+          },
+          {
+            "t": "Newsquawk",
+            "u": "https://www.newsquawk.com/headlines/market-analysis-european-bourses-start-the-week-on-a-strong-footing-cac-40-outperforms-as-france-escapes-a-moodys-downgrade"
+          }
+        ]
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "CNBC",
+        "u": "https://www.cnbc.com/2026/10/26/us-treasury-yields-investors-feds-interest-rate-decision-.html"
+      },
+      {
+        "t": "FXStreet",
+        "u": "https://www.fxstreet.com/news/united-states-dollar-index-nears-10200-as-traders-brace-for-central-bank-decisions-202610261342"
+      },
+      {
+        "t": "Seeking Alpha",
+        "u": "https://seekingalpha.com/article/4957479-moodys-france-peripheral-premiums-narrower-euro-struggles-to-find-traction"
+      },
+      {
+        "t": "Newsquawk",
+        "u": "https://www.newsquawk.com/headlines/market-analysis-european-bourses-start-the-week-on-a-strong-footing-cac-40-outperforms-as-france-escapes-a-moodys-downgrade"
+      },
+      {
+        "t": "Kiplinger",
+        "u": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-october-2026"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Día de ==ganadores tecnológicos y perdedores emergentes==. La mediana de renta variable subió un 0,50 % (685 fondos), la de mixtos un 0,18 % y la de renta fija quedó plana (−0,01 %). Arriba dominan ciberseguridad, tecnología y defensa: ==el folleto de Anthropic reanimó a todo el ecosistema de IA== y los fondos con mucho software y chips de EE. UU. recuperaron lo perdido el 22–23. Abajo, casi todo son ==emergentes, en acciones y en deuda en moneda local==: Brasil cayó cerca de un 20 % medido en euros (bolsa −13,9 % y real −7,6 %), y Corea (−1,5 %) restó en los fondos cargados de memorias (SK Hynix, Samsung). Por qué caen más que el índice (ETF EEM −0,3 %): ==los fondos activos sobreponderan Brasil y Corea==, y algunos (value, ex-China) tienen más peso latinoamericano. El efecto divisa frente al dólar fue nulo (euro/dólar −0,04 %): en las clases en USD, r y rn casi coinciden.\n\nDatos raros: ==Allianz Best Styles US (−2,25 %) no cuadra con el S&P 500 (+0,70 %)== y Precious Metals de IronIA (−2,16 %) cae con el oro al alza; ambos apuntan a VL atrasado o a un reparto, no a mercado. Lo mismo, a la inversa, con Schroder Global Energy (+2,83 %) con el crudo a la baja.",
+    "suben": [
+      {
+        "isin": "LU0270904781",
+        "por_que": "Ciberseguridad e infraestructura digital, ==94,5 % en EE. UU. y 75 % software== (Broadcom, Cisco, Cloudflare, CrowdStrike, Palo Alto, Okta). Rebote del Nasdaq por el S-1 de Anthropic, que alivió el temor a que la IA «se coma» el software de seguridad; recupera lo perdido el 22–23. Clase en EUR sin cubrir, pero el dólar no se movió."
+      },
+      {
+        "isin": "LU1822851884",
+        "por_que": "Defensa y seguridad global (Rolls-Royce, ST Engineering, Leonardo, Saab, GE Aerospace, RTX, Indra). Sin noticia concreta: ==subida de la bolsa europea e italiana (Leonardo, FTSE MIB +1,29 %)== y la tensión con Irán sostiene la demanda de defensa."
+      },
+      {
+        "isin": "LU1861216510",
+        "por_que": "Tecnología «de nueva generación» muy ligada al hardware de IA (Lumentum, Nvidia, Micron, SanDisk, AMD). ==Nvidia +2,4 % tras el folleto de Anthropic==, que confirma un gasto en IA creciente. Clase cubierta a euros: sin efecto divisa."
+      },
+      {
+        "isin": "LU2286300988",
+        "por_que": "El más puro en ciberseguridad (==CrowdStrike 8,9 %, Palo Alto 7,4 %, Cloudflare 7,3 %==, Rubrik, Fortinet). Mismo motor que Pictet Security: rebote del software de EE. UU. con la confianza en la IA; no hemos encontrado noticia propia del sector."
+      },
+      {
+        "isin": "LU0374901568",
+        "por_que": "==Dato llamativo==: petroleras (Shell, Exxon, Galp, Chevron, Enbridge) en un día de Brent −0,78 % y Galp con negocio en Brasil. Solo el gas europeo (+3 %) apoyaba. No encontramos causa; posible desfase del VL (recogería la subida del crudo de días anteriores)."
+      },
+      {
+        "isin": "LU1980276692",
+        "por_que": "Fondo de DWS de materiales industriales (sin cartera en el panel). Encaja con el tono positivo de Europa y metales firmes (cobre +0,49 %, plata +0,74 %); sin noticia concreta. Solo en IronIA."
+      },
+      {
+        "isin": "LU0159052710",
+        "por_que": "Tecnología de EE. UU. muy diversificada: Nvidia (+2,4 %), CrowdStrike, Palo Alto, Broadcom y ==Tesla (+5,2 %) por la mejora de Barclays==. Meta (4,2 %, −1,9 %) restó. Clase en EUR sin cubrir: efecto divisa nulo."
+      },
+      {
+        "isin": "LU0210532015",
+        "por_que": "Tecnología europea: ==ASML, Infineon, Nokia, SAP==, semiconductores sobre todo. Se contagió del rebote tecnológico de EE. UU. y del buen día europeo (DAX +0,91 %); Nebius (3,9 %) restó por las dudas sobre el crédito para la IA."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU0228659784",
+        "por_que": "==Brasil, India y China==: en su cartera hay bancos brasileños (Itaú). Con el Bovespa −13,9 % y el real −7,6 %, la parte brasileña cayó cerca de un 20 % en euros. Clase en USD: r (−3,58 %) y rn (−3,62 %) casi iguales porque el euro/dólar no se movió. Disponible en Bankinter y ABANCA."
+      },
+      {
+        "isin": "LU0474580726",
+        "por_que": "Emergentes con estilo «value» (sin cartera en el panel): estos fondos suelen ==sobreponderar Brasil== (bancos, Petrobras, materias primas), justo lo que más cayó. Solo en IronIA."
+      },
+      {
+        "isin": "LU0823385272",
+        "por_que": "Deuda emergente en moneda local: ==Brasil pesa mucho en estos índices== y se juntaron el desplome del real (−7,6 %) y la venta de bonos largos brasileños (el Tesoro canceló subastas). Probable contagio a otras divisas latinoamericanas."
+      },
+      {
+        "isin": "LU1321847805",
+        "por_que": "Emergentes con mucho peso en ==chips de Corea y Taiwán (TSMC 10,9 %, SK Hynix 7,5 %, Samsung 4,4 %)== en un día flojo para Asia (Kospi −1,46 %), más Lojas Renner (3,5 %), comercio brasileño, el sector más castigado."
+      },
+      {
+        "isin": "LU2719174067",
+        "por_que": "Emergentes sin China: al quitar China ==pesan más Corea, Taiwán y Brasil==. TSMC, SK Hynix, Samsung y MediaTek sufrieron con los chips asiáticos. La cobertura a euros elimina el dólar, no el real ni el won."
+      },
+      {
+        "isin": "LU1206943596",
+        "por_que": "Emergentes muy concentrado en Corea: ==SK Hynix 9,3 %, Samsung 7,3 %, SK Square 5,2 %== (vía acciones y CFD), con el Kospi −1,46 %; a ello se suma la parte de Brasil."
+      },
+      {
+        "isin": "LU1882466649",
+        "por_que": "Emergentes global (sin cartera en el panel): el golpe de Brasil (≈ −20 % en euros) y Corea; algo peor que el índice (EEM −0,3 %) por posiciones activas. Solo en IronIA."
+      },
+      {
+        "isin": "IE00B3SRML86",
+        "por_que": "Emergentes, clase cubierta a euros (sin cartera en el panel): la cobertura neutraliza el dólar, pero ==no la caída del real==; mismo motor que el resto del grupo. Solo en IronIA."
+      }
+    ],
+    "por_clase": [
+      {
+        "clase": "Renta variable",
+        "texto": "Mediana +0,50 %: tecnología, ciberseguridad y Europa arriba; emergentes, Latinoamérica y Corea abajo."
+      },
+      {
+        "clase": "Renta fija",
+        "texto": "Mediana −0,01 %: plana salvo la ==deuda emergente en moneda local==, castigada por Brasil (BNP, Templeton, BGF Sustainable EM Bond)."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-27",
+      "evento": "Elecciones en Israel",
+      "por_que_importa": "El resultado puede influir en la política hacia Irán y, por tanto, en el crudo."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Decisión de la Reserva Federal (Fed), reunión del 27–28",
+      "por_que_importa": "Se espera que mantenga los tipos en 3,75–4 %; la clave es si confirma la subida de diciembre (79–83 % descontado)."
+    },
+    {
+      "fecha": "2026-10-28",
+      "evento": "Resultados de Microsoft y Alphabet",
+      "por_que_importa": "Su gasto en IA dirá si el rebote tecnológico del lunes tiene recorrido."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "Reunión del Banco Central Europeo (BCE)",
+      "por_que_importa": "Se espera que mantenga la facilidad de depósito; importa su tono sobre el crudo y Francia."
+    },
+    {
+      "fecha": "2026-10-29",
+      "evento": "PCE de septiembre y PIB del tercer trimestre en EE. UU.; resultados de Amazon",
+      "por_que_importa": "El PCE es la medida de inflación preferida de la Fed."
+    },
+    {
+      "fecha": "2026-11-03",
+      "evento": "Elecciones de mitad de mandato en EE. UU.",
+      "por_que_importa": "La prensa vincula esta fecha a la decisión sobre Irán, clave para el petróleo."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "S-1",
+      "def": "Folleto que una empresa presenta al regulador de EE. UU. (SEC) para salir a bolsa."
+    },
+    {
+      "sigla": "Circuit breaker",
+      "def": "Suspensión automática de la negociación cuando una bolsa cae más de un umbral en una sesión."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán; referencia de tipos sin riesgo en la zona euro."
+    },
+    {
+      "sigla": "PCE",
+      "def": "Deflactor del gasto en consumo personal, la medida de inflación preferida por la Fed."
+    },
+    {
+      "sigla": "PIB",
+      "def": "Producto interior bruto."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500, el «índice del miedo»."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis grandes divisas."
+    },
+    {
+      "sigla": "WTI",
+      "def": "West Texas Intermediate, petróleo de referencia en EE. UU."
+    },
+    {
+      "sigla": "GNL",
+      "def": "Gas natural licuado, transportado en barco."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: el precio de una participación del fondo."
+    },
+    {
+      "sigla": "CFD",
+      "def": "Contrato por diferencias: derivado que replica el precio de una acción sin comprarla."
+    }
+  ],
+  "generado": "2026-10-27T10:48"
+}
