@@ -1,0 +1,576 @@
+{
+ "periodo": "diario",
+ "clave": "2026-10-27",
+ "fase": "completo",
+ "titulo": "Los chips tiran de las bolsas y el crudo cede ante la diplomacia con Irán; HSBC lastra Londres",
+ "resumen": "Segundo día seguido de ==optimismo con la inteligencia artificial (IA)== tras el folleto de salida a bolsa de Anthropic. En Wall Street ==subieron sobre todo los semiconductores== (57 de 60 valores de una cesta de chips en positivo): Nasdaq 100 +1,29 %, Russell 2000 +1,16 % y S&P 500 +0,60 % (7.723), mientras el Dow Jones quedó plano (+0,03 %). El mecanismo es el mismo que el lunes: si la demanda de IA sigue creciendo, ganan quienes venden los chips y la memoria. Ayudaron resultados como los de UPS, que elevó su previsión de ingresos, y SoFi; Coca-Cola batió estimaciones pero cayó un poco por la demanda floja en Norteamérica. La volatilidad siguió bajando (VIX −4,7 %, 17,5) con la Reserva Federal (Fed) ya reunida: decide mañana.\n\nEn Asia, ==rebote fuerte de las tecnológicas de Corea y Japón==: Kospi +3,09 %, con una pausa automática de la negociación programada (sidecar) por la velocidad de la subida (Samsung +4,2 %, SK Hynix +5,2 %), apoyado además por un PIB (producto interior bruto) coreano del tercer trimestre mejor de lo esperado (+3,4 % anual); Nikkei +1,73 % (Advantest casi +9 %, SoftBank +5 %). ==China se quedó fuera==: Hang Seng −0,73 % y Shanghái −1,33 %, porque sus empresas no están en la cadena de suministro de la IA estadounidense (los controles a la exportación les vetan los chips más avanzados); ==sus semiconductores cayeron un 5,8 %== por la tarde (Cambricon, Hygon, NAURA), mientras los bancos subían.\n\nEuropa subió por la tecnología y el crudo más barato: Euro Stoxx 50 +0,79 %, DAX +0,71 %, FTSE MIB +0,90 %, CAC 40 +0,51 % e ==IBEX 35 +0,67 % (19.161, tercera sesión al alza)==, con Solaria (+9,6 %) y Ferrovial (+8,4 %) a la cabeza y Repsol (−3,3 %) a la cola por la caída del petróleo. Los semiconductores europeos se dispararon (Besi +11 %, porque Applied Materials elevará su participación a cerca del 20 %). La excepción fue Londres: ==el FTSE 100 cayó un 0,75 % por HSBC (−5 %)==, cuyos ingresos decepcionaron por el menor crecimiento de su negocio de gestión de patrimonios.\n\nEn materias primas, ==el Brent bajó un 1,7 % (113,9 $) por la diplomacia con Irán==: tras reunirse el lunes con Arabia Saudí, Turquía y Pakistán, el jefe de seguridad iraní habló con el líder supremo sobre las condiciones para acabar la guerra. El descenso fue limitado porque los hutíes dijeron haber atacado la refinería saudí de Ras Tanura. El cobre subió un 2,35 % y el oro un 0,86 % (4.073 $). ==El dólar se fortaleció (índice DXY +0,4 %)== y el euro cedió a 1,115 por la vuelta de la presión sobre la deuda francesa.",
+ "claves": [
+  "==Los chips mandan==: Nasdaq 100 +1,29 % y S&P 500 +0,60 % en el segundo día del efecto Anthropic; Dow plano.",
+  "==Kospi +3,09 % y Nikkei +1,73 %== por Samsung, SK Hynix y Advantest; China se queda fuera del rally de la IA.",
+  "Europa sube (Euro Stoxx 50 +0,79 %, IBEX 35 +0,67 %), pero ==HSBC (−5 %) hunde el FTSE 100 (−0,75 %)==.",
+  "==El crudo cede por la diplomacia con Irán== (Brent −1,7 %, WTI −1,5 %), frenado por el ataque hutí a Ras Tanura.",
+  "==Vuelve la presión sobre Francia==: su diferencial con Alemania se amplía unos 9 pb y el euro es la divisa más débil.",
+  "Calma antes de la Fed: la TIR a 10 años de EE. UU. no se mueve (4,99 %) y la volatilidad baja (VIX 17,5)."
+ ],
+ "suben": [
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "+1,29 %",
+   "por_que": "==Rebote de los semiconductores== por segundo día: el folleto de Anthropic confirma que la demanda de IA crece, lo que favorece a fabricantes de chips y memoria. Oracle dijo que comprará chips de Google, Cerebras y SambaNova para depender menos de Nvidia.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html"
+    },
+    {
+     "t": "TheStreet",
+     "u": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-27-2026"
+    }
+   ]
+  },
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "+3,09 %",
+   "por_que": "==Samsung (+4,2 %) y SK Hynix (+5,2 %)==, grandes proveedores de memoria para IA, rebotan tras caer el índice un 18 % en un mes; ayuda un PIB del tercer trimestre mejor de lo esperado (+3,4 %). Saltó el sidecar por la velocidad de la subida.",
+   "fuentes": [
+    {
+     "t": "Fortune",
+     "u": "https://fortune.com/2026/10/27/anthropic-ipo-filing-lifts-asia-stocks-except-for-china/"
+    },
+    {
+     "t": "AP",
+     "u": "https://www.nwahomepage.com/news/business-news/ap-asian-stocks-advance-following-a-rally-on-wall-street-and-oil-prices-fall/"
+    },
+    {
+     "t": "TradingKey",
+     "u": "https://www.tradingkey.com/analysis/stocks/more/262240797-japan-korea-stocks-skhy-kospi-nikkei-samsung-kioxia-ai-softbank-anthropic-ipo-tradingkey"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "+1,73 %",
+   "por_que": "Fabricantes de equipos para chips e inversores en IA: ==Advantest casi +9 %, SoftBank +5 %==.",
+   "fuentes": [
+    {
+     "t": "Fortune",
+     "u": "https://fortune.com/2026/10/27/anthropic-ipo-filing-lifts-asia-stocks-except-for-china/"
+    },
+    {
+     "t": "AP",
+     "u": "https://www.nwahomepage.com/news/business-news/ap-asian-stocks-advance-following-a-rally-on-wall-street-and-oil-prices-fall/"
+    }
+   ]
+  },
+  {
+   "activo": "Russell 2000 (pequeñas EE. UU.)",
+   "cambio": "+1,16 %",
+   "por_que": "Las pequeñas empresas suben con el apetito por riesgo y resultados como el de SoFi (+13 %), que mejoró previsiones; el VIX en 17,5 refleja menos miedo.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html"
+    },
+    {
+     "t": "TheStreet",
+     "u": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-27-2026"
+    }
+   ]
+  },
+  {
+   "activo": "FTSE MIB (Italia)",
+   "cambio": "+0,90 %",
+   "por_que": "Lidera Europa con el tirón tecnológico y los mineros (+2 % por el cobre); el crudo más barato reduce el temor a más inflación.",
+   "fuentes": [
+    {
+     "t": "Reuters (vía AOL)",
+     "u": "https://www.aol.com/articles/europe-shares-fall-hsbc-weighs-081227000.html"
+    },
+    {
+     "t": "MarketScreener",
+     "u": "https://www.marketscreener.com/news/european-equities-mostly-higher-in-tuesday-trading-hsbc-shares-fall-after-q3-results-below-expectat-ce785cdddf8cf624"
+    }
+   ]
+  },
+  {
+   "activo": "Euro Stoxx 50 / IBEX 35",
+   "cambio": "+0,79 % / +0,67 %",
+   "por_que": "El sector tecnológico europeo sube cerca de un 2 % (Besi +11 %). ==En España, Solaria +9,6 % y Ferrovial +8,4 %==, con Repsol (−3,3 %) lastrado por el crudo; no hemos encontrado una noticia concreta para las subidas de Solaria y Ferrovial.",
+   "fuentes": [
+    {
+     "t": "Reuters (vía AOL)",
+     "u": "https://www.aol.com/articles/europe-shares-fall-hsbc-weighs-081227000.html"
+    },
+    {
+     "t": "Estrategias de Inversión",
+     "u": "https://www.estrategiasdeinversion.com/actualidad/noticias/bolsa-espana/el-ibex-35-despega-en-su-tercera-sesion-al-alza-n-963895"
+    },
+    {
+     "t": "Capital",
+     "u": "https://capital.es/economia/mercados-e-inversion/el-ibex-35-sube-un-067-y-cierra-en-los-19-1606-puntos/230277/"
+    }
+   ]
+  },
+  {
+   "activo": "Cobre",
+   "cambio": "+2,35 %",
+   "por_que": "El optimismo con la IA (centros de datos, redes eléctricas) y el tono comprador en los metales básicos; las mineras europeas subieron más de un 2 %.",
+   "fuentes": [
+    {
+     "t": "Reuters (vía AOL)",
+     "u": "https://www.aol.com/articles/europe-shares-fall-hsbc-weighs-081227000.html"
+    }
+   ]
+  },
+  {
+   "activo": "Uranio (ETF URA)",
+   "cambio": "+4,37 %",
+   "por_que": "Acompaña al rally de la IA: la energía nuclear se ve como fuente para los centros de datos. Sin noticia concreta del día."
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "−1,7 % (113,9 $, prensa)",
+   "por_que": "==Diplomacia para acabar la guerra con Irán==: Teherán discute condiciones tras reunirse con Arabia Saudí, Turquía y Pakistán. Freno: los hutíes dicen haber atacado Ras Tanura. Ojo: nuestra serie marca −5,2 % (109,7 $) porque ==ya cotiza el contrato de enero==, más barato que el de diciembre.",
+   "fuentes": [
+    {
+     "t": "Reuters (vía Investing.com)",
+     "u": "https://www.investing.com/news/commodities-news/oil-eases-on-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-4974185"
+    },
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo WTI",
+   "cambio": "−1,53 % (100,2 $)",
+   "por_que": "Mismo motivo que el Brent; segunda sesión seguida a la baja. Rebaja la inflación esperada justo antes de la Fed.",
+   "fuentes": [
+    {
+     "t": "Reuters (vía Investing.com)",
+     "u": "https://www.investing.com/news/commodities-news/oil-eases-on-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-4974185"
+    },
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html"
+    }
+   ]
+  },
+  {
+   "activo": "FTSE 100 (Reino Unido)",
+   "cambio": "−0,75 %",
+   "por_que": "==HSBC cae más de un 5 %==, a mínimos de cuatro meses, porque sus ingresos no alcanzaron las previsiones (gestión de patrimonios más lenta). Pesa mucho en el índice. Mañana se presentan los presupuestos británicos.",
+   "fuentes": [
+    {
+     "t": "Reuters (vía AOL)",
+     "u": "https://www.aol.com/articles/europe-shares-fall-hsbc-weighs-081227000.html"
+    },
+    {
+     "t": "MarketScreener",
+     "u": "https://www.marketscreener.com/news/european-equities-mostly-higher-in-tuesday-trading-hsbc-shares-fall-after-q3-results-below-expectat-ce785cdddf8cf624"
+    }
+   ]
+  },
+  {
+   "activo": "Hang Seng / Shanghái",
+   "cambio": "−0,73 % / −1,33 %",
+   "por_que": "==China queda fuera del rally de la IA==: sus empresas no forman parte de la cadena de suministro estadounidense y no pueden comprar los chips más avanzados. Shanghái pasó de −0,1 % a mediodía a −1,33 % al cierre por la ==venta de semiconductores (índice CSI −5,8 %)==: Cambricon −5,7 %, Hygon y NAURA −5,5 %. Los bancos (+1,3 %) amortiguaron; los beneficios industriales (+15,5 % en nueve meses) no sirvieron de apoyo.",
+   "fuentes": [
+    {
+     "t": "Fortune",
+     "u": "https://fortune.com/2026/10/27/anthropic-ipo-filing-lifts-asia-stocks-except-for-china/"
+    },
+    {
+     "t": "Trading Economics",
+     "u": "https://tradingeconomics.com/china/stock-market"
+    },
+    {
+     "t": "Ad-hoc News (Reuters)",
+     "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/shanghai-composite-ends-1-3-percent-lower-as-tech-selling-deepens/70420398"
+    }
+   ]
+  },
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "−0,51 %",
+   "por_que": "Sin rebote tras el desplome del 13,9 % del lunes por la reelección de Lula: persiste el miedo a más gasto y déficit. ==El real sí recuperó terreno (dólar −1 %, a 5,35 reales)==, así que en euros la bolsa brasileña subió algo el martes.",
+   "fuentes": [
+    {
+     "t": "InfoMoney",
+     "u": "https://infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026"
+    },
+    {
+     "t": "El Día",
+     "u": "http://www.eldia.com/el-mundo/brasil-el-real-recupero-terreno-pero-la-bolsa-cayo-el-mundo_1793158377"
+    }
+   ]
+  },
+  {
+   "activo": "Euro / dólar",
+   "cambio": "−0,34 % (1,115)",
+   "por_que": "==El euro fue la divisa más débil== porque vuelve la presión sobre la deuda francesa; el dólar se fortalece ante la Fed (DXY +0,4 %).",
+   "fuentes": [
+    {
+     "t": "ActionForex",
+     "u": "https://www.actionforex.com/action-insight/market-overview/658904-euro-weakest-as-french-bond-spreads-widen-again-australian-cpi-and-uk-budget-next/"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "−2,07 % (94,7 €/MWh)",
+   "por_que": "Sigue al petróleo a la baja por la esperanza de reapertura de Ormuz, por donde pasa el gas natural licuado (GNL) de Catar."
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "IA: el efecto Anthropic, segundo día",
+   "texto": "El folleto de salida a bolsa de Anthropic sigue alimentando la idea de que ==la demanda de IA no se agota==. Esta vez el beneficio se concentró en ==chips y memoria== (Samsung, SK Hynix, Advantest, Besi, la cesta de semiconductores de EE. UU.), no en las grandes plataformas. China quedó al margen por los controles a la exportación. Mañana publican Microsoft y Alphabet, que dirán si el gasto en IA sigue creciendo.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html"
+    },
+    {
+     "t": "Fortune",
+     "u": "https://fortune.com/2026/10/27/anthropic-ipo-filing-lifts-asia-stocks-except-for-china/"
+    },
+    {
+     "t": "Reuters (vía AOL)",
+     "u": "https://www.aol.com/articles/europe-shares-fall-hsbc-weighs-081227000.html"
+    }
+   ]
+  },
+  {
+   "tema": "Irán y el petróleo",
+   "texto": "Segunda sesión de bajada del crudo por los ==contactos diplomáticos para acabar la guerra==: el jefe de seguridad iraní habló con el líder supremo sobre las condiciones, un día después de recibir a Arabia Saudí, Turquía y Pakistán. Pero el riesgo sigue: ==los hutíes dicen haber atacado Ras Tanura== y, según UBS, en Ormuz pasan más barcos pero también hay más ataques. Un crudo más barato rebaja la inflación esperada, algo clave para los bancos centrales esta semana.",
+   "fuentes": [
+    {
+     "t": "Reuters (vía Investing.com)",
+     "u": "https://www.investing.com/news/commodities-news/oil-eases-on-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-4974185"
+    },
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html"
+    }
+   ]
+  },
+  {
+   "tema": "Semana de bancos centrales",
+   "texto": "La Fed empezó hoy su reunión; ==el mercado da un 90 % de probabilidad a que mantenga los tipos== (3,75–4 %) y busca pistas sobre una subida en diciembre. El BCE (jueves) y el Banco de Japón (viernes) también deciden. El Banco de Inglaterra (BoE) no se reúne hasta el 5 de noviembre, pero el mercado ya da un 94 % de probabilidad a una subida. Esta espera explica la calma de los bonos y la bajada de la volatilidad.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html"
+    },
+    {
+     "t": "ActionForex",
+     "u": "https://www.actionforex.com/action-insight/market-overview/658904-euro-weakest-as-french-bond-spreads-widen-again-australian-cpi-and-uk-budget-next/"
+    }
+   ]
+  },
+  {
+   "tema": "Francia",
+   "texto": "El alivio del lunes por Moody's (mantuvo la nota Aa3 con perspectiva negativa) ==se dio parcialmente la vuelta==: el diferencial con Alemania volvió a ampliarse porque siguen sin acordarse los presupuestos de 2027. Además, la confianza del consumidor francés cayó a su nivel más bajo desde 2013. Este riesgo, propio de Francia, pesa sobre el euro.",
+   "fuentes": [
+    {
+     "t": "ActionForex",
+     "u": "https://www.actionforex.com/action-insight/market-overview/658904-euro-weakest-as-french-bond-spreads-widen-again-australian-cpi-and-uk-budget-next/"
+    },
+    {
+     "t": "Reuters (vía AOL)",
+     "u": "https://www.aol.com/articles/europe-shares-fall-hsbc-weighs-081227000.html"
+    }
+   ]
+  },
+  {
+   "tema": "Resultados empresariales",
+   "texto": "==HSBC decepcionó== y lastró Londres; en cambio, UPS y Novartis elevaron previsiones y SoFi se disparó. Coca-Cola batió estimaciones, pero sus acciones cayeron un poco por la demanda floja en Norteamérica.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-tech-sector-160557664.html"
+    },
+    {
+     "t": "Reuters (vía AOL)",
+     "u": "https://www.aol.com/articles/europe-shares-fall-hsbc-weighs-081227000.html"
+    },
+    {
+     "t": "MarketScreener",
+     "u": "https://www.marketscreener.com/news/european-equities-mostly-higher-in-tuesday-trading-hsbc-shares-fall-after-q3-results-below-expectat-ce785cdddf8cf624"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. ==los bonos se quedaron quietos a la espera de la Reserva Federal (Fed)==: la TIR (tasa interna de rentabilidad) a 10 años subió menos de 1 pb (4,99 %), la de 5 años +2 pb (4,84 %) y la de 30 años quedó en 5,30 %. La de 2 años rondó el 4,73 % según prensa (el dato oficial de la Fed del día aún no está publicado). Dos fuerzas se compensaron: ==el crudo más barato rebaja la inflación esperada== y empuja las TIR a la baja, mientras la bolsa al alza resta demanda de bonos como refugio. Para mañana, el mercado da ==un 90 % de probabilidad a que la Fed mantenga los tipos==; lo que mueve el tramo corto es si confirma la subida de diciembre.\n\nEn la zona euro, ==el Bund alemán a 10 años bajó unos 3 pb (≈ 3,34 %)== por el crudo más barato y porque los inversores buscan refugio en Alemania ante la deuda francesa. ==La TIR francesa a 10 años subió unos 5 pb (≈ 4,96 %)== y su diferencial con Alemania pasó de ~153 a ~162 pb: el alivio por Moody's se diluye porque sigue sin haber acuerdo sobre los presupuestos de 2027. Las TIR de España también bajaron, así que el castigo fue solo para Francia. El BCE (Banco Central Europeo) aún no publica su curva AAA de hoy (la del lunes: 3,37 % a 10 años y 3,03 % a 2 años). El mercado espera que el jueves mantenga la facilidad de depósito en el 2,50 %, con una subida en diciembre muy descontada.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "≈ 4,73 % (prensa; dato oficial pendiente)",
+    "por_que": "Atento a si la Fed apunta a subir en diciembre; para mañana se descuenta que mantenga los tipos (≈ 90 %).",
+    "fuentes": [
+     {
+      "t": "Kiplinger",
+      "u": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-october-2026"
+     },
+     {
+      "t": "CNBC",
+      "u": "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "+0,7 pb (4,99 %)",
+    "por_que": "El crudo más barato (menos inflación esperada) compensa la menor demanda de refugio con la bolsa al alza.",
+    "fuentes": [
+     {
+      "t": "CNBC",
+      "u": "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html"
+     },
+     {
+      "t": "Kiplinger",
+      "u": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-october-2026"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "+0,4 pb (5,30 %)",
+    "por_que": "Sin cambios: la prima por plazo sigue alta, pero nadie toma posiciones antes de la Fed.",
+    "fuentes": [
+     {
+      "t": "Kiplinger",
+      "u": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-october-2026"
+     }
+    ]
+   },
+   {
+    "bono": "Alemania 10 años (Bund)",
+    "cambio": "≈ −3 pb (3,34 %, prensa)",
+    "por_que": "Menos inflación esperada por el petróleo y refugio frente a la deuda francesa. La curva AAA del BCE de hoy aún no está publicada.",
+    "fuentes": [
+     {
+      "t": "ActionForex",
+      "u": "https://www.actionforex.com/action-insight/market-overview/658904-euro-weakest-as-french-bond-spreads-widen-again-australian-cpi-and-uk-budget-next/"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Francia–Alemania",
+    "cambio": "≈ +9 pb (~162 pb)",
+    "por_que": "Se diluye el alivio por Moody's: siguen sin acordarse los presupuestos de 2027 y la confianza del consumidor está en mínimos desde 2013.",
+    "fuentes": [
+     {
+      "t": "ActionForex",
+      "u": "https://www.actionforex.com/action-insight/market-overview/658904-euro-weakest-as-french-bond-spreads-widen-again-australian-cpi-and-uk-budget-next/"
+     },
+     {
+      "t": "Reuters (vía AOL)",
+      "u": "https://www.aol.com/articles/europe-shares-fall-hsbc-weighs-081227000.html"
+     }
+    ]
+   },
+   {
+    "bono": "España",
+    "cambio": "TIR a la baja",
+    "por_que": "Siguen al Bund; el castigo se limita a Francia.",
+    "fuentes": [
+     {
+      "t": "ActionForex",
+      "u": "https://www.actionforex.com/action-insight/market-overview/658904-euro-weakest-as-french-bond-spreads-widen-again-australian-cpi-and-uk-budget-next/"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "CNBC",
+    "u": "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html"
+   },
+   {
+    "t": "Kiplinger",
+    "u": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-october-2026"
+   },
+   {
+    "t": "ActionForex",
+    "u": "https://www.actionforex.com/action-insight/market-overview/658904-euro-weakest-as-french-bond-spreads-widen-again-australian-cpi-and-uk-budget-next/"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "Día de ==tecnología arriba y China abajo==. La mediana de renta variable subió un 0,64 % (639 fondos), la de mixtos un 0,33 % y la de renta fija un 0,13 %. Arriba repiten los fondos de ==IA, chips y ciberseguridad== (segundo día del efecto Anthropic) y se suman biotecnología y Oriente Medio. Abajo casi todo es ==China continental (acciones A)==, que se dio la vuelta por la tarde con la caída de sus semiconductores (−5,8 %), y algunos emergentes y fondos de dividendo/«value», que no tienen tecnología y sí bancos o materias primas. El ==efecto divisa favoreció a las clases en dólares==: el euro cedió un 0,34 %, por eso en ellas r supera a rn en unos 0,3–0,35 puntos.\n\nDatos raros: ==Allianz US Equity (+2,36 %) y Allianz Best Styles US (+2,26 %) recuperan la caída del lunes== (−1,96 % y −2,25 %) que no cuadraba con el S&P 500 (+0,70 %); en dos días suben menos de lo que hizo el índice en euros (~+1,7 %), lo que apunta a un VL del lunes mal ajustado más que a mercado. Nordea Latin America (+4,25 %) rebota más de lo que explican el real (+1 %) y Chile; probable ajuste de precios tras el desplome del lunes (−15,55 %).",
+  "suben": [
+   {
+    "isin": "LU0309468808",
+    "por_que": "Bolsa latinoamericana (Brasil, México, Chile). ==Rebote técnico tras caer un 15,55 % el lunes== por la reelección de Lula. El Bovespa cedió otro 0,51 %, pero ==el real subió un 1 % frente al dólar== (y más frente al euro) y Chile rebotó. Aun así, +4,25 % es más de lo que explican esos datos: probable ajuste de valoración del lunes. Solo en IronIA."
+   },
+   {
+    "isin": "LU2286300988",
+    "por_que": "El más puro en ciberseguridad (==CrowdStrike 8,9 %, Palo Alto 7,4 %, Cloudflare 7,3 %==, Rubrik, Fortinet; 94,5 % EE. UU., 98,6 % tecnología). Segundo día seguido arriba (+2,84 % el lunes) por el efecto Anthropic, que aleja el temor a que la IA sustituya al software de seguridad. Clase en EUR sin cubrir: la caída del euro sumó unas décimas."
+   },
+   {
+    "isin": "LU1861559471",
+    "por_que": "Estrategia de innovación disruptiva de ARK (suele llevar Tesla, Coinbase, Roku o genómica): ==acciones de crecimiento muy sensibles al apetito por riesgo==, que subió con el Nasdaq 100 (+1,29 %), el Russell 2000 (+1,16 %) y el VIX en 17,5. Sin cartera en el panel. Solo en IronIA."
+   },
+   {
+    "isin": "LU1065170372",
+    "por_que": "Bolsas de Oriente Medio y Norte de África (Arabia Saudí, Emiratos, Catar…). Sin cartera en el panel ni crónica del día: encaja con ==la diplomacia para acabar la guerra con Irán==, que reduce el riesgo para la región aunque baje el crudo. Recupera la caída de la semana anterior. Solo en IronIA."
+   },
+   {
+    "isin": "LU2484078832",
+    "por_que": "Cadena de la IA: ==Nvidia 8,8 %, TSMC 8,3 %, SK Hynix 5,8 %, Micron, Lam Research, SanDisk==. Fue el día de chips y memoria (SK Hynix +5,2 % en Seúl, cesta de semiconductores de EE. UU. con 57 de 60 valores al alza). 71 % EE. UU. y 16,7 % Asia desarrollada."
+   },
+   {
+    "isin": "LU0255977455",
+    "por_que": "Biotecnología de EE. UU. (91 %): Vertex, Insmed, Revolution Medicines, argenx, Biogen. Sin noticia concreta del sector: ==se apunta al tono comprador en pequeñas y medianas== (Russell 2000 +1,16 %) y a unas TIR estables antes de la Fed, clave para empresas que valen por sus beneficios futuros. Recupera la caída del 23."
+   },
+   {
+    "isin": "LU1548497772",
+    "por_que": "IA global cubierta a euros: ==Nvidia 7,6 %, TSMC, Broadcom, Lam Research, Micron== (59 % tecnología). Se beneficia del rally de chips; además ==recupera la caída del lunes (−1,72 %)==, rara en un día de Nasdaq al alza, que apunta a desfase de VL. Cubierta: sin efecto divisa."
+   },
+   {
+    "isin": "LU1992126992",
+    "por_que": "Gran empresa de EE. UU. (Nvidia, Microsoft, Apple, Alphabet, Amazon). ==Dato raro==: +2,36 % frente a un S&P 500 de +0,60 % (≈ +0,95 % en euros). Corrige el −1,96 % del lunes, que tampoco cuadraba con el mercado; en conjunto, los dos días son coherentes con un VL del lunes mal ajustado."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU2305833589",
+    "por_que": "Salud china (farmacéuticas, biotecnológicas y hospitales cotizados en Hong Kong y Shanghái). ==Cayó con la bolsa china por la tarde== (Shanghái −1,33 %, Hang Seng −0,73 %); sin noticia propia del sector encontrada, probable recogida de beneficios tras subir el 23 y el 26. Cubierta a euros. Solo en IronIA."
+   },
+   {
+    "isin": "LU1846739917",
+    "por_que": "Emergentes de pequeña y mediana capitalización (sin cartera en el panel). ==Cae justo el día después del desplome brasileño==, cuando el lunes subió un 0,26 %: lo más probable es que su VL recoja con un día de retraso la parte en Brasil, más China. Solo en IronIA."
+   },
+   {
+    "isin": "LU0946220778",
+    "por_que": "Valor global (sin cartera en el panel). ==Cae −2,24 % en un día alcista==: los fondos «value» suelen estar infraponderados en tecnología, que fue la que tiró, y sobreponderados en bancos (HSBC −5 %), energía (Repsol −3,3 %, crudo a la baja) y emergentes. Movimiento grande para esa explicación: posible desfase del VL. Solo en IronIA."
+   },
+   {
+    "isin": "LU1735752898",
+    "por_que": "Acciones A de China cubiertas a euros. ==Shanghái −1,33 % y semiconductores chinos −5,8 %== (Cambricon, Hygon, NAURA): China no participa en la cadena de la IA de EE. UU. y los inversores rotan hacia los chips de Corea y Japón. Solo en IronIA."
+   },
+   {
+    "isin": "LU2191242283",
+    "por_que": "Acciones A de China en euros. Mismo motivo: ==venta de tecnología china por la tarde==, con los bancos al alza amortiguando. Devuelve parte de la subida del 23 (+2,57 %). Solo en IronIA."
+   },
+   {
+    "isin": "LU1580142542",
+    "por_que": "Acciones A de China, enfoque cuantitativo (Zhongji Innolight, CATL, Ping An, bancos). Tiene ==óptica (Innolight, Eoptolink) y baterías, castigadas== con la tecnología china. Clase en USD: en dólares cayó un 1,99 % (rn); ==el euro más débil lo deja en −1,66 % (r)==."
+   },
+   {
+    "isin": "LU2040203379",
+    "por_que": "Deuda emergente en moneda local. ==Cae −1,60 % con el real al alza==, así que no es Brasil: lo más probable es un VL que recoge con retraso el lunes (subió el 26) o el contagio a otras divisas latinoamericanas y asiáticas (yuan más débil). Movimiento grande para un fondo de bonos. Solo en IronIA."
+   },
+   {
+    "isin": "LU1848873714",
+    "por_que": "Acciones A de China sostenibles: ==CATL 6,9 %, Innolight 5 %, NAURA 4,8 % (−5,5 %), Cambricon 2,9 % (−5,7 %)==. Muy cargado en la tecnología china que cayó por la tarde; tercer día de caídas tras el −1,29 % del lunes. Cubierto a euros."
+   }
+  ]
+ },
+ "agenda": [
+  {
+   "fecha": "2026-10-28",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "Se espera que mantenga los tipos en el 3,75–4 %; la clave es si confirma una subida en diciembre."
+  },
+  {
+   "fecha": "2026-10-28",
+   "evento": "Resultados de Microsoft y Alphabet",
+   "por_que_importa": "Su gasto en IA confirmará, o no, el rebote de los chips."
+  },
+  {
+   "fecha": "2026-10-28",
+   "evento": "Presupuestos del Reino Unido; inflación (IPC) del tercer trimestre en Australia",
+   "por_que_importa": "La credibilidad fiscal británica mueve los gilts (bonos británicos) y la libra; el IPC australiano decide si el banco central sube los tipos el 3 de noviembre."
+  },
+  {
+   "fecha": "2026-10-29",
+   "evento": "Reunión del Banco Central Europeo (BCE)",
+   "por_que_importa": "Se espera que mantenga la facilidad de depósito en el 2,50 %; importa lo que diga Lagarde sobre la inflación (3,8 %) y Francia."
+  },
+  {
+   "fecha": "2026-10-29",
+   "evento": "PIB del tercer trimestre y PCE de septiembre en EE. UU.; resultados de Amazon",
+   "por_que_importa": "El PCE es la medida de inflación preferida de la Fed; puede reforzar o rebajar la subida de diciembre."
+  },
+  {
+   "fecha": "2026-10-30",
+   "evento": "Banco de Japón (BoJ)",
+   "por_que_importa": "Una subida de tipos fortalecería el yen y podría frenar al Nikkei."
+  },
+  {
+   "fecha": "2026-11-03",
+   "evento": "Elecciones de mitad de mandato en EE. UU.",
+   "por_que_importa": "La prensa vincula esta fecha a la decisión sobre Irán, clave para el petróleo."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "BoJ",
+   "def": "Banco de Japón."
+  },
+  {
+   "sigla": "BoE",
+   "def": "Banco de Inglaterra."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+  },
+  {
+   "sigla": "PIB",
+   "def": "Producto interior bruto: el valor de todo lo que produce un país."
+  },
+  {
+   "sigla": "PCE",
+   "def": "Índice de precios del gasto en consumo personal, la medida de inflación preferida de la Fed."
+  },
+  {
+   "sigla": "IPC",
+   "def": "Índice de precios de consumo: la inflación que pagan los consumidores."
+  },
+  {
+   "sigla": "GNL",
+   "def": "Gas natural licuado, transportado en barcos metaneros."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad implícita del S&P 500; sube cuando hay miedo."
+  },
+  {
+   "sigla": "DXY",
+   "def": "Índice del dólar frente a una cesta de seis grandes divisas."
+  },
+  {
+   "sigla": "Sidecar",
+   "def": "Pausa temporal de la negociación programada que activa la bolsa coreana ante movimientos muy rápidos."
+  },
+  {
+   "sigla": "Diferencial (prima de riesgo)",
+   "def": "Diferencia entre la TIR de un bono y la del bono alemán al mismo plazo."
+  }
+ ],
+ "generado": "2026-10-28T10:30"
+}
