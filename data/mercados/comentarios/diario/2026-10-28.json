@@ -1,0 +1,413 @@
+{
+ "periodo": "diario",
+ "clave": "2026-10-28",
+ "fase": "mercado",
+ "titulo": "La Fed aguarda dividida y la memoria dispara el Kospi; Santander hunde al IBEX 35",
+ "resumen": "La Reserva Federal (Fed) ==mantuvo los tipos en el 3,75–4 %, pero con dos votos a favor de subirlos== (la gobernadora Lisa Cook y Beth Hammack, de la Fed de Cleveland). El comunicado describe el crecimiento como «fuerte» (antes «sólido») y la inflación como elevada, y su presidente, Kevin Warsh, no dio pistas sobre los próximos pasos. El mercado lo leyó como ==una subida aplazada, no descartada==: diciembre sigue siendo la fecha probable. Wall Street subió con moderación (S&P 500 +0,28 %, 7.744; Nasdaq 100 +0,55 %; Dow Jones +0,19 %; Russell 2000 +0,41 %): según prensa, es la primera vez desde diciembre de 2025 que el S&P 500 cierra al alza un día de decisión de la Fed. La volatilidad siguió bajando (VIX −3,5 %, 16,9). Tras el cierre, ==Microsoft subía entre un 2 % y un 4,7 % y Alphabet caía un 8–9 %==, lo que marcará la sesión de mañana.\n\nEn Asia, ==el Kospi coreano se disparó un 6,63 % (6.012)== y volvió a superar los 6.000 puntos con una pausa automática de las órdenes programadas (sidecar) por segundo día seguido. La causa fue ==SK hynix: beneficio récord, margen operativo cercano al 80 %== y un plan de retribución al accionista de unos 100 billones de wones (≈ 75.000 millones $); la acción subió un 11 % y Samsung un 9 %. El mecanismo: la escasez de memoria para servidores de inteligencia artificial (IA) dispara precios y márgenes, y ambas empresas pesan más de la mitad del índice. Contagió a Japón (Nikkei +1,27 %, con Kioxia casi +14 %), Taiwán (Taiex +2,04 %) y al ETF (fondo cotizado) de emergentes (+1,60 %). China subió poco (Shanghái +0,74 %, Hang Seng +0,18 %) y la India cayó (Sensex −0,95 %) sin noticia concreta.\n\nEuropa quedó plana a la espera de la Fed y del Banco Central Europeo (BCE), que decide mañana: Euro Stoxx 50 +0,05 %, DAX +0,44 %, FTSE MIB +0,40 %, CAC 40 sin cambios y FTSE 100 +0,07 % tras un presupuesto británico sin sorpresas. ==El IBEX 35 cayó un 1,45 % (18.883) por Santander (−5,59 %)==, que pesa más del 18 % del índice: su beneficio ordinario superó previsiones, pero ==Brasil decepcionó (beneficio −15 %, provisiones +23 %)== y los ingresos quedaron algo por debajo de lo esperado. También cayeron Acciona Energía (−6,27 %) y Acciona (−5,53 %), sin noticia concreta, y Mapfre (−3,92 %). Brasil siguió hundiéndose: ==Bovespa −2,68 % (171.006)== por la incertidumbre fiscal del nuevo mandato de Lula, con la banca a la cabeza de las caídas.\n\nEn materias primas, ==el petróleo subió por el riesgo de que EE. UU. vuelva a atacar a Irán== tras las elecciones de mitad de mandato y por otro misil hutí contra la refinería saudí de Ras Tanura: el WTI cerró +2,9 % (102,8 $) y el Brent del contrato de diciembre +1,3 % (115,3 $). Ojo: ==la serie del panel marca el Brent en −3,0 % (110,4 $) por el cambio de contrato== (pasa al de enero, más barato), no por una caída real. El gas también subió (TTF europeo +4,0 %, Henry Hub estadounidense +12,3 %). El oro apenas se movió (+0,16 %, 4.081 $), el cobre subió un 0,91 % y el bitcoin un 0,58 % (81.270 $). El dólar cedió algo (índice DXY −0,18 %) y el euro cerró cerca de 1,113–1,115.",
+ "claves": [
+  "==La Fed mantiene tipos (3,75–4 %) con dos votos por subir==; Warsh no da pistas y diciembre sigue en el aire.",
+  "==La curva de EE. UU. se empina==: la TIR a 2 años baja ~4 pb y la de 10 años sube 5 pb (5,05 %).",
+  "==SK hynix dispara el Kospi un 6,63 %== con beneficio récord y 100 billones de wones para el accionista.",
+  "==Santander (−5,59 %) hunde al IBEX 35 (−1,45 %)== por Brasil; el resto de Europa, plana.",
+  "==Crudo al alza por el riesgo de nuevos ataques a Irán== (WTI +2,9 %); el −3 % del Brent en el panel es un cambio de contrato.",
+  "Tras el cierre: ==Microsoft sube y Alphabet cae un 8–9 %== por la búsqueda y el flujo de caja negativo."
+ ],
+ "suben": [
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "+6,63 %",
+   "por_que": "==Resultados récord de SK hynix== (margen operativo ~80 %) y un plan de retribución de ~100 billones de wones. SK hynix +11 % y Samsung +9 %; juntas son más de la mitad del índice. La escasez de memoria para IA sube precios y márgenes.",
+   "fuentes": [
+    {
+     "t": "The Herald Business",
+     "u": "https://biz.heraldcorp.com/article/10917957"
+    },
+    {
+     "t": "Korea JoongAng Daily",
+     "u": "https://www.koreajoongangdaily.com/business/kospi-surges-past-6000-as-sk-hynix-record-earnings-reignite-ai-rally/12943596"
+    }
+   ]
+  },
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "+2,04 %",
+   "por_que": "Contagio del rally de los chips coreanos: los resultados de SK hynix confirman la fuerza de la demanda de semiconductores para IA, y Taiwán está dominada por TSMC y su cadena de suministro.",
+   "fuentes": [
+    {
+     "t": "TradingKey",
+     "u": "https://www.tradingkey.com/analysis/stocks/more/262245586-japan-korea-stocks-skhy-kospi-nikkei-samsung-kioxia-ai-softbank-msft-google-tradingkey"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "+1,27 %",
+   "por_que": "Mismo driver: ==Kioxia (memoria) sube casi un 14 %== tras SK hynix, junto a otras tecnológicas ligadas a la IA.",
+   "fuentes": [
+    {
+     "t": "TradingKey",
+     "u": "https://www.tradingkey.com/analysis/stocks/more/262245586-japan-korea-stocks-skhy-kospi-nikkei-samsung-kioxia-ai-softbank-msft-google-tradingkey"
+    }
+   ]
+  },
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "+0,55 %",
+   "por_que": "Subida moderada: la Fed no endureció el tono más de lo esperado y la memoria tiró de los chips. Prudencia antes de las cuentas de Microsoft y Alphabet, publicadas tras el cierre.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-big-tech-earnings-130508769.html"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo WTI",
+   "cambio": "+2,9 % al cierre (102,8 $); +2,04 % en el panel",
+   "por_que": "==Informaciones de que EE. UU. prepara nuevos ataques contra Irán== tras las elecciones del 3 de noviembre, y otro misil hutí contra Ras Tanura. Además, el American Petroleum Institute (API) estimó que las reservas de EE. UU. bajaron unos 2 millones de barriles.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+    },
+    {
+     "t": "The National",
+     "u": "https://www.thenationalnews.com/business/energy/2026/10/28/oil-prices-up-due-to-houthi-strikes-and-us-threat-to-renew-iran-war/"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural EE. UU. (Henry Hub)",
+   "cambio": "+12,3 % (3,03 $)",
+   "por_que": "Fuerte rebote sin noticia concreta encontrada, tras caer desde 3,06 $ hasta 2,60 $ en una semana; parece una recompra de posiciones bajistas. El TTF europeo subió un 4,0 % (99,9 €/MWh) arrastrado por el crudo y la tensión en Oriente Medio."
+  },
+  {
+   "activo": "MSCI Emergentes (ETF EEM)",
+   "cambio": "+1,60 %",
+   "por_que": "El índice emergente pesa mucho en Corea y Taiwán, que fueron las estrellas del día gracias a los chips de memoria."
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "−2,68 % (171.006)",
+   "por_que": "==Incertidumbre fiscal del cuarto mandato de Lula==: aún no hay ministro de Hacienda y se habla de gravar productos de ahorro hoy exentos (LCI/LCA). La banca encabezó las caídas (Bradesco −6 %, BTG −6,5 %, Santander Brasil −5,9 %), y los tipos a largo plazo subieron. El real apenas se movió (dólar −0,2 %, 5,34 reales).",
+   "fuentes": [
+    {
+     "t": "Investing.com Brasil",
+     "u": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-bolsa-estende-queda-fed-mantem-juros-balancos-de-techs-2106917"
+    }
+   ]
+  },
+  {
+   "activo": "IBEX 35 (España)",
+   "cambio": "−1,45 % (18.883)",
+   "por_que": "==Santander (−5,59 %), por Brasil==: su beneficio allí cayó un 15 % con provisiones +23 %, y los ingresos fallaron ligeramente. Acciona Energía (−6,27 %) y Acciona (−5,53 %) cayeron sin noticia concreta; Mapfre −3,92 % y BBVA −1,06 %. Subieron Redeia (+1,53 %) y Telefónica (+0,61 %).",
+   "fuentes": [
+    {
+     "t": "Press Digital",
+     "u": "https://www.pressdigital.es/articulo/economia/2026-10-28/6069918-ibex-35-cede-145-pierde-18900-puntos-arrastrado-acciona-energia-santander"
+    },
+    {
+     "t": "XTB",
+     "u": "https://www.xtb.com/es/analisis-de-mercado/las-acciones-de-santander-se-desploman-un-4-despues-de-sus-resultados-del-tercer-trimestre-del-2026"
+    },
+    {
+     "t": "Bolsamanía",
+     "u": "https://www.bolsamania.com/noticias/resultados-anuncios/santander-gana-12405-millones-hasta-septiembre-20-mas-beneficio-trimestral-cae-2--23935912.html"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent (serie del panel)",
+   "cambio": "−3,0 % (110,4 $)",
+   "por_que": "==Caída aparente por el cambio de contrato==: el contrato de diciembre vence a final de mes y la serie pasa al de enero, que cotiza más barato. En realidad, el Brent de diciembre subió un 1,3 % (115,3 $) por Irán y los hutíes.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+    }
+   ]
+  },
+  {
+   "activo": "Sensex (India)",
+   "cambio": "−0,95 %",
+   "por_que": "Sin noticia concreta encontrada; quedó al margen del rally de los chips, en el que la India apenas participa."
+  },
+  {
+   "activo": "Trigo",
+   "cambio": "−1,76 %",
+   "por_que": "Sigue corrigiendo (desde 625 hasta 600 en cinco sesiones) sin noticia concreta encontrada."
+  },
+  {
+   "activo": "VIX (volatilidad del S&P 500)",
+   "cambio": "−3,5 % (16,9)",
+   "por_que": "Superada la Fed sin sorpresas, baja la demanda de coberturas; la volatilidad de los bonos (MOVE) también cedió un 3,4 %.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-big-tech-earnings-130508769.html"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Reserva Federal (Fed): pausa con división",
+   "texto": "Tipos en el 3,75–4 % con ==10 votos frente a 2 que pedían subir 25 pb==. El comunicado endurece la descripción del crecimiento («fuerte») y mantiene la inflación «elevada». Warsh no dio pistas y defendió que la política no influyó a seis días de las elecciones de mitad de mandato. Además, la Fed reducirá sus reuniones a siete en 2027 y seis en 2028. ==El mercado sigue dando por probable una subida en diciembre==.",
+   "fuentes": [
+    {
+     "t": "CNN",
+     "u": "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
+    },
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-interest-rates-held-steady-in-split-vote-warsh-says-politics-played-no-role-ahead-of-midterm-elections-191946928.html"
+    }
+   ]
+  },
+  {
+   "tema": "Memoria e inteligencia artificial (IA)",
+   "texto": "==SK hynix confirma que el ciclo de la memoria va a toda máquina==: los servidores de IA necesitan memoria de alto ancho de banda (HBM) y la escasez dispara márgenes. Corea, Japón y Taiwán lo celebraron. Tras el cierre, ==Microsoft batió previsiones (Azure +48 %) con menos inversión de la esperada==, mientras Alphabet decepcionó en búsqueda y tuvo flujo de caja libre negativo por su gasto en IA.",
+   "fuentes": [
+    {
+     "t": "The Herald Business",
+     "u": "https://biz.heraldcorp.com/article/10917957"
+    },
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-after-hours-googl-msft-cmg-now.html"
+    }
+   ]
+  },
+  {
+   "tema": "Brasil, otra vez",
+   "texto": "El castigo por la reelección de Lula ya no se queda en la bolsa brasileña: ==Santander cayó un 5,6 % por su negocio en Brasil== y arrastró al IBEX 35, el peor índice de Europa. En Brasil, la banca lideró las caídas por el miedo a nuevos impuestos sobre el ahorro y a un deterioro fiscal.",
+   "fuentes": [
+    {
+     "t": "XTB",
+     "u": "https://www.xtb.com/es/analisis-de-mercado/las-acciones-de-santander-se-desploman-un-4-despues-de-sus-resultados-del-tercer-trimestre-del-2026"
+    },
+    {
+     "t": "Investing.com Brasil",
+     "u": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-bolsa-estende-queda-fed-mantem-juros-balancos-de-techs-2106917"
+    }
+   ]
+  },
+  {
+   "tema": "Irán y el petróleo",
+   "texto": "Vuelve la prima geopolítica: según prensa, ==EE. UU. prepara reanudar los ataques a Irán tras el 3 de noviembre==, y los hutíes lanzaron otro misil contra Ras Tanura. UBS (Union Bank of Switzerland) espera el Brent cerca de 110 $ hasta fin de año. Para los bancos centrales, un crudo caro mantiene alta la inflación esperada.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+    },
+    {
+     "t": "The National",
+     "u": "https://www.thenationalnews.com/business/energy/2026/10/28/oil-prices-up-due-to-houthi-strikes-and-us-threat-to-renew-iran-war/"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. ==la curva se empinó tras la Fed==: según prensa, la TIR (tasa interna de rentabilidad) a 2 años bajó unos 4 pb (≈ 4,70 %; el dato oficial de la Fed del día aún no está publicado), mientras la de 5 años subió 3 pb (4,87 %), la de 10 años 5 pb (5,05 %) y la de 30 años 6 pb (5,36 %). El tramo corto, que sigue las expectativas de tipos oficiales, bajó porque ==Warsh no dio pistas y el mercado redujo algo la apuesta por una subida inminente==. El largo subió por tres motivos: ==el petróleo al alza eleva la inflación esperada==, la Fed calificó el crecimiento de «fuerte» y, con la bolsa al alza, se demandan menos bonos como refugio. El resultado es más prima por plazo: los inversores piden más por prestar a 10–30 años a un Estado con déficit alto y una inflación que no cede.\n\nEn la zona euro, el BCE aún no tiene la curva AAA del miércoles (último dato, del martes: 3,37 % a 10 años). Según prensa, ==el Bund alemán a 10 años subió ligeramente (≈ 3,38 %)== y el de 2 años rondó el 3,08 %, contagiado por el crudo y a la espera del BCE de mañana. ==Francia volvió a sufrir==: su bono a 10 años rozó el 4,97 % y el diferencial con Alemania se movió entre 156 y 162 pb, porque mantener la nota de Moody's no resolvió sus problemas fiscales y políticos. España aguantó: su bono a 10 años quedó en el 4,00 % y la prima de riesgo en ~64 pb. En el Reino Unido, el presupuesto ==no asustó: el gilt a 10 años bajó 2 pb (5,32 %)==.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "≈ −4 pb (≈ 4,70 %, prensa)",
+    "por_que": "Pausa sin pistas sobre los próximos pasos: baja algo la probabilidad de una subida inminente, aunque diciembre sigue siendo lo más probable.",
+    "fuentes": [
+     {
+      "t": "Yahoo Finance",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-big-tech-earnings-130508769.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "+5 pb (5,05 %)",
+    "por_que": "Crudo más caro (inflación esperada), crecimiento «fuerte» según la Fed, bolsa al alza y más prima por plazo; la curva se empina.",
+    "fuentes": [
+     {
+      "t": "Yahoo Finance",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-big-tech-earnings-130508769.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "+6 pb (5,36 %)",
+    "por_que": "Mismo mecanismo que el 10 años, más acusado en el tramo más largo, el más sensible a la inflación y al déficit."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "Sin dato del BCE; Bund ≈ +1 pb (≈ 3,38 %, prensa)",
+    "por_que": "El crudo al alza y la espera del BCE de mañana empujan ligeramente al alza las TIR alemanas.",
+    "fuentes": [
+     {
+      "t": "ADVFN",
+      "u": "https://uk.advfn.com/market-news/article/25228/eurozone-bond-yields-rise-as-french-debt-comes-under-pressure-ahead-of-fed-and-ecb-decisions"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Francia–Alemania",
+    "cambio": "≈ 156–162 pb (amplio)",
+    "por_que": "Moody's evitó la rebaja, pero persisten las dudas sobre el déficit y la política francesa; la deuda francesa vuelve a caer en precio.",
+    "fuentes": [
+     {
+      "t": "ADVFN",
+      "u": "https://uk.advfn.com/market-news/article/25228/eurozone-bond-yields-rise-as-french-debt-comes-under-pressure-ahead-of-fed-and-ecb-decisions"
+     }
+    ]
+   },
+   {
+    "bono": "España 10 años / prima de riesgo",
+    "cambio": "Plano (4,00 %; ~64 pb)",
+    "por_que": "Sin presión específica sobre España; la caída del IBEX 35 se debió a Santander, no a la deuda.",
+    "fuentes": [
+     {
+      "t": "Press Digital",
+      "u": "https://www.pressdigital.es/articulo/economia/2026-10-28/6069918-ibex-35-cede-145-pierde-18900-puntos-arrastrado-acciona-energia-santander"
+     }
+    ]
+   },
+   {
+    "bono": "Reino Unido 10 años (gilt)",
+    "cambio": "−2 pb (5,32 %)",
+    "por_que": "Presupuesto sin sorpresas: mantiene las reglas fiscales, aunque el margen fiscal baja a 15.000 millones £. El rango del día fue el más estrecho en un presupuesto desde 2020.",
+    "fuentes": [
+     {
+      "t": "MarketScreener",
+      "u": "https://www.marketscreener.com/news/gilt-yields-ease-sterling-falls-slightly-in-muted-reaction-to-u-k-budget-update-ce785cd2de8ff526"
+     },
+     {
+      "t": "ActionForex",
+      "u": "https://www.actionforex.com/action-insight/market-overview/659039-uk-budget-shrinks-fiscal-buffer-without-market-shock-fed-dissent-in-focus/"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Yahoo Finance",
+    "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-big-tech-earnings-130508769.html"
+   },
+   {
+    "t": "ADVFN",
+    "u": "https://uk.advfn.com/market-news/article/25228/eurozone-bond-yields-rise-as-french-debt-comes-under-pressure-ahead-of-fed-and-ecb-decisions"
+   },
+   {
+    "t": "MarketScreener",
+    "u": "https://www.marketscreener.com/news/gilt-yields-ease-sterling-falls-slightly-in-muted-reaction-to-u-k-budget-update-ce785cd2de8ff526"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "",
+  "suben": [],
+  "bajan": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-10-29",
+   "evento": "Reunión del Banco Central Europeo (BCE)",
+   "por_que_importa": "Con el crudo por encima de 110 $ y Francia bajo presión, cualquier pista sobre tipos o sobre la protección de diferenciales moverá el Bund y la prima francesa."
+  },
+  {
+   "fecha": "2026-10-29",
+   "evento": "PIB del tercer trimestre y PCE de septiembre en EE. UU.",
+   "por_que_importa": "El PCE es la medida de inflación favorita de la Fed: un dato alto reforzaría la subida de diciembre y presionaría las TIR."
+  },
+  {
+   "fecha": "2026-10-29",
+   "evento": "Reacción a Microsoft y Alphabet; resultados de Amazon",
+   "por_que_importa": "Alphabet cae un 8–9 % fuera de hora: el Nasdaq 100 y los fondos tecnológicos dependen de cómo digiera el mercado el gasto en IA."
+  },
+  {
+   "fecha": "2026-10-30",
+   "evento": "Banco de Japón (BoJ)",
+   "por_que_importa": "Una subida de tipos fortalecería el yen y podría frenar al Nikkei."
+  },
+  {
+   "fecha": "2026-11-03",
+   "evento": "Elecciones de mitad de mandato en EE. UU.",
+   "por_que_importa": "Según prensa, tras ellas podrían reanudarse los ataques a Irán: es el principal riesgo para el petróleo."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "BoJ",
+   "def": "Banco de Japón."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se mantiene hasta su vencimiento."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: 0,01 puntos porcentuales."
+  },
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "HBM",
+   "def": "Memoria de alto ancho de banda, la que usan los chips de IA."
+  },
+  {
+   "sigla": "Sidecar",
+   "def": "Pausa automática de las órdenes programadas en la bolsa coreana cuando los futuros se mueven con fuerza."
+  },
+  {
+   "sigla": "ETF",
+   "def": "Fondo cotizado en bolsa."
+  },
+  {
+   "sigla": "API",
+   "def": "American Petroleum Institute, patronal petrolera de EE. UU. que estima las reservas de crudo cada semana."
+  },
+  {
+   "sigla": "PCE",
+   "def": "Índice de precios del gasto en consumo personal, la medida de inflación que sigue la Fed."
+  },
+  {
+   "sigla": "PIB",
+   "def": "Producto interior bruto."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility, referencia del precio del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad implícita del S&P 500 («índice del miedo»)."
+  },
+  {
+   "sigla": "MOVE",
+   "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU."
+  },
+  {
+   "sigla": "DXY",
+   "def": "Índice del dólar frente a una cesta de seis divisas principales."
+  },
+  {
+   "sigla": "LCI/LCA",
+   "def": "Letras de crédito inmobiliario y del agronegocio, productos de ahorro brasileños exentos de impuesto sobre la renta."
+  },
+  {
+   "sigla": "UBS",
+   "def": "Union Bank of Switzerland, banco suizo."
+  }
+ ],
+ "generado": "2026-10-28T23:59"
+}
