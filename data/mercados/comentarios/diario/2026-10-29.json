@@ -1,0 +1,470 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-29",
+  "fase": "completo",
+  "titulo": "Alphabet vive su peor día y hunde al Nasdaq; Europa sube con un BCE en pausa",
+  "resumen": "==Alphabet (Google) se desplomó en torno a un 12 %==, su peor sesión de la historia, y borró unos 500.000 millones de dólares de valor. Sus ingresos no llegaron a lo previsto y, por segundo trimestre seguido, ==el gasto en centros de datos de inteligencia artificial (IA) dejó negativo el flujo de caja libre==. El mercado volvió a dudar de que esa inversión se rentabilice pronto y lo extendió al software y a los chips: Nasdaq 100 −1,38 %, S&P 500 −0,31 % (7.720) y Dow Jones −0,25 %. Microsoft, que sí batió previsiones, acabó casi plana tras subir fuera de hora. El dinero rotó hacia salud, financieras y pequeñas compañías: ==el Russell 2000 subió un 1,01 %==, apoyado en un producto interior bruto (PIB) más fuerte de lo esperado. El VIX subió un 1,7 % (17,2) y el bitcoin cayó un 2,6 %.\n\nEl PIB de EE. UU. creció un ==3,4 % anualizado en el tercer trimestre== (se esperaba ~3,1–3,2 %), con el consumo y la inversión en equipos de IA tirando. La inflación PCE (gasto en consumo personal) de septiembre subió al 3,6 % interanual (3,1 % la subyacente), en línea o algo por debajo de lo previsto. Aun así, ==los bonos subieron y las TIR bajaron== (10 años −6 pb, por debajo del 5 %): el dato no empeoró la expectativa de subida de la Reserva Federal (Fed) en diciembre, ya descontada (~83 %), y la caída tecnológica empujó a comprar deuda como refugio.\n\nEn Europa, ==el Banco Central Europeo (BCE) mantuvo la facilidad de depósito en el 2,50 %==, por unanimidad, aunque Christine Lagarde admitió que se debatió subir y dijo que la dirección de los tipos es «bastante clara»: ==diciembre queda como fecha probable de otra subida==. Además, anunció que dejará el cargo en febrero de 2027. Las bolsas europeas, con poca tecnología de IA, subieron: Stoxx 600 +0,77 %, DAX +1,31 %, CAC 40 +1,05 % (con Stellantis disparada tras resultados), SMI suizo +1,21 % por la rotación a farmacéuticas. ==El IBEX 35 se quedó atrás (−0,14 %, 18.858) por BBVA==, que cayó tras sus cuentas, y por ajustes de dividendo.\n\nEn materias primas, ==el petróleo y el gas cedieron por la diplomacia con Irán==: según prensa, el vicepresidente de EE. UU., JD Vance, escribió a un alto cargo iraní para reabrir conversaciones, con mediación de Catar. El Brent figura con −3,3 % (111,5 $), pero ==buena parte es cambio de contrato== (de diciembre a enero): la caída real rondó el 1 %. El gas europeo TTF bajó un 3,2 %. En Asia, el Nikkei subió un 1,11 % a la espera del Banco de Japón (BoJ), mientras Taiwán (−1,42 %) y Corea (−0,47 %, con Samsung −4 % tras resultados) recogieron beneficios tras el rally de la memoria.\n\nEn los fondos, ==la rotación se ve nítida==: suben salud, pequeñas de EE. UU., inmobiliario e industria europea (hasta +2–3 %), y bajan Taiwán, China y la tecnología con mucho software (hasta −3,7 %). La renta fija ganó un 0,13 % de mediana por la bajada de las TIR.",
+  "claves": [
+    "==Alphabet cae ~12 %, su peor día==: ingresos por debajo de lo esperado y flujo de caja negativo por el gasto en IA; el Nasdaq 100 pierde un 1,38 %.",
+    "==Rotación, no pánico==: el S&P 500 solo cede un 0,31 % y el Russell 2000 sube un 1,01 % con un PIB del 3,4 %.",
+    "El BCE mantiene el 2,50 % pero ==deja la puerta abierta a subir en diciembre==; Lagarde se irá en febrero de 2027.",
+    "==Las TIR de EE. UU. bajan pese a datos fuertes==: refugio por la caída tecnológica y una subida de la Fed ya descontada.",
+    "El crudo cede por la vía diplomática con Irán; ==el −3,3 % del Brent es en gran parte cambio de contrato==.",
+    "Europa sube (DAX +1,31 %) con poca exposición a la IA; el IBEX 35 se queda atrás por BBVA."
+  ],
+  "suben": [
+    {
+      "activo": "DAX (Alemania)",
+      "cambio": "+1,31 %",
+      "por_que": "Europa ==se benefició de la rotación fuera de la tecnología de EE. UU.==: más peso en industria, banca y salud. Un BCE sin sorpresas y un crudo algo más barato ayudaron.",
+      "fuentes": [
+        {
+          "t": "RTTNews (finanzen.at)",
+          "u": "https://www.finanzen.at/nachrichten/aktien/european-markets-close-higher-as-investors-react-to-results-1036686759"
+        }
+      ]
+    },
+    {
+      "activo": "SMI (Suiza)",
+      "cambio": "+1,21 %",
+      "por_que": "Índice dominado por farmacéuticas y alimentación (Roche, Novartis, Nestlé): ==sectores defensivos, los preferidos el día de la huida de la IA==.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html"
+        }
+      ]
+    },
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "+1,11 %",
+      "por_que": "Cuarta sesión al alza con SoftBank y chips de memoria (Kioxia), antes de que se conociera la caída de Alphabet en la sesión de Nueva York. Espera al Banco de Japón del viernes.",
+      "fuentes": [
+        {
+          "t": "Il Sole 24 Ore",
+          "u": "https://en.ilsole24ore.com/art/tokyo-stock-exchange-nikkei-closes-up-11-per-cent-on-the-back-of-strong-share-prices-and-as-investors-await-the-bojs-decision-AJqIUgxB"
+        }
+      ]
+    },
+    {
+      "activo": "CAC 40 (Francia)",
+      "cambio": "+1,05 %",
+      "por_que": "Lo empujó ==Stellantis (+15 %) tras unos resultados mejores de lo temido==; la prima de riesgo francesa estuvo estable.",
+      "fuentes": [
+        {
+          "t": "BigGo Finance",
+          "u": "https://finance.biggo.com/news/04e37382-3ca2-4e9f-93b9-f482e8335c91"
+        }
+      ]
+    },
+    {
+      "activo": "Russell 2000 (pequeñas EE. UU.)",
+      "cambio": "+1,01 %",
+      "por_que": "Las pequeñas empresas dependen de la economía doméstica, no de la IA: ==un PIB del 3,4 % y TIR más bajas== (se financian con crédito) las favorecen frente a las grandes tecnológicas.",
+      "fuentes": [
+        {
+          "t": "Benzinga",
+          "u": "https://www.benzinga.com/markets/equities/26/10/62706774/stock-market-today-alphabet-sinks-small-caps-rally-gdp-rotation"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural EE. UU. (Henry Hub)",
+      "cambio": "+3,12 %",
+      "por_que": "Mercado propio, ligado al tiempo y a los inventarios estadounidenses. Sin noticia concreta: rebote tras precios muy bajos (2,9 $)."
+    },
+    {
+      "activo": "Sensex (India)",
+      "cambio": "+0,70 %",
+      "por_que": "Subida de las informáticas (TCS la que más) y un crudo algo más barato: India importa casi todo su petróleo.",
+      "fuentes": [
+        {
+          "t": "India TV News",
+          "u": "https://indiatvnews.com/business/markets/29-october-2026-stock-market-updates-sensex-and-nifty-flat-it-stocks-in-action-with-tcs-being-top-gainer-2026-10-29-1058175"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Nasdaq 100 (tecnológicas EE. UU.)",
+      "cambio": "−1,38 %",
+      "por_que": "==Alphabet cayó en torno a un 12 % (−500.000 millones $)== por ingresos flojos y gasto en IA que deja el flujo de caja en negativo. Arrastró al software y a los chips por miedo a que todo el ciclo de inversión en IA rinda menos de lo prometido.",
+      "fuentes": [
+        {
+          "t": "NBC News",
+          "u": "https://nbcnews.com/business/markets/alphabet-google-stock-ai-advertising-rcna606322"
+        },
+        {
+          "t": "Yahoo Finance (Reuters)",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slide-mixed-big-083556706.html"
+        }
+      ]
+    },
+    {
+      "activo": "Taiex (Taiwán)",
+      "cambio": "−1,42 %",
+      "por_que": "Recogida de beneficios tras el +2 % del miércoles y ==temor a que Alphabet y otras recorten gasto en servidores==, el gran cliente de la cadena taiwanesa (TSMC).",
+      "fuentes": [
+        {
+          "t": "TradingKey",
+          "u": "https://www.tradingkey.com/analysis/stocks/more/262250955-japan-korea-stocks-skhy-kospi-nikkei-samsung-kioxia-ai-softbank-fomc-hbm-tradingkey"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo Brent",
+      "cambio": "−3,28 % (111,5 $)",
+      "por_que": "==Esperanzas de diálogo entre EE. UU. e Irán== (carta de JD Vance, mediación de Catar) rebajan el riesgo de cortes de suministro. Ojo: ==la serie pasa del contrato de diciembre al de enero==, más barato; la caída real del día fue de ~1 %. El WTI quedó plano (+0,08 %).",
+      "fuentes": [
+        {
+          "t": "The National",
+          "u": "https://thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war"
+        },
+        {
+          "t": "dmarketforces",
+          "u": "https://dmarketforces.com/oil-prices-ease-on-hope-of-fresh-us-iran-talks-brent-dips-to-110/"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "−3,19 % (97,5 €/MWh)",
+      "por_que": "Mismo driver que el crudo: ==menos riesgo de una nueva escalada en el Golfo==, por donde pasa el gas licuado de Catar."
+    },
+    {
+      "activo": "Bitcoin (USD)",
+      "cambio": "−2,61 %",
+      "por_que": "Se mueve como un activo de riesgo tecnológico: ==cayó con el Nasdaq== cuando el mercado redujo exposición a la IA."
+    },
+    {
+      "activo": "Plata",
+      "cambio": "−2,31 %",
+      "por_que": "Metal mitad industrial: lo lastra el miedo a menos inversión tecnológica (paneles, electrónica). El oro cedió menos (−0,45 %, 4.033 $) pese a la bajada del dólar."
+    },
+    {
+      "activo": "Bovespa (Brasil)",
+      "cambio": "−1,06 %",
+      "por_que": "Sigue la incertidumbre fiscal tras la reelección de Lula y un crudo más barato resta a Petrobras. Los emergentes en dólares (ETF EEM −1,26 %) cayeron además por su peso en chips asiáticos."
+    },
+    {
+      "activo": "IBEX 35 (España)",
+      "cambio": "−0,14 % (18.858)",
+      "por_que": "==BBVA cayó tras sus resultados== (llegó a perder un 5,6 % en la primera hora) y hubo ajustes por dividendo; la banca pesa mucho en el índice.",
+      "fuentes": [
+        {
+          "t": "Estrategias de Inversión",
+          "u": "https://www.estrategiasdeinversion.com/actualidad/la-bolsa-hoy-en-directo/29-10-2026"
+        },
+        {
+          "t": "El Periódico de Ceuta",
+          "u": "https://www.elperiodicodeceuta.es/cierre-ibex-35-29-de-octubre-de-2026/"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Alphabet y la factura de la IA",
+      "texto": "La matriz de Google publicó ingresos por debajo de lo esperado y un ==flujo de caja libre negativo por segundo trimestre==, por el enorme gasto en centros de datos. Es el miedo de fondo de 2026: si las grandes tecnológicas gastan cada vez más sin que crezcan los ingresos, sus beneficios futuros valen menos. El castigo se extendió al software, a los chips y a Asia; Microsoft, con mejores cifras, aguantó. ==Fue rotación más que pánico==: el S&P 500 apenas cedió y las pequeñas subieron.",
+      "fuentes": [
+        {
+          "t": "Benzinga",
+          "u": "https://www.benzinga.com/markets/equities/26/10/62706774/stock-market-today-alphabet-sinks-small-caps-rally-gdp-rotation"
+        },
+        {
+          "t": "TradingView / Seeking Alpha",
+          "u": "https://www.tradingview.com/news/seekingalpha:81656203f094b:0-nasdaq-sheds-1-4-as-alphabet-s-historic-drop-rattles-the-markets-u-s-stocks-suffer/"
+        }
+      ]
+    },
+    {
+      "tema": "Banco Central Europeo (BCE)",
+      "texto": "Mantuvo depósito (2,50 %), refinanciación (2,65 %) y crédito marginal (2,90 %). Con la inflación de la zona euro en el 3,8 % y la energía al alza, ==Lagarde reconoció que se discutió subir== y dejó clara la dirección: el mercado mantiene una subida en diciembre (los forwards apuntan a ~2,73 %). Lagarde anunció su salida en febrero de 2027, antes de acabar su mandato.",
+      "fuentes": [
+        {
+          "t": "FXStreet",
+          "u": "https://www.fxstreet.es/news/discurso-de-lagarde-la-trayectoria-de-los-tipos-es-bastante-clara-202610291420"
+        },
+        {
+          "t": "Infobae",
+          "u": "https://www.infobae.com/america/agencias/2026/10/29/lagarde-dice-que-el-bce-discutio-si-era-necesario-subir-los-tipos-de-interes/"
+        }
+      ]
+    },
+    {
+      "tema": "Economía de EE. UU.: PIB y PCE",
+      "texto": "==PIB del 3,4 % anualizado== (consumo +3,8 %, inversión en equipos de IA en máximos desde 2011) y PCE del 3,6 % (3,1 % subyacente). Economía fuerte e inflación alta: justifica la subida de la Fed en diciembre, pero ya estaba descontada. Los ingresos personales flojos y una tasa de ahorro por debajo del 4 % apuntan a un consumidor que puede frenar.",
+      "fuentes": [
+        {
+          "t": "elEconomista",
+          "u": "https://www.eleconomista.es/economia/noticias/14024398/10/26/la-economia-de-eeuu-sigue-siendo-una-presa-dificil-de-batir-el-pib-crecio-mas-de-lo-esperado-en-el-tercer-trimestre-con-un-34-anualizado.html"
+        },
+        {
+          "t": "Investing.com",
+          "u": "https://es.investing.com/news/economic-indicators/la-inflacion-en-eeuu-se-acelera-en-septiembre-el-pib-del-tercer-trimestre-sube-un-34-3898348"
+        }
+      ]
+    },
+    {
+      "tema": "Irán y la energía",
+      "texto": "Tras el susto del miércoles (aviso de posibles ataques después de las elecciones del 3 de noviembre), ==la carta de JD Vance para reabrir el diálogo== rebajó la prima de riesgo geopolítico del crudo y del gas. El precio sigue muy alto (Brent ~111 $): UBS espera que acabe el año cerca de 110 $.",
+      "fuentes": [
+        {
+          "t": "The National",
+          "u": "https://thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war"
+        },
+        {
+          "t": "FinanceFeeds",
+          "u": "https://financefeeds.com/brent-crude-oil-price-114-20-thursday-vance-iran-letter-gdp-pce-day-bull-120-bear-108/"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "En EE. UU. ==las TIR (tasa interna de rentabilidad) bajaron pese a un PIB fuerte y una inflación alta==: la de 5 años −7 pb (4,80 %), la de 10 años −6 pb (4,99 %, de nuevo por debajo del 5 %) y la de 30 años −3 pb (5,33 %). La de 2 años aún no tiene dato oficial de la Fed del día; según prensa también bajó. El mecanismo: el PCE salió ==en línea o una décima por debajo de lo previsto==, así que no añadió presión a la subida de diciembre, ya descontada en ~83 %. A la vez, ==la caída de Alphabet empujó a comprar bonos como refugio==, el petróleo más barato rebajó la inflación esperada y unos ingresos personales flojos sembraron dudas sobre el consumo. La volatilidad de los bonos (índice MOVE) bajó un 1,1 %.\n\nEn la zona euro, el BCE aún no ha publicado la curva AAA del jueves (último dato, miércoles: 3,39 % a 10 años, +2 pb). Según prensa, ==el Bund alemán a 10 años bajó unos 2,5 pb (≈ 3,36 %) y el de 2 años unos 3,5 pb (≈ 3,07 %)==: un BCE que no sube hoy y un crudo más barato pesaron más que el tono de Lagarde. El tramo corto no subió porque el mercado ya tenía descontada la subida de diciembre. El diferencial de Francia con Alemania quedó ==casi sin cambios (≈ 153–156 pb)==: Lagarde no activó ni anunció ninguna herramienta antifragmentación (TPI), pero tampoco hubo nuevas noticias políticas.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "sin dato oficial del día (4,67 % el miércoles)",
+        "por_que": "Según prensa bajó algo: el PCE no sorprendió y la subida de diciembre ya está en precio.",
+        "fuentes": [
+          {
+            "t": "CNBC",
+            "u": "https://www.cnbc.com/2026/10/29/treasury-yields-federal-reserve-rates.html"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−6 pb (4,99 %)",
+        "por_que": "==Refugio por la caída tecnológica== y petróleo más barato (menos inflación esperada); el PIB fuerte no bastó para subirla.",
+        "fuentes": [
+          {
+            "t": "CNBC",
+            "u": "https://www.cnbc.com/2026/10/29/treasury-yields-federal-reserve-rates.html"
+          },
+          {
+            "t": "Finimize",
+            "u": "https://finimize.com/content/treasury-yields-slipped-after-pce-came-in-as-expected"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "sin dato del BCE del día; Bund ≈ −2,5 pb (3,36 %) según prensa",
+        "por_que": "El BCE no subió hoy y el crudo cedió. La débil subasta de Bund del miércoles (cobertura 0,8 veces) limita el papel refugio.",
+        "fuentes": [
+          {
+            "t": "Investing.com",
+            "u": "https://uk.investing.com/news/forex-news/bund-yields-slip-ahead-of-ecb-feds-hold-keeps-us-yields-steepening-4940314"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Francia–Alemania",
+        "cambio": "≈ sin cambios (153–156 pb)",
+        "por_que": "Ni noticias políticas nuevas ni anuncio del BCE sobre su escudo antifragmentación (TPI).",
+        "fuentes": [
+          {
+            "t": "Forbes España",
+            "u": "https://forbes.es/actualidad/1058313/bce-se-reune-tipos-deuda-francesa-futuro-de-lagarde/"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial high yield EE. UU.",
+        "cambio": "−4 pb (3,14 %, dato del miércoles)",
+        "por_que": "El crédito de alto rendimiento sigue tranquilo; el dato del jueves llegará con un día de retraso."
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "CNBC",
+        "u": "https://www.cnbc.com/2026/10/29/treasury-yields-federal-reserve-rates.html"
+      },
+      {
+        "t": "Investing.com",
+        "u": "https://uk.investing.com/news/forex-news/bund-yields-slip-ahead-of-ecb-feds-hold-keeps-us-yields-steepening-4940314"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Los fondos copian la ==rotación del día: salud, pequeñas de EE. UU. e industria europea arriba; Asia tecnológica y software abajo==. Las medianas apenas se movieron: renta variable 0,00 %, mixtos +0,07 %, monetarios +0,01 % y ==renta fija +0,13 %, gracias a la bajada de las TIR== (a menor rentabilidad exigida, más vale el bono que ya se tiene). Arriba, los de salud y biotecnología (con ==Eli Lilly subiendo previsiones== tras ventas +39 %), las pequeñas compañías de EE. UU. (Russell 2000 +1,01 %), el inmobiliario cotizado, que gana cuando bajan los tipos, y los de Europa con industria y defensa (Nordea Empower Europe +1,98 %: ASML, Siemens, Siemens Energy, Rheinmetall). Abajo, ==Taiwán, China y Asia emergente (−2,5 a −3,7 %)== por la recogida de beneficios en chips y memoria (Samsung −4 %), y la ==tecnología global con mucho software== (Pictet Robotics −3,68 %) por la duda sobre el gasto en IA que desató Alphabet. El euro cerró plano frente al dólar (1,1130), así que ==el efecto divisa fue nulo==: r y rn coinciden en las clases en USD. Ojo con dos datos: ==solo hay VL del día de 1.456 fondos== (ninguno de ABANCA) y ==dos fondos emergentes de IronIA suben casi un 3 %== cuando las bolsas emergentes cayeron, lo que apunta a un VL desfasado o erróneo.",
+    "suben": [
+      {
+        "isin": "IE00BJM0B969",
+        "por_que": "Cartera concentrada y muy repartida entre los ganadores de la rotación: ==Eli Lilly (6 %), que subió previsiones==, la industria y defensa europeas (Leonardo 6,9 %, Safran 5,2 %, Siemens Energy 3,3 %) con el DAX +1,31 %, y Honeywell, Motorola o Modine. Casi no tiene las grandes tecnológicas castigadas. Un +3,42 % es mucho con un 17 % de liquidez: en parte ==rebota del −5,2 % del día 23== y no hemos hallado una noticia concreta que lo explique entero.",
+        "fuentes": [
+          {
+            "t": "Eli Lilly (8-K, resultados 3T 2026)",
+            "u": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm"
+          }
+        ]
+      },
+      {
+        "isin": "AT0000745872",
+        "por_que": "==Dato raro==: figura como renta variable emergente y sube un 2,93 % el día en que el ETF de emergentes (EEM) cayó un 1,26 % y Taiwán, Corea, Hong Kong y Brasil bajaron. Solo está en IronIA (VL del FT): probablemente ==VL desfasado o mal fechado==; conviene no sacar conclusiones."
+      },
+      {
+        "isin": "DE0009773010",
+        "por_que": "Mismo caso que el anterior: ==sube un 2,83 % contra la caída de las bolsas emergentes==. Su VL ya iba a destiempo los días previos (−1,07 % el 27, cuando el EEM subía), lo que sugiere ==un desfase de fechas en la fuente== más que un movimiento real."
+      },
+      {
+        "isin": "LU1775952333",
+        "por_que": "Fondo de salud, el sector refugio del día: el dinero salió de la tecnología hacia farmacéuticas y aseguradoras médicas, y ==Eli Lilly subió previsiones con ventas +39 % por Mounjaro y Zepbound==. Clase en dólares, pero el euro estuvo plano: r +2,31 % frente a rn +2,28 %, ==efecto divisa casi nulo==.",
+        "fuentes": [
+          {
+            "t": "Eli Lilly (8-K, resultados 3T 2026)",
+            "u": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm"
+          }
+        ]
+      },
+      {
+        "isin": "LU1980276692",
+        "por_que": "Renta variable de materiales e industria. No sale de los metales (cobre −0,9 %, oro −0,5 %), sino de la ==rotación hacia industriales y Europa== (DAX +1,31 %, Stoxx 600 +0,77 %). No tenemos su cartera; sin noticia concreta, sigue el buen tono de la industria (+2,2 %)."
+      },
+      {
+        "isin": "IE00BFRSZ172",
+        "por_que": "Pequeñas compañías de crecimiento de EE. UU., con la ==divisa cubierta a euros==, así que el +2,11 % es todo bolsa. Ganaron con la rotación hacia el ==Russell 2000 (+1,01 %)==, con un PIB del 3,4 % que favorece a las empresas más domésticas, y con la bajada de las TIR, que abarata su financiación. Pesa también la biotecnología, que subió con la salud."
+      },
+      {
+        "isin": "IE00B0T0GS00",
+        "por_que": "Fondo de inmobiliario cotizado de EE. UU. (REIT), cubierto a euros. ==Gana cuando bajan los tipos==: estas compañías se financian con deuda y sus rentas compiten con la del bono, y la TIR a 10 años bajó 6 pb (4,99 %). Es el reverso del día 28, cuando la TIR subió y el sector cedió."
+      },
+      {
+        "isin": "IE00BFRSZ511",
+        "por_que": "Pequeñas y medianas de EE. UU. de estilo valor, ==cubierto a euros==: bancos regionales, industria y consumo doméstico, justo lo que ==compró el mercado al salir de las tecnológicas==. Sigue al Russell 2000 (+1,01 %) con algo más de beta."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU0270816068",
+        "por_que": "Fondo casi 100 % de Taiwán y 73 % tecnológico: ==TSMC (8,9 %), MediaTek (8,3 %) y ASE (6,7 %)==, los chips que lideraron la recogida de beneficios (Taiex −1,42 %). Cae más que el índice, como el día 28 subió más (+3,3 % frente a +2,0 %): ==cartera concentrada en los valores más volátiles== y, probablemente, ajuste de valoración por la caída del Nasdaq tras el cierre asiático. Clase en USD con el euro plano: sin efecto divisa (r −3,74 % frente a rn −3,76 %)."
+      },
+      {
+        "isin": "LU1279334301",
+        "por_que": "Es el fondo que más directamente recibió el golpe de Alphabet: ==la tiene (4,8 %) y está lleno de software (Salesforce, ServiceNow, Snowflake, Atlassian, Workday)== y de chips (NVIDIA, Lam Research, ASML, TSMC). 88 % tecnología y 78 % EE. UU.: la ==duda sobre la rentabilidad del gasto en IA== castigó a todo el grupo (Nasdaq 100 −1,38 %)."
+      },
+      {
+        "isin": "LU0401357313",
+        "por_que": "Mismo caso que el Schroder de Taiwán: ==MediaTek (9,2 %) y TSMC (8,9 %)== encabezan una cartera 75 % tecnológica. Subió un 3,8 % el 28 y devuelve casi todo (−3,37 %) en la ==recogida de beneficios en chips== asiáticos. Clase en euros."
+      },
+      {
+        "isin": "LU0273689215",
+        "por_que": "Gran China (China, Hong Kong y Taiwán) con sesgo tecnológico. Cayeron Hong Kong (−0,59 %), Shanghái (−0,82 %) y sobre todo Taiwán (−1,42 %); el fondo cae más (−3,18 %) por su ==peso en tecnología y chips==, los valores más castigados del día. Sin cartera disponible para afinar más."
+      },
+      {
+        "isin": "LU0346391328",
+        "por_que": "Bolsa de Indonesia (clase en USD; r −3,05 % frente a rn −3,07 %, ==sin efecto divisa==). No tenemos el índice de Yakarta en los datos ni hemos encontrado una noticia concreta: probablemente ==contagio de la caída asiática== y salida de capital de emergentes con el dólar fuerte. Movimiento a confirmar."
+      },
+      {
+        "isin": "LU0721876364",
+        "por_que": "China de innovación y consumo: ==NetEase, Lenovo, MediaTek== y otros tecnológicos chinos, más consumo (Luckin, Atour). Hong Kong y Shanghái bajaron menos del 1 %, pero ==las tecnológicas chinas cayeron más== en un día de dudas sobre la IA. Clase en USD, sin efecto divisa."
+      },
+      {
+        "isin": "LU1760778917",
+        "por_que": "Fondo de crecimiento chino (consumo e internet). Cae un 2,61 % con el ==giro a la baja de la tecnología china== (Shanghái −0,82 %, Hong Kong −0,59 %); devuelve la subida del 28 (+2,9 %). Sin cartera disponible."
+      },
+      {
+        "isin": "LU0336299580",
+        "por_que": "Asia emergente muy cargada en ==memoria y chips: Samsung (9,8 %), TSMC (9,4 %) y SK hynix (6 %)==. Samsung cayó cerca de un 4 % tras resultados y Corea un 1,24 %: ==recogida de beneficios tras el rally de la memoria== (el fondo subió un 4,7 % el 28). Su gemelo de consumo (LU0593848723, −2,54 %) tiene casi la misma cartera."
+      }
+    ],
+    "por_clase": []
+  },
+  "agenda": [
+    {
+      "fecha": "2026-10-30",
+      "evento": "Banco de Japón (BoJ)",
+      "por_que_importa": "Una subida fortalecería el yen (bueno para fondos japoneses sin cubrir en euros) pero podría frenar al Nikkei tras cuatro días al alza."
+    },
+    {
+      "fecha": "2026-10-30",
+      "evento": "Índice de precios de consumo armonizado (IPCA) preliminar de octubre en la zona euro (previsto)",
+      "por_que_importa": "Con la inflación en el 3,8 %, un dato alto afianzaría la subida del BCE en diciembre y presionaría al Bund y al euríbor."
+    },
+    {
+      "fecha": "2026-10-30",
+      "evento": "Reacción a los resultados de Amazon y Apple",
+      "por_que_importa": "Tras Alphabet, el mercado mirará sobre todo el gasto en IA de Amazon (AWS): decidirá si la venta tecnológica sigue o se frena."
+    },
+    {
+      "fecha": "2026-11-03",
+      "evento": "Elecciones de mitad de mandato en EE. UU.",
+      "por_que_importa": "Según prensa, tras ellas podría reanudarse la campaña militar contra Irán: es el gran riesgo para el petróleo y el gas."
+    },
+    {
+      "fecha": "2026-11-06",
+      "evento": "Empleo de octubre en EE. UU.",
+      "por_que_importa": "Un mercado laboral fuerte reforzaría la subida de la Fed en diciembre y movería la TIR a 2 años."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "PIB",
+      "def": "Producto interior bruto: valor de lo que produce una economía. En EE. UU. se publica en tasa trimestral anualizada."
+    },
+    {
+      "sigla": "PCE",
+      "def": "Índice de precios del gasto en consumo personal de EE. UU., la medida de inflación que prefiere la Fed."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "BoJ",
+      "def": "Banco de Japón."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento. Sube cuando cae su precio."
+    },
+    {
+      "sigla": "pb",
+      "def": "Puntos básicos: centésimas de punto porcentual (25 pb = 0,25 %)."
+    },
+    {
+      "sigla": "TPI",
+      "def": "Instrumento para la Protección de la Transmisión del BCE: compras de deuda para frenar diferenciales «injustificados» de un país; nunca se ha usado."
+    },
+    {
+      "sigla": "IPCA",
+      "def": "Índice de precios de consumo armonizado, la inflación oficial de la zona euro."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500; sube cuando el mercado teme caídas."
+    },
+    {
+      "sigla": "MOVE",
+      "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Fondo cotizado en bolsa que replica un índice."
+    },
+    {
+      "sigla": "REIT",
+      "def": "Real Estate Investment Trust: sociedad cotizada que invierte en inmuebles y reparte la mayor parte de sus rentas."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: precio de una participación del fondo, que la gestora publica cada día hábil."
+    }
+  ],
+  "generado": "2026-10-30T10:48"
+}
