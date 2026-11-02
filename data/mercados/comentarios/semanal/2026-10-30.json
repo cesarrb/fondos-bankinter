@@ -1,0 +1,548 @@
+{
+  "periodo": "semanal",
+  "clave": "2026-10-30",
+  "inicio": "2026-10-26",
+  "fin": "2026-10-30",
+  "fase": "completo",
+  "titulo": "Lula hunde Brasil un 18 % y la IA pasa de euforia a duda; Europa sube y el bono de EE. UU. baja",
+  "resumen": "Semana de dos mitades para la tecnología y de un solo sentido para Brasil. ==La victoria de Lula hundió el Bovespa un 18,1 % en la semana== (−13,9 % solo el lunes, con suspensión automática de la negociación): el mercado teme más gasto y déficit, exige más rentabilidad a la deuda brasileña y eso arrastra a las empresas más sensibles a los tipos. Con el real también a la baja, ==los fondos de Brasil perdieron entre un 22 % y un 29 % medidos en euros==, y los de Latinoamérica entre un 15 % y un 20 %.\n\nEn la tecnología, ==la semana empezó con euforia y acabó con dudas==. El lunes y el martes, el folleto de salida a bolsa de Anthropic calmó el miedo a que el auge de la inteligencia artificial (IA) se agotara, y el miércoles ==SK Hynix presentó un beneficio récord== que disparó el Kospi un 6,6 %. Pero desde el jueves los resultados cambiaron el tono: ==Alphabet vivió su peor día de la historia (−12 %)== por un flujo de caja negativo debido al gasto en centros de datos, Amazon decepcionó e ==Intel se hundió un 28,6 % el viernes==. El índice de semiconductores (SOX) cayó un 7,2 % ese día. Balance: ==Nasdaq 100 −1,98 %==, S&P 500 −0,57 % y Dow Jones −0,85 %, mientras ==el Russell 2000 de pequeñas compañías ganó un 1,29 %== por la rotación hacia lo que no es IA. En Asia, Corea acabó en positivo (+3,25 %) gracias al rally de la memoria y pese a perder un 3,5 % el viernes; Taiwán cayó un 1,8 % y Shanghái un 2,5 %.\n\n==Europa fue la ganadora de la semana==: Stoxx 600 +1,73 %, DAX +2,53 %, CAC 40 +2,40 %, SMI +2,41 % y FTSE MIB +1,94 %. Tiene poca tecnología de IA y mucha farmacia, industria y banca, y le ayudaron el alivio por Francia tras no ser rebajada por Moody's y un BCE que no subió los tipos. ==La excepción fue el IBEX 35 (−1,77 %)==: Santander (−5,6 % el miércoles) y BBVA cayeron tras sus resultados, con Brasil como lastre para el primero, y el índice cerró octubre con una pérdida cercana al 4 %.\n\nLos tres grandes bancos centrales se reunieron y ninguno movió los tipos, pero ==los tres dejaron la puerta abierta a subirlos en diciembre==: la Reserva Federal (Fed) con dos votos a favor de subir ya, el Banco Central Europeo (BCE) admitiendo que lo debatió y el Banco de Japón (BoJ) apuntando a diciembre. Aun así, ==la TIR (tasa interna de rentabilidad) a 10 años de EE. UU. bajó 6 pb (4,93 %)==, porque la venta de tecnología pesó más como refugio. ==El oro (−2,7 %) y sobre todo la plata (−8,6 %) sufrieron== por esas subidas de tipos esperadas, mientras ==el gas europeo se disparó un 10,8 %== por el riesgo de que se reanude la guerra con Irán tras las elecciones del 3 de noviembre en EE. UU. El Brent subió solo un 0,8 % (117,6 $), porque la diplomacia con Irán compensó ese riesgo durante la semana.",
+  "claves": [
+    "==Brasil se desploma (Bovespa −18,1 %)== tras la victoria de Lula: los fondos de Brasil pierden un 22–29 % en euros.",
+    "==La IA pasa de la euforia (Anthropic, SK Hynix) a la duda (Alphabet, Amazon, Intel)==: Nasdaq 100 −1,98 % y SOX −7,2 % el viernes.",
+    "==Rotación==: suben las pequeñas de EE. UU. (Russell 2000 +1,29 %), la salud y Europa (Stoxx 600 +1,73 %); el IBEX 35 cae un 1,77 % por la banca.",
+    "==Fed, BCE y BoJ mantienen los tipos, pero apuntan a diciembre==; aun así la TIR a 10 años de EE. UU. baja 6 pb por el refugio.",
+    "==El oro (−2,7 %) y la plata (−8,6 %) caen== ante la perspectiva de tipos más altos; el gas europeo sube un 10,8 % por el riesgo iraní."
+  ],
+  "suben": [
+    {
+      "activo": "DAX (Alemania)",
+      "cambio": "+2,53 %",
+      "por_que": "Industria, farmacia y banca, ==casi sin tecnología de IA==. Recibió el dinero que salía de los chips, sobre todo el jueves (+1,31 %), y un BCE en pausa ayudó.",
+      "fuentes": [
+        {
+          "t": "FXStreet",
+          "u": "https://www.fxstreet.es/news/discurso-de-lagarde-la-trayectoria-de-los-tipos-es-bastante-clara-202610291420"
+        },
+        {
+          "t": "Infobae",
+          "u": "https://www.infobae.com/america/agencias/2026/10/29/lagarde-dice-que-el-bce-discutio-si-era-necesario-subir-los-tipos-de-interes/"
+        }
+      ]
+    },
+    {
+      "activo": "CAC 40 (Francia) y SMI (Suiza)",
+      "cambio": "+2,40 % / +2,41 %",
+      "por_que": "Francia, por el ==alivio tras mantener Moody's su nota== y por resultados (Stellantis); Suiza, por la ==rotación hacia farmacéuticas== (Roche, Novartis), que son refugio dentro de la bolsa.",
+      "fuentes": [
+        {
+          "t": "Action Forex",
+          "u": "https://www.actionforex.com/action-insight/market-overview/658904-euro-weakest-as-french-bond-spreads-widen-again-australian-cpi-and-uk-budget-next/"
+        },
+        {
+          "t": "Seeking Alpha",
+          "u": "https://seekingalpha.com/article/4957479-moodys-france-peripheral-premiums-narrower-euro-struggles-to-find-traction"
+        }
+      ]
+    },
+    {
+      "activo": "Kospi (Corea)",
+      "cambio": "+3,25 %",
+      "por_que": "==SK Hynix presentó un beneficio récord con un margen cercano al 80 %== y el índice subió un 6,6 % el miércoles. El viernes devolvió un 3,5 % con las dudas sobre la IA, pero el balance semanal fue positivo.",
+      "fuentes": [
+        {
+          "t": "Herald Corp",
+          "u": "https://biz.heraldcorp.com/article/10917957"
+        }
+      ]
+    },
+    {
+      "activo": "Russell 2000 (pequeñas EE. UU.)",
+      "cambio": "+1,29 %",
+      "por_que": "==La rotación fuera de las grandes tecnológicas== favoreció a las pequeñas compañías, apoyadas además por un PIB fuerte (3,4 %) y por la bajada de las TIR, que abarata su financiación.",
+      "fuentes": [
+        {
+          "t": "Benzinga",
+          "u": "https://www.benzinga.com/markets/equities/26/10/62706774/stock-market-today-alphabet-sinks-small-caps-rally-gdp-rotation"
+        },
+        {
+          "t": "Seeking Alpha vía TradingView",
+          "u": "https://www.tradingview.com/news/seekingalpha:81656203f094b:0-nasdaq-sheds-1-4-as-alphabet-s-historic-drop-rattles-the-markets-u-s-stocks-suffer/"
+        }
+      ]
+    },
+    {
+      "activo": "Gas europeo TTF",
+      "cambio": "+10,75 % (103,9 €/MWh)",
+      "por_que": "Supera los 100 €/MWh. ==Pesa el riesgo de que se reanude la guerra con Irán== tras las elecciones de EE. UU., y el invierno se acerca con poco margen de oferta.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+        },
+        {
+          "t": "The National",
+          "u": "https://thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war"
+        }
+      ]
+    },
+    {
+      "activo": "Bonos del Tesoro de EE. UU. (precio)",
+      "cambio": "TIR 10 años −6 pb (4,93 %)",
+      "por_que": "==Refugio frente a la venta de tecnología==, aunque la Fed sigue apuntando a una subida en diciembre.",
+      "fuentes": [
+        {
+          "t": "Bloomberg",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-30/treasuries-extend-rally-with-global-peers-on-tech-stock-selloff"
+        },
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html"
+        }
+      ]
+    },
+    {
+      "activo": "Sensex (India)",
+      "cambio": "+1,83 %",
+      "por_que": "Fuera de la cadena de la IA y ==poco expuesta a los chips==, aguantó la venta tecnológica; subió incluso el viernes (+0,42 %)."
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Bovespa (Brasil)",
+      "cambio": "−18,12 %",
+      "por_que": "==Lula ganó la segunda vuelta== contra un candidato al que el mercado veía más disciplinado con las cuentas públicas. El temor a más gasto y déficit sube los tipos a largo plazo y hunde a la banca, el consumo y Petrobras. Cayó los cinco días.",
+      "fuentes": [
+        {
+          "t": "InfoMoney",
+          "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+        },
+        {
+          "t": "B3 Bora Investir",
+          "u": "https://borainvestir.b3.com.br/noticias/mercado/apos-circuit-breaker-ibovespa-b3-recua-13-com-eleicao-no-foco-dolar-vai-a-r-540/"
+        }
+      ]
+    },
+    {
+      "activo": "Plata",
+      "cambio": "−8,59 % (49,1 $)",
+      "por_que": "Pierde los 50 $. ==Es metal industrial y refugio a la vez==: sufre por la duda sobre la demanda electrónica y por unos tipos reales más altos.",
+      "fuentes": [
+        {
+          "t": "MarketScreener",
+          "u": "https://www.marketscreener.com/news/gold-hits-four-month-low-silver-falls-below-50-oz-on-fed-hike-fears-ce785fdbde88f223"
+        }
+      ]
+    },
+    {
+      "activo": "Bitcoin",
+      "cambio": "−5,52 %",
+      "por_que": "El viernes se conoció ==el robo de unos 6.300 millones de dólares a Binance==, que se sumó a la menor apetencia por el riesgo.",
+      "fuentes": [
+        {
+          "t": "CNN",
+          "u": "https://edition.cnn.com/2026/10/30/investing/us-stocks-ai-investment"
+        },
+        {
+          "t": "Reuters vía Investing.com",
+          "u": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
+        }
+      ]
+    },
+    {
+      "activo": "Oro",
+      "cambio": "−2,72 % (3.899 $)",
+      "por_que": "==Tres bancos centrales apuntando a subir tipos== encarecen tener un activo sin cupón; el viernes además hubo ventas para cubrir pérdidas en bolsa.",
+      "fuentes": [
+        {
+          "t": "MarketScreener",
+          "u": "https://www.marketscreener.com/news/gold-hits-four-month-low-silver-falls-below-50-oz-on-fed-hike-fears-ce785fdbde88f223"
+        }
+      ]
+    },
+    {
+      "activo": "Shanghái Composite (China)",
+      "cambio": "−2,48 %",
+      "por_que": "==China queda fuera de la euforia de la IA estadounidense== (los controles a la exportación le vetan los chips avanzados) y sus semiconductores cayeron con fuerza el martes; no hubo estímulos nuevos."
+    },
+    {
+      "activo": "Nasdaq 100",
+      "cambio": "−1,98 %",
+      "por_que": "Subió el lunes y el martes con Anthropic, pero ==Alphabet (−12 %) e Intel (−28,6 %)== devolvieron la duda sobre el retorno del gasto en IA. Viernes: −3,46 %, peor día desde junio.",
+      "fuentes": [
+        {
+          "t": "CNN",
+          "u": "https://edition.cnn.com/2026/10/30/investing/us-stocks-ai-investment"
+        },
+        {
+          "t": "Reuters vía Investing.com",
+          "u": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
+        }
+      ]
+    },
+    {
+      "activo": "IBEX 35 (España)",
+      "cambio": "−1,77 % (18.653)",
+      "por_que": "==Pesa la banca==: Santander se dejó un 5,6 % el miércoles por Brasil y BBVA cayó tras sus cuentas. El negocio en Brasil de varias grandes compañías del índice también restó.",
+      "fuentes": [
+        {
+          "t": "XTB",
+          "u": "https://www.xtb.com/es/analisis-de-mercado/las-acciones-de-santander-se-desploman-un-4-despues-de-sus-resultados-del-tercer-trimestre-del-2026"
+        },
+        {
+          "t": "El Español (Invertia)",
+          "u": "https://www.elespanol.com/invertia/mercados/20261030/ibex-firma-segundo-mes-consecutivo-negativo-despide-octubre-debajo-caer/1003744441611_0.html"
+        }
+      ]
+    },
+    {
+      "activo": "Taiex (Taiwán)",
+      "cambio": "−1,80 %",
+      "por_que": "Recogida de beneficios en chips desde el jueves y ==−2,5 % el viernes== con Intel y AMD."
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Brasil tras la victoria de Lula",
+      "texto": "==Un resultado electoral que el mercado no esperaba== se tradujo en la mayor caída semanal del Bovespa en años. El mecanismo es fiscal: más gasto esperado → más déficit → ==tipos a largo plazo más altos y un real más débil==. Para quien invierte en euros, el golpe se multiplica porque se suma la caída de la divisa. Santander lo notó en el IBEX 35.",
+      "fuentes": [
+        {
+          "t": "InfoMoney",
+          "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+        },
+        {
+          "t": "B3 Bora Investir",
+          "u": "https://borainvestir.b3.com.br/noticias/mercado/apos-circuit-breaker-ibovespa-b3-recua-13-com-eleicao-no-foco-dolar-vai-a-r-540/"
+        }
+      ]
+    },
+    {
+      "tema": "Inteligencia artificial (IA): de la euforia a la duda",
+      "texto": "El lunes, el folleto de Anthropic mostró un crecimiento que ==tranquilizó sobre la demanda de IA==, y el miércoles SK Hynix confirmó márgenes récord en la memoria. Desde el jueves, los resultados de los grandes compradores cambiaron el foco: ==Alphabet con flujo de caja negativo por su inversión en centros de datos==, Amazon gastando más y vendiendo menos de lo esperado, e Intel con previsiones pobres. El razonamiento del mercado: si los grandes compradores moderan el gasto, ==los proveedores (chips, memoria, energía para centros de datos) son los más expuestos==.",
+      "fuentes": [
+        {
+          "t": "Fortune",
+          "u": "https://fortune.com/2026/10/27/anthropic-ipo-filing-lifts-asia-stocks-except-for-china/"
+        },
+        {
+          "t": "The Motley Fool",
+          "u": "https://www.fool.com/coverage/stock-market-today/2026/10/26/stock-market-today-oct-26-ai-optimism-lifts-nasdaq-as-tech-stocks-rebound/"
+        },
+        {
+          "t": "Benzinga",
+          "u": "https://www.benzinga.com/markets/equities/26/10/62706774/stock-market-today-alphabet-sinks-small-caps-rally-gdp-rotation"
+        },
+        {
+          "t": "Seeking Alpha vía TradingView",
+          "u": "https://www.tradingview.com/news/seekingalpha:81656203f094b:0-nasdaq-sheds-1-4-as-alphabet-s-historic-drop-rattles-the-markets-u-s-stocks-suffer/"
+        },
+        {
+          "t": "CNN",
+          "u": "https://edition.cnn.com/2026/10/30/investing/us-stocks-ai-investment"
+        },
+        {
+          "t": "Reuters vía Investing.com",
+          "u": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
+        }
+      ]
+    },
+    {
+      "tema": "Bancos centrales: pausa con la vista en diciembre",
+      "texto": "==La Fed mantuvo el 3,75–4 % con dos votos a favor de subir==, y llamó «fuerte» al crecimiento. ==El BCE dejó la facilidad de depósito en el 2,50 %==, aunque Lagarde admitió que se debatió subir (y anunció que se irá en febrero de 2027). ==El BoJ mantuvo el 1,25 %== con un voto a favor de subir. Con la inflación en el 3,6 % (PCE) en EE. UU. y el 3,8 % en la zona euro, ==diciembre es la fecha probable de subidas en los tres==.",
+      "fuentes": [
+        {
+          "t": "CNN",
+          "u": "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
+        },
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-interest-rates-held-steady-in-split-vote-warsh-says-politics-played-no-role-ahead-of-midterm-elections-191946928.html"
+        },
+        {
+          "t": "FXStreet",
+          "u": "https://www.fxstreet.es/news/discurso-de-lagarde-la-trayectoria-de-los-tipos-es-bastante-clara-202610291420"
+        },
+        {
+          "t": "Infobae",
+          "u": "https://www.infobae.com/america/agencias/2026/10/29/lagarde-dice-que-el-bce-discutio-si-era-necesario-subir-los-tipos-de-interes/"
+        },
+        {
+          "t": "Invezz",
+          "u": "https://invezz.com/news/2026/10/30/nikkei-225-plunges-bank-of-japan-rate-decision/"
+        }
+      ]
+    },
+    {
+      "tema": "Irán y la energía",
+      "texto": "La diplomacia (contactos con Arabia Saudí, Turquía, Pakistán y la carta de JD Vance) frenó el crudo a principios de semana, pero ==los ataques hutíes contra Arabia Saudí y la amenaza de volver a atacar a Irán tras las elecciones del 3 de noviembre== lo devolvieron arriba el viernes. El gas europeo, más sensible por el invierno, ==sube casi un 11 %==.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+        },
+        {
+          "t": "The National",
+          "u": "https://thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "En EE. UU., ==las TIR bajaron en la semana pese a una Fed que apunta a subir==. La de 2 años cayó unos 8 pb hasta el jueves (4,61 %; FRED aún no tiene el viernes), la de 5 años 8 pb (4,72 %), la de 10 años 6 pb (4,93 %) y la de 30 años solo 1 pb (5,31 %). Dos fuerzas tiraron en sentidos opuestos. A la baja: ==la venta de tecnología empujó a comprar bonos como refugio== y una bolsa que cae endurece las condiciones financieras, lo que le hace parte del trabajo a la Fed (la probabilidad de subida en diciembre bajó de ~86 % a ~78 % el viernes). Al alza: ==el PIB fuerte (3,4 %), la inflación PCE en el 3,6 % y el crudo por encima de 100 $==. Por eso el tramo largo apenas bajó: ==el déficit y la inflación mantienen la prima por plazo==. El miércoles, tras la Fed, la curva llegó a empinarse (10 años +5 pb, al 5,05 %) antes de que Alphabet diera la vuelta a todo.\n\nEn la zona euro, ==el tramo largo quedó plano y el corto subió algo==: la TIR AAA a 10 años (≈ Bund) acabó el jueves en 3,37 %, igual que una semana antes, y la de 2 años subió 2 pb (3,01 %; el BCE aún no ha publicado el viernes). El mecanismo: ==el BCE no subió, pero dejó clara la dirección==, lo que sostiene los plazos cortos, mientras el refugio de final de semana y la caída del crudo a mitad de semana frenaron los largos. ==El diferencial de Francia con Alemania se movió entre ~153 y ~162 pb==: se estrechó el lunes porque Moody's no rebajó la nota y volvió a ampliarse porque sigue sin haber acuerdo sobre el presupuesto de 2027. España aguantó (prima de riesgo ~64 pb).",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "−8 pb hasta el jueves (4,61 %)",
+        "por_que": "El tramo ligado a la Fed: ==la Fed no subió y la bolsa en caída rebajó algo la apuesta por diciembre==, aunque sigue siendo lo más probable."
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−6 pb (4,93 %)",
+        "por_que": "==Refugio frente a la venta de chips==, mínimo de un mes. Octubre deja la mayor bajada mensual desde diciembre de 2023.",
+        "fuentes": [
+          {
+            "t": "Bloomberg",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-30/treasuries-extend-rally-with-global-peers-on-tech-stock-selloff"
+          },
+          {
+            "t": "CNBC",
+            "u": "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "−1 pb (5,31 %)",
+        "por_que": "Casi quieto: ==el crudo caro y el déficit mantienen la prima por plazo==."
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "0 pb hasta el jueves (3,37 %)",
+        "por_que": "==Un BCE que apunta a subir compensó el refugio== y el crudo más barato de mitad de semana.",
+        "fuentes": [
+          {
+            "t": "FXStreet",
+            "u": "https://www.fxstreet.es/news/discurso-de-lagarde-la-trayectoria-de-los-tipos-es-bastante-clara-202610291420"
+          },
+          {
+            "t": "Infobae",
+            "u": "https://www.infobae.com/america/agencias/2026/10/29/lagarde-dice-que-el-bce-discutio-si-era-necesario-subir-los-tipos-de-interes/"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "+2 pb hasta el jueves (3,01 %)",
+        "por_que": "El tramo corto ==descuenta una subida del BCE en diciembre==."
+      },
+      {
+        "bono": "Diferencial Francia–Alemania",
+        "cambio": "≈ 153–162 pb en la semana",
+        "por_que": "Alivio por Moody's el lunes y ==vuelta de la presión por el presupuesto de 2027== desde el martes.",
+        "fuentes": [
+          {
+            "t": "Action Forex",
+            "u": "https://www.actionforex.com/action-insight/market-overview/658904-euro-weakest-as-french-bond-spreads-widen-again-australian-cpi-and-uk-budget-next/"
+          },
+          {
+            "t": "Seeking Alpha",
+            "u": "https://seekingalpha.com/article/4957479-moodys-france-peripheral-premiums-narrower-euro-struggles-to-find-traction"
+          }
+        ]
+      },
+      {
+        "bono": "Crédito de alto rendimiento EE. UU. (diferencial HY)",
+        "cambio": "−12 pb hasta el jueves (3,26 %)",
+        "por_que": "Se estrechó con la bolsa al alza a principios de semana y ==volvió a ampliarse el jueves== (+12 pb) con Alphabet."
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Bloomberg",
+        "u": "https://www.bloomberg.com/news/articles/2026-10-30/treasuries-extend-rally-with-global-peers-on-tech-stock-selloff"
+      },
+      {
+        "t": "CNBC",
+        "u": "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html"
+      },
+      {
+        "t": "FXStreet",
+        "u": "https://www.fxstreet.es/news/discurso-de-lagarde-la-trayectoria-de-los-tipos-es-bastante-clara-202610291420"
+      },
+      {
+        "t": "Infobae",
+        "u": "https://www.infobae.com/america/agencias/2026/10/29/lagarde-dice-que-el-bce-discutio-si-era-necesario-subir-los-tipos-de-interes/"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "==Aviso de datos==: el ranking va del VL del día 23 al último disponible, y ==para la mayoría de fondos aún falta el VL del viernes 30==, así que ==no recoge la caída tecnológica del viernes== (en los fondos con dato, la renta variable cayó un 0,99 % ese día). Con esa salvedad, la mediana de renta variable sube un 1,22 % (1.671 fondos), la de mixtos un 0,49 %, la de renta fija un 0,32 % (por la bajada de las TIR), la de monetarios un 0,05 % y la de materias primas e inmobiliario cae un 0,93 %. ==La semana tiene un claro perdedor: Brasil y Latinoamérica (−15 a −29 %)==, con todos los fondos de la región en el fondo de la tabla, incluido el Amundi Latin America. Arriba, ==los fondos ligados a la IA de lunes a miércoles== (espacio, energía para centros de datos, chips), ==biotecnología y pequeñas compañías de EE. UU.== (+6 a +7,5 %). El euro bajó un 0,4 % frente al dólar hasta el jueves, así que ==el efecto divisa sumó algo a las clases en dólares== (UBS Biotech: +7,36 % en euros, +6,75 % en dólares); el viernes el euro recuperó un 0,38 %.",
+    "suben": [
+      {
+        "isin": "LU2466448532",
+        "por_que": "Fondo del ==sector espacial: Rocket Lab, SpaceX, MDA Space, Viasat, Planet Labs==. Subió con fuerza el lunes y el martes con el apetito por la tecnología de crecimiento tras el folleto de Anthropic; aún sin el VL del viernes."
+      },
+      {
+        "isin": "LU0823414635",
+        "por_que": "Pese al nombre de energía limpia, ==sus mayores posiciones son SK Hynix y Samsung==, junto a First Solar, Cameco y Vertiv: es una apuesta por la ==demanda eléctrica y de memoria de la IA==. Por eso ganó con el beneficio récord de SK Hynix (Kospi +6,6 % el miércoles). Disponible también en ABANCA."
+      },
+      {
+        "isin": "IE0006TUI4G7",
+        "por_que": "«Energía inteligente» que en la práctica son ==semiconductores y óptica para centros de datos (Lumentum, Marvell, Coherent, Corning)==. Mismo motor que el anterior; ojo, el viernes Lumentum y los chips cayeron con fuerza y aún no está en el dato."
+      },
+      {
+        "isin": "LU0069152568",
+        "por_que": "Biotecnología (Vertex, Moderna, Insmed, Gilead): ==la rotación hacia la salud== y los resultados de Eli Lilly del jueves. En dólares; ==el euro más débil sumó unos 0,6 puntos== (+6,75 % en dólares)."
+      },
+      {
+        "isin": "LU1339879832",
+        "por_que": "Pequeñas compañías de EE. UU., ==con mucha biotecnología y diagnóstico== (Repligen, Natera, Guardant): gana por partida doble con la rotación hacia las pequeñas (Russell 2000 +1,29 %) y hacia la salud. Cubierto a euros."
+      },
+      {
+        "isin": "LU0255977455",
+        "por_que": "Biotecnología (Vertex, Insmed, Revolution Medicines, argenx): ==la salud fue refugio== cuando se vendía tecnología y, además, la bajada de las TIR favorece a empresas cuyo valor depende de beneficios lejanos."
+      },
+      {
+        "isin": "LU2809794220",
+        "por_que": "Tecnología con ==mucho chip y memoria asiática (TSMC, Nvidia, SK Square, SK Hynix)==: recoge el rally de la memoria de mitad de semana. Es de los más expuestos a la caída del viernes, aún no incluida."
+      },
+      {
+        "isin": "NO0013528356",
+        "por_que": "Defensa europea (Melrose, MTU, Rolls-Royce, Kongsberg, Thales, Rheinmetall): ==Europa industrial fue la ganadora de la semana== y el riesgo de reanudar la guerra con Irán sostiene al sector."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU0265313147",
+        "por_que": "Bolsa de Brasil en clase en dólares: ==−29,4 % en dólares y −29,0 % en euros==. Es el peor de la semana por ==la victoria de Lula== (Bovespa −18,1 %) y la caída del real frente al dólar. Disponible en ABANCA."
+      },
+      {
+        "isin": "LU0616856935",
+        "por_que": "Brasil en euros: ==la caída del Bovespa más la del real==. La parte de banca y consumo, las más sensibles a unos tipos a largo plazo más altos, fue la que más cayó."
+      },
+      {
+        "isin": "IE00BB7N4179",
+        "por_que": "Brasil (Petrobras, Bradesco, Nu Holdings, Embraer, Vale). Su cobertura es del dólar frente al euro, ==no del real, así que no le protege de la caída de la divisa brasileña==. Petrobras sufrió por el temor a una gestión más política."
+      },
+      {
+        "isin": "LU0551369712",
+        "por_que": "Brasil en euros: mismo motivo. Cae algo menos que sus competidores (−22,3 %), quizá por tener menos banca y consumo interno."
+      },
+      {
+        "isin": "LU0171289498",
+        "por_que": "Latinoamérica con ==mucho Brasil (Vale, XP, Nu, Itaú, Sendas)==, aunque también México (Banorte, Walmex) y Southern Copper. El peso de Brasil explica casi todo el −20 %."
+      },
+      {
+        "isin": "LU0492943443",
+        "por_que": "Latinoamérica en dólares: ==−18,4 % en su divisa==; el efecto divisa fue mínimo."
+      },
+      {
+        "isin": "LU0592650328",
+        "por_que": "Latinoamérica: ==Brasil suele pesar en torno a la mitad== de estos fondos, así que la caída del Bovespa y del real arrastra a toda la categoría (−15 a −20 %)."
+      },
+      {
+        "isin": "LU0552029406",
+        "por_que": "Fondo del cluster «Robin Brooks» del usuario: ==Latinoamérica con Brasil como primer país==, así que cae un 16,9 % por el mismo motivo que el resto de la región."
+      }
+    ],
+    "por_clase": [
+      {
+        "clase": "Renta variable",
+        "texto": "Mediana +1,22 % hasta el jueves (casi sin el viernes): ==ganan IA y salud, pierde Latinoamérica==."
+      },
+      {
+        "clase": "Renta fija",
+        "texto": "Mediana +0,32 %: ==la bajada de las TIR en EE. UU.== revaloriza los bonos ya en cartera; la deuda brasileña en moneda local es la excepción (Bradesco Brazilian Fixed Income, −10,5 %, marcado como dudoso)."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-11-02",
+      "evento": "Índice ISM manufacturero de octubre en EE. UU.",
+      "por_que_importa": "Primer dato de actividad tras la venta tecnológica; ==un dato débil reforzaría la bajada de las TIR==."
+    },
+    {
+      "fecha": "2026-11-03",
+      "evento": "Elecciones de mitad de mandato en EE. UU.",
+      "por_que_importa": "Según la prensa, ==tras ellas podría reanudarse la campaña militar contra Irán==: el gran riesgo para el crudo, el gas y la inflación."
+    },
+    {
+      "fecha": "2026-11-04",
+      "evento": "IPCA preliminar de octubre en la zona euro (fecha según calendario)",
+      "por_que_importa": "Con la inflación en el 3,8 %, ==un dato alto afianzaría la subida del BCE en diciembre== y empujaría al alza el euríbor."
+    },
+    {
+      "fecha": "2026-11-06",
+      "evento": "Empleo de octubre en EE. UU.",
+      "por_que_importa": "Un mercado laboral fuerte reforzaría la subida de la Fed en diciembre y movería la TIR a 2 años."
+    },
+    {
+      "fecha": "2026-11-02",
+      "evento": "VL de los fondos del viernes 30",
+      "por_que_importa": "Cuando se publiquen, ==los fondos de tecnología y chips devolverán parte de lo ganado== en esta tabla semanal."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se mantiene hasta su vencimiento. Sube cuando su precio baja."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: 0,01 puntos porcentuales."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "BoJ",
+      "def": "Banco de Japón."
+    },
+    {
+      "sigla": "SOX",
+      "def": "Índice de semiconductores de Filadelfia."
+    },
+    {
+      "sigla": "PCE",
+      "def": "Gasto en consumo personal: la medida de inflación que prefiere la Fed."
+    },
+    {
+      "sigla": "PIB",
+      "def": "Producto interior bruto."
+    },
+    {
+      "sigla": "IPCA",
+      "def": "Índice de precios de consumo armonizado de la zona euro."
+    },
+    {
+      "sigla": "ISM",
+      "def": "Instituto de Gestión de Suministros: encuestas de actividad en EE. UU."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Mercado de referencia del gas natural en Europa, en €/MWh."
+    },
+    {
+      "sigla": "HY",
+      "def": "Alto rendimiento (high yield): bonos de empresas con peor calificación crediticia."
+    },
+    {
+      "sigla": "FRED",
+      "def": "Base de datos económicos de la Reserva Federal de San Luis."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: el precio de una participación de un fondo."
+    }
+  ],
+  "generado": "2026-10-31T10:45"
+}

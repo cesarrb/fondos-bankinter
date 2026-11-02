@@ -1,0 +1,468 @@
+{
+  "periodo": "diario",
+  "clave": "2026-10-30",
+  "fase": "completo",
+  "titulo": "Intel y Amazon reavivan el miedo al gasto en IA: el Nasdaq 100 cae un 3,5 %",
+  "resumen": "Octubre se cerró con una fuerte venta de tecnología. Tras Alphabet el jueves, ==Intel se hundió un 28,6 % por unas cuentas y unas previsiones flojas==: avisó de que el negocio de PC se debilita y de cuellos de botella en sus fábricas. Amazon también defraudó en ventas y beneficio y volvió a subir su gasto en inteligencia artificial (IA), aunque acabó solo con −1,4 % tras abrir mucho peor. El mercado sigue con la misma duda: ==¿cuándo dará dinero tanta inversión en centros de datos?== Los chips se llevaron la peor parte: el índice de semiconductores de Filadelfia (SOX) perdió un 7,2 % (Nvidia −4,2 %, AMD −10,9 %). Resultado: ==Nasdaq 100 −3,46 %==, su peor día desde junio, S&P 500 −1,82 % (7.580) y Dow Jones −1,09 %. El VIX subió un 12,9 % (19,4).\n\nAsia ya había recibido el golpe de Alphabet. ==El KOSPI coreano cayó un 3,5 %== (SK Hynix −7 %), con una pausa automática de las órdenes de venta en los futuros, y Taiwán bajó un 2,5 %. El Nikkei perdió un 2,1 % pese a que el Banco de Japón (BoJ) mantuvo los tipos en el 1,25 %, como se esperaba, aunque dejó la puerta abierta a subirlos en diciembre. ==Hong Kong fue la excepción (+1,46 %)==: rebotaron sus tecnológicas chinas, ya muy castigadas, mientras la bolsa de Shanghái cayó un 1,4 % y cerró su segunda semana de pérdidas (−2,5 %).\n\nEuropa, con poca tecnología de IA, aguantó mejor: ==Stoxx 600 −0,36 %== y CAC 40 plano, aunque el EuroStoxx 50 (−1,22 %) sufrió por ASML y los chips. El FTSE 100 (+0,07 %) y el SMI suizo (+0,36 %) cerraron en positivo gracias a la energía y a las farmacéuticas. ==El IBEX 35 cayó un 1,09 % (18.653)== por la banca y cerró octubre con una pérdida cercana al 4 %, su peor mes desde marzo. En cambio, el Stoxx 600 tuvo su mejor mes desde junio.\n\nLa huida hacia la seguridad favoreció a los bonos: ==la TIR (tasa interna de rentabilidad) del bono a 10 años de EE. UU. bajó 6 pb (4,93 %)==, en mínimos de un mes. Sin embargo, ==el oro no hizo de refugio: −3,3 %== (3.899 $), su mínimo desde octubre de 2025, y la plata −5,9 % (49,1 $). Pesaron las ventas para cubrir pérdidas en bolsa y el temor a que el crudo caro obligue a la Reserva Federal (Fed) a subir los tipos. En las materias primas, el gas europeo TTF subió un 5,4 % y ==el Brent un 2,4 % (117,6 $)== por el riesgo de que se reanude la guerra con Irán, mientras el uranio (ETF URA) cayó un 5,6 % con el resto de temas ligados a la IA. El bitcoin cedió un 1,5 % tras el robo de unos 6.300 millones de dólares a Binance.",
+  "claves": [
+    "==Intel −28,6 % y Amazon decepciona==: reaparece la duda sobre la rentabilidad del gasto en IA y el Nasdaq 100 cae un 3,46 %.",
+    "==Los chips, epicentro==: el SOX pierde un 7,2 % en el día y más de un 15 % en octubre; KOSPI −3,5 % y Taiwán −2,5 %.",
+    "Europa resiste (Stoxx 600 −0,36 %) por su poca tecnología, pero ==el IBEX 35 cae un 1,09 % y cierra su peor mes desde marzo==.",
+    "==Los bonos hacen de refugio==: la TIR del 10 años de EE. UU. baja 6 pb (4,93 %), aunque una subida de la Fed en diciembre sigue siendo lo más probable (~78 %).",
+    "==El oro (−3,3 %) y la plata (−5,9 %) no hacen de refugio==: ventas para cubrir pérdidas y temor a una Fed más dura.",
+    "El BoJ mantiene el 1,25 % y apunta a subirlos en diciembre; ==el Brent sube un 2,4 % por el riesgo iraní==."
+  ],
+  "suben": [
+    {
+      "activo": "Hang Seng (Hong Kong)",
+      "cambio": "+1,46 %",
+      "por_que": "Rebote técnico de las tecnológicas chinas, que ya habían caído casi un 3 % el jueves. Las grandes plataformas chinas gastan mucho menos en IA que las estadounidenses, así que ==el miedo al gasto en IA les afecta menos==. Shanghái, en cambio, siguió cayendo.",
+      "fuentes": [
+        {
+          "t": "The Standard (HK)",
+          "u": "https://www.thestandard.com.hk/finance/article/347005/Hang-Seng-Index-jumps-at-noon-on-Friday"
+        }
+      ]
+    },
+    {
+      "activo": "Gas europeo TTF",
+      "cambio": "+5,43 % (103,9 €/MWh)",
+      "por_que": "Sube un 10,8 % en la semana. ==Pesa el riesgo de que se reanude la guerra con Irán tras las elecciones del 3 de noviembre en EE. UU.== y el invierno se acerca con poco margen de oferta. Sin un detonante único hoy.",
+      "fuentes": []
+    },
+    {
+      "activo": "Bonos del Tesoro de EE. UU. (precio)",
+      "cambio": "TIR 10 años −6 pb (4,93 %)",
+      "por_que": "==Refugio clásico==: al caer la bolsa, el dinero se pasa a la deuda pública. Octubre deja la mayor bajada mensual de la TIR a 10 años desde diciembre de 2023.",
+      "fuentes": [
+        {
+          "t": "Bloomberg",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-30/treasuries-extend-rally-with-global-peers-on-tech-stock-selloff"
+        }
+      ]
+    },
+    {
+      "activo": "Euro/dólar",
+      "cambio": "+0,38 % (1,117)",
+      "por_que": "El dólar se debilitó un poco porque ==la bajada de las TIR de EE. UU. le resta atractivo==, y el euro se apoya en la expectativa de que el BCE suba los tipos en diciembre. Para quien invierte en euros, esto ==resta algo de rentabilidad a los fondos en dólares sin cubrir==.",
+      "fuentes": [
+        {
+          "t": "Trader Factor",
+          "u": "https://traderfactor.com/dollar-softens-as-boj-holds-hot-pce/"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo (Brent y WTI)",
+      "cambio": "+2,40 % (117,6 $) / +2,08 % (104,1 $)",
+      "por_que": "El crudo sube por ==el riesgo de que se reanude la guerra con Irán== tras las elecciones del 3 de noviembre. ==Exxon y Chevron batieron previsiones== gracias a los márgenes que dejan los cortes de suministro. Un crudo más caro alimenta la inflación esperada y, con ella, la subida de la Fed.",
+      "fuentes": [
+        {
+          "t": "Reuters vía Investing.com",
+          "u": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
+        }
+      ]
+    },
+    {
+      "activo": "SMI (Suiza) y FTSE 100 (Reino Unido)",
+      "cambio": "+0,36 % / +0,07 %",
+      "por_que": "==Índices defensivos==, con mucho peso en farmacéuticas, consumo y energía. En días de venta tecnológica reciben el dinero que sale de los chips.",
+      "fuentes": [
+        {
+          "t": "El Boletín",
+          "u": "https://www.elboletin.com/las-bolsas-europeas-cierran-mixtas-la-tecnologia-castiga-al-stoxx-600-y-londres-resiste/"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Nasdaq 100",
+      "cambio": "−3,46 % (28.385)",
+      "por_que": "Intel (−28,6 %) presentó previsiones débiles y Amazon decepcionó mientras sigue subiendo su gasto en IA. ==El mercado castiga a quien gasta mucho sin ver todavía el retorno==. El Nasdaq Compuesto queda un 7,8 % por debajo de su máximo del 6 de octubre.",
+      "fuentes": [
+        {
+          "t": "Reuters vía Investing.com",
+          "u": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
+        },
+        {
+          "t": "CNN",
+          "u": "https://edition.cnn.com/2026/10/30/investing/us-stocks-ai-investment"
+        }
+      ]
+    },
+    {
+      "activo": "KOSPI (Corea)",
+      "cambio": "−3,48 %",
+      "por_que": "==Es la bolsa más expuesta a la memoria para IA==: SK Hynix −7 % y Samsung −3 %. Si Alphabet y compañía moderan su gasto en centros de datos, los chips de memoria HBM (memoria de alto ancho de banda) son los primeros en notarlo. Se activó una pausa automática de las ventas en los futuros.",
+      "fuentes": [
+        {
+          "t": "Korea JoongAng Daily",
+          "u": "https://www.koreajoongangdaily.com/business/kospi-plunges-35-percent-as-ai-doubts-hammer-korean-chip-auto-stocks/12947570"
+        },
+        {
+          "t": "Seoul Economic Daily",
+          "u": "https://en.sedaily.com/news/2026/10/30/kospi-plunges-35-percent-on-alphabet-shock-samsung-chip"
+        }
+      ]
+    },
+    {
+      "activo": "Plata",
+      "cambio": "−5,86 % (49,1 $)",
+      "por_que": "Pierde los 50 $ por primera vez en casi un año. ==Funciona como metal industrial y como refugio a la vez==, así que cae por partida doble: ventas para cubrir pérdidas en bolsa y menos demanda esperada de la industria electrónica.",
+      "fuentes": [
+        {
+          "t": "The Globe and Mail",
+          "u": "https://www.theglobeandmail.com/investing/article-even-safe-haven-gold-hasnt-escaped-todays-tech-rout/"
+        }
+      ]
+    },
+    {
+      "activo": "Oro",
+      "cambio": "−3,29 % (3.899 $)",
+      "por_que": "Mínimo desde octubre de 2025. ==Una Fed que sube tipos encarece no tener oro==, porque el oro no da intereses, y el crudo caro alimenta ese temor. A eso se suman las ventas para cubrir pérdidas en bolsa.",
+      "fuentes": [
+        {
+          "t": "MarketScreener",
+          "u": "https://www.marketscreener.com/news/gold-hits-four-month-low-silver-falls-below-50-oz-on-fed-hike-fears-ce785fdbde88f223"
+        }
+      ]
+    },
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "−2,12 %",
+      "por_que": "==Arrastrado por sus tecnológicas== (Kioxia, SoftBank, Advantest). El BoJ mantuvo el 1,25 % y anunció que desde enero venderá más del doble de ETF de bolsa cada año, una presión vendedora pequeña pero constante.",
+      "fuentes": [
+        {
+          "t": "Invezz",
+          "u": "https://invezz.com/news/2026/10/30/nikkei-225-plunges-bank-of-japan-rate-decision/"
+        }
+      ]
+    },
+    {
+      "activo": "S&P 500",
+      "cambio": "−1,82 % (7.580)",
+      "por_que": "El peso de las grandes tecnológicas lo hunde, aunque menos que al Nasdaq porque ==la energía y las defensivas compensan en parte==. Cierra octubre en negativo.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html"
+        }
+      ]
+    },
+    {
+      "activo": "IBEX 35",
+      "cambio": "−1,09 % (18.653)",
+      "por_que": "Cae más que el Stoxx 600 por ==el peso de la banca==, que sufre cuando bajan las TIR (menos margen esperado). Le sigue lastrando el castigo a BBVA tras resultados. Cierra octubre con −3,9 %.",
+      "fuentes": [
+        {
+          "t": "El Español (Invertia)",
+          "u": "https://www.elespanol.com/invertia/mercados/20261030/ibex-firma-segundo-mes-consecutivo-negativo-despide-octubre-debajo-caer/1003744441611_0.html"
+        }
+      ]
+    },
+    {
+      "activo": "Uranio (ETF URA)",
+      "cambio": "−5,57 %",
+      "por_que": "Las mineras de uranio y las nucleares cotizan como ==una apuesta por la demanda eléctrica de los centros de datos de IA==, así que caen con los chips cuando se duda de ese gasto.",
+      "fuentes": []
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Dudas sobre el retorno del gasto en IA",
+      "texto": "Tres días seguidos de resultados que ==ponen la lupa en el coste de la IA==: Alphabet con flujo de caja negativo, Amazon decepcionando y subiendo aún más su inversión, e Intel con unas previsiones pobres. La lógica del mercado es que, si las grandes plataformas acaban moderando el gasto, ==los más castigados serán los proveedores (chips, memoria)==. Por eso el SOX cae un 7,2 % y Corea y Taiwán sufren más que nadie. El Nasdaq vive su peor mes en más de un año.",
+      "fuentes": [
+        {
+          "t": "CNN",
+          "u": "https://edition.cnn.com/2026/10/30/investing/us-stocks-ai-investment"
+        },
+        {
+          "t": "Finimize",
+          "u": "https://finimize.com/content/wall-street-took-another-hard-look-at-ai-spending"
+        }
+      ]
+    },
+    {
+      "tema": "Banco de Japón (BoJ)",
+      "texto": "==Mantuvo los tipos en el 1,25 % por 8 votos a 1== (Takata votó por subir al 1,5 %). Kazuo Ueda considera que la inflación de fondo ya está en el objetivo, lo que ==abre la puerta a subir en diciembre==. Además, desde enero de 2027 más que duplicará el ritmo de venta de los ETF de bolsa que tiene en cartera. El yen apenas se movió (157,6 por dólar).",
+      "fuentes": [
+        {
+          "t": "Invezz",
+          "u": "https://invezz.com/news/2026/10/30/nikkei-225-plunges-bank-of-japan-rate-decision/"
+        },
+        {
+          "t": "Equiti",
+          "u": "https://equiti.com/sc-en/news/market-insights/bank-of-japan-rate-decision-december-2026-inflation"
+        }
+      ]
+    },
+    {
+      "tema": "Refugios que no funcionan igual",
+      "texto": "Los bonos sí hicieron de refugio, ==pero el oro y la plata no==. Cuando la bolsa cae con fuerza, algunos inversores venden lo que tiene ganancias (el oro sube mucho en el año) para cubrir pérdidas o garantías. Además, ==el crudo por encima de 100 $ mantiene viva la subida de la Fed==, y unos tipos más altos perjudican a un activo que no paga intereses.",
+      "fuentes": [
+        {
+          "t": "The Globe and Mail",
+          "u": "https://www.theglobeandmail.com/investing/article-even-safe-haven-gold-hasnt-escaped-todays-tech-rout/"
+        }
+      ]
+    },
+    {
+      "tema": "Cripto: robo a Binance",
+      "texto": "Según la prensa, unos piratas informáticos robaron ==unos 6.300 millones de dólares a Binance==, el mayor mercado de criptomonedas. El bitcoin bajó un 1,5 % (−5,5 % en la semana), y Coinbase, Strategy y Robinhood cayeron entre un 7 % y un 11 %.",
+      "fuentes": [
+        {
+          "t": "Reuters vía Investing.com",
+          "u": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "En EE. UU., ==los bonos subieron de precio y las TIR bajaron por la huida hacia la seguridad==: con el Nasdaq cayendo un 3,5 %, el dinero buscó deuda pública. La TIR a 10 años bajó 6 pb (4,93 %) y la de 5 años 8 pb (4,72 %), ambas en mínimos de un mes. La de 30 años solo cedió 2 pb (5,31 %): ==el tramo largo baja menos porque pesan el déficit y el crudo caro==, que exigen más prima por plazo. Además, la bajada se frenó por la tarde al subir el petróleo. El mercado redujo algo la probabilidad de que la Fed suba en diciembre: ==del ~86 % al ~78 %==, porque una bolsa en caída endurece las condiciones financieras y le hace parte del trabajo a la Fed. Aun así, sigue siendo lo más probable, porque la inflación PCE del jueves fue alta (3,6 %). La base de datos FRED (de la Fed de San Luis) todavía no ha publicado la TIR a 2 años de hoy (el jueves bajó 6 pb, al 4,61 %); por los 5 años, hoy debió bajar otros 6–8 pb.\n\nEn la zona euro, el Banco Central Europeo (BCE) aún no ha publicado la curva de hoy (el jueves, AAA 10 años −2 pb al 3,37 % y 2 años −5 pb al 3,01 %, tras la reunión del BCE). Según la prensa, ==la deuda europea acompañó al Tesoro de EE. UU.== por el mismo refugio, aunque con menos fuerza: el BCE ve probable subir en diciembre con la inflación en el 3,8 %, y eso frena las bajadas de TIR en los plazos cortos. El diferencial de Francia sigue alto (165–175 pb, según la fuente). El dato preliminar del IPCA (índice de precios de consumo armonizado) de octubre, que se publicará la semana que viene, será clave para el euríbor.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "−6 pb el jueves (4,61 %); hoy sin dato de FRED",
+        "por_que": "Es el tramo más ligado a la Fed: baja porque ==la venta en bolsa reduce algo la probabilidad de subida en diciembre== (~78 %)."
+      },
+      {
+        "bono": "EE. UU. 5 años",
+        "cambio": "−8 pb (4,72 %)",
+        "por_que": "El tramo que más baja: ==recoge a la vez el refugio y una Fed algo menos dura==."
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "−6 pb (4,93 %)",
+        "por_que": "Huida hacia la seguridad por la venta de chips. Octubre deja ==la mayor bajada mensual desde diciembre de 2023==.",
+        "fuentes": [
+          {
+            "t": "investingLive",
+            "u": "https://investinglive.com/news/some-good-news-treasuries-rally-as-ai-selloff-drives-flight-to-safety-10-year-yield-at-one-month-low/"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "−2 pb (5,31 %)",
+        "por_que": "Apenas se mueve: ==el crudo caro y el déficit mantienen la prima por plazo==."
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "−2 pb el jueves (3,37 %); hoy sin dato del BCE",
+        "por_que": "Según la prensa, bajó también hoy por el refugio global, ==frenado por la probable subida del BCE en diciembre==.",
+        "fuentes": [
+          {
+            "t": "Bloomberg",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-30/treasuries-extend-rally-with-global-peers-on-tech-stock-selloff"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "−5 pb el jueves (3,01 %)",
+        "por_que": "Bajó tras la reunión del BCE (mantuvo los tipos sin dar por hecha la subida). Hoy no hay dato."
+      },
+      {
+        "bono": "Diferencial Francia–Alemania",
+        "cambio": "≈ 165–175 pb (sin cambio relevante)",
+        "por_que": "Sigue alto por el riesgo político y fiscal en Francia. ==Hoy no hubo noticias nuevas== que lo movieran.",
+        "fuentes": [
+          {
+            "t": "Reuters vía Investing.com",
+            "u": "https://www.investing.com/news/economy-news/ecb-keeps-rates-unchanged-euro-slips-4984045"
+          }
+        ]
+      },
+      {
+        "bono": "Crédito de alto rendimiento EE. UU. (diferencial HY)",
+        "cambio": "+12 pb el jueves (3,26 %)",
+        "por_que": "==El diferencial se amplía cuando cae la bolsa==: se exige más prima por el riesgo de impago. Hoy probablemente se amplió algo más (FRED aún no lo ha publicado)."
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Bloomberg",
+        "u": "https://www.bloomberg.com/news/articles/2026-10-30/treasuries-extend-rally-with-global-peers-on-tech-stock-selloff"
+      },
+      {
+        "t": "Yahoo Finance",
+        "u": "https://finance.yahoo.com/markets/stocks/articles/10-yield-just-fell-below-111507754.html"
+      },
+      {
+        "t": "FXStreet",
+        "u": "https://www.fxstreet.com/analysis/european-central-bank-faces-3-year-high-inflation-at-38-202610301539"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Los fondos reflejan el ==castigo a los chips y al oro, y el refugio en salud y estilo «value»==. Con VL (valor liquidativo) del día de 1.425 fondos (ninguno de ABANCA; faltan muchos por publicar), la mediana de renta variable cayó un 0,99 %, la de mixtos un 0,52 %, la de alternativos un 0,22 % y ==la renta fija quedó plana (0,00 %)==: la bajada de las TIR en EE. UU. no llegó a la deuda en euros, donde el BCE con una subida probable en diciembre frena las bajadas. Abajo dominan ==la tecnología con mucho semiconductor y memoria (−4 a −7 %)==, por Intel (−28,6 %), AMD (−10,9 %) y el SOX (−7,2 %), y ==los fondos de mineras de oro (−4,7 a −5,3 %)==, que amplifican la caída del metal. Arriba, nada de tecnología: ==salud (+1,4 a +1,6 %), petroleras y refino, y fondos «value» y de dividendo== (tres de la familia CROCI de DWS). ==El efecto divisa restó unos 0,4 puntos== a las clases en dólares sin cubrir, porque el euro subió un 0,38 % (1,117): por eso los fondos cubiertos a euros (EUR H) suben algo más, o caen algo menos, que sus gemelos sin cubrir. Ojo con los ==«value» que suben un 1,6–2,8 % un día en que el S&P 500 cayó un 1,8 %==: cuadra con su cartera, pero la cifra es alta y puede recoger un VL desfasado.",
+    "suben": [
+      {
+        "isin": "LU1278917452",
+        "por_que": "Cartera «value» casi a partes iguales entre ==energía (Valero, Marathon Petroleum, Phillips 66, Devon, EOG), farmacia (Pfizer, Bristol-Myers, Viatris) y consumo básico==: justo lo que entró por la rotación y el crudo +2,4 %, con las refinerías ganando por márgenes. Aun así, ==+2,8 % es mucho== (más que cualquier sector del S&P 500) y no tenemos su VL de los días 28 y 29: puede acumular más de un día."
+      },
+      {
+        "isin": "IE00B9CMBW59",
+        "por_que": "Fondo de dividendo cubierto a euros (sin efecto divisa) con ==mucha salud (24 %: Gilead, UnitedHealth, Elevance, GSK, AstraZeneca)== y defensivas, y casi sin chips. Gana con la rotación hacia valores estables que reparten dividendo."
+      },
+      {
+        "isin": "LU1769942407",
+        "por_que": "Mismo método CROCI de DWS que el primero, aplicado a EE. UU.: compra las empresas más baratas por beneficio real, que ==hoy son energía, farmacia y consumo, no tecnología==. Sube un 1,66 % en euros pese a que el euro restaba unos 0,4 puntos: ==cifra llamativa== frente al −1,8 % del S&P 500."
+      },
+      {
+        "isin": "LU1769943983",
+        "por_que": "Versión de dividendo global del método CROCI: ==sesgo a energía, farmacia y consumo básico==, los sectores que subieron mientras caía la tecnología."
+      },
+      {
+        "isin": "LU1822774284",
+        "por_que": "Salud cubierta a euros: ==Eli Lilly, Johnson & Johnson, AbbVie, Merck, Roche, Novartis==. Las farmacéuticas son el refugio clásico dentro de la bolsa cuando se vende tecnología (el SMI suizo subió un 0,36 %), y siguen el impulso de los resultados de Lilly del jueves."
+      },
+      {
+        "isin": "LU0880062913",
+        "por_que": "Cartera parecida al anterior (Lilly, AbbVie, J&J, Merck), pero ==sin cubrir el dólar==: sube algo menos (+1,42 %) porque el euro al alza le resta unos 0,4 puntos."
+      },
+      {
+        "isin": "LU1775952333",
+        "por_que": "Salud global en dólares: ==+1,72 % en su moneda y +1,34 % en euros==; la diferencia es el efecto divisa de la subida del euro."
+      },
+      {
+        "isin": "LU2399670947",
+        "por_que": "Fondo «value» de Schroders (estrategia de recuperación): ==compra empresas baratas y castigadas, con poca tecnología de IA==, así que se beneficia de la rotación de estilo del día."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU1861216510",
+        "por_que": "El más expuesto a lo que cayó: ==Lumentum, Nvidia, Micron, SanDisk, AMD (−10,9 %)== y otros proveedores de chips, memoria y óptica para centros de datos. Está cubierto a euros, así que el −7,1 % es caída pura de las acciones."
+      },
+      {
+        "isin": "LU1861559471",
+        "por_que": "Fondo de «innovación disruptiva» de estilo ARK, ==de mucha volatilidad==: suma tecnología cara y valores ligados a las criptomonedas (Coinbase y Robinhood cayeron entre un 7 % y un 11 % tras el robo a Binance)."
+      },
+      {
+        "isin": "LU1602119973",
+        "por_que": "Concentrado en chips: ==Nvidia (9,7 %), AMD (7,3 %), TSMC, Samsung, Intel (5,3 %, −28,6 % en el día)==, Broadcom, ASML y SK Hynix. Cubierto a euros."
+      },
+      {
+        "isin": "LU0252218424",
+        "por_que": "Tecnología global con ==mucho semiconductor y software de EE. UU.==: recoge la caída del Nasdaq 100 (−3,46 %) y del SOX (−7,2 %)."
+      },
+      {
+        "isin": "LU1223083087",
+        "por_que": "Mineras de oro (Agnico Eagle, Barrick, Newmont, AngloGold). ==Las mineras amplifican el movimiento del oro==: sus costes son casi fijos, así que una bajada del metal (−3,3 %) les recorta el margen en mayor proporción. Disponible también en ABANCA."
+      },
+      {
+        "isin": "LU2484078832",
+        "por_que": "Fondo de IA: ==Nvidia, TSMC, Alphabet, SK Hynix, Micron, Amazon==. Reúne a los protagonistas de las dudas sobre el gasto en IA de esta semana."
+      },
+      {
+        "isin": "LU0273159177",
+        "por_que": "Mineras de oro y metales preciosos (Newmont, Agnico Eagle, AngloGold): mismo mecanismo de ==apalancamiento al precio del oro y la plata (−5,9 %)==."
+      },
+      {
+        "isin": "LU2168317308",
+        "por_que": "Pese a su nombre de consumo, ==su mayor posición es Nebius (10,5 %), una nube para IA==, seguida de Amazon (9,7 %), Tesla y Micron: cae como un fondo tecnológico."
+      }
+    ],
+    "por_clase": []
+  },
+  "agenda": [
+    {
+      "fecha": "2026-11-02",
+      "evento": "Índice ISM manufacturero de octubre en EE. UU.",
+      "por_que_importa": "Será el primer dato de actividad tras la venta tecnológica. ==Un dato débil reforzaría la bajada de las TIR==."
+    },
+    {
+      "fecha": "2026-11-02",
+      "evento": "Continuidad de la venta de chips",
+      "por_que_importa": "Dirá si la caída de los semiconductores (−15 % en octubre) se estabiliza o continúa. Pesa mucho en los fondos de tecnología y de Asia emergente."
+    },
+    {
+      "fecha": "2026-11-03",
+      "evento": "Elecciones de mitad de mandato en EE. UU.",
+      "por_que_importa": "Según la prensa, ==tras ellas podría reanudarse la campaña militar contra Irán==: es el gran riesgo para el crudo, el gas y la inflación."
+    },
+    {
+      "fecha": "2026-11-04",
+      "evento": "IPCA preliminar de octubre en la zona euro (fecha según calendario)",
+      "por_que_importa": "Con la inflación en el 3,8 %, ==un dato alto afianzaría la subida del BCE en diciembre== y presionaría al alza el Bund y el euríbor."
+    },
+    {
+      "fecha": "2026-11-06",
+      "evento": "Empleo de octubre en EE. UU.",
+      "por_que_importa": "Un mercado laboral fuerte reforzaría la subida de la Fed en diciembre y movería la TIR a 2 años."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "SOX",
+      "def": "Índice de semiconductores de Filadelfia: las principales empresas de chips cotizadas en EE. UU."
+    },
+    {
+      "sigla": "HBM",
+      "def": "Memoria de alto ancho de banda: el tipo de memoria que usan los chips de IA (SK Hynix, Samsung, Micron)."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500; sube cuando el mercado teme caídas."
+    },
+    {
+      "sigla": "BoJ",
+      "def": "Banco de Japón."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "FRED",
+      "def": "Base de datos económicos de la Reserva Federal de San Luis; publica las TIR con un día de retraso."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se mantiene hasta su vencimiento. Sube cuando su precio baja."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: 0,01 puntos porcentuales."
+    },
+    {
+      "sigla": "PCE",
+      "def": "Gasto en consumo personal: la medida de inflación que prefiere la Fed."
+    },
+    {
+      "sigla": "IPCA",
+      "def": "Índice de precios de consumo armonizado de la zona euro."
+    },
+    {
+      "sigla": "ISM",
+      "def": "Instituto de Gestión de Suministros: encuestas de actividad en EE. UU. (por encima de 50, expansión)."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Mercado de referencia del gas natural en Europa (Países Bajos), en €/MWh."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Fondo cotizado en bolsa."
+    },
+    {
+      "sigla": "HY",
+      "def": "Alto rendimiento (high yield): bonos de empresas con peor calificación crediticia."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: el precio de una participación de un fondo."
+    }
+  ],
+  "generado": "2026-10-31T10:30"
+}

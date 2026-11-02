@@ -1,0 +1,544 @@
+{
+ "periodo": "quincenal",
+ "clave": "2026-10-2",
+ "fase": "completo",
+ "titulo": "16–31 oct: Lula hunde Brasil un 18 %, la IA pierde fuelle y el crudo roza los 118 $",
+ "resumen": "La segunda quincena de octubre dio la vuelta a casi todo lo que había funcionado en la primera. Brasil pasó de estrella a desastre, la duda sobre la inteligencia artificial (IA) volvió a mandar en las bolsas y ==los bonos siguieron haciendo de refugio==. Al mismo tiempo, el petróleo y el gas no dejaron de subir. Quien tenía fondos de salud, energía o Europa ganó dinero. Quien tenía Brasil, Latinoamérica, metales preciosos o tecnología lo perdió.\n\nEl golpe más fuerte vino de las urnas. ==Lula ganó la segunda vuelta del 25 de octubre (51,8 % de los votos)==, cuando las encuestas daban ventaja a Flávio Bolsonaro, y el lunes 26 el Bovespa cayó un 13,9 %, con la negociación suspendida de forma automática. El real se dejó más de un 8 % frente al dólar ese mismo día. El mecanismo es fiscal: ==más gasto esperado → más déficit → tipos más altos y divisa más débil==, y eso castiga sobre todo a la banca y a las empresas sensibles a los tipos. En la quincena el Bovespa perdió un 17,8 % (de 204.324 a 167.922 puntos) y, sumando la divisa, ==los fondos de Brasil cayeron entre un 24 % y un 29 % en euros==. Es casi exactamente lo que habían ganado en la primera quincena.\n\nEn la tecnología hubo dos sacudidas. La primera llegó el 16 y el 22, con rumores sobre la deuda de las «neonubes» y ==unos resultados de Meta y Tesla que sembraron dudas sobre la rentabilidad del gasto en IA==. La segunda, el 29 y el 30: ==Alphabet vivió su peor día de la historia (−12 %)== por un flujo de caja negativo debido a su inversión en centros de datos, Amazon decepcionó e Intel se hundió un 28,6 %. Entre medias, el folleto de salida a bolsa de Anthropic y el beneficio récord de SK Hynix dieron un respiro. Balance: ==Nasdaq 100 −5,2 %== y S&P 500 −2,1 %, frente a un Russell 2000 de pequeñas compañías que ganó un 1,6 %. El dinero ==rotó hacia lo que no depende de la IA==: salud y biotecnología, energía e industria. Asia, más ligada a los chips, cayó (Taiwán −3,7 %, Hang Seng −3,2 %, Shanghái −2,9 %, Nikkei −1,8 %), salvo Corea (+3,2 %), que rebotó con la memoria tras desplomarse un 19 % en la primera quincena.\n\nEuropa aguantó mejor que EE. UU. gracias a su poca tecnología y mucha farmacia, banca e industria: Stoxx 600 +1,0 %, DAX +1,7 % y ==SMI suizo +3,2 %==, el mejor de los grandes índices. Primero sufrió por Francia (su bono a 10 años tocó el 5 % y el diferencial con Alemania llegó a ~175 pb) y después respiró cuando ==Moody's no rebajó la nota francesa== el 23. El IBEX 35 fue la excepción (−2,7 %): los resultados de Bankinter, Santander y BBVA, y la exposición del Santander a Brasil, lo lastraron. Fuera de las bolsas, ==el Brent subió un 11 % (117,6 $) y el gas europeo un 19 %== por los ataques hutíes contra Arabia Saudí y el riesgo de nuevos ataques a Irán. ==El oro (−6,5 %) y la plata (−13,6 %) cayeron== porque los tres grandes bancos centrales apuntaron a subir los tipos en diciembre.",
+ "claves": [
+  "==La victoria de Lula hundió el Bovespa un 17,8 %== y los fondos de Brasil un 24–29 % en euros: devuelven todo lo ganado en la primera quincena.",
+  "==La duda sobre la rentabilidad de la IA== (Meta, Tesla, Alphabet, Intel) tumbó el Nasdaq 100 un 5,2 %; el dinero rotó a salud, energía y pequeñas compañías.",
+  "==La TIR a 10 años de EE. UU. bajó 16 pb, al 4,93 %==: la venta de bolsa pesó más que el crudo caro y una Fed que apunta a subir.",
+  "Fed, BCE y Banco de Japón no movieron tipos, pero ==los tres dejaron diciembre abierto a una subida==; por eso cayeron el oro y la plata.",
+  "==El Brent (+11 %) y el gas europeo (+19 %) siguieron subiendo== por el riesgo en el Golfo y la llegada del invierno.",
+  "Europa (Stoxx 600 +1,0 %, SMI +3,2 %) aguantó mejor que EE. UU.; ==el IBEX 35 (−2,7 %) sufrió por la banca y Brasil==."
+ ],
+ "suben": [
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "+19,4 % (103,2 €/MWh)",
+   "por_que": "==Riesgo de que se reanude la guerra con Irán== y ataques hutíes en el Golfo, por donde sale el gas licuado de Catar, justo cuando ==el frío dispara el consumo==. Subió en ocho de las once sesiones y cerró en máximos de la quincena.",
+   "fuentes": [
+    {
+     "t": "The National",
+     "u": "https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "+11,1 % (117,6 $)",
+   "por_que": "==Los hutíes atacaron instalaciones saudíes (Yanbu, la salida que evita Ormuz)== y la prensa habló de nuevos ataques de EE. UU. e Israel a Irán. La diplomacia lo frenó a mitad de la segunda semana, pero volvió a subir el viernes 30.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html"
+    }
+   ]
+  },
+  {
+   "activo": "SMI (Suiza)",
+   "cambio": "+3,2 %",
+   "por_que": "==Índice muy cargado de farmacia y consumo básico== (Novartis, Roche, Nestlé), justo los sectores a los que rotó el dinero que salía de la IA. Cerró en el máximo de la quincena.",
+   "fuentes": [
+    {
+     "t": "Advisor Perspectives",
+     "u": "https://www.advisorperspectives.com/articles/2026/10/27/healthcare-stocks-anti-ai-bet-investors-defensive"
+    }
+   ]
+  },
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "+3,2 %",
+   "por_que": "Rebote tras el −19 % de la primera quincena: ==SK Hynix presentó un beneficio récord== y el folleto de Anthropic calmó el miedo a que se agote la demanda de memoria. Llegó a subir más de un 8 % antes de perder un 3,5 % el viernes con Intel.",
+   "fuentes": [
+    {
+     "t": "Fortune",
+     "u": "https://fortune.com/2026/10/27/anthropic-ipo-filing-lifts-asia-stocks-except-for-china/"
+    }
+   ]
+  },
+  {
+   "activo": "DAX (Alemania)",
+   "cambio": "+1,7 %",
+   "por_que": "Industria, química y aseguradoras, con poca IA. ==El alivio por Francia tras Moody's== y un BCE que no subió los tipos le dieron la mejor segunda semana de Europa (+2,5 %).",
+   "fuentes": [
+    {
+     "t": "Bloomberg",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-23/france-avoids-moody-s-downgrade-in-reprieve-after-week-of-crisis"
+    }
+   ]
+  },
+  {
+   "activo": "Russell 2000 (pequeñas EE. UU.)",
+   "cambio": "+1,6 %",
+   "por_que": "==Rotación desde las grandes tecnológicas==: las pequeñas compañías apenas dependen del gasto en IA y les ayuda la bajada de la TIR, porque se financian más con deuda a tipo variable.",
+   "fuentes": [
+    {
+     "t": "Benzinga",
+     "u": "https://www.benzinga.com/markets/equities/26/10/62706774/stock-market-today-alphabet-sinks-small-caps-rally-gdp-rotation"
+    }
+   ]
+  },
+  {
+   "activo": "Libra frente al euro",
+   "cambio": "+1,5 % (0,834 £/€)",
+   "por_que": "==El euro pagó la crisis de Francia y el crudo caro== (la zona euro es importadora de energía). El presupuesto británico del 28 se leyó como neutral, sin el susto que temían los bonos.",
+   "fuentes": [
+    {
+     "t": "FXStreet (BBH)",
+     "u": "https://www.fxstreet.com/news/british-pound-budget-impact-limited-for-sterling-bbh-202610291209"
+    }
+   ]
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "−17,8 %",
+   "por_que": "==Lula ganó la segunda vuelta contra lo que decían las encuestas==: −13,9 % el lunes 26 y cuatro sesiones más de caídas. El mercado teme ==más gasto, más déficit y tipos más altos==; el real se dejó más de un 8 % ese día.",
+   "fuentes": [
+    {
+     "t": "MercoPress",
+     "u": "https://en.mercopress.com/2026/10/26/brazil-s-real-plunges-more-than-8-and-s-o-paulo-stocks-slump-after-lula-s-victory"
+    },
+    {
+     "t": "B3 Bora Investir",
+     "u": "https://borainvestir.b3.com.br/noticias/mercado/apos-circuit-breaker-ibovespa-b3-recua-13-com-eleicao-no-foco-dolar-vai-a-r-540/"
+    }
+   ]
+  },
+  {
+   "activo": "Plata",
+   "cambio": "−13,6 % (49,1 $)",
+   "por_que": "==Los bancos centrales apuntan a subir en diciembre==, y un metal sin cupón pierde atractivo si suben los tipos reales. Además, la caída de la tecnología resta demanda industrial (paneles, electrónica). Perdió los 50 $.",
+   "fuentes": [
+    {
+     "t": "MarketScreener",
+     "u": "https://www.marketscreener.com/news/gold-hits-four-month-low-silver-falls-below-50-oz-on-fed-hike-fears-ce785fdbde88f223"
+    }
+   ]
+  },
+  {
+   "activo": "Oro",
+   "cambio": "−6,5 % (3.899 $)",
+   "por_que": "==Mínimo de cuatro meses, por debajo de 4.000 $==: el crudo caro hace temer más subidas de la Fed y hubo ventas para cubrir pérdidas en bolsa. Ni la crisis francesa ni Brasil lo sostuvieron.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/10/23/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns.html"
+    }
+   ]
+  },
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "−5,2 %",
+   "por_que": "==Meta, Tesla, Alphabet, Amazon e Intel reabrieron la duda de si el gasto en IA será rentable==. Como pocas empresas pesan muchísimo, el índice cayó el doble que el S&P 500 (−2,1 %). Cerró en el mínimo de la quincena.",
+   "fuentes": [
+    {
+     "t": "CNN",
+     "u": "https://edition.cnn.com/2026/10/30/investing/us-stocks-ai-investment"
+    }
+   ]
+  },
+  {
+   "activo": "MSCI Emergentes (ETF EEM, USD)",
+   "cambio": "−4,6 %",
+   "por_que": "Suma de golpes: ==Brasil, Taiwán y China==. Taiwán (−3,7 %) por los chips; el CSI 300 chino entró en mercado bajista por la falta de estímulos.",
+   "fuentes": [
+    {
+     "t": "Bloomberg",
+     "u": "https://www.bloomberg.com/news/articles/2026-10-23/china-stocks-sink-deeper-into-bear-market-despite-state-buying"
+    }
+   ]
+  },
+  {
+   "activo": "IBEX 35 (España)",
+   "cambio": "−2,7 %",
+   "por_que": "==La banca, que pesa mucho en el índice, decepcionó en resultados==: Bankinter −7,6 % el 22 por el coste de los depósitos y Santander −5,6 % el 28, con Brasil como lastre. Cerró octubre con una pérdida cercana al 4 %.",
+   "fuentes": [
+    {
+     "t": "Capital",
+     "u": "https://capital.es/economia/mercados-e-inversion/el-ibex-cae-un-212-y-pierde-los-19-000-puntos-lastrado-por-bankinter"
+    },
+    {
+     "t": "El Español (Invertia)",
+     "u": "https://www.elespanol.com/invertia/mercados/20261030/ibex-firma-segundo-mes-consecutivo-negativo-despide-octubre-debajo-caer/1003744441611_0.html"
+    }
+   ]
+  },
+  {
+   "activo": "Bitcoin",
+   "cambio": "−5,7 % (77.435 $)",
+   "por_que": "Activo de riesgo que ==cae con la tecnología== y con la perspectiva de tipos más altos, que encarecen financiarse para comprarlo. Sin noticia propia relevante.",
+   "fuentes": []
+  },
+  {
+   "activo": "Trigo",
+   "cambio": "−9,9 %",
+   "por_que": "Sin noticia concreta que hayamos podido confirmar: ==recogida de beneficios== tras marcar máximos de la quincena el 16, sin que el crudo caro lo arrastrara.",
+   "fuentes": []
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Brasil: la sorpresa de Lula",
+   "texto": "En la primera quincena el mercado había apostado por un cambio de Gobierno tras la primera vuelta. ==El 25 de octubre ganó Lula (51,8 %) y esa apuesta se deshizo de golpe==: Bovespa −13,9 % el lunes, la peor sesión en años, y real −8 %. El razonamiento del inversor: ==más gasto público → más déficit → el banco central tendrá que mantener tipos altos más tiempo==. Eso pesa sobre la banca (Itaú, Bradesco, BTG), las eléctricas y el consumo. Para quien invierte desde euros, bolsa y divisa se restan a la vez, y el Santander lo notó en el IBEX 35.",
+   "fuentes": [
+    {
+     "t": "MercoPress",
+     "u": "https://en.mercopress.com/2026/10/26/brazil-s-real-plunges-more-than-8-and-s-o-paulo-stocks-slump-after-lula-s-victory"
+    },
+    {
+     "t": "InfoMoney",
+     "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+    }
+   ]
+  },
+  {
+   "tema": "Inteligencia artificial (IA): ¿quién paga los chips?",
+   "texto": "La quincena tuvo tres actos. Primero, ==rumores sobre la deuda de CoreWeave y otras «neonubes»== (el 16, octava caída seguida de los chips, la racha más larga desde 2008). Segundo, Meta y Tesla el 22 (índice de semiconductores SOX −6,7 %). Tercero, ==Alphabet (−12 %), Amazon e Intel (−28,6 %) el 29 y el 30==. Entre medias, Anthropic y SK Hynix tranquilizaron sobre la demanda. La lógica del mercado: ==si los grandes compradores tienen flujo de caja negativo, tendrán que moderar el gasto==, y eso golpea a los proveedores de chips y memoria. El dinero no salió de la bolsa, sino que rotó: salud, energía, pequeñas compañías y Europa.",
+   "fuentes": [
+    {
+     "t": "Reuters vía Investing.com",
+     "u": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163"
+    },
+    {
+     "t": "Advisor Perspectives",
+     "u": "https://www.advisorperspectives.com/articles/2026/10/27/healthcare-stocks-anti-ai-bet-investors-defensive"
+    }
+   ]
+  },
+  {
+   "tema": "Bancos centrales: pausa con diciembre en el punto de mira",
+   "texto": "==La Reserva Federal (Fed) mantuvo el 3,75–4 % con dos votos a favor de subir==, y llamó «fuerte» al crecimiento (PIB del tercer trimestre +3,4 %, inflación PCE en el 3,6 %). ==El Banco Central Europeo (BCE) dejó la facilidad de depósito en el 2,50 %==, aunque Lagarde admitió que se debatió subir, con la inflación en el 3,8 %. El Banco de Japón (BoJ) mantuvo el 1,25 % con un voto a favor de subir. ==El mercado da en torno a un 78 % a una subida de la Fed en diciembre==, y el BCE también apunta a esa fecha.",
+   "fuentes": [
+    {
+     "t": "CNN",
+     "u": "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
+    },
+    {
+     "t": "Infobae",
+     "u": "https://www.infobae.com/america/agencias/2026/10/29/lagarde-dice-que-el-bce-discutio-si-era-necesario-subir-los-tipos-de-interes/"
+    }
+   ]
+  },
+  {
+   "tema": "Francia: el bono al 5 % y el respiro de Moody's",
+   "texto": "Los disturbios contra el ajuste del presupuesto de 2027 ==llevaron el bono francés a 10 años al 5 % por primera vez desde 2002== y su diferencial con Alemania a ~175 pb el 22, máximos desde 2011. Moody's, de la que se temía una rebaja, ==mantuvo el Aa3 con perspectiva negativa== el 23, y el diferencial bajó a ~153–162 pb en la segunda semana. Sigue sin haber acuerdo sobre el presupuesto, así que el riesgo no ha desaparecido. España casi no se contagió (prima ~64–70 pb).",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/analysis/france-tests-the-euros-nerve-what-the-oat-spread-is-telling-fx-traders-202610270406"
+    },
+    {
+     "t": "Euronews",
+     "u": "https://www.euronews.com/2026/10/24/debt-moodys-spares-france-a-brief-respite-not-a-vote-of-confidence"
+    }
+   ]
+  },
+  {
+   "tema": "Energía: Irán, hutíes e invierno",
+   "texto": "==Los ataques hutíes contra Arabia Saudí (Shaybah, Dammam, Yanbu)== y la amenaza de nuevos ataques a Irán tras las elecciones de EE. UU. del 3 de noviembre llevaron el Brent de ~106 $ a 117,6 $. La diplomacia (Catar, Pakistán, Turquía) lo frenó varias veces, pero no lo bastante. El gas europeo, más sensible por la llegada del invierno, superó los 100 €/MWh. ==El crudo caro tiene dos lecturas==: más inflación (malo para bonos) y menos crecimiento (bueno para bonos); esta quincena ganó la segunda.",
+   "fuentes": [
+    {
+     "t": "The National",
+     "u": "https://thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. ==las TIR bajaron en toda la curva aunque el crudo subiera un 11 % y la Fed apuntara a subir==: 2 años −16 pb hasta el jueves 29 (4,61 %), 5 años −18 pb (4,72 %), 10 años −16 pb (4,93 %) y 30 años −12 pb (5,31 %). El mecanismo principal fue ==la huida a refugio cada vez que se hundía la tecnología== (−19 pb en el 10 años el 22, con Meta y Tesla; nueva bajada el 29 y el 30, con Alphabet e Intel). Una bolsa que cae endurece las condiciones financieras y hace parte del trabajo de la Fed, así que el mercado también rebajó la probabilidad de subida en octubre a casi cero. Pero ==diciembre sigue cotizando una subida probable (~78 %)==, por el PIB fuerte y una inflación PCE del 3,6 %. Por eso el 30 años bajó menos: ==el déficit y la inflación mantienen la prima por plazo==. El 10 años vuelve a estar por debajo del 5 %, y octubre deja su mayor bajada mensual desde diciembre de 2023.\n\nEn la zona euro, ==la deuda AAA casi no se movió==: 10 años (≈ Bund) −2 pb hasta el jueves (3,37 %) y 2 años +2 pb (3,01 %). Dos fuerzas se anularon: el refugio frente a Francia y la bajada de EE. UU. empujaban las TIR abajo; ==un BCE con la inflación en el 3,8 % que admite haber debatido subir== las sostenía, sobre todo en el tramo corto. El reparto fue lo importante: ==el diferencial francés llegó a ~175 pb el 22== (bono al 5 %) y cerró la segunda semana en torno a 155–160 pb tras el respiro de Moody's. Italia (~116 pb) y España (~64–70 pb) apenas se contagiaron. El dato AAA del BCE del viernes 30 aún no está publicado; las cifras de diferenciales proceden de prensa.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "−16 pb hasta el jueves (4,77 % → 4,61 %)",
+    "por_que": "==Octubre descartado y diciembre algo menos seguro== tras la caída de la bolsa; la Fed mantuvo con dos votos a favor de subir.",
+    "fuentes": [
+     {
+      "t": "CNBC",
+      "u": "https://www.cnbc.com/2026/10/27/treasury-yields-federal-reserve-monetary-policy-meeting.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−16 pb (5,09 % → 4,93 %)",
+    "por_que": "==Refugio frente a la venta de tecnología==; el crudo se leyó más como freno al crecimiento que como inflación.",
+    "fuentes": [
+     {
+      "t": "Bloomberg",
+      "u": "https://www.bloomberg.com/news/articles/2026-10-30/treasuries-extend-rally-with-global-peers-on-tech-stock-selloff"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "−12 pb (5,43 % → 5,31 %)",
+    "por_que": "Bajó menos: ==déficit e inflación del 3,6 % sostienen la prima por plazo==."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "−2 pb hasta el jueves (3,39 % → 3,37 %)",
+    "por_que": "Llegó al 3,47 % el 19 y bajó después: ==refugio frente a Francia y contagio de EE. UU.==, frenado por un BCE que apunta a subir."
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "+2 pb hasta el jueves (2,99 % → 3,01 %)",
+    "por_que": "El tramo corto ==descuenta una subida del BCE en diciembre==.",
+    "fuentes": [
+     {
+      "t": "FXStreet",
+      "u": "https://www.fxstreet.es/news/discurso-de-lagarde-la-trayectoria-de-los-tipos-es-bastante-clara-202610291420"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Francia–Alemania",
+    "cambio": "≈ +10 pb (~147 → ~155–160 pb; máximo ~175 pb el 22)",
+    "por_que": "==Disturbios y presupuesto de 2027 en el aire==; el no de Moody's a la rebaja devolvió parte.",
+    "fuentes": [
+     {
+      "t": "FXStreet",
+      "u": "https://www.fxstreet.com/analysis/france-tests-the-euros-nerve-what-the-oat-spread-is-telling-fx-traders-202610270406"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial high yield EE. UU.",
+    "cambio": "+3 pb hasta el jueves (3,23 % → 3,26 %; máximo 3,40 % el 22)",
+    "por_que": "==Temor a la deuda que financia los centros de datos de IA==; se estrechó con los rebotes y volvió a ampliarse con Alphabet."
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "CNBC",
+    "u": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+   },
+   {
+    "t": "Seeking Alpha",
+    "u": "https://seekingalpha.com/article/4957479-moodys-france-peripheral-premiums-narrower-euro-struggles-to-find-traction"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "Quincena de ==medianas planas (renta variable +0,3 %, renta fija +0,1 %, mixtos +0,1 %) y extremos muy grandes==, casi el espejo de la primera de octubre. Abajo, ==todos los fondos de Brasil (−24 a −29 %) y de Latinoamérica (−15 a −20 %)==, por la bolsa y el real a la vez; luego Turquía, mercados frontera y mineras de oro. Arriba, ==salud y biotecnología (+6 a +10 %)==, que recibieron el dinero que salía de la IA, y energía (+6–7 %) por el crudo. La renta fija ganó poco: la bajada de la TIR de EE. UU. ayudó a los bonos en dólares, pero los de deuda emergente en divisa local perdieron (−3 a −4 %) por el real. Los monetarios en libras ganaron un 1,5–1,7 % solo por la subida de la libra. ==Dos fondos de Capital Group salen arriba por un dato erróneo==: AMBAL (+11,7 %) y New Economy (+8,3 %) comparten ISIN con su clase en dólares y el VL del 30 de octubre no es el de la clase en euros (AMBAL pasa de 12,87 a 14,26 en un día, imposible para un mixto). Lo mismo ocurre con Capital Income Builder (+13,7 %, marcado como dudoso).",
+  "suben": [
+   {
+    "isin": "LU2343843681",
+    "por_que": "==Dato erróneo, no rentabilidad real==: el VL salta de 12,87 a 14,26 el 30 de octubre (+10,8 % en un día), probablemente de otra clase con el mismo ISIN. Hasta el 29 ganaba ~0,8 %."
+   },
+   {
+    "isin": "LU2050929863",
+    "por_que": "==Dato erróneo==: mismo problema de clases que comparten ISIN en Capital Group. Un fondo de crecimiento global no sube un 8 % con el Nasdaq 100 cayendo un 5 %."
+   },
+   {
+    "isin": "IE00B3VXGD32",
+    "por_que": "Biotecnología (Amgen, Alnylam, Madrigal, argenx, Insmed). ==El dinero que sale de la IA busca crecimiento que no dependa de los chips==, y la bajada de la TIR ayuda a las biotecnológicas, que valen por beneficios futuros."
+   },
+   {
+    "isin": "LU0069152568",
+    "por_que": "Biotecnología en dólares (Vertex, Moderna, Insmed, Gilead). ==+7,3 % en dólares y +8,0 % en euros==: algo menos de un punto de efecto divisa por la subida del dólar."
+   },
+   {
+    "isin": "LU0255977455",
+    "por_que": "Biotecnología (Vertex, Insmed, Revolution Medicines, argenx, Biogen): ==rotación desde la tecnología== y TIR más baja."
+   },
+   {
+    "isin": "LU1775952333",
+    "por_que": "Salud global, clase en dólares (sin cartera detallada). ==Salud, el gran refugio de la quincena==; +7,0 % en dólares y +7,35 % en euros."
+   },
+   {
+    "isin": "IE00B3NLSS43",
+    "por_que": "Salud con ==Eli Lilly, Teva, argenx, Novartis y Johnson & Johnson==: Lilly, AbbVie y J&J lideraron la subida del sector por resultados y una buena previsión para 2027."
+   },
+   {
+    "isin": "LU1046545502",
+    "por_que": "Energía e infraestructura energética de Norteamérica (la ficha solo muestra coberturas y derivados). ==Brent +11 % y energía del S&P 500 en máximos==."
+   },
+   {
+    "isin": "LU0823416762",
+    "por_que": "Salud innovadora (Eli Lilly, Merck, AbbVie, AstraZeneca, Gilead): ==grandes farmacéuticas como refugio frente a la IA==."
+   },
+   {
+    "isin": "LU0358044559",
+    "por_que": "Salud, clase en dólares (sin cartera). ==+6,0 % en dólares y +6,7 % en euros==: el resto es efecto divisa."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU0265313147",
+    "por_que": "Bolsa brasileña, clase en dólares (sin cartera). ==−29,3 % en dólares==; en euros algo menos (−28,8 %) porque el dólar subió un poco frente al euro. ==La victoria de Lula hunde bolsa y real==."
+   },
+   {
+    "isin": "LU0616856935",
+    "por_que": "Brasil (B3, Axia, WEG, Vale, Equatorial, Petrobras): ==Bovespa −17,8 % y real −8 % el lunes 26==; las eléctricas y la propia bolsa B3 son muy sensibles a los tipos."
+   },
+   {
+    "isin": "LU0551369712",
+    "por_que": "Brasil con ==Itaú, Vale, Petrobras, Nu y BTG==: la banca fue lo más castigado por el miedo a tipos altos durante más tiempo. (Su ficha muestra un 67 % en «Capital Cash Ctrl», probable error de datos.)"
+   },
+   {
+    "isin": "IE00BB7N4179",
+    "por_que": "Brasil con la divisa cubierta frente al euro (Petrobras, Bradesco, Axia, Nu, Embraer). ==Cae casi igual que los no cubiertos==: el grueso de la pérdida es la bolsa, no el real."
+   },
+   {
+    "isin": "LU0171289498",
+    "por_que": "Latinoamérica: Brasil (Vale, XP, Nu, Klabin) más México (Banorte, Walmex) y ==Southern Copper, castigada con el cobre==. Brasil pesa más de la mitad."
+   },
+   {
+    "isin": "LU1213835942",
+    "por_que": "Latinoamérica con ==Nu, Petrobras, Vale, Itaú y BTG==: el peso de Brasil explica casi toda la caída; México aguantó mejor."
+   },
+   {
+    "isin": "LU0592650328",
+    "por_que": "Latinoamérica con ==Petrobras (10 %), Itaúsa, Axia y Vale==: mucho Brasil y sesgo hacia empresas baratas y bancos, lo más castigado."
+   },
+   {
+    "isin": "LU0248181363",
+    "por_que": "Latinoamérica (Petrobras, Itaú, Banorte, Nu, Vale): ==Brasil arrastra al conjunto==, con México y Grupo México como contrapeso parcial."
+   },
+   {
+    "isin": "LU0265293521",
+    "por_que": "Turquía (BIM, Aselsan, Tüpraş, Akbank, Koç). Sin una noticia concreta que hayamos podido confirmar: ==el crudo caro golpea a un país importador de energía== y hubo salida de dinero de emergentes; la Bolsa de Estambul cayó un 2,5 % el 19.",
+    "fuentes": [
+     {
+      "t": "BloombergHT",
+      "u": "https://www.bloomberght.com/piyasa-ozeti-19-ekim-2026-borsa-doviz-altin-ve-kripto-piyasalarindaki-son-durum-pkh-3791834"
+     }
+    ]
+   },
+   {
+    "isin": "LU0496368142",
+    "por_que": "Mineras de oro (Equinox, G Mining, Alamos, Barrick, Newmont). ==Las mineras amplifican el precio del metal==: oro −6,5 % y fondo −10 %, porque sus costes son fijos."
+   }
+  ],
+  "por_clase": [
+   {
+    "clase": "Renta variable",
+    "texto": "Mediana +0,3 % entre 1.663 fondos. ==Ganan salud, biotecnología y energía; pierden Brasil, Latinoamérica, Turquía y metales preciosos==. Los fondos de tecnología y semiconductores quedaron en la parte baja, aunque sin los extremos de la primera quincena, porque Corea rebotó. Los de Europa y Suiza ganaron algo (+1–3 %); los de España, en negativo con el IBEX 35."
+   },
+   {
+    "clase": "Renta fija",
+    "texto": "Mediana +0,1 %. ==Ganan los bonos en dólares de larga duración== (crédito y municipales de EE. UU., +2–3 %) por la bajada de 16 pb del 10 años, y los noruegos por la corona. ==Pierden la deuda emergente en divisa local y los convertibles asiáticos (−3 a −4 %)== por el real y los chips. La deuda euro, casi plana porque el Bund no se movió."
+   },
+   {
+    "clase": "Mixtos",
+    "texto": "Mediana +0,1 %. Arriba sale el dato erróneo de Capital Group AMBAL. ==Los mixtos de emergentes (Carmignac Emerging Patrimoine −4,6 %) y los de bolsa española (R-co Valor −3,3 %) se llevan las peores cifras==."
+   },
+   {
+    "clase": "Alternativos",
+    "texto": "Mediana −0,1 %. Los de materias primas y dispersión ganaron (+3–4 %); ==los de seguimiento de tendencia perdieron (−3,6 %)== con los giros bruscos de la tecnología y Brasil."
+   },
+   {
+    "clase": "Monetarios",
+    "texto": "Mediana +0,1 %, lo normal en dos semanas. ==Los monetarios en libras ganaron un 1,5–1,7 % solo por la subida de la libra== frente al euro."
+   },
+   {
+    "clase": "Materias primas e inmobiliario",
+    "texto": "Mediana −1,6 %. ==El petróleo subió, pero el oro, la plata y el trigo cayeron==: Ofi Precious Metals −6,2 %. Los fondos diversificados quedaron entre −0,4 % y −2 %."
+   },
+   {
+    "clase": "Otros",
+    "texto": "Mediana +0,1 %. Los de defensa europea ganaron (+3 %); ==los de Hong Kong perdieron (−4 a −5 %)== con el Hang Seng."
+   }
+  ]
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-03",
+   "evento": "Elecciones de mitad de mandato en EE. UU.",
+   "por_que_importa": "La prensa habla de posibles ataques a Irán después de la votación, y el resultado puede cambiar las previsiones sobre el déficit y la deuda."
+  },
+  {
+   "fecha": "2026-11-06",
+   "evento": "Empleo de octubre en EE. UU.",
+   "por_que_importa": "Con una subida de la Fed en diciembre muy descontada, un dato fuerte la confirmaría y un dato flojo la pondría en duda."
+  },
+  {
+   "fecha": "2026-12-10",
+   "evento": "Reunión de la Fed (fecha aproximada)",
+   "por_que_importa": "Los tres grandes bancos centrales señalaron diciembre como la fecha de una posible subida."
+  },
+  {
+   "fecha": "2026-12-17",
+   "evento": "Reunión del BCE (fecha aproximada)",
+   "por_que_importa": "Lagarde admitió que se debatió subir en octubre; la inflación sigue en el 3,8 %."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta el vencimiento. Cuando sube, el precio del bono baja."
+  },
+  {
+   "sigla": "pb",
+   "def": "Puntos básicos: centésimas de punto porcentual (25 pb = 0,25 puntos)."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "BoJ",
+   "def": "Banco de Japón."
+  },
+  {
+   "sigla": "PCE",
+   "def": "Índice de precios del gasto en consumo personal de EE. UU., la medida de inflación que prefiere la Fed."
+  },
+  {
+   "sigla": "PIB",
+   "def": "Producto interior bruto: el valor de todo lo que produce una economía."
+  },
+  {
+   "sigla": "SOX",
+   "def": "Índice de semiconductores de Filadelfia, referencia de las empresas de chips."
+  },
+  {
+   "sigla": "Neonubes",
+   "def": "Empresas que alquilan capacidad de cálculo para IA y que se financian sobre todo con deuda (CoreWeave es la mayor)."
+  },
+  {
+   "sigla": "Bund",
+   "def": "Bono del Estado alemán, la referencia de los bonos de la zona euro."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia; la curva AAA del BCE recoge los bonos de los países de la zona euro con esa nota."
+  },
+  {
+   "sigla": "Prima por plazo",
+   "def": "Rentabilidad extra que se exige por prestar a largo plazo en lugar de renovar préstamos cortos."
+  },
+  {
+   "sigla": "Prima de riesgo / diferencial",
+   "def": "Diferencia de TIR entre el bono de un país y el alemán al mismo plazo."
+  },
+  {
+   "sigla": "High yield",
+   "def": "Bonos de empresas con baja calificación crediticia («alto rendimiento»). Su diferencial mide cuánto riesgo de impago percibe el mercado."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Mercado de referencia del gas natural en Europa (Países Bajos), en euros por megavatio hora."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: el precio de una participación de un fondo."
+  },
+  {
+   "sigla": "ISIN",
+   "def": "Código internacional que identifica un valor o una clase de un fondo."
+  }
+ ],
+ "generado": "2026-11-02T17:00"
+}
