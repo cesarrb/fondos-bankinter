@@ -1,6 +1,6 @@
-# fondos-bankinter: a daily data pipeline for 2,000+ mutual funds
+# fondos-bankinter: a daily data pipeline for 26,000+ mutual funds
 
-A small, fully automated data product. Every weekday a GitHub Actions job takes a snapshot of the 2,000+ mutual funds sold by a Spanish bank, verifies it, commits it to this repository and publishes it as a web page on GitHub Pages. No server and no laptop needed.
+A small, fully automated data product. Every weekday a GitHub Actions job takes a snapshot of the 2,000+ mutual funds sold by a Spanish bank, verifies it, commits it to this repository and publishes it as a web page on GitHub Pages. No server and no laptop needed. A second collector (`ironia_collector.py`, run locally) adds the funds of the IronIA platform, taking coverage to 26,000+ funds.
 
 **Live page:** https://cesarrb.github.io/fondos-bankinter/ (in Spanish)
 
