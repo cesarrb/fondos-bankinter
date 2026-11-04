@@ -1,0 +1,491 @@
+{
+  "periodo": "diario",
+  "clave": "2026-11-03",
+  "fase": "completo",
+  "titulo": "Asia se hunde por la IA, Europa cede y el voto demócrata impulsa a las renovables",
+  "resumen": "La jornada de las elecciones de mitad de mandato en EE. UU. empezó con ==un desplome de los chips en Asia==. El KOSPI coreano y el Taiex de Taiwán cayeron un 3,59 % cada uno (5.649 y 43.308), con Samsung y SK Hynix entre un 4 % y un 6 % abajo. El detonante fue la caída de la tecnología estadounidense del lunes: ==la ampliación de 20.000 millones $ de Oracle reavivó la duda de si la inversión en inteligencia artificial (IA) será rentable==, y Corea y Taiwán son los mercados más expuestos a ese ciclo. Shanghái bajó un 0,82 %, mientras Hong Kong (+0,57 %) y ==la India (+1,62 %) subió con fuerza==. Japón estuvo cerrado por festivo.\n\nEuropa recogió el mal tono. ==El FTSE 100 cayó un 1,14 % (10.638), el peor de la región==, lastrado por mineras y bancos: ==el cobre bajó un 2,52 %, a mínimos de siete semanas==, y Glencore y Antofagasta cedieron cerca de un 3 %. El IBEX 35 perdió un 0,79 % (18.807), con la banca en negativo (Santander alrededor de −1,5 %), tras haber liderado Europa el lunes. El EuroStoxx 50 bajó un 0,51 %, el DAX un 0,45 % y el CAC 40 un 0,34 %; los fabricantes europeos de chips (ASML, STMicro, Infineon) cayeron entre un 3 % y un 4 % por contagio de Asia. El FTSE MIB quedó plano.\n\nEn Wall Street el día fue al revés que en Asia: ==los chips rebotaron y Nvidia (+3 %) recuperó el título de empresa más valiosa del mundo== (unos 5 billones $). El Nasdaq 100 subió un 0,68 % y el S&P 500 un 0,36 % (7.569), pero ==el Dow Jones bajó un 0,38 % por Apple==, que cedió entre un 2 % y un 4 % tras prever un margen bruto del 45–46 % (frente al 47,9 % anterior): el encarecimiento de la memoria le come margen. El VIX (índice de volatilidad) bajó a 20,8.\n\nEl petróleo tuvo un día de ida y vuelta. Subió por la mañana (Brent hasta ~106,6 $) tras un ==ataque de EE. UU. a la isla iraní de Qeshm==, en la boca del estrecho de Ormuz, pero devolvió la subida, y algo más, con la especulación sobre avances en la negociación: ==el Brent cerró en 103,6 $ (−1,12 %)== y el WTI cedió un 0,38 % (96,1 $). Los tipos subieron en EE. UU. (10 años +6 pb, a 4,95 %) y eso fortaleció el dólar: ==el euro bajó un 0,33 % (1,118 $), el oro un 0,74 % y la plata un 2,23 %==. El bitcoin subió un 1,5 %.\n\nYa con las bolsas cerradas llegó el resultado electoral: ==los demócratas ganaron el control de las dos cámaras del Congreso==. El mercado lo había empezado a descontar durante la sesión: ==las solares y renovables subieron (ETF solar TAN ≈ +3 %) y las petroleras bajaron==, porque un Congreso demócrata se asocia a más apoyo a la energía limpia y menos a la convencional. Tras el cierre, los futuros de las tecnológicas de IA cayeron por el temor a que se frene la construcción de centros de datos, los tipos de EE. UU. bajaron y el dólar se debilitó (índice dólar −0,4 % el miércoles por la mañana). En los fondos se vio con claridad: ==los mejores del día fueron de energías renovables e India; los peores, de Taiwán, chips asiáticos y ciberseguridad==.",
+  "claves": [
+    "==Los chips se hundieron en Asia (KOSPI y Taiwán −3,59 %)== por las dudas sobre la rentabilidad de la IA tras la ampliación de Oracle.",
+    "==El FTSE 100 (−1,14 %) fue el peor de Europa== por mineras y bancos; el cobre cayó un 2,52 %, a mínimos de siete semanas.",
+    "Wall Street, dividida: ==Nvidia (+3 %) llevó al Nasdaq 100 a subir un 0,68 %==, pero Apple y su previsión de márgenes restaron al Dow (−0,38 %).",
+    "El Brent subió por el ataque de EE. UU. a la isla iraní de Qeshm y luego lo devolvió: cerró en 103,6 $ (−1,12 %).",
+    "==Los tipos de EE. UU. rebotaron (10 años +6 pb, a 4,95 %)== tras tocar mínimos de ocho semanas; el dólar se fortaleció y el oro bajó.",
+    "==Los demócratas ganaron las dos cámaras del Congreso==: renovables arriba, petroleras abajo y, tras el cierre, futuros de IA, tipos y dólar a la baja.",
+    "En fondos, ==ganaron los de energías renovables (Schroder Global Alternative Energy +2,7 %) e India==; perdieron los de Taiwán (JPM Taiwan −6,26 %), chips asiáticos y ciberseguridad."
+  ],
+  "suben": [
+    {
+      "activo": "Nasdaq 100",
+      "cambio": "+0,68 %",
+      "por_que": "==Rebote de los chips tras tres sesiones de caídas==: Nvidia subió en torno a un 3 % y AMD y Micron ganaron antes de los resultados de AMD. Apple (−2 a −4 %) frenó la subida, porque pesa mucho en el índice.",
+      "fuentes": [
+        {
+          "t": "Forbes",
+          "u": "https://www.forbes.com/sites/fionariley/2026/11/03/nvidia-regains-title-of-worlds-most-valuable-company-as-apple-shares-slide/"
+        },
+        {
+          "t": "Invezz",
+          "u": "https://invezz.com/pk/news/2026/11/03/nasdaq-rises-as-chip-stocks-rebound-while-apple-and-palantir-shares-fall/"
+        }
+      ]
+    },
+    {
+      "activo": "S&P 500",
+      "cambio": "+0,36 %",
+      "por_que": "Cortó tres días de caídas gracias a la tecnología de chips. La subida fue moderada por la prudencia ante las elecciones y por el peso de Apple.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "activo": "Sensex (India)",
+      "cambio": "+1,62 %",
+      "por_que": "Siguió beneficiándose de un ==crudo mucho más barato que la semana pasada==: la India importa casi todo su petróleo. Además, apenas tiene exposición al ciclo de chips de memoria que hundió a Corea y Taiwán, y ==atrajo dinero que salía de esos mercados==.",
+      "fuentes": []
+    },
+    {
+      "activo": "Bitcoin",
+      "cambio": "+1,49 %",
+      "por_que": "Recuperó parte de la caída del lunes, en línea con el rebote del Nasdaq. Sin noticia concreta.",
+      "fuentes": []
+    },
+    {
+      "activo": "Gas natural EE. UU. (Henry Hub)",
+      "cambio": "+1,37 %",
+      "por_que": "Movimiento propio del mercado estadounidense (previsiones de frío y demanda para calefacción). No tiene relación con el gas europeo, que bajó.",
+      "fuentes": []
+    },
+    {
+      "activo": "Bono EE. UU. 10 años (TIR)",
+      "cambio": "+6 pb (4,95 %)",
+      "por_que": "Rebote tras tocar mínimos de ocho semanas el lunes; ver bloque de tipos.",
+      "fuentes": [
+        {
+          "t": "Schwab",
+          "u": "https://www.schwab.com/learn/story/stock-market-update-open"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "KOSPI (Corea)",
+      "cambio": "−3,59 %",
+      "por_que": "==Samsung (−4 %) y SK Hynix (−5 %) cayeron por las dudas sobre el gasto en IA== que dejó la sesión del lunes en EE. UU. (Oracle). Corea depende mucho de los chips de memoria, y los inversores extranjeros vendieron con fuerza.",
+      "fuentes": [
+        {
+          "t": "Seoul Economic Daily",
+          "u": "https://en.sedaily.com/finance/2026/11/03/samsung-sk-hynix-slide-on-us-ai-selloff-kospi-tests-5700"
+        },
+        {
+          "t": "Korea JoongAng Daily",
+          "u": "https://www.koreajoongangdaily.com/business/kospi-slides-at-open-336-on-concerns-over-ai-infrastructure-spending/12951953"
+        }
+      ]
+    },
+    {
+      "activo": "Taiex (Taiwán)",
+      "cambio": "−3,59 %",
+      "por_que": "El mismo contagio: TSMC y los proveedores de servidores para IA son la mayor parte del índice. ==Lo que hace dudar del gasto en centros de datos golpea primero a Taiwán y Corea==.",
+      "fuentes": [
+        {
+          "t": "TradingKey",
+          "u": "https://www.tradingkey.com/analysis/stocks/more/262266138-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-tradingkey"
+        }
+      ]
+    },
+    {
+      "activo": "Cobre",
+      "cambio": "−2,52 %",
+      "por_que": "Cayó a mínimos de siete semanas. No hay una noticia concreta: pesan ==un dólar más firme (encarece el metal para el resto del mundo)== y el mal tono de Asia. Además, parte de la demanda esperada de cobre viene de los centros de datos y la red eléctrica ligados a la IA.",
+      "fuentes": [
+        {
+          "t": "Investing.com (Reuters)",
+          "u": "https://ng.investing.com/news/stock-market-news/ftse-100-today-stocks-fall-as-gulf-war-lifts-oil-miners-slide-on-weaker-metals-2750262"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE 100 (Reino Unido)",
+      "cambio": "−1,14 %",
+      "por_que": "==Mineras (índice sectorial −2,6 %) y bancos (−1,6 %; HSBC −2 %)== lo lastraron. Tiene mucho peso en materias primas, y el cobre cayó. La cautela antes del Banco de Inglaterra del jueves también pesó.",
+      "fuentes": [
+        {
+          "t": "ad-hoc-news (Reuters)",
+          "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/ftse-100-closes-1-14-prozent-lower-at-10-638-43/70452939"
+        }
+      ]
+    },
+    {
+      "activo": "Shanghái (SSE)",
+      "cambio": "−0,82 %",
+      "por_que": "Se contagió del mal tono tecnológico de la región y devolvió la subida del lunes. Sin noticia local concreta.",
+      "fuentes": []
+    },
+    {
+      "activo": "Petróleo Brent",
+      "cambio": "−1,12 % (103,6 $)",
+      "por_que": "Subió hasta ~106,6 $ tras el ataque a Qeshm, pero ==la esperanza de avances con Irán pesó más== y cerró en negativo. Un Congreso demócrata, además, se ve menos favorable a la producción de petróleo y gas en EE. UU.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/11/03/oil-rises-after-report-of-us-strike-on-irans-qeshm-island.html"
+        }
+      ]
+    },
+    {
+      "activo": "IBEX 35",
+      "cambio": "−0,79 %",
+      "por_que": "Recogida de beneficios tras liderar Europa el lunes (+1,63 %). ==La banca (Santander −1,5 %, Sabadell y Bankinter −1,2 %) restó==, en línea con los bancos europeos y británicos.",
+      "fuentes": [
+        {
+          "t": "Estrategias de Inversión",
+          "u": "https://www.estrategiasdeinversion.com/amp/la-bolsa-hoy-en-directo/03-11-2026"
+        }
+      ]
+    },
+    {
+      "activo": "Plata / oro",
+      "cambio": "−2,23 % / −0,74 %",
+      "por_que": "==Subida de tipos y dólar más fuerte==: el oro no da intereses, así que pierde atractivo cuando sube la rentabilidad de los bonos. La plata, más industrial, también sufrió la caída de los metales básicos.",
+      "fuentes": []
+    },
+    {
+      "activo": "EUR/USD",
+      "cambio": "−0,33 % (1,118)",
+      "por_que": "El dólar ganó terreno porque ==los tipos de EE. UU. subieron más que los europeos==, y por la búsqueda de refugio ante las elecciones y el ataque a Irán. Las clases de fondos en dólares ganan algo en euros.",
+      "fuentes": []
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Dudas sobre la rentabilidad de la inteligencia artificial (IA)",
+      "texto": "La ampliación de capital y deuda de Oracle (20.000 millones $) del lunes reavivó la pregunta de cuándo dará dinero tanta inversión en centros de datos. ==Asia, que fabrica los chips, lo pagó con caídas del 3,6–3,7 % en Corea y Taiwán==, y Europa con ASML, STMicro e Infineon a la baja. En EE. UU., en cambio, ==los inversores aprovecharon para comprar chips tras tres días de caídas== (Nvidia +3 %). Es la misma historia leída de dos formas según la hora.",
+      "fuentes": [
+        {
+          "t": "Invezz",
+          "u": "https://invezz.com/ng/news/2026/11/03/samsung-and-sk-hynix-stocks-plunge-as-a-dollar20-billion-ai-shock-rattles-markets/"
+        },
+        {
+          "t": "Forbes",
+          "u": "https://www.forbes.com/sites/fionariley/2026/11/03/nvidia-regains-title-of-worlds-most-valuable-company-as-apple-shares-slide/"
+        }
+      ]
+    },
+    {
+      "tema": "Apple y el coste de la memoria",
+      "texto": "Apple prevé un margen bruto del 45–46 % en el trimestre de Navidad, por debajo del 47,9 % anterior y del ~46,5 % esperado. ==La causa es la subida del precio de los chips de memoria==, que la propia IA ha disparado. Es la otra cara del ciclo: lo que gana el fabricante de memoria lo pierde quien la compra. Por eso el Dow, donde Apple pesa mucho, bajó.",
+      "fuentes": [
+        {
+          "t": "Stocktwits",
+          "u": "https://stocktwits.com/news-articles/markets/equity/aapl-stock-tumbles-overnight-on-margin-pressure-from-surging-memory-prices-mu-sndk-inch-higher/cNGQxyuR95f"
+        },
+        {
+          "t": "HDFC Sky",
+          "u": "https://hdfcsky.com/news/nasdaq-jumps-0-61percent-to-25317-as-chip-stocks-rebound-ahead-of-amd-earnings-dow-slips-0-61percent-on-apple-margin-warning"
+        }
+      ]
+    },
+    {
+      "tema": "Irán: ataque a Qeshm y negociación a la vez",
+      "texto": "Un día después de la gran caída del crudo por la esperanza de paz, ==EE. UU. atacó la isla iraní de Qeshm, junto al estrecho de Ormuz==. El Brent subió hasta ~106,6 $, pero lo devolvió porque el mercado sigue esperando avances en la negociación. Conclusión: ==la diplomacia pesa más que los incidentes, pero el riesgo de cortes pone un suelo al precio==.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/11/03/oil-rises-after-report-of-us-strike-on-irans-qeshm-island.html"
+        },
+        {
+          "t": "The National",
+          "u": "https://www.thenationalnews.com/business/energy/2026/11/03/oil-prices-cross-105-after-us-strikes-on-irans-qeshm-island/"
+        }
+      ]
+    },
+    {
+      "tema": "Elecciones de mitad de mandato en EE. UU.",
+      "texto": "Los mercados operaron con cautela mientras se votaba. ==Los demócratas ganaron la Cámara de Representantes y el Senado==, lo que deja al presidente sin mayoría en el Congreso los dos años que le quedan. ==Un Congreso dividido frente a la Casa Blanca suele significar bloqueo fiscal==: menos estímulo, menos déficit nuevo y, por tanto, menos prima por plazo en los bonos largos. Durante la sesión ya se anticipó: ==subieron las solares y renovables y bajaron las petroleras==. Tras el cierre, los futuros de las empresas de IA cayeron por el temor a que los demócratas frenen la construcción de centros de datos (consumo eléctrico, permisos), y los tipos y el dólar bajaron.",
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
+        },
+        {
+          "t": "Bloomberg",
+          "u": "https://www.bloomberg.com/news/articles/2026-11-04/global-solar-stocks-jump-as-democrats-hold-early-us-midterm-lead"
+        },
+        {
+          "t": "FXStreet",
+          "u": "https://www.fxstreet.com/news/forex-today-us-dollar-under-pressure-as-democrats-take-control-of-congress-202611040737"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "En EE. UU. ==los tipos rebotaron tras tocar el lunes mínimos de ocho semanas==: la TIR (tasa interna de rentabilidad) a 10 años subió 6 pb (puntos básicos), a 4,95 %; la de 5 años, 5 pb (4,74 %), y la de 30 años, 5 pb (5,32 %). Hubo tres motivos. Primero, ==el petróleo dejó de caer== (ataque a Qeshm) y eso frenó la bajada de la inflación esperada que había empujado los tipos abajo el lunes. Segundo, ==la cautela ante las elecciones añade prima por plazo==: el mercado pide algo más por prestar a largo plazo si un Congreso afín al presidente permite más déficit. Tercero, el mercado sigue dando en torno a un 75 % de probabilidad a una subida de la Reserva Federal (Fed) en diciembre. El dato del 2 años de la base FRED aún no está publicado para hoy (el lunes cerró en 4,59 %, +3 pb).\n\nEn la zona euro, el dato del Banco Central Europeo (BCE) solo llega al lunes: ==el AAA a 10 años bajó 4 pb, a 3,33 %==, por el desplome del petróleo. Hoy, según prensa, ==el Bund alemán apenas se movió (≈3,31 %)==: la caída de las bolsas europeas favoreció algo a la deuda refugio y compensó el rebote de los tipos americanos. ==Los países periféricos sí se ampliaron un poco==: el diferencial de Italia pasó de 113 a ~116 pb (BTP al 4,47–4,48 %), por la menor apetencia por riesgo. Francia siguió por encima de 160 pb, tras la perspectiva negativa de Fitch, y España en torno a 62 pb (3,95 %).\n\nYa tras el cierre, con ==la victoria demócrata en las dos cámaras==, el 10 años estadounidense volvió a bajar hacia el 4,90–4,93 %: ==un Congreso que frena al presidente reduce la expectativa de más estímulo fiscal y de más emisión de deuda==, y además hubo compra de bonos como refugio ante la caída de los futuros.",
+    "puntos": [
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "+6 pb (4,95 %)",
+        "por_que": "Rebote desde mínimos de ocho semanas: ==el crudo dejó de caer== y la cautela electoral añade prima por plazo.",
+        "fuentes": [
+          {
+            "t": "Schwab",
+            "u": "https://www.schwab.com/learn/story/stock-market-update-open"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "Sin dato de hoy (lunes: 4,59 %, +3 pb)",
+        "por_que": "La base FRED va con un día de retraso. El tramo corto depende de la Fed: con ~75 % de probabilidad de subida en diciembre, se mantiene alto.",
+        "fuentes": []
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "+5 pb (5,32 %)",
+        "por_que": "El tramo más sensible al déficit: las elecciones deciden el margen fiscal.",
+        "fuentes": [
+          {
+            "t": "FXStreet",
+            "u": "https://www.fxstreet.com/analysis/what-the-midterm-elections-mean-for-treasury-yields-the-dollar-and-gold-202610211734"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "Lunes −4 pb (3,33 %); hoy ≈ estable (Bund 3,31 % según prensa)",
+        "por_que": "La caída de las bolsas favorece la deuda alemana como refugio y compensa el rebote de los tipos de EE. UU.",
+        "fuentes": [
+          {
+            "t": "ANSA",
+            "u": "https://ansa.it/sito/notizie/topnews/2026/11/03/lo-spread-btp-bund-a-1155-punti_5cdd3bed-fee7-45c8-9f77-b873aa415327.html"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Italia–Alemania",
+        "cambio": "+2/+3 pb (≈116 pb)",
+        "por_que": "==Los días de menos apetito por el riesgo los periféricos pagan más==; el BTP subió al 4,48 %.",
+        "fuentes": [
+          {
+            "t": "Il Sole 24 Ore",
+            "u": "https://en.ilsole24ore.com/art/btp-spread-widens-to-116-10-year-yield-rises-by-448-per-cent-AJJcXq2B"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial Francia–Alemania",
+        "cambio": "≈160–163 pb (sin cambio relevante)",
+        "por_que": "Sigue en máximos desde 2012 por el déficit y la perspectiva negativa de Fitch; hoy no hubo noticia nueva.",
+        "fuentes": [
+          {
+            "t": "Il Sole 24 Ore",
+            "u": "https://en.ilsole24ore.com/art/btp-spread-widens-to-116-10-year-yield-rises-by-448-per-cent-AJJcXq2B"
+          }
+        ]
+      },
+      {
+        "bono": "Diferencial España–Alemania",
+        "cambio": "≈62 pb (bono a 3,95 %)",
+        "por_que": "Estable: España sigue siendo de los periféricos más sólidos por crecimiento.",
+        "fuentes": []
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "Schwab",
+        "u": "https://www.schwab.com/learn/story/stock-market-update-open"
+      },
+      {
+        "t": "ANSA",
+        "u": "https://ansa.it/sito/notizie/topnews/2026/11/03/lo-spread-btp-bund-a-1155-punti_5cdd3bed-fee7-45c8-9f77-b873aa415327.html"
+      },
+      {
+        "t": "CNBC",
+        "u": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "Día de ==fuerte dispersión por regiones y sectores==: la mediana de renta variable bajó un 0,27 %, la de mixtos un 0,20 % y renta fija y monetarios quedaron planos. ==Arriba, fondos de energías renovables (por el voto demócrata) e India (Sensex +1,62 %)==; abajo, ==Taiwán y chips asiáticos (Taiex y KOSPI −3,59 %) y ciberseguridad==. Los fondos de tecnología de EE. UU. se repartieron: los más volcados en chips asiáticos o software bajaron pese al rebote de Nvidia, y algunos de crecimiento estadounidense subieron. Ojo: el ranking es aún parcial (1.419 fondos con valor liquidativo (VL) del día, sobre todo de Bankinter e IronIA); faltan muchos que publican con retraso.",
+    "suben": [
+      {
+        "isin": "LU2390151400",
+        "por_que": "==El mayor beneficiado del voto demócrata==: Nextpower y First Solar (más de un 11 % de la cartera entre ambas), Ormat y otras eléctricas renovables de EE. UU. (37 % del fondo), más EDP Renováveis, Acciona Energía y Vestas en Europa. El mercado espera más apoyo a la energía limpia con un Congreso demócrata."
+      },
+      {
+        "isin": "LU0594557885",
+        "por_que": "India: Sensex +1,62 %. ==Un petróleo más barato alivia a un gran importador== y el país apenas depende de los chips que hundieron a Corea y Taiwán. En euros (+2,04 %) gana algo más que en dólares (+1,70 %) porque ==el dólar se apreció un 0,33 % frente al euro==."
+      },
+      {
+        "isin": "LU0231462077",
+        "por_que": "Mismo motivo India, con mucha banca (ICICI, HDFC, Bajaj Finance: casi un tercio en financieras) y consumo. La clase en libras: +1,67 % en GBP y ==+1,94 % en EUR porque la libra subió frente al euro== (EUR/GBP −0,27 %)."
+      },
+      {
+        "isin": "LU0252216055",
+        "por_que": "India de crecimiento en clase EUR sin cubrir: ==+1,89 %, en línea con el Sensex== más el pequeño empuje del dólar y la rupia frente al euro."
+      },
+      {
+        "isin": "LU2038982661",
+        "por_que": "Acciones A chinas (bolsa continental). Sorprende: Shanghái bajó un 0,82 %. Probablemente su VL recoge el cierre de Shanghái del miércoles por la mañana (+1,05 %) o una cartera de consumo y financieras distinta del índice; ==tómalo con cautela==. En euros (+1,81 %) suma el efecto dólar (+1,48 % en USD)."
+      },
+      {
+        "isin": "LU0264410993",
+        "por_que": "India, clase en dólares: +1,47 % en USD y +1,80 % en EUR. ==La diferencia es el efecto divisa== (el euro bajó frente al dólar)."
+      },
+      {
+        "isin": "LU1755418297",
+        "por_que": "Bolsa de EE. UU. de todo tamaño con cobertura a euros: aprovechó ==el rebote de la tecnología estadounidense del martes== (Nasdaq 100 +0,68 %) tras caer un 1,39 % el lunes. Sin efecto divisa por la cobertura."
+      },
+      {
+        "isin": "LU2075955273",
+        "por_que": "Fondo de «innovación» de crecimiento en EE. UU.: ==rebote de los valores tecnológicos tras tres días de caídas==, sobre todo chips (Nvidia +3 %). Recupera la mayor parte del −2,23 % del lunes."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU0401357313",
+        "por_que": "Taiwán: ==casi el 75 % en tecnología== (MediaTek y TSMC ~18 %, ASE, Delta, Aspeed, Elite Material). Taiex −3,59 %, y ==el fondo cae más (−6,26 %) por sus valores de servidores de IA, más volátiles== que el índice. El dólar taiwanés apenas compensó."
+      },
+      {
+        "isin": "LU2286300988",
+        "por_que": "Ciberseguridad (CrowdStrike, Palo Alto, Cloudflare, Rubrik, Fortinet). ==Segundo día de fuerte castigo al software== (−3,9 % el lunes) tras el desplome de Fortinet de la semana pasada y Palantir, que cayó pese a batir previsiones por ==la desaceleración de sus contratos nuevos==. El rebote de los chips no llegó al software."
+      },
+      {
+        "isin": "LU0270816068",
+        "por_que": "Taiwán, clase en dólares: −5,02 % en USD y −4,71 % en EUR (==el dólar más fuerte suaviza la caída en euros==). Misma causa: TSMC, MediaTek, ASE y Hon Hai, el núcleo de la cadena de servidores de IA."
+      },
+      {
+        "isin": "LU1381420600",
+        "por_que": "Pese al nombre «consumo», ==casi el 80 % está en tecnología==: Samsung, TSMC y SK Hynix suman un 27 %. Cayó con Corea y Taiwán. Clase cubierta a euros, sin efecto divisa."
+      },
+      {
+        "isin": "LU0336299580",
+        "por_que": "Igual que el anterior: ==Samsung (10,6 %), TSMC (10 %) y SK Hynix (6,6 %)== más fabricantes chinos de equipos de chips. Es un fondo de Asia muy concentrado en la cadena de la IA."
+      },
+      {
+        "isin": "LU2484078832",
+        "por_que": "Fondo de inteligencia artificial: además de Nvidia (que subió), ==tiene TSMC, SK Hynix, Micron, SanDisk y Lam Research==, la parte de memoria y de Asia castigada. ASML (−3/−4 % en Europa) también restó. El rebote de Nvidia no compensó."
+      },
+      {
+        "isin": "IE00BJM0B969",
+        "por_que": "Concentrado en equipos y memoria: ==Lam Research, Applied Materials y SK Hynix suman un 28 %==, más SanDisk y BE Semiconductor. Es el segundo día de caídas (−2,63 % el lunes) por las dudas sobre el gasto en IA."
+      },
+      {
+        "isin": "LU0273689215",
+        "por_que": "Gran China (China, Hong Kong y Taiwán): ==lo que pesa es la parte de Taiwán (TSMC y proveedores de servidores)==, porque Hong Kong subió un 0,57 % y Shanghái bajó un 0,82 %."
+      }
+    ],
+    "por_clase": [
+      {
+        "clase": "Renta variable",
+        "texto": "Mediana −0,27 % (710 fondos). Ganan India, renovables y algo de crecimiento EE. UU.; pierden Taiwán, Asia tecnológica, ciberseguridad, Latinoamérica (Bovespa −1,43 % al reabrir tras el festivo del lunes) y petroleras (Schroder Global Energy −2,61 % por el voto demócrata y el Brent −1,12 %)."
+      },
+      {
+        "clase": "Renta fija",
+        "texto": "Mediana −0,01 %: los tipos de EE. UU. subieron 6 pb, pero el Bund apenas se movió; poco impacto en los fondos en euros."
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "fecha": "2026-11-04",
+      "evento": "Reacción del mercado a la victoria demócrata en el Congreso de EE. UU.",
+      "por_que_importa": "Se verá si dura el castigo a la IA en los futuros, el rebote de las renovables y la bajada de tipos y del dólar."
+    },
+    {
+      "fecha": "2026-11-04",
+      "evento": "Reacción a los resultados de AMD (publicados tras el cierre del martes)",
+      "por_que_importa": "Será otra prueba de si la demanda de chips para IA sostiene el rebote de los semiconductores o da la razón a Asia."
+    },
+    {
+      "fecha": "2026-11-04",
+      "evento": "Índice ISM de servicios de EE. UU. (fecha según calendario habitual)",
+      "por_que_importa": "Los servicios son la mayor parte de la economía: unos precios altos reforzarían la subida de la Fed en diciembre."
+    },
+    {
+      "fecha": "2026-11-05",
+      "evento": "Banco de Inglaterra (BoE)",
+      "por_que_importa": "Se espera una subida de 0,25 puntos; moverá la libra, los gilts (bonos británicos) y la banca del FTSE 100."
+    },
+    {
+      "fecha": "2026-11-06",
+      "evento": "Informe de empleo de octubre en EE. UU.",
+      "por_que_importa": "Tras un septiembre muy flojo, un dato débil podría rebajar las apuestas por una subida de la Fed y bajar los tipos."
+    },
+    {
+      "fecha": "2026-11-04",
+      "evento": "Negociaciones EE. UU.–Irán (seguimiento diario)",
+      "por_que_importa": "Cualquier avance o retroceso moverá el petróleo, la inflación esperada y los tipos de la zona euro."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta el vencimiento. Sube cuando baja su precio."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo."
+    },
+    {
+      "sigla": "BoE",
+      "def": "Banco de Inglaterra (Bank of England)."
+    },
+    {
+      "sigla": "FRED",
+      "def": "Base de datos económicos de la Reserva Federal de San Luis; publica algunos tipos con un día de retraso."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad implícita del S&P 500; sube cuando el mercado teme caídas."
+    },
+    {
+      "sigla": "ISM",
+      "def": "Instituto de Gestión de Suministros de EE. UU.; publica encuestas mensuales de actividad (manufacturas y servicios)."
+    },
+    {
+      "sigla": "BTP",
+      "def": "Bono del Tesoro italiano a largo plazo."
+    },
+    {
+      "sigla": "Bund",
+      "def": "Bono del Estado alemán; la referencia de deuda sin riesgo en la zona euro."
+    },
+    {
+      "sigla": "Prima por plazo",
+      "def": "Rentabilidad extra que se exige por prestar a largo plazo en lugar de renovar préstamos cortos; sube con la incertidumbre fiscal o de inflación."
+    },
+    {
+      "sigla": "WTI",
+      "def": "West Texas Intermediate, el petróleo de referencia en EE. UU."
+    },
+    {
+      "sigla": "KOSPI",
+      "def": "Índice principal de la bolsa de Corea del Sur."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: el precio de una participación del fondo, que se calcula una vez al día."
+    },
+    {
+      "sigla": "TAN",
+      "def": "ETF de Invesco que replica a las principales empresas solares del mundo."
+    }
+  ],
+  "generado": "2026-11-04T10:49"
+}
