@@ -1,0 +1,398 @@
+{
+ "periodo": "diario",
+ "clave": "2026-11-04",
+ "fase": "mercado",
+ "titulo": "El Congreso demócrata hunde el crudo un 8 % y dispara el Dow (+3 %) y el IBEX (+3 %)",
+ "resumen": "El mercado celebró la ==victoria demócrata en las dos cámaras del Congreso== de EE. UU. con la mayor subida desde abril. La lectura fue doble. Primero, ==un Congreso que frena al presidente limita el gasto y la emisión de deuda==, algo que los inversores ven como un alivio para las cuentas públicas. Segundo, Trump aceptó el resultado y se disipó el miedo a una crisis institucional: los futuros del Nasdaq, que se habían hundido de madrugada, se recuperaron en cuanto lo dijo. Y, sobre todo, ==el vicepresidente JD Vance culpó de la derrota a la guerra con Irán==, lo que el mercado interpretó como un incentivo para que la Casa Blanca busque un acuerdo.\n\nEso hundió el petróleo: ==el Brent cayó un 8,42 %, a 94,9 $==, por debajo de 100 $ por primera vez en más de un mes y en su nivel más bajo desde finales de agosto; el WTI bajó un 8,05 % (88,4 $) y el gas europeo TTF un 7,65 %. Menos petróleo significa menos inflación y menos costes para empresas y consumidores, y por eso la subida fue general. En Wall Street ==el Dow Jones se disparó un 3,03 % (53.356), su mejor día desde abril de 2025==, empujado por Apple y Amazon (+5–6 %) y por las aseguradoras de salud y los hospitales (Centene +12,6 %, HCA +10,4 %), que esperan menos recortes en la sanidad pública con un Congreso demócrata. El S&P 500 subió un 1,58 % (7.689) y el Russell 2000 otro 1,58 %. ==El Nasdaq 100 subió menos (+0,91 %)== porque la IA fue la gran perdedora: Nvidia cedió un 3,1 %, CoreWeave casi un 10 % y varias empresas de centros de datos se hundieron más de un 20 % en la sesión, por el temor a que el nuevo Congreso regule o frene esa inversión. Las solares (First Solar +4,6 %) volvieron a subir.\n\nEuropa vivió una de sus mejores sesiones del año. ==El IBEX 35 subió un 3,00 % (19.371), su mejor día desde el 8 de abril==, con la banca y la distribución al frente (CaixaBank +6,4 %, Inditex +5,2 %, Santander +4,9 %, BBVA +4,3 %): a la banca le ayuda la mejora del apetito por el riesgo, y a Inditex el petróleo barato, que libera renta para el consumo y abarata el transporte. El DAX subió un 2,22 %, el FTSE MIB un 2,18 %, el Euro Stoxx 50 un 1,97 %, el CAC 40 un 1,96 % y el FTSE 100 un 1,79 %. Europa, importadora neta de energía, es de las regiones que más ganan cuando cae el crudo.\n\nEn Asia el tono fue mixto. ==El Nikkei japonés cayó un 1,95 %==: volvía del festivo del martes y recogió de golpe el desplome de los chips asiáticos de esa jornada y las dudas sobre la inversión en IA (Taiwán −0,83 %, Corea plana). China (+1,05 %) y Hong Kong (+0,98 %) subieron. En divisas, ==el dólar se debilitó (índice dólar −0,34 %) y el euro subió un 0,79 %, a 1,127 $==: con menos estímulo fiscal esperado y menos gasto en centros de datos, EE. UU. atrae menos capital. Eso, junto con la bajada de tipos, impulsó ==el oro (+3,29 %, por encima de 4.000 $) y la plata (+5,44 %)==. El miedo se esfumó: ==el VIX bajó un 20 %, a 16,6==. El bitcoin subió un 3,6 % (80.119 $).",
+ "claves": [
+  "==Los demócratas ganaron el Congreso y Trump aceptó el resultado==: el mercado descontó menos gasto, menos deuda y menos riesgo institucional.",
+  "==El Brent se hundió un 8,42 % (94,9 $)== después de que Vance culpara de la derrota a la guerra con Irán: más incentivo para un acuerdo.",
+  "==Dow Jones +3,03 %, su mejor día desde abril de 2025==; el Nasdaq 100 subió menos (+0,91 %) por el castigo a la IA (Nvidia −3,1 %).",
+  "==El IBEX 35 (+3,00 %) firmó su mejor sesión desde abril==, con CaixaBank (+6,4 %), Inditex (+5,2 %) y Santander (+4,9 %).",
+  "Los tipos de EE. UU. bajaron (10 años −6 pb, a 4,89 %) y ==el dólar cayó: euro a 1,127 $ (+0,79 %), oro +3,29 %==.",
+  "El Nikkei (−1,95 %) fue la excepción: volvía de festivo y recogió la caída de los chips asiáticos del martes."
+ ],
+ "suben": [
+  {
+   "activo": "Dow Jones",
+   "cambio": "+3,03 %",
+   "por_que": "==Mejor día desde abril de 2025== (53.356). Pesa mucho en él la economía «tradicional» y salud: Apple (+5,3 %), aseguradoras y hospitales, que esperan que el Congreso demócrata proteja el gasto sanitario público; además el crudo barato reduce costes.",
+   "fuentes": [
+    {
+     "t": "StockTitan",
+     "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026"
+    },
+    {
+     "t": "CNN",
+     "u": "https://cnn.com/2026/11/04/investing/us-markets-midterm-elections"
+    }
+   ]
+  },
+  {
+   "activo": "IBEX 35",
+   "cambio": "+3,00 %",
+   "por_que": "==Mejor sesión desde el 8 de abril== (19.371). La banca (CaixaBank +6,4 %, Santander +4,9 %, BBVA +4,3 %) sube con el apetito por el riesgo e Inditex (+5,2 %) con el petróleo barato, que libera renta para consumir.",
+   "fuentes": [
+    {
+     "t": "El Español (Invertia)",
+     "u": "https://elespanol.com/invertia/mercados/20261104/bolsas-reaccionan-alza-arrasar-democratas-midterms-ibex-sube-wall-st-anticipa-subidas/1003744445362_0.html"
+    },
+    {
+     "t": "Catalunya Press",
+     "u": "https://www.catalunyapress.es/articulo/economia/2026-11-04/6079118-ibex-35-dispara-3-triunfo-democrata-firma-mejor-dia-desde-abril"
+    }
+   ]
+  },
+  {
+   "activo": "DAX (Alemania)",
+   "cambio": "+2,22 %",
+   "por_que": "La industria alemana, muy dependiente de la energía importada, es de las grandes beneficiadas por ==la caída del crudo y del gas (TTF −7,65 %)==.",
+   "fuentes": [
+    {
+     "t": "El Español (Invertia)",
+     "u": "https://elespanol.com/invertia/mercados/20261104/bolsas-reaccionan-alza-arrasar-democratas-midterms-ibex-sube-wall-st-anticipa-subidas/1003744445362_0.html"
+    }
+   ]
+  },
+  {
+   "activo": "S&P 500",
+   "cambio": "+1,58 %",
+   "por_que": "Subida amplia (7.689): menos riesgo político y petróleo más barato. ==Frenada por la IA==: Nvidia (−3,1 %) y los nombres de centros de datos cayeron.",
+   "fuentes": [
+    {
+     "t": "StockTitan",
+     "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026"
+    }
+   ]
+  },
+  {
+   "activo": "Oro",
+   "cambio": "+3,29 %",
+   "por_que": "==Recupera los 4.000 $ (4.070 $)== por la caída del dólar y de los tipos reales de EE. UU.: el oro no paga intereses y en dólares más baratos sale más barato para el resto del mundo.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://fxstreet.com/news/gold-reclaims-4-000-as-us-midterm-sweep-sinks-usd-oil-plunges-202611041803"
+    }
+   ]
+  },
+  {
+   "activo": "Plata",
+   "cambio": "+5,44 %",
+   "por_que": "Sigue al oro amplificado (52,3 $), como suele pasar, por el dólar débil; recupera tras caer un 2,2 % el martes.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://fxstreet.com/news/gold-reclaims-4-000-as-us-midterm-sweep-sinks-usd-oil-plunges-202611041803"
+    }
+   ]
+  },
+  {
+   "activo": "Euro / dólar",
+   "cambio": "+0,79 %",
+   "por_que": "==El dólar se debilita (DXY −0,34 %)==: un Congreso dividido reduce el estímulo fiscal esperado y el posible frenazo a los centros de datos resta atractivo a invertir en EE. UU.",
+   "fuentes": [
+    {
+     "t": "StockTitan",
+     "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026"
+    },
+    {
+     "t": "FXStreet",
+     "u": "https://fxstreet.com/news/gold-reclaims-4-000-as-us-midterm-sweep-sinks-usd-oil-plunges-202611041803"
+    }
+   ]
+  },
+  {
+   "activo": "Bitcoin",
+   "cambio": "+3,59 %",
+   "por_que": "Se suma al apetito por el riesgo y al dólar débil (80.119 $).",
+   "fuentes": []
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "−8,42 %",
+   "por_que": "==Vance atribuyó la derrota a la guerra con Irán==: el mercado cree que Trump tiene ahora más incentivo para pactar, lo que reabriría el flujo por Ormuz. Cierra en 94,9 $, mínimo desde finales de agosto.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo WTI",
+   "cambio": "−8,05 %",
+   "por_que": "Mismo motivo (88,4 $); por debajo de 90 $ por primera vez en semanas.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "−7,65 %",
+   "por_que": "Una paz con Irán aliviaría también el suministro de gas natural licuado de Catar que pasa por Ormuz (85,0 €/MWh).",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+    }
+   ]
+  },
+  {
+   "activo": "VIX (volatilidad S&P 500)",
+   "cambio": "−20,3 %",
+   "por_que": "==Se despeja la incertidumbre electoral== y baja el precio de los seguros contra caídas (16,6 desde 20,8).",
+   "fuentes": [
+    {
+     "t": "Charles Schwab",
+     "u": "https://www.schwab.com/learn/story/stock-market-update-open"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "−1,95 %",
+   "por_que": "Volvía del festivo del martes y ==recogió de golpe el desplome de los chips asiáticos== de esa jornada y el castigo a la IA de los futuros tras las elecciones (cambio frente al lunes).",
+   "fuentes": []
+  },
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "−0,83 %",
+   "por_que": "Nueva caída tras el −3,6 % del martes: los fabricantes de chips sufren por el temor a que se frene el gasto en centros de datos de IA en EE. UU.",
+   "fuentes": [
+    {
+     "t": "StockTitan",
+     "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026"
+    }
+   ]
+  },
+  {
+   "activo": "MOVE (volatilidad bonos EE. UU.)",
+   "cambio": "−6,1 %",
+   "por_que": "Menos incertidumbre fiscal tras las elecciones: baja la volatilidad esperada de los tipos.",
+   "fuentes": []
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Elecciones de mitad de mandato en EE. UU.",
+   "texto": "==Los demócratas controlarán las dos cámaras==. Un Congreso que frena al presidente se traduce en ==menos gasto y menos emisión de deuda==, y por tanto menos presión sobre los tipos. Que Trump aceptara la derrota quitó el riesgo de una crisis institucional. Ganan sanidad y renovables; pierden IA y centros de datos (temor a regulación) y Trump Media (−24 %).",
+   "fuentes": [
+    {
+     "t": "StockTitan",
+     "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026"
+    },
+    {
+     "t": "El Español (Invertia)",
+     "u": "https://elespanol.com/invertia/mercados/20261104/bolsas-reaccionan-alza-arrasar-democratas-midterms-ibex-sube-wall-st-anticipa-subidas/1003744445362_0.html"
+    },
+    {
+     "t": "CNN",
+     "u": "https://cnn.com/2026/11/04/investing/us-markets-midterm-elections"
+    }
+   ]
+  },
+  {
+   "tema": "Petróleo e Irán",
+   "texto": "==JD Vance culpó de la derrota a la guerra con Irán==, que ha encarecido la energía. El mercado lo lee como un empujón hacia un acuerdo y hacia la reapertura de Ormuz: el Brent pierde un 8,4 % y acumula cerca de un 13 % en la semana. Persisten riesgos: Teherán dice que el acuerdo está lejos y se habla de minas en el estrecho.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+    }
+   ]
+  },
+  {
+   "tema": "Inteligencia artificial (IA)",
+   "texto": "Fue la cara amarga del día: ==Nvidia −3,1 %, CoreWeave −9,9 %== y empresas de infraestructura de centros de datos con caídas de más del 20 % en la sesión. El temor es que el nuevo Congreso ponga trabas (energía, permisos, regulación) a la construcción de centros de datos.",
+   "fuentes": [
+    {
+     "t": "StockTitan",
+     "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026"
+    }
+   ]
+  },
+  {
+   "tema": "Dólar y oro",
+   "texto": "Con menos estímulo fiscal, menos inversión en IA y tipos a la baja, ==el dólar cede y el oro sube un 3,3 %==, de vuelta por encima de 4.000 $.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://fxstreet.com/news/gold-reclaims-4-000-as-us-midterm-sweep-sinks-usd-oil-plunges-202611041803"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. ==los tipos bajaron con claridad==: la TIR (tasa interna de rentabilidad) a 10 años cayó 6 pb (puntos básicos), a 4,89 %; la de 5 años, 5 pb (4,69 %), y la de 30 años, 4 pb (5,28 %). Hubo dos motores. El primero, ==fiscal: un Congreso demócrata limita los recortes de impuestos y el gasto nuevo==, así que el Tesoro tendrá que emitir menos deuda y baja la prima por plazo que se exige a los bonos largos. El segundo, ==el desplome del petróleo, que rebaja la inflación esperada==. Las apuestas por una subida de la Reserva Federal (Fed) en diciembre apenas cambiaron con el resultado electoral (en torno al 80 % antes de las elecciones): el ADP (empleo privado) de octubre, con 86.000 empleos, superó lo previsto. Por eso el tramo corto se movió menos; el dato del 2 años de FRED aún no está publicado para hoy (el martes cerró en 4,61 %, +2 pb).\n\nEn la zona euro, el dato del Banco Central Europeo (BCE) solo llega al martes: ==el AAA a 10 años subió 2 pb, a 3,35 %==. Hoy, según prensa, ==el Bund alemán quedó prácticamente plano (≈3,32 %)==: el petróleo barato empuja los tipos a la baja, pero la fuerte subida de las bolsas resta demanda de deuda refugio, y ambas fuerzas se compensaron. ==La periferia se estrechó==: el bono español a 10 años bajó a ~3,85 % y su prima de riesgo a unos 53–59 pb (desde ~62 pb), porque el apetito por el riesgo favorece a los bonos con algo más de rentabilidad.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−6 pb (4,89 %)",
+    "por_que": "==Congreso dividido = menos déficit y menos emisión==, y crudo más barato = menos inflación esperada.",
+    "fuentes": [
+     {
+      "t": "Vantage Markets",
+      "u": "https://vantagemarkets.com/market-analysis/why-gold-stalled-fed-hike-bets-xauusd-analysis-november-4-2026"
+     },
+     {
+      "t": "StockTitan",
+      "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "s. d. hoy (martes 4,61 %, +2 pb)",
+    "por_que": "FRED aún no tiene el dato. Se mueve menos que el largo: ==la subida de la Fed en diciembre sigue muy descontada== y el ADP salió mejor de lo previsto.",
+    "fuentes": [
+     {
+      "t": "Vantage Markets",
+      "u": "https://vantagemarkets.com/market-analysis/why-gold-stalled-fed-hike-bets-xauusd-analysis-november-4-2026"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "−4 pb (5,28 %)",
+    "por_que": "Menor prima por plazo por la perspectiva de menos deuda nueva.",
+    "fuentes": []
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "+2 pb el martes (3,35 %); hoy ≈ plano según prensa",
+    "por_que": "El crudo barato (tipos abajo) y el rally bursátil (menos refugio) se compensaron.",
+    "fuentes": [
+     {
+      "t": "Investing.com",
+      "u": "https://es.investing.com/news/forex-news/los-rendimientos-alemanes-se-estabilizan-ante-las-elecciones-de-eeuu-y-el-ipc-de-la-eurozona-3908375"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial España–Alemania",
+    "cambio": "≈ 53–59 pb (desde ~62)",
+    "por_que": "==Más apetito por el riesgo== favorece la deuda periférica; bono español ~3,85 %.",
+    "fuentes": [
+     {
+      "t": "Demócrata",
+      "u": "https://democrata.es/economia/el-ibex-35-vuela-un-3-tras-el-triunfo-democrata-en-las-midterms-y-firma-su-mejor-sesion-desde-abril"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Vantage Markets",
+    "u": "https://vantagemarkets.com/market-analysis/why-gold-stalled-fed-hike-bets-xauusd-analysis-november-4-2026"
+   },
+   {
+    "t": "Investing.com",
+    "u": "https://es.investing.com/news/forex-news/los-rendimientos-alemanes-se-estabilizan-ante-las-elecciones-de-eeuu-y-el-ipc-de-la-eurozona-3908375"
+   },
+   {
+    "t": "Demócrata",
+    "u": "https://democrata.es/economia/el-ibex-35-vuela-un-3-tras-el-triunfo-democrata-en-las-midterms-y-firma-su-mejor-sesion-desde-abril"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "",
+  "suben": [],
+  "bajan": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-05",
+   "evento": "Banco de Inglaterra (BoE)",
+   "por_que_importa": "Se espera una subida de 0,25 puntos; moverá la libra, los gilts (bonos británicos) y la banca del FTSE 100. El petróleo barato podría hacerla menos agresiva."
+  },
+  {
+   "fecha": "2026-11-05",
+   "evento": "Reacción a los resultados de Qualcomm, Arm y AppLovin (publicados tras el cierre)",
+   "por_que_importa": "Qualcomm cayó ~5 % fuera de hora por ventas a la baja: otra prueba para los chips tras el castigo a la IA."
+  },
+  {
+   "fecha": "2026-11-06",
+   "evento": "Informe de empleo de octubre en EE. UU.",
+   "por_que_importa": "Decisivo para la subida de la Fed en diciembre: un dato débil bajaría los tipos cortos y el dólar."
+  },
+  {
+   "fecha": "2026-11-05",
+   "evento": "Negociaciones EE. UU.–Irán (seguimiento diario)",
+   "por_que_importa": "Tras el −8 % del crudo, cualquier señal de acuerdo o de nuevas tensiones en Ormuz moverá el petróleo, la inflación esperada y los tipos."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "BoE",
+   "def": "Banco de Inglaterra."
+  },
+  {
+   "sigla": "FRED",
+   "def": "Base de datos de la Reserva Federal de San Luis de la que salen algunos tipos del panel; publica con un día de retraso."
+  },
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad del S&P 500, el «indicador del miedo»."
+  },
+  {
+   "sigla": "MOVE",
+   "def": "Índice de volatilidad esperada de los bonos del Tesoro de EE. UU."
+  },
+  {
+   "sigla": "DXY",
+   "def": "Índice dólar: valor del dólar frente a una cesta de seis grandes divisas."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Mercado de referencia del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "WTI",
+   "def": "West Texas Intermediate, el petróleo de referencia en EE. UU."
+  },
+  {
+   "sigla": "ADP",
+   "def": "Empresa de nóminas que publica cada mes un dato de empleo privado en EE. UU."
+  },
+  {
+   "sigla": "Bund",
+   "def": "Bono del Estado alemán, referencia de la zona euro."
+  },
+  {
+   "sigla": "Prima por plazo",
+   "def": "Rentabilidad extra que se exige por prestar a largo plazo en lugar de renovar préstamos cortos."
+  },
+  {
+   "sigla": "Prima de riesgo",
+   "def": "Diferencia de rentabilidad entre el bono a 10 años de un país y el alemán."
+  }
+ ],
+ "generado": "2026-11-04T23:59"
+}
