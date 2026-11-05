@@ -1,0 +1,441 @@
+{
+ "periodo": "diario",
+ "clave": "2026-11-05",
+ "fase": "mercado",
+ "titulo": "La IA se desploma: Nasdaq 100 −6,4 %, chips −12 % y el VIX se dispara un 70 %",
+ "resumen": "Un día después de la euforia por las elecciones de mitad de mandato, ==Wall Street sufrió su peor sesión desde abril de 2025==. La chispa fueron los resultados de Qualcomm y Arm del miércoles por la noche: Qualcomm decepcionó con una caída del 26 % en sus chips para móviles y Arm, pese a facturación récord, no convenció. Sobre ese terreno cayó el segundo golpe: ==cientos de candidatos que prometieron frenar los centros de datos de IA ganaron escaño==, y estados clave para esa inversión (Texas, Ohio, Míchigan, Georgia) quedan expuestos a más regulación. Con las tecnológicas muy revalorizadas en 2026, los fondos de cobertura aprovecharon para ==recoger beneficios antes de fin de año==, según Nomura, y los particulares vendieron como no lo hacían desde 2020.\n\nEl resultado: ==el índice de semiconductores de Filadelfia (SOX) cayó cerca de un 12 %, su peor día desde marzo de 2020==. Las memorias fueron las más castigadas (SanDisk −22 %, Micron, AMD y Western Digital en torno a −17 %), Nvidia perdió un 9 % y Arm un 13 %. ==El Nasdaq 100 se hundió un 6,36 % (26.630)== y el Nasdaq Composite entró en corrección (más de un 10 % por debajo de su máximo de octubre). El S&P 500 cayó un 4,36 % (7.354), el Russell 2000 un 4,45 % y el Dow Jones un 3,44 % (51.523), lastrado por Nvidia. Tesla y SpaceX cayeron casi un 10 % por el temor a investigaciones a Elon Musk con un Congreso demócrata. ==El VIX saltó un 70 %, a 28,2==, su mayor subida diaria en más de dos años.\n\nAsia ya había adelantado el golpe a los chips: ==el Kospi coreano cayó un 5,27 %== con suspensión temporal de órdenes de venta (Samsung −7,6 %, SK Hynix −9,5 %), Taiwán un 3,20 % y el Nikkei un 1,97 % (Advantest −14,7 %). En cambio, ==Hong Kong subió un 3,12 % porque Pekín anunció ayudas a sus fabricantes de chips== y el banco central chino abarató la financiación para recompras de acciones; India (+1,85 %) se benefició del petróleo barato del miércoles. Europa aguantó mejor porque tiene poca tecnología: el Stoxx 600 llegó a rozar máximos por la mañana, pero acabó cediendo un 0,38 % con la apertura de Wall Street (ASML −6,6 %). ==El IBEX 35 subió un 0,59 % (19.486)== y el CAC 40 un 0,34 %, mientras el FTSE MIB perdió un 1,03 %. ==El Banco de Inglaterra subió los tipos al 4 %==, la primera subida desde 2023, por la inflación energética.\n\nFuera de la bolsa, ==el petróleo rebotó (Brent +4,52 %, a 98,9 $)== tras el −8,7 % del miércoles, por las dudas de que Trump vaya a cerrar de verdad un acuerdo con Irán; el gas europeo TTF subió un 5,42 %. Los bonos de EE. UU. actuaron de refugio (10 años −6 pb, a 4,84 %) y el oro subió un 0,62 % (4.098 $). Todo lo ligado al tema IA y al riesgo bajó: cobre −3,20 % (cableado de centros de datos), uranio −5,26 % (energía para la IA) y bitcoin −5,79 % (75.747 $). El euro cedió un 0,38 % frente al dólar (1,122 $, cambio de referencia del BCE).",
+ "claves": [
+  "==Peor día del Nasdaq 100 (−6,36 %) y del S&P 500 (−4,36 %) desde abril de 2025==: resultados de Qualcomm/Arm + temor a la regulación de la IA.",
+  "==Los chips se hundieron: SOX −12 %, peor día desde marzo de 2020==; Nvidia −9 %, Micron y AMD −17 %.",
+  "El nuevo Congreso demócrata pasó de alivio a amenaza: ==muchos ganadores prometieron frenar los centros de datos==.",
+  "Asia: ==Kospi −5,27 % y Taiwán −3,20 %==, pero Hong Kong +3,12 % por las ayudas de Pekín a sus chips.",
+  "Europa resistió por su poco peso tecnológico: ==IBEX +0,59 %==, Stoxx 600 −0,38 %; el Banco de Inglaterra subió tipos al 4 %.",
+  "Refugio en bonos: ==10 años de EE. UU. −6 pb (4,84 %)== y menos apuestas a una subida de la Fed en diciembre; el VIX, +70 % (28,2)."
+ ],
+ "suben": [
+  {
+   "activo": "VIX (volatilidad S&P 500)",
+   "cambio": "+69,7 % (28,2)",
+   "por_que": "==Mayor salto diario en más de dos años==. El VIX mide el precio de asegurarse contra caídas del S&P 500: con una caída del 4 % y ventas forzadas, la demanda de coberturas se dispara.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+    }
+   ]
+  },
+  {
+   "activo": "Hang Seng (Hong Kong)",
+   "cambio": "+3,12 %",
+   "por_que": "==Pekín anunció nuevas ayudas a sus fabricantes de chips== y el banco central chino rebajó 25 pb (al 1 %) el tipo de su línea para financiar recompras de acciones. Los chips chinos ganan si EE. UU. frena los suyos.",
+   "fuentes": [
+    {
+     "t": "Investing.com",
+     "u": "https://in.investing.com/news/stock-market-news/asia-stocks-mixed-as-chip-rout-triggers-kospi-trading-halt-china-outperforms-5681584"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "+4,52 % (98,9 $)",
+   "por_que": "Rebote técnico tras el −8,67 % del miércoles: ==el mercado duda de que el acuerdo con Irán llegue pronto==, y el riesgo de suministro sigue ahí.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+    },
+    {
+     "t": "NBC News",
+     "u": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "+5,42 %",
+   "por_que": "Sigue al crudo en su rebote: la prima por la guerra con Irán no se ha ido del todo.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+    }
+   ]
+  },
+  {
+   "activo": "Sensex (India)",
+   "cambio": "+1,85 %",
+   "por_que": "India importa casi todo su petróleo: ==la caída del crudo del miércoles mejora sus cuentas y su inflación==, y apenas tiene fabricantes de chips.",
+   "fuentes": [
+    {
+     "t": "Investing.com",
+     "u": "https://in.investing.com/news/stock-market-news/asia-stocks-mixed-as-chip-rout-triggers-kospi-trading-halt-china-outperforms-5681584"
+    }
+   ]
+  },
+  {
+   "activo": "IBEX 35 (España)",
+   "cambio": "+0,59 % (19.486)",
+   "por_que": "==Casi no tiene tecnológicas==: le pesan la banca, las eléctricas y el consumo. Llegó a 19.711 por la mañana y moderó la subida con Wall Street. Rovi se disparó tras ganar un 67 % más y subir previsiones.",
+   "fuentes": [
+    {
+     "t": "El Boletín",
+     "u": "https://www.elboletin.com/ibex-35-rebote-varapalo-electoral-trump/"
+    },
+    {
+     "t": "Bolsamanía",
+     "u": "https://www.bolsamania.com/noticias/mercados-ultima-hora/correccion-el-ibex-cierra-con-subidas-del-059-hasta-los-19486-puntos--24053030.html"
+    }
+   ]
+  },
+  {
+   "activo": "Oro",
+   "cambio": "+0,62 % (4.098 $)",
+   "por_que": "Refugio clásico en un día de pánico bursátil, ayudado por la bajada de las TIR estadounidenses, que abarata tener un activo sin cupón.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+    }
+   ]
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "−6,36 % (26.630)",
+   "por_que": "==Borró 2,3 billones de dólares de valor==. Concentra las empresas de IA y chips, golpeadas por Qualcomm/Arm, el temor a la regulación de los centros de datos y la recogida de beneficios.",
+   "fuentes": [
+    {
+     "t": "NBC News",
+     "u": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+    },
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "−5,27 %",
+   "por_que": "==Samsung (−7,6 %) y SK Hynix (−9,5 %) pesan muchísimo en el índice==: las memorias son lo más sensible a cualquier duda sobre el gasto en IA. Se activó la pausa de órdenes de venta.",
+   "fuentes": [
+    {
+     "t": "Investing.com",
+     "u": "https://in.investing.com/news/stock-market-news/asia-stocks-mixed-as-chip-rout-triggers-kospi-trading-halt-china-outperforms-5681584"
+    }
+   ]
+  },
+  {
+   "activo": "MSCI Emergentes (ETF EEM, USD)",
+   "cambio": "−5,79 %",
+   "por_que": "Corea y Taiwán, muy cargados de chips, pesan cerca de un tercio del índice; además el ETF cotiza en Nueva York y recoge el desplome de la tarde.",
+   "fuentes": [
+    {
+     "t": "Investing.com",
+     "u": "https://in.investing.com/news/stock-market-news/asia-stocks-mixed-as-chip-rout-triggers-kospi-trading-halt-china-outperforms-5681584"
+    }
+   ]
+  },
+  {
+   "activo": "S&P 500",
+   "cambio": "−4,36 % (7.354)",
+   "por_que": "==Peor día desde abril de 2025==. La tecnología supone un tercio del índice; las demás áreas cayeron menos, pero cayeron por las ventas generalizadas.",
+   "fuentes": [
+    {
+     "t": "NBC News",
+     "u": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+    },
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "Russell 2000 (pequeñas EE. UU.)",
+   "cambio": "−4,45 %",
+   "por_que": "Las pequeñas empresas sufren más cuando se huye del riesgo, aunque no tengan nada que ver con la IA.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+    }
+   ]
+  },
+  {
+   "activo": "Uranio (ETF URA)",
+   "cambio": "−5,26 %",
+   "por_que": "El uranio se ha apoyado en la demanda de electricidad de los centros de datos: ==si se frenan, se frena ese argumento==.",
+   "fuentes": [
+    {
+     "t": "NBC News",
+     "u": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+    }
+   ]
+  },
+  {
+   "activo": "Cobre",
+   "cambio": "−3,20 %",
+   "por_que": "Otro activo del tema IA (cableado y red eléctrica para centros de datos), más el miedo a una desaceleración.",
+   "fuentes": [
+    {
+     "t": "NBC News",
+     "u": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+    }
+   ]
+  },
+  {
+   "activo": "Bitcoin (USD)",
+   "cambio": "−5,79 % (75.747 $)",
+   "por_que": "Se comporta como un activo de riesgo muy ligado al Nasdaq: llegó a perder los 76.000 $.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Resultados de chips (Qualcomm y Arm)",
+   "texto": "Qualcomm ==ingresó un 26 % menos en chips para móviles== (5.140 millones de dólares, peor de lo esperado) y cayó casi un 10 %; Arm tuvo facturación récord (+27 %) pero no bastó. Reavivaron las dudas sobre la demanda de móviles, el coste de las memorias y la rentabilidad de la inversión en IA, y arrastraron a toda la cadena de chips en Asia, Europa y EE. UU.",
+   "fuentes": [
+    {
+     "t": "Investing.com",
+     "u": "https://in.investing.com/news/stock-market-news/asia-stocks-mixed-as-chip-rout-triggers-kospi-trading-halt-china-outperforms-5681584"
+    },
+    {
+     "t": "NBC News",
+     "u": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+    }
+   ]
+  },
+  {
+   "tema": "Congreso demócrata y regulación de la IA",
+   "texto": "El miércoles el mercado celebró el resultado; el jueves leyó la letra pequeña: ==cientos de ganadores prometieron frenar los centros de datos==, en estados donde se concentra esa inversión. Las empresas de chips, servidores y equipos (Cisco y Caterpillar −6 %) son las que más dependen de ese gasto. Tesla y SpaceX, de Elon Musk, temen investigaciones.",
+   "fuentes": [
+    {
+     "t": "NBC News",
+     "u": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+    },
+    {
+     "t": "Axios",
+     "u": "https://www.axios.com/2026/11/05/nasdaq-plummets-correction"
+    }
+   ]
+  },
+  {
+   "tema": "Recogida de beneficios y ventas en cadena",
+   "texto": "Según Nomura, ==la caída se debió sobre todo a fondos de cobertura asegurando ganancias antes de fin de año==, no a un deterioro de los fundamentales. Cuando los grandes ganadores del año caen a la vez, los modelos de riesgo obligan a vender más, y el VIX se dispara.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+    }
+   ]
+  },
+  {
+   "tema": "Banco de Inglaterra (BoE)",
+   "texto": "==Subió los tipos 25 pb, al 4 %==, la primera subida desde 2023, por 8 votos a 1 (Catherine Mann quería 50 pb). Lo justifica por la inflación energética de la guerra con Irán y avisa de al menos otra subida si el conflicto sigue.",
+   "fuentes": [
+    {
+     "t": "Euronext / Reuters",
+     "u": "https://live.euronext.com/en/financial-news/bank-england-delivers-first-rate-hike-three-years-gilt-yields-rise"
+    },
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/analysis/review-hawkish-surprise-8-1-vote-mann-backed-50bp-to-425-202611051445"
+    },
+    {
+     "t": "Estrategias de Inversión",
+     "u": "https://estrategiasdeinversion.com/amp/la-bolsa-hoy-en-directo/05-11-2026"
+    }
+   ]
+  },
+  {
+   "tema": "China apoya a sus chips",
+   "texto": "Pekín anunció ==nuevas ayudas a la industria nacional de semiconductores== y el Banco Popular de China (PBoC) abarató su financiación para recompras de acciones. Es parte de su plan de depender menos de la tecnología de EE. UU.",
+   "fuentes": [
+    {
+     "t": "Investing.com",
+     "u": "https://in.investing.com/news/stock-market-news/asia-stocks-mixed-as-chip-rout-triggers-kospi-trading-halt-china-outperforms-5681584"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. ==los bonos actuaron de refugio==: con la bolsa cayendo un 4 %, el dinero salió de las acciones hacia la deuda pública, lo que sube su precio y baja su TIR. El 10 años bajó 6 pb, a 4,84 %, y ==el 5 años bajó más (−8 pb, a 4,61 %)== porque el mercado ==redujo la probabilidad de que la Fed suba tipos el 8–9 de diciembre (a ~60 %)==: un hundimiento bursátil endurece por sí solo las condiciones financieras y resta motivos para subir. El 30 años bajó menos (−3 pb): el rebote del petróleo mantiene viva la inflación esperada a largo plazo. El dato oficial del 2 años (FRED) aún no está; la prensa habla de bajada en todos los plazos.\n\nEn Europa el movimiento fue menor porque la bolsa apenas cayó: ==el Bund alemán a 10 años bajó unos 3 pb, a ~3,26 %== (prensa; la curva AAA del BCE va con un día de retraso). ==El diferencial de Italia se amplió hasta ~110 pb==: en días de huida del riesgo se prefiere el Bund a la deuda periférica. En Reino Unido, la subida del BoE ==elevó la TIR del gilt a 2 años unos 2 pb, a 4,76 %== y el mercado ya da un 50 % de probabilidad a otra subida en diciembre.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−6 pb (4,84 %)",
+    "por_que": "Huida hacia la seguridad desde la bolsa y menos apuestas a una subida de la Fed.",
+    "fuentes": [
+     {
+      "t": "Yahoo Finance",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+     },
+     {
+      "t": "NBC News",
+      "u": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 5 años",
+    "cambio": "−8 pb (4,61 %)",
+    "por_que": "Es el tramo que más depende de los tipos de la Fed en los próximos años: ==bajan las probabilidades de subida en diciembre==.",
+    "fuentes": [
+     {
+      "t": "NBC News",
+      "u": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "−3 pb (5,25 %)",
+    "por_que": "Baja menos: el rebote del crudo y el déficit fiscal mantienen la prima por plazo."
+   },
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "sin dato del día (FRED); último 4,58 % el 4-11",
+    "por_que": "La prensa apunta a bajada, en línea con el 5 años, por la menor probabilidad de subida de la Fed."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "≈ −3 pb (Bund ~3,26 %, prensa)",
+    "por_que": "Refugio moderado: Europa cayó poco. El dato del BCE de hoy llegará mañana.",
+    "fuentes": [
+     {
+      "t": "Trading Economics",
+      "u": "https://tradingeconomics.com/germany/government-bond-yield"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Italia–Alemania",
+    "cambio": "sube a ~110 pb",
+    "por_que": "==En días de miedo se vende deuda periférica y se compra Bund==; el BTP a 10 años cerró en el 4,33 %.",
+    "fuentes": [
+     {
+      "t": "ANSA",
+      "u": "https://ansa.it/sito/notizie/topnews/2026/11/05/lo-spread-tra-btp-e-bund-chiude-in-rialzo-a-109-punti-base_34b09b7f-6d81-42e0-9856-22795cefac2c.html"
+     }
+    ]
+   },
+   {
+    "bono": "Reino Unido 2 años (gilt)",
+    "cambio": "+2 pb (4,76 %)",
+    "por_que": "Subida de tipos del BoE con aviso de más subidas si sigue la guerra con Irán.",
+    "fuentes": [
+     {
+      "t": "Euronext / Reuters",
+      "u": "https://live.euronext.com/en/financial-news/bank-england-delivers-first-rate-hike-three-years-gilt-yields-rise"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Yahoo Finance",
+    "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+   },
+   {
+    "t": "NBC News",
+    "u": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+   },
+   {
+    "t": "Trading Economics",
+    "u": "https://tradingeconomics.com/germany/government-bond-yield"
+   },
+   {
+    "t": "ANSA",
+    "u": "https://ansa.it/sito/notizie/topnews/2026/11/05/lo-spread-tra-btp-e-bund-chiude-in-rialzo-a-109-punti-base_34b09b7f-6d81-42e0-9856-22795cefac2c.html"
+   },
+   {
+    "t": "Euronext / Reuters",
+    "u": "https://live.euronext.com/en/financial-news/bank-england-delivers-first-rate-hike-three-years-gilt-yields-rise"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "",
+  "suben": [],
+  "bajan": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-06",
+   "evento": "Informe de empleo de EE. UU. (octubre)",
+   "por_que_importa": "Tras el desplome, un dato de empleo fuerte reavivaría la subida de la Fed en diciembre; uno débil reforzaría la bajada de las TIR."
+  },
+  {
+   "fecha": "2026-11-06",
+   "evento": "Reacción de Asia y Europa al desplome de Wall Street",
+   "por_que_importa": "Europa cerró antes de lo peor de la caída del Nasdaq; el viernes puede recoger parte del golpe, sobre todo en chips (ASML, Infineon)."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed), reunión del 8–9 de diciembre",
+   "por_que_importa": "El mercado da ~60 % a una subida; la caída bursátil y los datos de noviembre decidirán."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "SOX",
+   "def": "Índice de semiconductores de Filadelfia: las principales empresas de chips que cotizan en EE. UU."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad implícita del S&P 500 («índice del miedo»): sube cuando los inversores pagan más por protegerse de caídas."
+  },
+  {
+   "sigla": "MOVE",
+   "def": "Índice de volatilidad implícita de los bonos del Tesoro de EE. UU."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BoE",
+   "def": "Banco de Inglaterra (Bank of England)."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "PBoC",
+   "def": "Banco Popular de China, el banco central chino."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento. Sube cuando su precio baja."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: 0,01 puntos porcentuales."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "ETF",
+   "def": "Fondo cotizado en bolsa."
+  },
+  {
+   "sigla": "BTP",
+   "def": "Bono del Tesoro italiano."
+  }
+ ],
+ "generado": "2026-11-05T23:58"
+}
