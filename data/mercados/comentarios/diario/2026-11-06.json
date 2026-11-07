@@ -1,15 +1,17 @@
 {
   "periodo": "diario",
   "clave": "2026-11-06",
-  "fase": "mercado",
+  "fase": "completo",
   "titulo": "Rebote de los chips en Wall Street y desplome en Asia; el empleo dispara la subida de la Fed",
-  "resumen": "El viernes fue un día partido en dos por el reloj. ==Asia abrió recibiendo de lleno el desplome del Nasdaq del jueves== (−6,4 %), que se produjo cuando sus bolsas ya estaban cerradas: ==el Nikkei se hundió un 5,78 % (57.550) y entró en mercado bajista==, más de un 20 % por debajo de su máximo de junio, con Advantest (−12 %) y Tokyo Electron (−7 % a −9 %) a la cabeza. Taiwán cayó un 4,51 % (TSMC) y el Kospi coreano un 4,31 % (SK Hynix, Samsung). El motivo de fondo es el mismo que el jueves: ==el temor a que el avance demócrata frene los centros de datos de IA==, que son los grandes compradores de chips. Hong Kong (−1,17 %) y Shanghái (−1,08 %) cayeron menos, sostenidos por las ayudas de Pekín a sus fabricantes.\n\nEuropa también recogió el golpe del jueves por la tarde y ==cerró con caídas de en torno al 1 %==: el DAX fue el peor (−1,92 %, por debajo de 26.000), lastrado por Siemens (−3,5 %) y SAP (−2,3 %), que pesan mucho en el índice y están ligados a la inversión en IA y software. El Stoxx 600 perdió un 1,00 %, el FTSE 100 un 1,01 % y el SMI un 1,14 %. ==El IBEX 35 cedió un 0,60 % (19.369,5), pero cierra su mejor semana desde abril (+3,84 %)== gracias a la banca y a su poco peso tecnológico. Las pérdidas se moderaron al final, cuando Wall Street empezó a rebotar.\n\nEn EE. UU. llegó el informe de empleo de octubre: ==165.000 empleos creados, casi el triple de lo previsto (~59.000), y paro en el 4,1 %==. Es un mercado laboral fuerte, lo que da argumentos a la Reserva Federal (Fed) para subir tipos: ==la probabilidad de una subida en diciembre pasó de ~75 % a ~80 %== (futuros de tipos). Aun así, los cazadores de gangas volvieron a los chips tras su peor día desde 2020: ==el Nasdaq 100 subió un 1,35 % (26.990)==, con AMD en torno a +10 %, Micron +5 % y Nvidia +2,8 %. El S&P 500 ganó un 0,31 % y el Russell 2000 un 0,89 %, pero ==el Dow Jones bajó un 0,46 %==: el dinero rotó desde los valores defensivos que aguantaron el jueves hacia la tecnología, y unos tipos más altos pesan en los sectores sensibles al crédito. En la semana, el Nasdaq 100 pierde un 4,91 % y el S&P 500 un 2,68 % (cuarta semana seguida de caídas del Nasdaq). ==El VIX bajó un 9 %, a 25,6==, aún muy por encima de los ~19 de hace una semana.\n\nFuera de la bolsa, ==el dólar se fortaleció (índice DXY +0,73 %)== por el dato de empleo, que amplía la ventaja de tipos de EE. UU.; el euro cedió un 0,53 % (1,1165 $, cambio de referencia del Banco Central Europeo, BCE). ==El oro bajó un 0,94 % (4.075 $)==: un dólar más caro y tipos reales más altos le restan atractivo, aunque gana un 4,5 % en la semana. El petróleo apenas se movió (Brent −0,35 %, a 97,95 $), pero ==cierra su peor semana desde 2020 (−16,7 %)== por las apuestas a un acuerdo de EE. UU. con Irán, pese a nuevos ataques a petroleros en Ormuz. El gas europeo TTF cayó otro 4,08 %. Bitcoin, plano (75.726 $).",
+  "resumen": "El viernes fue un día partido en dos por el reloj. ==Asia abrió recibiendo de lleno el desplome del Nasdaq del jueves== (−6,4 %), que se produjo cuando sus bolsas ya estaban cerradas: ==el Nikkei se hundió un 5,96 % (57.435) y entró en mercado bajista==, más de un 20 % por debajo de su máximo de junio, con Advantest (−12 %) y Tokyo Electron (−7 % a −9 %) a la cabeza. Taiwán cayó un 4,51 % (TSMC) y el Kospi coreano un 4,31 % (SK Hynix, Samsung). El motivo de fondo es el mismo que el jueves: ==el temor a que el avance demócrata frene los centros de datos de IA==, que son los grandes compradores de chips. Hong Kong (−1,17 %) y Shanghái (−1,08 %) cayeron menos, sostenidos por las ayudas de Pekín a sus fabricantes. En el otro extremo, ==la India subió un 2,17 % (Sensex 81.028) y suma un 8,8 % en la semana==: importa casi todo su petróleo, así que el desplome del crudo le abarata la factura y la inflación, y apenas tiene fabricantes de chips.\n\nEuropa también recogió el golpe del jueves por la tarde y ==cerró con caídas de en torno al 1 %==: el DAX fue el peor (−1,92 %, por debajo de 26.000), lastrado por Siemens (−3,5 %) y SAP (−2,3 %), que pesan mucho en el índice y están ligados a la inversión en IA y software. El Stoxx 600 perdió un 1,00 %, el FTSE 100 un 1,01 % y el SMI un 1,14 %. ==El IBEX 35 cedió un 0,60 % (19.369,5), pero cierra su mejor semana desde abril (+3,84 %)== gracias a la banca y a su poco peso tecnológico. Las pérdidas se moderaron al final, cuando Wall Street empezó a rebotar.\n\nEn EE. UU. llegó el informe de empleo de octubre: ==165.000 empleos creados, casi el triple de lo previsto (~59.000), y paro en el 4,1 %==. Es un mercado laboral fuerte, lo que da argumentos a la Reserva Federal (Fed) para subir tipos: ==la probabilidad de una subida en diciembre pasó de ~75 % a ~80 %== (futuros de tipos). Aun así, los cazadores de gangas volvieron a los chips tras su peor día desde 2020: ==el Nasdaq 100 subió un 1,35 % (26.990)==, con AMD en torno a +10 %, Micron +5 % y Nvidia +2,8 %. El S&P 500 ganó un 0,31 % y el Russell 2000 un 0,89 %, pero ==el Dow Jones bajó un 0,46 %==: el dinero rotó desde los valores defensivos que aguantaron el jueves hacia la tecnología, y unos tipos más altos pesan en los sectores sensibles al crédito. En la semana, el Nasdaq 100 pierde un 4,91 % y el S&P 500 un 2,68 % (cuarta semana seguida de caídas del Nasdaq). ==El VIX bajó un 9 %, a 25,6==, aún muy por encima de los ~19 de hace una semana.\n\nFuera de la bolsa, ==el dólar se fortaleció (índice DXY +0,73 %)== por el dato de empleo, que amplía la ventaja de tipos de EE. UU.; el euro cedió un 0,53 % (1,1165 $, cambio de referencia del Banco Central Europeo, BCE). ==El oro bajó un 0,94 % (4.075 $)==: un dólar más caro y tipos reales más altos le restan atractivo, aunque gana un 4,5 % en la semana. El petróleo apenas se movió (Brent −0,35 %, a 97,95 $), pero ==cierra su peor semana desde 2020 (−16,7 %)== por las apuestas a un acuerdo de EE. UU. con Irán, pese a nuevos ataques a petroleros en Ormuz. El gas europeo TTF cayó otro 4,08 %. Bitcoin, plano (75.726 $).\n\nEn los fondos, el viernes ==mezcló dos relojes==. Los de Japón (−5 % a −6 %) y los de India (+2 % a +3 %) reflejan el día de sus bolsas. Pero ==muchos fondos de tecnología de Bankinter cayeron un 6–7 % pese al rebote del Nasdaq==: su valor liquidativo (VL) del día 6 se calcula con los cierres de Wall Street del jueves, así que ==recogen ahora el desplome de los chips==. Los de IronIA que valoran al cierre del mismo día (ARK, AllianceBernstein) hicieron lo contrario: cayeron el jueves y rebotaron el viernes.",
   "claves": [
-    "==Asia pagó el desplome del Nasdaq del jueves==: Nikkei −5,78 % (entra en mercado bajista), Taiwán −4,51 %, Kospi −4,31 %.",
+    "==Asia pagó el desplome del Nasdaq del jueves==: Nikkei −5,96 % (entra en mercado bajista), Taiwán −4,51 %, Kospi −4,31 %.",
+    "==La India, a contracorriente: Sensex +2,17 % y +8,8 % en la semana==, gracias al petróleo barato y a su poco peso en chips.",
     "Europa cayó en torno al 1 % (==DAX −1,92 %== por Siemens y SAP); el IBEX 35 −0,60 % pero ==+3,84 % en la semana==, la mejor desde abril.",
     "==Empleo de EE. UU. muy fuerte: +165.000 y paro del 4,1 %== → la probabilidad de subida de la Fed en diciembre sube a ~80 %.",
     "Wall Street rebota en chips: ==Nasdaq 100 +1,35 %==, S&P 500 +0,31 %; el Dow Jones −0,46 % por rotación y tipos.",
-    "==Dólar al alza (DXY +0,73 %) y oro a la baja (−0,94 %)== tras el empleo; el petróleo cierra su peor semana desde 2020 (Brent −16,7 %)."
+    "==Dólar al alza (DXY +0,73 %) y oro a la baja (−0,94 %)== tras el empleo; el petróleo cierra su peor semana desde 2020 (Brent −16,7 %).",
+    "Fondos: ==los de tecnología de Bankinter (−6 % a −7 %) recogen con un día de retraso el desplome del jueves==; los de Japón caen con el Nikkei y los de India suben."
   ],
   "suben": [
     {
@@ -17,21 +19,48 @@
       "cambio": "+1,35 % (26.990)",
       "por_que": "==Rebote técnico tras el peor día de los chips desde 2020==: compradores de gangas entraron en AMD (~+10 %), Micron (~+5 %) y Nvidia (+2,8 %). El índice de semiconductores (SOX) subió ~4 %. El empleo fuerte y la mayor probabilidad de subida de tipos ==limitaron el rebote==: en la semana pierde un 4,91 %.",
       "fuentes": [
-        {"t": "Yahoo Finance", "u": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"},
-        {"t": "CBS News", "u": "https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/"}
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+        },
+        {
+          "t": "CBS News",
+          "u": "https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/"
+        }
       ]
     },
     {
       "activo": "MSCI Emergentes (ETF EEM, USD)",
       "cambio": "+2,21 %",
       "por_que": "El fondo cotizado (ETF) se negocia en Nueva York, así que ==recoge el rebote de los chips de la tarde americana== (TSMC, Samsung y SK Hynix cotizan en EE. UU. vía certificados), no la caída de las bolsas asiáticas por la mañana.",
-      "fuentes": [{"t": "Quartz", "u": "https://qz.com/tech-stocks-rebound-ai-selloff-asia-nasdaq-110626"}]
+      "fuentes": [
+        {
+          "t": "Quartz",
+          "u": "https://qz.com/tech-stocks-rebound-ai-selloff-asia-nasdaq-110626"
+        }
+      ]
+    },
+    {
+      "activo": "Sensex (India)",
+      "cambio": "+2,17 % (81.028)",
+      "por_que": "Sexta subida seguida y ==+8,8 % en la semana==. La India importa casi todo su crudo: ==un Brent un 16 % más barato en la semana recorta su déficit exterior y su inflación==, lo que favorece a la rupia y a los bancos. Además, apenas tiene empresas de chips, así que ==atrae el dinero que sale de Taiwán y Corea==.",
+      "fuentes": [
+        {
+          "t": "The Week (PTI)",
+          "u": "https://www.theweek.in/wire-updates/business/2026/11/03/stock-markets-extend-rally-to-4th-day-as-oil-prices-ease-sensex-jumps-1-225-points.html"
+        }
+      ]
     },
     {
       "activo": "Uranio (ETF URA)",
       "cambio": "+4,39 %",
       "por_que": "Rebote tras el −5,3 % del jueves: el uranio cotiza como ==apuesta por la energía que necesitarán los centros de datos de IA==, así que se mueve con los chips.",
-      "fuentes": [{"t": "Yahoo Finance", "u": "https://finance.yahoo.com/markets/stocks/articles/stocks-rebound-tech-selloff-pushed-151116491.html"}]
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/stocks/articles/stocks-rebound-tech-selloff-pushed-151116491.html"
+        }
+      ]
     },
     {
       "activo": "Bovespa (Brasil)",
@@ -49,42 +78,73 @@
       "activo": "Dólar (índice DXY)",
       "cambio": "+0,73 % (102,3)",
       "por_que": "==El empleo fuerte refuerza la subida de la Fed== y amplía la diferencia de tipos con la zona euro y Japón, lo que atrae dinero al dólar.",
-      "fuentes": [{"t": "InvestmentNews", "u": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"}]
+      "fuentes": [
+        {
+          "t": "InvestmentNews",
+          "u": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"
+        }
+      ]
     }
   ],
   "bajan": [
     {
       "activo": "Nikkei 225 (Japón)",
-      "cambio": "−5,78 % (57.550)",
+      "cambio": "−5,96 % (57.435)",
       "por_que": "==Recogió de golpe el desplome del Nasdaq del jueves==, que se produjo con Tokio cerrado. Pesan mucho los fabricantes de equipos para chips (Advantest −12 %, Tokyo Electron −7 % a −9 %) y SoftBank, muy expuesto a la IA. ==Entra en mercado bajista (−20 % desde junio)==.",
       "fuentes": [
-        {"t": "CNBC", "u": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"},
-        {"t": "IBTimes", "u": "https://www.ibtimes.com.au/japan-nikkei-bear-market-ai-stock-selloff-1878028"}
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"
+        },
+        {
+          "t": "IBTimes",
+          "u": "https://www.ibtimes.com.au/japan-nikkei-bear-market-ai-stock-selloff-1878028"
+        }
       ]
     },
     {
       "activo": "Taiex (Taiwán)",
       "cambio": "−4,51 %",
       "por_que": "==TSMC es casi la mitad del índice== y es el gran fabricante de chips para la IA: el miedo a menos centros de datos en EE. UU. le golpea directamente. En la semana pierde un 12,2 %.",
-      "fuentes": [{"t": "CNBC", "u": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"}]
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"
+        }
+      ]
     },
     {
       "activo": "Kospi (Corea)",
       "cambio": "−4,31 %",
       "por_que": "Samsung y SK Hynix, los grandes de las memorias, ==fueron lo más castigado del jueves en Wall Street (memorias −17 % a −22 %)== y Seúl lo replicó. Segundo día de fuertes caídas: −10,1 % en la semana.",
-      "fuentes": [{"t": "CNBC", "u": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"}]
+      "fuentes": [
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"
+        }
+      ]
     },
     {
       "activo": "DAX (Alemania)",
       "cambio": "−1,92 % (25.820)",
       "por_que": "El peor de Europa porque ==Siemens (−3,5 %) y SAP (−2,3 %) pesan mucho== y su negocio depende de la automatización, el software y la inversión en IA. Siemens Energy subió (+3,7 %) y moderó la caída.",
-      "fuentes": [{"t": "dpa-AFX (Investing.com)", "u": "https://de.investing.com/news/economy-news/roundupaktien-europa-schluss-verluste-etwas-eingedammt-mit-erholten-usborsen-3754476"}]
+      "fuentes": [
+        {
+          "t": "dpa-AFX (Investing.com)",
+          "u": "https://de.investing.com/news/economy-news/roundupaktien-europa-schluss-verluste-etwas-eingedammt-mit-erholten-usborsen-3754476"
+        }
+      ]
     },
     {
       "activo": "Stoxx Europe 600",
       "cambio": "−1,00 %",
       "por_que": "Europa cerró el jueves antes de lo peor del Nasdaq y ==el viernes ajustó a la baja==; el rebote de Wall Street por la tarde recortó las pérdidas. El IBEX 35 (−0,60 %) cayó menos por su poco peso tecnológico.",
-      "fuentes": [{"t": "Interdiario", "u": "https://interdiario.es/2026/11/06/el-ibex-35-sube-un-38-semanal-y-aguanta-en-19-369-puntos-tras-el-desplome-del-nasdaq/"}]
+      "fuentes": [
+        {
+          "t": "Interdiario",
+          "u": "https://interdiario.es/2026/11/06/el-ibex-35-sube-un-38-semanal-y-aguanta-en-19-369-puntos-tras-el-desplome-del-nasdaq/"
+        }
+      ]
     },
     {
       "activo": "Oro",
@@ -96,13 +156,23 @@
       "activo": "Gas natural europeo (TTF)",
       "cambio": "−4,08 % (86 €/MWh)",
       "por_que": "Sigue la estela del petróleo: ==las apuestas a un acuerdo de EE. UU. con Irán (con Catar de mediador)== reducen el riesgo para el gas licuado que pasa por Ormuz. −16,7 % en la semana.",
-      "fuentes": [{"t": "OilPrice", "u": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-12-Weekly-Loss-Despite-Fresh-Tanker-Attacks.html"}]
+      "fuentes": [
+        {
+          "t": "OilPrice",
+          "u": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-12-Weekly-Loss-Despite-Fresh-Tanker-Attacks.html"
+        }
+      ]
     },
     {
       "activo": "Dow Jones",
       "cambio": "−0,46 % (51.286)",
       "por_que": "==Rotación de vuelta hacia la tecnología==: se vendieron valores defensivos e industriales que aguantaron el jueves. Un empleo fuerte que acerca la subida de la Fed también pesa en sectores sensibles a los tipos.",
-      "fuentes": [{"t": "Bloomingbit", "u": "https://en.bloomingbit.io/feed/news/123852"}]
+      "fuentes": [
+        {
+          "t": "Bloomingbit",
+          "u": "https://en.bloomingbit.io/feed/news/123852"
+        }
+      ]
     }
   ],
   "drivers": [
@@ -110,65 +180,287 @@
       "tema": "Contagio a Asia del desplome de la inteligencia artificial (IA)",
       "texto": "Las bolsas asiáticas cerraron el jueves antes de que el Nasdaq cayera un 6,4 %, así que ==el viernes recogieron el golpe entero==. Japón, Taiwán y Corea son los países con más peso de fabricantes de chips y de equipos para chips, que dependen de la inversión en centros de datos. El temor: que ==el nuevo Congreso demócrata endurezca las normas sobre centros de datos== y frene la demanda. Algunos analistas recuerdan que la competencia con China hace poco probable un parón real.",
       "fuentes": [
-        {"t": "CNBC", "u": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"},
-        {"t": "investingLive", "u": "https://investinglive.com/stock-market-update/nikkei-drops-3-as-democratic-midterm-gains-hit-ai-and-chip-stocks/"}
+        {
+          "t": "CNBC",
+          "u": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"
+        },
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/stock-market-update/nikkei-drops-3-as-democratic-midterm-gains-hit-ai-and-chip-stocks/"
+        }
       ]
     },
     {
       "tema": "Empleo de EE. UU. (octubre)",
       "texto": "==+165.000 empleos frente a ~59.000 previstos y paro del 4,1 %==. Un mercado laboral tan fuerte sostiene el consumo y los salarios, y con ellos la inflación: ==la Fed tiene más motivos para subir tipos el 8–9 de diciembre== (probabilidad ~80 %). Por eso subieron las TIR y el dólar y el oro bajó. Para la bolsa es un arma de doble filo: aleja la recesión, pero encarece el dinero.",
       "fuentes": [
-        {"t": "InvestmentNews", "u": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"},
-        {"t": "Invezz", "u": "https://invezz.com/news/2026/11/06/fed-rate-hike-odds-jump-after-october-jobs-report-as-officials-signal-more-tightening/"}
+        {
+          "t": "InvestmentNews",
+          "u": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"
+        },
+        {
+          "t": "Invezz",
+          "u": "https://invezz.com/news/2026/11/06/fed-rate-hike-odds-jump-after-october-jobs-report-as-officials-signal-more-tightening/"
+        }
       ]
     },
     {
       "tema": "Petróleo e Irán",
       "texto": "El Brent cierra su ==peor semana desde 2020 (−16,7 %)== porque el mercado descuenta un acuerdo para acabar con la guerra entre EE. UU. e Irán. El viernes se estabilizó (−0,35 %) por los nuevos ataques a petroleros en Ormuz y porque no hay nada firmado. ==Un petróleo más barato baja la inflación esperada==, sobre todo en Europa, y ayuda a los bonos europeos.",
       "fuentes": [
-        {"t": "OilPrice", "u": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-12-Weekly-Loss-Despite-Fresh-Tanker-Attacks.html"},
-        {"t": "Gulf News", "u": "https://gulfnews.com/world/mena/trump-weighs-iran-strikes-or-deal-after-midterm-loss-as-vance-urges-agreement-qatar-mediates-brent-oil-falls-to-93-1.500736556"}
+        {
+          "t": "OilPrice",
+          "u": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-12-Weekly-Loss-Despite-Fresh-Tanker-Attacks.html"
+        },
+        {
+          "t": "Gulf News",
+          "u": "https://gulfnews.com/world/mena/trump-weighs-iran-strikes-or-deal-after-midterm-loss-as-vance-urges-agreement-qatar-mediates-brent-oil-falls-to-93-1.500736556"
+        }
       ]
     }
   ],
   "tipos": {
     "texto": "En EE. UU. ==los tipos subieron por el dato de empleo==: con 165.000 puestos nuevos, el mercado ve más probable que la Fed suba en diciembre (~80 % frente a ~75 %). ==El tramo corto, el más ligado a la Fed, fue el que más subió==: el 2 años, ~+5 pb, a ~4,52 % según prensa (el dato oficial de FRED va con retraso), y el 5 años +4 pb (4,65 %). El 10 años subió solo 2 pb (4,86 %) y el 30 años 1 pb (5,26 %): ==la curva se aplanó==, porque una Fed más dura frena la inflación a largo plazo y porque el miedo bursátil sigue empujando dinero hacia la deuda larga como refugio. En la semana, el 10 años baja 7 pb gracias al desplome del petróleo y de la bolsa.\n\nEn la zona euro, la curva AAA del BCE solo llega al jueves: ==el 10 años bajó 5 pb, a 3,29 %, y el 2 años 4 pb (2,96 %)==, mínimos de casi tres meses, por el hundimiento del petróleo (menos inflación esperada) y la huida a refugio. Del viernes no hay cierre confirmado del Bund: la caída de la bolsa europea empujaba hacia abajo y la subida de las TIR americanas hacia arriba. ==El diferencial de Italia se estrechó a ~107 pb== (desde ~110), y el BTP a 10 años bajó al 4,32 %, al relajarse algo la aversión al riesgo por la tarde. El diferencial de los bonos de alto rendimiento (high yield) de EE. UU. se amplió 16 pb el jueves (3,48 %), reflejo del castigo bursátil.",
     "puntos": [
-      {"bono": "EE. UU. 2 años", "cambio": "~+5 pb (~4,52 %, prensa)", "por_que": "==El más sensible a la Fed==: el empleo fuerte eleva la probabilidad de subida en diciembre. FRED aún no tiene el dato del día.", "fuentes": [{"t": "InvestmentNews", "u": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"}]},
-      {"bono": "EE. UU. 5 años", "cambio": "+4 pb (4,65 %)", "por_que": "Mismo motivo: más subidas de tipos descontadas en los próximos trimestres."},
-      {"bono": "EE. UU. 10 años", "cambio": "+2 pb (4,86 %)", "por_que": "Sube menos que el corto: ==una Fed más dura reduce la inflación futura== y la bolsa todavía nerviosa mantiene la demanda de refugio. −7 pb en la semana.", "fuentes": [{"t": "NewsBytes", "u": "https://www.newsbytesapp.com/news/business/us-10-year-yield-hits-4855-after-october-jobs-report/tldr"}]},
-      {"bono": "EE. UU. 30 años", "cambio": "+1 pb (5,26 %)", "por_que": "Casi plano: aplanamiento de la curva; el petróleo barato frena la inflación esperada a largo plazo."},
-      {"bono": "Zona euro AAA 10 años (≈ Bund)", "cambio": "−5 pb (3,29 %, dato del jueves)", "por_que": "==Petróleo hundido = menos inflación esperada== y huida a refugio por el desplome tecnológico. El dato del viernes del BCE llegará con un día de retraso.", "fuentes": [{"t": "Investing.com", "u": "https://ca.investing.com/news/forex-news/german-yields-slide-to-aug-lows-as-20-weekly-oil-crash-deflates-inflation-fears-4933298"}]},
-      {"bono": "Zona euro AAA 2 años", "cambio": "−4 pb (2,96 %, dato del jueves)", "por_que": "Por debajo del 3 %: el petróleo barato aleja una subida del BCE en diciembre (facilidad de depósito en el 2,50 %)."},
-      {"bono": "Diferencial Italia–Alemania", "cambio": "~−3 pb (107 pb)", "por_que": "Se estrecha al calmarse algo el riesgo por la tarde; el BTP a 10 años baja al 4,32 %.", "fuentes": [{"t": "L'Adige (ANSA)", "u": "https://ladige.it/attualita/lo-spread-btp-bund-chiude-in-flessione-a-107-4-punti-bwxe1j5s"}]}
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "~+5 pb (~4,52 %, prensa)",
+        "por_que": "==El más sensible a la Fed==: el empleo fuerte eleva la probabilidad de subida en diciembre. FRED aún no tiene el dato del día.",
+        "fuentes": [
+          {
+            "t": "InvestmentNews",
+            "u": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 5 años",
+        "cambio": "+4 pb (4,65 %)",
+        "por_que": "Mismo motivo: más subidas de tipos descontadas en los próximos trimestres."
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "+2 pb (4,86 %)",
+        "por_que": "Sube menos que el corto: ==una Fed más dura reduce la inflación futura== y la bolsa todavía nerviosa mantiene la demanda de refugio. −7 pb en la semana.",
+        "fuentes": [
+          {
+            "t": "NewsBytes",
+            "u": "https://www.newsbytesapp.com/news/business/us-10-year-yield-hits-4855-after-october-jobs-report/tldr"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "+1 pb (5,26 %)",
+        "por_que": "Casi plano: aplanamiento de la curva; el petróleo barato frena la inflación esperada a largo plazo."
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "−5 pb (3,29 %, dato del jueves)",
+        "por_que": "==Petróleo hundido = menos inflación esperada== y huida a refugio por el desplome tecnológico. El dato del viernes del BCE llegará con un día de retraso.",
+        "fuentes": [
+          {
+            "t": "Investing.com",
+            "u": "https://ca.investing.com/news/forex-news/german-yields-slide-to-aug-lows-as-20-weekly-oil-crash-deflates-inflation-fears-4933298"
+          }
+        ]
+      },
+      {
+        "bono": "Zona euro AAA 2 años",
+        "cambio": "−4 pb (2,96 %, dato del jueves)",
+        "por_que": "Por debajo del 3 %: el petróleo barato aleja una subida del BCE en diciembre (facilidad de depósito en el 2,50 %)."
+      },
+      {
+        "bono": "Diferencial Italia–Alemania",
+        "cambio": "~−3 pb (107 pb)",
+        "por_que": "Se estrecha al calmarse algo el riesgo por la tarde; el BTP a 10 años baja al 4,32 %.",
+        "fuentes": [
+          {
+            "t": "L'Adige (ANSA)",
+            "u": "https://ladige.it/attualita/lo-spread-btp-bund-chiude-in-flessione-a-107-4-punti-bwxe1j5s"
+          }
+        ]
+      }
     ],
     "fuentes": [
-      {"t": "InvestmentNews", "u": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"},
-      {"t": "Investing.com", "u": "https://ca.investing.com/news/forex-news/german-yields-slide-to-aug-lows-as-20-weekly-oil-crash-deflates-inflation-fears-4933298"}
+      {
+        "t": "InvestmentNews",
+        "u": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915"
+      },
+      {
+        "t": "Investing.com",
+        "u": "https://ca.investing.com/news/forex-news/german-yields-slide-to-aug-lows-as-20-weekly-oil-crash-deflates-inflation-fears-4933298"
+      }
     ]
   },
-  "fondos": {"texto": "", "suben": [], "bajan": []},
+  "fondos": {
+    "texto": "Con 1.447 fondos con valor liquidativo (VL) del viernes (944 de IronIA, 503 de Bankinter y aún ninguno de ABANCA), ==la renta variable cayó de mediana un 1,44 %==, los mixtos un 0,64 % y los alternativos un 0,14 %; ==renta fija (0,00 %) y monetarios (+0,02 %) quedaron planos==: las TIR americanas subieron un poco con el empleo y las europeas habían bajado el jueves, y ambos efectos se compensan.\n\nLa clave del día es ==a qué hora se valora cada fondo==. Abajo dominan dos grupos. El primero, ==Japón (−5 % a −6 %)==: casi todos los de la tabla son clases cubiertas a euro, así que ==reciben el −5,96 % del Nikkei entero, sin el pequeño alivio del yen== (+0,6 % frente al euro), que sí amortigua a las clases sin cubrir. El segundo, ==tecnología, IA y ciberseguridad de Bankinter (−6 % a −7 %)==, que ==se valoran con los cierres de Wall Street del día anterior==: el jueves apenas se movieron (Allianz Cyber Security −0,56 %) y el viernes recogen el desplome de los chips. Lo mismo les pasa al Erste Responsible Stock America (+1,25 % el jueves, −5,15 % el viernes) y al Invesco Global Consumer Trends (−5,34 %: Nebius, Amazon, Tesla, Micron y un 13 % en Japón). ==El lunes, estos fondos deberían recoger el rebote del viernes== (Nasdaq 100 +1,35 %).\n\nArriba, dos grupos más. ==India (+2 % a +3 %)==, con el Sensex (+2,17 %) y un pequeño empujón del dólar, al que sigue la rupia: entre los de Bankinter, el Fidelity India Focus (+2,29 %; ICICI, Kotak, Bajaj Finance, sin chips) y el GS India Equity (+2,13 %, también en ABANCA). Y ==fondos de crecimiento de EE. UU. y de emergentes que valoran al cierre de Nueva York== (ARK, AllianceBernstein, Franklin, BNP, MS US Growth +2,16 %): cayeron entre un 6 % y un 9 % el jueves y rebotaron con la tarde americana. Dato raro: ==el Ethna Dynamisch A INC (−4,19 %) es una clase de reparto==; la caída encaja mejor con el pago de un dividendo que con el mercado.",
+    "suben": [
+      {
+        "isin": "LU1861559471",
+        "por_que": "Cartera de ==innovación disruptiva de EE. UU., muy volátil== (estilo ARK): cayó un 9,15 % el jueves y su VL del mismo día ==recoge el rebote del Nasdaq 100 (+1,35 %) amplificado==. Si la cartera no cubre el dólar, la subida del billete (+0,53 % frente al euro) suma algo más."
+      },
+      {
+        "isin": "LU0252218424",
+        "por_que": "Tecnología global con mucho peso en chips. AllianceBernstein ==valora al cierre de Nueva York==, así que cayó con el Nasdaq el jueves (−8,45 %) y ==rebota con el índice de chips (SOX ~+4 %)== el viernes."
+      },
+      {
+        "isin": "IE00B3SHDY84",
+        "por_que": "Bolsa india: ==el Sensex subió un 2,17 %== por el petróleo barato y la entrada de dinero que sale de los chips del norte de Asia. En euros suma el leve avance del dólar, al que sigue la rupia."
+      },
+      {
+        "isin": "LU0232528728",
+        "por_que": "Emergentes de crecimiento que ==sube pese al desplome de Asia==: AllianceBernstein ajusta los precios asiáticos a «valor razonable» al cierre de Nueva York, donde el ETF de emergentes (EEM) subió un 2,21 %. ==El viernes de Asia ya lo había adelantado el jueves (−5,89 %)==."
+      },
+      {
+        "isin": "LU0252216055",
+        "por_que": "Crecimiento en la India: ==Sensex +2,17 %==, con bancos y consumo como motores. Es de los mejores de la semana (+9,4 %)."
+      },
+      {
+        "isin": "LU1854458871",
+        "por_que": "Asia sin Japón en clase en dólares: ==+2,06 % en dólares y +2,60 % en euros; la diferencia (0,54 puntos) es efecto divisa==, el dólar subió tras el empleo. Como los AllianceBernstein, su VL parece recoger el rebote de la tarde americana (−5,4 % el jueves) y no la caída asiática del viernes."
+      },
+      {
+        "isin": "LU0255978933",
+        "por_que": "Bolsa india, mismo motor: ==petróleo barato = menos inflación y menos déficit exterior para la India==; el Sensex subió por sexto día."
+      },
+      {
+        "isin": "LU2075955273",
+        "por_que": "Innovación y crecimiento de EE. UU. (grandes tecnológicas y software). Cayó un 7,56 % el jueves y ==rebota con el Nasdaq== porque se valora al cierre del mismo día."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU2286300988",
+        "por_que": "==Ciberseguridad casi pura y 94,5 % en EE. UU.==: CrowdStrike (8,9 %), Palo Alto, Cloudflare, Rubrik, Fortinet. El software cayó con fuerza en el castigo a la IA del jueves, y ==este fondo lo recoge con un día de retraso== (el jueves solo −0,56 %). −15,7 % en la semana, el peor de la lista."
+      },
+      {
+        "isin": "LU1548497699",
+        "por_que": "==Cargado de chips==: Nvidia (7,6 %), TSMC, Broadcom, Lam Research y Micron. El jueves solo bajó un 2,32 %; ==el VL del viernes recoge el resto del desplome de los semiconductores== (SOX −12 % el jueves)."
+      },
+      {
+        "isin": "IE00BJM0B969",
+        "por_que": "Equipos de chips y memorias: ==Lam Research (10,1 %), Applied Materials (9,5 %), SK Hynix (8,8 %)==, Nvidia y SanDisk. Doble golpe: la parte americana llega con desfase y ==SK Hynix se hundió el viernes en Seúl (Kospi −4,31 %)==. Dos días seguidos de −5 % y −6,7 %."
+      },
+      {
+        "isin": "IE00BJ5JS224",
+        "por_que": "Pequeñas empresas de crecimiento de todo el mundo, con ==chips para IA (Aspeed, de Taiwán, y Astera Labs)== y biotecnología. Recoge con retraso el jueves americano (−0,74 % ese día) y el −4,5 % de Taiwán del viernes."
+      },
+      {
+        "isin": "IE00B5648R31",
+        "por_que": "Japón de estilo valor (Sony, NTT, Mitsui, SoftBank, automóvil) ==cubierto a euro==: recibe el ==−5,96 % del Nikkei entero==. Ni siquiera el estilo valor protegió: la venta fue general y SoftBank, muy ligado a la IA, pesa un 3,4 %."
+      },
+      {
+        "isin": "LU0476876759",
+        "por_que": "Bolsa japonesa ==con cobertura a euro==, así que no se beneficia de que el yen subiera un 0,6 %. Cae algo menos que el Nikkei porque este índice pesa mucho a Advantest y Tokyo Electron (equipos de chips)."
+      },
+      {
+        "isin": "LU2778908793",
+        "por_que": "Japón cubierto a euro, con valores defensivos (NTT, Daiichi Sankyo, Asahi, Japan Post) que ==también cayeron: el Nikkei entró en mercado bajista== y se vendió todo. Disponible en Bankinter e IronIA."
+      },
+      {
+        "isin": "LU0557866588",
+        "por_que": "Japón en clase en euros ==sin cobertura==: la subida del yen (+0,6 % frente al euro) ==amortigua un poco la caída== (−5,59 % frente al −5,96 % del Nikkei)."
+      }
+    ],
+    "por_clase": [
+      {
+        "clase": "Renta variable",
+        "texto": "Mediana −1,44 % (758 fondos). Japón y la tecnología valorada con desfase, abajo; India y los fondos que valoran al cierre de Nueva York, arriba."
+      },
+      {
+        "clase": "Renta fija",
+        "texto": "Mediana 0,00 % (444 fondos): subida leve de las TIR de EE. UU. compensada por la bajada previa en Europa."
+      }
+    ]
+  },
   "agenda": [
-    {"fecha": "2026-11-09", "evento": "Reapertura de Asia tras el rebote de Wall Street", "por_que_importa": "Japón, Taiwán y Corea no recogieron el rebote del viernes por la tarde; el lunes se verá si la caída se frena o si el mercado bajista del Nikkei se consolida."},
-    {"fecha": "2026-11-10", "evento": "Inflación (IPC) de EE. UU. de octubre (fecha por confirmar)", "por_que_importa": "Tras el empleo fuerte, ==un IPC alto dejaría casi segura la subida de la Fed en diciembre==; uno bajo daría alivio a bonos y tecnológicas."},
-    {"fecha": "2026-11-18", "evento": "Resultados de Nvidia (fecha por confirmar)", "por_que_importa": "La prueba de fuego de la demanda de chips para IA tras la peor semana del sector en años."},
-    {"fecha": "2026-12-09", "evento": "Decisión de la Reserva Federal (Fed), reunión del 8–9 de diciembre", "por_que_importa": "El mercado da ~80 % a una subida de 0,25 puntos; los datos de inflación de noviembre lo decidirán."}
+    {
+      "fecha": "2026-11-09",
+      "evento": "Reapertura de Asia tras el rebote de Wall Street",
+      "por_que_importa": "Japón, Taiwán y Corea no recogieron el rebote del viernes por la tarde; el lunes se verá si la caída se frena o si el mercado bajista del Nikkei se consolida."
+    },
+    {
+      "fecha": "2026-11-10",
+      "evento": "Inflación (IPC) de EE. UU. de octubre (fecha por confirmar)",
+      "por_que_importa": "Tras el empleo fuerte, ==un IPC alto dejaría casi segura la subida de la Fed en diciembre==; uno bajo daría alivio a bonos y tecnológicas."
+    },
+    {
+      "fecha": "2026-11-18",
+      "evento": "Resultados de Nvidia (fecha por confirmar)",
+      "por_que_importa": "La prueba de fuego de la demanda de chips para IA tras la peor semana del sector en años."
+    },
+    {
+      "fecha": "2026-12-09",
+      "evento": "Decisión de la Reserva Federal (Fed), reunión del 8–9 de diciembre",
+      "por_que_importa": "El mercado da ~80 % a una subida de 0,25 puntos; los datos de inflación de noviembre lo decidirán."
+    }
   ],
   "glosario": [
-    {"sigla": "IA", "def": "Inteligencia artificial. Su inversión en centros de datos es el gran motor de los fabricantes de chips."},
-    {"sigla": "Fed", "def": "Reserva Federal, el banco central de EE. UU."},
-    {"sigla": "BCE", "def": "Banco Central Europeo. Fija los tipos de la zona euro y publica el cambio de referencia del euro."},
-    {"sigla": "TIR", "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento. Sube cuando su precio baja."},
-    {"sigla": "pb", "def": "Punto básico: una centésima de punto porcentual (0,01 %)."},
-    {"sigla": "IPC", "def": "Índice de precios de consumo: la medida habitual de la inflación."},
-    {"sigla": "SOX", "def": "Índice de semiconductores de Filadelfia: las 30 mayores empresas de chips que cotizan en EE. UU."},
-    {"sigla": "VIX", "def": "Índice de volatilidad del S&P 500, el «índice del miedo»: sube cuando los inversores pagan más por protegerse."},
-    {"sigla": "DXY", "def": "Índice del dólar frente a una cesta de seis divisas (euro, yen, libra, dólar canadiense, corona sueca y franco suizo)."},
-    {"sigla": "ETF", "def": "Exchange-Traded Fund: fondo cotizado que replica un índice y se compra y vende como una acción."},
-    {"sigla": "TTF", "def": "Title Transfer Facility: el mercado de referencia del gas natural en Europa (Países Bajos), en euros por megavatio hora."},
-    {"sigla": "BTP", "def": "Buoni del Tesoro Poliennali: bonos del Tesoro italiano."},
-    {"sigla": "Mercado bajista", "def": "Caída de más de un 20 % desde el último máximo."},
-    {"sigla": "High yield", "def": "Bonos de alto rendimiento, emitidos por empresas con peor calificación crediticia; su diferencial mide el miedo al impago."}
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial. Su inversión en centros de datos es el gran motor de los fabricantes de chips."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal, el banco central de EE. UU."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo. Fija los tipos de la zona euro y publica el cambio de referencia del euro."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento. Sube cuando su precio baja."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+    },
+    {
+      "sigla": "IPC",
+      "def": "Índice de precios de consumo: la medida habitual de la inflación."
+    },
+    {
+      "sigla": "SOX",
+      "def": "Índice de semiconductores de Filadelfia: las 30 mayores empresas de chips que cotizan en EE. UU."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad del S&P 500, el «índice del miedo»: sube cuando los inversores pagan más por protegerse."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar frente a una cesta de seis divisas (euro, yen, libra, dólar canadiense, corona sueca y franco suizo)."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Exchange-Traded Fund: fondo cotizado que replica un índice y se compra y vende como una acción."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: el mercado de referencia del gas natural en Europa (Países Bajos), en euros por megavatio hora."
+    },
+    {
+      "sigla": "BTP",
+      "def": "Buoni del Tesoro Poliennali: bonos del Tesoro italiano."
+    },
+    {
+      "sigla": "Mercado bajista",
+      "def": "Caída de más de un 20 % desde el último máximo."
+    },
+    {
+      "sigla": "High yield",
+      "def": "Bonos de alto rendimiento, emitidos por empresas con peor calificación crediticia; su diferencial mide el miedo al impago."
+    },
+    {
+      "sigla": "VL",
+      "def": "Valor liquidativo: el precio de una participación del fondo, calculado una vez al día con los precios de cierre disponibles a la hora de cálculo."
+    },
+    {
+      "sigla": "Valor razonable",
+      "def": "Ajuste que hacen algunos fondos a los precios de bolsas ya cerradas (p. ej., Asia) para reflejar lo que ha pasado después, usando ETF o certificados que siguen cotizando."
+    }
   ],
-  "generado": "2026-11-06T23:25"
+  "generado": "2026-11-07T09:45"
 }
