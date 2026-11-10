@@ -1,0 +1,507 @@
+{
+  "periodo": "diario",
+  "clave": "2026-11-10",
+  "fase": "mercado",
+  "titulo": "El IPC caliente lleva el bono a 10 años al 5 % y frena a Wall Street; Asia vuela",
+  "resumen": "El día tuvo dos mitades. Por la mañana mandó el eco del rebote del lunes en Wall Street: ==Corea subió un 4,62 % y Japón un 3,35 %== con los fabricantes de chips (SK Hynix, Samsung, SoftBank) y Europa siguió al alza. Por la tarde, a las 14:30 hora española, llegó el dato que todos esperaban: ==la inflación (IPC, índice de precios al consumo) de EE. UU. subió un 0,4 % en octubre, frente al 0,3 % previsto==, y la subyacente (sin energía ni alimentos) un 0,3 %, frente al 0,2 %. Horas antes, el gobernador de la Reserva Federal (Fed) Christopher Waller había dicho que, con una subyacente de ese tamaño, habría que plantearse subir medio punto en diciembre. Resultado: ==el mercado da por hecha una subida de la Fed en diciembre== y empieza a contemplar que sea de 50 puntos básicos (pb).\n\nEse cambio de expectativas se trasladó a todo. ==El bono a 10 años de EE. UU. subió 12 pb, hasta el 4,98 %==, y llegó a pasar del 5 %; la subasta de 42.000 millones de ese plazo salió floja (5,02 %, con menos demanda extranjera), lo que añadió presión. En bolsa, ==el Nasdaq 100 cedió un 0,60 % y el S&P 500 un 0,38 %==: unos tipos más altos reducen lo que vale hoy un beneficio futuro, y las tecnológicas son las que más dependen de beneficios lejanos. A eso se sumó ==Nvidia, que volvió a caer en torno a un 4–5 %== tras publicar The Information que la relación de su consejero delegado con una presunta espía china facilitó el envío de chips a empresas chinas. El Russell 2000 de pequeñas empresas (−0,68 %), muy endeudadas a tipo variable, también sufrió. Aun así, la caída fue contenida y el VIX bajó un 2,31 % (19,46): fue más un ajuste por tipos que un ataque de pánico.\n\nEuropa cerró antes de digerir del todo el dato y aguantó en verde. ==El IBEX 35 subió un 0,98 % (19.936)==, empujado por la banca, que gana con tipos más altos; llegó a superar los 20.000 puntos pero los perdió en la última hora, ya con el IPC encima de la mesa. El FTSE MIB italiano ganó un 0,69 %, el Euro Stoxx 50 un 0,59 % y el SMI suizo un 0,61 %; el FTSE 100 británico (−0,29 %) quedó atrás por el peso de sus petroleras y mineras con el crudo y los metales a la baja.\n\nEn divisas y materias primas, ==el dólar se fortaleció (DXY +0,59 %)== porque unos tipos más altos en EE. UU. atraen dinero hacia esa divisa. El euro marca +0,19 % en la fijación del Banco Central Europeo (BCE), pero esa foto se toma a las 14:15, antes del IPC; después del dato el euro cedió frente al dólar. ==El oro cayó un 1,89 % (4.037 dólares) y la plata un 2,07 %==: no pagan intereses, así que pierden atractivo cuando suben los tipos, y además se encarecen para quien compra con otras monedas. El petróleo siguió bajando poco a poco (Brent −0,50 %, 92,11) con la esperanza de un acuerdo con Irán, aunque Teherán niega que haya negociaciones. El bitcoin cedió un 1,87 % y el uranio (ETF URA) un 3,47 %, contagiado por la venta de todo lo ligado a la inteligencia artificial (IA).",
+  "claves": [
+    "==IPC de EE. UU. por encima de lo previsto== (0,4 % general y 0,3 % subyacente): la subida de la Fed en diciembre pasa a darse por hecha y gana opciones que sea de medio punto.",
+    "==El bono a 10 años de EE. UU. sube 12 pb (4,98 %)== y toca el 5 %; el 2 años, más ligado a la Fed, sube todavía más según la prensa (≈ +15 pb).",
+    "Wall Street cae poco (S&P 500 −0,38 %, Nasdaq 100 −0,60 %) pero ==Nvidia vuelve a hundirse== por el caso de su consejero delegado y China.",
+    "==Asia rebota con fuerza==: Kospi +4,62 %, Nikkei +3,35 % y Taiwán +2,52 %, arrastrados por el rebote de los chips del lunes.",
+    "Europa sube (IBEX +0,98 %, con la banca) porque cerró casi sin notar el IPC; el bono español a 10 años sube al 3,89 %.",
+    "==Dólar arriba y oro abajo (−1,89 %)==: lo típico cuando el mercado espera tipos más altos en EE. UU."
+  ],
+  "suben": [
+    {
+      "activo": "Kospi (Corea)",
+      "cambio": "+4,62 %",
+      "por_que": "==Rebote de los chips tras el +7 % del sector en Wall Street el lunes==: SK Hynix y Samsung, grandes fabricantes de memoria para IA, subieron con fuerza. La bolsa coreana llegó a frenar temporalmente las compras automáticas por la intensidad de la subida. Es Asia cerrando antes del IPC.",
+      "fuentes": [
+        {
+          "t": "TradingView News",
+          "u": "https://www.tradingview.com/news/moodys:afb0bb803897c:0-asian-markets-today-kospi-surges-5-nikkei-gains-3-after-wall-street-s-best-day-in-7-months-what-s-fuelling-rally/"
+        },
+        {
+          "t": "Investing.com",
+          "u": "https://in.investing.com/news/stock-market-news/asia-stocks-rally-as-korean-chips-surge-and-oil-retreat-lifts-sentiment-5692505"
+        }
+      ]
+    },
+    {
+      "activo": "Nikkei 225 (Japón)",
+      "cambio": "+3,35 %",
+      "por_que": "Mismo motivo: ==recupera los 60.000 puntos con SoftBank (+11 %) y los valores de chips==. El petróleo más barato también ayuda a Japón, que importa casi toda su energía.",
+      "fuentes": [
+        {
+          "t": "MLQ.ai",
+          "u": "https://mlq.ai/news/nikkei-reclaims-60000-and-softbank-jumps-11-as-asian-chip-stocks-track-wall-streets-rebound/"
+        },
+        {
+          "t": "TradingView News",
+          "u": "https://www.tradingview.com/news/moodys:afb0bb803897c:0-asian-markets-today-kospi-surges-5-nikkei-gains-3-after-wall-street-s-best-day-in-7-months-what-s-fuelling-rally/"
+        }
+      ]
+    },
+    {
+      "activo": "Taiex (Taiwán)",
+      "cambio": "+2,52 %",
+      "por_que": "Prolonga el rebote de TSMC y sus proveedores tras la venta masiva de la semana pasada por el temor a frenos a los centros de datos de IA. Asia cerró antes del dato de inflación.",
+      "fuentes": [
+        {
+          "t": "Investing.com",
+          "u": "https://in.investing.com/news/stock-market-news/asia-stocks-rally-as-korean-chips-surge-and-oil-retreat-lifts-sentiment-5692505"
+        }
+      ]
+    },
+    {
+      "activo": "IBEX 35 (España)",
+      "cambio": "+0,98 %",
+      "por_que": "==La banca tira del índice==: tipos más altos durante más tiempo significan más margen entre lo que cobra por prestar y lo que paga por los depósitos. Llegó a superar los 20.000 puntos, pero ==los perdió al final con el IPC estadounidense== ya publicado.",
+      "fuentes": [
+        {
+          "t": "El Español (Invertia)",
+          "u": "https://www.elespanol.com/invertia/mercados/20261110/ibex-bolsa-directo-hoy-cotizaciones-noticias-tiempo-real/1003744451922_10.html"
+        },
+        {
+          "t": "Demócrata",
+          "u": "https://www.democrata.es/economia/el-ibex-35-se-desinfla-al-cierre-y-cede-de-nuevo-la-barrera-de-los-20-000-puntos/"
+        },
+        {
+          "t": "Noticias Bancarias",
+          "u": "https://noticiasbancarias.com/bolsa/10/11/2026/ibex-35-modera-sus-ganancias-y-cierra-por-debajo-de-los-20-000-puntos/289348.html"
+        }
+      ]
+    },
+    {
+      "activo": "FTSE MIB (Italia)",
+      "cambio": "+0,69 %",
+      "por_que": "Mismo patrón que España: índice con mucho peso de bancos, que se benefician de la perspectiva de tipos más altos. El bono italiano estuvo estable, así que no hubo susto de riesgo país.",
+      "fuentes": [
+        {
+          "t": "Rallies.ai (Reuters)",
+          "u": "https://rallies.ai/news/euro-zone-bonds-steady-as-traders-eye-energy-and-equity-markets-e2813134e75ac450"
+        }
+      ]
+    },
+    {
+      "activo": "Gas natural europeo (TTF)",
+      "cambio": "+3,18 %",
+      "por_que": "Sin noticia concreta. Sube pese a la bajada del petróleo, probablemente porque ==Irán niega que haya negociaciones== y el paso de Ormuz (vía del gas licuado de Catar) sigue sin normalizarse; recupera parte del −4,25 % del lunes.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
+        }
+      ]
+    },
+    {
+      "activo": "Índice dólar (DXY)",
+      "cambio": "+0,59 %",
+      "por_que": "==Más tipos esperados en EE. UU. = más rentabilidad por tener dólares==. Waller y el IPC hicieron subir las apuestas por la Fed, y el dólar recuperó lo perdido el lunes.",
+      "fuentes": [
+        {
+          "t": "ActionForex",
+          "u": "https://www.actionforex.com/action-insight/market-overview/660473-dollar-rebounds-as-fed-wallers-hawkish-warning-and-hot-cpi-lift-fed-rate-expectations/"
+        },
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
+        }
+      ]
+    }
+  ],
+  "bajan": [
+    {
+      "activo": "Nasdaq 100",
+      "cambio": "−0,60 %",
+      "por_que": "==Los tipos más altos pesan más en las tecnológicas==, cuyo valor depende de beneficios lejanos que hoy se descuentan a un tipo mayor. Y ==Nvidia volvió a caer un 4–5 %==: The Information informa de envíos de chips a empresas chinas ligados a la relación de su consejero delegado con una presunta espía. El conjunto de los chips ha perdido unos 5 billones de dólares de valor desde el 6 de octubre.",
+      "fuentes": [
+        {
+          "t": "Business Standard (Reuters)",
+          "u": "https://www.business-standard.com/markets/news/wall-st-slips-as-hot-inflation-data-fuels-rate-hike-jitters-nvidia-down-4-126111001020_1.html"
+        },
+        {
+          "t": "Yahoo Finance / AOL",
+          "u": "https://www.aol.com/articles/chip-stocks-slide-nears-5-191532000.html"
+        },
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+        }
+      ]
+    },
+    {
+      "activo": "S&P 500",
+      "cambio": "−0,38 %",
+      "por_que": "Cae menos que el Nasdaq porque ==la venta se concentró en Nvidia y los chips==; la acción típica del índice apenas se movió. El IPC caliente y el bono al 5 % frenaron cualquier intento de seguir el rebote del lunes.",
+      "fuentes": [
+        {
+          "t": "Detroit News (AP)",
+          "u": "https://www.detroitnews.com/story/business/2026/11/10/wall-street-falls-as-hot-inflation-data-fuels-rate-hike-jitters/92706158007/"
+        },
+        {
+          "t": "Yahoo Finance / AOL",
+          "u": "https://www.aol.com/articles/chip-stocks-slide-nears-5-191532000.html"
+        }
+      ]
+    },
+    {
+      "activo": "Russell 2000 (pequeñas EE. UU.)",
+      "cambio": "−0,68 %",
+      "por_que": "Las pequeñas empresas tienen más deuda y a tipo variable: ==cada subida esperada de la Fed les encarece la financiación== directamente.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance",
+          "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+        }
+      ]
+    },
+    {
+      "activo": "Oro",
+      "cambio": "−1,89 %",
+      "por_que": "==El oro no paga intereses==: cuando suben los tipos esperados, el coste de oportunidad de tenerlo aumenta. Además, el dólar más fuerte lo encarece para compradores de fuera de EE. UU. Llegó a caer cerca de un 3 % tras el dato.",
+      "fuentes": [
+        {
+          "t": "Reuters vía TradingView",
+          "u": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46R0IH:0-gold-falls-more-than-2-as-cpi-tops-forecasts-lifting-dollar-and-yields/"
+        },
+        {
+          "t": "BullionVault",
+          "u": "https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-inflation-fed-hike-111020261"
+        }
+      ]
+    },
+    {
+      "activo": "Plata",
+      "cambio": "−2,07 %",
+      "por_que": "Mismo mecanismo que el oro, amplificado: la plata es más volátil y también sufre por su uso industrial cuando el mercado teme que la Fed enfríe la economía.",
+      "fuentes": [
+        {
+          "t": "BullionVault",
+          "u": "https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-inflation-fed-hike-111020261"
+        }
+      ]
+    },
+    {
+      "activo": "Uranio (ETF URA)",
+      "cambio": "−3,47 %",
+      "por_que": "Se ha convertido en una apuesta ligada a la IA (los centros de datos consumen mucha electricidad nuclear): ==cae con Nvidia y los chips==, tras subir un 6 % el lunes.",
+      "fuentes": [
+        {
+          "t": "Yahoo Finance / AOL",
+          "u": "https://www.aol.com/articles/chip-stocks-slide-nears-5-191532000.html"
+        }
+      ]
+    },
+    {
+      "activo": "Bitcoin (USD)",
+      "cambio": "−1,87 %",
+      "por_que": "Activo muy sensible a la liquidez: ==tipos más altos y dólar más fuerte reducen el apetito por los activos especulativos==.",
+      "fuentes": [
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
+        }
+      ]
+    },
+    {
+      "activo": "Petróleo Brent",
+      "cambio": "−0,50 %",
+      "por_que": "Sigue la corrección por la esperanza de un acuerdo con Irán (llegó a perder los 90 dólares en la sesión), aunque ==Teherán niega que haya negociaciones== y el crudo recortó la caída al cierre.",
+      "fuentes": [
+        {
+          "t": "ZeroHedge",
+          "u": "https://www.zerohedge.com/markets/futures-stall-waller-threatens-50bps-hike-hours-cpi-brent-breaks-below-90"
+        },
+        {
+          "t": "investingLive",
+          "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "tema": "Inflación de EE. UU. (IPC de octubre)",
+      "texto": "==General +0,4 % mensual (previsto 0,3 %) y subyacente +0,3 % (previsto 0,2 %)==. Es el tercer mes seguido con la subyacente al 0,3 %, un ritmo anualizado de casi el 4 %, el doble del objetivo de la Fed. Por eso el mercado entiende que ==la Fed no puede esperar==: la subida de diciembre pasa a ser el escenario base y algunos bancos, como Bank of America, ya hablan de medio punto.",
+      "fuentes": [
+        {
+          "t": "HousingWire",
+          "u": "https://www.housingwire.com/articles/october-cpi-fed-hike/"
+        },
+        {
+          "t": "Benzinga",
+          "u": "https://www.benzinga.com/markets/macro-economic-events/26/11/63125711/fed-falling-behind-inflation-bank-of-america-half-point-hike-december"
+        }
+      ]
+    },
+    {
+      "tema": "Reserva Federal (Fed): Waller abre la puerta a 50 pb",
+      "texto": "Antes del dato, el gobernador Waller dijo que ==con una subyacente del 0,3 % o más habría que considerar subir medio punto==. El dato le dio la razón y las probabilidades de una subida de 50 pb en diciembre pasaron de casi cero a alrededor del 14 % (CME FedWatch, la herramienta que calcula las apuestas implícitas en los futuros).",
+      "fuentes": [
+        {
+          "t": "HousingWire",
+          "u": "https://www.housingwire.com/articles/october-cpi-fed-hike/"
+        },
+        {
+          "t": "ActionForex",
+          "u": "https://www.actionforex.com/action-insight/market-overview/660473-dollar-rebounds-as-fed-wallers-hawkish-warning-and-hot-cpi-lift-fed-rate-expectations/"
+        }
+      ]
+    },
+    {
+      "tema": "Nvidia y los chips",
+      "texto": "La investigación sobre Jensen Huang suma ahora la información de que su relación con una presunta espía china habría facilitado el envío de al menos 7.500 millones de dólares en chips a empresas chinas. ==Es riesgo regulatorio y de liderazgo, no de demanda==, pero llega en plena corrección del sector (−25 % desde el 6 de octubre). Asia, que cerró antes, aún vivía el rebote del lunes.",
+      "fuentes": [
+        {
+          "t": "Business Standard (Reuters)",
+          "u": "https://www.business-standard.com/markets/news/wall-st-slips-as-hot-inflation-data-fuels-rate-hike-jitters-nvidia-down-4-126111001020_1.html"
+        },
+        {
+          "t": "Yahoo Finance / AOL",
+          "u": "https://www.aol.com/articles/chip-stocks-slide-nears-5-191532000.html"
+        }
+      ]
+    },
+    {
+      "tema": "Subasta de deuda a 10 años de EE. UU.",
+      "texto": "El Tesoro colocó 42.000 millones al 5,02 %, 1 pb por encima de lo que cotizaba el mercado justo antes, y ==los compradores extranjeros bajaron del 80 % al 61 %==. Una subasta floja indica que hace falta ofrecer más rentabilidad para colocar la deuda, y eso empuja las TIR (tasa interna de rentabilidad) de todo el tramo largo.",
+      "fuentes": [
+        {
+          "t": "investingLive (subasta)",
+          "u": "https://investinglive.com/news/u-s-treasury-sells-42-billion-of-10-year-notes-at-a-high-yield-of-5-02/"
+        },
+        {
+          "t": "RTTNews",
+          "u": "https://www.rttnews.com/3712690/ten-year-note-auction-attracts-below-average-demand.aspx"
+        }
+      ]
+    }
+  ],
+  "tipos": {
+    "texto": "==Fuerte subida de las TIR en EE. UU., sobre todo en los plazos cortos y medios==. El 5 años subió 15 pb (4,81 %) y el 10 años 12 pb (4,98 %), llegando a pasar del 5 % durante la sesión; el 30 años subió 9 pb (5,35 %). El 2 años no está aún en nuestra fuente oficial (FRED, la base de datos de la Fed de San Luis, va con un día de retraso), pero la prensa lo da ==unos 14–17 pb más alto, hacia el 4,70 %==. El mecanismo es claro: ==el IPC por encima de lo previsto obliga a esperar más subidas de la Fed==, y los plazos cortos, que reflejan casi directamente el tipo oficial de los próximos meses, son los que más se ajustan. En el largo plazo pesó además la subasta floja a 10 años, con menos demanda extranjera. La curva se aplanó (el corto subió más que el largo): el mercado ve una Fed más dura que, a la larga, frenará la inflación. La volatilidad de los bonos (índice MOVE) saltó un 7,5 %.\n\nEn la zona euro el movimiento fue mucho menor, porque ==casi toda la sesión europea transcurrió antes del IPC==. La curva AAA del BCE solo llega al lunes (10 años 3,27 %, −1 pb; 2 años 2,94 %, +1 pb). Para hoy, las cifras de prensa no coinciden: las agencias daban el Bund a 10 años plano en torno al 3,25 % por la mañana, y ==tras el IPC subió hasta cerca del 3,30 %== (2 años ≈ 3,07 %), arrastrado por EE. UU.: si la Fed sube más, el dinero global exige más rentabilidad también a la deuda alemana. ==El bono español a 10 años subió hasta el 3,89 %==. Por la mañana, el italiano (4,32 %) y el francés (4,75 %) bajaban 1–2 pb con el petróleo barato, y sus diferenciales frente a Alemania se mantuvieron estables (Italia en torno a 105–107 pb): no hubo tensión por riesgo país. El mercado sigue dando en torno a un 66 % de probabilidad a una subida del BCE en diciembre. El diferencial de los bonos de alto rendimiento de EE. UU. se estrechó 8 pb el lunes (3,34 %, último dato de FRED).",
+    "puntos": [
+      {
+        "bono": "EE. UU. 2 años",
+        "cambio": "≈ +14 a +17 pb (≈ 4,70 %, prensa; FRED aún no tiene el dato)",
+        "por_que": "==El plazo más ligado a la Fed==: el IPC caliente y Waller hacen descontar la subida de diciembre y abren la puerta a 50 pb.",
+        "fuentes": [
+          {
+            "t": "HousingWire",
+            "u": "https://www.housingwire.com/articles/october-cpi-fed-hike/"
+          },
+          {
+            "t": "investingLive",
+            "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 5 años",
+        "cambio": "+15 pb (4,81 %)",
+        "por_que": "El tramo medio recoge no solo diciembre sino toda la senda de subidas de 2027: ==fue el que más subió de nuestra serie==.",
+        "fuentes": [
+          {
+            "t": "investingLive",
+            "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 10 años",
+        "cambio": "+12 pb (4,98 %)",
+        "por_que": "Inflación más alta + ==subasta floja (5,02 %, menos compradores extranjeros)==. Llegó a superar el 5 %.",
+        "fuentes": [
+          {
+            "t": "investingLive (subasta)",
+            "u": "https://investinglive.com/news/u-s-treasury-sells-42-billion-of-10-year-notes-at-a-high-yield-of-5-02/"
+          },
+          {
+            "t": "RTTNews",
+            "u": "https://www.rttnews.com/3712690/ten-year-note-auction-attracts-below-average-demand.aspx"
+          },
+          {
+            "t": "Detroit News (AP)",
+            "u": "https://www.detroitnews.com/story/business/2026/11/10/wall-street-falls-as-hot-inflation-data-fuels-rate-hike-jitters/92706158007/"
+          }
+        ]
+      },
+      {
+        "bono": "EE. UU. 30 años",
+        "cambio": "+9 pb (5,35 %)",
+        "por_que": "Sube menos: el mercado confía en que una Fed más dura acabe controlando la inflación a largo plazo (aplanamiento)."
+      },
+      {
+        "bono": "Zona euro AAA 10 años (≈ Bund)",
+        "cambio": "BCE: −1 pb el lunes (3,27 %); hoy, según prensa, del ≈ 3,25 % al ≈ 3,30 % tras el IPC",
+        "por_que": "==Contagio de EE. UU. por la tarde==; por la mañana estaba plano con el petróleo barato. Dato oficial del día pendiente.",
+        "fuentes": [
+          {
+            "t": "Finimize",
+            "u": "https://finimize.com/content/hot-us-inflation-pulled-eurozone-yields-higher"
+          },
+          {
+            "t": "Rallies.ai (Reuters)",
+            "u": "https://rallies.ai/news/euro-zone-bonds-steady-as-traders-eye-energy-and-equity-markets-e2813134e75ac450"
+          }
+        ]
+      },
+      {
+        "bono": "España 10 años",
+        "cambio": "sube hasta 3,89 % (prensa)",
+        "por_que": "Sigue al Bund al alza tras el IPC; el diferencial frente a Alemania, sin cambios relevantes.",
+        "fuentes": [
+          {
+            "t": "Noticias Bancarias",
+            "u": "https://noticiasbancarias.com/bolsa/10/11/2026/ibex-35-modera-sus-ganancias-y-cierra-por-debajo-de-los-20-000-puntos/289348.html"
+          }
+        ]
+      },
+      {
+        "bono": "Diferenciales Italia y Francia frente a Alemania",
+        "cambio": "estables (Italia ≈ 105–107 pb)",
+        "por_que": "El riesgo país no se movió: BTP 4,32 % y OAT 4,75 % bajaban 1–2 pb por la mañana, al ritmo del Bund.",
+        "fuentes": [
+          {
+            "t": "Rallies.ai (Reuters)",
+            "u": "https://rallies.ai/news/euro-zone-bonds-steady-as-traders-eye-energy-and-equity-markets-e2813134e75ac450"
+          }
+        ]
+      }
+    ],
+    "fuentes": [
+      {
+        "t": "HousingWire",
+        "u": "https://www.housingwire.com/articles/october-cpi-fed-hike/"
+      },
+      {
+        "t": "investingLive (subasta)",
+        "u": "https://investinglive.com/news/u-s-treasury-sells-42-billion-of-10-year-notes-at-a-high-yield-of-5-02/"
+      },
+      {
+        "t": "Finimize",
+        "u": "https://finimize.com/content/hot-us-inflation-pulled-eurozone-yields-higher"
+      },
+      {
+        "t": "Rallies.ai (Reuters)",
+        "u": "https://rallies.ai/news/euro-zone-bonds-steady-as-traders-eye-energy-and-equity-markets-e2813134e75ac450"
+      },
+      {
+        "t": "Noticias Bancarias",
+        "u": "https://noticiasbancarias.com/bolsa/10/11/2026/ibex-35-modera-sus-ganancias-y-cierra-por-debajo-de-los-20-000-puntos/289348.html"
+      }
+    ]
+  },
+  "fondos": {
+    "texto": "",
+    "suben": [],
+    "bajan": []
+  },
+  "agenda": [
+    {
+      "fecha": "2026-11-11",
+      "evento": "Día de los Veteranos en EE. UU.: mercado de bonos cerrado, bolsa abierta",
+      "por_que_importa": "Sin negociación de deuda, ==la reacción completa de los tipos al IPC puede quedar para el jueves==."
+    },
+    {
+      "fecha": "2026-11-12",
+      "evento": "Precios de producción (IPP) de EE. UU. de octubre (fecha por confirmar)",
+      "por_que_importa": "Si confirma la presión de precios, ==reforzaría las apuestas por 50 pb en diciembre==."
+    },
+    {
+      "fecha": "2026-11-13",
+      "evento": "Ventas minoristas de EE. UU. de octubre (fecha por confirmar)",
+      "por_que_importa": "Mide si el consumo aguanta los tipos altos; un dato fuerte daría más argumentos a la Fed."
+    },
+    {
+      "fecha": "2026-11-18",
+      "evento": "Resultados de Nvidia (fecha por confirmar)",
+      "por_que_importa": "==Prueba clave para los chips== tras la investigación sobre su consejero delegado y la corrección del sector."
+    },
+    {
+      "fecha": "2026-12-09",
+      "evento": "Decisión de la Reserva Federal (Fed), reunión del 8–9 de diciembre",
+      "por_que_importa": "Subida de 25 pb descontada; el mercado empieza a valorar 50 pb (≈ 14 %)."
+    }
+  ],
+  "glosario": [
+    {
+      "sigla": "IPC",
+      "def": "Índice de precios al consumo: mide la inflación que pagan los consumidores. La «subyacente» excluye energía y alimentos, que son muy volátiles."
+    },
+    {
+      "sigla": "Fed",
+      "def": "Reserva Federal (Federal Reserve): banco central de EE. UU.; fija el tipo de interés oficial del dólar."
+    },
+    {
+      "sigla": "BCE",
+      "def": "Banco Central Europeo: fija los tipos de la zona euro y publica cada día a las 14:15 los tipos de cambio de referencia del euro."
+    },
+    {
+      "sigla": "TIR",
+      "def": "Tasa interna de rentabilidad: lo que gana al año quien compra hoy un bono y lo mantiene hasta su vencimiento. Si la TIR sube, el precio del bono baja."
+    },
+    {
+      "sigla": "pb",
+      "def": "Punto básico: una centésima de punto porcentual (0,01 %). 25 pb = 0,25 %."
+    },
+    {
+      "sigla": "FRED",
+      "def": "Federal Reserve Economic Data: base de datos de la Fed de San Luis; publica las TIR del Tesoro con un día de retraso."
+    },
+    {
+      "sigla": "CME FedWatch",
+      "def": "Herramienta del Chicago Mercantile Exchange (CME) que traduce los precios de los futuros de tipos en probabilidades de cada decisión de la Fed."
+    },
+    {
+      "sigla": "Subasta con «cola»",
+      "def": "Cuando el Tesoro coloca la deuda a una rentabilidad mayor que la que cotizaba el mercado justo antes: señal de demanda floja."
+    },
+    {
+      "sigla": "IPP",
+      "def": "Índice de precios de producción: precios que cobran las empresas; anticipa parte de la inflación al consumo."
+    },
+    {
+      "sigla": "IA",
+      "def": "Inteligencia artificial."
+    },
+    {
+      "sigla": "VIX",
+      "def": "Índice de volatilidad (Volatility Index) implícita del S&P 500; el «índice del miedo»."
+    },
+    {
+      "sigla": "MOVE",
+      "def": "Merrill Lynch Option Volatility Estimate: volatilidad implícita de los bonos del Tesoro de EE. UU."
+    },
+    {
+      "sigla": "DXY",
+      "def": "Índice del dólar (U.S. Dollar Index) frente a una cesta de seis grandes divisas, con el euro como mayor peso."
+    },
+    {
+      "sigla": "ETF",
+      "def": "Exchange-Traded Fund: fondo cotizado en bolsa que replica un índice o una cesta de activos."
+    },
+    {
+      "sigla": "TTF",
+      "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+    },
+    {
+      "sigla": "BTP / OAT",
+      "def": "Buoni del Tesoro Poliennali (bono italiano) y Obligations Assimilables du Trésor (bono francés)."
+    },
+    {
+      "sigla": "AAA",
+      "def": "Máxima calificación crediticia; la curva AAA del BCE agrupa la deuda de los países euro con esa nota (Alemania, Países Bajos…)."
+    },
+    {
+      "sigla": "High yield",
+      "def": "Bonos de alto rendimiento: deuda de empresas con peor calificación, que paga más interés por su mayor riesgo."
+    },
+    {
+      "sigla": "Ormuz",
+      "def": "Estrecho entre Irán y Omán por el que pasa en torno a una quinta parte del petróleo y del gas licuado del mundo."
+    }
+  ],
+  "generado": "2026-11-10T23:20"
+}
