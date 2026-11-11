@@ -1,21 +1,21 @@
 {
   "periodo": "diario",
   "clave": "2026-11-10",
-  "fase": "mercado",
+  "fase": "completo",
   "titulo": "El IPC caliente lleva el bono a 10 años al 5 % y frena a Wall Street; Asia vuela",
-  "resumen": "El día tuvo dos mitades. Por la mañana mandó el eco del rebote del lunes en Wall Street: ==Corea subió un 4,62 % y Japón un 3,35 %== con los fabricantes de chips (SK Hynix, Samsung, SoftBank) y Europa siguió al alza. Por la tarde, a las 14:30 hora española, llegó el dato que todos esperaban: ==la inflación (IPC, índice de precios al consumo) de EE. UU. subió un 0,4 % en octubre, frente al 0,3 % previsto==, y la subyacente (sin energía ni alimentos) un 0,3 %, frente al 0,2 %. Horas antes, el gobernador de la Reserva Federal (Fed) Christopher Waller había dicho que, con una subyacente de ese tamaño, habría que plantearse subir medio punto en diciembre. Resultado: ==el mercado da por hecha una subida de la Fed en diciembre== y empieza a contemplar que sea de 50 puntos básicos (pb).\n\nEse cambio de expectativas se trasladó a todo. ==El bono a 10 años de EE. UU. subió 12 pb, hasta el 4,98 %==, y llegó a pasar del 5 %; la subasta de 42.000 millones de ese plazo salió floja (5,02 %, con menos demanda extranjera), lo que añadió presión. En bolsa, ==el Nasdaq 100 cedió un 0,60 % y el S&P 500 un 0,38 %==: unos tipos más altos reducen lo que vale hoy un beneficio futuro, y las tecnológicas son las que más dependen de beneficios lejanos. A eso se sumó ==Nvidia, que volvió a caer en torno a un 4–5 %== tras publicar The Information que la relación de su consejero delegado con una presunta espía china facilitó el envío de chips a empresas chinas. El Russell 2000 de pequeñas empresas (−0,68 %), muy endeudadas a tipo variable, también sufrió. Aun así, la caída fue contenida y el VIX bajó un 2,31 % (19,46): fue más un ajuste por tipos que un ataque de pánico.\n\nEuropa cerró antes de digerir del todo el dato y aguantó en verde. ==El IBEX 35 subió un 0,98 % (19.936)==, empujado por la banca, que gana con tipos más altos; llegó a superar los 20.000 puntos pero los perdió en la última hora, ya con el IPC encima de la mesa. El FTSE MIB italiano ganó un 0,69 %, el Euro Stoxx 50 un 0,59 % y el SMI suizo un 0,61 %; el FTSE 100 británico (−0,29 %) quedó atrás por el peso de sus petroleras y mineras con el crudo y los metales a la baja.\n\nEn divisas y materias primas, ==el dólar se fortaleció (DXY +0,59 %)== porque unos tipos más altos en EE. UU. atraen dinero hacia esa divisa. El euro marca +0,19 % en la fijación del Banco Central Europeo (BCE), pero esa foto se toma a las 14:15, antes del IPC; después del dato el euro cedió frente al dólar. ==El oro cayó un 1,89 % (4.037 dólares) y la plata un 2,07 %==: no pagan intereses, así que pierden atractivo cuando suben los tipos, y además se encarecen para quien compra con otras monedas. El petróleo siguió bajando poco a poco (Brent −0,50 %, 92,11) con la esperanza de un acuerdo con Irán, aunque Teherán niega que haya negociaciones. El bitcoin cedió un 1,87 % y el uranio (ETF URA) un 3,47 %, contagiado por la venta de todo lo ligado a la inteligencia artificial (IA).",
+  "resumen": "El día tuvo dos mitades. Por la mañana mandó el eco del rebote del lunes en Wall Street: ==Corea subió un 4,39 % y Japón un 2,87 %== con los fabricantes de chips (SK Hynix, Samsung, SoftBank) y Europa siguió al alza. Por la tarde, a las 14:30 hora española, llegó el dato que todos esperaban: ==la inflación (IPC, índice de precios al consumo) de EE. UU. subió un 0,4 % en octubre, frente al 0,3 % previsto==, y la subyacente (sin energía ni alimentos) un 0,3 %, frente al 0,2 %. Horas antes, el gobernador de la Reserva Federal (Fed) Christopher Waller había dicho que, con una subyacente de ese tamaño, habría que plantearse subir medio punto en diciembre. Resultado: ==el mercado da por hecha una subida de la Fed en diciembre== y empieza a contemplar que sea de 50 puntos básicos (pb).\n\nEse cambio de expectativas se trasladó a todo. ==El bono a 10 años de EE. UU. subió 12 pb, hasta el 4,98 %==, y llegó a pasar del 5 %; la subasta de 42.000 millones de ese plazo salió floja (5,02 %, con menos demanda extranjera), lo que añadió presión. En bolsa, ==el Nasdaq 100 cedió un 0,60 % y el S&P 500 un 0,38 %==: unos tipos más altos reducen lo que vale hoy un beneficio futuro, y las tecnológicas son las que más dependen de beneficios lejanos. A eso se sumó ==Nvidia, que volvió a caer en torno a un 4–5 %== tras publicar The Information que la relación de su consejero delegado con una presunta espía china facilitó el envío de chips a empresas chinas. El Russell 2000 de pequeñas empresas (−0,68 %), muy endeudadas a tipo variable, también sufrió. Aun así, la caída fue contenida y el VIX bajó un 2,31 % (19,46): fue más un ajuste por tipos que un ataque de pánico.\n\nEuropa cerró antes de digerir del todo el dato y aguantó en verde. ==El IBEX 35 subió un 0,98 % (19.936)==, empujado por la banca, que gana con tipos más altos; llegó a superar los 20.000 puntos pero los perdió en la última hora, ya con el IPC encima de la mesa. El FTSE MIB italiano ganó un 0,69 %, el Euro Stoxx 50 un 0,59 % y el SMI suizo un 0,61 %; el FTSE 100 británico (−0,29 %) quedó atrás por el peso de sus petroleras y mineras con el crudo y los metales a la baja.\n\nEn divisas y materias primas, ==el dólar se fortaleció (DXY +0,57 %)== porque unos tipos más altos en EE. UU. atraen dinero hacia esa divisa. El euro marca +0,19 % en la fijación del Banco Central Europeo (BCE), pero esa foto se toma a las 14:15, antes del IPC; después del dato el euro cedió frente al dólar. ==El oro cayó un 2,05 % (4.030 dólares) y la plata un 2,78 %==: no pagan intereses, así que pierden atractivo cuando suben los tipos, y además se encarecen para quien compra con otras monedas. El petróleo siguió bajando poco a poco (Brent −1,17 %, 91,49) con la esperanza de un acuerdo con Irán, aunque Teherán niega que haya negociaciones. El bitcoin cedió un 1,87 % y el uranio (ETF URA) un 3,47 %, contagiado por la venta de todo lo ligado a la inteligencia artificial (IA).",
   "claves": [
     "==IPC de EE. UU. por encima de lo previsto== (0,4 % general y 0,3 % subyacente): la subida de la Fed en diciembre pasa a darse por hecha y gana opciones que sea de medio punto.",
     "==El bono a 10 años de EE. UU. sube 12 pb (4,98 %)== y toca el 5 %; el 2 años, más ligado a la Fed, sube todavía más según la prensa (≈ +15 pb).",
     "Wall Street cae poco (S&P 500 −0,38 %, Nasdaq 100 −0,60 %) pero ==Nvidia vuelve a hundirse== por el caso de su consejero delegado y China.",
-    "==Asia rebota con fuerza==: Kospi +4,62 %, Nikkei +3,35 % y Taiwán +2,52 %, arrastrados por el rebote de los chips del lunes.",
+    "==Asia rebota con fuerza==: Kospi +4,39 %, Nikkei +2,87 % y Taiwán +2,52 %, arrastrados por el rebote de los chips del lunes.",
     "Europa sube (IBEX +0,98 %, con la banca) porque cerró casi sin notar el IPC; el bono español a 10 años sube al 3,89 %.",
-    "==Dólar arriba y oro abajo (−1,89 %)==: lo típico cuando el mercado espera tipos más altos en EE. UU."
+    "==Dólar arriba y oro abajo (−2,05 %)==: lo típico cuando el mercado espera tipos más altos en EE. UU."
   ],
   "suben": [
     {
       "activo": "Kospi (Corea)",
-      "cambio": "+4,62 %",
+      "cambio": "+4,39 %",
       "por_que": "==Rebote de los chips tras el +7 % del sector en Wall Street el lunes==: SK Hynix y Samsung, grandes fabricantes de memoria para IA, subieron con fuerza. La bolsa coreana llegó a frenar temporalmente las compras automáticas por la intensidad de la subida. Es Asia cerrando antes del IPC.",
       "fuentes": [
         {
@@ -30,7 +30,7 @@
     },
     {
       "activo": "Nikkei 225 (Japón)",
-      "cambio": "+3,35 %",
+      "cambio": "+2,87 %",
       "por_que": "Mismo motivo: ==recupera los 60.000 puntos con SoftBank (+11 %) y los valores de chips==. El petróleo más barato también ayuda a Japón, que importa casi toda su energía.",
       "fuentes": [
         {
@@ -97,7 +97,7 @@
     },
     {
       "activo": "Índice dólar (DXY)",
-      "cambio": "+0,59 %",
+      "cambio": "+0,57 %",
       "por_que": "==Más tipos esperados en EE. UU. = más rentabilidad por tener dólares==. Waller y el IPC hicieron subir las apuestas por la Fed, y el dólar recuperó lo perdido el lunes.",
       "fuentes": [
         {
@@ -159,7 +159,7 @@
     },
     {
       "activo": "Oro",
-      "cambio": "−1,89 %",
+      "cambio": "−2,05 %",
       "por_que": "==El oro no paga intereses==: cuando suben los tipos esperados, el coste de oportunidad de tenerlo aumenta. Además, el dólar más fuerte lo encarece para compradores de fuera de EE. UU. Llegó a caer cerca de un 3 % tras el dato.",
       "fuentes": [
         {
@@ -174,7 +174,7 @@
     },
     {
       "activo": "Plata",
-      "cambio": "−2,07 %",
+      "cambio": "−2,78 %",
       "por_que": "Mismo mecanismo que el oro, amplificado: la plata es más volátil y también sufre por su uso industrial cuando el mercado teme que la Fed enfríe la economía.",
       "fuentes": [
         {
@@ -207,7 +207,7 @@
     },
     {
       "activo": "Petróleo Brent",
-      "cambio": "−0,50 %",
+      "cambio": "−1,17 %",
       "por_que": "Sigue la corrección por la esperanza de un acuerdo con Irán (llegó a perder los 90 dólares en la sesión), aunque ==Teherán niega que haya negociaciones== y el crudo recortó la caída al cierre.",
       "fuentes": [
         {
@@ -394,9 +394,75 @@
     ]
   },
   "fondos": {
-    "texto": "",
-    "suben": [],
-    "bajan": []
+    "texto": "Día de fondos en positivo pero ==con la foto partida por el reloj==. La mediana de la renta variable subió un 0,53 %, la de los mixtos un 0,19 %, y la renta fija cedió un 0,07 %, porque buena parte de la subida de los tipos llegó con el IPC de la tarde. Solo hay valor liquidativo (VL) del martes para 1.432 fondos (Bankinter e IronIA); ABANCA y parte de Bankinter aún no lo han publicado.\n\n==Arriba mandan los fondos de chips e inteligencia artificial (IA)==, y no por lo que pasó el martes. Como avisamos ayer, ==muchos fondos calculan su VL con el cierre anterior de Wall Street==: el VL del martes recoge el +3,40 % del Nasdaq 100 y el +7 % de los chips del lunes, no la caída de Nvidia del martes. ==Lo previsible es que el VL del miércoles devuelva parte==. Junto a ellos suben los fondos de Asia (Corea, Taiwán), que sí reflejan su propio martes: ==Kospi +4,39 % y Taiex +2,52 %== con Samsung, SK hynix y TSMC.\n\nAbajo, ==las mineras de oro (−2 % a −3 %)==: el oro cayó un 2,05 % tras el IPC y las mineras amplifican el movimiento del metal. Les siguen materias primas, renovables, Latinoamérica y Japón, este último por un ajuste técnico del VL. Los dos JPM Global Income caen más de lo que justifican los mercados: ==apunta a un reparto de dividendo==, no a una pérdida.",
+    "suben": [
+      {
+        "isin": "IE00BJM0B969",
+        "por_que": "==Cartera casi pura de semiconductores==: Lam Research (10 %), Applied Materials (9,5 %), SK hynix (8,8 %), Nvidia (7,3 %), SanDisk y Broadcom. ==El +5,16 % es el rebote del lunes en Wall Street== (chips +7 %): su VL va un día por detrás, igual que la caída del −6,65 % del viernes recogía la venta del jueves. Clase en euros sin cobertura, sin efecto divisa relevante. ==Es probable que el VL del miércoles refleje la caída de Nvidia del martes=="
+      },
+      {
+        "isin": "LU1548497772",
+        "por_que": "Fondo de IA con Nvidia (7,6 %), TSMC, Broadcom, Lam y Micron al frente, 82 % en EE. UU. y 59 % en tecnología. ==Recoge con un día de retraso el rebote de los chips del lunes==. Clase cubierta a euros (H2), así que el dólar no influye."
+      },
+      {
+        "isin": "LU2484078832",
+        "por_que": "Mismo caso: Nvidia (8,8 %), TSMC (8,3 %), SK hynix y Micron. ==Sube un 3,76 % con el VL del lunes de Wall Street==; algo menos que el Allianz porque mezcla más software y plataformas (Alphabet, Meta, Amazon), que subieron menos que los chips."
+      },
+      {
+        "isin": "LU2286300988",
+        "por_que": "Ciberseguridad pura (CrowdStrike, Palo Alto, Cloudflare, Fortinet): ==el software también rebotó con fuerza el lunes== tras semanas de castigo por el miedo a que la IA abarate sus productos. 94,5 % en EE. UU., VL desfasado un día como el resto de fondos tecnológicos de Allianz."
+      },
+      {
+        "isin": "LU1128910137",
+        "por_que": "==Dato raro: sube un 3,73 % el día que el oro cae un 2 %==. Este fondo de mineras de metales preciosos (Bakersteel, vía IronIA) parece publicarse con un día de retraso: el +3,73 % encaja con el lunes, cuando ==las mineras subieron un 5–6 %== (BGF World Gold +5,85 %). Su hermano Bakersteel Global (+4,16 %) muestra el mismo desfase. Lo previsible es que el próximo VL recoja la caída del martes."
+      },
+      {
+        "isin": "LU0348784041",
+        "por_que": "Asia con sesgo tecnológico e industrial: Aspeed (servidores, 7,1 %), SK hynix, Mitsubishi Heavy y EO Technics. ==Este sí refleja su propio martes==: Corea +4,39 %, Japón +2,87 % y Taiwán +2,52 %, que cerraron antes del IPC estadounidense."
+      },
+      {
+        "isin": "LU0336299580",
+        "por_que": "==80 % en tecnología: Samsung (10,6 %), TSMC (10 %) y SK hynix (6,6 %)==, los grandes ganadores del rebote asiático del martes. Su hermano Asia Great Consumer (+3,47 %) lleva casi la misma cartera, pese a su nombre de consumo."
+      },
+      {
+        "isin": "LU0270816068",
+        "por_que": "Taiwán: TSMC (10 %), ASE, MediaTek y Hon Hai. ==El Taiex subió un 2,52 %== con los proveedores de IA. Clase en dólares sin cobertura: ==en euros la favorece poco o nada==, porque el euro marcó +0,19 % en la fijación del BCE."
+      }
+    ],
+    "bajan": [
+      {
+        "isin": "LU0326422689",
+        "por_que": "==Las mineras de oro amplifican el metal==: el oro cayó un 2,05 % y la plata un 2,78 % tras el IPC, y como los costes de una mina son casi fijos, cada dólar menos de oro sale casi entero del beneficio. Barrick, Agnico Eagle y Newmont (20 %) cotizan en Norteamérica y cerraron ya con el dato. Clase cubierta a euros: la caída no viene de la divisa."
+      },
+      {
+        "isin": "LU0273159177",
+        "por_que": "Misma historia: Newmont (9,9 %), Agnico Eagle (8,7 %) y AngloGold (8,1 %). ==Devuelve parte del +5,35 % del lunes==. No está cubierto, pero el euro apenas se movió frente al dólar en la fijación (+0,19 %), así que casi todo es el oro."
+      },
+      {
+        "isin": "LU1861559471",
+        "por_que": "El fondo de ARK (innovación disruptiva) es de los más sensibles a los tipos: ==empresas que aún ganan poco y valen por beneficios lejanos==, que pierden valor cuando sube la TIR (tasa interna de rentabilidad) a 10 años (+12 pb). Además, su peso en criptomonedas sufrió con el bitcoin (−1,87 %)."
+      },
+      {
+        "isin": "LU1881477043",
+        "por_que": "Cesta amplia de futuros de materias primas: ==metales a la baja (oro −2,05 %, plata −2,78 %, cobre −1,72 %) y petróleo (Brent −1,17 %)==; el gas europeo (+3,18 %) no compensa. El efectivo y los bonos que respaldan los futuros no se mueven."
+      },
+      {
+        "isin": "LU1458463236",
+        "por_que": "==Dato raro: un mixto defensivo no cae un 1,49 % en un día con estos mercados==. Es una clase de reparto («div») y el 10 de septiembre cayó casi lo mismo (−0,88 %): ==casi seguro es el pago del dividendo==, que baja el VL sin que el partícipe pierda dinero. El JPM Global Income (−1,20 %) repite el patrón el mismo día."
+      },
+      {
+        "isin": "LU2390151400",
+        "por_que": "Renovables y redes (First Solar, Nextpower, Redeia, EDP Renováveis, Vestas). ==Sufren doble: tipos al alza y venta de lo ligado a la IA==. Son negocios intensivos en capital y financiados con deuda, así que valen menos con la TIR en el 5 %; y la demanda eléctrica de los centros de datos cayó en desgracia con Nvidia (el uranio, −3,47 %)."
+      },
+      {
+        "isin": "LU0828244052",
+        "por_que": "==Ajuste técnico, no Japón cayendo==: el Nikkei subió un 2,87 % el martes. El lunes su VL ya subió un 6,24 % porque ==ajusta el precio de Tokio con los futuros posteriores al cierre== y se adelantó al martes. Ahora esos futuros cedieron tras el IPC estadounidense. Además, el yen se debilitó (euro +0,33 %) y la clase no está cubierta. El MFS Meridian Japan (−1,56 %) muestra el mismo patrón."
+      },
+      {
+        "isin": "LU1213835942",
+        "por_que": "Latinoamérica: Petrobras, Vale y Grupo México pesan casi un 20 %, ==y cayeron con el petróleo y los metales==. Además, el dólar fuerte y la subida de tipos en EE. UU. suelen sacar dinero de los emergentes. El Bovespa cedió un 0,52 % y el ETF de emergentes un 0,75 %."
+      }
+    ]
   },
   "agenda": [
     {
@@ -503,5 +569,5 @@
       "def": "Estrecho entre Irán y Omán por el que pasa en torno a una quinta parte del petróleo y del gas licuado del mundo."
     }
   ],
-  "generado": "2026-11-10T23:20"
+  "generado": "2026-11-11T09:55"
 }
