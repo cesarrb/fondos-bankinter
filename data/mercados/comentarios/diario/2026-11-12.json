@@ -1,0 +1,448 @@
+{
+ "periodo": "diario",
+ "clave": "2026-11-12",
+ "fase": "mercado",
+ "titulo": "Huang deja Nvidia, Trump da por muerto el pacto con Irán y el bono de EE. UU. vuelve al 5,1 %",
+ "resumen": "Tres golpes en un solo día. El primero, de madrugada para Asia: ==el consejo de Nvidia se reunía para decidir el futuro de Jensen Huang==, investigado por una relación personal, y la acción caía fuera de hora. Ya en la sesión americana se confirmó que ==Huang dimite como consejero delegado y consejero==, con la directora financiera Colette Kress como sustituta interina. Nvidia llegó a caer un 14 % y cerró en torno a −4,3 %: los inversores compraron la caída porque el negocio no cambia, pero sí el riesgo de gobierno corporativo de la mayor empresa del mundo. Asia lo pagó entero: ==Taiwán −2,63 % (TSMC −2,3 %)==, Hong Kong −1,03 %, Japón −0,89 % y Corea −0,73 %.\n\nEl segundo, la geopolítica. ==Trump escribió que EE. UU. «ya no necesita» un acuerdo con Irán== y cerró las conversaciones para poner fin a un conflicto de nueve meses, mientras Irán decía haber alcanzado cuatro petroleros en Ormuz. El mecanismo es directo: sin acuerdo, el estrecho sigue siendo peligroso y la oferta de crudo y de gas natural licuado (GNL) del Golfo sigue en riesgo. ==El Brent subió un 3,27 % (95,8 dólares) y el gas europeo TTF un 7,43 % (93,7 €/MWh)==, borrando la caída de primera hora que había provocado Arabia Saudí al acercar su producción a niveles de antes de la guerra. Europa entra además en el invierno con los almacenes al ~72 %.\n\nEl tercero, los tipos. Con el mercado de bonos ya reabierto tras el Día de los Veteranos, ==Mary Daly (Fed de San Francisco) dijo que probablemente harán falta más subidas==, porque la inflación se extiende a los servicios. Más petróleo significa más inflación esperada, así que ==el 10 años americano subió +10,5 pb hasta el 5,10 %== y el 2 años alrededor de 14 pb. Eso tumbó lo que vive de tipos bajos: ==Russell 2000 −1,66 %==, oro −3,04 % (mínimo de un año, cerca de 3.880 dólares), plata −3,78 % y bitcoin −3,31 %. El S&P 500 (−0,35 %) y el Nasdaq 100 (−0,30 %) recuperaron casi todo lo perdido por la mañana; el VIX subió un 6,9 % (18,7).\n\nEuropa fue la excepción tranquila: ==DAX +0,41 % y Stoxx 600 +0,14 % (récord)==, gracias a resultados como los de Munich Re y Burberry y al peso de petroleras y aseguradoras, que compensaron la caída de los fabricantes de chips. El Ibex (−0,31 %) perdió los 20.000 puntos, y el euro cedió un 0,41 % frente a un dólar reforzado por las apuestas de subida de la Fed.",
+ "claves": [
+  "==Huang dimite en Nvidia==: la acción llegó a caer un 14 % y cerró en torno a −4,3 %; Taiwán −2,63 %.",
+  "==Trump cierra la vía del acuerdo con Irán==: Brent +3,27 % (95,8 $) y gas TTF +7,43 % (93,7 €/MWh).",
+  "==El 10 años de EE. UU. vuelve al 5,10 % (+10,5 pb)==: Daly ve probable que la Fed tenga que subir más los tipos.",
+  "Lo que sufre con tipos altos cae: Russell 2000 −1,66 %, oro −3,04 % (mínimo de un año), bitcoin −3,31 %.",
+  "Europa aguanta: DAX +0,41 % y Stoxx 600 en récord por los resultados; el Ibex pierde los 20.000 puntos (−0,31 %).",
+  "Viernes: precios de producción (IPP) de octubre en EE. UU.; martes 17: ventas minoristas y resultados de Nvidia."
+ ],
+ "suben": [
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "+7,43 %",
+   "por_que": "==Trump da por cerradas las negociaciones con Irán== y siguen los ataques a buques en Ormuz, por donde pasa el GNL de Catar. Con ==almacenes europeos al ~72 % al empezar el invierno==, cualquier riesgo de suministro se nota mucho en el precio.",
+   "fuentes": [
+    {
+     "t": "Eurasia Business News – gas europeo",
+     "u": "https://eurasiabusinessnews.com/2026/11/12/european-gas-prices-rebound-as-iran-war-uncertainty-and-winter-cold-risks-mount/"
+    },
+    {
+     "t": "Investing.com – gas y Ormuz",
+     "u": "https://uk.investing.com/news/commodities-news/european-gas-rebounds-on-strait-of-hormuz-shipping-risks-4974064"
+    },
+    {
+     "t": "CNBC – Trump e Irán",
+     "u": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "+3,27 %",
+   "por_que": "Por la mañana bajaba porque Arabia Saudí ha vuelto casi a su producción de antes de la guerra; ==el mensaje de Trump («no necesitamos un acuerdo») le dio la vuelta== al alejar el fin del conflicto y del bloqueo de Ormuz.",
+   "fuentes": [
+    {
+     "t": "CNBC – Trump e Irán",
+     "u": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html"
+    },
+    {
+     "t": "The National",
+     "u": "https://www.thenationalnews.com/news/us/2026/11/12/iran-deal-trump/"
+    },
+    {
+     "t": "AP (cierre de Wall Street)",
+     "u": "https://www.wptf.com/2026/11/12/wall-street-shakes-with-swings-for-nvidia-and-oil-prices-but-recovers-most-of-its-early-losses/"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural EE. UU. (Henry Hub)",
+   "cambio": "+4,60 %",
+   "por_que": "Contagio del gas europeo: ==un GNL más caro en Europa anima a exportar más gas americano==, lo que tensa el mercado de EE. UU. Sin una noticia propia concreta.",
+   "fuentes": [
+    {
+     "t": "Eurasia Business News – gas europeo",
+     "u": "https://eurasiabusinessnews.com/2026/11/12/european-gas-prices-rebound-as-iran-war-uncertainty-and-winter-cold-risks-mount/"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo WTI",
+   "cambio": "+2,53 %",
+   "por_que": "Mismo motivo que el Brent; sube algo menos porque EE. UU. produce su propio crudo y depende menos de Ormuz.",
+   "fuentes": [
+    {
+     "t": "CNBC – Trump e Irán",
+     "u": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html"
+    }
+   ]
+  },
+  {
+   "activo": "SMI (Suiza)",
+   "cambio": "+0,63 %",
+   "por_que": "==Bolsa defensiva== (farmacéuticas, alimentación, seguros): gana en días de huida del riesgo tecnológico. Sin noticia concreta.",
+   "fuentes": []
+  },
+  {
+   "activo": "DAX (Alemania)",
+   "cambio": "+0,41 %",
+   "por_que": "==Resultados como los de Munich Re== y poco peso en semiconductores; las aseguradoras ganan además con los tipos altos (cobran más por lo que invierten).",
+   "fuentes": [
+    {
+     "t": "MLQ – cierre europeo",
+     "u": "https://mlq.ai/news/european-stocks-close-higher-as-burberry-and-munich-re-outweigh-a-chip-selloff-after-nvidias-ceo-exit/"
+    }
+   ]
+  },
+  {
+   "activo": "Índice dólar (DXY)",
+   "cambio": "+0,28 %",
+   "por_que": "==Más subidas de la Fed = mayor rentabilidad por tener dólares==; el euro cae un 0,41 % (1,108).",
+   "fuentes": [
+    {
+     "t": "CNBC – bonos",
+     "u": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+    },
+    {
+     "t": "Investing.com – Daly",
+     "u": "https://ca.investing.com/news/economy-news/feds-daly-says-more-rate-hikes-likely-needed-to-fight-inflation-4954019"
+    }
+   ]
+  },
+  {
+   "activo": "VIX (volatilidad S&P 500)",
+   "cambio": "+6,92 %",
+   "por_que": "El susto de Nvidia (−14 % en el peor momento) y el repunte de tipos encarecen la protección, aunque el ==VIX sigue lejos de niveles de pánico (18,7)==.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-fall-as-nvidia-ceo-exit-rising-bond-yields-roil-markets-195710154.html"
+    }
+   ]
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Oro",
+   "cambio": "−3,04 %",
+   "por_que": "==Mínimo de un año, cerca de 3.880 dólares==. El oro no paga intereses: cuando la Fed apunta a más subidas y el bono da un 5,1 %, ==mantener oro cuesta más== (coste de oportunidad); el dólar fuerte suma.",
+   "fuentes": [
+    {
+     "t": "FXStreet – oro",
+     "u": "https://fxstreet.com/news/gold-plunges-to-one-year-low-near-3-850-as-fed-hawks-take-charge-202611122013"
+    },
+    {
+     "t": "Investing.com – Daly",
+     "u": "https://ca.investing.com/news/economy-news/feds-daly-says-more-rate-hikes-likely-needed-to-fight-inflation-4954019"
+    }
+   ]
+  },
+  {
+   "activo": "Plata",
+   "cambio": "−3,78 %",
+   "por_que": "Mismo motivo que el oro, y cae más porque también es un metal industrial y es más volátil.",
+   "fuentes": [
+    {
+     "t": "FXStreet – oro",
+     "u": "https://fxstreet.com/news/gold-plunges-to-one-year-low-near-3-850-as-fed-hawks-take-charge-202611122013"
+    }
+   ]
+  },
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "−2,63 %",
+   "por_que": "==La crisis en la cúpula de Nvidia golpeó a sus proveedores==: TSMC −2,3 % restó unos 440 puntos. Taiwán cerró antes de que se confirmara la dimisión, con la incertidumbre máxima.",
+   "fuentes": [
+    {
+     "t": "Focus Taiwan",
+     "u": "https://focustaiwan.tw/business/202611120015"
+    },
+    {
+     "t": "ad-hoc-news – Taiex",
+     "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/taiex-closes-down-2-63-prozent-at-43-091-87-as-nvidia-shock-hits-chips/70501045"
+    }
+   ]
+  },
+  {
+   "activo": "Russell 2000 (pequeñas EE. UU.)",
+   "cambio": "−1,66 %",
+   "por_que": "==Las pequeñas empresas se financian con más deuda y a tipo variable==: cada subida del bono les encarece la financiación directamente. Venía de subir con fuerza en noviembre.",
+   "fuentes": [
+    {
+     "t": "CNBC – bonos",
+     "u": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+    }
+   ]
+  },
+  {
+   "activo": "Bitcoin",
+   "cambio": "−3,31 %",
+   "por_que": "Activo especulativo y muy sensible a la liquidez: ==tipos más altos y dólar más fuerte le restan atractivo==. Sin noticia propia.",
+   "fuentes": []
+  },
+  {
+   "activo": "Uranio (ETF URA)",
+   "cambio": "−3,80 %",
+   "por_que": "Las mineras de uranio se habían apoyado en la demanda eléctrica de los centros de datos de IA; ==el golpe a Nvidia enfría esa tesis== en el corto plazo. Sin noticia concreta del sector.",
+   "fuentes": []
+  },
+  {
+   "activo": "Hang Seng (Hong Kong)",
+   "cambio": "−1,03 %",
+   "por_que": "Contagio asiático del caso Nvidia y del dólar fuerte, que suele restar flujos a los mercados emergentes (MSCI Emergentes −1,45 %).",
+   "fuentes": [
+    {
+     "t": "ad-hoc-news – Taiex",
+     "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/taiex-closes-down-2-63-prozent-at-43-091-87-as-nvidia-shock-hits-chips/70501045"
+    }
+   ]
+  },
+  {
+   "activo": "S&P 500",
+   "cambio": "−0,35 %",
+   "por_que": "==Recuperó casi todo lo perdido al inicio==: Nvidia rebotó desde −14 % y otras tecnológicas (AMD, Broadcom) subieron, pero los tipos al 5,1 % frenaron el resto.",
+   "fuentes": [
+    {
+     "t": "AP (cierre de Wall Street)",
+     "u": "https://www.wptf.com/2026/11/12/wall-street-shakes-with-swings-for-nvidia-and-oil-prices-but-recovers-most-of-its-early-losses/"
+    },
+    {
+     "t": "NBC Bay Area",
+     "u": "https://www.nbcbayarea.com/news/local/jensen-huang-steps-down-nvidia-sell-off/4174753/"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Nvidia sin Jensen Huang",
+   "texto": "El fundador dimite con efecto inmediato tras una investigación interna por una relación personal; ==Colette Kress, directora financiera, es consejera delegada interina==. El negocio y la cartera de pedidos no cambian, pero el mercado descuenta un ==riesgo de liderazgo== en la empresa que más pesa en los índices mundiales y en los fondos tecnológicos. Su caída arrastra a los proveedores asiáticos (TSMC, SK Hynix) y se suma a la cuenta atrás de sus resultados (previstos el 17 de noviembre).",
+   "fuentes": [
+    {
+     "t": "CNN – dimisión de Huang",
+     "u": "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+    },
+    {
+     "t": "NBC Bay Area",
+     "u": "https://www.nbcbayarea.com/news/local/jensen-huang-steps-down-nvidia-sell-off/4174753/"
+    },
+    {
+     "t": "AP (cierre de Wall Street)",
+     "u": "https://www.wptf.com/2026/11/12/wall-street-shakes-with-swings-for-nvidia-and-oil-prices-but-recovers-most-of-its-early-losses/"
+    }
+   ]
+  },
+  {
+   "tema": "Irán y Ormuz",
+   "texto": "==Trump abandona la búsqueda de un acuerdo de paz== y afirma que EE. UU. controla «su estrecho» (en referencia al bloqueo naval). Irán sostiene que Ormuz no volverá a ser como antes de la guerra. Para la energía, significa que ==la prima de riesgo del crudo y del gas se mantiene==, en pleno arranque del invierno.",
+   "fuentes": [
+    {
+     "t": "CNBC – Trump e Irán",
+     "u": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html"
+    },
+    {
+     "t": "The National",
+     "u": "https://www.thenationalnews.com/news/us/2026/11/12/iran-deal-trump/"
+    }
+   ]
+  },
+  {
+   "tema": "Reserva Federal (Fed)",
+   "texto": "Daly, que no suele ser de las más duras, dice que su ==«sesgo es que harán falta más subidas»== porque la inflación ya contagia a los servicios, y que el repunte de los bonos le da tiempo para decidir con calma. Las peticiones de subsidio por desempleo subieron a 200.000, poco más de lo esperado: ==el empleo aguanta y no frena a la Fed==.",
+   "fuentes": [
+    {
+     "t": "Investing.com – Daly",
+     "u": "https://ca.investing.com/news/economy-news/feds-daly-says-more-rate-hikes-likely-needed-to-fight-inflation-4954019"
+    },
+    {
+     "t": "IndexBox – Daly y paro semanal",
+     "u": "https://www.indexbox.io/blog/feds-daly-signals-further-rate-hikes-needed-to-tackle-broadening-inflation/"
+    }
+   ]
+  },
+  {
+   "tema": "Temporada de resultados en Europa",
+   "texto": "Munich Re, Burberry y otras compañías sostuvieron el Stoxx 600 en máximos: ==Europa tiene poco peso en chips== y mucho en bancos, aseguradoras y energía, que ganan con tipos y petróleo altos.",
+   "fuentes": [
+    {
+     "t": "MLQ – cierre europeo",
+     "u": "https://mlq.ai/news/european-stocks-close-higher-as-burberry-and-munich-re-outweigh-a-chip-selloff-after-nvidias-ceo-exit/"
+    },
+    {
+     "t": "PressDigital – Ibex",
+     "u": "https://www.pressdigital.es/articulo/economia/2026-11-12/6089547-ibex-35-pierde-20000-puntos-ante-polemica-nvidia-carrusel-resultados"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "==Primer día completo de la deuda americana tras el festivo, y lo hizo al alza==. El bono a 10 años subió +10,5 pb hasta el 5,10 % (+12 pb frente al cierre real del martes) y el de 2 años unos 14 pb, hasta cerca del 4,87 % según la prensa (FRED aún no tiene el dato). Hay dos motores. ==Uno, la Fed==: Daly da por probables más subidas y el mercado ya veía casi segura (~88 %) una subida en diciembre. Al tramo corto le afectan sobre todo las expectativas de tipos oficiales, por eso sube más que el largo (==curva más plana: el 30 años sube solo 7,7 pb==). ==Dos, el petróleo==: un Brent cerca de 96 dólares eleva la inflación esperada que los inversores exigen cobrar. No hubo huida a refugio: con las bolsas cayendo poco, el bono no actuó de colchón. La volatilidad de los bonos (MOVE) subió un 6,5 %.\n\nEn la zona euro el movimiento es mucho menor. El último dato del Banco Central Europeo (BCE) es del miércoles: ==AAA a 10 años en el 3,34 % (+0,9 pb) y a 2 años en el 3,05 % (+2,7 pb)==; el de hoy llegará mañana. La prensa sitúa el bono español a 10 años en el 3,90 % y ==la prima de riesgo de España en unos 57 pb==, estable: no hay estrés en la periferia. Europa sufre menos el contagio porque su inflación no se está extendiendo a los servicios como en EE. UU., aunque el gas al alza es un riesgo para el BCE.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "≈ +14 pb (≈ 4,87 %, prensa)",
+    "por_que": "==El tramo más ligado a la Fed==: Daly apunta a más subidas. FRED aún no publica el dato de hoy (el último, 4,73 %, es del martes).",
+    "fuentes": [
+     {
+      "t": "CNBC – bonos",
+      "u": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "+10,5 pb (5,10 %)",
+    "por_que": "Fed más dura + ==petróleo al alza que eleva la inflación esperada==; vuelve por encima del 5 %, como tras el IPC del martes.",
+    "fuentes": [
+     {
+      "t": "CNBC – bonos",
+      "u": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+     },
+     {
+      "t": "Yahoo Finance",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-fall-as-nvidia-ceo-exit-rising-bond-yields-roil-markets-195710154.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "+7,7 pb (5,43 %)",
+    "por_que": "Sube menos que los tramos cortos: el mercado cree que más subidas ahora frenarán la inflación más adelante (==aplanamiento de la curva==).",
+    "fuentes": [
+     {
+      "t": "CNBC – bonos",
+      "u": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "+0,9 pb (3,34 %, dato del miércoles)",
+    "por_que": "Contagio leve de EE. UU.; el BCE publica con un día de retraso. Sin presión propia relevante.",
+    "fuentes": []
+   },
+   {
+    "bono": "Prima de riesgo España",
+    "cambio": "≈ 57 pb (bono a 10 años 3,90 %)",
+    "por_que": "Estable: ==sin tensión en la periferia== pese al Ibex a la baja.",
+    "fuentes": [
+     {
+      "t": "Demócrata – Ibex y prima de riesgo",
+      "u": "https://www.democrata.es/economia/el-ibex-35-cede-los-20-000-puntos-presionado-por-nvidia-y-la-oleada-de-resultados/"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial high yield EE. UU.",
+    "cambio": "−4 pb (3,30 %, dato del miércoles)",
+    "por_que": "El crédito de peor calidad seguía tranquilo antes del susto de hoy; no hay señal de estrés.",
+    "fuentes": []
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "CNBC – bonos",
+    "u": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+   },
+   {
+    "t": "Investing.com – Daly",
+    "u": "https://ca.investing.com/news/economy-news/feds-daly-says-more-rate-hikes-likely-needed-to-fight-inflation-4954019"
+   },
+   {
+    "t": "Yahoo Finance",
+    "u": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-fall-as-nvidia-ceo-exit-rising-bond-yields-roil-markets-195710154.html"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "",
+  "suben": [],
+  "bajan": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-13",
+   "evento": "Precios de producción (IPP) de octubre en EE. UU.",
+   "por_que_importa": "==Tras el IPC caliente, otro dato alto de precios afianzaría la subida de la Fed en diciembre== y presionaría más los bonos."
+  },
+  {
+   "fecha": "2026-11-13",
+   "evento": "Rentabilidades de la zona euro del jueves (BCE)",
+   "por_que_importa": "Confirmará cuánto se contagió el Bund del repunte americano."
+  },
+  {
+   "fecha": "2026-11-17",
+   "evento": "Ventas minoristas de octubre y producción industrial en EE. UU.",
+   "por_que_importa": "Miden si el consumo aguanta los tipos al 5 % y el petróleo caro."
+  },
+  {
+   "fecha": "2026-11-17",
+   "evento": "Resultados de Nvidia (fecha estimada, tras el cierre)",
+   "por_que_importa": "==Primera presentación sin Huang==: el mercado buscará tranquilidad sobre la demanda de IA y el relevo."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "El mercado da casi por hecha una subida; la duda es el tamaño y el mensaje para 2027."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: 0,01 puntos porcentuales (10 pb = 0,10 %)."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de gas de Países Bajos, referencia del precio del gas en Europa."
+  },
+  {
+   "sigla": "GNL",
+   "def": "Gas natural licuado: gas enfriado para transportarlo en barco."
+  },
+  {
+   "sigla": "MWh",
+   "def": "Megavatio hora, unidad en la que cotiza el gas europeo."
+  },
+  {
+   "sigla": "IPC",
+   "def": "Índice de precios al consumo: mide la inflación que paga el consumidor."
+  },
+  {
+   "sigla": "IPP",
+   "def": "Índice de precios de producción: precios que cobran las empresas; adelanta parte del IPC."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad esperada del S&P 500, el «índice del miedo»."
+  },
+  {
+   "sigla": "MOVE",
+   "def": "Índice de volatilidad esperada de los bonos del Tesoro de EE. UU."
+  },
+  {
+   "sigla": "FRED",
+   "def": "Federal Reserve Economic Data: base de datos de la Fed de San Luis; publica algunos tipos con un día de retraso."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia; la curva AAA del BCE se mueve casi como el Bund alemán."
+  },
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "MSCI",
+   "def": "Morgan Stanley Capital International: proveedor de índices bursátiles (p. ej., MSCI Emergentes)."
+  }
+ ],
+ "generado": "2026-11-12T23:25"
+}
