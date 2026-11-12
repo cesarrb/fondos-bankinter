@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Comprobar frescura y completitud de la última foto
         id: check
@@ -56,7 +56,14 @@ jobs:
           # sábado por la mañana, así que ese día se tolera más antigüedad. El resto de días
           # debería haber corrido esta madrugada / esta misma mañana (repesca 06:00 UTC).
           dow = now.weekday()  # 0=lunes ... 6=domingo
-          allowed = 50 if dow == 0 else 30
+          # La foto corre L-V noche + M-S mañana; NO corre domingo ni sábado noche, así que el
+          # fin de semana arrastra un hueco largo que culmina el LUNES. Además los crons de GitHub
+          # Actions son best-effort: este propio healthcheck llegó a dispararse con ~10 h de retraso
+          # (19:41 en vez de 09:00 UTC), convirtiendo un hueco SANO de 44 h en 54 h -> FALSA alarma.
+          # Umbrales holgados por día (cubren el hueco del finde + la deriva del cron) que siguen
+          # detectando una caída REAL de varios días (se confirma al día siguiente con el umbral normal):
+          #   lun=74  sáb=40  dom=52  mar-vie=38  (horas)
+          allowed = {0: 74, 5: 40, 6: 52}.get(dow, 38)
           print(f"Última ejecución: {ts}  (hace {age_h:.1f} h)  | fondos={fondos}  "
                 f"| VL hasta {ultimo_vl}  | hoy dow={dow}  | umbral={allowed} h")
 
@@ -72,7 +79,7 @@ jobs:
 
       - name: Abrir/actualizar incidencia si la verificación falla
         if: failure()
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           MOTIVO: ${{ steps.check.outputs.motivo }}
         with:
