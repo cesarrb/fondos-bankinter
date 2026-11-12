@@ -1,12 +1,12 @@
 {
   "fecha": "2026-11-12",
-  "total_catalogo": 280,
+  "total_catalogo": 279,
   "procesados": 280,
   "refrescados": 274,
   "vivos": 279,
   "sin_fuente": 1,
-  "en_vigilancia": 1,
-  "bajas_aplicadas": 0,
-  "duracion_s": 194.4,
+  "en_vigilancia": 0,
+  "bajas_aplicadas": 1,
+  "duracion_s": 226.5,
   "rollover_cambio_de_anyo": false
 }
