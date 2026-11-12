@@ -1,81 +1,449 @@
 {
-  "periodo": "diario",
-  "clave": "2026-11-11",
-  "fase": "mercado",
-  "titulo": "CoreWeave reaviva la fiebre de los chips: el Nasdaq sube un 2,3 % y el dólar se dispara",
-  "resumen": "El protagonista del día no fue un dato macro sino unos resultados. ==CoreWeave, que alquila centros de datos para inteligencia artificial (IA), facturó 3.660 millones de dólares==, un 168 % más que hace un año y por encima de su propia previsión, y además rebajó sus necesidades de financiación. Sus acciones subieron en torno a un 24 %. El mecanismo: CoreWeave compra chips de Nvidia y memoria de Micron o SK Hynix, así que ==sus cuentas sirven de termómetro de la demanda real de IA== justo cuando el mercado dudaba de ella. Resultado: ==el índice de semiconductores de Filadelfia ganó un 7–8 %==, Micron y Sandisk más de un 10 % y Nvidia rebotó algo más de un 3 % tras dos días de caídas por la investigación sobre su consejero delegado.\n\nEso arrastró a todo Wall Street. ==El Nasdaq 100 subió un 2,28 % y el S&P 500 un 1,31 %== (7.619), mientras que el Dow Jones, con menos tecnología, se quedó en +0,49 %. El Russell 2000 de pequeñas empresas ganó un 0,88 %. ==El VIX, el «índice del miedo», cayó un 10,1 % (17,49)==: el susto del IPC (índice de precios al consumo) del martes se diluyó. Asia ya lo había anticipado de madrugada, porque los resultados salieron tras el cierre del martes en Nueva York: ==Taiwán subió un 3,62 % y Corea un 2,35 %==, con TSMC (+3,1 %, además con buenas ventas de octubre), Samsung y SK Hynix; Japón ganó un 1,44 %. La excepción fue ==Hong Kong (−0,66 %)==, donde pesaron las tecnológicas de consumo como Meituan, ajenas al negocio de los chips.\n\nEuropa, con poca tecnología en sus índices, subió con menos fuerza y casi todo en la última hora, a remolque de Nueva York: el DAX alemán +1,20 %, el Euro Stoxx 50 +1,04 %, el FTSE 100 británico +0,78 % y el CAC francés +0,66 %. ==El IBEX 35 ganó un 0,46 % y recuperó los 20.000 puntos== (20.028, máximo desde septiembre), con Repsol (+3,03 %) a la cabeza gracias al repunte del crudo. El SMI suizo apenas se movió (+0,11 %): pesan mucho Nestlé, Roche y Novartis, valores defensivos que no se benefician de un día de apetito por el riesgo.\n\nEl otro gran movimiento fue la divisa. ==El dólar (DXY) subió un 0,67 %, a máximos desde abril de 2025==, y ==el euro cedió un 0,78 % (1,113 en la fijación del Banco Central Europeo, BCE)==, mínimo desde mayo de 2025. La razón es la Reserva Federal (Fed): tras el IPC caliente, ==el mercado da ya cerca de un 87–88 % de probabilidad a una subida de tipos en diciembre==, y Goldman Sachs y Deutsche Bank prevén más de una. Unos tipos más altos en EE. UU. atraen dinero hacia el dólar. Ese dólar caro explica que ==el oro bajara otro 0,90 % (3.994 dólares)== pese al buen tono general. El petróleo rebotó (==Brent +1,22 %, 92,61 dólares==) porque Irán dijo que no dejará salir su material nuclear enriquecido, lo que enfría la esperanza de un acuerdo rápido, y por ataques a barcos en el Golfo. El gas europeo (TTF) subió un 2,67 %. Plata (+1,23 %), cobre (+0,76 %) y uranio (+1,48 %) acompañaron el regreso del apetito por la IA, que consume mucha electricidad y metales.",
-  "claves": [
-    "==Los resultados de CoreWeave (+24 %) devolvieron la confianza en la demanda de IA==: semiconductores +7–8 %, Nasdaq 100 +2,28 %.",
-    "Asia lo adelantó: ==Taiwán +3,62 % y Corea +2,35 %== con TSMC, Samsung y SK Hynix; Hong Kong, sin chips, cayó un 0,66 %.",
-    "==El IBEX 35 recuperó los 20.000 puntos== (+0,46 %), con Repsol tirando por el petróleo.",
-    "==El dólar, en máximos desde abril de 2025==: el mercado da un 87–88 % a una subida de la Fed en diciembre; el euro cae un 0,78 %.",
-    "==Bonos de EE. UU. cerrados por el Día de los Veteranos==: la TIR a 10 años se queda en torno al 5 % sin negociación real.",
-    "El Brent rebotó un 1,22 % porque Irán se niega a entregar su material nuclear; el oro cayó un 0,90 % por el dólar."
+ "periodo": "diario",
+ "clave": "2026-11-11",
+ "fase": "completo",
+ "titulo": "CoreWeave reaviva la fiebre de los chips: el Nasdaq sube un 2,3 % y el dólar se dispara",
+ "resumen": "El protagonista del día no fue un dato macro sino unos resultados. ==CoreWeave, que alquila centros de datos para inteligencia artificial (IA), facturó 3.660 millones de dólares==, un 168 % más que hace un año y por encima de su propia previsión, y además rebajó sus necesidades de financiación. Sus acciones subieron en torno a un 24 %. El mecanismo: CoreWeave compra chips de Nvidia y memoria de Micron o SK Hynix, así que ==sus cuentas sirven de termómetro de la demanda real de IA== justo cuando el mercado dudaba de ella. Resultado: ==el índice de semiconductores de Filadelfia ganó un 7–8 %==, Micron y Sandisk más de un 10 % y Nvidia rebotó algo más de un 3 % tras dos días de caídas por la investigación sobre su consejero delegado.\n\nEso arrastró a todo Wall Street. ==El Nasdaq 100 subió un 2,28 % y el S&P 500 un 1,31 %== (7.619), mientras que el Dow Jones, con menos tecnología, se quedó en +0,49 %. El Russell 2000 de pequeñas empresas ganó un 0,88 %. ==El VIX, el «índice del miedo», cayó un 10,1 % (17,49)==: el susto del IPC (índice de precios al consumo) del martes se diluyó. Asia ya lo había anticipado de madrugada, porque los resultados salieron tras el cierre del martes en Nueva York: ==Taiwán subió un 3,62 % y Corea un 2,35 %==, con TSMC (+3,1 %, además con buenas ventas de octubre), Samsung y SK Hynix; Japón ganó un 1,44 %. La excepción fue ==Hong Kong (−0,66 %)==, donde pesaron las tecnológicas de consumo como Meituan, ajenas al negocio de los chips.\n\nEuropa, con poca tecnología en sus índices, subió con menos fuerza y casi todo en la última hora, a remolque de Nueva York: el DAX alemán +1,20 %, el Euro Stoxx 50 +1,04 %, el FTSE 100 británico +0,78 % y el CAC francés +0,66 %. ==El IBEX 35 ganó un 0,46 % y recuperó los 20.000 puntos== (20.028, máximo desde septiembre), con Repsol (+3,03 %) a la cabeza gracias al repunte del crudo. El SMI suizo apenas se movió (+0,11 %): pesan mucho Nestlé, Roche y Novartis, valores defensivos que no se benefician de un día de apetito por el riesgo.\n\nEl otro gran movimiento fue la divisa. ==El dólar (DXY) subió un 0,67 %, a máximos desde abril de 2025==, y ==el euro cedió un 0,78 % (1,113 en la fijación del Banco Central Europeo, BCE)==, mínimo desde mayo de 2025. La razón es la Reserva Federal (Fed): tras el IPC caliente, ==el mercado da ya cerca de un 87–88 % de probabilidad a una subida de tipos en diciembre==, y Goldman Sachs y Deutsche Bank prevén más de una. Unos tipos más altos en EE. UU. atraen dinero hacia el dólar. Ese dólar caro explica que ==el oro bajara otro 0,90 % (3.994 dólares)== pese al buen tono general. El petróleo rebotó (==Brent +1,22 %, 92,61 dólares==) porque Irán dijo que no dejará salir su material nuclear enriquecido, lo que enfría la esperanza de un acuerdo rápido, y por ataques a barcos en el Golfo. El gas europeo (TTF) subió un 2,67 %. Plata (+1,23 %), cobre (+0,76 %) y uranio (+1,48 %) acompañaron el regreso del apetito por la IA, que consume mucha electricidad y metales.",
+ "claves": [
+  "==Los resultados de CoreWeave (+24 %) devolvieron la confianza en la demanda de IA==: semiconductores +7–8 %, Nasdaq 100 +2,28 %.",
+  "Asia lo adelantó: ==Taiwán +3,62 % y Corea +2,35 %== con TSMC, Samsung y SK Hynix; Hong Kong, sin chips, cayó un 0,66 %.",
+  "==El IBEX 35 recuperó los 20.000 puntos== (+0,46 %), con Repsol tirando por el petróleo.",
+  "==El dólar, en máximos desde abril de 2025==: el mercado da un 87–88 % a una subida de la Fed en diciembre; el euro cae un 0,78 %.",
+  "==Bonos de EE. UU. cerrados por el Día de los Veteranos==: la TIR a 10 años se queda en torno al 5 % sin negociación real.",
+  "El Brent rebotó un 1,22 % porque Irán se niega a entregar su material nuclear; el oro cayó un 0,90 % por el dólar."
+ ],
+ "suben": [
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "+2,28 %",
+   "por_que": "==CoreWeave superó previsiones y rebajó su necesidad de financiación==, lo que reaviva la tesis de que el gasto en IA sigue fuerte; los fabricantes de chips y memoria (Micron, Sandisk, Nvidia, AMD, Broadcom) pesan mucho en este índice.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
+    },
+    {
+     "t": "Benzinga",
+     "u": "https://www.benzinga.com/markets/earnings/26/11/63148039/tech-stocks-500-billion-coreweave-results-ai-rally"
+    }
+   ]
+  },
+  {
+   "activo": "Taiwán (TAIEX)",
+   "cambio": "+3,62 %",
+   "por_que": "==TSMC subió un 3,1 % con buenas ventas de octubre== y el eco de CoreWeave; el índice es casi un índice de semiconductores. Además, el fondo de estabilización del Gobierno sigue dando soporte tras la caída de la semana pasada.",
+   "fuentes": [
+    {
+     "t": "CP24 / AP",
+     "u": "https://www.cp24.com/news/money/2026/11/11/global-markets-broadly-rise-on-ai-chip-demand-despite-wall-streets-retreat-on-inflation-data/"
+    }
+   ]
+  },
+  {
+   "activo": "KOSPI (Corea)",
+   "cambio": "+2,35 %",
+   "por_que": "==Samsung y SK Hynix fabrican la memoria que compran CoreWeave y Nvidia==; cualquier señal de demanda de IA se nota de inmediato en Seúl.",
+   "fuentes": [
+    {
+     "t": "Invezz",
+     "u": "https://invezz.com/sg/news/2026/11/11/micron-sandisk-sk-hynix-stocks-surge-after-coreweave-earnings-heres-why/"
+    }
+   ]
+  },
+  {
+   "activo": "S&P 500",
+   "cambio": "+1,31 %",
+   "por_que": "Arrastrado por la tecnología, que es cerca de un tercio del índice; ==borra la caída del martes por el IPC==.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
+    }
+   ]
+  },
+  {
+   "activo": "DAX (Alemania)",
+   "cambio": "+1,20 %",
+   "por_que": "Mejor que el resto de Europa por su mayor peso industrial y tecnológico (SAP, Infineon, Siemens); ==la subida llegó al final, contagiada por Wall Street==.",
+   "fuentes": []
+  },
+  {
+   "activo": "Dólar (DXY)",
+   "cambio": "+0,67 % (102,9)",
+   "por_que": "==Más probabilidad de subida de la Fed en diciembre (87–88 %)== y avisos de Waller y Logan sobre una subida de 50 puntos básicos (pb): un tipo más alto hace más rentable tener dólares.",
+   "fuentes": [
+    {
+     "t": "Kitco / Reuters",
+     "u": "http://www.kitco.com/news/off-the-wire/2026-11-11/dollar-climbs-traders-raise-december-fed-hike-bets"
+    }
+   ]
+  },
+  {
+   "activo": "Brent",
+   "cambio": "+1,22 % (92,61 $)",
+   "por_que": "==Irán dijo que no dejará salir su material nuclear enriquecido==, lo que aleja un acuerdo rápido; se suman ataques a barcos en el Golfo. Aun así, el crudo cae cerca de un 20 % en el mes.",
+   "fuentes": [
+    {
+     "t": "JournalArta",
+     "u": "https://journalarta.com/en/2026/11/11/oil-rises-iran-nuclear-material-standoff/"
+    },
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+    }
+   ]
+  },
+  {
+   "activo": "Gas europeo (TTF)",
+   "cambio": "+2,67 %",
+   "por_que": "Sigue al crudo y a la tensión con Irán: ==buena parte del gas natural licuado de Catar pasa por Ormuz==; además, la entrada del frío aumenta el consumo.",
+   "fuentes": []
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "VIX",
+   "cambio": "−10,1 % (17,49)",
+   "por_que": "==Con la bolsa subiendo con fuerza, cae la demanda de coberturas==; el miedo al IPC del martes se disipó rápido.",
+   "fuentes": []
+  },
+  {
+   "activo": "Euro/dólar",
+   "cambio": "−0,78 % (1,113)",
+   "por_que": "==Mínimo desde mayo de 2025==: la fijación del BCE de hoy ya recoge todo el IPC de EE. UU. (la del martes se tomó antes del dato). La diferencia de tipos entre la Fed y el BCE se amplía a favor del dólar.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/news/euro-falls-to-two-week-low-amid-expectations-of-aggressive-fed-rate-hikes-202611111348"
+    }
+   ]
+  },
+  {
+   "activo": "Oro",
+   "cambio": "−0,90 % (3.994 $)",
+   "por_que": "==No paga intereses y se cotiza en dólares==: con la Fed a punto de subir y el dólar al alza pierde atractivo; vuelve por debajo de los 4.000 dólares.",
+   "fuentes": [
+    {
+     "t": "Kitco",
+     "u": "https://www.kitco.com/charts/gold"
+    }
+   ]
+  },
+  {
+   "activo": "Hang Seng (Hong Kong)",
+   "cambio": "−0,66 %",
+   "por_que": "==Su tecnología es de consumo e internet (Meituan −3,5 %), no de chips==, así que no se benefició de CoreWeave; el dólar fuerte también presiona a los emergentes muy ligados a China.",
+   "fuentes": [
+    {
+     "t": "The Standard",
+     "u": "https://www.thestandard.com.hk/finance/article/348149/Hang-Seng-slips-083-in-morning-trade-as-tech-lags-Meituan-fell-35"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural EE. UU.",
+   "cambio": "−1,43 %",
+   "por_que": "Sin noticia concreta: recogida de beneficios y previsiones de temperaturas suaves; el mercado americano va por libre respecto al europeo.",
+   "fuentes": []
+  },
+  {
+   "activo": "Yuan frente al euro (EUR/CNY)",
+   "cambio": "−0,77 %",
+   "por_que": "No es que el yuan se fortalezca: ==es el euro el que cae frente a todo lo ligado al dólar==; el yuan se mueve en una banda controlada frente a la divisa americana.",
+   "fuentes": []
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Resultados de CoreWeave y la demanda de IA",
+   "texto": "La empresa ingresó 3.660 millones de dólares en el tercer trimestre (+168 %) y prevé 13.000–13.300 millones en 2026. ==Lo clave fue que necesitará menos financiación de lo temido==, porque el miedo de las últimas semanas era que el gasto en centros de datos se sostuviera a base de deuda. Al despejarse esa duda, ==el mercado volvió a comprar toda la cadena: memoria, chips, energía y redes==. Ojo: no son pedidos confirmados a Micron o SK Hynix, solo una señal de demanda.",
+   "fuentes": [
+    {
+     "t": "SEC (CoreWeave 8-K)",
+     "u": "https://www.sec.gov/Archives/edgar/data/0001769628/000176962826000461/coreweave3q26earningspress.htm"
+    },
+    {
+     "t": "Benzinga",
+     "u": "https://www.benzinga.com/markets/earnings/26/11/63158536/coreweave-ai-stocks-up-10-percent-wednesday"
+    }
+   ]
+  },
+  {
+   "tema": "Reserva Federal (Fed): subida casi segura en diciembre",
+   "texto": "==Tras el tercer mes seguido de inflación por encima de lo previsto==, la herramienta CME FedWatch da en torno a un 87–88 % a subir 25 pb y un 11 % a subir 50 pb. Los gobernadores Waller y Logan han mostrado inquietud. ==La bolsa lo ignoró hoy, pero el dólar no==: es la divisa la que mejor refleja ese cambio.",
+   "fuentes": [
+    {
+     "t": "Investing.com",
+     "u": "https://investing.com/news/economy-news/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch-5017585"
+    }
+   ]
+  },
+  {
+   "tema": "Irán y el petróleo",
+   "texto": "El crudo llevaba días bajando por la esperanza de un fin de la guerra (el lunes el Brent cayó casi un 6 %). Hoy rebotó porque ==Teherán se niega a entregar su uranio enriquecido==, condición clave de cualquier acuerdo. Un petróleo más caro alimenta la inflación esperada y, por tanto, las subidas de tipos.",
+   "fuentes": [
+    {
+     "t": "JournalArta",
+     "u": "https://journalarta.com/en/2026/11/11/oil-rises-iran-nuclear-material-standoff/"
+    }
+   ]
+  },
+  {
+   "tema": "Día de los Veteranos en EE. UU.",
+   "texto": "==La bolsa abrió con normalidad, pero el mercado de bonos estuvo cerrado==. Por eso las TIR de EE. UU. casi no se movieron y la reacción completa al IPC queda para el jueves.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "==Día casi en blanco en la deuda de EE. UU.: el mercado de bonos cerró por el Día de los Veteranos==. Las cotizaciones que vemos (10 años 4,998 %, +1,5 pb; 5 años 4,83 %, +2 pb; 30 años 5,36 %, +0,6 pb) son indicativas, con muy poca negociación, y no deben leerse como una reacción real. Lo que sí cambió es la expectativa: ==la probabilidad de subida de la Fed en diciembre ronda ya el 87–88 %==, así que el bono a 10 años sigue rozando el 5 % al que lo llevó el IPC del martes. El 2 años no tiene dato de hoy (FRED, la base de datos de la Fed de San Luis, va con retraso); la prensa lo situaba el martes en torno al 4,70 %. La volatilidad de los bonos (MOVE) saltó un 7,5 % el martes (último dato).\n\nEn la zona euro, ==los datos del BCE del martes confirman el contagio del IPC americano==: la curva AAA a 10 años subió 6 pb (3,33 %) y la de 2 años 8 pb (3,02 %). El mecanismo es el de los vasos comunicantes: si el bono de EE. UU. paga más, el inversor global exige más también a Alemania. ==Hoy el Bund a 10 años se quedó prácticamente plano, en torno al 3,30 %==: sin mercado americano como referencia, el empuje de la bolsa (que resta demanda de refugio) se compensó con el rebote del petróleo y una probabilidad de subida del BCE en diciembre que sigue en torno a dos tercios. Los diferenciales no mostraron tensión: ==Italia en torno a 105 pb y Francia cerca de 142 pb sobre Alemania==, estables. El diferencial de los bonos de alto rendimiento de EE. UU. bajó 8 pb (3,34 %) en el último dato de FRED (lunes).",
+  "puntos": [
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "+1,5 pb (5,00 %), indicativo",
+    "por_que": "==Mercado cerrado por festivo==; el nivel recoge el IPC caliente del martes y la apuesta por una subida de la Fed en diciembre.",
+    "fuentes": [
+     {
+      "t": "Yahoo Finance",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "sin dato de hoy (≈ 4,70 % el martes según prensa)",
+    "por_que": "FRED va con retraso y el mercado estuvo cerrado; ==es el plazo que más refleja la Fed== y el que más subió con el IPC.",
+    "fuentes": []
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "+6 pb el martes (3,33 %); hoy ≈ plano (Bund 3,30 %)",
+    "por_que": "==Contagio del IPC de EE. UU. el martes==; hoy, bolsa al alza y petróleo al alza se compensan sin la referencia americana.",
+    "fuentes": [
+     {
+      "t": "Finimize",
+      "u": "https://finimize.com/content/hot-us-inflation-pulled-eurozone-yields-higher"
+     },
+     {
+      "t": "Trading Economics",
+      "u": "https://tradingeconomics.com/germany/government-bond-yield"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "+8 pb el martes (3,02 %)",
+    "por_que": "El mercado mantiene ==alrededor de un 66 % de probabilidad de subida del BCE en diciembre== y la da por hecha en febrero.",
+    "fuentes": [
+     {
+      "t": "Rallies.ai / Reuters",
+      "u": "https://rallies.ai/news/euro-zone-bonds-steady-as-traders-eye-energy-and-equity-markets-e2813134e75ac450"
+     }
+    ]
+   },
+   {
+    "bono": "Diferenciales Francia e Italia frente a Alemania",
+    "cambio": "estables (≈ 142 y ≈ 105 pb)",
+    "por_que": "Sin noticias de riesgo país; el riesgo político francés sigue latente pero hoy no actuó.",
+    "fuentes": [
+     {
+      "t": "Ideal Investisseur",
+      "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+     }
+    ]
+   }
   ],
+  "fuentes": [
+   {
+    "t": "Investing.com (CME FedWatch)",
+    "u": "https://investing.com/news/economy-news/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch-5017585"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "Los fondos confirman la lectura del día: ==ganó todo lo ligado a los chips de memoria y a Taiwán/Corea==, y perdió el oro. La mediana de renta variable subió un 1,15 % (711 fondos con valor liquidativo del día), la de mixtos un 0,41 % y la de renta fija apenas se movió (−0,05 %), coherente con un mercado de bonos de EE. UU. cerrado por el Día de los Veteranos.\n\nArriba, ==los 8 primeros son renta variable asiática, emergente o tecnológica con mucho peso en TSMC, Samsung, SK Hynix y MediaTek==: Taiwán y Corea ya habían recogido de madrugada los resultados de CoreWeave. A los fondos en euros sin cobertura les sumó además ==la caída del euro (−0,78 %), unos 0,8 puntos de efecto divisa==. Abajo, ==las mineras de oro y plata caen más que el propio oro (−0,90 %)== por su apalancamiento operativo, y aparecen fondos sensibles a los tipos (inmobiliario europeo, biotecnología) a los que no ayuda que el mercado dé por hecha una subida de la Fed. Ningún dato marcado como dudoso.",
   "suben": [
-    {"activo": "Nasdaq 100", "cambio": "+2,28 %", "por_que": "==CoreWeave superó previsiones y rebajó su necesidad de financiación==, lo que reaviva la tesis de que el gasto en IA sigue fuerte; los fabricantes de chips y memoria (Micron, Sandisk, Nvidia, AMD, Broadcom) pesan mucho en este índice.", "fuentes": [{"t": "Yahoo Finance", "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"}, {"t": "Benzinga", "u": "https://www.benzinga.com/markets/earnings/26/11/63148039/tech-stocks-500-billion-coreweave-results-ai-rally"}]},
-    {"activo": "Taiwán (TAIEX)", "cambio": "+3,62 %", "por_que": "==TSMC subió un 3,1 % con buenas ventas de octubre== y el eco de CoreWeave; el índice es casi un índice de semiconductores. Además, el fondo de estabilización del Gobierno sigue dando soporte tras la caída de la semana pasada.", "fuentes": [{"t": "CP24 / AP", "u": "https://www.cp24.com/news/money/2026/11/11/global-markets-broadly-rise-on-ai-chip-demand-despite-wall-streets-retreat-on-inflation-data/"}]},
-    {"activo": "KOSPI (Corea)", "cambio": "+2,35 %", "por_que": "==Samsung y SK Hynix fabrican la memoria que compran CoreWeave y Nvidia==; cualquier señal de demanda de IA se nota de inmediato en Seúl.", "fuentes": [{"t": "Invezz", "u": "https://invezz.com/sg/news/2026/11/11/micron-sandisk-sk-hynix-stocks-surge-after-coreweave-earnings-heres-why/"}]},
-    {"activo": "S&P 500", "cambio": "+1,31 %", "por_que": "Arrastrado por la tecnología, que es cerca de un tercio del índice; ==borra la caída del martes por el IPC==.", "fuentes": [{"t": "Yahoo Finance", "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"}]},
-    {"activo": "DAX (Alemania)", "cambio": "+1,20 %", "por_que": "Mejor que el resto de Europa por su mayor peso industrial y tecnológico (SAP, Infineon, Siemens); ==la subida llegó al final, contagiada por Wall Street==.", "fuentes": []},
-    {"activo": "Dólar (DXY)", "cambio": "+0,67 % (102,9)", "por_que": "==Más probabilidad de subida de la Fed en diciembre (87–88 %)== y avisos de Waller y Logan sobre una subida de 50 puntos básicos (pb): un tipo más alto hace más rentable tener dólares.", "fuentes": [{"t": "Kitco / Reuters", "u": "http://www.kitco.com/news/off-the-wire/2026-11-11/dollar-climbs-traders-raise-december-fed-hike-bets"}]},
-    {"activo": "Brent", "cambio": "+1,22 % (92,61 $)", "por_que": "==Irán dijo que no dejará salir su material nuclear enriquecido==, lo que aleja un acuerdo rápido; se suman ataques a barcos en el Golfo. Aun así, el crudo cae cerca de un 20 % en el mes.", "fuentes": [{"t": "JournalArta", "u": "https://journalarta.com/en/2026/11/11/oil-rises-iran-nuclear-material-standoff/"}, {"t": "CNBC", "u": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"}]},
-    {"activo": "Gas europeo (TTF)", "cambio": "+2,67 %", "por_que": "Sigue al crudo y a la tensión con Irán: ==buena parte del gas natural licuado de Catar pasa por Ormuz==; además, la entrada del frío aumenta el consumo.", "fuentes": []}
+   {
+    "isin": "LU0270816068",
+    "por_que": "==Un 74 % en tecnología y un 97 % en Taiwán==: TSMC (10 %), ASE, MediaTek, Hon Hai, Delta. El TAIEX subió un 3,62 % con TSMC (+3,1 %) y el eco de CoreWeave. Es la clase en dólares: ==+5,44 % en USD y +6,27 % en euros==; la diferencia es el euro, que cayó frente al dólar."
+   },
+   {
+    "isin": "LU1206943596",
+    "por_que": "==Fondo que usa derivados (CFD y futuros) para concentrar la apuesta==: Samsung (8 %), SK Hynix (8 %), futuro del índice de Taiwán (6,5 %) y TSMC por dos vías. Ese apalancamiento en los fabricantes de memoria explica un +6,06 %, casi el doble que Corea o Taiwán."
+   },
+   {
+    "isin": "LU0401357313",
+    "por_que": "Otro 97 % en Taiwán y 75 % en tecnología, con ==MediaTek (9 %) y TSMC (9 %) a la cabeza== y diseñadores de chips para servidores de IA (Aspeed, Elite Material, Accton). Gana más que el índice (+4,89 % frente a +3,62 %) por estar más cargado de tecnología y por el euro débil."
+   },
+   {
+    "isin": "LU1881514423",
+    "por_que": "Fondo global de tecnología (disponible en IronIA): con el ==Nasdaq 100 +2,28 % y los semiconductores +7–8 %==, los fondos tecnológicos con peso en chips y memoria encabezan la tabla; el euro débil añade cerca de 0,8 puntos."
+   },
+   {
+    "isin": "LU0413542167",
+    "por_que": "Asia sin Japón, pero ==casi un tercio en cuatro valores de chips: TSMC, Samsung, SK Hynix y MediaTek==. Lo frena algo Tencent y Alibaba (Hong Kong cayó un 0,66 %), aun así +4,68 %."
+   },
+   {
+    "isin": "LU2484078832",
+    "por_que": "==Cartera calcada al relato del día==: Nvidia (9 %), TSMC (9 %), SK Hynix, Micron, Broadcom, Lam Research, AMD y Sandisk. Son los proveedores de CoreWeave, que subieron entre un 3 % (Nvidia) y más de un 10 % (Micron, Sandisk)."
+   },
+   {
+    "isin": "LU0301637293",
+    "por_que": "Corea pura: ==SK Hynix (10 %), SK Square (9 %, su accionista) y Samsung (9 %)== suman casi un 30 %. El KOSPI subió un 2,35 %; el fondo, con más memoria que el índice, +4,45 % en euros."
+   },
+   {
+    "isin": "LU0252218424",
+    "por_que": "Tecnología global (IronIA) con el sesgo habitual a semiconductores y nube: ==se beneficia del rebote de los chips== y del dólar fuerte frente al euro."
+   }
   ],
   "bajan": [
-    {"activo": "VIX", "cambio": "−10,1 % (17,49)", "por_que": "==Con la bolsa subiendo con fuerza, cae la demanda de coberturas==; el miedo al IPC del martes se disipó rápido.", "fuentes": []},
-    {"activo": "Euro/dólar", "cambio": "−0,78 % (1,113)", "por_que": "==Mínimo desde mayo de 2025==: la fijación del BCE de hoy ya recoge todo el IPC de EE. UU. (la del martes se tomó antes del dato). La diferencia de tipos entre la Fed y el BCE se amplía a favor del dólar.", "fuentes": [{"t": "FXStreet", "u": "https://www.fxstreet.com/news/euro-falls-to-two-week-low-amid-expectations-of-aggressive-fed-rate-hikes-202611111348"}]},
-    {"activo": "Oro", "cambio": "−0,90 % (3.994 $)", "por_que": "==No paga intereses y se cotiza en dólares==: con la Fed a punto de subir y el dólar al alza pierde atractivo; vuelve por debajo de los 4.000 dólares.", "fuentes": [{"t": "Kitco", "u": "https://www.kitco.com/charts/gold"}]},
-    {"activo": "Hang Seng (Hong Kong)", "cambio": "−0,66 %", "por_que": "==Su tecnología es de consumo e internet (Meituan −3,5 %), no de chips==, así que no se benefició de CoreWeave; el dólar fuerte también presiona a los emergentes muy ligados a China.", "fuentes": [{"t": "The Standard", "u": "https://www.thestandard.com.hk/finance/article/348149/Hang-Seng-slips-083-in-morning-trade-as-tech-lags-Meituan-fell-35"}]},
-    {"activo": "Gas natural EE. UU.", "cambio": "−1,43 %", "por_que": "Sin noticia concreta: recogida de beneficios y previsiones de temperaturas suaves; el mercado americano va por libre respecto al europeo.", "fuentes": []},
-    {"activo": "Yuan frente al euro (EUR/CNY)", "cambio": "−0,77 %", "por_que": "No es que el yuan se fortalezca: ==es el euro el que cae frente a todo lo ligado al dólar==; el yuan se mueve en una banda controlada frente a la divisa americana.", "fuentes": []}
+   {
+    "isin": "LU1128910137",
+    "por_que": "==Mineras de oro y plata pequeñas y en fase de proyecto==, que amplifican mucho el precio del metal: con el oro −0,90 % (por debajo de 4.000 dólares) el fondo cae un 4,04 %. Y eso pese a que el euro débil le resta parte de la caída."
+   },
+   {
+    "isin": "LU1923361049",
+    "por_que": "Recursos naturales de la misma gestora, con mucho peso en metales preciosos y mineras pequeñas: ==el dólar en máximos y la subida esperada de la Fed restan atractivo al oro==, que no paga intereses."
+   },
+   {
+    "isin": "IE00BYVJR916",
+    "por_que": "Mezcla de mineras (Discovery, First Majestic, Fresnillo, Hecla) y fideicomisos de metal físico de Sprott. La plata subió (+1,23 %), por eso ==cae menos (−1,93 %) que los fondos de oro puro==."
+   },
+   {
+    "isin": "LU0088927925",
+    "por_que": "Inmobiliario cotizado europeo (Unibail, Segro, PSP Swiss Property, Merlin, Vonovia). ==Es un sector que vive de la deuda y sufre cuando suben los tipos==: el Bund a 10 años sigue cerca del 3,3 % y el BCE tiene dos tercios de probabilidad de subir en diciembre. Sin noticia concreta: en un día de apetito por la tecnología, el dinero salió de lo sensible a tipos."
+   },
+   {
+    "isin": "LU0643860850",
+    "por_que": "==Dato probablemente raro==: es una clase de reparto (D) de bonos de alto rendimiento cubierta a euros, y un −1,42 % en un día no cuadra con el mercado (el diferencial de alto rendimiento de EE. UU. bajó). Lo más probable es el ==pago de un dividendo== que reduce el valor liquidativo, no una pérdida."
+   },
+   {
+    "isin": "LU1223083087",
+    "por_que": "Grandes mineras de oro: Barrick (7 %), Agnico Eagle, Newmont, Northern Star. ==Caen más que el oro por apalancamiento operativo==: sus costes son casi fijos y un 1 % menos de precio recorta más su beneficio."
+   },
+   {
+    "isin": "LU0326422689",
+    "por_que": "Cartera parecida (Barrick, Agnico Eagle, Newmont, Wheaton) pero ==cubierta a euros==, así que no recibe el colchón de la caída del euro: refleja la caída de las mineras tal cual."
+   },
+   {
+    "isin": "LU2053353079",
+    "por_que": "Biotecnología y terapias genéticas (Twist, Iovance, CRISPR, Amgen, Biogen). ==Las biotecnológicas sin beneficios dependen de financiación barata==: con la Fed a punto de subir, y el dinero rotando hacia los chips, pierden un 1,25 %. Sin noticia concreta de sus valores."
+   }
   ],
-  "drivers": [
-    {"tema": "Resultados de CoreWeave y la demanda de IA", "texto": "La empresa ingresó 3.660 millones de dólares en el tercer trimestre (+168 %) y prevé 13.000–13.300 millones en 2026. ==Lo clave fue que necesitará menos financiación de lo temido==, porque el miedo de las últimas semanas era que el gasto en centros de datos se sostuviera a base de deuda. Al despejarse esa duda, ==el mercado volvió a comprar toda la cadena: memoria, chips, energía y redes==. Ojo: no son pedidos confirmados a Micron o SK Hynix, solo una señal de demanda.", "fuentes": [{"t": "SEC (CoreWeave 8-K)", "u": "https://www.sec.gov/Archives/edgar/data/0001769628/000176962826000461/coreweave3q26earningspress.htm"}, {"t": "Benzinga", "u": "https://www.benzinga.com/markets/earnings/26/11/63158536/coreweave-ai-stocks-up-10-percent-wednesday"}]},
-    {"tema": "Reserva Federal (Fed): subida casi segura en diciembre", "texto": "==Tras el tercer mes seguido de inflación por encima de lo previsto==, la herramienta CME FedWatch da en torno a un 87–88 % a subir 25 pb y un 11 % a subir 50 pb. Los gobernadores Waller y Logan han mostrado inquietud. ==La bolsa lo ignoró hoy, pero el dólar no==: es la divisa la que mejor refleja ese cambio.", "fuentes": [{"t": "Investing.com", "u": "https://investing.com/news/economy-news/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch-5017585"}]},
-    {"tema": "Irán y el petróleo", "texto": "El crudo llevaba días bajando por la esperanza de un fin de la guerra (el lunes el Brent cayó casi un 6 %). Hoy rebotó porque ==Teherán se niega a entregar su uranio enriquecido==, condición clave de cualquier acuerdo. Un petróleo más caro alimenta la inflación esperada y, por tanto, las subidas de tipos.", "fuentes": [{"t": "JournalArta", "u": "https://journalarta.com/en/2026/11/11/oil-rises-iran-nuclear-material-standoff/"}]},
-    {"tema": "Día de los Veteranos en EE. UU.", "texto": "==La bolsa abrió con normalidad, pero el mercado de bonos estuvo cerrado==. Por eso las TIR de EE. UU. casi no se movieron y la reacción completa al IPC queda para el jueves.", "fuentes": [{"t": "Yahoo Finance", "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"}]}
-  ],
-  "tipos": {
-    "texto": "==Día casi en blanco en la deuda de EE. UU.: el mercado de bonos cerró por el Día de los Veteranos==. Las cotizaciones que vemos (10 años 4,998 %, +1,5 pb; 5 años 4,83 %, +2 pb; 30 años 5,36 %, +0,6 pb) son indicativas, con muy poca negociación, y no deben leerse como una reacción real. Lo que sí cambió es la expectativa: ==la probabilidad de subida de la Fed en diciembre ronda ya el 87–88 %==, así que el bono a 10 años sigue rozando el 5 % al que lo llevó el IPC del martes. El 2 años no tiene dato de hoy (FRED, la base de datos de la Fed de San Luis, va con retraso); la prensa lo situaba el martes en torno al 4,70 %. La volatilidad de los bonos (MOVE) saltó un 7,5 % el martes (último dato).\n\nEn la zona euro, ==los datos del BCE del martes confirman el contagio del IPC americano==: la curva AAA a 10 años subió 6 pb (3,33 %) y la de 2 años 8 pb (3,02 %). El mecanismo es el de los vasos comunicantes: si el bono de EE. UU. paga más, el inversor global exige más también a Alemania. ==Hoy el Bund a 10 años se quedó prácticamente plano, en torno al 3,30 %==: sin mercado americano como referencia, el empuje de la bolsa (que resta demanda de refugio) se compensó con el rebote del petróleo y una probabilidad de subida del BCE en diciembre que sigue en torno a dos tercios. Los diferenciales no mostraron tensión: ==Italia en torno a 105 pb y Francia cerca de 142 pb sobre Alemania==, estables. El diferencial de los bonos de alto rendimiento de EE. UU. bajó 8 pb (3,34 %) en el último dato de FRED (lunes).",
-    "puntos": [
-      {"bono": "EE. UU. 10 años", "cambio": "+1,5 pb (5,00 %), indicativo", "por_que": "==Mercado cerrado por festivo==; el nivel recoge el IPC caliente del martes y la apuesta por una subida de la Fed en diciembre.", "fuentes": [{"t": "Yahoo Finance", "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"}]},
-      {"bono": "EE. UU. 2 años", "cambio": "sin dato de hoy (≈ 4,70 % el martes según prensa)", "por_que": "FRED va con retraso y el mercado estuvo cerrado; ==es el plazo que más refleja la Fed== y el que más subió con el IPC.", "fuentes": []},
-      {"bono": "Zona euro AAA 10 años (≈ Bund)", "cambio": "+6 pb el martes (3,33 %); hoy ≈ plano (Bund 3,30 %)", "por_que": "==Contagio del IPC de EE. UU. el martes==; hoy, bolsa al alza y petróleo al alza se compensan sin la referencia americana.", "fuentes": [{"t": "Finimize", "u": "https://finimize.com/content/hot-us-inflation-pulled-eurozone-yields-higher"}, {"t": "Trading Economics", "u": "https://tradingeconomics.com/germany/government-bond-yield"}]},
-      {"bono": "Zona euro AAA 2 años", "cambio": "+8 pb el martes (3,02 %)", "por_que": "El mercado mantiene ==alrededor de un 66 % de probabilidad de subida del BCE en diciembre== y la da por hecha en febrero.", "fuentes": [{"t": "Rallies.ai / Reuters", "u": "https://rallies.ai/news/euro-zone-bonds-steady-as-traders-eye-energy-and-equity-markets-e2813134e75ac450"}]},
-      {"bono": "Diferenciales Francia e Italia frente a Alemania", "cambio": "estables (≈ 142 y ≈ 105 pb)", "por_que": "Sin noticias de riesgo país; el riesgo político francés sigue latente pero hoy no actuó.", "fuentes": [{"t": "Ideal Investisseur", "u": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"}]}
-    ],
-    "fuentes": [{"t": "Investing.com (CME FedWatch)", "u": "https://investing.com/news/economy-news/fed-rate-hike-odds-in-december-at-88-after-hot-cpi-cme-fedwatch-5017585"}]
+  "por_clase": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-12",
+   "evento": "Reapertura del mercado de bonos de EE. UU. y precios de producción (IPP) de octubre (fecha por confirmar)",
+   "por_que_importa": "==Primera reacción completa de la deuda americana al IPC==; un IPP alto reforzaría las apuestas por 50 pb."
   },
-  "fondos": {"texto": "", "suben": [], "bajan": []},
-  "agenda": [
-    {"fecha": "2026-11-12", "evento": "Reapertura del mercado de bonos de EE. UU. y precios de producción (IPP) de octubre (fecha por confirmar)", "por_que_importa": "==Primera reacción completa de la deuda americana al IPC==; un IPP alto reforzaría las apuestas por 50 pb."},
-    {"fecha": "2026-11-13", "evento": "Ventas minoristas de EE. UU. de octubre (fecha por confirmar)", "por_que_importa": "Mide si el consumo aguanta los tipos altos y el petróleo caro."},
-    {"fecha": "2026-11-17", "evento": "Resultados de Nvidia", "por_que_importa": "==Tras CoreWeave, la gran prueba de la demanda de IA==, con la investigación sobre su consejero delegado de fondo."},
-    {"fecha": "2026-11-18", "evento": "Posible salida a bolsa de Anthropic (semana próxima, fecha por confirmar)", "por_que_importa": "Con una valoración en torno a 1,4 billones de dólares, medirá el apetito por la IA y puede drenar dinero de otras tecnológicas."},
-    {"fecha": "2026-12-09", "evento": "Decisión de la Reserva Federal (Fed)", "por_que_importa": "Subida de 25 pb casi descontada (87–88 %); queda la duda de 50 pb."}
-  ],
-  "glosario": [
-    {"sigla": "IA", "def": "Inteligencia artificial."},
-    {"sigla": "IPC", "def": "Índice de precios al consumo: mide la inflación que paga el consumidor."},
-    {"sigla": "IPP", "def": "Índice de precios de producción: precios que cobran las empresas; adelanta parte del IPC."},
-    {"sigla": "Fed", "def": "Reserva Federal (Federal Reserve), el banco central de EE. UU."},
-    {"sigla": "BCE", "def": "Banco Central Europeo."},
-    {"sigla": "CME FedWatch", "def": "Herramienta del Chicago Mercantile Exchange que calcula, con los futuros, la probabilidad de cada decisión de la Fed."},
-    {"sigla": "TIR", "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento."},
-    {"sigla": "pb", "def": "Puntos básicos: centésimas de punto porcentual (25 pb = 0,25 %)."},
-    {"sigla": "FRED", "def": "Federal Reserve Economic Data, base de datos de la Fed de San Luis; publica con un día de retraso."},
-    {"sigla": "AAA", "def": "Máxima calificación crediticia; la curva AAA del BCE agrupa a los países mejor valorados del euro (Alemania, Países Bajos…)."},
-    {"sigla": "Bund", "def": "Bono del Estado alemán; referencia de la zona euro."},
-    {"sigla": "VIX", "def": "Volatility Index: volatilidad esperada del S&P 500 a 30 días, el «índice del miedo»."},
-    {"sigla": "MOVE", "def": "Merrill Lynch Option Volatility Estimate: el «VIX» de los bonos del Tesoro de EE. UU."},
-    {"sigla": "DXY", "def": "U.S. Dollar Index: valor del dólar frente a una cesta de seis divisas (sobre todo el euro)."},
-    {"sigla": "TTF", "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."},
-    {"sigla": "TAIEX", "def": "Taiwan Capitalization Weighted Stock Index, índice principal de la bolsa de Taiwán."},
-    {"sigla": "KOSPI", "def": "Korea Composite Stock Price Index, índice principal de la bolsa de Corea del Sur."},
-    {"sigla": "TSMC", "def": "Taiwan Semiconductor Manufacturing Company, el mayor fabricante de chips por encargo del mundo."},
-    {"sigla": "High yield", "def": "Bonos de alto rendimiento: deuda de empresas con peor calificación, que paga más interés."},
-    {"sigla": "Ormuz", "def": "Estrecho entre Irán y Omán por el que pasa en torno a una quinta parte del petróleo y del gas licuado del mundo."}
-  ],
-  "generado": "2026-11-11T23:25"
+  {
+   "fecha": "2026-11-13",
+   "evento": "Ventas minoristas de EE. UU. de octubre (fecha por confirmar)",
+   "por_que_importa": "Mide si el consumo aguanta los tipos altos y el petróleo caro."
+  },
+  {
+   "fecha": "2026-11-17",
+   "evento": "Resultados de Nvidia",
+   "por_que_importa": "==Tras CoreWeave, la gran prueba de la demanda de IA==, con la investigación sobre su consejero delegado de fondo."
+  },
+  {
+   "fecha": "2026-11-18",
+   "evento": "Posible salida a bolsa de Anthropic (semana próxima, fecha por confirmar)",
+   "por_que_importa": "Con una valoración en torno a 1,4 billones de dólares, medirá el apetito por la IA y puede drenar dinero de otras tecnológicas."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "Subida de 25 pb casi descontada (87–88 %); queda la duda de 50 pb."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "IPC",
+   "def": "Índice de precios al consumo: mide la inflación que paga el consumidor."
+  },
+  {
+   "sigla": "IPP",
+   "def": "Índice de precios de producción: precios que cobran las empresas; adelanta parte del IPC."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal (Federal Reserve), el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "CME FedWatch",
+   "def": "Herramienta del Chicago Mercantile Exchange que calcula, con los futuros, la probabilidad de cada decisión de la Fed."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento."
+  },
+  {
+   "sigla": "pb",
+   "def": "Puntos básicos: centésimas de punto porcentual (25 pb = 0,25 %)."
+  },
+  {
+   "sigla": "FRED",
+   "def": "Federal Reserve Economic Data, base de datos de la Fed de San Luis; publica con un día de retraso."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia; la curva AAA del BCE agrupa a los países mejor valorados del euro (Alemania, Países Bajos…)."
+  },
+  {
+   "sigla": "Bund",
+   "def": "Bono del Estado alemán; referencia de la zona euro."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Volatility Index: volatilidad esperada del S&P 500 a 30 días, el «índice del miedo»."
+  },
+  {
+   "sigla": "MOVE",
+   "def": "Merrill Lynch Option Volatility Estimate: el «VIX» de los bonos del Tesoro de EE. UU."
+  },
+  {
+   "sigla": "DXY",
+   "def": "U.S. Dollar Index: valor del dólar frente a una cesta de seis divisas (sobre todo el euro)."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "TAIEX",
+   "def": "Taiwan Capitalization Weighted Stock Index, índice principal de la bolsa de Taiwán."
+  },
+  {
+   "sigla": "KOSPI",
+   "def": "Korea Composite Stock Price Index, índice principal de la bolsa de Corea del Sur."
+  },
+  {
+   "sigla": "TSMC",
+   "def": "Taiwan Semiconductor Manufacturing Company, el mayor fabricante de chips por encargo del mundo."
+  },
+  {
+   "sigla": "High yield",
+   "def": "Bonos de alto rendimiento: deuda de empresas con peor calificación, que paga más interés."
+  },
+  {
+   "sigla": "Ormuz",
+   "def": "Estrecho entre Irán y Omán por el que pasa en torno a una quinta parte del petróleo y del gas licuado del mundo."
+  }
+ ],
+ "generado": "2026-11-12T09:42"
 }
