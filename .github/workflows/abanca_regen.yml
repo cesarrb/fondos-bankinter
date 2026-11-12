@@ -1,0 +1,48 @@
+name: Regeneración mensual del catálogo solo-ABANCA
+
+# Corre en la NUBE de GitHub (siempre encendida), igual que la foto diaria.
+# Refresca los campos fiables de los fondos solo-ABANCA (rentabilidades por año,
+# volatilidad, etc.) y poda los que llevan 2 meses sin datos. NO añade fondos nuevos.
+on:
+  schedule:
+    - cron: "0 5 1 * *"      # día 1 de cada mes, 05:00 UTC (07:00 verano / 06:00 invierno en España)
+  workflow_dispatch: {}       # permite lanzarlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: abanca-regen
+  cancel-in-progress: false
+
+jobs:
+  regenerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Regenerar el catálogo (refrescar + podar)
+        run: python abanca_regen.py
+
+      - name: Confirmar SOLO los ficheros del catálogo ABANCA
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          hoy=$(date -u +%Y-%m-%d)
+          # Importante: NO tocar fondos_latest.csv ni vl_history.csv (son de la foto diaria).
+          git add data/abanca_solo.csv data/abanca_bajas.csv \
+                  data/abanca_regen_state.json data/abanca_regen_health.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Catálogo ABANCA sin cambios."
+            exit 0
+          fi
+          git commit -m "ABANCA: regeneración mensual del catálogo solo-ABANCA ($hoy)"
+          git push

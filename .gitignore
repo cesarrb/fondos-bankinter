@@ -19,3 +19,12 @@ data/*.good
 
 # IronIA: datos de terceros (IronIA/Allfunds), solo uso local; no republicar
 data/ironia/
+
+# Histórico FT desde la firma del crédito (datos de terceros + privado)
+data/historico_credito/
+data/mercados/ironia_universo.json
+data/historia/corpus.db
+data/historia/_clima_cache/
+
+# respaldos locales de la regeneración ABANCA (el historial de git ya es el backff)
+data/backups/
