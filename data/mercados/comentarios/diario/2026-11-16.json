@@ -1,0 +1,422 @@
+{
+ "periodo": "diario",
+ "clave": "2026-11-16",
+ "fase": "mercado",
+ "titulo": "Washington cierra el grifo de chips a China: Taiwán −6 % y Nasdaq 100 −2,67 %",
+ "resumen": "Lunes de castigo para todo lo ligado a la inteligencia artificial (IA). La víspera de los resultados de Nvidia, el Departamento de Comercio de EE. UU. publicó una norma que ==exige licencia para vender chips avanzados de IA a Singapur, Malasia, Tailandia, Indonesia y Brasil== y prohíbe enviarlos a centros de datos que alquilen esa potencia a empresas chinas. El mecanismo: ==cierra la vía por la que China usaba los chips sin comprarlos==, y con ella una parte de las ventas futuras de Nvidia, AMD o Broadcom. Resultado: ==Nasdaq 100 −2,67 %==, S&P 500 −1,92 %, Dow Jones −1,41 % y Russell 2000 −1,70 %. AMD cedió alrededor de un 5 % y Broadcom un 4 %; Benzinga estima ==unos 960.000 millones de dólares de valor perdido== en las grandes tecnológicas. El VIX saltó un 18,7 %, hasta 22,9.\n\nAsia ya había abierto la semana en rojo, ==contagiada por la caída de los chips del viernes== y por la incertidumbre de Nvidia tras la salida de Jensen Huang. ==Taiwán se desplomó un 6,03 %== (allí cotizan los fabricantes que suministran a Nvidia), Corea un 4,02 % (SK Hynix cerca de −8 %) y Japón un 2,31 %. El ETF (fondo cotizado) de emergentes cayó un 3,33 % porque Taiwán y Corea pesan mucho en él. Hong Kong (+0,84 %) e India (+0,42 %), con poca tecnología de chips, subieron sin noticia concreta.\n\nEn la sesión americana habló el presidente de la Reserva Federal (Fed), Kevin Warsh: ==avisó de que la IA podría «decepcionar» y arrastrar a la bolsa==, uno de sus tres escenarios. No fue una previsión, pero llegó en mal momento. Los bonos hicieron esta vez de refugio: ==el 10 años de EE. UU. bajó 3 pb, al 5,12 %==, tras su peor semana desde abril de 2025. Aun así, la apuesta por una subida de tipos en diciembre (≈ 95 %) y el dólar fuerte hundieron ==oro (−0,70 %, 3.859 $) y plata (−4,15 %) a mínimos de un año==.\n\nEuropa, con poco peso de chips, cayó mucho menos: ==Stoxx 600 −0,28 %, Ibex −0,37 % (19.947 puntos)== y Suiza al alza (+0,57 %) por sus valores defensivos. En el Ibex, Solaria (−5,4 %) y las eléctricas sufrieron por las dudas sobre la financiación de centros de datos. Y el petróleo bajó con fuerza: ==Brent −4,19 % (91,8 $)== porque las exportaciones de Oriente Medio se recuperan y refuerzan el excedente que prevé la Agencia Internacional de la Energía (AIE).",
+ "claves": [
+  "==Norma de EE. UU. contra el acceso de China a chips de IA==: licencias para cinco países y veto a centros de datos que les alquilen potencia.",
+  "Tecnología a la baja: ==Nasdaq 100 −2,67 %==, S&P 500 −1,92 %; AMD ≈ −5 %, Broadcom ≈ −4 %; VIX +18,7 % (22,9).",
+  "==Asia se hunde en los chips==: Taiwán −6,03 %, Corea −4,02 %, Japón −2,31 %; emergentes −3,33 %.",
+  "Warsh (Fed) avisa de que ==la IA podría decepcionar y tumbar la bolsa==; el bono a 10 años baja al 5,12 % (−3 pb).",
+  "==Oro y plata, en mínimos de un año== por la subida de la Fed que se da por hecha y el dólar fuerte.",
+  "Brent −4,19 % (91,8 $) por el excedente; Europa aguanta (Stoxx 600 −0,28 %, Ibex −0,37 %)."
+ ],
+ "suben": [
+  {
+   "activo": "SMI (Suiza)",
+   "cambio": "+0,57 %",
+   "por_que": "==Índice muy defensivo== (salud y consumo básico): en días de huida de la tecnología el dinero rota hacia valores estables. Sin noticia concreta propia.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance – directo de mercados del 16-11",
+     "u": "https://finance.yahoo.com/news/live/stock-market-news-today-sp-500-nasdaq-slide-as-china-curb-risk-rattles-techs-102418842.html"
+    }
+   ]
+  },
+  {
+   "activo": "Hang Seng (Hong Kong)",
+   "cambio": "+0,84 %",
+   "por_que": "Rebote tras caer un 1,39 % el viernes. ==Pesa poco la cadena de suministro de Nvidia==, así que el golpe de los chips le afectó menos. Sin noticia concreta.",
+   "fuentes": [
+    {
+     "t": "MarketScreener – la venta de chips de EE. UU. se contagia a Asia",
+     "u": "https://www.marketscreener.com/news/asian-equities-drop-as-u-s-chip-selloff-spills-over-update-ce785edede8ff625"
+    }
+   ]
+  },
+  {
+   "activo": "Sensex (India)",
+   "cambio": "+0,42 %",
+   "por_que": "Mercado con poca tecnología de chips; ==se beneficia del petróleo más barato==, porque India importa casi todo su crudo.",
+   "fuentes": [
+    {
+     "t": "CNBC – el petróleo cae por la recuperación de exportaciones de Oriente Medio",
+     "u": "https://www.cnbc.com/2026/11/16/oil-prices-brent-wti-latest.html"
+    }
+   ]
+  },
+  {
+   "activo": "Trigo",
+   "cambio": "+1,43 %",
+   "por_que": "Sin noticia concreta encontrada; movimiento técnico, ajeno a la venta tecnológica.",
+   "fuentes": []
+  },
+  {
+   "activo": "Bitcoin",
+   "cambio": "+0,04 %",
+   "por_que": "Estable tras perder un 11,7 % en cinco días. ==Las subidas de tipos esperadas le siguen pesando==, pero hoy no se sumó a la caída.",
+   "fuentes": []
+  },
+  {
+   "activo": "Índice dólar (DXY)",
+   "cambio": "+0,17 %",
+   "por_que": "==El mercado apuesta por un ciclo de subidas de la Fed más largo==, y eso hace más rentable tener dólares; ronda su nivel más fuerte desde abril de 2025.",
+   "fuentes": [
+    {
+     "t": "FXStreet – el dólar sube por un ciclo de subidas más largo",
+     "u": "https://www.fxstreet.com/news/us-dollar-index-extends-gains-as-traders-bet-on-a-longer-fed-hiking-cycle-202611161214"
+    }
+   ]
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "−6,03 %",
+   "por_que": "==Allí cotizan los fabricantes que forman la cadena de suministro de Nvidia==. Recogió la caída de los chips americanos del viernes y la duda sobre Nvidia antes de sus resultados.",
+   "fuentes": [
+    {
+     "t": "Benzinga – Asia cae con SK Hynix al frente",
+     "u": "https://www.benzinga.com/markets/tech/26/11/62966567/asian-stocks-sk-hynix-samsung-electronics-tsmc-nikkei-kospi-nasdaq-selloff"
+    },
+    {
+     "t": "MarketScreener – la venta de chips de EE. UU. se contagia a Asia",
+     "u": "https://www.marketscreener.com/news/asian-equities-drop-as-u-s-chip-selloff-spills-over-update-ce785edede8ff625"
+    }
+   ]
+  },
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "−4,02 %",
+   "por_que": "Memorias a la baja: ==SK Hynix ≈ −8 % y Samsung ≈ −4,5 %==, muy expuestas a la demanda de servidores de IA.",
+   "fuentes": [
+    {
+     "t": "Benzinga – Asia cae con SK Hynix al frente",
+     "u": "https://www.benzinga.com/markets/tech/26/11/62966567/asian-stocks-sk-hynix-samsung-electronics-tsmc-nikkei-kospi-nasdaq-selloff"
+    }
+   ]
+  },
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "−2,67 %",
+   "por_que": "==La nueva norma de Comercio recorta ventas potenciales de chips a Asia y China==; AMD ≈ −5 %, Broadcom ≈ −4 %, y caen también los centros de datos (CoreWeave, Nebius).",
+   "fuentes": [
+    {
+     "t": "Benzinga – 960.000 M$ perdidos en tecnológicas",
+     "u": "https://www.benzinga.com/markets/equities/26/11/63320949/tech-stocks-960-billion-china-ai-chips-remote-access-rule"
+    },
+    {
+     "t": "Yahoo Finance – AMD y Broadcom caen por la norma de chips",
+     "u": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-stocks-sink-on-tighter-us-chips-rules-coreweave-drops-143342994.html"
+    },
+    {
+     "t": "Bloomberg – EE. UU. limita el acceso remoto de China a chips de IA",
+     "u": "https://www.bloomberg.com/news/articles/2026-11-16/us-moves-to-limit-remote-access-to-advanced-ai-chips"
+    }
+   ]
+  },
+  {
+   "activo": "S&P 500",
+   "cambio": "−1,92 %",
+   "por_que": "Arrastrado por la tecnología (≈ un tercio del índice) y por el aviso de Warsh sobre una ==posible decepción de la IA==.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance – directo de mercados del 16-11",
+     "u": "https://finance.yahoo.com/news/live/stock-market-news-today-sp-500-nasdaq-slide-as-china-curb-risk-rattles-techs-102418842.html"
+    },
+    {
+     "t": "Axios – Warsh ve riesgo de caída bursátil si la IA decepciona",
+     "u": "https://www.axios.com/2026/11/16/fed-warsh-ai-boom-stocks"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "−4,19 % (91,8 $)",
+   "por_que": "==Las exportaciones de Oriente Medio se recuperan==, lo que refuerza el excedente previsto para este trimestre. Los incidentes con minas en Ormuz no bastaron para sostenerlo.",
+   "fuentes": [
+    {
+     "t": "CNBC – el petróleo cae por la recuperación de exportaciones de Oriente Medio",
+     "u": "https://www.cnbc.com/2026/11/16/oil-prices-brent-wti-latest.html"
+    },
+    {
+     "t": "IBTimes – el excedente pesa sobre el crudo",
+     "u": "https://www.ibtimes.com/oil-prices-fall-hormuz-shipping-stability-iea-3809797"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "−6,14 % (84,0 €/MWh)",
+   "por_que": "Sigue al petróleo: ==menos tensión de oferta en Oriente Medio==. Sin noticia propia del gas encontrada.",
+   "fuentes": [
+    {
+     "t": "CNBC – el petróleo cae por la recuperación de exportaciones de Oriente Medio",
+     "u": "https://www.cnbc.com/2026/11/16/oil-prices-brent-wti-latest.html"
+    }
+   ]
+  },
+  {
+   "activo": "Plata",
+   "cambio": "−4,15 %",
+   "por_que": "==Tipos más altos y dólar fuerte hacen menos atractivo un activo sin rentabilidad==; en mínimos de un año (−10,6 % en cinco días).",
+   "fuentes": [
+    {
+     "t": "Forbes – oro y plata en mínimos de un año",
+     "u": "https://www.forbes.com/sites/conormurray/2026/11/16/gold-and-silver-hit-lowest-prices-in-a-year-as-expected-interest-rate-hikes-loom/"
+    },
+    {
+     "t": "Kitco – oro y plata amplían pérdidas por la Fed",
+     "u": "https://www.kitco.com/news/article/2026-11-16/gold-silver-extend-losses-fed-hike-bets-rise-dollar-remains-firm-kitco-am"
+    }
+   ]
+  },
+  {
+   "activo": "Uranio (ETF URA)",
+   "cambio": "−4,40 %",
+   "por_que": "==Parte de su subida venía de la electricidad para centros de datos de IA==; cae con esa apuesta, como Solaria en el Ibex.",
+   "fuentes": [
+    {
+     "t": "El Boletín – Solaria y eléctricas lastran al Ibex",
+     "u": "https://www.elboletin.com/el-ibex-35-pierde-los-20-000-puntos-tras-caer-un-037-arrastrado-por-solaria-y-las-electricas/"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Norma de EE. UU. sobre chips de IA",
+   "texto": "El Departamento de Comercio exige licencia para enviar chips avanzados a Indonesia, Malasia, Singapur, Tailandia y Brasil. Además, ==veta los centros de datos que alquilen esa potencia a empresas chinas==. Llega tras el escándalo de Nvidia y el caso de un intermediario de Singapur acusado de desviar chips a China. ==Para los fabricantes significa menos clientes y más trámites==; por eso cayeron sobre todo chips y centros de datos.",
+   "fuentes": [
+    {
+     "t": "Fortune – nueva norma de Comercio sobre Singapur y Malasia",
+     "u": "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"
+    },
+    {
+     "t": "Bloomberg – EE. UU. limita el acceso remoto de China a chips de IA",
+     "u": "https://www.bloomberg.com/news/articles/2026-11-16/us-moves-to-limit-remote-access-to-advanced-ai-chips"
+    },
+    {
+     "t": "Benzinga – 960.000 M$ perdidos en tecnológicas",
+     "u": "https://www.benzinga.com/markets/equities/26/11/63320949/tech-stocks-960-billion-china-ai-chips-remote-access-rule"
+    }
+   ]
+  },
+  {
+   "tema": "Nvidia y la cadena asiática",
+   "texto": "Primera semana completa de Nvidia sin Jensen Huang, y resultados el martes 17. ==Asia descontó lo peor antes que Wall Street==: Taiwán y Corea, donde están sus proveedores de chips y memorias, sufrieron las mayores caídas.",
+   "fuentes": [
+    {
+     "t": "Benzinga – Asia cae con SK Hynix al frente",
+     "u": "https://www.benzinga.com/markets/tech/26/11/62966567/asian-stocks-sk-hynix-samsung-electronics-tsmc-nikkei-kospi-nasdaq-selloff"
+    },
+    {
+     "t": "MarketScreener – la venta de chips de EE. UU. se contagia a Asia",
+     "u": "https://www.marketscreener.com/news/asian-equities-drop-as-u-s-chip-selloff-spills-over-update-ce785edede8ff625"
+    }
+   ]
+  },
+  {
+   "tema": "Reserva Federal (Fed): Warsh y la IA",
+   "texto": "Warsh planteó tres escenarios para la IA. En uno, la tecnología ==«decepciona» y provoca caídas en bolsa, menos crecimiento y más paro==. No es su previsión, pero el mercado lo leyó como aviso. Mientras, ==la subida de diciembre se da casi por hecha (≈ 95 %)==.",
+   "fuentes": [
+    {
+     "t": "Axios – Warsh ve riesgo de caída bursátil si la IA decepciona",
+     "u": "https://www.axios.com/2026/11/16/fed-warsh-ai-boom-stocks"
+    },
+    {
+     "t": "CNBC – Warsh: la IA podría «decepcionar»",
+     "u": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html"
+    },
+    {
+     "t": "Kitco – oro y plata amplían pérdidas por la Fed",
+     "u": "https://www.kitco.com/news/article/2026-11-16/gold-silver-extend-losses-fed-hike-bets-rise-dollar-remains-firm-kitco-am"
+    }
+   ]
+  },
+  {
+   "tema": "Petróleo: excedente a la vista",
+   "texto": "La recuperación de las exportaciones de Oriente Medio ==refuerza el excedente que la AIE prevé para el cuarto trimestre==. Goldman Sachs espera un Brent medio de 88 $ en 2027. El crudo más barato rebaja algo la inflación esperada.",
+   "fuentes": [
+    {
+     "t": "CNBC – el petróleo cae por la recuperación de exportaciones de Oriente Medio",
+     "u": "https://www.cnbc.com/2026/11/16/oil-prices-brent-wti-latest.html"
+    },
+    {
+     "t": "IBTimes – el excedente pesa sobre el crudo",
+     "u": "https://www.ibtimes.com/oil-prices-fall-hormuz-shipping-stability-iea-3809797"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "==Esta vez los bonos de EE. UU. sí hicieron de refugio==. Con el Nasdaq 100 cayendo más de un 2,5 %, parte del dinero pasó de bolsa a deuda: el 10 años bajó 3 pb (5,12 %), el 5 años 5 pb (4,94 %) y el 30 años apenas 1 pb (5,47 %). El 2 años bajó unos 4 pb (≈ 4,83 %) según la prensa; FRED aún no tiene el dato de hoy. Ayudaron dos cosas más: ==el aviso de Warsh de que la IA puede decepcionar== (menos crecimiento esperado) y ==el petróleo un 4 % más barato==, que rebaja la inflación esperada. Pero la bajada es pequeña frente a los +26 pb de la semana pasada: ==la subida de la Fed en diciembre sigue descontada al ≈ 95 %== tras un IPP del 6,5 %.\n\nEn la zona euro, el último dato del Banco Central Europeo (BCE) es del viernes: AAA a 10 años en el 3,41 % (+4,5 pb) y 2 años en el 3,07 % (plano). Para hoy, la prensa da el ==Bund alemán a 10 años casi plano, en torno al 3,37 %==. Los inversores esperan los resultados de Nvidia y las señales de la Fed. Al fondo, el mercado ==descuenta varias subidas del BCE hasta finales de 2027== por la inflación. No constan tensiones en Francia, Italia ni España: la bolsa europea apenas se movió.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "≈ −4 pb (≈ 4,83 %, prensa)",
+    "por_que": "Leve compra de refugio; ==la subida de diciembre sigue casi entera en el precio==. FRED aún no tiene el dato del lunes (el último, del viernes: 4,88 %, +2 pb).",
+    "fuentes": [
+     {
+      "t": "CNBC – los bonos del Tesoro suben con la bolsa a la baja y Warsh",
+      "u": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−3 pb (5,12 %)",
+    "por_que": "==Huida de la bolsa a los bonos== y aviso de Warsh sobre la IA; el petróleo barato también rebaja la inflación esperada.",
+    "fuentes": [
+     {
+      "t": "CNBC – los bonos del Tesoro suben con la bolsa a la baja y Warsh",
+      "u": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
+     },
+     {
+      "t": "Axios – Warsh ve riesgo de caída bursátil si la IA decepciona",
+      "u": "https://www.axios.com/2026/11/16/fed-warsh-ai-boom-stocks"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "−1 pb (5,47 %)",
+    "por_que": "Casi sin cambios: ==la prima por plazo (inflación y déficit) no cede==, así que el tramo largo apenas aprovechó el refugio.",
+    "fuentes": [
+     {
+      "t": "CNBC – los bonos del Tesoro suben con la bolsa a la baja y Warsh",
+      "u": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "Viernes +4,5 pb (3,41 %, BCE); hoy ≈ plano (Bund ≈ 3,37 %, prensa)",
+    "por_que": "Sin dato propio relevante; ==a la espera de Nvidia y de la Fed==, y con el mercado descontando subidas del BCE.",
+    "fuentes": [
+     {
+      "t": "Yahoo Finance UK – rentabilidades de la zona euro estables",
+      "u": "https://uk.finance.yahoo.com/news/eurozone-bond-yields-hold-steady-094754826.html"
+     },
+     {
+      "t": "Trading Economics – Bund alemán a 10 años",
+      "u": "https://tradingeconomics.com/germany/government-bond-yield"
+     },
+     {
+      "t": "Global Banking & Finance – el mercado apuesta por tres subidas del BCE hasta 2027",
+      "u": "https://www.globalbankingandfinance.com/euro-zone-yields-rise-traders-bet-three-ecb-hikes-late-2027/"
+     }
+    ]
+   },
+   {
+    "bono": "Diferenciales Francia, Italia y España",
+    "cambio": "Sin movimientos relevantes (prensa)",
+    "por_que": "Día sin riesgo político en Europa; ==la tormenta fue tecnológica y americana/asiática==.",
+    "fuentes": [
+     {
+      "t": "Yahoo Finance UK – rentabilidades de la zona euro estables",
+      "u": "https://uk.finance.yahoo.com/news/eurozone-bond-yields-hold-steady-094754826.html"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "CNBC – los bonos del Tesoro suben con la bolsa a la baja y Warsh",
+    "u": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
+   },
+   {
+    "t": "Yahoo Finance UK – rentabilidades de la zona euro estables",
+    "u": "https://uk.finance.yahoo.com/news/eurozone-bond-yields-hold-steady-094754826.html"
+   },
+   {
+    "t": "Global Banking & Finance – el mercado apuesta por tres subidas del BCE hasta 2027",
+    "u": "https://www.globalbankingandfinance.com/euro-zone-yields-rise-traders-bet-three-ecb-hikes-late-2027/"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "",
+  "suben": [],
+  "bajan": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-17",
+   "evento": "Resultados de Nvidia",
+   "por_que_importa": "==Primera prueba tras la salida de Huang y la nueva norma de chips==; marcará el tono de los fondos tecnológicos y de Taiwán/Corea."
+  },
+  {
+   "fecha": "2026-11-17",
+   "evento": "Ventas minoristas de octubre y producción industrial en EE. UU.",
+   "por_que_importa": "Un consumo fuerte reforzaría la subida de la Fed en diciembre y empujaría los tipos al alza."
+  },
+  {
+   "fecha": "2026-11-18",
+   "evento": "Actas de la reunión de octubre de la Fed",
+   "por_que_importa": "Dirán cuántos miembros quieren seguir subiendo tipos después de diciembre."
+  },
+  {
+   "fecha": "2026-11-17",
+   "evento": "Salida a bolsa de Anthropic (prevista esta semana, día sin confirmar)",
+   "por_que_importa": "Termómetro del apetito por la IA tras la venta de hoy."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "El mercado da por hecha una subida de 0,25 puntos; la duda es si habrá más en 2027."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "AIE",
+   "def": "Agencia Internacional de la Energía."
+  },
+  {
+   "sigla": "ETF",
+   "def": "Exchange-Traded Fund: fondo que cotiza en bolsa como una acción."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad del S&P 500, el «índice del miedo»."
+  },
+  {
+   "sigla": "pb",
+   "def": "Puntos básicos: 1 pb = 0,01 puntos porcentuales."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se mantiene hasta el vencimiento."
+  },
+  {
+   "sigla": "IPP",
+   "def": "Índice de precios de producción: precios que cobran los productores."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "FRED",
+   "def": "Federal Reserve Economic Data: base de datos de la Fed de San Luis."
+  },
+  {
+   "sigla": "Prima por plazo",
+   "def": "Rentabilidad extra que se exige por prestar a largo plazo en vez de renovar préstamos cortos."
+  }
+ ],
+ "generado": "2026-11-16T23:10"
+}
