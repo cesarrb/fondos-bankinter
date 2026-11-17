@@ -1,0 +1,426 @@
+{
+ "periodo": "diario",
+ "clave": "2026-11-17",
+ "fase": "mercado",
+ "titulo": "Europa sufre su peor día en ocho meses antes de Nvidia: Euro Stoxx 50 −2,15 %",
+ "resumen": "Segundo día seguido de ventas ligadas a la inteligencia artificial (IA), y esta vez ==Europa se llevó la peor parte==. La nueva norma de EE. UU. que limita los chips avanzados para China pesó sobre los tecnológicos europeos, ==que cayeron un 3,9 %, su peor día desde febrero==. ASML perdió un 5,3 % (sus máquinas fabrican esos chips) y SAP un 5,6 %, castigada por la venta global de software y la salida de un directivo. Además, ==Deutsche Bank se hundió un 6 %== por informaciones basadas en archivos filtrados del banco. Resultado: ==Euro Stoxx 50 −2,15 %, DAX −2,08 %, Stoxx 600 −1,75 %==, su mayor caída desde el 20 de marzo. El Ibex cedió un 1,61 % (19.625 puntos), con ==Indra −6,4 % por una investigación de Anticorrupción== sobre contratos de Defensa; solo Repsol, Solaria, Acciona Energía y Merlin subieron.\n\nAsia ya había abierto en rojo: ==Taiwán −2,3 % y Corea −2,3 %==, con el Kospi por debajo de 5.000 puntos por primera vez desde febrero. Pesan las restricciones a la exportación y las dudas sobre la inversión en IA. India (+0,65 %) y Brasil (+0,31 %), con poca tecnología de chips, subieron.\n\nEn Wall Street el golpe fue más amplio que tecnológico: ==Dow Jones −1,64 % (−849 puntos)==, S&P 500 −1,03 % y Nasdaq 100 −0,72 %. Dos causas. Primera: ==OpenAI lanzó nuevos modelos (GPT-6.2) y hundió al software== (Salesforce −8 %, ServiceNow −6 %), por el miedo a que la IA sustituya sus programas. Segunda: ==la salida a bolsa de Anthropic, el jueves, retira dinero de otras posiciones== para hacer hueco a la que puede ser la mayor colocación de la historia. A eso se suma un miembro de la Reserva Federal (Fed), Alberto Musalem, que ==pidió subir tipos «antes»== y ve hasta 1–1,5 puntos de subidas. El VIX saltó un 11 %, hasta 25,5.\n\nTras el cierre llegó el alivio: ==Nvidia batió previsiones (115.840 millones de dólares de ingresos frente a 109.100 esperados)==, anunció recompras por 150.000 millones y dio una guía por encima de lo esperado. Sus acciones y las de chips subían fuera de hora; ese rebote no está en las cifras de hoy y se verá mañana. Las materias primas fueron a contracorriente: ==trigo +4 %== tras varias sesiones de caídas, Brent +0,6 % (93 $) por los ataques a petroleros en el Golfo, y oro plano.",
+ "claves": [
+  "==Peor día de Europa en ocho meses==: Euro Stoxx 50 −2,15 %, con tecnológicas −3,9 % (ASML −5,3 %, SAP −5,6 %) y Deutsche Bank −6 %.",
+  "Ibex −1,61 % (19.625): ==Indra −6,4 % por una investigación de Anticorrupción==; banca a la baja y Repsol al alza.",
+  "Wall Street: ==Dow −1,64 %== por la venta de software tras GPT-6.2 y la liquidez que absorbe la salida a bolsa de Anthropic.",
+  "==Nvidia bate tras el cierre== (ingresos 115.840 M$ y recompra de 150.000 M$): rebote fuera de hora aún no reflejado.",
+  "Tipos casi quietos pese al desplome: ==10 años de EE. UU. −2 pb (5,10 %)==, porque la Fed sigue apuntando a subir en diciembre.",
+  "VIX +11 % (25,5) y trigo +4 %; oro y dólar, planos."
+ ],
+ "suben": [
+  {
+   "activo": "Trigo (Chicago)",
+   "cambio": "+3,96 %",
+   "por_que": "==Rebote técnico tras varias sesiones de caídas== (estaba muy sobrevendido). Sin noticia de oferta clara: la previsión de cosecha mundial sigue al alza, así que es un movimiento de posiciones más que de fundamentales.",
+   "fuentes": [
+    {
+     "t": "DTN – mercados de grano en directo",
+     "u": "https://dtnpf.com/agriculture/web/ag/news/article/2026/11/17/periodic-updates-grains-livestock"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural EE. UU. (Henry Hub)",
+   "cambio": "+2,21 %",
+   "por_que": "Sin noticia concreta; suele moverse por previsiones de frío y almacenamiento. Movimiento modesto tras precios bajos (3,19 $).",
+   "fuentes": []
+  },
+  {
+   "activo": "Plata",
+   "cambio": "+1,13 %",
+   "por_que": "==Pequeño rebote tras tocar mínimos de un año== el lunes (−4,6 %). El dólar no subió, lo que dio aire a los metales.",
+   "fuentes": []
+  },
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "+0,86 %",
+   "por_que": "Acompaña al petróleo por la tensión en el Golfo y la llegada del frío, que eleva la demanda de calefacción.",
+   "fuentes": []
+  },
+  {
+   "activo": "Sensex (India)",
+   "cambio": "+0,65 %",
+   "por_que": "==Poco peso en chips y semiconductores==: India se libra de la venta de la IA y actúa como refugio relativo dentro de los emergentes.",
+   "fuentes": [
+    {
+     "t": "AP – las bolsas asiáticas caen con la IA bajo presión",
+     "u": "https://www.wsls.com/business/2026/11/17/asian-shares-decline-following-stocks-tumbled-on-wall-street/"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "+0,62 % (93,0 $)",
+   "por_que": "==Los ataques a petroleros cerca de Ormuz== frenan la caída por el excedente de oferta; el repunte de las exportaciones del Golfo actúa de contrapeso, por eso el avance es pequeño. Ayudó a Repsol en el Ibex.",
+   "fuentes": [
+    {
+     "t": "Bloomberg vía Rigzone – el petróleo oscila con los ataques en el Golfo",
+     "u": "https://www.rigzone.com/news/wire/oil_prices_swing_as_gulf_attacks_continue-17-nov-2026-185107-article/"
+    },
+    {
+     "t": "OilPrice – el Brent, atascado cerca de 93 $",
+     "u": "https://oilprice.com/Energy/Energy-General/Brent-Stuck-Near-93-as-Hormuz-Tanker-Attacks-Offset-Gulf-Export-Surge.html"
+    }
+   ]
+  },
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "+0,31 %",
+   "por_que": "Bolsa de bancos y materias primas, sin exposición a los chips; el petróleo firme sostiene a Petrobras.",
+   "fuentes": []
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "VIX (miedo en el S&P 500)",
+   "cambio": "+11,1 % (25,5)",
+   "por_que": "Sube cuando el mercado compra protección: ==la incertidumbre ante Nvidia y la segunda jornada de ventas== dispararon la demanda de opciones de cobertura. Por encima de 25 indica tensión.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance – directo del martes 17",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+    }
+   ]
+  },
+  {
+   "activo": "Taiex (Taiwán) y Kospi (Corea)",
+   "cambio": "−2,31 % y −2,28 %",
+   "por_que": "Son las bolsas de los proveedores de chips: ==las restricciones de exportación y las dudas sobre la inversión en IA== las golpean primero. El Kospi perdió los 5.000 puntos.",
+   "fuentes": [
+    {
+     "t": "Anadolu – el Kospi en mínimos desde enero",
+     "u": "https://aa.com.tr/en/asia-pacific/asian-tech-stocks-extend-sell-off-as-south-korea-s-kospi-hits-lowest-level-since-january/4127432"
+    },
+    {
+     "t": "AP – las bolsas asiáticas caen con la IA bajo presión",
+     "u": "https://www.wsls.com/business/2026/11/17/asian-shares-decline-following-stocks-tumbled-on-wall-street/"
+    }
+   ]
+  },
+  {
+   "activo": "Euro Stoxx 50",
+   "cambio": "−2,15 %",
+   "por_que": "==Tecnológicas −3,9 % (ASML, SAP) y banca (Deutsche Bank −6 %)==. Europa, que había resistido el lunes, se sumó a la venta global de la IA; además, el índice pesa mucho en esos dos sectores.",
+   "fuentes": [
+    {
+     "t": "Reuters vía MarketScreener – peor día de Europa en ocho meses",
+     "u": "https://www.marketscreener.com/news/european-stocks-mark-worst-day-in-eight-months-on-ai-jitters-deutsche-bank-slides-ce785edcdd8df723"
+    },
+    {
+     "t": "Bloomberg – las bolsas europeas amplían la caída; Deutsche Bank se hunde",
+     "u": "https://www.bloomberg.com/news/articles/2026-11-17/european-stocks-fall-as-us-chip-curbs-ignite-fresh-ai-selloff"
+    }
+   ]
+  },
+  {
+   "activo": "DAX (Alemania)",
+   "cambio": "−2,08 %",
+   "por_que": "==SAP y Deutsche Bank son dos de sus grandes pesos==: entre ambos explican buena parte de la caída.",
+   "fuentes": [
+    {
+     "t": "Reuters vía MarketScreener – peor día de Europa en ocho meses",
+     "u": "https://www.marketscreener.com/news/european-stocks-mark-worst-day-in-eight-months-on-ai-jitters-deutsche-bank-slides-ce785edcdd8df723"
+    }
+   ]
+  },
+  {
+   "activo": "Dow Jones",
+   "cambio": "−1,64 %",
+   "por_que": "Cayó más que el Nasdaq porque ==incluye a Salesforce (−8 %), castigada por la venta de software== tras GPT-6.2, y a bancos e industriales sensibles al aviso de Musalem.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance – directo del martes 17",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+    },
+    {
+     "t": "Reuters vía MarketScreener – Wall Street cierra a la baja antes de Nvidia",
+     "u": "https://www.marketscreener.com/news/wall-street-ends-lower-ahead-of-nvidia-results-focus-turns-to-anthropic-debut-ce785edcdc81fe2d"
+    }
+   ]
+  },
+  {
+   "activo": "IBEX 35",
+   "cambio": "−1,61 % (19.625)",
+   "por_que": "==Indra −6,4 % por la investigación de Anticorrupción==; Santander −2 % y BBVA −1,7 % acompañan a la banca europea. Repsol subió con el crudo.",
+   "fuentes": [
+    {
+     "t": "EFE vía Infobae – el Ibex pierde un 1,61 %",
+     "u": "https://www.infobae.com/espana/agencias/2026/11/17/el-ibex-35-pierde-un-161-y-los-19700-puntos-lastrado-por-wall-street-y-la-tecnologia/"
+    },
+    {
+     "t": "El Boletín – Indra encabeza las caídas del Ibex",
+     "u": "https://www.elboletin.com/el-ibex-35-se-desploma-un-161-y-se-aleja-de-los-20-000-puntos-con-indra-a-la-cabeza-de-las-caidas/"
+    }
+   ]
+  },
+  {
+   "activo": "Russell 2000 (pequeñas EE. UU.)",
+   "cambio": "−1,50 %",
+   "por_que": "Las pequeñas empresas dependen más del crédito: ==un discurso de la Fed que apunta a más subidas== les pesa más que a las grandes.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance – directo del martes 17",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+    }
+   ]
+  },
+  {
+   "activo": "S&P 500",
+   "cambio": "−1,03 %",
+   "por_que": "Software, IA y bancos a la baja; solo el consumo básico aguantó, ==ya con su PER (precio entre beneficio) más alto desde 1999== por la rotación hacia valores defensivos.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance – directo del martes 17",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Venta de la inteligencia artificial (IA), ahora también en Europa",
+   "texto": "La norma de EE. UU. que exige licencia para vender chips avanzados a varios países (y cierra el acceso indirecto de China) sigue pesando. ==Europa, que el lunes resistió, cayó hoy con ASML (−5,3 %) y SAP (−5,6 %)==. En Asia, la tecnología del índice MSCI Asia-Pacífico cedió un 3,6 %. China ha protestado antes de una reunión entre Trump y Xi.",
+   "fuentes": [
+    {
+     "t": "Reuters vía MarketScreener – peor día de Europa en ocho meses",
+     "u": "https://www.marketscreener.com/news/european-stocks-mark-worst-day-in-eight-months-on-ai-jitters-deutsche-bank-slides-ce785edcdd8df723"
+    },
+    {
+     "t": "Anadolu – el Kospi en mínimos desde enero",
+     "u": "https://aa.com.tr/en/asia-pacific/asian-tech-stocks-extend-sell-off-as-south-korea-s-kospi-hits-lowest-level-since-january/4127432"
+    },
+    {
+     "t": "Pro Farmer – China, molesta por las nuevas restricciones de chips",
+     "u": "https://profarmer.com/news/first-thing-today/first-thing-today-china-angry-over-new-u-s-chip-curbs-ahead-trump-xi-meeting"
+    }
+   ]
+  },
+  {
+   "tema": "El software, en el punto de mira por GPT-6.2",
+   "texto": "OpenAI presentó nuevos modelos y ==el mercado vendió a las empresas de software (ETF IGV −3 %)== por miedo a que la IA haga innecesarios parte de sus programas. Salesforce −8 %, ServiceNow −6 %, Intuit −5 %. El contagio llegó a SAP en Europa.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance – directo del martes 17",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+    }
+   ]
+  },
+  {
+   "tema": "Anthropic: la mayor salida a bolsa absorbe liquidez",
+   "texto": "Anthropic debutará el jueves 19 (símbolo ANT). Los grandes fondos ==venden otras posiciones para hacer hueco== a la que puede ser la mayor colocación de la historia, lo que presiona a las tecnológicas ya cotizadas.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance – directo del martes 17",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+    },
+    {
+     "t": "Reuters vía MarketScreener – Wall Street cierra a la baja antes de Nvidia",
+     "u": "https://www.marketscreener.com/news/wall-street-ends-lower-ahead-of-nvidia-results-focus-turns-to-anthropic-debut-ce785edcdc81fe2d"
+    }
+   ]
+  },
+  {
+   "tema": "Reserva Federal (Fed): Musalem pide subir antes",
+   "texto": "El presidente de la Fed de San Luis ==ve entre 100 y 150 pb de subidas, hasta el 4,75–5 % en primavera==. Las ventas minoristas de octubre (+0,2 %; +0,5 % sin coches ni gasolina, y septiembre revisado al +0,8 %) no contradicen esa idea: el consumo aguanta.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance – directo del martes 17",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+    }
+   ]
+  },
+  {
+   "tema": "Nvidia bate tras el cierre",
+   "texto": "Primeros resultados sin Jensen Huang: ==ingresos de 115.840 M$ frente a 109.100 M$ esperados==, recompra de 150.000 M$ y guía al alza. Fuera de hora subían Nvidia, CoreWeave, Nebius, AMD y Broadcom: el rebote se verá en la sesión del miércoles.",
+   "fuentes": [
+    {
+     "t": "CNBC – valores que más se mueven tras el cierre (Nvidia)",
+     "u": "https://cnbc.com/2026/11/17/stocks-moving-the-most-today-live-updates.html"
+    },
+    {
+     "t": "Yahoo Finance – directo del martes 17",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "Pese a la caída de las bolsas, ==los bonos de EE. UU. apenas hicieron de refugio==: el 10 años bajó 2 pb (5,10 %), el 5 años 3,5 pb (4,90 %) y el 30 años 1 pb (5,46 %). El 2 años rondó el 4,81 % (≈ −2 pb) según la prensa; FRED aún no tiene el dato de hoy. La razón: ==dos fuerzas se anularon==. Por un lado, la huida de la bolsa empuja a comprar bonos (bajan los tipos). Por otro, ==Musalem pidió subir tipos antes y en mayor cuantía==, y las ventas minoristas mostraron un consumo sólido: eso mantiene casi segura (≈ 95 %) la subida de la Fed en diciembre. Con el petróleo estable, la inflación esperada no cambió.\n\nEn la zona euro, el último dato del Banco Central Europeo (BCE) es del lunes: ==AAA a 2 años +3,7 pb (3,11 %) y 10 años +1 pb (3,42 %)==. Para hoy, la prensa sitúa el ==Bund alemán a 10 años cerca de 3,38 %, en máximos de casi un mes==, y el 2 años alemán en el 3,13 %. Los bonos europeos siguen la estela de los de EE. UU., y el mercado ==descuenta tres subidas del BCE hasta finales de 2027== (del 2,5 % actual a ≈ 3,2 %). Hoy hubo además subasta de deuda alemana a 2 años. El diferencial de Francia ronda 154 pb, sin tensión nueva.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "≈ −2 pb (≈ 4,81 %, prensa)",
+    "por_que": "Leve bajada por refugio, ==frenada por el tono duro de Musalem==. FRED aún no publica el martes (el lunes: 4,83 %, −5 pb).",
+    "fuentes": [
+     {
+      "t": "RichTV – los bonos del Tesoro, casi planos antes de las ventas minoristas",
+      "u": "https://richtv.io/news/us-treasury-yields-hold-near-unchanged-as-investors-await-retail-sales-data"
+     },
+     {
+      "t": "Yahoo Finance – directo del martes 17",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−2 pb (5,10 %)",
+    "por_que": "La compra de refugio por la caída de la bolsa ==se compensó con la expectativa de más subidas de la Fed== y un consumo que aguanta.",
+    "fuentes": [
+     {
+      "t": "Yahoo Finance – directo del martes 17",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "−1 pb (5,46 %)",
+    "por_que": "Casi quieto: la prima por plazo (lo que se exige por prestar a largo) sigue alta por el déficit y la inflación.",
+    "fuentes": []
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "+1 pb (3,42 %, dato del lunes); Bund ≈ 3,38 % hoy (prensa)",
+    "por_que": "==Arrastre de los bonos de EE. UU.== y apuestas por subidas del BCE; los datos europeos no cambiaron.",
+    "fuentes": [
+     {
+      "t": "BigGo Finance – bonos de la zona euro planos antes de Nvidia y Anthropic",
+      "u": "https://finance.biggo.com/news/79aed0c4-6978-4c7f-a126-27af27a460a5"
+     },
+     {
+      "t": "Global Banking & Finance – el mercado apuesta por tres subidas del BCE hasta 2027",
+      "u": "https://www.globalbankingandfinance.com/euro-zone-yields-rise-traders-bet-three-ecb-hikes-late-2027/"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "+3,7 pb (3,11 %, dato del lunes)",
+    "por_que": "El tramo corto refleja el precio del BCE: ==el mercado espera tres subidas hasta 2027==.",
+    "fuentes": [
+     {
+      "t": "Global Banking & Finance – el mercado apuesta por tres subidas del BCE hasta 2027",
+      "u": "https://www.globalbankingandfinance.com/euro-zone-yields-rise-traders-bet-three-ecb-hikes-late-2027/"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Francia–Alemania",
+    "cambio": "≈ 154 pb (prensa)",
+    "por_que": "Estable: sin novedades políticas en Francia. Italia y España tampoco mostraron tensión.",
+    "fuentes": [
+     {
+      "t": "BigGo Finance – bonos de la zona euro planos antes de Nvidia y Anthropic",
+      "u": "https://finance.biggo.com/news/79aed0c4-6978-4c7f-a126-27af27a460a5"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "RichTV – los bonos del Tesoro, casi planos antes de las ventas minoristas",
+    "u": "https://richtv.io/news/us-treasury-yields-hold-near-unchanged-as-investors-await-retail-sales-data"
+   },
+   {
+    "t": "BigGo Finance – bonos de la zona euro planos antes de Nvidia y Anthropic",
+    "u": "https://finance.biggo.com/news/79aed0c4-6978-4c7f-a126-27af27a460a5"
+   },
+   {
+    "t": "Global Banking & Finance – el mercado apuesta por tres subidas del BCE hasta 2027",
+    "u": "https://www.globalbankingandfinance.com/euro-zone-yields-rise-traders-bet-three-ecb-hikes-late-2027/"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "",
+  "suben": [],
+  "bajan": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-18",
+   "evento": "Reacción a los resultados de Nvidia y actas de la Fed de octubre",
+   "por_que_importa": "==El rebote fuera de hora debería notarse en los fondos tecnológicos y de Taiwán/Corea==; las actas dirán cuántos miembros quieren seguir subiendo tras diciembre."
+  },
+  {
+   "fecha": "2026-11-19",
+   "evento": "Salida a bolsa de Anthropic (símbolo ANT)",
+   "por_que_importa": "Termómetro del apetito por la IA; puede seguir drenando dinero de otras tecnológicas hasta el debut."
+  },
+  {
+   "fecha": "2026-11-19",
+   "evento": "Reunión Trump–Xi (fecha exacta por confirmar)",
+   "por_que_importa": "China protesta por la norma de chips: un acuerdo o un choque moverían Asia y los semiconductores."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "El mercado da por hecha una subida de 0,25 puntos; Musalem abre la puerta a más en 2027."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad del S&P 500: mide cuánto pagan los inversores por protegerse; sube con el miedo."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: 0,01 puntos porcentuales (100 pb = 1 punto)."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se mantiene hasta el vencimiento."
+  },
+  {
+   "sigla": "PER",
+   "def": "Price to Earnings Ratio (precio entre beneficio): cuántos años de beneficios paga el mercado por una acción."
+  },
+  {
+   "sigla": "ETF",
+   "def": "Exchange-Traded Fund: fondo cotizado que se compra y vende en bolsa como una acción."
+  },
+  {
+   "sigla": "IGV",
+   "def": "ETF de iShares que agrupa a las empresas de software de EE. UU."
+  },
+  {
+   "sigla": "MSCI",
+   "def": "Morgan Stanley Capital International, proveedor de índices bursátiles mundiales."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "FRED",
+   "def": "Federal Reserve Economic Data: base de datos de la Fed de San Luis; publica con un día de retraso."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia; la curva AAA del BCE agrupa a los países más solventes (≈ Alemania)."
+  },
+  {
+   "sigla": "Prima por plazo",
+   "def": "Rentabilidad extra que se exige por prestar a largo plazo en lugar de renovar préstamos cortos."
+  }
+ ],
+ "generado": "2026-11-17T23:25"
+}
