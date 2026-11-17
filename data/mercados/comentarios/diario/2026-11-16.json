@@ -1,16 +1,16 @@
 {
  "periodo": "diario",
  "clave": "2026-11-16",
- "fase": "mercado",
+ "fase": "completo",
  "titulo": "Washington cierra el grifo de chips a China: Taiwán −6 % y Nasdaq 100 −2,67 %",
- "resumen": "Lunes de castigo para todo lo ligado a la inteligencia artificial (IA). La víspera de los resultados de Nvidia, el Departamento de Comercio de EE. UU. publicó una norma que ==exige licencia para vender chips avanzados de IA a Singapur, Malasia, Tailandia, Indonesia y Brasil== y prohíbe enviarlos a centros de datos que alquilen esa potencia a empresas chinas. El mecanismo: ==cierra la vía por la que China usaba los chips sin comprarlos==, y con ella una parte de las ventas futuras de Nvidia, AMD o Broadcom. Resultado: ==Nasdaq 100 −2,67 %==, S&P 500 −1,92 %, Dow Jones −1,41 % y Russell 2000 −1,70 %. AMD cedió alrededor de un 5 % y Broadcom un 4 %; Benzinga estima ==unos 960.000 millones de dólares de valor perdido== en las grandes tecnológicas. El VIX saltó un 18,7 %, hasta 22,9.\n\nAsia ya había abierto la semana en rojo, ==contagiada por la caída de los chips del viernes== y por la incertidumbre de Nvidia tras la salida de Jensen Huang. ==Taiwán se desplomó un 6,03 %== (allí cotizan los fabricantes que suministran a Nvidia), Corea un 4,02 % (SK Hynix cerca de −8 %) y Japón un 2,31 %. El ETF (fondo cotizado) de emergentes cayó un 3,33 % porque Taiwán y Corea pesan mucho en él. Hong Kong (+0,84 %) e India (+0,42 %), con poca tecnología de chips, subieron sin noticia concreta.\n\nEn la sesión americana habló el presidente de la Reserva Federal (Fed), Kevin Warsh: ==avisó de que la IA podría «decepcionar» y arrastrar a la bolsa==, uno de sus tres escenarios. No fue una previsión, pero llegó en mal momento. Los bonos hicieron esta vez de refugio: ==el 10 años de EE. UU. bajó 3 pb, al 5,12 %==, tras su peor semana desde abril de 2025. Aun así, la apuesta por una subida de tipos en diciembre (≈ 95 %) y el dólar fuerte hundieron ==oro (−0,70 %, 3.859 $) y plata (−4,15 %) a mínimos de un año==.\n\nEuropa, con poco peso de chips, cayó mucho menos: ==Stoxx 600 −0,28 %, Ibex −0,37 % (19.947 puntos)== y Suiza al alza (+0,57 %) por sus valores defensivos. En el Ibex, Solaria (−5,4 %) y las eléctricas sufrieron por las dudas sobre la financiación de centros de datos. Y el petróleo bajó con fuerza: ==Brent −4,19 % (91,8 $)== porque las exportaciones de Oriente Medio se recuperan y refuerzan el excedente que prevé la Agencia Internacional de la Energía (AIE).",
+ "resumen": "Lunes de castigo para todo lo ligado a la inteligencia artificial (IA). La víspera de los resultados de Nvidia, el Departamento de Comercio de EE. UU. publicó una norma que ==exige licencia para vender chips avanzados de IA a Singapur, Malasia, Tailandia, Indonesia y Brasil== y prohíbe enviarlos a centros de datos que alquilen esa potencia a empresas chinas. El mecanismo: ==cierra la vía por la que China usaba los chips sin comprarlos==, y con ella una parte de las ventas futuras de Nvidia, AMD o Broadcom. Resultado: ==Nasdaq 100 −2,67 %==, S&P 500 −1,92 %, Dow Jones −1,41 % y Russell 2000 −1,70 %. AMD cedió alrededor de un 5 % y Broadcom un 4 %; Benzinga estima ==unos 960.000 millones de dólares de valor perdido== en las grandes tecnológicas. El VIX saltó un 18,7 %, hasta 22,9.\n\nAsia ya había abierto la semana en rojo, ==contagiada por la caída de los chips del viernes== y por la incertidumbre de Nvidia tras la salida de Jensen Huang. ==Taiwán se desplomó un 6,03 %== (allí cotizan los fabricantes que suministran a Nvidia), Corea un 3,59 % (SK Hynix cerca de −8 %) y Japón un 2,42 %. El ETF (fondo cotizado) de emergentes cayó un 3,33 % porque Taiwán y Corea pesan mucho en él. Hong Kong (+0,49 %) e India (+0,63 %), con poca tecnología de chips, subieron sin noticia concreta.\n\nEn la sesión americana habló el presidente de la Reserva Federal (Fed), Kevin Warsh: ==avisó de que la IA podría «decepcionar» y arrastrar a la bolsa==, uno de sus tres escenarios. No fue una previsión, pero llegó en mal momento. Los bonos hicieron esta vez de refugio: ==el 10 años de EE. UU. bajó 3 pb, al 5,12 %==, tras su peor semana desde abril de 2025. Aun así, la apuesta por una subida de tipos en diciembre (≈ 95 %) y el dólar fuerte hundieron ==oro (−0,86 %, 3.853 $) y plata (−4,58 %) a mínimos de un año==.\n\nEuropa, con poco peso de chips, cayó mucho menos: ==Stoxx 600 −0,28 %, Ibex −0,37 % (19.947 puntos)== y Suiza al alza (+0,57 %) por sus valores defensivos. En el Ibex, Solaria (−5,4 %) y las eléctricas sufrieron por las dudas sobre la financiación de centros de datos. Y el petróleo bajó con fuerza: ==Brent −3,55 % (92,4 $)== porque las exportaciones de Oriente Medio se recuperan y refuerzan el excedente que prevé la Agencia Internacional de la Energía (AIE).",
  "claves": [
   "==Norma de EE. UU. contra el acceso de China a chips de IA==: licencias para cinco países y veto a centros de datos que les alquilen potencia.",
   "Tecnología a la baja: ==Nasdaq 100 −2,67 %==, S&P 500 −1,92 %; AMD ≈ −5 %, Broadcom ≈ −4 %; VIX +18,7 % (22,9).",
-  "==Asia se hunde en los chips==: Taiwán −6,03 %, Corea −4,02 %, Japón −2,31 %; emergentes −3,33 %.",
+  "==Asia se hunde en los chips==: Taiwán −6,03 %, Corea −3,59 %, Japón −2,42 %; emergentes −3,33 %.",
   "Warsh (Fed) avisa de que ==la IA podría decepcionar y tumbar la bolsa==; el bono a 10 años baja al 5,12 % (−3 pb).",
   "==Oro y plata, en mínimos de un año== por la subida de la Fed que se da por hecha y el dólar fuerte.",
-  "Brent −4,19 % (91,8 $) por el excedente; Europa aguanta (Stoxx 600 −0,28 %, Ibex −0,37 %)."
+  "Brent −3,55 % (92,4 $) por el excedente; Europa aguanta (Stoxx 600 −0,28 %, Ibex −0,37 %)."
  ],
  "suben": [
   {
@@ -26,7 +26,7 @@
   },
   {
    "activo": "Hang Seng (Hong Kong)",
-   "cambio": "+0,84 %",
+   "cambio": "+0,49 %",
    "por_que": "Rebote tras caer un 1,39 % el viernes. ==Pesa poco la cadena de suministro de Nvidia==, así que el golpe de los chips le afectó menos. Sin noticia concreta.",
    "fuentes": [
     {
@@ -37,7 +37,7 @@
   },
   {
    "activo": "Sensex (India)",
-   "cambio": "+0,42 %",
+   "cambio": "+0,63 %",
    "por_que": "Mercado con poca tecnología de chips; ==se beneficia del petróleo más barato==, porque India importa casi todo su crudo.",
    "fuentes": [
     {
@@ -47,12 +47,6 @@
    ]
   },
   {
-   "activo": "Trigo",
-   "cambio": "+1,43 %",
-   "por_que": "Sin noticia concreta encontrada; movimiento técnico, ajeno a la venta tecnológica.",
-   "fuentes": []
-  },
-  {
    "activo": "Bitcoin",
    "cambio": "+0,04 %",
    "por_que": "Estable tras perder un 11,7 % en cinco días. ==Las subidas de tipos esperadas le siguen pesando==, pero hoy no se sumó a la caída.",
@@ -60,7 +54,7 @@
   },
   {
    "activo": "Índice dólar (DXY)",
-   "cambio": "+0,17 %",
+   "cambio": "+0,14 %",
    "por_que": "==El mercado apuesta por un ciclo de subidas de la Fed más largo==, y eso hace más rentable tener dólares; ronda su nivel más fuerte desde abril de 2025.",
    "fuentes": [
     {
@@ -88,7 +82,7 @@
   },
   {
    "activo": "Kospi (Corea)",
-   "cambio": "−4,02 %",
+   "cambio": "−3,59 %",
    "por_que": "Memorias a la baja: ==SK Hynix ≈ −8 % y Samsung ≈ −4,5 %==, muy expuestas a la demanda de servidores de IA.",
    "fuentes": [
     {
@@ -133,7 +127,7 @@
   },
   {
    "activo": "Petróleo Brent",
-   "cambio": "−4,19 % (91,8 $)",
+   "cambio": "−3,55 % (92,4 $)",
    "por_que": "==Las exportaciones de Oriente Medio se recuperan==, lo que refuerza el excedente previsto para este trimestre. Los incidentes con minas en Ormuz no bastaron para sostenerlo.",
    "fuentes": [
     {
@@ -148,7 +142,7 @@
   },
   {
    "activo": "Gas natural europeo (TTF)",
-   "cambio": "−6,14 % (84,0 €/MWh)",
+   "cambio": "−6,82 % (84,7 €/MWh)",
    "por_que": "Sigue al petróleo: ==menos tensión de oferta en Oriente Medio==. Sin noticia propia del gas encontrada.",
    "fuentes": [
     {
@@ -159,7 +153,7 @@
   },
   {
    "activo": "Plata",
-   "cambio": "−4,15 %",
+   "cambio": "−4,58 %",
    "por_que": "==Tipos más altos y dólar fuerte hacen menos atractivo un activo sin rentabilidad==; en mínimos de un año (−10,6 % en cinco días).",
    "fuentes": [
     {
@@ -251,7 +245,7 @@
   }
  ],
  "tipos": {
-  "texto": "==Esta vez los bonos de EE. UU. sí hicieron de refugio==. Con el Nasdaq 100 cayendo más de un 2,5 %, parte del dinero pasó de bolsa a deuda: el 10 años bajó 3 pb (5,12 %), el 5 años 5 pb (4,94 %) y el 30 años apenas 1 pb (5,47 %). El 2 años bajó unos 4 pb (≈ 4,83 %) según la prensa; FRED aún no tiene el dato de hoy. Ayudaron dos cosas más: ==el aviso de Warsh de que la IA puede decepcionar== (menos crecimiento esperado) y ==el petróleo un 4 % más barato==, que rebaja la inflación esperada. Pero la bajada es pequeña frente a los +26 pb de la semana pasada: ==la subida de la Fed en diciembre sigue descontada al ≈ 95 %== tras un IPP del 6,5 %.\n\nEn la zona euro, el último dato del Banco Central Europeo (BCE) es del viernes: AAA a 10 años en el 3,41 % (+4,5 pb) y 2 años en el 3,07 % (plano). Para hoy, la prensa da el ==Bund alemán a 10 años casi plano, en torno al 3,37 %==. Los inversores esperan los resultados de Nvidia y las señales de la Fed. Al fondo, el mercado ==descuenta varias subidas del BCE hasta finales de 2027== por la inflación. No constan tensiones en Francia, Italia ni España: la bolsa europea apenas se movió.",
+  "texto": "==Esta vez los bonos de EE. UU. sí hicieron de refugio==. Con el Nasdaq 100 cayendo más de un 2,5 %, parte del dinero pasó de bolsa a deuda: el 10 años bajó 3 pb (5,12 %), el 5 años 5 pb (4,94 %) y el 30 años apenas 1 pb (5,47 %). El 2 años bajó unos 4 pb (≈ 4,83 %) según la prensa; FRED aún no tiene el dato de hoy. Ayudaron dos cosas más: ==el aviso de Warsh de que la IA puede decepcionar== (menos crecimiento esperado) y ==el petróleo un 3,5 % más barato==, que rebaja la inflación esperada. Pero la bajada es pequeña frente a los +26 pb de la semana pasada: ==la subida de la Fed en diciembre sigue descontada al ≈ 95 %== tras un IPP del 6,5 %.\n\nEn la zona euro, el último dato del Banco Central Europeo (BCE) es del viernes: AAA a 10 años en el 3,41 % (+4,5 pb) y 2 años en el 3,07 % (plano). Para hoy, la prensa da el ==Bund alemán a 10 años casi plano, en torno al 3,37 %==. Los inversores esperan los resultados de Nvidia y las señales de la Fed. Al fondo, el mercado ==descuenta varias subidas del BCE hasta finales de 2027== por la inflación. No constan tensiones en Francia, Italia ni España: la bolsa europea apenas se movió.",
   "puntos": [
    {
     "bono": "EE. UU. 2 años",
@@ -337,9 +331,75 @@
   ]
  },
  "fondos": {
-  "texto": "",
-  "suben": [],
-  "bajan": []
+  "texto": "Muestra aún parcial: ==1.418 fondos con el valor liquidativo (VL) del lunes== (474 de Bankinter, 944 de IronIA; a ABANCA no ha llegado ninguno). Las medianas confirman un día de castigo concentrado: ==renta variable −0,54 %==, mixtos −0,35 %, renta fija −0,04 %, alternativos −0,04 % y monetarios +0,02 %. Los monetarios en dólares suben ≈ 0,4 % solo por divisa: ==el euro cedió un 0,34 % frente al dólar== (1,1014), así que cualquier fondo en dólares gana unas décimas al pasarlo a euros.\n\nAbajo manda ==la geografía de los chips==. Los peores son fondos de Taiwán (−7 %), Corea (−4 %) y Asia emergente cargados de TSMC, Samsung y SK Hynix, que ==recogen entero el −6,03 % del Taiex y el −3,59 % del Kospi==. Les siguen los temáticos de inteligencia artificial (IA) y tecnología disruptiva: muchos valoran a mediodía europeo, así que ==su VL del lunes incluye la caída de AMD y Broadcom del viernes== más la parte asiática del lunes; parte del desplome de Nueva York del lunes llegará en el VL de hoy. En renta fija caen los convertibles (−0,7 a −1 %), que se comportan como acciones tecnológicas.\n\nArriba, la otra cara de la moneda: ==rotación hacia lo defensivo y lo que se beneficia del petróleo barato==. Suben fondos de salud (JPM Global Healthcare +1,30 %), de valor con farmacéuticas, consumo básico y refinerías (DWS CROCI +1,49 %), de dividendo y de baja volatilidad, y ==India (+0,63 % el Sensex), gran importador de crudo==. También algo de China y Hong Kong (Hang Seng +0,49 %), con poco peso en chips avanzados. En renta fija ganan los fondos con bonos de EE. UU. y duración, ==ayudados por la bajada de 3 pb del 10 años y el dólar más fuerte==.",
+  "suben": [
+   {
+    "isin": "LU1278917452",
+    "por_que": "Cartera equiponderada de tres sectores (≈ 33 % cada uno): ==refino y petróleo, salud y consumo básico==. Las refinerías (Valero, Marathon, Phillips 66) ==ganan margen cuando el crudo baja== (Brent −3,55 %) y farmacéuticas y alimentación hacen de refugio. Cero tecnología: el perfil exacto que premió el día. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0880062913",
+    "por_que": "Salud global (Eli Lilly 9 %, Johnson & Johnson 9 %, AbbVie 8 %). ==Rotación desde la tecnología hacia sectores defensivos==, cuyos beneficios no dependen del ciclo ni de los chips. Sin noticia concreta del sector encontrada. Fondo en euros: no hay efecto divisa. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU1769942407",
+    "por_que": "Acciones de valor de EE. UU. elegidas por rentabilidad sobre el capital (CROCI), sin el peso de las grandes tecnológicas. Su VL recoge sobre todo el viernes y la mañana del lunes; ==el sesgo valor frente a crecimiento le protegió== en plena venta de chips. Disponible en IronIA."
+   },
+   {
+    "isin": "LU0522352516",
+    "por_que": "India (ICICI Bank 9 %, HDFC Bank 7 %, Kotak, Bajaj Finance): ==banca y consumo, casi sin chips==. El Sensex subió un 0,63 % porque ==India importa casi todo su crudo y el Brent abarató un 3,55 %==, y siguen las entradas de inversores extranjeros (≈ 6.400 M$ en noviembre, según Moneylife). Disponible en Bankinter."
+   },
+   {
+    "isin": "LU2038982661",
+    "por_que": "Acciones A de China continental: +0,81 % en dólares y +1,16 % en euros (==0,35 puntos son efecto divisa==). ==No cuadra con el Shanghái Composite (−0,87 %)==: puede ser selección de valores fuera de la tecnología o un desfase en el VL; sin explicación confirmada. Disponible en IronIA."
+   },
+   {
+    "isin": "IE00BK8V7R07",
+    "por_que": "India concentrada: +0,77 % en dólares, ==+1,12 % en euros por la caída del euro==. Mismo motor que el resto de fondos indios: ==petróleo más barato y flujos extranjeros==, y casi nada de chips. Disponible en IronIA."
+   },
+   {
+    "isin": "LU0954270491",
+    "por_que": "Bolsa china (Hong Kong y continental): +0,72 % en dólares y +1,07 % en euros. ==Acompaña al Hang Seng (+0,49 %)==, que rebotó tras el −1,39 % del viernes porque ==pesa poco en la cadena de suministro de Nvidia==. Disponible en IronIA."
+   },
+   {
+    "isin": "LU0248166992",
+    "por_que": "Dividendo global con sesgo valor: Bristol-Myers, Pfizer, Henkel, Reckitt, Sanofi, Diageo. ==Farmacia y consumo básico (≈ 32 %) y apenas un 7 % de tecnología==: justo lo que se compró al huir de los chips. Disponible en Bankinter."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU0401357313",
+    "por_que": "Taiwán (MediaTek 9 %, TSMC 9 %, ASE, UMC, Aspeed): ==≈ 75 % en tecnología, más que el índice==, por eso cae un 6,98 % frente al −6,03 % del Taiex. Recoge la caída de los chips del viernes y la ==nueva norma de EE. UU. que limita el acceso de China a chips de IA==. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0270816068",
+    "por_que": "Taiwán (TSMC 10 %, ASE, MediaTek, Hon Hai): −7,18 % en dólares y −6,86 % en euros (==el euro débil amortigua 0,3 puntos==). Aquí la caída es real; el viernes subió un 4,45 % al deshacer un ajuste de valoración del jueves. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU2484078832",
+    "por_que": "Inteligencia artificial (Nvidia 9 %, TSMC 9 %, SK Hynix 5 %, Micron, Broadcom, Marvell, AMD). ==Junta dos golpes en un VL==: la caída de AMD (≈ −9 %) y Broadcom del viernes en Nueva York, que no había recogido, y el hundimiento asiático del lunes. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU1381420600",
+    "por_que": "Pese a su nombre (consumo asiático), ==su cartera actual es casi toda chips==: Samsung 11 %, TSMC 10 %, SK Hynix 7 %, ≈ 79 % tecnología en Corea y Taiwán. Clase cubierta a euros. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0336299580",
+    "por_que": "Líderes sectoriales de Asia, pero ==mismo esqueleto que el anterior==: Samsung, TSMC, SK Hynix y equipos de semiconductores chinos (AMEC, NAURA). Corea y Taiwán ≈ 70 %: ==de lleno en la venta de memorias y chips==. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU1861216510",
+    "por_que": "Tecnología de nueva generación (Lumentum, Nvidia, Micron, SanDisk, Ibiden, AMD): ==≈ 89 % tecnología y un 18 % en Asia==. Valores de alto crecimiento, los más castigados cuando se duda de la demanda de la IA. Clase cubierta a euros. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU1590492135",
+    "por_que": "Consumo «de tendencias» con mucha tecnología: Tesla 10 %, Amazon 9 % y ==Nebius 8 %, un centro de datos de IA de los que más cayeron== tras la norma de Comercio. Clase cubierta a euros, sin alivio por divisa. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0301637293",
+    "por_que": "Corea (SK Hynix 10 %, SK Square 9 %, Samsung 9 %): ==casi un 30 % en el grupo SK, ligado a SK Hynix (≈ −8 %)==; por eso cae un 4,05 %, más que el Kospi (−3,59 %). Disponible en Bankinter."
+   }
+  ]
  },
  "agenda": [
   {
@@ -416,7 +476,15 @@
   {
    "sigla": "Prima por plazo",
    "def": "Rentabilidad extra que se exige por prestar a largo plazo en vez de renovar préstamos cortos."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio de una participación del fondo, calculado una vez al día."
+  },
+  {
+   "sigla": "CROCI",
+   "def": "Cash Return on Capital Invested (rentabilidad del flujo de caja sobre el capital invertido): métrica de DWS para elegir acciones baratas y rentables."
   }
  ],
- "generado": "2026-11-16T23:10"
+ "generado": "2026-11-17T09:55"
 }
