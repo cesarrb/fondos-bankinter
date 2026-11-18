@@ -1,7 +1,7 @@
 {
  "periodo": "diario",
  "clave": "2026-11-17",
- "fase": "mercado",
+ "fase": "completo",
  "titulo": "Europa sufre su peor día en ocho meses antes de Nvidia: Euro Stoxx 50 −2,15 %",
  "resumen": "Segundo día seguido de ventas ligadas a la inteligencia artificial (IA), y esta vez ==Europa se llevó la peor parte==. La nueva norma de EE. UU. que limita los chips avanzados para China pesó sobre los tecnológicos europeos, ==que cayeron un 3,9 %, su peor día desde febrero==. ASML perdió un 5,3 % (sus máquinas fabrican esos chips) y SAP un 5,6 %, castigada por la venta global de software y la salida de un directivo. Además, ==Deutsche Bank se hundió un 6 %== por informaciones basadas en archivos filtrados del banco. Resultado: ==Euro Stoxx 50 −2,15 %, DAX −2,08 %, Stoxx 600 −1,75 %==, su mayor caída desde el 20 de marzo. El Ibex cedió un 1,61 % (19.625 puntos), con ==Indra −6,4 % por una investigación de Anticorrupción== sobre contratos de Defensa; solo Repsol, Solaria, Acciona Energía y Merlin subieron.\n\nAsia ya había abierto en rojo: ==Taiwán −2,3 % y Corea −2,3 %==, con el Kospi por debajo de 5.000 puntos por primera vez desde febrero. Pesan las restricciones a la exportación y las dudas sobre la inversión en IA. India (+0,65 %) y Brasil (+0,31 %), con poca tecnología de chips, subieron.\n\nEn Wall Street el golpe fue más amplio que tecnológico: ==Dow Jones −1,64 % (−849 puntos)==, S&P 500 −1,03 % y Nasdaq 100 −0,72 %. Dos causas. Primera: ==OpenAI lanzó nuevos modelos (GPT-6.2) y hundió al software== (Salesforce −8 %, ServiceNow −6 %), por el miedo a que la IA sustituya sus programas. Segunda: ==la salida a bolsa de Anthropic, el jueves, retira dinero de otras posiciones== para hacer hueco a la que puede ser la mayor colocación de la historia. A eso se suma un miembro de la Reserva Federal (Fed), Alberto Musalem, que ==pidió subir tipos «antes»== y ve hasta 1–1,5 puntos de subidas. El VIX saltó un 11 %, hasta 25,5.\n\nTras el cierre llegó el alivio: ==Nvidia batió previsiones (115.840 millones de dólares de ingresos frente a 109.100 esperados)==, anunció recompras por 150.000 millones y dio una guía por encima de lo esperado. Sus acciones y las de chips subían fuera de hora; ese rebote no está en las cifras de hoy y se verá mañana. Las materias primas fueron a contracorriente: ==trigo +4 %== tras varias sesiones de caídas, Brent +0,6 % (93 $) por los ataques a petroleros en el Golfo, y oro plano.",
  "claves": [
@@ -338,9 +338,95 @@
   ]
  },
  "fondos": {
-  "texto": "",
-  "suben": [],
-  "bajan": []
+  "texto": "Los fondos reflejan el mismo mapa que las bolsas: ==la renta variable cayó de mediana un 1,12 %==, los mixtos un 0,60 % y la renta fija apenas se movió (−0,06 %), porque los bonos no hicieron de refugio. Los monetarios, planos (+0,01 %). Ojo: es una muestra parcial (1.421 fondos con valor liquidativo ya publicado, frente a ~3.000 otros días); el resto entrará en los próximos días.\n\nArriba, ==solo India==: los ocho primeros (y casi todo el top 20) son fondos de bolsa india, que subieron entre un 1 % y un 1,4 %. Es el reverso del día: ==India apenas tiene fabricantes de chips ni software expuesto a la IA==, así que el dinero que sale de Taiwán, Corea y las tecnológicas busca refugio allí; el Sensex encadenaba subidas. Abajo, tres grupos: ==fondos de semiconductores e IA== (Blue Whale −4,2 %, Allianz IA −3,8 %, Fidelity Tecnología −3,1 %, JPM Taiwán −3 %), ==fondos de minería y metales preciosos== (−2,8 % a −3,6 %) y biotecnología (Janus Henderson −3 %), castigada con el resto del crecimiento caro. Los fondos en dólares ganaron un extra: ==el euro bajó un 0,23 % (1,0989 $)==, lo que suma esa cifra al resultado en euros.",
+  "suben": [
+   {
+    "isin": "IE00B3SHDY84",
+    "por_que": "Bolsa india (+1,43 %). ==India se beneficia de la rotación fuera de los chips==: sin peso en semiconductores, recibe el dinero que sale de Taiwán y Corea. Clase en euros, sin efecto divisa añadido.",
+    "fuentes": [
+     {
+      "t": "HDFC Sky (16-11-2026)",
+      "u": "https://hdfcsky.com/news/market-close-report-today-november-16-2026-nifty-sensex-shine-as-global-ai-jitters-redirect-trade-towards-india"
+     }
+    ]
+   },
+   {
+    "isin": "IE00BYXW3H84",
+    "por_que": "Gestión de calidad en India y subcontinente (+1,39 %): banca y consumo doméstico, ==ajenos a la norma de EE. UU. sobre chips==."
+   },
+   {
+    "isin": "LU1642786039",
+    "por_que": "+1,22 %. Cartera muy cíclica y doméstica: ==ICICI Bank (7,5 %), Bharti Airtel (5,7 %)==, fabricantes de componentes de automoción (Sansera, Craftsman). Solo un 2 % en tecnología. Disponible en Bankinter y ABANCA."
+   },
+   {
+    "isin": "LU0266116010",
+    "por_que": "+1,19 % en euros, pero +0,96 % en dólares: ==0,23 puntos son efecto divisa== por la caída del euro frente al dólar."
+   },
+   {
+    "isin": "LU0522352516",
+    "por_que": "+1,14 %. ==Banca y financieras son el 41 % de la cartera== (ICICI, HDFC, Kotak, Bajaj Finance): el sector que lideró la subida en India."
+   },
+   {
+    "isin": "LU0552029232",
+    "por_que": "+1,08 %. Gestionado con SBI (el mayor banco público indio); misma lectura: ==India como refugio dentro de los emergentes== en un día de venta de la IA."
+   },
+   {
+    "isin": "LU0329070915",
+    "por_que": "+1,04 %. Cartera más de valor y pequeñas compañías (Godfrey Phillips, State Bank of India, Bharat Petroleum); ==las petroleras estatales no sufren con el Brent a 93 $== porque el precio interior está regulado."
+   },
+   {
+    "isin": "LU0231490524",
+    "por_que": "+1,03 % en euros (+0,80 % en dólares): ==el efecto divisa explica 0,23 puntos==. Cartera clásica de India: ICICI (9,7 %), Bharti Airtel, HDFC."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "IE00BJM0B969",
+    "por_que": "−4,18 %, el peor del día. ==Es casi un fondo de semiconductores==: Lam Research (10,1 %), Applied Materials (9,5 %), SK hynix (8,8 %), Nvidia, SanDisk, BESI; un 63 % en tecnología. ==La norma de EE. UU. sobre chips para China golpea a los fabricantes de equipos== (Lam, Applied, BESI venden mucho allí) y Corea cayó un 2,3 %. El rebote de Nvidia tras el cierre no está en este valor liquidativo."
+   },
+   {
+    "isin": "LU1548497772",
+    "por_que": "−3,84 %. Fondo temático de IA: Nvidia (7,5 %), TSMC (5,3 %), Broadcom, Microsoft, Lam, Micron. ==Recibe los dos golpes del día==: restricciones a chips y venta del software tras GPT-6.2. Clase cubierta a euros (H2), sin efecto divisa."
+   },
+   {
+    "isin": "LU1923361049",
+    "por_que": "−3,6 %. Mineras de metales básicos y preciosos. ==Sin noticia concreta en el sector==: pesó la aversión al riesgo en Europa y Asia, el cobre a la baja (−0,4 %; −6 % desde el día 4) y un oro que acumula −6 % desde el 9 de noviembre. Las mineras amplifican esos movimientos porque sus márgenes dependen del precio."
+   },
+   {
+    "isin": "LU0604766674",
+    "por_que": "−3,53 %. Glencore (6,9 %), BHP (5,8 %), Newmont, Barrick, Rio Tinto, Anglo American: ==95 % en materiales==. Misma lectura: cobre débil y venta general de cíclicos en Europa (Stoxx 600 −1,75 %). El dato del día parece exagerado frente al cobre; puede recoger cierres de Londres y Australia más castigados."
+   },
+   {
+    "isin": "LU0336300933",
+    "por_que": "−3,2 %. Emergentes de Asia con ==peso alto en Corea y Taiwán==, las dos bolsas que más cayeron (−2,3 %) por las restricciones a los chips; el Kospi perdió los 5.000 puntos."
+   },
+   {
+    "isin": "LU1128910137",
+    "por_que": "−3,19 % con el oro casi plano en el día. Las mineras de oro ==siguen corrigiendo el −6 % del oro en la última semana== y cayeron con el resto de la bolsa; su apalancamiento al precio del metal multiplica la caída."
+   },
+   {
+    "isin": "LU1881514423",
+    "por_que": "−3,08 %. Tecnología global con semiconductores y software: ==le afectan tanto la norma sobre chips como el castigo al software== (Salesforce −8 %, ServiceNow −6 %)."
+   },
+   {
+    "isin": "LU0401357313",
+    "por_que": "−3,03 %. ==TSMC (9,4 %), MediaTek (7,4 %), ASE==: 74 % en tecnología; el Taiex cayó un 2,31 %. La caída del fondo en euros supera al índice por su sesgo a chips y fabricación electrónica."
+   }
+  ],
+  "por_clase": [
+   {
+    "clase": "Renta variable",
+    "texto": "Mediana −1,12 % (729 fondos): India arriba; semiconductores, IA, minería y biotecnología abajo."
+   },
+   {
+    "clase": "Renta fija",
+    "texto": "Mediana −0,06 %: los bonos casi no se movieron; destaca deuda india en lo alto."
+   },
+   {
+    "clase": "Mixtos",
+    "texto": "Mediana −0,60 %: caen en proporción a su parte en bolsa."
+   }
+  ]
  },
  "agenda": [
   {
@@ -422,5 +508,5 @@
    "def": "Rentabilidad extra que se exige por prestar a largo plazo en lugar de renovar préstamos cortos."
   }
  ],
- "generado": "2026-11-17T23:25"
+ "generado": "2026-11-18T09:55"
 }
