@@ -1,0 +1,363 @@
+{
+ "periodo": "diario",
+ "clave": "2026-11-19",
+ "fase": "mercado",
+ "titulo": "Anthropic sale +17 %, pero Wall Street se hunde un 2 %: el Dow pierde los 50.000",
+ "resumen": "La mayor salida a bolsa de la historia no salvó el día. ==Anthropic debutó en el Nasdaq a 111,50 $, un 34 % sobre su precio de 83 $==, y cerró en torno a 97 $ (+17 %). Pero justo cuando empezó a cotizar, ==Wall Street pasó de subir a desplomarse==: el S&P 500 cayó un 2,02 % (7.176), el Nasdaq 100 un 2,21 %, el Russell 2000 (pequeñas) un 2,18 % y ==el Dow Jones un 2,19 % (−1.101 puntos), cerrando bajo los 50.000 por primera vez desde junio==. Más del 90 % de las empresas del S&P terminaron en rojo. La lectura de los operadores: ==«vender en los rebotes»==. Quien buscaba liquidez la obtuvo aprovechando el debut, y la ruptura del soporte de 7.300 en el S&P aceleró las ventas automáticas.\n\nDebajo hay dos miedos. Uno, ==las dudas sobre si el gasto en inteligencia artificial (IA) dará beneficios==: Nvidia acumula un −28 % en noviembre tras la dimisión de su consejero delegado, y AMD se hundió cerca de un 8 % por la posición bajista de un fondo que la acusa de saltarse los controles de exportación a China. Dos, ==la inflación==: el índice manufacturero de la Fed de Filadelfia salió flojo (6,3 frente a 18 esperado), pero ==sus precios pagados subieron a máximos desde abril==. Es la peor combinación: menos actividad y más precios, con una Reserva Federal (Fed) que ya prepara otra subida en diciembre. ==El VIX saltó un 15,8 % (28,4)==, su nivel más alto desde marzo.\n\nEuropa cerró antes del derrumbe y cayó menos. Abrió en verde con las tecnológicas (ASML e Infineon +3 %), pero el giro de Wall Street la arrastró a ==su cuarta sesión seguida a la baja==: Stoxx 600 −0,88 %, DAX −1,06 %, CAC −0,81 %, Ibex −0,97 % (19.185), FTSE 100 −0,93 % y SMI suizo −1,10 %. Italia (−0,46 %) aguantó mejor por el peso de la banca.\n\nFuera de la bolsa, ==oro (−3,0 %) y plata (−4,5 %) siguieron cayendo== pese al miedo: el oro tocó mínimos desde septiembre de 2025. En Asia, ==Hong Kong cayó un 2 % por Tencent (−6,7 %)== y Taiwán un 4,4 % según nuestros datos, mientras Japón (+0,6 %) y Corea (plano) resistieron. El Brent bajó un 2 % (90,1 $) y el gas europeo TTF (Title Transfer Facility) subió un 4,5 %, con nuevos ataques en el Golfo de fondo.",
+ "claves": [
+  "==Anthropic: mayor salida a bolsa de la historia (81.300 millones $)==; abrió +34 % y cerró +17 % sobre 83 $.",
+  "Wall Street se giró al empezar a cotizar Anthropic: ==S&P −2,0 %, Dow −2,2 % y bajo los 50.000==.",
+  "Dudas sobre la rentabilidad de la IA (Nvidia −28 % en noviembre, AMD −8 %) y ==precios industriales al alza en el sondeo de Filadelfia==.",
+  "==VIX +15,8 % (28,4)==, máximo desde marzo; el S&P sigue por debajo de su media de 200 sesiones.",
+  "Los bonos de EE. UU. actuaron de refugio al final del día: ==el 10 años bajó 1,4 pb (5,05 %)== tras subir por la mañana.",
+  "==Oro −3 % y plata −4,5 %==: la Fed dura y la venta para cubrir pérdidas en bolsa pesan más que su papel de refugio."
+ ],
+ "suben": [
+  {
+   "activo": "Anthropic (ANT, debut)",
+   "cambio": "+17 % (≈ 97 $ frente a 83 $)",
+   "por_que": "Colocó cerca de 980 millones de acciones a 83 $, por encima del rango, tras ampliar la oferta por la fuerte demanda. ==Abrió a 111,50 $ (+34 %)== pero devolvió parte en una sesión de ventas generalizadas.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "Gas europeo (TTF)",
+   "cambio": "+4,5 % (84,5 €/MWh)",
+   "por_que": "Sin crónica concreta del día. ==El mercado vuelve a temer por el suministro del Golfo==: llegaron informes de un misil sobre Riad y de ataques iraníes en Kuwait y Baréin. La Agencia Internacional de la Energía (AIE) dijo esta semana que la confianza en el estrecho de Ormuz está «destrozada», y por ahí pasa el gas natural licuado (GNL) de Catar.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "Trigo (Chicago)",
+   "cambio": "+4,4 %",
+   "por_que": "No encontramos una noticia concreta del día. Probablemente ==cierre de posiciones bajistas== tras semanas de caídas, en un día de ventas en otras materias primas; dato a confirmar.",
+   "fuentes": []
+  },
+  {
+   "activo": "VIX (volatilidad del S&P 500)",
+   "cambio": "+15,8 % (28,4)",
+   "por_que": "Las coberturas se encarecen cuando la bolsa cae con fuerza. ==Tocó casi 29 tras el debut de Anthropic==, máximo desde marzo.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "+0,6 %",
+   "por_que": "Asia cotizó antes de la caída de Wall Street y aún reaccionaba a los resultados de Nvidia. El índice más amplio de Tokio (Topix) cayó un 1,5 %: ==la subida se concentró en pocos valores==.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "Euro frente al yen",
+   "cambio": "+0,6 % (175,8)",
+   "por_que": "El yen siguió perdiendo terreno. ==Con tipos casi nulos en Japón==, al inversor le compensa pedir prestado en yenes e invertir en euros o dólares."
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "−4,4 %",
+   "por_que": "Dato de nuestra fuente, sin crónica de cierre localizada (CNBC solo recoge −0,4 % en la apertura). TSMC pesa más del 40 % del índice, y ==los fabricantes de chips son el epicentro de las dudas sobre la IA== (Nvidia −28 % en el mes).",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "Plata",
+   "cambio": "−4,5 %",
+   "por_que": "==Metal a la vez industrial y de inversión==: le pesan el frenazo industrial y la Fed dura. Además, en días de pánico se vende lo que más ha subido para cubrir pérdidas.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "Oro",
+   "cambio": "−3,0 % (3.628 $)",
+   "por_que": "==Una Fed que sube tipos encarece no tener rentabilidad==, y el oro no paga intereses. Tocó 3.694 $ en el futuro de diciembre, mínimo desde septiembre de 2025; lleva un −4,4 % en la semana.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "−2,2 %",
+   "por_que": "Llegó a subir un 1,5 % en la apertura. ==Nvidia, Microsoft, Meta y Micron se giraron a mínimos== al empezar a cotizar Anthropic, y AMD cayó cerca de un 8 % por una acusación de saltarse controles de exportación.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "t": "Saxo",
+     "u": "https://www.home.saxo/en-gb/content/articles/options/nvidia-slips-as-one-day-volatility-cools---options-brief---19-november-2026-19112026"
+    }
+   ]
+  },
+  {
+   "activo": "Dow Jones",
+   "cambio": "−2,2 % (49.097)",
+   "por_que": "−1.101 puntos, su ==primer cierre bajo 50.000 desde junio==. Se suma al mal noviembre: los tres grandes índices pierden más del 3 % en el mes.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "Hang Seng (Hong Kong)",
+   "cambio": "−2,0 %",
+   "por_que": "==Tencent cayó un 6,7 %==: su beneficio trimestral bajó un 6 % y su inversión se disparó un 225 % para la IA. Es el mismo miedo que en EE. UU.: gastar mucho sin retorno claro.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "Brent",
+   "cambio": "−2,0 % (90,1 $)",
+   "por_que": "Por la mañana subía por los ataques en el Golfo. Luego ==pesó más el miedo a una economía más débil== (menos demanda), arrastrado por la caída de las bolsas. El WTI quedó plano (83,2 $).",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "activo": "DAX (Alemania)",
+   "cambio": "−1,06 %",
+   "por_que": "Abrió al alza con las tecnológicas, pero ==el giro de Wall Street a media tarde lo dejó en negativo==. Cuarta sesión de caídas.",
+   "fuentes": [
+    {
+     "t": "investingLive (cierre europeo)",
+     "u": "https://investinglive.com/stocks/european-stocks-close-lower-anthropic-opens-34-above-its-ipo-price/"
+    },
+    {
+     "t": "Investing.com (DAX)",
+     "u": "https://www.investing.com/news/stock-market-news/germany-stocks-lower-at-close-of-trade-dax-down-092-5039624"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Debut de Anthropic: «vender el rebote»",
+   "texto": "La salida a bolsa fue un éxito para la empresa (81.300 millones $ captados; unos 2 billones $ de valor al abrir). Para el mercado fue la señal de venta: ==los índices cayeron a mínimos justo cuando empezó a cotizar==. Hay dos lecturas: los grandes inversores venden otras tecnológicas para hacer hueco a ANT en sus carteras, y quien quería salir aprovechó el rebote. ==La ruptura de los 7.300 puntos del S&P activó más ventas.==",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "tema": "Dudas sobre la rentabilidad de la IA",
+   "texto": "El mercado ya no premia gastar en IA, ==exige ver los beneficios==. Nvidia lleva un −28 % en noviembre tras la dimisión de su consejero delegado, cuya comparecencia en el Senado se espera. CoreWeave pierde un 18 % en el mes, AMD cayó cerca de un 8 % y Tencent se desplomó por su gasto en inversión.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "t": "Saxo",
+     "u": "https://www.home.saxo/en-gb/content/articles/options/nvidia-slips-as-one-day-volatility-cools---options-brief---19-november-2026-19112026"
+    }
+   ]
+  },
+  {
+   "tema": "Inflación y Reserva Federal (Fed)",
+   "texto": "El sondeo de la Fed de Filadelfia mostró ==actividad más floja, pero precios pagados en máximos desde abril== y precios cobrados en máximos desde junio de 2022. Las peticiones de subsidio por desempleo (203.000) siguen bajas. Con empleo sólido e inflación que no cede, ==el mercado descuenta ~90 % de subida de 0,25 en diciembre== y ~10 % de 0,50.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    },
+    {
+     "t": "investingLive (resumen América)",
+     "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-19-nov-inflation-worries-sink-stocks/"
+    },
+    {
+     "t": "XTB",
+     "u": "https://www.xtb.com/int/market-analysis/news-and-research/market-wrap-anthropic-lifts-sentiment-but-a-hawkish-fed-keeps-the-dollar-high"
+    }
+   ]
+  },
+  {
+   "tema": "Guerra con Irán y Golfo",
+   "texto": "Nuevos informes de ataques: un misil sobre Riad y ataques iraníes en Kuwait y Baréin. ==Sostienen el gas europeo y el petróleo por la mañana==, aunque el Brent acabó cayendo por el miedo a la demanda.",
+   "fuentes": [
+    {
+     "t": "CNBC (directo 19-11)",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "Los tipos de EE. UU. hicieron un ==viaje de ida y vuelta==. Por la mañana subían (2 años +3,4 pb y 10 años +1,9 pb al cierre europeo): ==los precios pagados del sondeo de Filadelfia alimentaron el miedo a la inflación== y refuerzan otra subida de la Fed en diciembre (~90 % de probabilidad de +0,25). Por la tarde, ==el desplome de la bolsa llevó dinero a los bonos como refugio==, y la TIR (tasa interna de rentabilidad) del 10 años cerró en 5,05 % (−1,4 pb), con el 5 años −1,8 pb y el 30 años −1,1 pb. La caída fue pequeña porque el refugio choca con una Fed que sigue subiendo: ==el bono no protege tanto cuando el problema es la inflación==.\n\nEn la zona euro, el dato del Banco Central Europeo (BCE) llega con un día de retraso (último: 18-11, AAA 10 años 3,41 %, −1,4 pb). Hoy el Bund probablemente se movió poco: la bolsa europea cerró antes del derrumbe de Wall Street. ==Francia sigue en el foco==. El gobernador del Banco de Francia calificó de «exagerada» la preocupación por el presupuesto, con diferenciales en niveles no vistos desde la crisis del euro.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−1,4 pb (5,05 %)",
+    "por_que": "Subía por la mañana por la inflación del sondeo de Filadelfia y ==se giró por la huida a refugio== con la bolsa cayendo un 2 %.",
+    "fuentes": [
+     {
+      "t": "investingLive (cierre europeo)",
+      "u": "https://investinglive.com/stocks/european-stocks-close-lower-anthropic-opens-34-above-its-ipo-price/"
+     },
+     {
+      "t": "investingLive (resumen América)",
+      "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-19-nov-inflation-worries-sink-stocks/"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "Sin dato de cierre (FRED con retraso); +3,4 pb al cierre europeo",
+    "por_que": "==Es el tramo más sensible a la Fed==: la apuesta por otra subida en diciembre lo sostiene cerca del 4,8 %.",
+    "fuentes": [
+     {
+      "t": "investingLive (cierre europeo)",
+      "u": "https://investinglive.com/stocks/european-stocks-close-lower-anthropic-opens-34-above-its-ipo-price/"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "−1,4 pb (3,41 %, dato del 18-11)",
+    "por_que": "El dato del BCE del 19-11 aún no se ha publicado. Europa cerró antes de la caída de Wall Street, así que ==el movimiento de hoy probablemente fue pequeño==."
+   },
+   {
+    "bono": "Diferencial Francia–Alemania",
+    "cambio": "En niveles de la crisis del euro",
+    "por_que": "Riesgo político y fiscal: ==el presupuesto (déficit del 5,4 % al 5,0 % del PIB, producto interior bruto) fue rechazado en octubre por la Asamblea==. El Banco de Francia intenta calmar al mercado.",
+    "fuentes": [
+     {
+      "t": "CNBC (directo 19-11)",
+      "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "investingLive (cierre europeo)",
+    "u": "https://investinglive.com/stocks/european-stocks-close-lower-anthropic-opens-34-above-its-ipo-price/"
+   },
+   {
+    "t": "investingLive (resumen América)",
+    "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-19-nov-inflation-worries-sink-stocks/"
+   },
+   {
+    "t": "CNBC (directo 19-11)",
+    "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "",
+  "suben": [],
+  "bajan": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-20",
+   "evento": "Índices PMI (gestores de compras) preliminares de noviembre: zona euro, Reino Unido y EE. UU.",
+   "por_que_importa": "Tras el flojo sondeo de Filadelfia, ==dirán si la industria se frena de verdad== y si los precios siguen subiendo."
+  },
+  {
+   "fecha": "2026-11-20",
+   "evento": "Vencimiento mensual de opciones en EE. UU.",
+   "por_que_importa": "Con el VIX en 28, ==los vencimientos pueden amplificar los movimientos== del viernes."
+  },
+  {
+   "fecha": "2026-11-23",
+   "evento": "Cotización de Anthropic (ANT) en sus primeros días; comparecencia en el Senado del ex consejero delegado de Nvidia (fecha por confirmar)",
+   "por_que_importa": "==Termómetro del apetito por la IA==: si ANT pierde su precio de salida, el sector sufriría más."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "~90 % de probabilidad de +0,25 y ~10 % de +0,50; ==el dato de inflación de noviembre decidirá el tamaño==."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento. Sube cuando el precio del bono baja."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: 0,01 puntos porcentuales (10 pb = 0,10 %)."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad del S&P 500, el «índice del miedo»: mide cuánto se paga por protegerse de caídas."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado holandés de referencia del gas natural en Europa."
+  },
+  {
+   "sigla": "GNL",
+   "def": "Gas natural licuado, transportado en barcos."
+  },
+  {
+   "sigla": "AIE",
+   "def": "Agencia Internacional de la Energía."
+  },
+  {
+   "sigla": "PMI",
+   "def": "Purchasing Managers' Index (índice de gestores de compras): encuesta mensual de actividad; por encima de 50 indica crecimiento."
+  },
+  {
+   "sigla": "PIB",
+   "def": "Producto interior bruto."
+  },
+  {
+   "sigla": "IPO",
+   "def": "Initial Public Offering: salida a bolsa de una empresa."
+  }
+ ],
+ "generado": "2026-11-19T23:30"
+}
