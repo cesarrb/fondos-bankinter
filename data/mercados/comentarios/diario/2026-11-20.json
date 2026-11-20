@@ -1,0 +1,398 @@
+{
+ "periodo": "diario",
+ "clave": "2026-11-20",
+ "fase": "mercado",
+ "titulo": "Viernes negro de la IA: Nasdaq 100 −5,6 %, Nvidia −12 % y el VIX en 36",
+ "resumen": "La venta de la inteligencia artificial (IA) se convirtió en desbandada. ==El Nasdaq 100 se hundió un 5,6 % (25.029)== y el Nasdaq Composite borró todo lo ganado en 2026; ==el S&P 500 cedió un 3,7 % (6.910)== y, con el Dow Jones (−1,9 %), entra en corrección (más de un 10 % bajo su máximo). El detonante: ==Reuters informó de que la SEC (Securities and Exchange Commission) examina la contabilidad de Nvidia==, que se desplomó un 12 %, su peor día desde enero de 2025. Es la novena caída en diez sesiones para la mayor empresa del índice, y su peso arrastra a todo el sector. Anthropic, que debutó el jueves, también retrocedió en su segundo día. En la semana, ==el Nasdaq cae un 10 %, la peor desde marzo de 2020==.\n\nAsia ya había abierto el fuego antes que Wall Street: ==Taiwán −6,2 % (peor semana desde 1991, −17,5 %)==, Kospi coreano −5,8 % con interrupción automática de la negociación, y ==Nikkei −5 %== con SoftBank cayendo a doble dígito. Son los mercados más expuestos a los chips de la IA (TSMC, Samsung, SK Hynix), así que las dudas sobre el retorno de ese gasto les golpean de lleno. Europa cayó menos porque pesa menos la tecnología: Euro Stoxx 50 −2,8 % (ASML e Infineon a la cabeza), DAX −2,6 %, Stoxx 600 −2 % (peor semana desde marzo), ==Ibex −1,63 % (18.873), por debajo de los 19.000== y −5,7 % en la semana. FTSE 100 y SMI suizo, muy defensivos, solo −1 %.\n\nLo más llamativo es que ==ni el oro sirvió de refugio: −4,3 % (3.526 $) y plata −7,6 %==. Es la huella de las ventas forzadas: quien recibe llamadas de margen (le exigen más garantías por las pérdidas en bolsa) ==vende lo que puede, incluido lo que gana==. A eso se suma una Reserva Federal (Fed) que se da casi por segura subiendo tipos en diciembre, lo que resta atractivo a activos sin cupón. Bitcoin cayó un 4,9 % (58.900 $), cobre −2,9 % y Brent −2,2 % (89,9 $) por temor a menos crecimiento. El ==VIX (volatilidad esperada del S&P 500) saltó un 26 % hasta 35,9==, nivel de pánico. Sí funcionaron los refugios clásicos: ==bonos del Tesoro (TIR a 10 años −14 pb, 4,91 %)==, yen y franco suizo.\n\nContracorriente, ==el gas natural de EE. UU. se disparó un 15,6 %== por previsiones de frío para finales de mes, y el TTF europeo subió un 5 %. India (Sensex +0,1 %) fue la única gran bolsa en verde, por su escasa exposición a los chips.",
+ "claves": [
+  "==Nvidia −12 % por una revisión contable de la SEC==: arrastra al Nasdaq 100 (−5,6 %) y deja al S&P 500 (−3,7 %) en corrección.",
+  "Asia, epicentro de los chips: ==Taiwán −6,2 % y peor semana desde 1991==; Kospi −5,8 % y Nikkei −5 %.",
+  "Europa cae menos (Stoxx 600 −2 %, Ibex −1,63 %) por su menor peso tecnológico; ==el Ibex pierde los 19.000==.",
+  "==Ventas forzadas: el oro (−4,3 %) y la plata (−7,6 %) caen con la bolsa== para cubrir llamadas de margen.",
+  "Refugio en bonos: ==TIR del Tesoro a 10 años −14 pb (4,91 %)==, mientras el 2 años apenas baja porque la Fed sigue lista para subir.",
+  "VIX +26 % hasta 35,9; MOVE (volatilidad de bonos) +10,7 %."
+ ],
+ "suben": [
+  {
+   "activo": "Gas natural EE. UU. (Henry Hub)",
+   "cambio": "+15,6 %",
+   "por_que": "==Las previsiones meteorológicas apuntan a frío intenso== a finales de noviembre: más calefacción y más demanda en pleno arranque del invierno, con la producción algo a la baja. Movimiento ajeno a la venta de la IA.",
+   "fuentes": [
+    {
+     "t": "TradingNews",
+     "u": "https://www.tradingnews.com/news/december-natural-gas-jumps-to-3-337-as-heating-outlook-hits-297-hdds-3-397-break-opens-3-65-usd-target"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "+5,0 %",
+   "por_que": "Se contagia del frío y del gas de EE. UU.: ==Europa importa mucho gas licuado (GNL) estadounidense==, así que un invierno más exigente allí encarece el que llega aquí.",
+   "fuentes": [
+    {
+     "t": "TradingNews",
+     "u": "https://www.tradingnews.com/news/december-natural-gas-jumps-to-3-337-as-heating-outlook-hits-297-hdds-3-397-break-opens-3-65-usd-target"
+    }
+   ]
+  },
+  {
+   "activo": "Bonos del Tesoro EE. UU. (precio)",
+   "cambio": "TIR 10 años −14 pb",
+   "por_que": "==Huida a refugio==: con la bolsa en caída libre, el dinero compra deuda pública y su rentabilidad baja.",
+   "fuentes": [
+    {
+     "t": "Traders Union",
+     "u": "https://tradersunion.com/news/economic-data/show/4335911-us-treasury-yields-fall-safe-haven/"
+    }
+   ]
+  },
+  {
+   "activo": "Trigo",
+   "cambio": "+2,6 %",
+   "por_que": "Sin noticia concreta: rebote técnico tras semanas de debilidad; es un mercado que se mueve por su propia oferta y clima, no por la IA."
+  },
+  {
+   "activo": "Franco suizo y yen (frente al euro)",
+   "cambio": "EUR/CHF −0,42 %, EUR/JPY −0,85 %",
+   "por_que": "==Monedas refugio==: en los días de pánico se cierran operaciones financiadas en yen y se busca la seguridad del franco."
+  },
+  {
+   "activo": "Sensex (India)",
+   "cambio": "+0,1 %",
+   "por_que": "==Casi sin peso en semiconductores==: su bolsa depende de bancos, consumo y servicios internos, por eso esquivó la venta de los chips."
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "−5,6 %",
+   "por_que": "==Nvidia −12 % tras saberse que la SEC revisa su contabilidad==; las dudas sobre si el gasto en IA dará beneficios ya venían pesando (novena caída de Nvidia en diez sesiones). En la semana −10 %, la peor desde 2020.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-plunges-12-reuters-201702082.html"
+    },
+    {
+     "t": "CBS News",
+     "u": "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/"
+    },
+    {
+     "t": "Benzinga",
+     "u": "https://www.benzinga.com/markets/equities/26/11/63492512/stock-market-today-nasdaq-100-nvidia-seventh-day-chipmakers-smh"
+    }
+   ]
+  },
+  {
+   "activo": "S&P 500",
+   "cambio": "−3,7 %",
+   "por_que": "Las grandes tecnológicas pesan cerca de un tercio del índice; ==su caída lo empuja a terreno de corrección==. El vencimiento mensual de opciones amplificó los movimientos.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+    }
+   ]
+  },
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "−6,2 %",
+   "por_que": "==TSMC y la cadena de chips de la IA== dominan el índice; si se duda del gasto en IA, Taiwán es el más expuesto. ==Peor semana desde 1991 (−17,5 %)==.",
+   "fuentes": [
+    {
+     "t": "24/7 Wall St.",
+     "u": "https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/"
+    },
+    {
+     "t": "Al Jazeera",
+     "u": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears"
+    }
+   ]
+  },
+  {
+   "activo": "Kospi (Corea) y Nikkei 225 (Japón)",
+   "cambio": "−5,8 % y −5,0 %",
+   "por_que": "Samsung y SK Hynix (memorias para IA) cayeron más de un 7 %; en Japón, ==SoftBank, gran inversor en IA, se hundió a doble dígito==.",
+   "fuentes": [
+    {
+     "t": "Aju Press",
+     "u": "https://www.ajupress.com/view/20261120161654316"
+    },
+    {
+     "t": "24/7 Wall St.",
+     "u": "https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/"
+    }
+   ]
+  },
+  {
+   "activo": "Plata y oro",
+   "cambio": "−7,6 % y −4,3 %",
+   "por_que": "==Ventas forzadas para cubrir pérdidas en bolsa== y una Fed que se espera que suba tipos (el oro no paga intereses). El oro cae a mínimos de unos 14 meses y va a por su peor semana desde marzo.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/news/gold-set-for-steepest-weekly-drop-since-march-as-fed-hike-bets-and-forced-selling-weigh-202611201123"
+    },
+    {
+     "t": "The National",
+     "u": "https://www.thenationalnews.com/business/money/2026/11/20/why-is-gold-price-going-down/"
+    }
+   ]
+  },
+  {
+   "activo": "Euro Stoxx 50",
+   "cambio": "−2,8 %",
+   "por_que": "==ASML e Infineon==, sus chips, lideraron las caídas; los bancos y las industriales también cedieron por el miedo general.",
+   "fuentes": [
+    {
+     "t": "MLQ",
+     "u": "https://mlq.ai/news/european-stocks-close-down-2-to-cap-their-worst-week-since-march-as-asml-and-infineon-slump/"
+    }
+   ]
+  },
+  {
+   "activo": "Ibex 35",
+   "cambio": "−1,63 %",
+   "por_que": "Cae menos que Europa por su escaso peso tecnológico, pero ==pierde los 19.000 puntos== y acumula −5,7 % en la semana por la IA y el miedo a la Fed.",
+   "fuentes": [
+    {
+     "t": "El Periódico de Ceuta",
+     "u": "https://www.elperiodicodeceuta.es/cierre-ibex-35-20-de-noviembre-de-2026/"
+    },
+    {
+     "t": "Estrategias de Inversión",
+     "u": "https://www.estrategiasdeinversion.com/actualidad/noticias/bolsa-espana/el-ibex-35-baja-mas-de-1100-puntos-hasta-quebrar-n-972271"
+    }
+   ]
+  },
+  {
+   "activo": "Bitcoin",
+   "cambio": "−4,9 %",
+   "por_que": "Se comporta como un activo de riesgo más: ==cae con el Nasdaq== cuando se reduce apalancamiento.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/cryptocurrencies/news/gold-testing-3-500-bitcoin-crashed-to-58-800-brutal-but-expected-202611201929"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Nvidia y la SEC",
+   "texto": "Reuters adelantó que el equipo de supervisión de la SEC examina posibles problemas contables en Nvidia. ==Una duda sobre las cuentas del líder de la IA== cuestiona la calidad de los beneficios que justifican sus valoraciones, y por eso cae todo el sector, de Taiwán a Europa.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-plunges-12-reuters-201702082.html"
+    }
+   ]
+  },
+  {
+   "tema": "Desapalancamiento y ventas forzadas",
+   "texto": "Tras una semana de caídas, ==los inversores endeudados venden lo que tienen a mano para cubrir garantías==: por eso caen a la vez acciones, oro, plata y bitcoin. El VIX en 35,9 confirma el estrés.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/news/gold-set-for-steepest-weekly-drop-since-march-as-fed-hike-bets-and-forced-selling-weigh-202611201123"
+    },
+    {
+     "t": "The National",
+     "u": "https://www.thenationalnews.com/business/money/2026/11/20/why-is-gold-price-going-down/"
+    }
+   ]
+  },
+  {
+   "tema": "Reserva Federal (Fed)",
+   "texto": "Incluso con este desplome, ==el mercado da ~97 % a una subida de 0,25 puntos el 9 de diciembre==, y el gobernador Waller ha llegado a plantear 0,50 por una inflación que se extiende. ==No hay «red» de la Fed==, lo que agrava las caídas.",
+   "fuentes": [
+    {
+     "t": "BigGo Finance",
+     "u": "https://finance.biggo.com/news/78ad00f8-6255-4ebc-9b35-179f5a35e276"
+    },
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/amp/2026/11/18/treasury-yields-bonds-fed.html"
+    }
+   ]
+  },
+  {
+   "tema": "Anthropic, segundo día",
+   "texto": "Tras su debut con +17 %, la acción retrocedió: ==la salida a bolsa no ha servido para reanimar el apetito por la IA==, y algunos inversores la usaron para obtener liquidez.",
+   "fuentes": [
+    {
+     "t": "Al Jazeera",
+     "u": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. ==los tipos largos bajaron con fuerza por huida a refugio==: el 10 años cae 14 pb (4,91 %), el 5 años 16,5 pb (4,70 %) y el 30 años 10 pb (5,30 %). Cuando la bolsa se desploma, el dinero compra Tesoro, sube su precio y baja su rentabilidad; además, ==un golpe a la riqueza y a la inversión en IA anticipa menos crecimiento== y menos inflación futura. Pero ==el 2 años apenas se mueve (unos −5 pb según prensa, hacia 4,71 %)== porque está anclado a la Fed, que sigue con ~97 % de probabilidad de subir en diciembre. Resultado: la curva se aplana (menos distancia entre el 2 y el 10 años), señal de que el mercado teme que la Fed suba tipos justo cuando la economía se enfría. El MOVE, la volatilidad de los bonos, subió un 10,7 %.\n\nEn la zona euro ==el BCE (Banco Central Europeo) aún no ha publicado el dato de hoy==: el último (jueves) mostraba al AAA 10 años (≈ Bund) en 3,44 % (+3 pb) y al 2 años en 3,13 % (+4 pb), contagiados de la Fed. No hemos encontrado en prensa el cierre del viernes; ==lo esperable con este pánico es una bajada del Bund== por refugio y una ampliación de las primas de Italia y Francia (esta última ya presionada por la tensión social), pero queda pendiente de confirmar mañana.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−14 pb (4,91 %)",
+    "por_que": "==Compra de refugio== por la caída de la bolsa y peores perspectivas de crecimiento.",
+    "fuentes": [
+     {
+      "t": "Traders Union",
+      "u": "https://tradersunion.com/news/economic-data/show/4335911-us-treasury-yields-fall-safe-haven/"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "≈ −5 pb (≈ 4,71 %, prensa; FRED aún sin dato)",
+    "por_que": "==Anclado a la subida de la Fed en diciembre== (~97 %), por eso baja mucho menos que el 10 años.",
+    "fuentes": [
+     {
+      "t": "BigGo Finance",
+      "u": "https://finance.biggo.com/news/78ad00f8-6255-4ebc-9b35-179f5a35e276"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "−10 pb (5,30 %)",
+    "por_que": "Refugio, pero menos que el 5–10 años: la prima por plazo (compensación por prestar a muy largo con déficit alto) sigue elevada."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "Jueves +3 pb (3,44 %); viernes sin dato del BCE",
+    "por_que": "El jueves subió contagiado de la Fed dura; ==el viernes previsiblemente bajó por refugio== (por confirmar)."
+   },
+   {
+    "bono": "Diferenciales Francia/Italia–Alemania",
+    "cambio": "Sin dato del día",
+    "por_que": "En días de pánico suelen ampliarse; ==Francia ya sufre presión por la tensión social==.",
+    "fuentes": [
+     {
+      "t": "Orbex",
+      "u": "https://www.orbex.com/blog/en/2026/11/global-flash-pmis-and-currency-divergence"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Traders Union",
+    "u": "https://tradersunion.com/news/economic-data/show/4335911-us-treasury-yields-fall-safe-haven/"
+   },
+   {
+    "t": "BigGo Finance",
+    "u": "https://finance.biggo.com/news/78ad00f8-6255-4ebc-9b35-179f5a35e276"
+   },
+   {
+    "t": "CNBC",
+    "u": "https://www.cnbc.com/amp/2026/11/18/treasury-yields-bonds-fed.html"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "",
+  "suben": [],
+  "bajan": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-23",
+   "evento": "Índices PMI (gestores de compras) preliminares de noviembre: zona euro, Francia, Reino Unido y EE. UU.",
+   "por_que_importa": "==Primera foto de la actividad tras el desplome==; en Francia se espera seguir en contracción (≈ 46), lo que puede presionar su prima de riesgo.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/analysis/week-ahead-flash-pmis-and-pce-inflation-in-focus-ahead-of-thanksgiving-202611201011"
+    },
+    {
+     "t": "Orbex",
+     "u": "https://www.orbex.com/blog/en/2026/11/global-flash-pmis-and-currency-divergence"
+    }
+   ]
+  },
+  {
+   "fecha": "2026-11-23",
+   "evento": "Reapertura de Asia y Wall Street tras la peor semana desde 2020",
+   "por_que_importa": "==Dirá si las ventas forzadas se agotan o continúan==; atención a Nvidia, TSMC y Anthropic."
+  },
+  {
+   "fecha": "2026-11-25",
+   "evento": "PCE (deflactor del gasto en consumo personal) de octubre en EE. UU., antes de Acción de Gracias",
+   "por_que_importa": "Es la medida de inflación preferida de la Fed: ==un dato alto reforzaría la subida de 0,50== en diciembre.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/analysis/week-ahead-flash-pmis-and-pce-inflation-in-focus-ahead-of-thanksgiving-202611201011"
+    }
+   ]
+  },
+  {
+   "fecha": "2026-11-26",
+   "evento": "Acción de Gracias: Wall Street cerrada (y media sesión el 27)",
+   "por_que_importa": "Menos liquidez: los movimientos pueden ser más bruscos."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "~97 % de probabilidad de +0,25; ==la duda es si suben 0,50 pese a la caída de la bolsa==."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "SEC",
+   "def": "Securities and Exchange Commission: el supervisor de los mercados de valores de EE. UU."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento."
+  },
+  {
+   "sigla": "pb",
+   "def": "Puntos básicos: 1 pb = 0,01 puntos porcentuales."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad esperada del S&P 500 a 30 días; por encima de 30 indica pánico."
+  },
+  {
+   "sigla": "MOVE",
+   "def": "Índice de volatilidad esperada de los bonos del Tesoro de EE. UU."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "GNL",
+   "def": "Gas natural licuado, transportado en barcos metaneros."
+  },
+  {
+   "sigla": "PMI",
+   "def": "Purchasing Managers' Index: encuesta a gestores de compras; por encima de 50 indica expansión."
+  },
+  {
+   "sigla": "PCE",
+   "def": "Personal Consumption Expenditures: índice de precios del gasto en consumo, el preferido de la Fed."
+  },
+  {
+   "sigla": "Llamada de margen",
+   "def": "Exigencia del intermediario de aportar más garantías cuando caen los activos comprados con deuda; obliga a vender."
+  },
+  {
+   "sigla": "Corrección",
+   "def": "Caída de más del 10 % desde el último máximo."
+  }
+ ],
+ "generado": "2026-11-20T23:09"
+}
