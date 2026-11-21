@@ -1,21 +1,22 @@
 {
  "periodo": "diario",
  "clave": "2026-11-20",
- "fase": "mercado",
+ "fase": "completo",
  "titulo": "Viernes negro de la IA: Nasdaq 100 −5,6 %, Nvidia −12 % y el VIX en 36",
- "resumen": "La venta de la inteligencia artificial (IA) se convirtió en desbandada. ==El Nasdaq 100 se hundió un 5,6 % (25.029)== y el Nasdaq Composite borró todo lo ganado en 2026; ==el S&P 500 cedió un 3,7 % (6.910)== y, con el Dow Jones (−1,9 %), entra en corrección (más de un 10 % bajo su máximo). El detonante: ==Reuters informó de que la SEC (Securities and Exchange Commission) examina la contabilidad de Nvidia==, que se desplomó un 12 %, su peor día desde enero de 2025. Es la novena caída en diez sesiones para la mayor empresa del índice, y su peso arrastra a todo el sector. Anthropic, que debutó el jueves, también retrocedió en su segundo día. En la semana, ==el Nasdaq cae un 10 %, la peor desde marzo de 2020==.\n\nAsia ya había abierto el fuego antes que Wall Street: ==Taiwán −6,2 % (peor semana desde 1991, −17,5 %)==, Kospi coreano −5,8 % con interrupción automática de la negociación, y ==Nikkei −5 %== con SoftBank cayendo a doble dígito. Son los mercados más expuestos a los chips de la IA (TSMC, Samsung, SK Hynix), así que las dudas sobre el retorno de ese gasto les golpean de lleno. Europa cayó menos porque pesa menos la tecnología: Euro Stoxx 50 −2,8 % (ASML e Infineon a la cabeza), DAX −2,6 %, Stoxx 600 −2 % (peor semana desde marzo), ==Ibex −1,63 % (18.873), por debajo de los 19.000== y −5,7 % en la semana. FTSE 100 y SMI suizo, muy defensivos, solo −1 %.\n\nLo más llamativo es que ==ni el oro sirvió de refugio: −4,3 % (3.526 $) y plata −7,6 %==. Es la huella de las ventas forzadas: quien recibe llamadas de margen (le exigen más garantías por las pérdidas en bolsa) ==vende lo que puede, incluido lo que gana==. A eso se suma una Reserva Federal (Fed) que se da casi por segura subiendo tipos en diciembre, lo que resta atractivo a activos sin cupón. Bitcoin cayó un 4,9 % (58.900 $), cobre −2,9 % y Brent −2,2 % (89,9 $) por temor a menos crecimiento. El ==VIX (volatilidad esperada del S&P 500) saltó un 26 % hasta 35,9==, nivel de pánico. Sí funcionaron los refugios clásicos: ==bonos del Tesoro (TIR a 10 años −14 pb, 4,91 %)==, yen y franco suizo.\n\nContracorriente, ==el gas natural de EE. UU. se disparó un 15,6 %== por previsiones de frío para finales de mes, y el TTF europeo subió un 5 %. India (Sensex +0,1 %) fue la única gran bolsa en verde, por su escasa exposición a los chips.",
+ "resumen": "La venta de la inteligencia artificial (IA) se convirtió en desbandada. ==El Nasdaq 100 se hundió un 5,6 % (25.029)== y el Nasdaq Composite borró todo lo ganado en 2026; ==el S&P 500 cedió un 3,7 % (6.910)== y, con el Dow Jones (−1,9 %), entra en corrección (más de un 10 % bajo su máximo). El detonante: ==Reuters informó de que la SEC (Securities and Exchange Commission) examina la contabilidad de Nvidia==, que se desplomó un 12 %, su peor día desde enero de 2025. Es la novena caída en diez sesiones para la mayor empresa del índice, y su peso arrastra a todo el sector. Anthropic, que debutó el jueves, también retrocedió en su segundo día. En la semana, ==el Nasdaq cae un 10 %, la peor desde marzo de 2020==.\n\nAsia ya había abierto el fuego antes que Wall Street: ==Taiwán −6,2 % (peor semana desde 1991, −17,5 %)==, Kospi coreano −5,2 % con interrupción automática de la negociación, y ==Nikkei −5 %== con SoftBank cayendo a doble dígito. Son los mercados más expuestos a los chips de la IA (TSMC, Samsung, SK Hynix), así que las dudas sobre el retorno de ese gasto les golpean de lleno. Europa cayó menos porque pesa menos la tecnología: Euro Stoxx 50 −2,8 % (ASML e Infineon a la cabeza), DAX −2,6 %, Stoxx 600 −2 % (peor semana desde marzo), ==Ibex −1,63 % (18.873), por debajo de los 19.000== y −5,7 % en la semana. FTSE 100 y SMI suizo, muy defensivos, solo −1 %.\n\nLo más llamativo es que ==ni el oro sirvió de refugio: −4,6 % (3.515 $) y plata −7,4 %==. Es la huella de las ventas forzadas: quien recibe llamadas de margen (le exigen más garantías por las pérdidas en bolsa) ==vende lo que puede, incluido lo que gana==. A eso se suma una Reserva Federal (Fed) que se da casi por segura subiendo tipos en diciembre, lo que resta atractivo a activos sin cupón. Bitcoin cayó un 4,9 % (58.900 $) y el cobre un 2,6 % por temor a menos crecimiento; ==el Brent, en cambio, apenas se movió (+0,6 %, 92,6 $)==: el miedo a una economía más débil se compensó con los ataques en el Golfo. El ==VIX (volatilidad esperada del S&P 500) saltó un 26 % hasta 35,9==, nivel de pánico. Sí funcionaron los refugios clásicos: ==bonos del Tesoro (TIR a 10 años −14 pb, 4,91 %)==, yen y franco suizo.\n\nContracorriente, ==el gas natural de EE. UU. subió un 4,4 %== por previsiones de frío para finales de mes, y el TTF europeo un 4,7 %. ==India (Sensex +1,1 %) fue la única gran bolsa en verde==: con poca exposición a los chips, el dinero que sale de Taiwán y Corea busca refugio allí. Los fondos lo reflejan: ==los 18 fondos que más suben del día son de bolsa india== (+1,4 % a +2,8 % en euros), y los que más caen, de Taiwán, Corea y tecnología (hasta −9 %).",
  "claves": [
   "==Nvidia −12 % por una revisión contable de la SEC==: arrastra al Nasdaq 100 (−5,6 %) y deja al S&P 500 (−3,7 %) en corrección.",
-  "Asia, epicentro de los chips: ==Taiwán −6,2 % y peor semana desde 1991==; Kospi −5,8 % y Nikkei −5 %.",
+  "Asia, epicentro de los chips: ==Taiwán −6,2 % y peor semana desde 1991==; Kospi −5,2 % y Nikkei −5 %.",
   "Europa cae menos (Stoxx 600 −2 %, Ibex −1,63 %) por su menor peso tecnológico; ==el Ibex pierde los 19.000==.",
-  "==Ventas forzadas: el oro (−4,3 %) y la plata (−7,6 %) caen con la bolsa== para cubrir llamadas de margen.",
+  "==Ventas forzadas: el oro (−4,6 %) y la plata (−7,4 %) caen con la bolsa== para cubrir llamadas de margen.",
   "Refugio en bonos: ==TIR del Tesoro a 10 años −14 pb (4,91 %)==, mientras el 2 años apenas baja porque la Fed sigue lista para subir.",
-  "VIX +26 % hasta 35,9; MOVE (volatilidad de bonos) +10,7 %."
+  "VIX +26 % hasta 35,9; MOVE (volatilidad de bonos) +10,7 %.",
+  "Fondos: ==India arriba (hasta +2,8 %), Taiwán y tecnología abajo (hasta −9 %)==; renta variable −2,58 % de mediana."
  ],
  "suben": [
   {
    "activo": "Gas natural EE. UU. (Henry Hub)",
-   "cambio": "+15,6 %",
+   "cambio": "+4,4 %",
    "por_que": "==Las previsiones meteorológicas apuntan a frío intenso== a finales de noviembre: más calefacción y más demanda en pleno arranque del invierno, con la producción algo a la baja. Movimiento ajeno a la venta de la IA.",
    "fuentes": [
     {
@@ -26,7 +27,7 @@
   },
   {
    "activo": "Gas natural europeo (TTF)",
-   "cambio": "+5,0 %",
+   "cambio": "+4,7 %",
    "por_que": "Se contagia del frío y del gas de EE. UU.: ==Europa importa mucho gas licuado (GNL) estadounidense==, así que un invierno más exigente allí encarece el que llega aquí.",
    "fuentes": [
     {
@@ -47,19 +48,20 @@
    ]
   },
   {
-   "activo": "Trigo",
-   "cambio": "+2,6 %",
-   "por_que": "Sin noticia concreta: rebote técnico tras semanas de debilidad; es un mercado que se mueve por su propia oferta y clima, no por la IA."
-  },
-  {
    "activo": "Franco suizo y yen (frente al euro)",
    "cambio": "EUR/CHF −0,42 %, EUR/JPY −0,85 %",
    "por_que": "==Monedas refugio==: en los días de pánico se cierran operaciones financiadas en yen y se busca la seguridad del franco."
   },
   {
    "activo": "Sensex (India)",
-   "cambio": "+0,1 %",
-   "por_que": "==Casi sin peso en semiconductores==: su bolsa depende de bancos, consumo y servicios internos, por eso esquivó la venta de los chips."
+   "cambio": "+1,1 %",
+   "por_que": "==Casi sin peso en semiconductores==: su bolsa depende de bancos, consumo y servicios internos. Con Taiwán y Corea en caída libre, ==India hace de refugio dentro de los emergentes== y recibe parte del dinero que sale de los chips.",
+   "fuentes": [
+    {
+     "t": "SCMP",
+     "u": "https://scmp.com/week-asia/economics/article/3374927/how-low-tech-exposure-turned-india-haven-during-asias-chip-sell"
+    }
+   ]
   }
  ],
  "bajan": [
@@ -110,7 +112,7 @@
   },
   {
    "activo": "Kospi (Corea) y Nikkei 225 (Japón)",
-   "cambio": "−5,8 % y −5,0 %",
+   "cambio": "−5,2 % y −5,0 %",
    "por_que": "Samsung y SK Hynix (memorias para IA) cayeron más de un 7 %; en Japón, ==SoftBank, gran inversor en IA, se hundió a doble dígito==.",
    "fuentes": [
     {
@@ -125,7 +127,7 @@
   },
   {
    "activo": "Plata y oro",
-   "cambio": "−7,6 % y −4,3 %",
+   "cambio": "−7,4 % y −4,6 %",
    "por_que": "==Ventas forzadas para cubrir pérdidas en bolsa== y una Fed que se espera que suba tipos (el oro no paga intereses). El oro cae a mínimos de unos 14 meses y va a por su peor semana desde marzo.",
    "fuentes": [
     {
@@ -289,9 +291,85 @@
   ]
  },
  "fondos": {
-  "texto": "",
-  "suben": [],
-  "bajan": []
+  "texto": "Muestra aún parcial: ==1.421 fondos con el valor liquidativo (VL) del viernes== (522 de Bankinter, 899 de IronIA; de ABANCA todavía ninguno). Las medianas dibujan un día de castigo a la bolsa: ==renta variable −2,58 %==, mixtos −1,22 %, alternativos −0,22 %, mientras la renta fija se queda plana (0,00 %) y los monetarios suben un 0,02 %. ==La renta fija no aprovechó el refugio del Tesoro==: la mayoría de fondos invierte en deuda europea, cuyo dato del viernes aún no está, y el crédito de peor calidad sufre cuando cae la bolsa.\n\nEl ranking es un mapa casi perfecto de la venta de la IA. ==Arriba, solo India==: los 18 primeros son fondos de bolsa india (+1,4 % a +2,8 % en euros), y hasta los de bonos indios ganan un 1,2 %, ==señal de que la rupia también se apreció== frente al euro. ==Abajo, Taiwán, Corea, semiconductores y tecnología== (−5,4 % a −9,1 %), junto a un fondo de oro y plata. Ojo con las fechas: según la hora de valoración, parte de los fondos de bolsa de EE. UU. recoge en este VL el desplome del jueves y parte el del viernes; ==lo que falte se verá en el VL del lunes==.",
+  "suben": [
+   {
+    "isin": "IE00BDH6RQ67",
+    "por_que": "Bolsa india con sesgo a consumo digital y servicios (Eternal, Bajaj Finance, Coforge, Persistent). ==+2,77 %, el doble que el Sensex (+1,1 %)==: sus valores de crecimiento y la rupia más fuerte suman. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0522352516",
+    "por_que": "Banca india en primera línea (ICICI, HDFC, Kotak: ==más del 40 % en financieras==), el sector que lideró al Sensex. +2,06 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0197230542",
+    "por_que": "Bancos (ICICI, Kotak) y salud india (Sun Pharma, Apollo, Fortis). ==India, refugio frente a los chips==: +2,03 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0329070915",
+    "por_que": "Cartera más diversificada (State Bank of India, Bharti Airtel, Larsen & Toubro). +1,89 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0551366536",
+    "por_que": "Bolsa india (HDFC, Reliance, Larsen & Toubro), aunque con mucha liquidez declarada en su última cartera; aun así +1,86 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0333810850",
+    "por_que": "Bolsa india amplia (ICICI, HDFC, Reliance, Mahindra). +1,85 %. ==Disponible en Bankinter y ABANCA==."
+   },
+   {
+    "isin": "LU0231462077",
+    "por_que": "Bolsa india en clase en libras: ==+1,55 % en libras pero +1,37 % en euros==, porque la libra se dejó un 0,2 % frente al euro. Ejemplo de efecto divisa. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU1254412460",
+    "por_que": "==Bonos del Gobierno indio, +1,22 % en un día==: un salto así en deuda solo se explica por ==la apreciación de la rupia frente al euro==, la misma que suma a los fondos de bolsa india. Disponible en Bankinter."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU0270816068",
+    "por_que": "Taiwán puro (TSMC, ASE, MediaTek; ==74 % en tecnología==). ==−9,1 %, más que el Taiex (−6,2 %)==: la salida de capital extranjero también castiga al dólar taiwanés, y parte del desplome del jueves puede entrar en este VL. Clase en dólares: apenas hay efecto euro (−9,06 % frente a −9,08 %). Disponible en Bankinter."
+   },
+   {
+    "isin": "LU1861216510",
+    "por_que": "Tecnología de nueva generación (Lumentum, ==Nvidia, Micron==, SanDisk, AMD): todo lo ligado a centros de datos de IA. −7,8 %, en clase cubierta a euros. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU2484078832",
+    "por_que": "Fondo de IA: ==Nvidia (9,4 %) y TSMC (9 %)== encabezan su cartera, más SK Hynix y Micron. Es exactamente lo que vendió el mercado: −7,8 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU2168317308",
+    "por_que": "Pese a su nombre de consumo, ==Tesla, Amazon y Nebius (nube para IA) suman un 27 %==, y lleva Micron y AMD. Se comporta como un fondo tecnológico: −7,7 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0401357313",
+    "por_que": "Taiwán (TSMC, MediaTek, ASE): ==peor semana del Taiex desde 1991==. −7,5 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU1206943596",
+    "por_que": "Emergentes con ==posiciones muy concentradas en Samsung, SK Hynix, TSMC y futuros sobre Taiwán== (vía CFD, contratos por diferencias). Esa concentración en chips explica el −7,4 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0301637293",
+    "por_que": "Corea: ==SK Hynix, SK Square y Samsung pesan cerca del 30 %==. Kospi −5,2 % con interrupción de la negociación; el fondo cae más (−6,6 %) por su peso en memorias. Disponible en Bankinter."
+   },
+   {
+    "isin": "IE00BYVJR916",
+    "por_que": "Mineras de oro y plata y fondos físicos de Sprott: ==cayó con la plata (−7,4 %) y el oro (−4,6 %)== en las ventas forzadas. −5,4 %. Disponible en Bankinter."
+   }
+  ],
+  "por_clase": [
+   {
+    "clase": "Renta variable",
+    "texto": "Mediana −2,58 % (733 fondos): India arriba, Asia tecnológica y EE. UU. de crecimiento abajo."
+   },
+   {
+    "clase": "Renta fija",
+    "texto": "Plana (0,00 %, 439 fondos): sin dato del Bund del viernes y con el crédito presionado."
+   }
+  ]
  },
  "agenda": [
   {
@@ -392,7 +470,15 @@
   {
    "sigla": "Corrección",
    "def": "Caída de más del 10 % desde el último máximo."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio diario de una participación del fondo."
+  },
+  {
+   "sigla": "CFD",
+   "def": "Contrato por diferencias: derivado que replica la subida o bajada de una acción sin comprarla."
   }
  ],
- "generado": "2026-11-20T23:09"
+ "generado": "2026-11-21T09:45"
 }

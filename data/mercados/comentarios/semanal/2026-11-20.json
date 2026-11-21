@@ -1,0 +1,545 @@
+{
+ "periodo": "semanal",
+ "clave": "2026-11-20",
+ "inicio": "2026-11-16",
+ "fin": "2026-11-20",
+ "fase": "completo",
+ "titulo": "Semana del pánico de la IA: Nasdaq 100 −10,4 %, Taiwán −17,5 % y el VIX dispara un 86 %",
+ "resumen": "Fue ==la peor semana del Nasdaq desde marzo de 2020==. El Nasdaq 100 cayó un 10,4 % (25.029), el S&P 500 un 8,6 % (6.910) y el Dow Jones un 8,0 %, y ==el S&P 500 entró en corrección== (más de un 10 % bajo su máximo). No hubo un único golpe, sino ==cinco días seguidos de malas noticias para la inteligencia artificial (IA)==: el lunes, una norma de EE. UU. que cierra la vía indirecta de China a los chips avanzados; el martes, nuevos modelos de OpenAI que hundieron al software; el miércoles, unos resultados de Nvidia que batieron previsiones y aun así acabaron en caída; el jueves, el debut de Anthropic (+17 %), que el mercado usó para «vender en el rebote»; y el viernes, ==la noticia de que la SEC revisa la contabilidad de Nvidia== (−12 % en el día). El VIX (volatilidad esperada) pasó de 19,3 a 35,9 (+86 %).\n\n==Asia fue el epicentro, porque allí se fabrican los chips==. Taiwán se hundió un 17,5 %, ==su peor semana desde 1991==; Corea cayó un 8,0 % y Japón un 7,7 %. El ETF (fondo cotizado) de emergentes perdió un 11,6 % por el peso de ambos mercados. La gran excepción fue ==India (Sensex +2,9 %), refugio por su escasa tecnología de chips==. Europa cayó menos que EE. UU. pero mucho: Euro Stoxx 50 −7,0 %, DAX −7,3 %, Stoxx 600 −5,8 % (peor semana desde marzo) e ==Ibex −5,7 % (18.873), por debajo de los 19.000==. Suiza (−3,5 %) y Reino Unido (−5,1 %) resistieron mejor por sus valores defensivos.\n\nLo que hizo la semana tan dura es que ==no hubo «red» de la Reserva Federal (Fed)==. Las actas de octubre mostraron que casi todos sus miembros ven necesarias más subidas, Musalem pidió subir «antes», el sondeo de Filadelfia sacó precios pagados en máximos desde abril y ==el mercado da ~97 % a una subida en diciembre== pese al desplome. Con un dólar en máximos de 19 meses, eso ==hundió las materias primas y los activos sin cupón==: plata −16,3 %, cobre −9,9 %, oro −9,5 % (3.515 $), uranio −15,9 % y bitcoin −13,7 % (58.900 $). El viernes, además, ==las ventas forzadas por llamadas de margen== arrastraron al oro junto con la bolsa.\n\nEl único refugio que funcionó fue ==el bono del Tesoro de EE. UU.: TIR a 10 años −24 pb (4,91 %)==, junto al yen (+1,4 % frente al euro) y el franco suizo. El petróleo cayó un 3,4 % (Brent 92,6 $) por el excedente que prevé la Agencia Internacional de la Energía (AIE) y el miedo a una economía más débil, mientras ==el gas de EE. UU. subió un 5,6 %== por el frío esperado.",
+ "claves": [
+  "==Peor semana del Nasdaq desde 2020==: Nasdaq 100 −10,4 % y S&P 500 −8,6 %, ya en corrección.",
+  "==Taiwán −17,5 %, peor semana desde 1991==; Corea −8,0 % y Japón −7,7 %. India, la excepción (+2,9 %).",
+  "Cinco golpes a la IA: chips para China, software, Nvidia, Anthropic y ==la SEC revisando las cuentas de Nvidia==.",
+  "==Fed sin red==: ~97 % de probabilidad de subir en diciembre; dólar en máximos de 19 meses.",
+  "Metales y cripto, a la baja: ==plata −16,3 %, oro −9,5 %, bitcoin −13,7 %==, con ventas forzadas el viernes.",
+  "==Tesoro de EE. UU., único refugio==: 10 años −24 pb (4,91 %); el Bund, en cambio, sube hasta el jueves."
+ ],
+ "suben": [
+  {
+   "activo": "Sensex (India)",
+   "cambio": "+2,85 %",
+   "por_que": "==Poca exposición a los chips==: bancos, consumo y servicios internos. El dinero que sale de Taiwán y Corea busca refugio dentro de los emergentes en India.",
+   "fuentes": [
+    {
+     "t": "SCMP",
+     "u": "https://scmp.com/week-asia/economics/article/3374927/how-low-tech-exposure-turned-india-haven-during-asias-chip-sell"
+    }
+   ]
+  },
+  {
+   "activo": "Bonos del Tesoro EE. UU. (precio)",
+   "cambio": "TIR 10 años −24 pb (4,91 %)",
+   "por_que": "==Huida a refugio== desde la bolsa y miedo a menos crecimiento; las materias primas baratas rebajan la inflación esperada.",
+   "fuentes": [
+    {
+     "t": "Traders Union",
+     "u": "https://tradersunion.com/news/economic-data/show/4335911-us-treasury-yields-fall-safe-haven/"
+    }
+   ]
+  },
+  {
+   "activo": "VIX",
+   "cambio": "+86 % (35,9)",
+   "por_que": "De 19,3 a 35,9: ==nivel de pánico==, con el vencimiento mensual de opciones del viernes amplificando los movimientos.",
+   "fuentes": [
+    {
+     "t": "CBS News",
+     "u": "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural EE. UU. (Henry Hub)",
+   "cambio": "+5,6 %",
+   "por_que": "==Previsiones de frío intenso== a final de mes: más calefacción en el arranque del invierno. Ajeno a la venta de la IA.",
+   "fuentes": [
+    {
+     "t": "TradingNews",
+     "u": "https://www.tradingnews.com/news/december-natural-gas-jumps-to-3-337-as-heating-outlook-hits-297-hdds-3-397-break-opens-3-65-usd-target"
+    }
+   ]
+  },
+  {
+   "activo": "Yen y franco suizo (frente al euro)",
+   "cambio": "EUR/JPY −1,4 %, EUR/CHF −0,5 %",
+   "por_que": "==Monedas refugio==: se deshacen operaciones financiadas en yen y se busca la seguridad del franco."
+  },
+  {
+   "activo": "Dólar (índice DXY)",
+   "cambio": "+0,4 %",
+   "por_que": "==Fed dura== y refugio: el dólar tocó máximos de 19 meses a mitad de semana; el euro cae un 0,6 % (1,099).",
+   "fuentes": [
+    {
+     "t": "Bespoke",
+     "u": "https://bespokeinvest.substack.com/p/commodities-fall-with-a-thud"
+    }
+   ]
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "−17,5 %",
+   "por_que": "==TSMC y la cadena de chips de la IA== dominan el índice: norma de EE. UU. sobre chips, dudas sobre Nvidia y salida de capital extranjero. Peor semana desde 1991.",
+   "fuentes": [
+    {
+     "t": "24/7 Wall St.",
+     "u": "https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/"
+    }
+   ]
+  },
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "−10,4 %",
+   "por_que": "==Nvidia, de buenos resultados a la revisión de la SEC==; software castigado por los nuevos modelos de OpenAI; Anthropic absorbe liquidez.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-plunges-12-reuters-201702082.html"
+    },
+    {
+     "t": "CBS News",
+     "u": "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/"
+    }
+   ]
+  },
+  {
+   "activo": "S&P 500 y Dow Jones",
+   "cambio": "−8,6 % y −8,0 %",
+   "por_que": "Las tecnológicas pesan un tercio del S&P; ==el Dow pierde los 50.000== con UnitedHealth y la venta general. Corrección confirmada.",
+   "fuentes": [
+    {
+     "t": "CBS News",
+     "u": "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/"
+    }
+   ]
+  },
+  {
+   "activo": "Kospi (Corea) y Nikkei 225 (Japón)",
+   "cambio": "−8,0 % y −7,7 %",
+   "por_que": "==Samsung, SK Hynix (memorias) y SoftBank==, los grandes nombres de la IA en Asia; el viernes, interrupción automática de la negociación en Seúl.",
+   "fuentes": [
+    {
+     "t": "24/7 Wall St.",
+     "u": "https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/"
+    }
+   ]
+  },
+  {
+   "activo": "Plata, cobre y oro",
+   "cambio": "−16,3 %, −9,9 % y −9,5 %",
+   "por_que": "==Dólar en máximos de 19 meses y Fed dura== (el oro no paga intereses), y el viernes ventas forzadas para cubrir pérdidas en bolsa. El oro, en mínimos desde septiembre de 2025.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/news/gold-set-for-steepest-weekly-drop-since-march-as-fed-hike-bets-and-forced-selling-weigh-202611201123"
+    },
+    {
+     "t": "Bespoke",
+     "u": "https://bespokeinvest.substack.com/p/commodities-fall-with-a-thud"
+    }
+   ]
+  },
+  {
+   "activo": "Bitcoin",
+   "cambio": "−13,7 %",
+   "por_que": "Activo de riesgo apalancado: ==cae con el Nasdaq cuando se reduce endeudamiento==.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/cryptocurrencies/news/gold-testing-3-500-bitcoin-crashed-to-58-800-brutal-but-expected-202611201929"
+    }
+   ]
+  },
+  {
+   "activo": "Euro Stoxx 50 e Ibex 35",
+   "cambio": "−7,0 % y −5,7 %",
+   "por_que": "==ASML, SAP e Infineon== por la tecnología, Deutsche Bank e Indra por noticias propias, y Repsol y mineras por las materias primas. El Ibex pierde los 19.000.",
+   "fuentes": [
+    {
+     "t": "MarketScreener",
+     "u": "https://www.marketscreener.com/news/european-stocks-mark-worst-day-in-eight-months-on-ai-jitters-deutsche-bank-slides-ce785edcdd8df723"
+    },
+    {
+     "t": "MLQ",
+     "u": "https://mlq.ai/news/european-stocks-close-down-2-to-cap-their-worst-week-since-march-as-asml-and-infineon-slump/"
+    },
+    {
+     "t": "Estrategias de Inversión",
+     "u": "https://www.estrategiasdeinversion.com/actualidad/noticias/bolsa-espana/el-ibex-35-baja-mas-de-1100-puntos-hasta-quebrar-n-972271"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "−3,4 % (92,6 $)",
+   "por_que": "==Excedente previsto por la AIE== y miedo a menos demanda; los ataques en el Golfo frenaron la caída al final de la semana.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/16/oil-prices-brent-wti-latest.html"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Restricciones de chips a China",
+   "texto": "El lunes, el Departamento de Comercio exigió licencia para vender chips avanzados a varios países del sudeste asiático y Brasil y ==vetó los centros de datos que alquilan esa potencia a empresas chinas==. Cierra la vía por la que China usaba los chips sin comprarlos, y con ella ventas futuras de Nvidia, AMD o Broadcom.",
+   "fuentes": [
+    {
+     "t": "Fortune",
+     "u": "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"
+    }
+   ]
+  },
+  {
+   "tema": "Nvidia: de batir previsiones a la SEC",
+   "texto": "El martes Nvidia ==batió previsiones (115.840 M$ de ingresos) y aun así cayó== el miércoles: el mercado ya no premia resultados si el entorno empeora. El viernes, Reuters informó de que ==la SEC examina posibles problemas contables==: −12 % en el día y un golpe a la confianza en los beneficios que justifican las valoraciones de toda la IA.",
+   "fuentes": [
+    {
+     "t": "Benzinga",
+     "u": "https://www.benzinga.com/markets/economic-data/26/11/63409950/fed-minutes-almost-all-officials-more-hikes-ai-debt"
+    },
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-plunges-12-reuters-201702082.html"
+    }
+   ]
+  },
+  {
+   "tema": "Anthropic y el software",
+   "texto": "Los nuevos modelos de OpenAI (GPT-6.2) ==hundieron al software== por el miedo a que la IA sustituya sus programas. Y la salida a bolsa de Anthropic, la mayor de la historia, ==obligó a vender otras tecnológicas para hacer hueco==; su debut (+17 %) fue la señal de venta del jueves.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+    },
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "tema": "Reserva Federal (Fed) sin red",
+   "texto": "Actas de octubre con ==casi todos los miembros a favor de más subidas==, Musalem pidiendo subir antes, Waller abriendo la puerta a 0,50 y un sondeo de Filadelfia con precios al alza. Resultado: ==~97 % de probabilidad de subida el 9 de diciembre== incluso tras el desplome. Sin la expectativa de rescate de la Fed, las caídas se agravan.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+    },
+    {
+     "t": "Benzinga",
+     "u": "https://www.benzinga.com/markets/economic-data/26/11/63409950/fed-minutes-almost-all-officials-more-hikes-ai-debt"
+    },
+    {
+     "t": "Axios",
+     "u": "https://www.axios.com/2026/11/16/fed-warsh-ai-boom-stocks"
+    }
+   ]
+  },
+  {
+   "tema": "Dólar fuerte y desapalancamiento",
+   "texto": "==El dólar en máximos de 19 meses encarece las materias primas== para quien no paga en dólares, y una Fed dura castiga a lo que no paga cupón (oro, plata, bitcoin). El viernes se sumaron ==las llamadas de margen==: quien pierde en bolsa vende lo que tiene a mano, incluido el oro.",
+   "fuentes": [
+    {
+     "t": "Bespoke",
+     "u": "https://bespokeinvest.substack.com/p/commodities-fall-with-a-thud"
+    },
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/news/gold-set-for-steepest-weekly-drop-since-march-as-fed-hike-bets-and-forced-selling-weigh-202611201123"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. ==la curva bajó y se aplanó==. El 10 años cayó 24 pb (de 5,15 % a 4,91 %), el 5 años 28 pb y el 30 años 18 pb, después de la peor semana desde abril de 2025 (+29 pb). Tres fuerzas empujaron hacia abajo: ==la huida a refugio desde la bolsa==, sobre todo el viernes (−14 pb en el 10 años); ==el miedo a que la caída de la riqueza y de la inversión en IA frene la economía==; y ==el desplome de petróleo y metales, que rebaja la inflación esperada==. Pero ==el 2 años bajó mucho menos (−12 pb hasta el jueves, 4,76 %, y unos −5 pb más el viernes según prensa)== porque está anclado a la Fed, que sigue con ~97 % de probabilidad de subir en diciembre. Esa distancia es el mensaje: el mercado teme que ==la Fed suba tipos justo cuando la economía se enfría==. El MOVE (volatilidad de los bonos) subió un 7,6 % y el diferencial del high yield (bonos de alto rendimiento) se amplió 29 pb hasta el jueves (3,52 %): ==el crédito empieza a notar el estrés==.\n\nEn la zona euro, en cambio, ==los bonos no hicieron de refugio hasta el jueves==: la AAA a 10 años (≈ Bund) subió 3 pb (3,44 %) y el 2 años 5 pb (3,13 %). La razón es que ==el mercado descuenta tres subidas del Banco Central Europeo (BCE) hasta finales de 2027== (del 2,5 % a ≈ 3,2 %) y los bonos europeos siguieron a una Fed más dura. El dato oficial del viernes aún no está publicado; lo esperable es una bajada por refugio. ==Francia sigue en el foco==: su diferencial con Alemania (≈ 154 pb el martes) está en niveles de la crisis del euro, aunque el Banco de Francia calificó de «exagerada» la preocupación por su presupuesto.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−24 pb (4,91 %)",
+    "por_que": "==Refugio y menos crecimiento esperado==; materias primas baratas → menos inflación esperada.",
+    "fuentes": [
+     {
+      "t": "Traders Union",
+      "u": "https://tradersunion.com/news/economic-data/show/4335911-us-treasury-yields-fall-safe-haven/"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "−12 pb hasta el jueves (4,76 %); ≈ −17 pb con el viernes (prensa)",
+    "por_que": "==Anclado a la subida de la Fed en diciembre==: baja mucho menos que el largo.",
+    "fuentes": [
+     {
+      "t": "CNBC",
+      "u": "https://cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "−18 pb (5,30 %)",
+    "por_que": "Refugio, pero frenado por la prima por plazo (compensación por prestar a muy largo con déficit alto)."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "+3 pb hasta el jueves (3,44 %); viernes sin dato del BCE",
+    "por_que": "==Sigue a la Fed dura y a las subidas del BCE descontadas==; no actuó como refugio.",
+    "fuentes": [
+     {
+      "t": "Global Banking & Finance",
+      "u": "https://www.globalbankingandfinance.com/euro-zone-yields-rise-traders-bet-three-ecb-hikes-late-2027/"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "+5 pb hasta el jueves (3,13 %)",
+    "por_que": "Tres subidas del BCE descontadas hasta finales de 2027.",
+    "fuentes": [
+     {
+      "t": "Global Banking & Finance",
+      "u": "https://www.globalbankingandfinance.com/euro-zone-yields-rise-traders-bet-three-ecb-hikes-late-2027/"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Francia–Alemania",
+    "cambio": "≈ 154 pb (martes, prensa)",
+    "por_que": "==Riesgo presupuestario y tensión social==: en niveles de la crisis del euro."
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Traders Union",
+    "u": "https://tradersunion.com/news/economic-data/show/4335911-us-treasury-yields-fall-safe-haven/"
+   },
+   {
+    "t": "Global Banking & Finance",
+    "u": "https://www.globalbankingandfinance.com/euro-zone-yields-rise-traders-bet-three-ecb-hikes-late-2027/"
+   },
+   {
+    "t": "CNBC",
+    "u": "https://cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "Con 3.566 fondos (a parte aún le falta el valor liquidativo, VL, del viernes), ==la renta variable cae un 4,47 % de mediana==, mixtos −2,12 %, alternativos −0,41 %, materias primas e inmobiliario −4,29 % y renta fija −0,14 %; solo los monetarios suben (+0,04 %). ==La renta fija no compensó==: los fondos invierten sobre todo en deuda europea, que no hizo de refugio, y el crédito sufrió.\n\nArriba, ==India casi en exclusiva (+3,8 % a +5 %)==, más los fondos que ganan cuando la bolsa cae: ==los inversos de Bankinter (+4,4 % a +5 %)== y un alternativo de futuros. Abajo, ==Taiwán (hasta −21,8 %)==, Gran China, innovación disruptiva, emergentes concentrados en chips y ==las mineras de oro y metales (−13 % a −14,3 %)==, que pagan el desplome del oro y la plata. Un fondo tecnológico de IronIA sube un 5,1 % con VL al jueves: no cuadra con su categoría y ==hay que tomarlo con cautela==.",
+  "suben": [
+   {
+    "isin": "LU0266116010",
+    "por_que": "Bolsa india en clase en dólares: ==+4,98 % en euros frente a +4,39 % en dólares==; la caída del euro (−0,6 %) suma. Disponible en IronIA."
+   },
+   {
+    "isin": "LU0329070915",
+    "por_que": "India diversificada (State Bank of India, Bharti Airtel, Larsen & Toubro): ==Sensex +2,9 % y rupia más fuerte==. +4,6 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "ES0164384010",
+    "por_que": "==Fondo inverso: gana cuando cae el S&P 500== (futuros vendidos y liquidez en letras). +5 % con VL hasta el jueves; el desplome del viernes aún no está. Disponible en Bankinter."
+   },
+   {
+    "isin": "ES0164585004",
+    "por_que": "Inverso sobre la bolsa europea: ==+4,4 % mientras el Euro Stoxx 50 caía==. VL hasta el jueves. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU2228268293",
+    "por_que": "Alternativo de futuros que sigue tendencias: ==ganan cuando hay caídas largas y ordenadas== en bolsa y metales. +5,1 % con VL hasta el jueves. Disponible en IronIA."
+   },
+   {
+    "isin": "LU0522352516",
+    "por_que": "Banca india (ICICI, HDFC, Kotak: más del 40 % en financieras). +4,3 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "IE00BK8V7R07",
+    "por_que": "India en clase en dólares: ==+4,12 % en euros frente a +3,54 % en dólares==, efecto divisa a favor. Disponible en IronIA."
+   },
+   {
+    "isin": "LU1345291485",
+    "por_que": "Temático tecnológico que ==sube un 5,1 % en una semana de desplome tecnológico==, con VL al jueves y sin cartera disponible: dato a confirmar. Disponible en IronIA."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU0401357313",
+    "por_que": "Taiwán (TSMC, MediaTek, ASE): ==−21,8 %, más que el Taiex (−17,5 %)==, por su sesgo a chips y la debilidad del dólar taiwanés con la salida de capital extranjero. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0270816068",
+    "por_que": "Taiwán en clase en dólares: ==−19,9 % en dólares, −19,5 % en euros==; el dólar más fuerte amortigua algo. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0273689215",
+    "por_que": "Gran China con mucha tecnología (Taiwán y Hong Kong): ==Taiwán −17,5 % y Hang Seng −5,2 %== con Tencent castigado por su gasto en IA. −15,7 %. Disponible en IronIA."
+   },
+   {
+    "isin": "LU1861559471",
+    "por_que": "Innovación disruptiva al estilo ARK: ==valores de crecimiento sin beneficios==, los más sensibles a una Fed dura y a la venta de la IA. −15,2 %. Disponible en IronIA."
+   },
+   {
+    "isin": "LU0688698975",
+    "por_que": "Emergentes con ==Samsung, SK Hynix, TSMC y futuros sobre Taiwán== en CFD (contratos por diferencias): concentración en chips. −14,4 %, clase cubierta a euros. Disponible en Bankinter."
+   },
+   {
+    "isin": "IE00BYVJR916",
+    "por_que": "Mineras y fondos físicos de oro y plata: ==plata −16,3 % y oro −9,5 %==; las mineras amplifican el movimiento del metal. −14,3 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU1223083087",
+    "por_que": "Mineras de oro (Barrick, Agnico Eagle, Newmont): ==oro en mínimos desde septiembre de 2025==. −14,3 %. Disponible en Bankinter y ABANCA."
+   },
+   {
+    "isin": "LU0326424115",
+    "por_que": "Minería diversificada (Glencore, Rio Tinto, Anglo American, BHP): ==cobre −9,9 %== con el dólar fuerte y el miedo a menos demanda. −13,2 %. Disponible en Bankinter."
+   }
+  ],
+  "por_clase": [
+   {
+    "clase": "Renta variable",
+    "texto": "Mediana −4,47 % (1.676 fondos): India arriba; Taiwán, chips, crecimiento y mineras abajo."
+   },
+   {
+    "clase": "Renta fija",
+    "texto": "−0,14 % (1.067 fondos): deuda europea sin refugio y crédito más caro."
+   },
+   {
+    "clase": "Mixtos",
+    "texto": "−2,12 % (452 fondos): la parte de bolsa pesa más que el colchón de bonos."
+   },
+   {
+    "clase": "Materias primas e inmobiliario",
+    "texto": "−4,29 % (9 fondos): metales a la baja."
+   }
+  ]
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-23",
+   "evento": "Índices PMI (gestores de compras) preliminares de noviembre: zona euro, Francia, Reino Unido y EE. UU.",
+   "por_que_importa": "==Primera foto de la actividad tras el desplome==; en Francia se espera seguir en contracción (≈ 46), lo que puede presionar su prima de riesgo.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/analysis/week-ahead-flash-pmis-and-pce-inflation-in-focus-ahead-of-thanksgiving-202611201011"
+    },
+    {
+     "t": "Orbex",
+     "u": "https://www.orbex.com/blog/en/2026/11/global-flash-pmis-and-currency-divergence"
+    }
+   ]
+  },
+  {
+   "fecha": "2026-11-23",
+   "evento": "Reapertura de Asia y Wall Street tras la peor semana desde 2020",
+   "por_que_importa": "==Dirá si las ventas forzadas se agotan o continúan==; atención a Nvidia, TSMC y Anthropic."
+  },
+  {
+   "fecha": "2026-11-25",
+   "evento": "PCE (deflactor del gasto en consumo personal) de octubre en EE. UU., antes de Acción de Gracias",
+   "por_que_importa": "Es la medida de inflación preferida de la Fed: ==un dato alto reforzaría la subida de 0,50== en diciembre.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/analysis/week-ahead-flash-pmis-and-pce-inflation-in-focus-ahead-of-thanksgiving-202611201011"
+    }
+   ]
+  },
+  {
+   "fecha": "2026-11-26",
+   "evento": "Acción de Gracias: Wall Street cerrada (y media sesión el 27)",
+   "por_que_importa": "Menos liquidez: los movimientos pueden ser más bruscos."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "~97 % de probabilidad de +0,25; ==la duda es si suben 0,50 pese a la caída de la bolsa==."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "SEC",
+   "def": "Securities and Exchange Commission: el supervisor de los mercados de valores de EE. UU."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento."
+  },
+  {
+   "sigla": "pb",
+   "def": "Puntos básicos: 1 pb = 0,01 puntos porcentuales."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad esperada del S&P 500 a 30 días; por encima de 30 indica pánico."
+  },
+  {
+   "sigla": "MOVE",
+   "def": "Índice de volatilidad esperada de los bonos del Tesoro de EE. UU."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: mercado de referencia del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "GNL",
+   "def": "Gas natural licuado, transportado en barcos metaneros."
+  },
+  {
+   "sigla": "PMI",
+   "def": "Purchasing Managers' Index: encuesta a gestores de compras; por encima de 50 indica expansión."
+  },
+  {
+   "sigla": "PCE",
+   "def": "Personal Consumption Expenditures: índice de precios del gasto en consumo, el preferido de la Fed."
+  },
+  {
+   "sigla": "Llamada de margen",
+   "def": "Exigencia del intermediario de aportar más garantías cuando caen los activos comprados con deuda; obliga a vender."
+  },
+  {
+   "sigla": "Corrección",
+   "def": "Caída de más del 10 % desde el último máximo."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio diario de una participación del fondo."
+  },
+  {
+   "sigla": "CFD",
+   "def": "Contrato por diferencias: derivado que replica la subida o bajada de una acción sin comprarla."
+  },
+  {
+   "sigla": "ETF",
+   "def": "Exchange Traded Fund: fondo cotizado en bolsa."
+  },
+  {
+   "sigla": "DXY",
+   "def": "Índice del dólar frente a una cesta de grandes monedas."
+  },
+  {
+   "sigla": "AIE",
+   "def": "Agencia Internacional de la Energía."
+  },
+  {
+   "sigla": "High yield",
+   "def": "Bonos de alto rendimiento: deuda de empresas con peor calificación crediticia."
+  }
+ ],
+ "generado": "2026-11-21T09:55"
+}
