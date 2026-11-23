@@ -1,0 +1,482 @@
+{
+ "periodo": "diario",
+ "clave": "2026-11-23",
+ "fase": "mercado",
+ "titulo": "Vuelve Jensen Huang: Nvidia +31 %, Nasdaq 100 +6,9 % y el VIX se desinfla",
+ "resumen": "Tras el «viernes negro» de la inteligencia artificial (IA), el lunes llegó el giro. ==El consejo de Nvidia readmitió a Jensen Huang como consejero delegado==, doce días después de forzar su salida por «falta de franqueza» sobre relaciones personales. Nvidia dijo además que contó con el visto bueno de altos cargos del Gobierno y que su regreso no supone riesgo para la seguridad nacional. ==La acción subió un 31 %, cerca de un billón de dólares de valor recuperado en un día==. Como pesa tanto en los índices y es el termómetro de toda la cadena de la IA, arrastró a chips y centros de datos: Micron +19 %, CoreWeave +21 %, Intel +13 %. ==Nasdaq 100 +6,9 % (26.750), S&P 500 +4,7 % (7.237)==, Dow Jones +3 % y Russell 2000 +3,4%: ==el mejor día desde abril de 2025==. Ojo: la revisión contable de la SEC (Securities and Exchange Commission) sigue abierta y Nvidia aún cotiza ~20 % por debajo de hace un mes. El rebote se explica por el alivio en la gestión de la empresa, no porque se haya despejado la duda contable.\n\nEuropa subió menos porque cerró antes de lo mejor de Wall Street y pesa menos la tecnología: ==Stoxx 600 +1,8 %, Euro Stoxx 50 +2,2 %, DAX +2,2 %==, CAC 40 +1,5 %, ==Ibex 35 +1,63 % (19.181)== con ArcelorMittal, ACS e Indra al frente, FTSE MIB +0,65 % y SMI +1,1 %. Los PMI (índices de gestores de compras) dieron un tono mixto: ==Alemania en su mejor nivel en 56 meses (55) y Francia hundida en 46,2==, con la zona euro estable en 51,7. En Asia el giro llegó tarde: ==el Kospi coreano cayó un 2,5 %== (llegó a perder casi un 6 % y saltó el freno a la venta automática) porque cerró antes de la noticia; Taiwán, en cambio, rebotó un 2,2 %. Japón estuvo cerrado por festivo. El ETF de emergentes EEM, que cotiza en Nueva York, subió un 7,4 %: ==anticipa el rebote que Asia debería hacer el martes==.\n\nEl miedo se desinfló: ==el VIX (volatilidad esperada del S&P 500) bajó un 26 %, de 35,9 a 26,6==, y el MOVE (volatilidad de los bonos) un 5 %. Con el fin de las ventas forzadas, ==el oro rebotó un 3,3 % (3.633 $) y la plata un 4,5 %==: el viernes se vendieron para cubrir llamadas de margen, y el lunes se recompraron. Lo hicieron incluso con un dólar más firme (DXY +0,5 %) y el euro en 1,094 $ (−0,5 %). En sentido contrario, ==el petróleo cayó con fuerza: WTI −4,4 % (80,3 $), en mínimos desde agosto==. Trump dio más tiempo a la diplomacia con Irán y las exportaciones del Golfo casi se han normalizado, ==lo que pesa más que los ataques del fin de semana==. El −6,3 % del Brent en nuestros datos está inflado por el cambio al contrato de febrero; la prensa da cerca de un −3,5 %.",
+ "claves": [
+  "==Nvidia +31 % al readmitir a Jensen Huang==: Nasdaq 100 +6,9 % y S&P 500 +4,7 %, el mejor día desde abril de 2025.",
+  "La revisión contable de la SEC sigue abierta: ==el rebote es alivio de gobierno corporativo, no un cierre de la duda==.",
+  "Europa sube menos (Stoxx 600 +1,8 %, Ibex +1,63 %); ==PMI: Alemania en máximos de 56 meses, Francia se hunde (46,2)==.",
+  "Asia cerró antes de la noticia: ==Kospi −2,5 %==, Taiwán +2,2 % y Japón cerrado por festivo.",
+  "==VIX −26 % (26,6)==; oro +3,3 % y plata +4,5 % al cesar las ventas forzadas.",
+  "==Petróleo a mínimos desde agosto (WTI −4,4 %)==: más diplomacia con Irán y exceso de oferta; el 2 años de EE. UU. sube 7 pb."
+ ],
+ "suben": [
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "+6,86 % (26.750)",
+   "por_que": "==Nvidia +31 % tras la vuelta de Huang== y contagio a toda la cadena de la IA (Micron +19 %, CoreWeave +21 %, Intel +13 %). Tras caer un 10 % la semana pasada, los bajistas cerraron posiciones cortas (recompraron), lo que amplificó la subida.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html"
+    },
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
+    }
+   ]
+  },
+  {
+   "activo": "S&P 500",
+   "cambio": "+4,73 % (7.237)",
+   "por_que": "Las tecnológicas son ~un tercio del índice, así que el rebote de Nvidia y los chips lo arrastra; ==recupera buena parte de la corrección== de la semana pasada.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html"
+    }
+   ]
+  },
+  {
+   "activo": "MSCI Emergentes (ETF EEM)",
+   "cambio": "+7,41 %",
+   "por_que": "Cotiza en Nueva York y pesa mucho en TSMC, Samsung y SK Hynix: ==descuenta el rebote que Asia, ya cerrada, no pudo hacer el lunes==.",
+   "fuentes": [
+    {
+     "t": "Korea JoongAng Daily",
+     "u": "https://www.koreajoongangdaily.com/business/kospi-slips-33-as-ai-stock-selloff-hits-samsung-sk-hynix/12986396"
+    }
+   ]
+  },
+  {
+   "activo": "DAX / Euro Stoxx 50",
+   "cambio": "+2,15 % / +2,23 %",
+   "por_que": "Semiconductores europeos (ASML, Infineon) al frente; en Alemania ayudó además ==el PMI compuesto en 55, máximo de 56 meses==.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance (Europa)",
+     "u": "https://finance.yahoo.com/markets/world-indices/articles/european-markets-close-strong-nvidia-191824403.html"
+    },
+    {
+     "t": "MLQ",
+     "u": "https://mlq.ai/news/european-stocks-close-up-nearly-2-as-chipmakers-lead-a-rebound-from-the-ai-rout/"
+    },
+    {
+     "t": "MLQ (PMI)",
+     "u": "https://mlq.ai/news/flash-pmis-germanys-growth-hits-a-56-month-high-as-france-slumps-and-the-euro-zone-holds-steady/"
+    }
+   ]
+  },
+  {
+   "activo": "IBEX 35",
+   "cambio": "+1,63 % (19.181)",
+   "por_que": "Recupera los 19.000 tras cinco sesiones de caídas; ==menos tecnología, menos rebote==, con ArcelorMittal, ACS e Indra a la cabeza.",
+   "fuentes": [
+    {
+     "t": "Teleceuta",
+     "u": "https://teleceuta.com/ibex-35-cierra-con-un-aumento-del-163-el-23-de-noviembre-de-2026/"
+    },
+    {
+     "t": "ad-hoc-news",
+     "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/ibex-35-rebounds-1-63-prozent-as-nvidia-led-tech-rally-lifts-europe/70547614"
+    }
+   ]
+  },
+  {
+   "activo": "Oro / plata",
+   "cambio": "+3,34 % (3.633 $) / +4,48 %",
+   "por_que": "El viernes cayeron por ventas forzadas para cubrir llamadas de margen; ==al calmarse la bolsa, se recompran==. Subieron pese a un dólar más fuerte.",
+   "fuentes": [
+    {
+     "t": "investingLive",
+     "u": "https://investinglive.com/commodities/gold-rebounds-3-2-despite-a-stronger-dollar-and-higher-yields/"
+    },
+    {
+     "t": "COINOTAG",
+     "u": "https://en.coinotag.com/gold-xau-rebounds-3685-steepest-weekly-drop-since-march"
+    }
+   ]
+  },
+  {
+   "activo": "Uranio (ETF URA)",
+   "cambio": "+5,9 %",
+   "por_que": "Se mueve con la IA: ==más centros de datos implican más demanda de electricidad nuclear==, así que rebotó con los chips.",
+   "fuentes": [
+    {
+     "t": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural (TTF y Henry Hub)",
+   "cambio": "+3,3 % / +3,5 %",
+   "por_que": "Sin noticia concreta encontrada hoy: sigue la tendencia del viernes por previsiones de frío y el riesgo en el Golfo para el gas natural licuado (GNL); ==va por libre frente al petróleo==."
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "VIX",
+   "cambio": "−25,8 % (26,6)",
+   "por_que": "==Con la bolsa subiendo, cae la demanda de coberturas== (opciones de venta) y baja la volatilidad implícita; aun así sigue alto (por encima de 20).",
+   "fuentes": [
+    {
+     "t": "Saxo",
+     "u": "https://home.saxo/en-sg/content/articles/macro/market-quick-take---sentiment-bounces-after-friday-mayhem---23-november-2026-23112026"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo WTI",
+   "cambio": "−4,35 % (80,3 $)",
+   "por_que": "==Trump dio más margen a la diplomacia con Irán== y las exportaciones del Golfo casi se han normalizado, con previsiones de un exceso de oferta de ~2 millones de barriles diarios según la AIE (Agencia Internacional de la Energía). Menos petróleo = menos riesgo de inflación.",
+   "fuentes": [
+    {
+     "t": "Rigzone (Bloomberg)",
+     "u": "https://www.rigzone.com/news/oil_falls_as_trump_signals_iran_talks-23-nov-2026-185152-article"
+    },
+    {
+     "t": "Time News",
+     "u": "https://time.news/brent-wti-drop-as-supply-surplus-view-outweighs-middle-east-attacks/"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "−6,29 % (86,75 $) en nuestros datos",
+   "por_que": "Mismas causas que el WTI, pero ==la cifra está inflada por el cambio al contrato de febrero==; la prensa da un −3,5 %, en mínimos desde el 7 de agosto.",
+   "fuentes": [
+    {
+     "t": "Time News",
+     "u": "https://time.news/brent-wti-drop-as-supply-surplus-view-outweighs-middle-east-attacks/"
+    },
+    {
+     "t": "Investing.com (Brent)",
+     "u": "https://www.investing.com/commodities/brent-oil"
+    }
+   ]
+  },
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "−2,47 %",
+   "por_que": "==Cerró antes de que se conociera la vuelta de Huang== y siguió la estela del viernes: Samsung −3 %, SK Hynix −2,5 %. Llegó a caer casi un 6 % y saltó el freno automático; Seúl prepara un fondo de estabilización.",
+   "fuentes": [
+    {
+     "t": "Korea JoongAng Daily",
+     "u": "https://www.koreajoongangdaily.com/business/kospi-slips-33-as-ai-stock-selloff-hits-samsung-sk-hynix/12986396"
+    },
+    {
+     "t": "Invezz",
+     "u": "https://invezz.com/news/2026/11/23/kospi-crash-today-south-korea-market-rescue-samsung-sk-hynix"
+    }
+   ]
+  },
+  {
+   "activo": "Euro / dólar",
+   "cambio": "−0,46 % (1,094)",
+   "por_que": "==El dólar se apoya en la Fed, que sigue lista para subir tipos==, y en un PMI francés muy débil que pesa sobre el euro.",
+   "fuentes": [
+    {
+     "t": "CNBC (bonos)",
+     "u": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
+    },
+    {
+     "t": "Reuters vía Investing.com",
+     "u": "https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744"
+    }
+   ]
+  },
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "−0,95 % (frente al jueves)",
+   "por_que": "Brasil cerró el viernes por festivo; hoy pesó ==la caída del petróleo sobre Petrobras== y sobre el real, una divisa ligada a las materias primas.",
+   "fuentes": [
+    {
+     "t": "Rigzone (Bloomberg)",
+     "u": "https://www.rigzone.com/news/oil_falls_as_trump_signals_iran_talks-23-nov-2026-185152-article"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Nvidia: vuelve Huang, sigue la SEC",
+   "texto": "El consejo de Nvidia readmitió por unanimidad a Jensen Huang como consejero delegado. Había salido hace doce días por no ser franco sobre relaciones personales, entre ellas una con el líder de un gran cliente. ==Su vuelta despeja la mayor incógnita de gestión de la empresa más grande del mundo==, y por eso subió el 31 %. Queda abierta la investigación de la SEC sobre su contabilidad (según Reuters) y un comité independiente sigue investigando: ==el riesgo no ha desaparecido==.",
+   "fuentes": [
+    {
+     "t": "Nvidia (8-K, SEC)",
+     "u": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    },
+    {
+     "t": "Fortune",
+     "u": "https://fortune.com/2026/11/23/nvidia-board-reinstates-jensen-huang-twelve-days-sonnenfeld/"
+    },
+    {
+     "t": "Axios",
+     "u": "https://www.axios.com/2026/11/23/nvidia-board-jensen-huang-as-ceo"
+    }
+   ]
+  },
+  {
+   "tema": "Fin de las ventas forzadas",
+   "texto": "El viernes se vendió de todo, oro incluido, para cubrir pérdidas. El lunes ocurrió lo contrario: ==recompras de bajistas y vuelta del riesgo==. Por eso suben a la vez bolsa, oro y plata mientras el VIX cae un 26 %. Es típico de los rebotes tras un pánico: muy fuertes, pero no confirman por sí solos el final de la corrección.",
+   "fuentes": [
+    {
+     "t": "investingLive",
+     "u": "https://investinglive.com/commodities/gold-rebounds-3-2-despite-a-stronger-dollar-and-higher-yields/"
+    },
+    {
+     "t": "Saxo",
+     "u": "https://home.saxo/en-sg/content/articles/macro/market-quick-take---sentiment-bounces-after-friday-mayhem---23-november-2026-23112026"
+    }
+   ]
+  },
+  {
+   "tema": "Reserva Federal (Fed): Williams insiste en la inflación",
+   "texto": "John Williams, presidente de la Fed de Nueva York, dijo que ==queda trabajo para bajar la inflación== y que los riesgos apuntan al alza (guerra de Irán, demanda ligada a la IA, aranceles). Con la bolsa recuperada, el mercado vuelve a dar ==casi por segura (≈ 96–98 %) una subida de 0,25 el 9 de diciembre==.",
+   "fuentes": [
+    {
+     "t": "Bloomberg",
+     "u": "https://www.bloomberg.com/news/articles/2026-11-23/fed-s-williams-says-officials-must-act-over-time-on-inflation"
+    },
+    {
+     "t": "Seeking Alpha",
+     "u": "https://seekingalpha.com/news/4675799-more-work-needed-to-bring-inflation-to-target-ny-feds-williams-says"
+    },
+    {
+     "t": "CNBC (bonos)",
+     "u": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
+    }
+   ]
+  },
+  {
+   "tema": "PMI europeos: Alemania tira, Francia se hunde",
+   "texto": "El PMI compuesto de la zona euro se mantuvo en 51,7 (crecimiento moderado). Por dentro, la brecha es enorme: ==Alemania en 55, máximo de 56 meses, y Francia en 46,2== (contracción), por debajo de lo esperado. Esa divergencia explica por qué el DAX subió más que el CAC.",
+   "fuentes": [
+    {
+     "t": "Reuters vía Investing.com",
+     "u": "https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744"
+    },
+    {
+     "t": "MLQ (PMI)",
+     "u": "https://mlq.ai/news/flash-pmis-germanys-growth-hits-a-56-month-high-as-france-slumps-and-the-euro-zone-holds-steady/"
+    }
+   ]
+  },
+  {
+   "tema": "Petróleo: más oferta y diplomacia con Irán",
+   "texto": "Pese a nuevos ataques de Irán contra Baréin durante el fin de semana, ==pesó más que Trump diera tiempo a la vía diplomática y que el tráfico por Ormuz se acerque a niveles de antes de la guerra==. Libia reabrió el oleoducto de Sharara y la OPEP+ se reúne el 29 de noviembre con el mercado en exceso de oferta.",
+   "fuentes": [
+    {
+     "t": "Rigzone (Bloomberg)",
+     "u": "https://www.rigzone.com/news/oil_falls_as_trump_signals_iran_talks-23-nov-2026-185152-article"
+    },
+    {
+     "t": "Time News",
+     "u": "https://time.news/brent-wti-drop-as-supply-surplus-view-outweighs-middle-east-attacks/"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. ==la vuelta del apetito por riesgo deshizo parte de la huida a refugio del viernes, sobre todo en el tramo corto==. El 2 años subió unos 7 pb (4,68 % según CNBC; FRED aún no tiene el dato de hoy). Con la bolsa recuperada, desaparece el argumento de que la Fed tendría que frenar por el desplome, y ==la probabilidad de subida en diciembre pasó de ≈ 88 % a ≈ 98 %==. Williams lo reforzó al insistir en que la inflación sigue alta. ==El 10 años apenas se movió (+0,6 pb, 4,92 %) y el 30 años cayó 1 pb (5,29 %)==. El largo plazo pesa dos fuerzas opuestas: menos demanda de refugio empuja la TIR (tasa interna de rentabilidad) arriba, pero un petróleo más barato rebaja la inflación esperada y la empuja abajo. Resultado: ==la curva se aplana todavía más== (el 2 años sube y el 10 no), la señal de un mercado que ve a la Fed subir tipos en una economía que ya se enfría.\n\nEn la zona euro, el BCE (Banco Central Europeo) publica con un día de retraso, así que ==ya tenemos el viernes: AAA 10 años (≈ Bund) −8 pb hasta 3,36 % y 2 años −9,5 pb hasta 3,03 %==. Es la huida a refugio que esperábamos con el pánico. Del lunes no hemos encontrado cierre en prensa. Con bolsas al alza y un PMI alemán fuerte, ==lo lógico es que el Bund devolviera parte de esa bajada==. Y que el PMI francés (46,2) presione la prima de riesgo de Francia; queda pendiente de confirmar con el dato del BCE.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "≈ +7 pb (≈ 4,68 %, prensa)",
+    "por_que": "==Más probabilidad de subida de la Fed en diciembre== (≈ 98 %) al desaparecer el pánico bursátil; Williams insiste en la inflación.",
+    "fuentes": [
+     {
+      "t": "CNBC (bonos)",
+      "u": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
+     },
+     {
+      "t": "Bloomberg",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-23/fed-s-williams-says-officials-must-act-over-time-on-inflation"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 5 años",
+    "cambio": "+2,7 pb (4,73 %)",
+    "por_que": "A medio camino: recoge parte del repunte del tramo corto por la Fed."
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "+0,6 pb (4,92 %)",
+    "por_que": "Menos refugio (sube) compensado por ==petróleo más barato, que rebaja la inflación esperada== (baja): se queda plano.",
+    "fuentes": [
+     {
+      "t": "CNBC (bonos)",
+      "u": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "−0,9 pb (5,29 %)",
+    "por_que": "El tramo más sensible a la inflación a largo plazo ==agradece la caída del crudo==; la curva se aplana."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "Viernes: −8,1 pb (3,36 %); lunes sin dato",
+    "por_que": "El viernes, ==huida a refugio por el desplome de la IA==; el lunes, previsiblemente repunte con bolsas al alza y PMI alemán fuerte (pendiente del BCE)."
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "Viernes: −9,5 pb (3,03 %); lunes sin dato",
+    "por_que": "El viernes el mercado restó algo de probabilidad a subidas del BCE por el pánico; sin dato aún del lunes."
+   },
+   {
+    "bono": "Diferencial Francia–Alemania",
+    "cambio": "Sin dato de cierre",
+    "por_que": "==El PMI francés en 46,2 (contracción) frente al alemán en 55== juega en contra de la deuda francesa; no hemos encontrado la cifra de cierre.",
+    "fuentes": [
+     {
+      "t": "Reuters vía Investing.com",
+      "u": "https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "CNBC (bonos)",
+    "u": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
+   },
+   {
+    "t": "Bloomberg",
+    "u": "https://www.bloomberg.com/news/articles/2026-11-23/fed-s-williams-says-officials-must-act-over-time-on-inflation"
+   },
+   {
+    "t": "Reuters vía Investing.com",
+    "u": "https://www.investing.com/news/economic-indicators/euro-zone-growth-holds-steady-but-frances-deepening-downturn-clouds-outlook-pmi-shows-5044744"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "",
+  "suben": [],
+  "bajan": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-24",
+   "evento": "Asia reacciona a la vuelta de Huang; reabre Japón tras el festivo",
+   "por_que_importa": "==Corea, Taiwán y Japón no recogieron aún el rebote de Nvidia==: veremos si confirman el +7,4 % del ETF EEM."
+  },
+  {
+   "fecha": "2026-11-25",
+   "evento": "PCE (deflactor del gasto en consumo personal) de octubre en EE. UU.",
+   "por_que_importa": "Es la medida de inflación preferida de la Fed: ==un dato alto podría reavivar la subida de 0,50== en diciembre."
+  },
+  {
+   "fecha": "2026-11-26",
+   "evento": "Acción de Gracias: Wall Street cerrada (media sesión el 27)",
+   "por_que_importa": "Menos liquidez: movimientos más bruscos con la volatilidad todavía alta."
+  },
+  {
+   "fecha": "2026-11-29",
+   "evento": "Reunión de la OPEP+",
+   "por_que_importa": "Con el crudo en mínimos desde agosto y exceso de oferta, ==cualquier recorte o pausa movería el petróleo== y la inflación esperada.",
+   "fuentes": [
+    {
+     "t": "Time News",
+     "u": "https://time.news/brent-wti-drop-as-supply-surplus-view-outweighs-middle-east-attacks/"
+    }
+   ]
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "≈ 96–98 % de probabilidad de +0,25: ==la duda es el mensaje para 2027==.",
+   "fuentes": [
+    {
+     "t": "CNBC (bonos)",
+     "u": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
+    }
+   ]
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "SEC",
+   "def": "Securities and Exchange Commission: el supervisor de los mercados de valores de EE. UU."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se mantiene hasta el vencimiento; sube cuando baja su precio."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: 0,01 puntos porcentuales (25 pb = 0,25 %)."
+  },
+  {
+   "sigla": "PMI",
+   "def": "Purchasing Managers' Index, índice de gestores de compras: encuesta de actividad; por encima de 50 hay crecimiento, por debajo, contracción."
+  },
+  {
+   "sigla": "PCE",
+   "def": "Personal Consumption Expenditures: deflactor del gasto en consumo personal, la medida de inflación que vigila la Fed."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad esperada del S&P 500 a 30 días; por encima de 30 indica pánico."
+  },
+  {
+   "sigla": "MOVE",
+   "def": "Índice de volatilidad esperada de los bonos del Tesoro de EE. UU."
+  },
+  {
+   "sigla": "DXY",
+   "def": "Índice del dólar frente a una cesta de seis grandes divisas (con el euro como mayor peso)."
+  },
+  {
+   "sigla": "ETF",
+   "def": "Exchange-Traded Fund: fondo que cotiza en bolsa como una acción."
+  },
+  {
+   "sigla": "EEM",
+   "def": "ETF de iShares que replica el índice MSCI de mercados emergentes; cotiza en Nueva York."
+  },
+  {
+   "sigla": "AIE",
+   "def": "Agencia Internacional de la Energía."
+  },
+  {
+   "sigla": "OPEP+",
+   "def": "Organización de Países Exportadores de Petróleo más aliados como Rusia."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: referencia del precio del gas natural en Europa (Países Bajos)."
+  },
+  {
+   "sigla": "GNL",
+   "def": "Gas natural licuado, transportado por barco."
+  },
+  {
+   "sigla": "Llamada de margen",
+   "def": "Exigencia del intermediario de aportar más garantías cuando una posición apalancada pierde; obliga a vender otros activos."
+  },
+  {
+   "sigla": "Cambio de contrato (roll)",
+   "def": "Paso del futuro que vence al siguiente; si tienen precios distintos, la serie continua da un salto que no es un movimiento real del mercado."
+  }
+ ],
+ "generado": "2026-11-23T23:20"
+}
