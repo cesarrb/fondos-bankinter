@@ -1,0 +1,459 @@
+{
+ "periodo": "diario",
+ "clave": "2026-11-24",
+ "fase": "mercado",
+ "titulo": "Asia celebra a Huang con un +9 % en Taiwán; Wall Street se lo devuelve y rota al Dow",
+ "resumen": "El regreso de Jensen Huang a Nvidia llegó a Asia con un día de retraso y lo hizo a lo grande. ==El Taiex de Taiwán subió un 9 % y el Kospi coreano un 7,4 %==, con TSMC, MediaTek, Samsung y SK Hynix como motores, y el Nikkei japonés ganó un 4,2 % al reabrir tras el festivo, tirado por Tokyo Electron y Advantest. Son índices donde los fabricantes de chips pesan muchísimo (TSMC supera el 40 % del Taiex), así que ==el rebote de Nvidia del lunes se trasladó casi en bloque==.\n\nEn Occidente el tono fue el contrario. ==Nvidia cayó cerca de un 6 % y devolvió parte del +31 % del lunes==: el alivio por la vuelta de Huang deja abiertas las dudas de gobierno corporativo y de valoración de la inteligencia artificial (IA). Micron (−11 %), CoreWeave (−12 %) y ==Anthropic, que cerró por debajo de su precio de salida a bolsa (83 $)==, ampliaron el castigo. A la vez, Bloomberg y Reuters adelantaron que ==EE. UU. prepara nuevos aranceles por «sobrecapacidad» a 16 socios==, entre ellos China, la UE, Japón, Corea, Taiwán y Suiza. Resultado: ==Nasdaq 100 −2 % y S&P 500 −0,5 %, pero Dow Jones +0,85 % y Russell 2000 +0,6 %==. El dinero salió de la tecnología hacia salud, consumo y bancos, ayudado por una ==confianza del consumidor (Conference Board) que saltó a 103,3==, máximo en casi dos años, y por buenos resultados de minoristas a las puertas del Black Friday.\n\nEuropa siguió a los chips a la baja: ==Euro Stoxx 50 −1,2 %, DAX −1,3 % y FTSE MIB −1,8 %== (STMicroelectronics se dejó más de un 10 %), Ibex 35 −0,9 % (19.020) y Stoxx 600 −0,7 %. Sanofi brilló al anunciar la compra de Insmed por 41.000 millones de dólares, y París y Zúrich quedaron planos gracias al peso de salud y lujo.\n\nEn materias primas, ==día muy malo para los metales: oro −2,7 % (3.551 $), plata −5,9 % y cobre −2,6 %==. La amenaza arancelaria castiga a los metales industriales, y la Fed (Reserva Federal) a punto de subir tipos resta atractivo al oro aunque el dólar cediera un 0,5 %. El petróleo fue dispar (Brent −1,1 %, WTI +1,8 %) entre el exceso de oferta y las tensiones en Ormuz. El VIX siguió alto (26,4) y el bitcoin cayó un 2,3 %.",
+ "claves": [
+  "==Asia recogió el regreso de Huang==: Taiex +9 %, Kospi +7,4 % y Nikkei +4,2 %, de la mano de TSMC, Samsung, SK Hynix y Tokyo Electron.",
+  "==Wall Street rotó==: Nasdaq 100 −2 % con Nvidia −6 % y Anthropic bajo su precio de salida, mientras el Dow subió un 0,85 %.",
+  "==Amenaza de nuevos aranceles por «sobrecapacidad»== a 16 socios (UE, China, Japón, Corea, Taiwán, Suiza): pesa sobre chips y metales.",
+  "==Metales a la baja: plata −5,9 %, oro −2,7 %, cobre −2,6 %==; el cobre ya cae más de un 20 % desde su récord de septiembre.",
+  "Bonos casi quietos: ==el 10 años de EE. UU. en 4,90 % y la Fed con ≈ 95 % de probabilidad de subir en diciembre==; el diferencial italiano se abrió hasta ≈ 109 pb."
+ ],
+ "suben": [
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "+8,99 % (40.122)",
+   "por_que": "==Récord de subida por el regreso de Huang a Nvidia==: TSMC y MediaTek, casi +10 %. TSMC fabrica los chips de Nvidia y pesa más del 40 % del índice, por eso Taiwán amplifica cualquier noticia de la IA.",
+   "fuentes": [
+    {
+     "t": "MLQ (Asia)",
+     "u": "https://mlq.ai/news/taiwans-taiex-closes-up-9-and-the-kospi-tops-5000-as-asian-chipmakers-rally-on-huangs-return/"
+    },
+    {
+     "t": "Yahoo News",
+     "u": "https://sg.news.yahoo.com/asian-stocks-soar-jensen-huang-070650261.html"
+    }
+   ]
+  },
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "+7,37 % (5.056)",
+   "por_que": "Samsung y SK Hynix, proveedores de memoria para los chips de IA, subieron con fuerza y ==superan juntos el 40 % del índice==. Recupera los 5.000 puntos.",
+   "fuentes": [
+    {
+     "t": "MLQ (Asia)",
+     "u": "https://mlq.ai/news/taiwans-taiex-closes-up-9-and-the-kospi-tops-5000-as-asian-chipmakers-rally-on-huangs-return/"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "+4,21 % (58.810; vs. viernes)",
+   "por_que": "Reabrió tras el festivo del lunes y descontó dos días de golpe: ==Tokyo Electron +10,5 % y Advantest +14 %==, fabricantes de máquinas y pruebas para chips.",
+   "fuentes": [
+    {
+     "t": "Yahoo News",
+     "u": "https://sg.news.yahoo.com/asian-stocks-soar-jensen-huang-070650261.html"
+    }
+   ]
+  },
+  {
+   "activo": "Dow Jones",
+   "cambio": "+0,85 % (50.020)",
+   "por_que": "==Rotación desde la tecnología hacia valores «de toda la vida»==: Amgen, Nike y Salesforce subieron. Dos de cada tres empresas del S&P 500 acabaron al alza; la confianza del consumidor (103,3) y Abercrombie & Fitch apoyaron al consumo.",
+   "fuentes": [
+    {
+     "t": "Business Today",
+     "u": "https://www.businesstoday.in/markets/stocks/story/nasdaq-falls-as-nvidia-slides-over-7-ai-stocks-retreat-after-mondays-sharp-wall-street-rally-569261-2026-11-24"
+    },
+    {
+     "t": "IBTimes",
+     "u": "https://www.ibtimes.com/us-stocks-mixed-ai-selloff-consumer-confidence-3810150"
+    },
+    {
+     "t": "investingLive (cierre EE. UU.)",
+     "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+    }
+   ]
+  },
+  {
+   "activo": "Russell 2000 (pequeñas EE. UU.)",
+   "cambio": "+0,57 %",
+   "por_que": "Las pequeñas dependen de la economía doméstica y poco de la IA: ==una confianza del consumidor fuerte las favorece==.",
+   "fuentes": [
+    {
+     "t": "investingLive (cierre EE. UU.)",
+     "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural EE. UU. (Henry Hub)",
+   "cambio": "+15,6 % en nuestra serie (≈ +4–5 % real)",
+   "por_que": "==Ojo: la mayor parte es un cambio de contrato== (la serie pasa del vencimiento de diciembre al de enero, que cotiza más caro por el invierno). El movimiento real fue de un 4–5 % por previsiones más frías y la primera extracción de las reservas.",
+   "fuentes": [
+    {
+     "t": "NGI",
+     "u": "https://www.naturalgasintel.com/news/natural-gas-futures-shake-off-weather-blues-leave-red-in-the-dust/"
+    },
+    {
+     "t": "Finimize",
+     "u": "https://finimize.com/content/us-natural-gas-prices-bounced-after-a-rough-two-days"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo WTI",
+   "cambio": "+1,81 % (81,6 $)",
+   "por_que": "Rebote tras la caída del lunes por las tensiones en Ormuz: ==Irán pidió endurecer el control del estrecho==. El Brent, en cambio, bajó (ver abajo): divergencia sin noticia clara, probablemente por horarios y vencimientos de contrato.",
+   "fuentes": [
+    {
+     "t": "investingLive (cierre EE. UU.)",
+     "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+    },
+    {
+     "t": "Bank of Volatility",
+     "u": "https://bankofvol.substack.com/p/anthropic-breaks-its-ipo-price-as-ai-rebound-fades"
+    }
+   ]
+  },
+  {
+   "activo": "Trigo",
+   "cambio": "+2,04 %",
+   "por_que": "Sin noticia concreta; rebote técnico tras semanas de debilidad."
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Plata",
+   "cambio": "−5,85 % (40,6 $)",
+   "por_que": "Metal mitad precioso, mitad industrial: ==la sufren a la vez la Fed endurecedora y la amenaza arancelaria==. Cae casi el doble de rápido que el oro desde sus máximos de 2026.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://fxstreet.com/analysis/silver-is-falling-almost-twice-as-fast-as-gold-from-their-2026-peaks-202611241638"
+    },
+    {
+     "t": "investingLive (cierre EE. UU.)",
+     "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+    }
+   ]
+  },
+  {
+   "activo": "Oro",
+   "cambio": "−2,74 % (3.551 $)",
+   "por_que": "Devolvió el rebote del lunes y se acerca al mínimo de un año (≈ 3.515 $). ==Con la Fed a punto de subir tipos, un activo que no paga intereses pierde atractivo==, y ni siquiera un dólar más débil lo sostuvo.",
+   "fuentes": [
+    {
+     "t": "investingLive (cierre EE. UU.)",
+     "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+    },
+    {
+     "t": "Bank of Volatility",
+     "u": "https://bankofvol.substack.com/p/anthropic-breaks-its-ipo-price-as-ai-rebound-fades"
+    }
+   ]
+  },
+  {
+   "activo": "Cobre",
+   "cambio": "−2,55 %",
+   "por_que": "==Los nuevos aranceles amenazan la demanda industrial==; el cobre ya está más de un 20 % por debajo de su récord de septiembre (mercado bajista). Antofagasta cayó un 8 % en Londres.",
+   "fuentes": [
+    {
+     "t": "MINING.COM",
+     "u": "https://www.mining.com/copper-price-erases-nvidia-rebound-as-investors-steer-clear-of-metals/"
+    },
+    {
+     "t": "Irish Times",
+     "u": "https://www.irishtimes.com/business/2026/11/24/european-shares-fall-as-tech-rally-fades-after-jensen-huang-jolt/"
+    }
+   ]
+  },
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "−1,99 % (26.214)",
+   "por_que": "==Nvidia −6 %, Micron −11 %, CoreWeave −12 %==: el rebote del lunes por Huang no despejó las dudas de gobierno corporativo ni de valoración de la IA. ==Anthropic cerró por debajo de su precio de salida (83 $)==, una mala señal para el apetito por la IA.",
+   "fuentes": [
+    {
+     "t": "Business Today",
+     "u": "https://www.businesstoday.in/markets/stocks/story/nasdaq-falls-as-nvidia-slides-over-7-ai-stocks-retreat-after-mondays-sharp-wall-street-rally-569261-2026-11-24"
+    },
+    {
+     "t": "IBTimes",
+     "u": "https://www.ibtimes.com/us-stocks-mixed-ai-selloff-consumer-confidence-3810150"
+    },
+    {
+     "t": "investingLive (cierre EE. UU.)",
+     "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+    }
+   ]
+  },
+  {
+   "activo": "MSCI Emergentes (ETF EEM)",
+   "cambio": "−1,97 %",
+   "por_que": "Paradoja aparente: Taiwán y Corea subieron, pero ==el ETF cotiza en Nueva York y recoge la recaída posterior de los chips== y la amenaza de aranceles (además, el Hang Seng −0,4 % y Brasil −0,4 %)."
+  },
+  {
+   "activo": "FTSE MIB (Italia)",
+   "cambio": "−1,84 %",
+   "por_que": "==STMicroelectronics se hundió más de un 10 %==, el chip europeo más castigado, y los bancos italianos acompañaron la aversión al riesgo.",
+   "fuentes": [
+    {
+     "t": "The Edge (FTSE MIB)",
+     "u": "https://edgeconsultancykw.com/europe-market-wrap-24-november-2026/"
+    },
+    {
+     "t": "Anadolu (Europa)",
+     "u": "https://www.aa.com.tr/en/europe/european-stocks-end-tuesday-lower-as-chip-rally-fades/4136285"
+    }
+   ]
+  },
+  {
+   "activo": "DAX (Alemania) y Euro Stoxx 50",
+   "cambio": "−1,26 % y −1,16 %",
+   "por_que": "Chips (Infineon, ASML, Aixtron) devolvieron el rebote del lunes; ==Alemania es muy sensible a los aranceles== por su peso exportador.",
+   "fuentes": [
+    {
+     "t": "MLQ (Sanofi–Insmed)",
+     "u": "https://mlq.ai/news/european-stocks-close-lower-as-infineon-and-miners-slide-sanofi-jumps-on-its-41-billion-insmed-deal/"
+    },
+    {
+     "t": "Anadolu (Europa)",
+     "u": "https://www.aa.com.tr/en/europe/european-stocks-end-tuesday-lower-as-chip-rally-fades/4136285"
+    }
+   ]
+  },
+  {
+   "activo": "Bitcoin",
+   "cambio": "−2,27 % (59.820 $)",
+   "por_que": "Se mueve como un activo de riesgo tecnológico: ==cayó junto a la IA== y sigue por debajo de los 60.000 $.",
+   "fuentes": [
+    {
+     "t": "investingLive (cierre EE. UU.)",
+     "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Nvidia y la IA: euforia en Asia, dudas en Occidente",
+   "texto": "Asia abrió con la noticia del lunes y ==compró a todo el ecosistema de chips==. En Nueva York, en cambio, el mercado volvió a mirar los riesgos: gobierno corporativo de Nvidia, revisión contable de la SEC (Securities and Exchange Commission) aún abierta y ==valoraciones exigentes en la IA==. Que Anthropic, una semana después de su estreno récord, cotice por debajo de su precio de salida muestra que el apetito por la IA es más frágil de lo que parecía el lunes.",
+   "fuentes": [
+    {
+     "t": "MLQ (Asia)",
+     "u": "https://mlq.ai/news/taiwans-taiex-closes-up-9-and-the-kospi-tops-5000-as-asian-chipmakers-rally-on-huangs-return/"
+    },
+    {
+     "t": "Business Today",
+     "u": "https://www.businesstoday.in/markets/stocks/story/nasdaq-falls-as-nvidia-slides-over-7-ai-stocks-retreat-after-mondays-sharp-wall-street-rally-569261-2026-11-24"
+    },
+    {
+     "t": "investingLive (cierre EE. UU.)",
+     "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+    }
+   ]
+  },
+  {
+   "tema": "Aranceles por «sobrecapacidad»",
+   "texto": "Bloomberg y Reuters informaron de que ==Washington puede anunciar en cualquier momento nuevos aranceles a 16 socios== tras una investigación sobre sobrecapacidad industrial, que se sumarían a los ya vigentes. Afecta a quienes más exportan a EE. UU.: China, UE, Japón, Corea, Taiwán y Suiza. ==Golpea a chips, metales industriales y bolsas exportadoras== (Alemania, Italia) y añade presión inflacionista, lo que complica la tarea de la Fed.",
+   "fuentes": [
+    {
+     "t": "MINING.COM",
+     "u": "https://www.mining.com/copper-price-erases-nvidia-rebound-as-investors-steer-clear-of-metals/"
+    },
+    {
+     "t": "IBTimes",
+     "u": "https://www.ibtimes.com/us-stocks-mixed-ai-selloff-consumer-confidence-3810150"
+    },
+    {
+     "t": "Business Today",
+     "u": "https://www.businesstoday.in/markets/stocks/story/nasdaq-falls-as-nvidia-slides-over-7-ai-stocks-retreat-after-mondays-sharp-wall-street-rally-569261-2026-11-24"
+    }
+   ]
+  },
+  {
+   "tema": "Consumidor fuerte y rotación sectorial",
+   "texto": "La confianza del consumidor del Conference Board subió a ==103,3 desde 91,9, muy por encima de lo esperado (≈ 92,5)==. Un consumidor optimista antes del Black Friday favorece a minoristas, consumo y empresas domésticas. Por eso ==el Dow y el Russell 2000 subieron mientras el Nasdaq caía==: no fue una huida del mercado, sino un cambio de sector.",
+   "fuentes": [
+    {
+     "t": "IBTimes",
+     "u": "https://www.ibtimes.com/us-stocks-mixed-ai-selloff-consumer-confidence-3810150"
+    },
+    {
+     "t": "investingLive (cierre EE. UU.)",
+     "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+    }
+   ]
+  },
+  {
+   "tema": "Fed a punto de subir tipos",
+   "texto": "El mercado da ≈ 95 % de probabilidad a una ==subida de 0,25 puntos el 9 de diciembre==, y Williams (Fed de Nueva York) dijo que la inflación «es simplemente demasiado alta» sin descartar subidas seguidas. Ese entorno ==penaliza a los activos sin rentabilidad (oro, bitcoin) y a las bolsas caras==. El dato clave llega el miércoles: el PCE (deflactor del gasto en consumo personal) de octubre.",
+   "fuentes": [
+    {
+     "t": "Bank of Volatility",
+     "u": "https://bankofvol.substack.com/p/anthropic-breaks-its-ipo-price-as-ai-rebound-fades"
+    },
+    {
+     "t": "IBTimes",
+     "u": "https://www.ibtimes.com/us-stocks-mixed-ai-selloff-consumer-confidence-3810150"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "En EE. UU. ==los bonos apenas se movieron porque dos fuerzas se anularon==. Por un lado, la confianza del consumidor muy fuerte y el WTI al alza apuntan a una economía con inflación persistente: ==eso sostiene la subida de la Fed en diciembre (≈ 95 %) y empujó el 2 años ligeramente arriba== (≈ +2 pb, 4,69 % según el cierre de investingLive; FRED aún no tiene el dato). Por otro, la caída de la tecnología y de los metales reactivó algo de demanda de refugio en el largo plazo: ==el 10 años cerró en 4,90 % (−1 pb en nuestra serie) y el 30 años, plano en 5,29 %==. La subasta de 70.000 millones en bonos a 5 años salió bien (demanda 2,37 veces lo ofrecido), sin presión de oferta. La curva se aplanó un poco más: el mercado ve a la Fed subiendo en una economía que, a medio plazo, se enfriará.\n\nEn la zona euro, el BCE (Banco Central Europeo) ya da el lunes: ==AAA 10 años (≈ Bund) −4 pb hasta 3,32 %==, pese al rebote de las bolsas, ayudado por un petróleo que cayó un 3,5 % ese día y rebaja la inflación esperada. El martes, según prensa, ==el Bund alemán a 10 años cerró en ≈ 3,26 % y el italiano en 4,35%==. ==El diferencial Italia–Alemania se abrió de ≈ 105 a ≈ 109 pb== en la sesión: es la prima de riesgo típica de un día de aversión al riesgo, agravada por el desplome de la bolsa de Milán.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "≈ +2 pb (≈ 4,69 %, prensa)",
+    "por_que": "==Confianza del consumidor fuerte y petróleo WTI al alza== refuerzan la subida de la Fed en diciembre; el tramo corto es el que más depende de los tipos oficiales. FRED aún no tiene el dato.",
+    "fuentes": [
+     {
+      "t": "investingLive (cierre EE. UU.)",
+      "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−1 pb (4,90 %)",
+    "por_que": "Fuerzas opuestas: ==la caída de la tecnología y los metales atrajo algo de dinero al refugio==, compensando el dato de confianza. Las fuentes de prensa varían entre −6 y +0,4 pb según la hora.",
+    "fuentes": [
+     {
+      "t": "investingLive (cierre EE. UU.)",
+      "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+     },
+     {
+      "t": "Bank of Volatility",
+      "u": "https://bankofvol.substack.com/p/anthropic-breaks-its-ipo-price-as-ai-rebound-fades"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "≈ 0 pb (5,29 %)",
+    "por_que": "Sin cambio: la prima por plazo sigue alta por el déficit y la inflación persistente."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "Lunes −4 pb (3,32 %, BCE); martes Bund ≈ 3,26 % (prensa)",
+    "por_que": "El lunes, ==el petróleo −3,5 % rebajó la inflación esperada==; el martes, la caída de las bolsas sostuvo la demanda de Bund como refugio. El dato del BCE del martes llegará mañana.",
+    "fuentes": [
+     {
+      "t": "ANSA (diferencial BTP–Bund)",
+      "u": "https://ansa.it/sito/notizie/topnews/2026/11/24/lo-spread-btp-bund-chiude-a-109-punti_5168cfc5-e9c4-4dee-abc5-0d917d01948d.html"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Italia–Alemania",
+    "cambio": "≈ +4 pb (105 → 109 pb)",
+    "por_que": "==En días de miedo, el inversor vende deuda periférica y compra Bund==; el hundimiento de Milán (−1,8 %) lo acentuó.",
+    "fuentes": [
+     {
+      "t": "ANSA (diferencial BTP–Bund)",
+      "u": "https://ansa.it/sito/notizie/topnews/2026/11/24/lo-spread-btp-bund-chiude-a-109-punti_5168cfc5-e9c4-4dee-abc5-0d917d01948d.html"
+     },
+     {
+      "t": "ANSA (apertura)",
+      "u": "https://ansa.it/sito/notizie/topnews/2026/11/24/lo-spread-tra-btp-e-bund-apre-poco-mosso-a-105-punti_68b0b9cb-e249-4d3c-b140-bf66349481e2.html"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "investingLive (cierre EE. UU.)",
+    "u": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-24-nov-it-s-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+   },
+   {
+    "t": "Bank of Volatility",
+    "u": "https://bankofvol.substack.com/p/anthropic-breaks-its-ipo-price-as-ai-rebound-fades"
+   },
+   {
+    "t": "ANSA (diferencial BTP–Bund)",
+    "u": "https://ansa.it/sito/notizie/topnews/2026/11/24/lo-spread-btp-bund-chiude-a-109-punti_5168cfc5-e9c4-4dee-abc5-0d917d01948d.html"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "",
+  "suben": [],
+  "bajan": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-25",
+   "evento": "PCE de octubre y segunda estimación del PIB (producto interior bruto) del 3.er trimestre en EE. UU.",
+   "por_que_importa": "Consenso ≈ 3,8 % interanual (subyacente 3,2 %). ==Un dato alto podría alimentar subidas seguidas de la Fed== en 2027."
+  },
+  {
+   "fecha": "2026-11-25",
+   "evento": "Posible anuncio de aranceles por «sobrecapacidad»",
+   "por_que_importa": "==Si se confirma, presionará a chips, metales y bolsas exportadoras== (Alemania, Corea, Taiwán, Suiza)."
+  },
+  {
+   "fecha": "2026-11-26",
+   "evento": "Acción de Gracias: Wall Street cerrada (media sesión el 27)",
+   "por_que_importa": "Menos liquidez con el VIX por encima de 26: ==movimientos más bruscos de lo normal==."
+  },
+  {
+   "fecha": "2026-11-29",
+   "evento": "Reunión de la OPEP+",
+   "por_que_importa": "Con el Brent en ≈ 88 $ y exceso de oferta, ==cualquier recorte movería el petróleo== y la inflación esperada."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "≈ 95 % de probabilidad de +0,25: ==la clave es el mensaje para 2027==."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "SEC",
+   "def": "Securities and Exchange Commission: el supervisor de los mercados de valores de EE. UU."
+  },
+  {
+   "sigla": "PCE",
+   "def": "Personal Consumption Expenditures: deflactor del gasto en consumo personal, la medida de inflación preferida por la Fed."
+  },
+  {
+   "sigla": "PIB",
+   "def": "Producto interior bruto: el valor de todo lo que produce un país."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se compra hoy y se mantiene hasta su vencimiento."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+  },
+  {
+   "sigla": "OPEP+",
+   "def": "Organización de Países Exportadores de Petróleo y sus aliados (Rusia, entre otros)."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad del S&P 500, conocido como «índice del miedo»."
+  },
+  {
+   "sigla": "WTI",
+   "def": "West Texas Intermediate: el petróleo de referencia en EE. UU."
+  },
+  {
+   "sigla": "ETF",
+   "def": "Exchange-Traded Fund: fondo que cotiza en bolsa como una acción."
+  },
+  {
+   "sigla": "UE",
+   "def": "Unión Europea."
+  }
+ ],
+ "generado": "2026-11-24T23:30"
+}
