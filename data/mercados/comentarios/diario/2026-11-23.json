@@ -1,16 +1,17 @@
 {
  "periodo": "diario",
  "clave": "2026-11-23",
- "fase": "mercado",
+ "fase": "completo",
  "titulo": "Vuelve Jensen Huang: Nvidia +31 %, Nasdaq 100 +6,9 % y el VIX se desinfla",
- "resumen": "Tras el «viernes negro» de la inteligencia artificial (IA), el lunes llegó el giro. ==El consejo de Nvidia readmitió a Jensen Huang como consejero delegado==, doce días después de forzar su salida por «falta de franqueza» sobre relaciones personales. Nvidia dijo además que contó con el visto bueno de altos cargos del Gobierno y que su regreso no supone riesgo para la seguridad nacional. ==La acción subió un 31 %, cerca de un billón de dólares de valor recuperado en un día==. Como pesa tanto en los índices y es el termómetro de toda la cadena de la IA, arrastró a chips y centros de datos: Micron +19 %, CoreWeave +21 %, Intel +13 %. ==Nasdaq 100 +6,9 % (26.750), S&P 500 +4,7 % (7.237)==, Dow Jones +3 % y Russell 2000 +3,4%: ==el mejor día desde abril de 2025==. Ojo: la revisión contable de la SEC (Securities and Exchange Commission) sigue abierta y Nvidia aún cotiza ~20 % por debajo de hace un mes. El rebote se explica por el alivio en la gestión de la empresa, no porque se haya despejado la duda contable.\n\nEuropa subió menos porque cerró antes de lo mejor de Wall Street y pesa menos la tecnología: ==Stoxx 600 +1,8 %, Euro Stoxx 50 +2,2 %, DAX +2,2 %==, CAC 40 +1,5 %, ==Ibex 35 +1,63 % (19.181)== con ArcelorMittal, ACS e Indra al frente, FTSE MIB +0,65 % y SMI +1,1 %. Los PMI (índices de gestores de compras) dieron un tono mixto: ==Alemania en su mejor nivel en 56 meses (55) y Francia hundida en 46,2==, con la zona euro estable en 51,7. En Asia el giro llegó tarde: ==el Kospi coreano cayó un 2,5 %== (llegó a perder casi un 6 % y saltó el freno a la venta automática) porque cerró antes de la noticia; Taiwán, en cambio, rebotó un 2,2 %. Japón estuvo cerrado por festivo. El ETF de emergentes EEM, que cotiza en Nueva York, subió un 7,4 %: ==anticipa el rebote que Asia debería hacer el martes==.\n\nEl miedo se desinfló: ==el VIX (volatilidad esperada del S&P 500) bajó un 26 %, de 35,9 a 26,6==, y el MOVE (volatilidad de los bonos) un 5 %. Con el fin de las ventas forzadas, ==el oro rebotó un 3,3 % (3.633 $) y la plata un 4,5 %==: el viernes se vendieron para cubrir llamadas de margen, y el lunes se recompraron. Lo hicieron incluso con un dólar más firme (DXY +0,5 %) y el euro en 1,094 $ (−0,5 %). En sentido contrario, ==el petróleo cayó con fuerza: WTI −4,4 % (80,3 $), en mínimos desde agosto==. Trump dio más tiempo a la diplomacia con Irán y las exportaciones del Golfo casi se han normalizado, ==lo que pesa más que los ataques del fin de semana==. El −6,3 % del Brent en nuestros datos está inflado por el cambio al contrato de febrero; la prensa da cerca de un −3,5 %.",
+ "resumen": "Tras el «viernes negro» de la inteligencia artificial (IA), el lunes llegó el giro. ==El consejo de Nvidia readmitió a Jensen Huang como consejero delegado==, doce días después de forzar su salida por «falta de franqueza» sobre relaciones personales. Nvidia dijo además que contó con el visto bueno de altos cargos del Gobierno y que su regreso no supone riesgo para la seguridad nacional. ==La acción subió un 31 %, cerca de un billón de dólares de valor recuperado en un día==. Como pesa tanto en los índices y es el termómetro de toda la cadena de la IA, arrastró a chips y centros de datos: Micron +19 %, CoreWeave +21 %, Intel +13 %. ==Nasdaq 100 +6,9 % (26.750), S&P 500 +4,7 % (7.237)==, Dow Jones +3 % y Russell 2000 +3,4%: ==el mejor día desde abril de 2025==. Ojo: la revisión contable de la SEC (Securities and Exchange Commission) sigue abierta y Nvidia aún cotiza ~20 % por debajo de hace un mes. El rebote se explica por el alivio en la gestión de la empresa, no porque se haya despejado la duda contable.\n\nEuropa subió menos porque cerró antes de lo mejor de Wall Street y pesa menos la tecnología: ==Stoxx 600 +1,8 %, Euro Stoxx 50 +2,2 %, DAX +2,2 %==, CAC 40 +1,5 %, ==Ibex 35 +1,63 % (19.181)== con ArcelorMittal, ACS e Indra al frente, FTSE MIB +0,65 % y SMI +1,1 %. Los PMI (índices de gestores de compras) dieron un tono mixto: ==Alemania en su mejor nivel en 56 meses (55) y Francia hundida en 46,2==, con la zona euro estable en 51,7. En Asia el giro llegó tarde: ==el Kospi coreano cayó un 2,5 %== (llegó a perder casi un 6 % y saltó el freno a la venta automática) porque cerró antes de la noticia; Taiwán, en cambio, rebotó un 2,2 %. Japón estuvo cerrado por festivo. El ETF de emergentes EEM, que cotiza en Nueva York, subió un 7,4 %: ==anticipaba el rebote que Asia hizo el martes== (Taiwán +9 %, Kospi +7,4 %, Nikkei +4,2 %).\n\nEl miedo se desinfló: ==el VIX (volatilidad esperada del S&P 500) bajó un 26 %, de 35,9 a 26,6==, y el MOVE (volatilidad de los bonos) un 5 %. Con el fin de las ventas forzadas, ==el oro rebotó un 3,3 % (3.633 $) y la plata un 4,5 %==: el viernes se vendieron para cubrir llamadas de margen, y el lunes se recompraron. Lo hicieron incluso con un dólar más firme (DXY +0,5 %) y el euro en 1,094 $ (−0,5 %). En sentido contrario, ==el petróleo cayó con fuerza: WTI −4,4 % (80,3 $), en mínimos desde agosto==. Trump dio más tiempo a la diplomacia con Irán y las exportaciones del Golfo casi se han normalizado, ==lo que pesa más que los ataques del fin de semana==. El −6,3 % del Brent en nuestros datos está inflado por el cambio al contrato de febrero; la prensa da cerca de un −3,5 %.",
  "claves": [
   "==Nvidia +31 % al readmitir a Jensen Huang==: Nasdaq 100 +6,9 % y S&P 500 +4,7 %, el mejor día desde abril de 2025.",
   "La revisión contable de la SEC sigue abierta: ==el rebote es alivio de gobierno corporativo, no un cierre de la duda==.",
   "Europa sube menos (Stoxx 600 +1,8 %, Ibex +1,63 %); ==PMI: Alemania en máximos de 56 meses, Francia se hunde (46,2)==.",
   "Asia cerró antes de la noticia: ==Kospi −2,5 %==, Taiwán +2,2 % y Japón cerrado por festivo.",
   "==VIX −26 % (26,6)==; oro +3,3 % y plata +4,5 % al cesar las ventas forzadas.",
-  "==Petróleo a mínimos desde agosto (WTI −4,4 %)==: más diplomacia con Irán y exceso de oferta; el 2 años de EE. UU. sube 7 pb."
+  "==Petróleo a mínimos desde agosto (WTI −4,4 %)==: más diplomacia con Irán y exceso de oferta; el 2 años de EE. UU. sube 7 pb.",
+  "En los fondos se mezclan dos días: ==los de Asia adelantan el rebote del martes y los que valoran con retraso (DWS, Erste) recogen aún el viernes==."
  ],
  "suben": [
   {
@@ -357,9 +358,89 @@
   ]
  },
  "fondos": {
-  "texto": "",
-  "suben": [],
-  "bajan": []
+  "texto": "Muestra aún parcial: ==1.441 fondos con el valor liquidativo (VL) del lunes== (521 de Bankinter, 920 de IronIA; de ABANCA todavía ninguno). Las medianas son positivas pero tibias para un día de +4,7 % en el S&P 500: ==renta variable +0,88 %==, mixtos +0,38 %, alternativos +0,24 %, renta fija +0,17 % y monetarios +0,02 %. La razón está en la hora a la que cada fondo toma los precios.\n\n==El ranking del lunes mezcla dos días distintos==. Arriba, fondos de Taiwán, Gran China, Asia y crecimiento de EE. UU. (+5,6 % a +12,8 % en euros). Los de EE. UU. recogen el rebote de Wall Street (el Nasdaq 100 ganó un 6,9 % en dólares y ==el euro más débil suma casi medio punto== a las clases sin cubrir). Los asiáticos suben ==mucho más que sus bolsas el lunes== (Taiwán +2,2 %, Kospi −3,3 %): Asia cerró antes de la noticia de Nvidia y, como es habitual en estos casos, las gestoras ajustan el precio a su valor razonable (fair value) con lo que ya descontaban los futuros y los ADR (certificados de acciones extranjeras que cotizan en EE. UU.). ==El martes Taiwán subió un 9 % y el Kospi un 7,4 %, lo que confirma ese ajuste==. Abajo están fondos que valoran con los precios del cierre anterior, sobre todo alemanes (DWS) y austriacos (Erste, Raiffeisen), además de algunos irlandeses: ==en su VL del lunes entra el «viernes negro» de Wall Street== (−5,6 % en el Nasdaq 100). Lo mismo pasa con las mineras de oro de Baker Steel, que caen un 5 % el día en que el oro rebota un 3,3 %. ==Estas caídas son un retraso y deberían corregirse con el VL del martes==, no son pérdidas nuevas.",
+  "suben": [
+   {
+    "isin": "LU0401357313",
+    "por_que": "Taiwán puro (TSMC, MediaTek, ASE; ==74 % en tecnología==). ==+12,8 %, frente a +2,2 % del Taiex el lunes==: el VL incorpora un ajuste a valor razonable que adelanta el +9 % del martes. Tras el −7,5 % del viernes, recupera de golpe lo perdido. Clase en euros. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0273689215",
+    "por_que": "Gran China con mucho peso en la tecnología taiwanesa. ==+9,9 % cuando Hong Kong cerró plano (−0,1 %)==: el empuje viene de Taiwán y del ajuste a valor razonable por el rebote de los chips. Disponible en IronIA."
+   },
+   {
+    "isin": "LU1861559471",
+    "por_que": "ARK Disrupt: crecimiento de alto riesgo y muy volátil (IA, robótica, fintech). ==+9,4 % en euros, más que el Nasdaq 100 (+6,9 %)==, porque estos valores amplifican los movimientos del mercado. Disponible en IronIA."
+   },
+   {
+    "isin": "LU2075955273",
+    "por_que": "Innovación de EE. UU. (gran crecimiento, con Nvidia y los semiconductores entre sus mayores apuestas). +8,6 % en euros: rebote de Wall Street y ==un euro más débil (−0,5 %), que suma a la clase sin cubrir==. Disponible en IronIA."
+   },
+   {
+    "isin": "LU0252218424",
+    "por_que": "Tecnología global de AllianceBernstein, cargada de chips y software ligados a la IA. +8,5 %: ==el regreso de Jensen Huang reactivó toda la cadena de la IA== (Micron +19 %, Intel +13 %). Viernes −7,0 %. Disponible en IronIA."
+   },
+   {
+    "isin": "LU0413542167",
+    "por_que": "Asia sin Japón con mucho peso en los chips de memoria y lógica (TSMC 9,8 %, ==Samsung 8,6 % y SK hynix 7,7 %==). ==+7,8 % aunque el Kospi cayó un 3,3 % el lunes==: es ajuste a valor razonable, confirmado por el +7,4 % coreano del martes. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU1951200481",
+    "por_que": "Temático de IA y robótica. +7,3 %: su valor depende de cómo se ve el ciclo de la IA, que el lunes ==pasó del pánico al alivio==. Viernes −6,8 %. Disponible en IronIA."
+   },
+   {
+    "isin": "LU0522352946",
+    "por_que": "Gran China (TSMC 10 %, Tencent, Alibaba). +6,5 %, más que Hong Kong por su ==peso en Taiwán y el ajuste a valor razonable==. Sobre el papel tiene un 21 % en liquidez, lo que frena algo la subida. Disponible en Bankinter."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU1128910137",
+    "por_que": "Mineras de oro y plata. ==−5,4 % el día en que el oro subió un 3,3 %==: valora con precios del cierre anterior y recoge ahora el desplome del viernes (oro −4,6 %, plata −7,4 %, y las mineras cayeron aún más). ==El rebote debería verse en el VL del martes==. Disponible en IronIA."
+   },
+   {
+    "isin": "LU1923361049",
+    "por_que": "Recursos naturales y minería de la misma gestora (Baker Steel). −5,3 %: el mismo retraso de un día, con el castigo del viernes a los metales. Disponible en IronIA."
+   },
+   {
+    "isin": "AT0000A03N37",
+    "por_que": "Medioambiente de Erste (HA Sustainable Infrastructure, First Solar, ABB, Schneider; ==43 % en EE. UU.==). −4,7 %: como fondo austriaco valora con precios del día anterior, y ==renovables e infraestructura eléctrica ligada a la IA sufrieron el viernes==. Disponible en Bankinter (la clase hermana AT0000A2BYG1 cae lo mismo en IronIA)."
+   },
+   {
+    "isin": "DE0008490897",
+    "por_que": "Crecimiento de EE. UU. de DWS. ==−4,6 % un día de +4,7 % en el S&P 500==: el VL alemán del lunes refleja el cierre del viernes en Wall Street. No es una pérdida nueva: es el viernes, que llega tarde. Disponible en IronIA."
+   },
+   {
+    "isin": "DE0008474149",
+    "por_que": "IA de DWS (fondo espejo del DWS Invest Artificial Intelligence; ==68 % en tecnología, 66 % en EE. UU.==). −4,5 %: el viernes subía un 0,8 % porque aún reflejaba el jueves, y ==el lunes recoge el «viernes negro»== (Nvidia −12 %). Disponible en Bankinter."
+   },
+   {
+    "isin": "IE00BJM0B969",
+    "por_que": "Crecimiento global muy concentrado en semiconductores (Lam Research, Applied Materials, SK hynix, Nvidia). −4,5 % después del −5,1 % del viernes: ==valora a mediodía de Europa, antes de que abra Wall Street==, así que todavía recoge la segunda parte del desplome del viernes. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU1548497772",
+    "por_que": "IA de Allianz, cubierta a euros (Nvidia 7,5 %, ADR de TSMC, Broadcom, Micron). −3,9 % por el mismo retraso: ==su VL del lunes aún no ve el +31 % de Nvidia==. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0985193357",
+    "por_que": "Mixto moderado (Ethna Dynamisch, clase de reparto). ==Un −3,2 % es demasiado para un mixto== aunque arrastre el viernes: probablemente pagó un dividendo (el VL baja por lo repartido, no por el mercado). Hay que tomarlo con cautela. Disponible en IronIA."
+   }
+  ],
+  "por_clase": [
+   {
+    "clase": "Renta variable",
+    "texto": "Mediana +0,88 % (732 fondos). Asia y crecimiento de EE. UU. arriba; abajo, fondos que valoran con un día de retraso (DWS, Erste, Baker Steel)."
+   },
+   {
+    "clase": "Renta fija",
+    "texto": "+0,17 % (451 fondos): ayudan el estrechamiento del crédito y el euro más débil en las clases en dólares."
+   },
+   {
+    "clase": "Mixtos",
+    "texto": "+0,38 % (113 fondos), con la bolsa a medio camino entre el viernes y el lunes según la hora de valoración."
+   }
+  ]
  },
  "agenda": [
   {
@@ -476,7 +557,19 @@
   {
    "sigla": "Cambio de contrato (roll)",
    "def": "Paso del futuro que vence al siguiente; si tienen precios distintos, la serie continua da un salto que no es un movimiento real del mercado."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio de una participación del fondo en una fecha."
+  },
+  {
+   "sigla": "Valor razonable (fair value)",
+   "def": "Ajuste que hace la gestora al precio de acciones cuyo mercado ya cerró, usando futuros o ADR, para que el VL no quede desfasado."
+  },
+  {
+   "sigla": "ADR",
+   "def": "American Depositary Receipt: certificado que representa acciones extranjeras y cotiza en la bolsa de EE. UU."
   }
  ],
- "generado": "2026-11-23T23:20"
+ "generado": "2026-11-24T09:43"
 }
