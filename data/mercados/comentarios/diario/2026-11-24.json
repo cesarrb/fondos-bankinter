@@ -1,15 +1,16 @@
 {
  "periodo": "diario",
  "clave": "2026-11-24",
- "fase": "mercado",
+ "fase": "completo",
  "titulo": "Asia celebra a Huang con un +9 % en Taiwán; Wall Street se lo devuelve y rota al Dow",
- "resumen": "El regreso de Jensen Huang a Nvidia llegó a Asia con un día de retraso y lo hizo a lo grande. ==El Taiex de Taiwán subió un 9 % y el Kospi coreano un 7,4 %==, con TSMC, MediaTek, Samsung y SK Hynix como motores, y el Nikkei japonés ganó un 4,2 % al reabrir tras el festivo, tirado por Tokyo Electron y Advantest. Son índices donde los fabricantes de chips pesan muchísimo (TSMC supera el 40 % del Taiex), así que ==el rebote de Nvidia del lunes se trasladó casi en bloque==.\n\nEn Occidente el tono fue el contrario. ==Nvidia cayó cerca de un 6 % y devolvió parte del +31 % del lunes==: el alivio por la vuelta de Huang deja abiertas las dudas de gobierno corporativo y de valoración de la inteligencia artificial (IA). Micron (−11 %), CoreWeave (−12 %) y ==Anthropic, que cerró por debajo de su precio de salida a bolsa (83 $)==, ampliaron el castigo. A la vez, Bloomberg y Reuters adelantaron que ==EE. UU. prepara nuevos aranceles por «sobrecapacidad» a 16 socios==, entre ellos China, la UE, Japón, Corea, Taiwán y Suiza. Resultado: ==Nasdaq 100 −2 % y S&P 500 −0,5 %, pero Dow Jones +0,85 % y Russell 2000 +0,6 %==. El dinero salió de la tecnología hacia salud, consumo y bancos, ayudado por una ==confianza del consumidor (Conference Board) que saltó a 103,3==, máximo en casi dos años, y por buenos resultados de minoristas a las puertas del Black Friday.\n\nEuropa siguió a los chips a la baja: ==Euro Stoxx 50 −1,2 %, DAX −1,3 % y FTSE MIB −1,8 %== (STMicroelectronics se dejó más de un 10 %), Ibex 35 −0,9 % (19.020) y Stoxx 600 −0,7 %. Sanofi brilló al anunciar la compra de Insmed por 41.000 millones de dólares, y París y Zúrich quedaron planos gracias al peso de salud y lujo.\n\nEn materias primas, ==día muy malo para los metales: oro −2,7 % (3.551 $), plata −5,9 % y cobre −2,6 %==. La amenaza arancelaria castiga a los metales industriales, y la Fed (Reserva Federal) a punto de subir tipos resta atractivo al oro aunque el dólar cediera un 0,5 %. El petróleo fue dispar (Brent −1,1 %, WTI +1,8 %) entre el exceso de oferta y las tensiones en Ormuz. El VIX siguió alto (26,4) y el bitcoin cayó un 2,3 %.",
+ "resumen": "El regreso de Jensen Huang a Nvidia llegó a Asia con un día de retraso y lo hizo a lo grande. ==El Taiex de Taiwán subió un 9 % y el Kospi coreano un 7,4 %==, con TSMC, MediaTek, Samsung y SK Hynix como motores, y el Nikkei japonés ganó un 4,2 % al reabrir tras el festivo, tirado por Tokyo Electron y Advantest. Son índices donde los fabricantes de chips pesan muchísimo (TSMC supera el 40 % del Taiex), así que ==el rebote de Nvidia del lunes se trasladó casi en bloque==.\n\nEn Occidente el tono fue el contrario. ==Nvidia cayó cerca de un 6 % y devolvió parte del +31 % del lunes==: el alivio por la vuelta de Huang deja abiertas las dudas de gobierno corporativo y de valoración de la inteligencia artificial (IA). Micron (−11 %), CoreWeave (−12 %) y ==Anthropic, que cerró por debajo de su precio de salida a bolsa (83 $)==, ampliaron el castigo. A la vez, Bloomberg y Reuters adelantaron que ==EE. UU. prepara nuevos aranceles por «sobrecapacidad» a 16 socios==, entre ellos China, la UE, Japón, Corea, Taiwán y Suiza. Resultado: ==Nasdaq 100 −2 % y S&P 500 −0,5 %, pero Dow Jones +0,85 % y Russell 2000 +0,6 %==. El dinero salió de la tecnología hacia salud, consumo y bancos, ayudado por una ==confianza del consumidor (Conference Board) que saltó a 103,3==, máximo en casi dos años, y por buenos resultados de minoristas a las puertas del Black Friday.\n\nEuropa siguió a los chips a la baja: ==Euro Stoxx 50 −1,2 %, DAX −1,3 % y FTSE MIB −1,8 %== (STMicroelectronics se dejó más de un 10 %), Ibex 35 −0,9 % (19.020) y Stoxx 600 −0,7 %. Sanofi brilló al anunciar la compra de Insmed por 41.000 millones de dólares, y París y Zúrich quedaron planos gracias al peso de salud y lujo.\n\nEn materias primas, ==día muy malo para los metales: oro −2,7 % (3.551 $), plata −5,9 % y cobre −2,6 %==. La amenaza arancelaria castiga a los metales industriales, y la Fed (Reserva Federal) a punto de subir tipos resta atractivo al oro aunque el dólar cediera un 0,5 %. El petróleo fue dispar (Brent −1,1 %, WTI +1,8 %) entre el exceso de oferta y las tensiones en Ormuz. El VIX siguió alto (26,4) y el bitcoin cayó un 2,3 %.\n\nEn los fondos, ==el día se lee con cuidado==: los que valoran con un día de retraso suben por el lunes de Nvidia, los asiáticos con ajuste de valor razonable bajan aunque Taiwán y Corea subieron, y los movimientos reales son el rebote asiático de los Mirae, las biotecnológicas (compra de Insmed por Sanofi) y la caída de la tecnología global.",
  "claves": [
   "==Asia recogió el regreso de Huang==: Taiex +9 %, Kospi +7,4 % y Nikkei +4,2 %, de la mano de TSMC, Samsung, SK Hynix y Tokyo Electron.",
   "==Wall Street rotó==: Nasdaq 100 −2 % con Nvidia −6 % y Anthropic bajo su precio de salida, mientras el Dow subió un 0,85 %.",
   "==Amenaza de nuevos aranceles por «sobrecapacidad»== a 16 socios (UE, China, Japón, Corea, Taiwán, Suiza): pesa sobre chips y metales.",
   "==Metales a la baja: plata −5,9 %, oro −2,7 %, cobre −2,6 %==; el cobre ya cae más de un 20 % desde su récord de septiembre.",
-  "Bonos casi quietos: ==el 10 años de EE. UU. en 4,90 % y la Fed con ≈ 95 % de probabilidad de subir en diciembre==; el diferencial italiano se abrió hasta ≈ 109 pb."
+  "Bonos casi quietos: ==el 10 años de EE. UU. en 4,90 % y la Fed con ≈ 95 % de probabilidad de subir en diciembre==; el diferencial italiano se abrió hasta ≈ 109 pb.",
+  "==Fondos: el ranking del 24 lo marcan los desfases de valoración==: los que valoran con retraso suben por el lunes de Nvidia y los asiáticos con «valor razonable» bajan aunque Taiwán y Corea subieron."
  ],
  "suben": [
   {
@@ -370,9 +371,82 @@
   ]
  },
  "fondos": {
-  "texto": "",
-  "suben": [],
-  "bajan": []
+  "texto": "Día engañoso para leer fondos: ==el ranking lo deciden sobre todo los desfases de valoración==, no los mercados del martes. Hay tres grupos. (1) ==Fondos que valoran con un día de retraso== (los austriacos de Erste, el alemán DWS US Growth, Baker Steel o Blue Whale, que valora a mediodía): su VL del 24 recoge el lunes 23, el día del +31 % de Nvidia y del rebote del oro, y por eso aparecen arriba aunque el martes la tecnología y el oro cayeron. (2) ==Fondos asiáticos con ajuste de «valor razonable»== (JPMorgan Corea y Taiwán, Fidelity, Goldman Sachs Gran China): el lunes ya subieron entre un 5 % y un 13 % anticipando el rebote asiático; el martes Asia lo confirmó, pero ==el ajuste se dio la vuelta con el −2 % del Nasdaq== y salen entre los que más bajan. (3) Movimientos reales del día: ==los Mirae Asset, sin ese ajuste, recogen el +9 % de Taiwán y el +7,4 % de Corea==; las biotecnológicas suben con la ==compra de Insmed por Sanofi (175 $ por acción, 41.000 millones)== y la rotación hacia salud; y los fondos de tecnología global caen con Nvidia (−6 %) y Micron (−11 %).\n\nOjo con la muestra: ==a las 07:00 solo había VL del 24 de 1.436 fondos== (ninguno de ABANCA), así que la mediana de renta variable sale en 0,0 % porque muchos aún no han publicado. Todos los destacados cotizan en euros (sin efecto divisa en la clase); los que no cubren el dólar perdieron además ≈ 0,5 % por la subida del euro, mientras que las clases «EUR H» de BlackRock y T. Rowe Price están cubiertas.",
+  "suben": [
+   {
+    "isin": "LU0336300933",
+    "por_que": "Fondo de Mirae Asset de emergentes asiáticos, cargado de chips (Samsung, TSMC, SK Hynix en la gama Mirae). ==No aplica ajuste de valor razonable==: el lunes apenas se movió (−0,5 %) y el martes recogió de golpe el ==Taiex +9 % y el Kospi +7,4 %==. Disponible en IronIA."
+   },
+   {
+    "isin": "LU1128910137",
+    "por_que": "==Su valor liquidativo (VL) del 24 recoge en realidad el cierre del lunes 23==: el lunes el oro rebotó y las mineras de metales preciosos subieron con fuerza. El martes el oro cayó un 2,7 %, así que ==es probable que lo devuelva en el VL del 25==. Movimiento de dos días: 845,6 → 853,2 (+0,9 %)."
+   },
+   {
+    "isin": "AT0000A2HQE9",
+    "por_que": "Bolsa estadounidense «responsable» de Erste. Los fondos austriacos de Erste ==valoran con los cierres del día anterior==: el +6,6 % es el rebote del lunes de Wall Street (Nvidia +31 %), no el martes, cuando el S&P 500 cayó un 0,5 %. El lunes había marcado −4,4 % por el viernes."
+   },
+   {
+    "isin": "LU1923361049",
+    "por_que": "Recursos naturales de Baker Steel (mineras de oro, plata y metales). ==Su valor liquidativo (VL) del 24 recoge en realidad el cierre del lunes 23==, con el rebote de los metales; el martes plata (−5,9 %) y cobre (−2,6 %) se hundieron, lo que ==se verá mañana==."
+   },
+   {
+    "isin": "DE0008490897",
+    "por_que": "Crecimiento estadounidense de DWS (gran tecnología). Fondo alemán ==valorado con un día de retraso==: el +6 % es el lunes de Nvidia; el martes el Nasdaq 100 cayó un 2 %. En dos días: 652,6 → 660,1 (+1,1 %)."
+   },
+   {
+    "isin": "LU0336299580",
+    "por_que": "Líderes asiáticos de Mirae: ==Samsung (10,6 %), TSMC (10 %) y SK Hynix (6,6 %)==, ≈ 80 % en tecnología. Sin ajuste de valor razonable, refleja el martes real de Corea y Taiwán."
+   },
+   {
+    "isin": "LU0593848723",
+    "por_que": "Pese al nombre («consumo»), ==la cartera es de chips==: Samsung, TSMC, SK Hynix y MediaTek suman más del 30 %. Por eso sube como un fondo tecnológico con el rebote asiático del martes."
+   },
+   {
+    "isin": "LU0255977455",
+    "por_que": "Movimiento real: ==Insmed (≈ 4 % de la cartera) será comprada por Sanofi a 175 $== en efectivo, y el día favoreció la rotación hacia salud. Genmab, Vertex, argenx y Amgen (subió en el Dow) completan las primeras posiciones. Janus Henderson Biotech (+5,35 %) sube por lo mismo.",
+    "fuentes": [
+     {
+      "t": "Sanofi (acuerdo con Insmed, SEC)",
+      "u": "https://www.sec.gov/Archives/edgar/data/0001104506/000114036126045368/ef20086426_ex99-1.htm"
+     }
+    ]
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU0273689215",
+    "por_que": "Gran China de Goldman Sachs. ==El lunes subió un 9,9 % por el ajuste de valor razonable== que anticipaba el rebote de los chips de Taiwán; el martes el ajuste se revirtió con la caída de Nvidia en Nueva York y el Hang Seng (−0,4 %) no acompañó. En dos días, +4,8 %."
+   },
+   {
+    "isin": "LU1861216510",
+    "por_que": "Tecnología de próxima generación de BlackRock: ==Lumentum, Nvidia, Micron, SanDisk y AMD== entre las primeras. Movimiento real: Nvidia −6 % y Micron −11 %. Clase cubierta a euros (sin efecto dólar). Devuelve casi todo el +5,4 % del lunes."
+   },
+   {
+    "isin": "LU0301637293",
+    "por_que": "Corea de JPMorgan: SK Hynix, SK Square y Samsung ≈ 28 %. Paradoja: ==el Kospi subió un 7,4 % y el fondo cae un 4,35 %==, porque JPMorgan ya había metido el lunes (+4,6 %) un ajuste de valor razonable y el martes lo corrigió a la baja con la recaída de los chips en EE. UU. Es un efecto de calendario, no una pérdida real frente al índice."
+   },
+   {
+    "isin": "LU0307839646",
+    "por_que": "Emergentes de Fidelity: TSMC, SK Hynix y Samsung pesan ≈ 26 %. ==Mismo efecto de valor razonable==: +6,7 % el lunes, −4,3 % el martes. Además Brasil (−0,4 %) y el ETF de emergentes en Nueva York (−2 %) cayeron."
+   },
+   {
+    "isin": "LU0413542167",
+    "por_que": "Asia de Fidelity (TSMC, Samsung, SK Hynix, MediaTek). ==Ajuste de valor razonable revertido==: +7,8 % el lunes y −4,2 % el martes; el balance de dos días (+3,3 %) es el que cuenta."
+   },
+   {
+    "isin": "LU0252218424",
+    "por_que": "Tecnología global de AllianceBernstein. Movimiento real del martes: ==Nvidia, Micron y CoreWeave arrastraron a la IA==, y el fondo no cubre el dólar, que cedió ≈ 0,5 % frente al euro. Viene de +8,5 % el lunes."
+   },
+   {
+    "isin": "LU0401357313",
+    "por_que": "Taiwán de JPMorgan (TSMC 9,4 %, MediaTek 7,4 %). ==El Taiex subió un 9 % y el fondo baja un 3,9 %==: el lunes ya había anotado +12,8 % por el ajuste de valor razonable, y el martes lo corrigió con la caída del Nasdaq. En dos días, +8,4 %, en línea con Taiwán."
+   },
+   {
+    "isin": "LU2701010626",
+    "por_que": "Materiales para la transición energética de Fidelity (cobre, litio, mineras). Movimiento real: ==el cobre cayó un 2,6 % y Antofagasta un 8 %== ante la amenaza de aranceles por «sobrecapacidad», que pesa sobre la demanda industrial."
+   }
+  ],
+  "por_clase": []
  },
  "agenda": [
   {
@@ -453,7 +527,15 @@
   {
    "sigla": "UE",
    "def": "Unión Europea."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: el precio de una participación de un fondo, calculado una vez al día."
+  },
+  {
+   "sigla": "Valor razonable (fair value)",
+   "def": "Ajuste que aplican algunas gestoras al VL de fondos asiáticos cuando, tras el cierre de Asia, otros mercados (Nueva York) anticipan un movimiento fuerte; luego se corrige con el cierre real."
   }
  ],
- "generado": "2026-11-24T23:30"
+ "generado": "2026-11-25T09:40"
 }
