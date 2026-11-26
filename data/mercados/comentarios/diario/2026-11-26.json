@@ -1,0 +1,374 @@
+{
+ "periodo": "diario",
+ "clave": "2026-11-26",
+ "fase": "mercado",
+ "titulo": "Aranceles «menos malos» y Wall Street cerrada: Europa rebota un 2 % y Brasil un 6 %",
+ "resumen": "Con Wall Street cerrada por Acción de Gracias, el resto del mundo deshizo gran parte de la caída del miércoles. ==El driver fue la letra pequeña de los aranceles por «sobrecapacidad»==: según la prensa, no se sumarán a los aranceles pactados en julio y no entrarían en vigor antes de febrero o marzo. Lo que el miércoles se vendió como el peor escenario resultó ==más suave de lo temido==, y los inversores recompraron lo que más había caído. Con poco volumen (sin EE. UU. no hay grandes compradores), el rebote se amplificó.\n\nEuropa subió en bloque: ==Euro Stoxx 50 +2,04 % y Stoxx 600 +1,75 %==. Lideraron los países con más bancos e industria, justo los más castigados la víspera: ==Italia +2,36 % e Ibex +2,26 %, de vuelta sobre los 19.000 puntos== con Santander (+4,1 %) al frente. El DAX ganó un 2,08 % con los semiconductores (Infineon) recuperando parte del −6,5 % del miércoles. Suiza (+1,04 %) subió menos porque su bolsa pesa más en farmacia y consumo defensivo, que no habían caído tanto. Además, los líderes de la Unión Europea (UE) respaldaron a ==Pablo Hernández de Cos como próximo presidente del Banco Central Europeo (BCE)==; el mercado lo leyó como continuidad y apenas reaccionó.\n\nAsia también rebotó con los chips: ==Taiwán +2,50 %, Japón +1,61 % y Corea +1,53 %== (tras −6,2 % el miércoles), aunque el mes sigue siendo muy malo en los tres. China continental quedó plana. ==El gran movimiento fue Brasil: Bovespa +6,07 %==, por una inflación IPCA-15 menor de lo esperado y la expectativa de que un banquero (Luiz Carlos Trabuco, de Bradesco) dirija el Ministerio de Hacienda.\n\nEn materias primas, ==el Brent cayó un 3 % (91,7 $)== por exceso de oferta antes de la reunión de la OPEP+ del domingo. El oro (+1,6 %) y la plata (+4,2 %) rebotaron desde mínimos de 15 meses por cierre de posiciones cortas antes del festivo. El franco suizo se debilitó (EUR/CHF +0,75 %), típico de un día sin miedo. Ojo: los datos de petróleo WTI, gas Henry Hub y VIX de hoy son poco fiables, porque sus mercados de referencia en EE. UU. no cerraron sesión normal.",
+ "claves": [
+  "==Aranceles por «sobrecapacidad» más suaves de lo temido==: sin acumularse a los de julio y no antes de febrero–marzo.",
+  "Europa rebota ≈ 2 % con poco volumen: ==Italia +2,36 %, Ibex +2,26 % (19.058) y DAX +2,08 %==.",
+  "Asia recupera con los chips (Taiex +2,50 %, Nikkei +1,61 %, Kospi +1,53 %), pero ==sin borrar un noviembre de pérdidas fuertes==.",
+  "==Bovespa +6,07 %==: inflación IPCA-15 por debajo de lo previsto y un banquero cerca de Hacienda.",
+  "==Los tipos alemanes suben (Bund +5 pb)== porque el refugio del miércoles se deshace al subir la bolsa.",
+  "Brent −3 % (91,7 $): ==exceso de oferta== antes de la OPEP+ del domingo."
+ ],
+ "suben": [
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "+6,07 %",
+   "por_que": "==Inflación IPCA-15 de noviembre por debajo de lo esperado==: abre la puerta a bajadas de tipos del Banco Central de Brasil, lo que abarata la financiación de empresas y revaloriza sus beneficios. Se sumó ==la expectativa de que Luiz Carlos Trabuco (Bradesco) sea ministro de Hacienda==, que el mercado ve como garantía de disciplina fiscal: Bradesco subió ≈ 7 % y el real se apreció. Venía de cuatro sesiones de caídas.",
+   "fuentes": [
+    {
+     "t": "Money Times",
+     "u": "https://www.moneytimes.com.br/ibovespa-dispara-e-recupera-os-176-mil-pontos-com-encontro-entre-lula-e-trabuco-davs/"
+    },
+    {
+     "t": "Suno",
+     "u": "https://www.suno.com.br/noticias/ibovespa-hoje-26112026-ipca-15-dolar-go/"
+    },
+    {
+     "t": "InfoMoney",
+     "u": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26112026/"
+    }
+   ]
+  },
+  {
+   "activo": "FTSE MIB (Italia) e Ibex 35 (España)",
+   "cambio": "+2,36 % / +2,26 %",
+   "por_que": "Fueron de los peores el miércoles por sus bancos, muy sensibles a una economía que se frena. ==Con aranceles menos dañinos, se recompra lo más castigado==: Santander +4,1 % y el Ibex recupera los 19.000 puntos (19.058). En España no cambia nada del impuesto a la banca: es un rebote, no un cambio de fondo.",
+   "fuentes": [
+    {
+     "t": "Infobae (Europa Press)",
+     "u": "https://www.infobae.com/america/agencias/2026/11/26/el-ibex-35-sube-un-227-y-retoma-los-19000-puntos-sin-la-referencia-de-wall-street/"
+    },
+    {
+     "t": "GBM",
+     "u": "https://gbm.com/media/noticia/el-ibex-35-remonta-tras-unos-aranceles-de-eeuu-menos-agresivos-de-lo-temido"
+    }
+   ]
+  },
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "+2,50 %",
+   "por_que": "==Rebote de los chips y la inteligencia artificial (IA)== tras la venta del miércoles, y Taiwán también figura en la lista de aranceles que resultó menos dura. Curiosamente TSMC apenas se movió; subieron más los proveedores de equipos.",
+   "fuentes": [
+    {
+     "t": "MLQ.ai",
+     "u": "https://mlq.ai/news/taiex-jumps-25-and-nikkei-gains-09-as-asian-chip-stocks-rebound/"
+    },
+    {
+     "t": "AP (KSAT)",
+     "u": "https://www.ksat.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/"
+    }
+   ]
+  },
+  {
+   "activo": "DAX (Alemania) y Euro Stoxx 50",
+   "cambio": "+2,08 % / +2,04 %",
+   "por_que": "Alemania es la más expuesta a exportar a EE. UU.: ==que los nuevos aranceles no se acumulen sobre los de julio== es justo lo que necesitaba. Los semiconductores (Infineon, Soitec) lideraron tras su desplome del miércoles.",
+   "fuentes": [
+    {
+     "t": "Investing.com",
+     "u": "https://www.investing.com/news/stock-market-news/european-shares-as-benign-us-tariffs-and-thanksgiving-lull-offer-relief-5052089"
+    },
+    {
+     "t": "investingLive",
+     "u": "https://investinglive.com/stocks/european-stocks-surge-s-p-500-futures-finish-higher-in-thanksgiving-trading"
+    },
+    {
+     "t": "IndexBox",
+     "u": "https://www.indexbox.io/blog/european-stocks-rally-as-us-tariff-plans-prove-less-severe-than-feared/"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón) y Kospi (Corea)",
+   "cambio": "+1,61 % / +1,53 %",
+   "por_que": "Compras de oportunidad en tecnología (SoftBank, Advantest, Tokyo Electron; en Seúl SK Hynix +4 %). ==Corea recupera solo una cuarta parte del −6,2 % del miércoles==: los analistas dudan de que el rebote dure.",
+   "fuentes": [
+    {
+     "t": "AP (KSAT)",
+     "u": "https://www.ksat.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/"
+    },
+    {
+     "t": "Euronews",
+     "u": "https://www.euronews.com/2026/11/26/anxiety-over-the-ai-boom-and-inflation-drags-wall-street-lower"
+    }
+   ]
+  },
+  {
+   "activo": "Plata y oro",
+   "cambio": "+4,24 % / +1,63 %",
+   "por_que": "Rebote técnico desde ==mínimos de 15 meses (el oro tocó ≈ 3.450 $ el miércoles)==: los especuladores cerraron posiciones cortas antes del festivo. El fondo sigue siendo bajista porque ==la Reserva Federal (Fed) va hacia una subida de tipos==, y el oro no paga intereses. La plata sube más por su doble papel de metal industrial.",
+   "fuentes": [
+    {
+     "t": "USAGOLD",
+     "u": "https://www.usagold.com/daily-precious-metals-market-report-november-26-2026/"
+    },
+    {
+     "t": "FX Leaders",
+     "u": "https://www.fxleaders.com/news/2026/11/26/gold-price-forecast-xau-usd-tests-3600-on-thanksgiving-short-covering/"
+    }
+   ]
+  },
+  {
+   "activo": "Cobre",
+   "cambio": "+1,89 %",
+   "por_que": "Metal muy ligado al ciclo industrial: ==menos miedo a una guerra comercial = más demanda esperada==."
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Petróleo Brent",
+   "cambio": "−3,04 % (91,7 $)",
+   "por_que": "==Exceso de oferta==: las exportaciones de Oriente Medio se recuperan más rápido que el consumo, y el mercado espera que la OPEP+ (domingo 29) se limite a mantener cuotas en vez de recortar. Pesa más que los ataques hutíes en Arabia Saudí. ==El WTI marca +1,5 %, pero es un dato poco fiable== (sin cierre normal en Nueva York por el festivo).",
+   "fuentes": [
+    {
+     "t": "uCapital",
+     "u": "https://ucapital.com/en/news/politics/brent-falls-3-71-mideast-supply-concerns-6b07aaaf764a941894446876"
+    },
+    {
+     "t": "TipRanks",
+     "u": "https://www.tipranks.com/news/oil-slides-below-90-to-three-month-low-as-rising-supply-tests-opec-before-sunday-vote"
+    },
+    {
+     "t": "Invezz",
+     "u": "https://invezz.com/news/2026/11/24/oil-price-today-brent-below-89-supply-glut-hormuz/"
+    }
+   ]
+  },
+  {
+   "activo": "VIX (volatilidad S&P 500)",
+   "cambio": "−5,27 % (26,8)",
+   "por_que": "El miedo se relaja con los futuros de EE. UU. al alza, aunque ==sigue alto (≈ 27)==. Dato orientativo: la bolsa de opciones de Chicago no tuvo sesión normal."
+  },
+  {
+   "activo": "Franco suizo (frente al euro)",
+   "cambio": "EUR/CHF +0,75 %",
+   "por_que": "==El franco es moneda refugio==: cuando baja el miedo, se vende para comprar activos de más riesgo, y el euro se aprecia frente a él."
+  },
+  {
+   "activo": "Bono alemán (precio)",
+   "cambio": "TIR 10 años +5 pb",
+   "por_que": "==Se deshace la compra de refugio del miércoles==: al subir la bolsa se venden bonos y su rentabilidad sube.",
+   "fuentes": [
+    {
+     "t": "Devdiscourse (Reuters)",
+     "u": "https://www.devdiscourse.com/article/international/4012721-euro-zone-bond-yields-rise-as-stocks-bounce-markets-mull-new-ecb-chief"
+    }
+   ]
+  },
+  {
+   "activo": "Shanghái Composite (China)",
+   "cambio": "0,00 %",
+   "por_que": "Plano: la bolsa china continental depende más de la política de Pekín y de su propio ahorro que del rebote global de chips. Sin noticia concreta."
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Aranceles por «sobrecapacidad»: la letra pequeña",
+   "texto": "El miércoles se vendió por miedo a la propuesta de la Oficina del Representante Comercial de EE. UU. (USTR) contra 14 economías. Hoy ==pesó la letra pequeña==: según la prensa, no se acumularán sobre los aranceles de julio y no se aplicarían antes de febrero–marzo. ==Menos coste y más tiempo para negociar== mejora las previsiones de beneficio de los exportadores, y por eso suben más Alemania, Italia, Corea y Taiwán.",
+   "fuentes": [
+    {
+     "t": "Investing.com",
+     "u": "https://www.investing.com/news/stock-market-news/european-shares-as-benign-us-tariffs-and-thanksgiving-lull-offer-relief-5052089"
+    },
+    {
+     "t": "IndexBox",
+     "u": "https://www.indexbox.io/blog/european-stocks-rally-as-us-tariff-plans-prove-less-severe-than-feared/"
+    }
+   ]
+  },
+  {
+   "tema": "Festivo en EE. UU.: rebote con poco volumen",
+   "texto": "Sin Wall Street, ==el volumen fue escaso y los movimientos se exageran==. Parte del alza es recompra de posiciones vendidas (cortos) tras un día muy malo. El viernes Wall Street abre media sesión y se verá si confirma.",
+   "fuentes": [
+    {
+     "t": "investingLive",
+     "u": "https://investinglive.com/stocks/european-stocks-surge-s-p-500-futures-finish-higher-in-thanksgiving-trading"
+    }
+   ]
+  },
+  {
+   "tema": "Hernández de Cos, hacia la presidencia del BCE",
+   "texto": "Los líderes de la UE respaldaron al español como sucesor de Christine Lagarde. ==Los analistas esperan continuidad== (prioridad a la inflación y decisiones por consenso), y los bonos no descontaron un BCE más suave: ==el 2 años alemán subió==.",
+   "fuentes": [
+    {
+     "t": "Benzinga",
+     "u": "https://www.benzinga.com/markets/eurozone/26/11/63663246/hernandez-de-cos-ecb-president-analysts-continuity-twist"
+    },
+    {
+     "t": "Devdiscourse (Reuters)",
+     "u": "https://www.devdiscourse.com/article/international/4012721-euro-zone-bond-yields-rise-as-stocks-bounce-markets-mull-new-ecb-chief"
+    }
+   ]
+  },
+  {
+   "tema": "Brasil: inflación y Hacienda",
+   "texto": "La inflación IPCA-15 de noviembre salió más baja de lo previsto y ganó fuerza un banquero (Trabuco) para Hacienda. ==Menos inflación + más credibilidad fiscal = tipos más bajos== en el futuro, lo que dispara bolsa y real.",
+   "fuentes": [
+    {
+     "t": "Money Times",
+     "u": "https://www.moneytimes.com.br/ibovespa-dispara-e-recupera-os-176-mil-pontos-com-encontro-entre-lula-e-trabuco-davs/"
+    },
+    {
+     "t": "Suno",
+     "u": "https://www.suno.com.br/noticias/ibovespa-hoje-26112026-ipca-15-dolar-go/"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "==En EE. UU. no hubo sesión de bonos (Acción de Gracias)==: el último cierre es el del miércoles, con el 10 años en 4,85 % tras bajar ≈ 6 pb por refugio. El mercado sigue dando como casi segura una subida de la Fed en diciembre (≈ 92 %).\n\nEn la zona euro ==los tipos subieron porque se deshizo el refugio del miércoles==: con la bolsa rebotando un 2 %, los inversores vendieron bonos alemanes y el Bund a 10 años subió unos 5 pb (≈ 3,27 %) desde su mínimo de casi tres semanas. ==El 2 años subió aún más (+6 pb)==, señal de que el mercado no espera un BCE más blando con Hernández de Cos y de que los aranceles menos duros dejan más margen para subir tipos. El diferencial de Francia apenas se movió (≈ 149 pb, algo más estrecho): en días de apetito por el riesgo la deuda periférica se comporta mejor que la alemana. La serie del BCE de la curva AAA aún no recoge el día 26 (llega con un día de retraso), así que las cifras son de prensa.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "sin sesión (4,85 % al cierre del miércoles)",
+    "por_que": "Mercado cerrado por Acción de Gracias; el viernes abre media sesión."
+   },
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "sin sesión (FRED: 4,63 % el 24)",
+    "por_que": "==Anclado por la subida casi segura de la Fed en diciembre==; FRED va con retraso."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "≈ +5 pb (Bund ≈ 3,27 %, según prensa)",
+    "por_que": "==Venta de refugio al subir la bolsa==; aranceles menos dañinos = más crecimiento y más inflación esperada en Europa.",
+    "fuentes": [
+     {
+      "t": "Devdiscourse (Reuters)",
+      "u": "https://www.devdiscourse.com/article/international/4012721-euro-zone-bond-yields-rise-as-stocks-bounce-markets-mull-new-ecb-chief"
+     }
+    ]
+   },
+   {
+    "bono": "Alemania 2 años",
+    "cambio": "≈ +6 pb (≈ 3,08 %)",
+    "por_que": "El tramo más sensible al BCE: ==el mercado no descuenta un presidente más blando== y mantiene las apuestas de subida.",
+    "fuentes": [
+     {
+      "t": "Devdiscourse (Reuters)",
+      "u": "https://www.devdiscourse.com/article/international/4012721-euro-zone-bond-yields-rise-as-stocks-bounce-markets-mull-new-ecb-chief"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Francia–Alemania",
+    "cambio": "ligeramente más estrecho (≈ 149 pb)",
+    "por_que": "Día de apetito por el riesgo: se vende el bono alemán (refugio) más que el francés.",
+    "fuentes": [
+     {
+      "t": "Devdiscourse (Reuters)",
+      "u": "https://www.devdiscourse.com/article/international/4012721-euro-zone-bond-yields-rise-as-stocks-bounce-markets-mull-new-ecb-chief"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Devdiscourse (Reuters)",
+    "u": "https://www.devdiscourse.com/article/international/4012721-euro-zone-bond-yields-rise-as-stocks-bounce-markets-mull-new-ecb-chief"
+   },
+   {
+    "t": "Benzinga",
+    "u": "https://www.benzinga.com/markets/eurozone/26/11/63663246/hernandez-de-cos-ecb-president-analysts-continuity-twist"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "",
+  "suben": [],
+  "bajan": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-27",
+   "evento": "Media sesión en Wall Street; inflación preliminar de noviembre en Alemania, Francia, Italia y España",
+   "por_que_importa": "Se verá si EE. UU. confirma el rebote europeo; y la inflación europea pesa en lo que haga el BCE en diciembre."
+  },
+  {
+   "fecha": "2026-11-29",
+   "evento": "Reunión de la OPEP+ (producción de 2027)",
+   "por_que_importa": "Si solo mantiene cuotas, el exceso de oferta puede seguir empujando el Brent a la baja."
+  },
+  {
+   "fecha": "2026-12-01",
+   "evento": "Índices de gerentes de compras (PMI) manufactureros de noviembre",
+   "por_que_importa": "Primer termómetro de cómo afectan los aranceles a la industria."
+  },
+  {
+   "fecha": "2026-12-04",
+   "evento": "Informe de empleo de noviembre en EE. UU.",
+   "por_que_importa": "Último gran dato antes de la Fed: un empleo fuerte confirmaría la subida de diciembre."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "El mercado da ≈ 92 % de probabilidad a una subida de 25 pb."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo, que fija los tipos del euro."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal de EE. UU., el banco central que fija los tipos de interés en dólares."
+  },
+  {
+   "sigla": "UE",
+   "def": "Unión Europea."
+  },
+  {
+   "sigla": "USTR",
+   "def": "United States Trade Representative: Oficina del Representante Comercial de EE. UU., que negocia y propone aranceles."
+  },
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "IPCA-15",
+   "def": "Índice Nacional de Precios al Consumidor Amplio 15: avance quincenal de la inflación de Brasil."
+  },
+  {
+   "sigla": "OPEP+",
+   "def": "Organización de Países Exportadores de Petróleo y sus aliados (Rusia, entre otros)."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono al año si se compra hoy y se mantiene hasta su vencimiento. Sube cuando baja el precio del bono."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad esperada del S&P 500 en los próximos 30 días; sube con el miedo."
+  },
+  {
+   "sigla": "WTI",
+   "def": "West Texas Intermediate: petróleo de referencia en EE. UU. (el Brent es la referencia europea)."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia; la curva AAA del BCE agrupa los bonos de los países de la zona euro con esa nota."
+  },
+  {
+   "sigla": "FRED",
+   "def": "Federal Reserve Economic Data: base de datos de la Fed de San Luis, de donde salen algunas series del panel."
+  },
+  {
+   "sigla": "PMI",
+   "def": "Purchasing Managers' Index: índice de gerentes de compras; por encima de 50 indica expansión."
+  },
+  {
+   "sigla": "Cortos",
+   "def": "Posiciones que ganan si el precio baja; al cerrarlas hay que comprar, lo que impulsa el precio."
+  }
+ ],
+ "generado": "2026-11-26T23:20"
+}
