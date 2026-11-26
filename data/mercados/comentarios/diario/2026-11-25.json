@@ -1,80 +1,484 @@
 {
-  "periodo": "diario",
-  "clave": "2026-11-25",
-  "fase": "mercado",
-  "titulo": "Aranceles por «sobrecapacidad» y PCE caliente: Kospi −6,6 % e Ibex −2 %",
-  "resumen": "Asia deshizo en un día buena parte del rebote del martes. ==Corea (Kospi −6,6 %) y Taiwán (Taiex −4,8 %) se hundieron== por dos motivos que se refuerzan: la duda sobre el ciclo de la inteligencia artificial (IA) volvió a los fabricantes de memoria (==SK Hynix −11 % y Samsung −9,9 %==) y Reuters adelantó que EE. UU. iba a anunciar aranceles por «sobrecapacidad» industrial a una quincena de socios, Corea y Taiwán incluidos. Japón cayó un 2,9 % y China continental un 1,6 %; India (+2,4 %), que no está en la lista y apenas pesa en chips, fue la excepción.\n\nEuropa abrió en verde, pero se dio la vuelta cuando la Oficina del Representante Comercial de EE. UU. (USTR) ==confirmó la propuesta de aranceles a 14 economías, la Unión Europea (UE) entre ellas==. El Stoxx 600 cerró −1,06 %, con los semiconductores al frente (ASML −5,8 %, Infineon −6,5 %). ==El Ibex fue de los peores (−2 %, a niveles de junio)== por un factor propio: la banca (CaixaBank −4,2 %, Santander −4 %, Bankinter −3,2 %) castigada por la ==prórroga del impuesto a la banca y un nuevo decreto de crédito al consumo== publicados en el Boletín Oficial del Estado (BOE). Italia (−1,8 %), con mucho peso bancario, sufrió por lo mismo que España: los bancos son lo más sensible a una economía que se frena.\n\nEn Wall Street, el dato de inflación PCE (deflactor del gasto en consumo personal) de octubre salió ==subyacente al 3,3 %, por encima de lo esperado y máximo desde 2023==, y el PIB (producto interior bruto) del tercer trimestre se revisó al alza hasta el 4,3 % anualizado. Con ese cóctel y los aranceles, ==el Nasdaq llegó a caer un 4,6 %, pero cerró solo −0,6 %== (Nasdaq 100 −0,64 %) gracias a la compra en la caída; Nvidia terminó −3,9 %. ==Rotación otra vez: Dow +0,33 % y Russell 2000 +0,71 %==. El VIX subió a 28,3 (+7,3 %).\n\nLo llamativo es que ==los tipos bajaron pese a la inflación alta==: el 10 años de EE. UU. cedió 5,6 pb (4,85 %) porque el miedo en la bolsa empujó a comprar bonos y porque un PIB fuerte con aranceles hace temer que una Reserva Federal (Fed) que sube tipos acabe frenando la economía. En materias primas, ==oro (+1,2 %), plata (+1,6 %) y cobre (+2,1 %) recuperaron parte de la caída del martes==, el gas de EE. UU. se disparó un 10,8 % y el franco suizo actuó de refugio (euro/franco −1,07 %).",
-  "claves": [
-    "==Aranceles por «sobrecapacidad»==: EE. UU. propone gravar a 14 economías (UE, China, Japón, Corea, Taiwán, Suiza…), con un tope del 15 % para los aliados y decisión final hacia el 25 de enero.",
-    "==Asia, la más castigada: Kospi −6,6 % y Taiex −4,8 %==, con SK Hynix −11 % y Samsung −9,9 % por las dudas sobre la demanda de memoria para IA.",
-    "==Ibex −2 % (18.636 puntos), lastrado por la banca==: prórroga del impuesto a la banca y decreto de crédito al consumo; Stoxx 600 −1,06 %.",
-    "==PCE subyacente 3,3 % (máximo desde 2023) y PIB del 3T al 4,3 %==: la Fed sigue con ≈ 92 % de probabilidad de subir en diciembre.",
-    "==Wall Street se recuperó en la sesión==: el Nasdaq pasó de −4,6 % a −0,6 %; Dow y Russell 2000 en positivo.",
-    "==Bonos al alza pese a la inflación==: el 10 años de EE. UU. baja 5,6 pb (4,85 %) por refugio; el diferencial italiano se abre a ≈ 112 pb."
+ "periodo": "diario",
+ "clave": "2026-11-25",
+ "fase": "completo",
+ "titulo": "Aranceles por «sobrecapacidad» y PCE caliente: Kospi −6,2 % e Ibex −2 %",
+ "resumen": "Asia deshizo en un día buena parte del rebote del martes. ==Corea (Kospi −6,2 %) y Taiwán (Taiex −4,8 %) se hundieron== por dos motivos que se refuerzan: la duda sobre el ciclo de la inteligencia artificial (IA) volvió a los fabricantes de memoria (==SK Hynix −11 % y Samsung −9,9 %==) y Reuters adelantó que EE. UU. iba a anunciar aranceles por «sobrecapacidad» industrial a una quincena de socios, Corea y Taiwán incluidos. Japón cayó un 2,8 % y China continental un 2 %; India (+1,8 %), que no está en la lista y apenas pesa en chips, fue la excepción.\n\nEuropa abrió en verde, pero se dio la vuelta cuando la Oficina del Representante Comercial de EE. UU. (USTR) ==confirmó la propuesta de aranceles a 14 economías, la Unión Europea (UE) entre ellas==. El Stoxx 600 cerró −1,06 %, con los semiconductores al frente (ASML −5,8 %, Infineon −6,5 %). ==El Ibex fue de los peores (−2 %, a niveles de junio)== por un factor propio: la banca (CaixaBank −4,2 %, Santander −4 %, Bankinter −3,2 %) castigada por la ==prórroga del impuesto a la banca y un nuevo decreto de crédito al consumo== publicados en el Boletín Oficial del Estado (BOE). Italia (−1,8 %), con mucho peso bancario, sufrió por lo mismo que España: los bancos son lo más sensible a una economía que se frena.\n\nEn Wall Street, el dato de inflación PCE (deflactor del gasto en consumo personal) de octubre salió ==subyacente al 3,3 %, por encima de lo esperado y máximo desde 2023==, y el PIB (producto interior bruto) del tercer trimestre se revisó al alza hasta el 4,3 % anualizado. Con ese cóctel y los aranceles, ==el Nasdaq llegó a caer un 4,6 %, pero cerró solo −0,6 %== (Nasdaq 100 −0,64 %) gracias a la compra en la caída; Nvidia terminó −3,9 %. ==Rotación otra vez: Dow +0,33 % y Russell 2000 +0,71 %==. El VIX subió a 28,3 (+7,3 %).\n\nLo llamativo es que ==los tipos bajaron pese a la inflación alta==: el 10 años de EE. UU. cedió 5,6 pb (4,85 %) porque el miedo en la bolsa empujó a comprar bonos y porque un PIB fuerte con aranceles hace temer que una Reserva Federal (Fed) que sube tipos acabe frenando la economía. En materias primas, ==el Brent subió un 3,5 % (94,6 $)== a la espera de la OPEP+ del domingo, mientras ==oro (−0,7 %) y plata (−1,7 %) encadenaron su segundo día de caídas==: un PCE alto refuerza la subida de la Fed. El franco suizo actuó de refugio (euro/franco −1,07 %).",
+ "claves": [
+  "==Aranceles por «sobrecapacidad»==: EE. UU. propone gravar a 14 economías (UE, China, Japón, Corea, Taiwán, Suiza…), con un tope del 15 % para los aliados y decisión final hacia el 25 de enero.",
+  "==Asia, la más castigada: Kospi −6,2 % y Taiex −4,8 %==, con SK Hynix −11 % y Samsung −9,9 % por las dudas sobre la demanda de memoria para IA.",
+  "==Ibex −2 % (18.636 puntos), lastrado por la banca==: prórroga del impuesto a la banca y decreto de crédito al consumo; Stoxx 600 −1,06 %.",
+  "==PCE subyacente 3,3 % (máximo desde 2023) y PIB del 3T al 4,3 %==: la Fed sigue con ≈ 92 % de probabilidad de subir en diciembre.",
+  "==Wall Street se recuperó en la sesión==: el Nasdaq pasó de −4,6 % a −0,6 %; Dow y Russell 2000 en positivo.",
+  "==Bonos al alza pese a la inflación==: el 10 años de EE. UU. baja 5,6 pb (4,85 %) por refugio; el diferencial italiano se abre a ≈ 112 pb."
+ ],
+ "suben": [
+  {
+   "activo": "Sensex (India)",
+   "cambio": "+1,82 % (frente al lunes)",
+   "por_que": "==India no figura en la lista de aranceles y apenas pesa en chips==: el dinero que sale de Corea y Taiwán busca mercados emergentes menos expuestos a la IA y al comercio con EE. UU.",
+   "fuentes": []
+  },
+  {
+   "activo": "Petróleo Brent / WTI",
+   "cambio": "+3,51 % / +1,99 %",
+   "por_que": "==El mercado se posiciona ante la reunión de la OPEP+ del domingo 29==: el Brent superó los 93 $ y cerró en 94,6 $. Pesa más el riesgo en Ormuz que el exceso de oferta previsto para 2027.",
+   "fuentes": [
+    {
+     "t": "Energynews.pro",
+     "u": "https://energynews.pro/en/brent-climbs-to-9140-ahead-of-opec-production-decision"
+    },
+    {
+     "t": "Investing.com",
+     "u": "https://investing.com/analysis/oils-war-premium-masks-a-projected-38-millionbarrel-daily-surplus-200692336"
+    }
+   ]
+  },
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "+1,58 %",
+   "por_que": "Brasil no está en la lista de «sobrecapacidad» y ==el alza del Brent favorece a sus petroleras== (Petrobras pesa mucho en el índice); sin noticia propia destacada.",
+   "fuentes": []
+  },
+  {
+   "activo": "Russell 2000 (pequeñas EE. UU.)",
+   "cambio": "+0,71 %",
+   "por_que": "==Rotación fuera de las grandes tecnológicas==: las pequeñas empresas venden sobre todo dentro de EE. UU., así que los aranceles les afectan menos, y la bajada de tipos largos les alivia la deuda.",
+   "fuentes": [
+    {
+     "t": "CNN",
+     "u": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"
+    }
+   ]
+  },
+  {
+   "activo": "Dow Jones",
+   "cambio": "+0,33 %",
+   "por_que": "==Rotación desde la tecnología hacia sectores defensivos y cíclicos== (salud, industria, consumo básico), menos expuestos a las dudas sobre la IA.",
+   "fuentes": [
+    {
+     "t": "CNN",
+     "u": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"
+    }
+   ]
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "Kospi (Corea)",
+   "cambio": "−6,16 %",
+   "por_que": "==SK Hynix −11 % y Samsung −9,9 %==: vuelve el temor a que el ciclo de beneficios de la memoria para IA haya tocado techo, y Corea está en la lista de aranceles. Pierde los 5.000 puntos tras subir un 6,3 % el martes.",
+   "fuentes": [
+    {
+     "t": "The Korea Times",
+     "u": "https://www.koreatimes.co.kr/economy/20261125/kospi-sinks-6-as-chip-outlook-us-tariff-concerns-weigh"
+    },
+    {
+     "t": "Korea JoongAng Daily",
+     "u": "https://www.koreajoongangdaily.com/business/kospi-plunges-back-below-5000-as-chip-selloff-returns/12990750"
+    }
+   ]
+  },
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "−4,80 %",
+   "por_que": "==TSMC llegó a caer un 9,4 % y cerró −3,6 %==; el índice perdió los 40.000 puntos. Taiwán podría sumar un 5 % de arancel, aunque los semiconductores quedan fuera de esta investigación.",
+   "fuentes": [
+    {
+     "t": "Taipei Times",
+     "u": "https://www.taipeitimes.com/News/biz/archives/2026/11/26/2003868387"
+    },
+    {
+     "t": "Finimize",
+     "u": "https://finimize.com/content/asian-stocks-slide-as-tariff-talk-hits-chip-markets"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "−2,78 %",
+   "por_que": "==Arrastrado por sus fabricantes de equipos de chips== y por figurar Japón en la lista de aranceles, aunque con el tope del 15 %.",
+   "fuentes": [
+    {
+     "t": "Anadolu",
+     "u": "https://www.aa.com.tr/en/economy/asian-chip-stocks-plunge-as-nvidia-led-rally-fades/4136929"
+    }
+   ]
+  },
+  {
+   "activo": "IBEX 35 (España)",
+   "cambio": "−2,00 %",
+   "por_que": "Doble golpe: aranceles a la UE y, sobre todo, ==la banca (CaixaBank −4,2 %, Santander −4 %, Sabadell −3,5 %, Bankinter −3,2 %) por la prórroga del impuesto a la banca== y el nuevo decreto de crédito al consumo. Vuelve a niveles de junio.",
+   "fuentes": [
+    {
+     "t": "El Boletín",
+     "u": "https://www.elboletin.com/el-ibex-35-se-desploma-un-2-por-la-amenaza-arancelaria-de-trump-y-el-encarecimiento-del-petroleo/"
+    },
+    {
+     "t": "Capital",
+     "u": "https://capital.es/economia/mercados-e-inversion/el-ibex-35-cae-un-2-y-pierde-los-18-700-puntos-ante-el-anuncio-de-nuevos-aranceles-de-trump/238376"
+    }
+   ]
+  },
+  {
+   "activo": "Euro Stoxx 50 / FTSE MIB",
+   "cambio": "−1,82 % / −1,81 %",
+   "por_que": "==Semiconductores europeos a la baja (ASML −5,8 %, ASM International −7,8 %, Infineon −6,5 %)== por el contagio del Nasdaq; Italia, como España, sufre por su peso bancario. Europa abrió con subidas y se dio la vuelta con el anuncio de la USTR.",
+   "fuentes": [
+    {
+     "t": "Chip Dispatch",
+     "u": "https://chipdispatch.com/articles/european-chip-stocks-slump-as-nasdaq-s-4-ai-rout-crosses-the-atlantic"
+    },
+    {
+     "t": "LSE (Reuters)",
+     "u": "https://www.lse.co.uk/news/global-markets-world-stocks-tumble-as-trump-tariffs-rattle-markets-ai-rally-fades-4m7anmop23r0za0.html"
+    }
+   ]
+  },
+  {
+   "activo": "DAX (Alemania)",
+   "cambio": "−1,26 %",
+   "por_que": "Industria exportadora y chips (Infineon) expuestos a los aranceles; ==cae menos que el Euro Stoxx 50 por su menor peso bancario==.",
+   "fuentes": []
+  },
+  {
+   "activo": "Nasdaq 100 / S&P 500",
+   "cambio": "−0,64 % / −0,25 %",
+   "por_que": "==PCE subyacente al 3,3 % + aranceles: el Nasdaq llegó a −4,6 %== y el Nasdaq 100 rozó el mercado bajista (−20 % desde máximos); la compra en la caída recortó casi todo. Nvidia −3,9 %.",
+   "fuentes": [
+    {
+     "t": "CNN",
+     "u": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"
+    }
+   ]
+  },
+  {
+   "activo": "Oro / plata",
+   "cambio": "−0,73 % / −1,74 %",
+   "por_que": "Segundo día de caídas (−2,4 % y −5,5 % el martes) pese a la bajada de las TIR: ==el PCE subyacente al 3,3 % asegura casi la subida de la Fed== y un tipo oficial más alto encarece tener un activo que no paga intereses.",
+   "fuentes": [
+    {
+     "t": "FXStreet",
+     "u": "https://www.fxstreet.com/news/gold-sinks-despite-falling-us-yields-as-core-pce-hits-33-202611251933"
+    }
+   ]
+  },
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "−4,76 %",
+   "por_que": "Recogida de beneficios tras las subidas por el frío y las reservas bajas; sin noticia concreta del día.",
+   "fuentes": [
+    {
+     "t": "OilPrice",
+     "u": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html"
+    }
+   ]
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Aranceles por «sobrecapacidad» (Sección 301)",
+   "texto": "La USTR propuso aranceles a 14 economías por exceso de producción industrial tras una investigación de la Sección 301 de la ley comercial de EE. UU. ==Corea, Japón, la UE, Taiwán y Suiza mantendrían un tope del 15 %==, pero Washington se reserva subir a Corea al 25 %. Hay periodo de alegaciones y la decisión final se espera hacia el 25 de enero. ==El daño en bolsa llegó antes, con la filtración de Reuters==: los mercados descuentan menos comercio y márgenes más estrechos para exportadores.",
+   "fuentes": [
+    {
+     "t": "The Next Web",
+     "u": "https://thenextweb.com/news/new-tariffs-14-trading-partners-china-eu-section-301-excess-capacity"
+    },
+    {
+     "t": "The Korea Times",
+     "u": "https://www.koreatimes.co.kr/world/20261126/us-proposes-tariffs-over-excess-production-retains-15-cap-for-korea-japan-eu"
+    },
+    {
+     "t": "SBS",
+     "u": "https://news.sbs.co.kr/english/article.do?news_id=N1008863936"
+    }
+   ]
+  },
+  {
+   "tema": "Inflación PCE y PIB de EE. UU.",
+   "texto": "PCE general 3,8 % (en línea) y ==subyacente 3,3 % (se esperaba 3,2 %), la más alta desde noviembre de 2023==; ambos +0,3 % en el mes. El PIB del 3T se revisó del 3,4 % al ==4,3 % anualizado==. Economía caliente e inflación pegajosa: argumentos para que la Fed suba en diciembre. El secretario del Tesoro, Scott Bessent, avisó de que subir demasiado podría dañar el crecimiento.",
+   "fuentes": [
+    {
+     "t": "Benzinga",
+     "u": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate"
+    },
+    {
+     "t": "Hubbard O'Brien Economics",
+     "u": "https://hubbardobrieneconomics.com/2026/11/25/new-bea-data-releases-show-significantly-higher-growth-and-slightly-higher-inflation/"
+    }
+   ]
+  },
+  {
+   "tema": "Dudas sobre la IA y los chips de memoria",
+   "texto": "El regreso de Jensen Huang a Nvidia dio un respiro de dos días, pero ==la pregunta de fondo sigue abierta: si el gasto en IA y la demanda de memoria han tocado techo==. Las memorias coreanas (SK Hynix, Samsung) son las más cíclicas y las que más amplifican cualquier duda. Nvidia ya ha devuelto la mitad de su rebote.",
+   "fuentes": [
+    {
+     "t": "Anadolu",
+     "u": "https://www.aa.com.tr/en/economy/asian-chip-stocks-plunge-as-nvidia-led-rally-fades/4136929"
+    },
+    {
+     "t": "CNN",
+     "u": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"
+    }
+   ]
+  },
+  {
+   "tema": "Banca española: impuesto y crédito al consumo",
+   "texto": "El BOE publicó la ==prórroga del gravamen a la banca== y un nuevo real decreto de crédito al consumo, aprobados por la Diputación Permanente. ==Menos beneficio esperado para los bancos== y más requisitos para prestar explican por qué el Ibex, muy bancario, cayó más que sus vecinos.",
+   "fuentes": [
+    {
+     "t": "Mi Bolsillo",
+     "u": "https://www.mibolsillo.com/noticias/golpe-a-la-banca-en-madrid-ibex-35-toca-minimo-de-3-meses-tras-caida-de-santander-y-caixabank-20261125-0029.html"
+    },
+    {
+     "t": "Press Digital",
+     "u": "https://www.pressdigital.es/articulo/economia/2026-11-25/6108785-ibex-35-cae-2-borde-18600-puntos-ante-regreso-aranceles-trump"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "==Los tipos largos de EE. UU. bajaron aunque la inflación salió peor de lo previsto==. Normalmente un PCE subyacente al alza empuja las TIR (tasa interna de rentabilidad) hacia arriba, pero hoy pesaron más otros dos mecanismos: ==la huida a refugio== (con el Nasdaq cayendo un 4,6 % por la mañana, los inversores compraron bonos del Tesoro) y ==el temor a que una Fed que sube tipos frene una economía que ya sufre aranceles==. Más riesgo de frenazo futuro significa tipos más bajos a largo plazo, y por eso el 5, el 10 y el 30 años cayeron casi lo mismo (−5 a −6 pb). La probabilidad de subida en diciembre bajó del ≈ 97 % al ≈ 92 % según el CME FedWatch, sigue siendo casi segura.\n\nEn la zona euro, el Bund (bono alemán) también bajó unos 2–3 pb por el mismo motivo de refugio y porque ==los aranceles restan crecimiento y, con ello, presión para que el Banco Central Europeo (BCE) suba tipos==. El dato del BCE de la curva AAA aún no recoge el día 25 (llega con un día de retraso), así que tomamos la prensa. ==El diferencial de Italia se abrió de 109 a ≈ 112 pb==: en días de aversión al riesgo se vende la deuda periférica y se compra la alemana.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "−5,6 pb (4,85 %)",
+    "por_que": "==Compra de refugio por la caída de la tecnología== y temor a que las subidas de la Fed y los aranceles frenen la economía; pesa más que el PCE caliente.",
+    "fuentes": [
+     {
+      "t": "CNN",
+      "u": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "sin dato del día (FRED con retraso; 4,63 % el 24)",
+    "por_que": "El tramo corto sigue anclado por la subida casi segura de la Fed en diciembre (≈ 92 %); ==la prensa apunta a una bajada menor que la del 10 años==.",
+    "fuentes": [
+     {
+      "t": "Blockonomi",
+      "u": "https://blockonomi.com/stock-market-today-nasdaq-slides-3-5-as-inflation-tariffs-and-chip-losses-hit/"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "−5,7 pb (5,24 %)",
+    "por_que": "Mismo refugio; sigue por encima del 5 % por la prima por plazo ligada al déficit y a la inflación persistente."
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "≈ −2/−3 pb (Bund ≈ 3,22 %, según prensa)",
+    "por_que": "Refugio y ==aranceles que restan crecimiento europeo==; la serie del BCE aún no tiene el día 25 (3,31 % el 24 en la curva AAA).",
+    "fuentes": [
+     {
+      "t": "Borse.it",
+      "u": "https://www.borse.it/spread/spread_btp_bund"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial Italia–Alemania",
+    "cambio": "+2,5 pb (≈ 112 pb; BTP 4,34 %)",
+    "por_que": "==Aversión al riesgo: se vende periferia y se compra Bund==; la TIR italiana apenas baja mientras la alemana cae.",
+    "fuentes": [
+     {
+      "t": "ANSA",
+      "u": "https://www.ansa.it/sito/notizie/topnews/2026/11/25/lo-spread-btp-bund-conclude-in-aumento-a-1119-punti_9fc83e3e-6113-44a1-9421-521e4703cb1f.html"
+     }
+    ]
+   },
+   {
+    "bono": "Diferencial high yield EE. UU.",
+    "cambio": "+9 pb el día 24 (3,72 %)",
+    "por_que": "Dato de FRED con un día de retraso: el crédito de peor calidad empeora con la volatilidad de la bolsa."
+   }
   ],
+  "fuentes": [
+   {
+    "t": "ANSA",
+    "u": "https://www.ansa.it/sito/notizie/topnews/2026/11/25/lo-spread-tra-btp-e-bund-tedeschi-apre-in-rialzo-a-10945-punti_f2012667-c15f-4edd-be05-4b6c67fe8f8c.html"
+   },
+   {
+    "t": "Benzinga",
+    "u": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "Otra jornada en la que ==el ranking mezcla el miércoles con el martes==. La muestra de las 07:00 tiene 1.424 fondos con valor liquidativo (VL) del 25 (ninguno de ABANCA). ==Mediana de renta variable −1,24 %==, renta fija +0,04 % (los bonos subieron) y mixtos −0,40 %.\n\nTres grupos. (1) ==Fondos que valoran con un día de retraso== (los alemanes y austriacos de DWS, Erste y Raiffeisen; los de Invesco y Blue Whale, que valoran a mediodía). Su VL del 25 recoge el martes: la subida de las biotecnológicas y el rebote asiático arriba; la caída de Nvidia (−6 %) y Micron (−11 %) abajo. (2) ==Asia sin desfase: los Mirae Asset, JPMorgan Corea y Taiwán recogen el Kospi −6,2 % y el Taiex −4,8 %==. (3) ==Tecnología global de BlackRock y T. Rowe Price: −6 % a −7 %, muy por encima del Nasdaq 100 (−0,64 %)==. Tienen ≈ 19 % en Asia y lo más castigado de EE. UU. (memoria y semiconductores).\n\nFuera del top: ==las mineras de oro (BlackRock World Gold −5,3 %, DWS Gold −5,0 %) recogen dos días de caída del oro y la plata==. Ganan los fondos de Latinoamérica (Bovespa +1,6 %), India (+1,8 %), pequeñas compañías (Russell 2000 +0,7 %) e inmobiliario europeo, ayudado por la bajada de tipos. Efecto divisa pequeño: el euro cedió un 0,26 % frente al dólar, así que las clases en dólares ganan ≈ 0,26 puntos más en euros; las clases «EUR H» están cubiertas.",
   "suben": [
-    {"activo": "Gas natural EE. UU. (Henry Hub)", "cambio": "+10,77 %", "por_que": "==Fuerte demanda para exportar gas natural licuado (GNL)== y ajustes de posiciones antes del cambio de contrato; el frío previsto para diciembre añade demanda de calefacción.", "fuentes": [{"t": "JournalArta", "u": "https://journalarta.com/en/2026/11/25/brent-crude-slides-4-6-as-supply-surplus-fears-outweigh-hormuz-risks/"}]},
-    {"activo": "Sensex (India)", "cambio": "+2,36 % (frente al lunes)", "por_que": "==India no figura en la lista de aranceles y apenas pesa en chips==: el dinero que sale de Corea y Taiwán busca mercados emergentes menos expuestos a la IA y al comercio con EE. UU.", "fuentes": []},
-    {"activo": "Cobre", "cambio": "+2,14 %", "por_que": "Rebote técnico tras caer más de un 20 % desde el récord de septiembre (−2,6 % el martes); ==el tope del 15 % a los aliados resultó menos duro de lo temido==.", "fuentes": [{"t": "The Korea Times", "u": "https://www.koreatimes.co.kr/world/20261126/us-proposes-tariffs-over-excess-production-retains-15-cap-for-korea-japan-eu"}]},
-    {"activo": "Oro / plata", "cambio": "+1,22 % / +1,56 %", "por_que": "Recuperan parte de la caída del martes (−2,7 % y −5,9 %): ==la bajada de los tipos reales de EE. UU. abarata tener un activo que no paga intereses== y el día de miedo en bolsa favorece los refugios. Durante la sesión llegaron a caer tras el PCE.", "fuentes": [{"t": "FXStreet", "u": "https://www.fxstreet.com/news/gold-sinks-despite-falling-us-yields-as-core-pce-hits-33-202611251933"}]},
-    {"activo": "Russell 2000 (pequeñas EE. UU.)", "cambio": "+0,71 %", "por_que": "==Rotación fuera de las grandes tecnológicas==: las pequeñas empresas venden sobre todo dentro de EE. UU., así que los aranceles les afectan menos, y la bajada de tipos largos les alivia la deuda.", "fuentes": [{"t": "CNN", "u": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"}]},
-    {"activo": "Petróleo WTI", "cambio": "+2,52 % (Brent −0,70 %)", "por_que": "Señal mixta: el Brent llegó a pasar de 93 $ y acabó cediendo, mientras el WTI subió. ==El mercado espera a la reunión de la OPEP+ del domingo 29== y pesa el choque entre el riesgo en Ormuz y el exceso de oferta previsto para 2027. Sin noticia concreta que explique la distancia entre ambos crudos.", "fuentes": [{"t": "Energynews.pro", "u": "https://energynews.pro/en/brent-climbs-to-9140-ahead-of-opec-production-decision"}, {"t": "Investing.com", "u": "https://investing.com/analysis/oils-war-premium-masks-a-projected-38-millionbarrel-daily-surplus-200692336"}]},
-    {"activo": "Bovespa (Brasil)", "cambio": "+1,58 %", "por_que": "Brasil no está en la lista de «sobrecapacidad» y ==se beneficia del alza de cobre y trigo==, exportaciones clave; sin noticia propia destacada.", "fuentes": []}
+   {
+    "isin": "DE0009769976",
+    "por_que": "Biotecnología de DWS: Vertex, Gilead, Amgen, argenx e ==Insmed (3,8 %)==. ==Su VL recoge el martes==, día de la compra de Insmed por Sanofi y de la rotación hacia salud. Suma +11,7 % en dos días. Disponible en Bankinter."
+   },
+   {
+    "isin": "AT0000673165",
+    "por_que": "Biotecnología de Erste. ==Los austriacos de Erste valoran con los cierres del día anterior==: es el mismo tirón del martes que el de DWS (+5,3 % el día 24, +5,6 % el 25)."
+   },
+   {
+    "isin": "AT0000745872",
+    "por_que": "Emergentes de Raiffeisen. ==VL con un día de retraso==: recoge el rebote asiático del martes (Taiex +9 %, Kospi +6,3 %), no el desplome del miércoles. ==Es probable que lo devuelva en el VL del 26==."
+   },
+   {
+    "isin": "LU0492943443",
+    "por_que": "Latinoamérica de Ninety One (clase en dólares): +2,8 % en dólares y +3,06 % en euros por el dólar. ==Bovespa +1,6 %==, con Brasil fuera de los aranceles y el Brent al alza (petroleras)."
+   },
+   {
+    "isin": "LU1775952333",
+    "por_que": "Salud global de Invesco (clase en dólares). ==Invesco valora a mediodía con los cierres del día anterior==: es la rotación del martes hacia farmacéuticas y biotecnológicas. +2,4 % en dólares; +0,26 puntos por divisa."
+   },
+   {
+    "isin": "IE0008548988",
+    "por_que": "Latinoamérica de PineBridge, en dólares: ==mismo motor que Ninety One== (Brasil +1,6 %). +2,1 % en dólares."
+   },
+   {
+    "isin": "DE0009773010",
+    "por_que": "Emergentes de DWS. ==Como Raiffeisen, refleja el rebote asiático del martes== por valorar con un día de retraso; el día 23 había caído un 3,7 %."
+   },
+   {
+    "isin": "LU1529512219",
+    "por_que": "Japón de MFS, en dólares. ==Dato raro: sube mientras el Nikkei cae un 2,8 %==. MFS aplica ajuste de valor razonable con la tarde de Wall Street, que recuperó casi todo; el martes, con el Nikkei +3,9 %, el fondo marcó −0,7 %. Hay que leerlo en varios días."
+   }
   ],
   "bajan": [
-    {"activo": "Kospi (Corea)", "cambio": "−6,56 %", "por_que": "==SK Hynix −11 % y Samsung −9,9 %==: vuelve el temor a que el ciclo de beneficios de la memoria para IA haya tocado techo, y Corea está en la lista de aranceles. Pierde los 5.000 puntos tras subir un 7,4 % el martes. La prensa coreana da −6,2 % frente a su propio cierre del martes.", "fuentes": [{"t": "The Korea Times", "u": "https://www.koreatimes.co.kr/economy/20261125/kospi-sinks-6-as-chip-outlook-us-tariff-concerns-weigh"}, {"t": "Korea JoongAng Daily", "u": "https://www.koreajoongangdaily.com/business/kospi-plunges-back-below-5000-as-chip-selloff-returns/12990750"}]},
-    {"activo": "Taiex (Taiwán)", "cambio": "−4,80 %", "por_que": "==TSMC llegó a caer un 9,4 % y cerró −3,6 %==; el índice perdió los 40.000 puntos. Taiwán podría sumar un 5 % de arancel, aunque los semiconductores quedan fuera de esta investigación.", "fuentes": [{"t": "Taipei Times", "u": "https://www.taipeitimes.com/News/biz/archives/2026/11/26/2003868387"}, {"t": "Finimize", "u": "https://finimize.com/content/asian-stocks-slide-as-tariff-talk-hits-chip-markets"}]},
-    {"activo": "Nikkei 225 (Japón)", "cambio": "−2,94 %", "por_que": "==Arrastrado por sus fabricantes de equipos de chips== y por figurar Japón en la lista de aranceles, aunque con el tope del 15 %.", "fuentes": [{"t": "Anadolu", "u": "https://www.aa.com.tr/en/economy/asian-chip-stocks-plunge-as-nvidia-led-rally-fades/4136929"}]},
-    {"activo": "IBEX 35 (España)", "cambio": "−2,00 %", "por_que": "Doble golpe: aranceles a la UE y, sobre todo, ==la banca (CaixaBank −4,2 %, Santander −4 %, Sabadell −3,5 %, Bankinter −3,2 %) por la prórroga del impuesto a la banca== y el nuevo decreto de crédito al consumo. Vuelve a niveles de junio.", "fuentes": [{"t": "El Boletín", "u": "https://www.elboletin.com/el-ibex-35-se-desploma-un-2-por-la-amenaza-arancelaria-de-trump-y-el-encarecimiento-del-petroleo/"}, {"t": "Capital", "u": "https://capital.es/economia/mercados-e-inversion/el-ibex-35-cae-un-2-y-pierde-los-18-700-puntos-ante-el-anuncio-de-nuevos-aranceles-de-trump/238376"}]},
-    {"activo": "Euro Stoxx 50 / FTSE MIB", "cambio": "−1,82 % / −1,81 %", "por_que": "==Semiconductores europeos a la baja (ASML −5,8 %, ASM International −7,8 %, Infineon −6,5 %)== por el contagio del Nasdaq; Italia, como España, sufre por su peso bancario. Europa abrió con subidas y se dio la vuelta con el anuncio de la USTR.", "fuentes": [{"t": "Chip Dispatch", "u": "https://chipdispatch.com/articles/european-chip-stocks-slump-as-nasdaq-s-4-ai-rout-crosses-the-atlantic"}, {"t": "LSE (Reuters)", "u": "https://www.lse.co.uk/news/global-markets-world-stocks-tumble-as-trump-tariffs-rattle-markets-ai-rally-fades-4m7anmop23r0za0.html"}]},
-    {"activo": "DAX (Alemania)", "cambio": "−1,26 %", "por_que": "Industria exportadora y chips (Infineon) expuestos a los aranceles; ==cae menos que el Euro Stoxx 50 por su menor peso bancario==.", "fuentes": []},
-    {"activo": "Nasdaq 100 / S&P 500", "cambio": "−0,64 % / −0,25 %", "por_que": "==PCE subyacente al 3,3 % + aranceles: el Nasdaq llegó a −4,6 %== y el Nasdaq 100 rozó el mercado bajista (−20 % desde máximos); la compra en la caída recortó casi todo. Nvidia −3,9 %.", "fuentes": [{"t": "CNN", "u": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"}]},
-    {"activo": "Gas natural europeo (TTF)", "cambio": "−3,89 %", "por_que": "Recogida de beneficios tras las subidas por el frío y las reservas bajas; sin noticia concreta del día.", "fuentes": [{"t": "OilPrice", "u": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html"}]}
+   {
+    "isin": "LU2484078832",
+    "por_que": "Inteligencia artificial de Invesco: Nvidia, TSMC, Alphabet, ==SK Hynix (5,5 %) y Micron==. Doble golpe: ==Asia del miércoles (SK Hynix −11 %, TSMC −3,6 %) y Wall Street del martes (Nvidia −6 %, Micron −11 %)==, porque Invesco valora a mediodía. Devuelve el +3,6 % del día 24."
+   },
+   {
+    "isin": "LU1861216510",
+    "por_que": "Tecnología de próxima generación de BlackRock: Lumentum, Nvidia, Micron, SanDisk y ==asiáticas como Asia Vital e Ibiden (≈ 18 % en Asia)==. Lo más castigado de la ola de dudas sobre la IA. Clase cubierta a euros. En dos días, −11,4 %."
+   },
+   {
+    "isin": "LU0336299580",
+    "por_que": "Líderes asiáticos de Mirae Asset: ==Samsung (10,6 %), TSMC (10 %) y SK Hynix (6,6 %)==, casi un 80 % en tecnología. ==Movimiento real del miércoles==: Samsung −9,9 % y SK Hynix −11 %. Devuelve el +5,7 % del martes."
+   },
+   {
+    "isin": "LU0593848723",
+    "por_que": "Pese a su nombre (consumo asiático), ==su cartera es casi idéntica a la anterior==: Samsung, TSMC, SK Hynix, MediaTek. Por eso cae lo mismo con el desplome de los chips coreanos y taiwaneses."
+   },
+   {
+    "isin": "LU1590492135",
+    "por_que": "Tendencias de consumo de Invesco: Tesla, Amazon y ==Nebius (7,8 %), una nube de IA==, más Micron. ==Recoge la caída del martes en Wall Street== (valora a mediodía) en sus valores más ligados a la IA. Clase cubierta a euros."
+   },
+   {
+    "isin": "IE00BJM0B969",
+    "por_que": "Blue Whale: ==Lam Research, Applied Materials, SK Hynix (8,8 %) y Nvidia==, equipos de chips y memoria. ==Valora a mediodía==: suma la caída de los chips en EE. UU. del martes y la de SK Hynix del miércoles."
+   },
+   {
+    "isin": "LU1602119973",
+    "por_que": "Tecnología global de T. Rowe Price: Nvidia, TSMC, AMD, ==Samsung y SK Hynix (≈ 9 %), ASML (−5,8 % el miércoles)==. Cae mucho más que el Nasdaq 100 por Asia y Europa. Clase cubierta. En dos días, −9 %."
+   },
+   {
+    "isin": "LU0273689215",
+    "por_que": "Gran China de Goldman Sachs, con mucho Taiwán. ==Taiex −4,8 % y Hang Seng −1,1 %==. Ajustes de valor razonable: +9,9 % el lunes, −4,6 % el martes y −5,7 % ahora. En tres días, −1,2 %."
+   }
   ],
-  "drivers": [
-    {"tema": "Aranceles por «sobrecapacidad» (Sección 301)", "texto": "La USTR propuso aranceles a 14 economías por exceso de producción industrial tras una investigación de la Sección 301 de la ley comercial de EE. UU. ==Corea, Japón, la UE, Taiwán y Suiza mantendrían un tope del 15 %==, pero Washington se reserva subir a Corea al 25 %. Hay periodo de alegaciones y la decisión final se espera hacia el 25 de enero. ==El daño en bolsa llegó antes, con la filtración de Reuters==: los mercados descuentan menos comercio y márgenes más estrechos para exportadores.", "fuentes": [{"t": "The Next Web", "u": "https://thenextweb.com/news/new-tariffs-14-trading-partners-china-eu-section-301-excess-capacity"}, {"t": "The Korea Times", "u": "https://www.koreatimes.co.kr/world/20261126/us-proposes-tariffs-over-excess-production-retains-15-cap-for-korea-japan-eu"}, {"t": "SBS", "u": "https://news.sbs.co.kr/english/article.do?news_id=N1008863936"}]},
-    {"tema": "Inflación PCE y PIB de EE. UU.", "texto": "PCE general 3,8 % (en línea) y ==subyacente 3,3 % (se esperaba 3,2 %), la más alta desde noviembre de 2023==; ambos +0,3 % en el mes. El PIB del 3T se revisó del 3,4 % al ==4,3 % anualizado==. Economía caliente e inflación pegajosa: argumentos para que la Fed suba en diciembre. El secretario del Tesoro, Scott Bessent, avisó de que subir demasiado podría dañar el crecimiento.", "fuentes": [{"t": "Benzinga", "u": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate"}, {"t": "Hubbard O'Brien Economics", "u": "https://hubbardobrieneconomics.com/2026/11/25/new-bea-data-releases-show-significantly-higher-growth-and-slightly-higher-inflation/"}]},
-    {"tema": "Dudas sobre la IA y los chips de memoria", "texto": "El regreso de Jensen Huang a Nvidia dio un respiro de dos días, pero ==la pregunta de fondo sigue abierta: si el gasto en IA y la demanda de memoria han tocado techo==. Las memorias coreanas (SK Hynix, Samsung) son las más cíclicas y las que más amplifican cualquier duda. Nvidia ya ha devuelto la mitad de su rebote.", "fuentes": [{"t": "Anadolu", "u": "https://www.aa.com.tr/en/economy/asian-chip-stocks-plunge-as-nvidia-led-rally-fades/4136929"}, {"t": "CNN", "u": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"}]},
-    {"tema": "Banca española: impuesto y crédito al consumo", "texto": "El BOE publicó la ==prórroga del gravamen a la banca== y un nuevo real decreto de crédito al consumo, aprobados por la Diputación Permanente. ==Menos beneficio esperado para los bancos== y más requisitos para prestar explican por qué el Ibex, muy bancario, cayó más que sus vecinos.", "fuentes": [{"t": "Mi Bolsillo", "u": "https://www.mibolsillo.com/noticias/golpe-a-la-banca-en-madrid-ibex-35-toca-minimo-de-3-meses-tras-caida-de-santander-y-caixabank-20261125-0029.html"}, {"t": "Press Digital", "u": "https://www.pressdigital.es/articulo/economia/2026-11-25/6108785-ibex-35-cae-2-borde-18600-puntos-ante-regreso-aranceles-trump"}]}
-  ],
-  "tipos": {
-    "texto": "==Los tipos largos de EE. UU. bajaron aunque la inflación salió peor de lo previsto==. Normalmente un PCE subyacente al alza empuja las TIR (tasa interna de rentabilidad) hacia arriba, pero hoy pesaron más otros dos mecanismos: ==la huida a refugio== (con el Nasdaq cayendo un 4,6 % por la mañana, los inversores compraron bonos del Tesoro) y ==el temor a que una Fed que sube tipos frene una economía que ya sufre aranceles==. Más riesgo de frenazo futuro significa tipos más bajos a largo plazo, y por eso el 5, el 10 y el 30 años cayeron casi lo mismo (−5 a −6 pb). La probabilidad de subida en diciembre bajó del ≈ 97 % al ≈ 92 % según el CME FedWatch, sigue siendo casi segura.\n\nEn la zona euro, el Bund (bono alemán) también bajó unos 2–3 pb por el mismo motivo de refugio y porque ==los aranceles restan crecimiento y, con ello, presión para que el Banco Central Europeo (BCE) suba tipos==. El dato del BCE de la curva AAA aún no recoge el día 25 (llega con un día de retraso), así que tomamos la prensa. ==El diferencial de Italia se abrió de 109 a ≈ 112 pb==: en días de aversión al riesgo se vende la deuda periférica y se compra la alemana.",
-    "puntos": [
-      {"bono": "EE. UU. 10 años", "cambio": "−5,6 pb (4,85 %)", "por_que": "==Compra de refugio por la caída de la tecnología== y temor a que las subidas de la Fed y los aranceles frenen la economía; pesa más que el PCE caliente.", "fuentes": [{"t": "CNN", "u": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"}]},
-      {"bono": "EE. UU. 2 años", "cambio": "sin dato del día (FRED con retraso; 4,63 % el 24)", "por_que": "El tramo corto sigue anclado por la subida casi segura de la Fed en diciembre (≈ 92 %); ==la prensa apunta a una bajada menor que la del 10 años==.", "fuentes": [{"t": "Blockonomi", "u": "https://blockonomi.com/stock-market-today-nasdaq-slides-3-5-as-inflation-tariffs-and-chip-losses-hit/"}]},
-      {"bono": "EE. UU. 30 años", "cambio": "−5,7 pb (5,24 %)", "por_que": "Mismo refugio; sigue por encima del 5 % por la prima por plazo ligada al déficit y a la inflación persistente."},
-      {"bono": "Zona euro AAA 10 años (≈ Bund)", "cambio": "≈ −2/−3 pb (Bund ≈ 3,22 %, según prensa)", "por_que": "Refugio y ==aranceles que restan crecimiento europeo==; la serie del BCE aún no tiene el día 25 (3,31 % el 24 en la curva AAA).", "fuentes": [{"t": "Borse.it", "u": "https://www.borse.it/spread/spread_btp_bund"}]},
-      {"bono": "Diferencial Italia–Alemania", "cambio": "+2,5 pb (≈ 112 pb; BTP 4,34 %)", "por_que": "==Aversión al riesgo: se vende periferia y se compra Bund==; la TIR italiana apenas baja mientras la alemana cae.", "fuentes": [{"t": "ANSA", "u": "https://www.ansa.it/sito/notizie/topnews/2026/11/25/lo-spread-btp-bund-conclude-in-aumento-a-1119-punti_9fc83e3e-6113-44a1-9421-521e4703cb1f.html"}]},
-      {"bono": "Diferencial high yield EE. UU.", "cambio": "+9 pb el día 24 (3,72 %)", "por_que": "Dato de FRED con un día de retraso: el crédito de peor calidad empeora con la volatilidad de la bolsa."}
-    ],
-    "fuentes": [{"t": "ANSA", "u": "https://www.ansa.it/sito/notizie/topnews/2026/11/25/lo-spread-tra-btp-e-bund-tedeschi-apre-in-rialzo-a-10945-punti_f2012667-c15f-4edd-be05-4b6c67fe8f8c.html"}, {"t": "Benzinga", "u": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate"}]
+  "por_clase": []
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-26",
+   "evento": "Acción de Gracias: Wall Street cerrada",
+   "por_que_importa": "Sin la referencia de EE. UU., Europa y Asia operan con poco volumen: los movimientos pueden exagerarse."
   },
-  "fondos": {"texto": "", "suben": [], "bajan": []},
-  "agenda": [
-    {"fecha": "2026-11-26", "evento": "Acción de Gracias: Wall Street cerrada", "por_que_importa": "Sin la referencia de EE. UU., Europa y Asia operan con poco volumen: los movimientos pueden exagerarse."},
-    {"fecha": "2026-11-27", "evento": "Media sesión en Wall Street; inflación preliminar de noviembre en Alemania, Francia, Italia y España", "por_que_importa": "Primera pista de la inflación europea antes del dato de la zona euro y de la reunión del BCE."},
-    {"fecha": "2026-11-29", "evento": "Reunión de la OPEP+ (Organización de Países Exportadores de Petróleo y aliados)", "por_que_importa": "Fija la producción de 2027: decide si el exceso de oferta previsto pesa más que el riesgo en Ormuz."},
-    {"fecha": "2026-12-04", "evento": "Informe de empleo de noviembre en EE. UU.", "por_que_importa": "Último gran dato antes de la Fed: un empleo fuerte confirmaría la subida de diciembre."},
-    {"fecha": "2026-12-09", "evento": "Decisión de la Reserva Federal (Fed)", "por_que_importa": "El mercado da ≈ 92 % de probabilidad a una subida de 25 pb."},
-    {"fecha": "2027-01-25", "evento": "Plazo orientativo para la decisión final sobre los aranceles por «sobrecapacidad»", "por_que_importa": "Tras las alegaciones se conocerán los tipos definitivos para la UE, Corea, Taiwán, Japón y Suiza."}
-  ],
-  "glosario": [
-    {"sigla": "PCE", "def": "Personal Consumption Expenditures: deflactor del gasto en consumo personal, la medida de inflación que prefiere la Fed. La «subyacente» excluye energía y alimentos."},
-    {"sigla": "PIB", "def": "Producto interior bruto: valor de todo lo que produce un país. En EE. UU. se publica en tasa trimestral anualizada."},
-    {"sigla": "Fed", "def": "Reserva Federal de EE. UU., el banco central que fija los tipos de interés en dólares."},
-    {"sigla": "BCE", "def": "Banco Central Europeo, que fija los tipos del euro."},
-    {"sigla": "USTR", "def": "United States Trade Representative: Oficina del Representante Comercial de EE. UU., que negocia y propone aranceles."},
-    {"sigla": "Sección 301", "def": "Artículo de la ley de comercio de EE. UU. de 1974 que permite imponer aranceles a prácticas comerciales que considera desleales."},
-    {"sigla": "TIR", "def": "Tasa interna de rentabilidad: lo que rinde un bono al año si se compra hoy y se mantiene hasta su vencimiento. Sube cuando baja el precio del bono."},
-    {"sigla": "pb", "def": "Punto básico: una centésima de punto porcentual (0,01 %)."},
-    {"sigla": "IA", "def": "Inteligencia artificial."},
-    {"sigla": "UE", "def": "Unión Europea."},
-    {"sigla": "BOE", "def": "Boletín Oficial del Estado (España), donde se publican leyes y decretos."},
-    {"sigla": "GNL", "def": "Gas natural licuado: gas enfriado a −162 °C para transportarlo en barco."},
-    {"sigla": "OPEP+", "def": "Organización de Países Exportadores de Petróleo y sus aliados (Rusia, entre otros)."},
-    {"sigla": "VIX", "def": "Índice de volatilidad esperada del S&P 500 en los próximos 30 días; sube con el miedo."},
-    {"sigla": "CME FedWatch", "def": "Herramienta del Chicago Mercantile Exchange que calcula, con los futuros, la probabilidad de cada decisión de la Fed."},
-    {"sigla": "AAA", "def": "Máxima calificación crediticia; la curva AAA del BCE agrupa los bonos de los países de la zona euro con esa nota (Alemania, Países Bajos…)."}
-  ],
-  "generado": "2026-11-25T23:25"
+  {
+   "fecha": "2026-11-27",
+   "evento": "Media sesión en Wall Street; inflación preliminar de noviembre en Alemania, Francia, Italia y España",
+   "por_que_importa": "Primera pista de la inflación europea antes del dato de la zona euro y de la reunión del BCE."
+  },
+  {
+   "fecha": "2026-11-29",
+   "evento": "Reunión de la OPEP+ (Organización de Países Exportadores de Petróleo y aliados)",
+   "por_que_importa": "Fija la producción de 2027: decide si el exceso de oferta previsto pesa más que el riesgo en Ormuz."
+  },
+  {
+   "fecha": "2026-12-04",
+   "evento": "Informe de empleo de noviembre en EE. UU.",
+   "por_que_importa": "Último gran dato antes de la Fed: un empleo fuerte confirmaría la subida de diciembre."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "El mercado da ≈ 92 % de probabilidad a una subida de 25 pb."
+  },
+  {
+   "fecha": "2027-01-25",
+   "evento": "Plazo orientativo para la decisión final sobre los aranceles por «sobrecapacidad»",
+   "por_que_importa": "Tras las alegaciones se conocerán los tipos definitivos para la UE, Corea, Taiwán, Japón y Suiza."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "PCE",
+   "def": "Personal Consumption Expenditures: deflactor del gasto en consumo personal, la medida de inflación que prefiere la Fed. La «subyacente» excluye energía y alimentos."
+  },
+  {
+   "sigla": "PIB",
+   "def": "Producto interior bruto: valor de todo lo que produce un país. En EE. UU. se publica en tasa trimestral anualizada."
+  },
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal de EE. UU., el banco central que fija los tipos de interés en dólares."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo, que fija los tipos del euro."
+  },
+  {
+   "sigla": "USTR",
+   "def": "United States Trade Representative: Oficina del Representante Comercial de EE. UU., que negocia y propone aranceles."
+  },
+  {
+   "sigla": "Sección 301",
+   "def": "Artículo de la ley de comercio de EE. UU. de 1974 que permite imponer aranceles a prácticas comerciales que considera desleales."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono al año si se compra hoy y se mantiene hasta su vencimiento. Sube cuando baja el precio del bono."
+  },
+  {
+   "sigla": "pb",
+   "def": "Punto básico: una centésima de punto porcentual (0,01 %)."
+  },
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "UE",
+   "def": "Unión Europea."
+  },
+  {
+   "sigla": "BOE",
+   "def": "Boletín Oficial del Estado (España), donde se publican leyes y decretos."
+  },
+  {
+   "sigla": "OPEP+",
+   "def": "Organización de Países Exportadores de Petróleo y sus aliados (Rusia, entre otros)."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad esperada del S&P 500 en los próximos 30 días; sube con el miedo."
+  },
+  {
+   "sigla": "CME FedWatch",
+   "def": "Herramienta del Chicago Mercantile Exchange que calcula, con los futuros, la probabilidad de cada decisión de la Fed."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia; la curva AAA del BCE agrupa los bonos de los países de la zona euro con esa nota (Alemania, Países Bajos…)."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: el precio de una participación del fondo, que la gestora calcula cada día."
+  },
+  {
+   "sigla": "EUR H",
+   "def": "Clase cubierta (hedged) a euros: neutraliza el efecto del tipo de cambio del dólar."
+  }
+ ],
+ "generado": "2026-11-26T09:58"
 }
