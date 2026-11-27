@@ -1,13 +1,13 @@
 {
  "periodo": "diario",
  "clave": "2026-11-26",
- "fase": "mercado",
+ "fase": "completo",
  "titulo": "Aranceles «menos malos» y Wall Street cerrada: Europa rebota un 2 % y Brasil un 6 %",
- "resumen": "Con Wall Street cerrada por Acción de Gracias, el resto del mundo deshizo gran parte de la caída del miércoles. ==El driver fue la letra pequeña de los aranceles por «sobrecapacidad»==: según la prensa, no se sumarán a los aranceles pactados en julio y no entrarían en vigor antes de febrero o marzo. Lo que el miércoles se vendió como el peor escenario resultó ==más suave de lo temido==, y los inversores recompraron lo que más había caído. Con poco volumen (sin EE. UU. no hay grandes compradores), el rebote se amplificó.\n\nEuropa subió en bloque: ==Euro Stoxx 50 +2,04 % y Stoxx 600 +1,75 %==. Lideraron los países con más bancos e industria, justo los más castigados la víspera: ==Italia +2,36 % e Ibex +2,26 %, de vuelta sobre los 19.000 puntos== con Santander (+4,1 %) al frente. El DAX ganó un 2,08 % con los semiconductores (Infineon) recuperando parte del −6,5 % del miércoles. Suiza (+1,04 %) subió menos porque su bolsa pesa más en farmacia y consumo defensivo, que no habían caído tanto. Además, los líderes de la Unión Europea (UE) respaldaron a ==Pablo Hernández de Cos como próximo presidente del Banco Central Europeo (BCE)==; el mercado lo leyó como continuidad y apenas reaccionó.\n\nAsia también rebotó con los chips: ==Taiwán +2,50 %, Japón +1,61 % y Corea +1,53 %== (tras −6,2 % el miércoles), aunque el mes sigue siendo muy malo en los tres. China continental quedó plana. ==El gran movimiento fue Brasil: Bovespa +6,07 %==, por una inflación IPCA-15 menor de lo esperado y la expectativa de que un banquero (Luiz Carlos Trabuco, de Bradesco) dirija el Ministerio de Hacienda.\n\nEn materias primas, ==el Brent cayó un 3 % (91,7 $)== por exceso de oferta antes de la reunión de la OPEP+ del domingo. El oro (+1,6 %) y la plata (+4,2 %) rebotaron desde mínimos de 15 meses por cierre de posiciones cortas antes del festivo. El franco suizo se debilitó (EUR/CHF +0,75 %), típico de un día sin miedo. Ojo: los datos de petróleo WTI, gas Henry Hub y VIX de hoy son poco fiables, porque sus mercados de referencia en EE. UU. no cerraron sesión normal.",
+ "resumen": "Con Wall Street cerrada por Acción de Gracias, el resto del mundo deshizo gran parte de la caída del miércoles. ==El driver fue la letra pequeña de los aranceles por «sobrecapacidad»==: según la prensa, no se sumarán a los aranceles pactados en julio y no entrarían en vigor antes de febrero o marzo. Lo que el miércoles se vendió como el peor escenario resultó ==más suave de lo temido==, y los inversores recompraron lo que más había caído. Con poco volumen (sin EE. UU. no hay grandes compradores), el rebote se amplificó.\n\nEuropa subió en bloque: ==Euro Stoxx 50 +2,04 % y Stoxx 600 +1,75 %==. Lideraron los países con más bancos e industria, justo los más castigados la víspera: ==Italia +2,36 % e Ibex +2,26 %, de vuelta sobre los 19.000 puntos== con Santander (+4,1 %) al frente. El DAX ganó un 2,08 % con los semiconductores (Infineon) recuperando parte del −6,5 % del miércoles. Suiza (+1,04 %) subió menos porque su bolsa pesa más en farmacia y consumo defensivo, que no habían caído tanto. Además, los líderes de la Unión Europea (UE) respaldaron a ==Pablo Hernández de Cos como próximo presidente del Banco Central Europeo (BCE)==; el mercado lo leyó como continuidad y apenas reaccionó.\n\nAsia también rebotó con los chips: ==Taiwán +2,50 %, Japón +1,61 %== y Corea apenas +0,29 % (tras −6,2 % el miércoles), aunque el mes sigue siendo muy malo en los tres. China continental quedó plana. ==El gran movimiento fue Brasil: Bovespa +6,07 %==, por una inflación IPCA-15 menor de lo esperado y la expectativa de que un banquero (Luiz Carlos Trabuco, de Bradesco) dirija el Ministerio de Hacienda.\n\nEn materias primas, ==el Brent cayó un 3 % (91,7 $)== por exceso de oferta antes de la reunión de la OPEP+ del domingo. El oro (+1,6 %) y la plata (+4,2 %) rebotaron desde mínimos de 15 meses por cierre de posiciones cortas antes del festivo. El franco suizo se debilitó (EUR/CHF +0,75 %), típico de un día sin miedo. Ojo: los datos de petróleo WTI, gas Henry Hub y VIX de hoy son poco fiables, porque sus mercados de referencia en EE. UU. no cerraron sesión normal.",
  "claves": [
   "==Aranceles por «sobrecapacidad» más suaves de lo temido==: sin acumularse a los de julio y no antes de febrero–marzo.",
   "Europa rebota ≈ 2 % con poco volumen: ==Italia +2,36 %, Ibex +2,26 % (19.058) y DAX +2,08 %==.",
-  "Asia recupera con los chips (Taiex +2,50 %, Nikkei +1,61 %, Kospi +1,53 %), pero ==sin borrar un noviembre de pérdidas fuertes==.",
+  "Asia recupera con los chips (Taiex +2,50 %, Nikkei +1,61 %, Kospi +0,29 %), pero ==sin borrar un noviembre de pérdidas fuertes==.",
   "==Bovespa +6,07 %==: inflación IPCA-15 por debajo de lo previsto y un banquero cerca de Hacienda.",
   "==Los tipos alemanes suben (Bund +5 pb)== porque el refugio del miércoles se deshace al subir la bolsa.",
   "Brent −3 % (91,7 $): ==exceso de oferta== antes de la OPEP+ del domingo."
@@ -83,8 +83,8 @@
   },
   {
    "activo": "Nikkei 225 (Japón) y Kospi (Corea)",
-   "cambio": "+1,61 % / +1,53 %",
-   "por_que": "Compras de oportunidad en tecnología (SoftBank, Advantest, Tokyo Electron; en Seúl SK Hynix +4 %). ==Corea recupera solo una cuarta parte del −6,2 % del miércoles==: los analistas dudan de que el rebote dure.",
+   "cambio": "+1,61 % / +0,29 %",
+   "por_que": "Compras de oportunidad en tecnología (SoftBank, Advantest, Tokyo Electron; en Seúl SK Hynix +4 %). ==Corea apenas recupera nada del −6,2 % del miércoles== (cierre +0,29 % pese a SK Hynix): los analistas dudan de que el rebote dure.",
    "fuentes": [
     {
      "t": "AP (KSAT)",
@@ -277,9 +277,85 @@
   ]
  },
  "fondos": {
-  "texto": "",
-  "suben": [],
-  "bajan": []
+  "texto": "Día atípico para los fondos: ==solo publicaron valor liquidativo (VL) 1.027 fondos, un tercio de lo habitual==, porque muchas gestoras no calculan VL cuando cierra Wall Street (Acción de Gracias); por eso no aparece ningún fondo de ABANCA. Entre los que publicaron, ==la renta variable subió de mediana un +1,22 %==, los mixtos un +0,5 % y la renta fija quedó plana (−0,01 %), lastrada por la subida de las TIR alemanas.\n\nArriba mandan los tres drivers del día: ==mineras de oro (+6 % a +8 %) por el rebote del metal==, Brasil y Latinoamérica (+5 % a +7 %) por el Bovespa, y los chips asiáticos (Taiwán, Corea). Algunos fondos de EE. UU. de alto crecimiento suben un 5 % con la bolsa cerrada: ==su VL probablemente recoge la recuperación del miércoles por la tarde y los futuros del jueves==. Abajo, en cambio, ==casi todo son VL con un día de desfase== (fondos alemanes y austriacos de DWS, Raiffeisen y Erste): reflejan la caída del miércoles en Corea, Taiwán y Europa, no lo ocurrido el jueves, y lo normal es que lo compensen en el VL del viernes. El euro se apreció un 0,37 % frente al dólar, lo que ==resta unas décimas a las clases en dólares no cubiertas== (por ejemplo, Schroder Taiwán: +7,12 % en dólares, +6,73 % en euros).",
+  "suben": [
+   {
+    "isin": "LU0326422689",
+    "por_que": "==Mineras de oro: el oro rebotó un +1,63 % desde mínimos de 15 meses== y las mineras amplifican el movimiento del metal unas 2–3 veces (sus costes son casi fijos, así que cada dólar extra va casi entero a beneficio). Cartera: Barrick, Agnico Eagle, Newmont, Wheaton y Northern Star, con mucha Norteamérica (Toronto sí abrió). Venía de −5,3 % el miércoles: es en parte un rebote. Clase cubierta al euro, sin efecto divisa."
+   },
+   {
+    "isin": "LU0616856935",
+    "por_que": "==Bovespa +6,07 %== por una inflación IPCA-15 más baja de lo esperado y un banquero cerca de Hacienda. El fondo pesa en bolsa y bancos (B3, Bradesco, Nu) y utilities (Axia, Equatorial), lo más sensible a ==tipos más bajos en Brasil==. Suma además la apreciación del real frente al euro."
+   },
+   {
+    "isin": "LU0270816068",
+    "por_que": "==Taiwán y chips: 74 % en tecnología== (TSMC, ASE, MediaTek, Hon Hai, Delta). Sube bastante más que el Taiex (+2,50 %), sobre todo por los proveedores y ensambladores que lideraron el rebote mientras TSMC apenas se movió. ==Efecto divisa: +7,12 % en dólares, +6,73 % en euros== por la subida del euro."
+   },
+   {
+    "isin": "LU1861216510",
+    "por_que": "Tecnología de próxima generación (Lumentum, Nvidia, Micron, SanDisk, Ibiden): ==rebote de la memoria y los chips de inteligencia artificial (IA)== tras −7,2 % el miércoles. Con el 66 % en EE. UU. y la bolsa cerrada, ==el VL probablemente usa precios ajustados con los futuros del jueves== (que subieron) y la recuperación del cierre del miércoles. Clase cubierta al euro."
+   },
+   {
+    "isin": "LU1223083087",
+    "por_que": "Mismo motivo que el BGF World Gold: ==mineras de oro rebotando con el metal (+1,63 %)==. Sube algo menos por una cartera algo más diversificada; tras −3,95 % el miércoles. Disponible también en ABANCA."
+   },
+   {
+    "isin": "LU0273689215",
+    "por_que": "Gran China incluye Taiwán y Hong Kong además del continente: ==se apunta al rebote de chips de Taiwán (+2,50 %) y del Hang Seng (+1,19 %)==, mientras Shanghái quedó plano. Fondo muy volátil (−5,7 % el miércoles), por lo que el rebote se amplifica."
+   },
+   {
+    "isin": "LU1206943596",
+    "por_que": "Emergentes con apalancamiento (derivados CFD y futuros): ==Samsung, SK Hynix y TSMC son sus mayores posiciones==, más de un 60 % en Asia emergente. El rebote de la memoria (SK Hynix +4 %) y de Taiwán pesa más que la media del índice; además su exposición bruta supera el 100 %, lo que agranda los movimientos."
+   },
+   {
+    "isin": "LU1121088667",
+    "por_que": "EE. UU. de alto crecimiento (estilo similar al MS Global Insight, +5,04 %: Tesla, Cloudflare, Shopify). ==Sube con Wall Street cerrada==: lo más probable es que el VL del miércoles se calculase con precios de la caída de la mañana y el de hoy recoja ==la recuperación del cierre del miércoles y los futuros del jueves==. Efecto divisa: +5,62 % en dólares, +5,23 % en euros."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "DE0008474149",
+    "por_que": "No refleja el jueves (los chips subieron): ==fondo alemán que invierte a través de otro fondo (DWS Invest Artificial Intelligence)==, lo que suele añadir un día de desfase al VL. Recoge la ==venta de chips de IA del miércoles en Asia y EE. UU.== y la subida del euro (66 % en dólares). Probable compensación en el VL del viernes."
+   },
+   {
+    "isin": "DE0009773010",
+    "por_que": "==VL con un día de desfase==: el miércoles marcó +2,25 % cuando los emergentes caían, y hoy −3,66 % cuando rebotaban. Lo que recoge ahora es ==el desplome del miércoles en Corea (−6,2 %) y Taiwán (−4,8 %)==."
+   },
+   {
+    "isin": "AT0000745872",
+    "por_que": "Mismo patrón que el DWS: fondo austriaco con ==VL desfasado un día== (+3,26 % el miércoles, −3,52 % hoy). Refleja la caída asiática del día 25, no el rebote del 26."
+   },
+   {
+    "isin": "LU1586951466",
+    "por_que": "Corea y Vietnam. ==Sin VL los días 24 y 25==, así que este dato probablemente acumula la caída de Corea del miércoles (−6,2 %); además el Kospi apenas rebotó el jueves (+0,29 %). Dato a tomar con cautela."
+   },
+   {
+    "isin": "AT0000A1TW05",
+    "por_que": "Europa central y del este (Polonia, Hungría, República Checa), muy bancaria. Como los demás fondos austriacos, ==su VL lleva un día de retraso== y recoge la caída de los bancos europeos del miércoles. El Erste Responsible Stock Europe (−1,16 %, con Europa subiendo +1,75 %) confirma el patrón."
+   },
+   {
+    "isin": "IE00BDH6RQ67",
+    "por_que": "India de crecimiento (Eternal, ICICI, Bajaj Finance, tecnológicas medianas). ==Sin VL los días 24 y 25==, y el Sensex subió el 26 (+0,46 %): la caída no cuadra con el índice. Probablemente acumula días anteriores y ==la rupia más débil frente a un euro al alza==. Dato raro, sin noticia concreta."
+   },
+   {
+    "isin": "LU2038982661",
+    "por_que": "Acciones A de China continental: Shanghái quedó plano el 26 tras −2,03 % el 25, que este VL parece recoger con retraso. ==Efecto divisa: −1,04 % en dólares, −1,40 % en euros== por la subida del euro."
+   },
+   {
+    "isin": "LU1687709524",
+    "por_que": "Estrategia de volatilidad: ==gana cuando sube el miedo y pierde cuando baja==. El VIX cayó un 5,3 % y la volatilidad europea también, así que el día de calma le resta. Es su comportamiento normal, no un problema del fondo."
+   }
+  ],
+  "por_clase": [
+   {
+    "clase": "Renta variable",
+    "texto": "Mediana +1,22 % con 567 fondos: mineras de oro, Brasil y chips asiáticos arriba; abajo, VL desfasados de fondos alemanes y austriacos."
+   },
+   {
+    "clase": "Renta fija",
+    "texto": "Plana (−0,01 %): las TIR alemanas subieron ≈ 5 pb al deshacerse el refugio del miércoles."
+   }
+  ]
  },
  "agenda": [
   {
@@ -368,7 +444,19 @@
   {
    "sigla": "Cortos",
    "def": "Posiciones que ganan si el precio baja; al cerrarlas hay que comprar, lo que impulsa el precio."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio de una participación del fondo, calculado una vez al día."
+  },
+  {
+   "sigla": "CFD",
+   "def": "Contract for Difference (contrato por diferencias): derivado que replica el movimiento de una acción sin comprarla."
+  },
+  {
+   "sigla": "TSMC",
+   "def": "Taiwan Semiconductor Manufacturing Company, el mayor fabricante de chips por encargo del mundo."
   }
  ],
- "generado": "2026-11-26T23:20"
+ "generado": "2026-11-27T08:55"
 }
