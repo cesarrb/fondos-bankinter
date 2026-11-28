@@ -1,0 +1,482 @@
+{
+ "periodo": "semanal",
+ "clave": "2026-11-27",
+ "inicio": "2026-11-23",
+ "fin": "2026-11-27",
+ "fase": "completo",
+ "titulo": "Semana del rebote: Nasdaq 100 +6,8 %, Taiwán +9,1 %, Brasil +6,1 % y el VIX −34 %",
+ "resumen": "Tras la peor semana del Nasdaq desde 2020, llegó ==la mejor semana del S&P 500 desde abril de 2025==: S&P 500 +5,6 % (7.297), Nasdaq 100 +6,8 % y Russell 2000 +6,5 %. El rebote no fue en línea recta. ==El lunes lo encendió Nvidia (+31 %) al readmitir a Jensen Huang==, aunque la revisión contable de la SEC (el regulador bursátil de EE. UU.) sigue abierta. El martes Wall Street devolvió parte y rotó hacia el Dow; ==el miércoles llegó el susto de los aranceles por «sobrecapacidad»== a 14 economías, con una inflación PCE (deflactor del consumo) subyacente del 3,3 %, la más alta desde 2023. El jueves, ==la letra pequeña de esos aranceles resultó menos dura== (no se acumulan a los de julio y no antes de febrero–marzo) y el viernes, con media sesión de Black Friday, China puso la guinda. ==El VIX bajó de 35,9 a 23,8 (−34 %)==: el miedo se desinfla, pero sigue por encima de 20.\n\n==Asia fue la más volátil, porque allí está el negocio de los chips==: Taiwán +9,1 % (con un +9 % solo el martes), Japón +4,0 %, pero Corea apenas +0,9 % tras desplomarse un 6,2 % el miércoles por los aranceles y las dudas sobre la memoria para inteligencia artificial (IA). ==El viernes Pekín prometió apoyo estatal a su bolsa== y Shanghái subió un 3,7 % en el día (+2,1 % en la semana). India (Sensex −0,7 %) fue la cara opuesta: ==el refugio de la semana anterior se vendió para comprar lo castigado==. Brasil subió un 6,1 % en un solo día (jueves) por la expectativa de un banquero, Luiz Carlos Trabuco, al frente de Hacienda, y el ETF (fondo cotizado) de emergentes ganó un 7,9 %.\n\nEuropa subió menos que EE. UU. porque tiene menos tecnología: ==Stoxx 600 +2,9 %, Euro Stoxx 50 +2,5 %, Ibex +2,7 % (19.387)==. El Ibex sufrió el miércoles (−2 %) por la prórroga del impuesto a la banca, pero lo recuperó en dos días y llega a las elecciones generales del domingo sin señales de miedo. Italia (+1,2 %) se quedó atrás por la banca, y el Reino Unido (+3,4 %) lideró gracias a materias primas y defensivas. Un dato político: ==los líderes de la UE respaldaron a Pablo Hernández de Cos para presidir el BCE==; el mercado lo leyó como continuidad.\n\nEn los bonos, ==la semana acabó casi donde empezó en EE. UU. (10 años +2 pb, 4,94 %)==, pero con un viaje de ida y vuelta: bajaron por refugio hasta el miércoles y subieron el viernes al volver el apetito por el riesgo. La subida de la Reserva Federal (Fed) del 9 de diciembre está prácticamente descontada. ==El oro (+3,5 %) y la plata (+5,2 %) rebotaron== al acabar las ventas forzadas; el petróleo terminó dividido (WTI −1,1 %; Brent +3,1 % con dudas sobre la cifra) antes de la reunión de la OPEP+ del domingo, y el gas europeo cayó un 5,9 %.",
+ "claves": [
+  "==S&P 500 +5,6 % y Nasdaq 100 +6,8 %: mejor semana desde abril de 2025==, tras la peor desde 2020; VIX de 35,9 a 23,8.",
+  "==Nvidia +31 % el lunes al volver Jensen Huang==; la revisión de la SEC sigue abierta, por eso el rebote fue a tirones.",
+  "==Aranceles por «sobrecapacidad»: susto el miércoles (Kospi −6,2 %) y alivio el jueves== al conocerse que son menos duros.",
+  "==Taiwán +9,1 %, Brasil +6,1 % y China con apoyo estatal==; India (−0,7 %) deja de ser refugio.",
+  "==Bonos de ida y vuelta==: el 10 años de EE. UU. +2 pb (4,94 %); el Bund −5 pb; la Fed subirá en diciembre casi seguro.",
+  "==Fondos: Latinoamérica, biotecnología y Taiwán arriba (+10 % a +15 %)==; abajo, varios datos raros por repartos de dividendo de DWS."
+ ],
+ "suben": [
+  {
+   "activo": "Taiex (Taiwán)",
+   "cambio": "+9,09 %",
+   "por_que": "==El regreso de Huang a Nvidia disparó a TSMC y la cadena de chips== (+9 % el martes). Taiwán venía de su peor semana desde 1991 (−17,5 %), así que gran parte es rebote de lo vendido en exceso.",
+   "fuentes": [
+    {
+     "t": "MLQ.ai",
+     "u": "https://mlq.ai/news/taiwans-taiex-closes-up-9-and-the-kospi-tops-5000-as-asian-chipmakers-rally-on-huangs-return/"
+    }
+   ]
+  },
+  {
+   "activo": "Nasdaq 100",
+   "cambio": "+6,78 %",
+   "por_que": "==Nvidia (+31 % el lunes) y los semiconductores== tiraron. El índice cedió el martes y el miércoles por la IA y los aranceles, y recuperó en el Black Friday. Sigue un 1,4 % por debajo de su nivel del 18 de noviembre.",
+   "fuentes": [
+    {
+     "t": "TheStreet Pro",
+     "u": "https://pro.thestreet.com/market-commentary/not-your-typical-black-friday-unusually-large-gain-caps-best-week-for-stocks-since-april-2025"
+    }
+   ]
+  },
+  {
+   "activo": "Bovespa (Brasil)",
+   "cambio": "+6,13 %",
+   "por_que": "Casi todo en el jueves (+6,07 %): ==la posible llegada de Luiz Carlos Trabuco a Hacienda== se lee como más disciplina fiscal, y la inflación IPCA-15 salió por debajo de lo previsto (+0,22 %). El real también se apreció.",
+   "fuentes": [
+    {
+     "t": "Meon",
+     "u": "https://www.meon.com.br/noticias/brasil/ibovespa-dispara-6-maior-alta-desde-primeiro-turno-dolar-574-trabuco"
+    }
+   ]
+  },
+  {
+   "activo": "Russell 2000 (pequeñas EE. UU.)",
+   "cambio": "+6,53 %",
+   "por_que": "Las pequeñas empresas aguantaron mejor la IA y ==se beneficiaron de la rotación del martes== hacia sectores de la economía real, con un consumidor fuerte.",
+   "fuentes": [
+    {
+     "t": "IBTimes",
+     "u": "https://www.ibtimes.com/us-stocks-mixed-ai-selloff-consumer-confidence-3810150"
+    }
+   ]
+  },
+  {
+   "activo": "Nikkei 225 (Japón)",
+   "cambio": "+4,03 %",
+   "por_que": "Tokyo Electron y Advantest con el regreso de Huang (+4,2 % el martes) y el apoyo chino del viernes (+2,1 %). ==Recupera aproximadamente la mitad de lo perdido la semana anterior==.",
+   "fuentes": [
+    {
+     "t": "MLQ.ai",
+     "u": "https://mlq.ai/news/taiex-jumps-25-and-nikkei-gains-09-as-asian-chip-stocks-rebound/"
+    }
+   ]
+  },
+  {
+   "activo": "Oro / plata",
+   "cambio": "+3,5 % (3.640 $) / +5,2 %",
+   "por_que": "==Fin de las ventas forzadas== de inversores apalancados que tuvieron que vender metales para cubrir pérdidas en tecnología. Subieron pese al dólar y a los tipos algo más altos.",
+   "fuentes": [
+    {
+     "t": "investingLive",
+     "u": "https://investinglive.com/commodities/gold-rebounds-3-2-despite-a-stronger-dollar-and-higher-yields/"
+    }
+   ]
+  },
+  {
+   "activo": "Uranio (ETF URA)",
+   "cambio": "+8,88 %",
+   "por_que": "Se mueve como un activo de riesgo ligado a la ==demanda eléctrica de los centros de datos de IA==: rebota con la tecnología. No hemos encontrado una noticia propia del sector.",
+   "fuentes": []
+  }
+ ],
+ "bajan": [
+  {
+   "activo": "VIX (volatilidad S&P 500)",
+   "cambio": "−33,7 % (23,8)",
+   "por_que": "==Se deshacen las coberturas compradas en el pánico== de la semana anterior. Sigue por encima de 20, el nivel que suele separar la calma de la tensión.",
+   "fuentes": []
+  },
+  {
+   "activo": "Gas natural europeo (TTF)",
+   "cambio": "−5,94 %",
+   "por_que": "Baja con el petróleo y la ==diplomacia con Irán==, que reduce el riesgo de cortes en Ormuz, por donde pasa gas licuado de Catar.",
+   "fuentes": [
+    {
+     "t": "Invezz",
+     "u": "https://invezz.com/news/2026/11/24/oil-price-today-brent-below-89-supply-glut-hormuz/"
+    }
+   ]
+  },
+  {
+   "activo": "Petróleo WTI",
+   "cambio": "−1,07 % (83,1 $)",
+   "por_que": "==Exceso de oferta== y conversaciones de EE. UU. con Irán, antes de que la OPEP+ decida el domingo la producción de 2027. El Brent sale en nuestra serie con +3,1 % (95,4 $), una brecha inusual que puede deberse al cambio de contrato de referencia: ==tómese con cautela==.",
+   "fuentes": [
+    {
+     "t": "Rigzone (Bloomberg)",
+     "u": "https://www.rigzone.com/news/oil_falls_as_trump_signals_iran_talks-23-nov-2026-185152-article"
+    }
+   ]
+  },
+  {
+   "activo": "Sensex (India)",
+   "cambio": "−0,69 %",
+   "por_que": "==El refugio de la semana anterior (+2,9 %) se vende== para volver a Taiwán, Corea y China, castigados con los chips.",
+   "fuentes": []
+  },
+  {
+   "activo": "Euro / franco suizo",
+   "cambio": "−0,72 % (0,916)",
+   "por_que": "El franco se fortalece pese al apetito por el riesgo: ==Suiza figura entre las 14 economías amenazadas por los aranceles==, pero el franco sigue siendo el refugio europeo y atrae dinero ante las elecciones españolas y la inestabilidad francesa.",
+   "fuentes": []
+  },
+  {
+   "activo": "Euro / dólar",
+   "cambio": "−0,30 % (1,096)",
+   "por_que": "==El dólar se apoya en una Fed que sube tipos==, frente a un BCE más prudente y un PCE subyacente del 3,3 %.",
+   "fuentes": []
+  }
+ ],
+ "drivers": [
+  {
+   "tema": "Nvidia e inteligencia artificial (IA): alivio a tirones",
+   "texto": "==La vuelta de Jensen Huang despejó la duda de gobierno corporativo==, pero no la contable: la SEC sigue revisando. Por eso el rebote se repartió entre el lunes (EE. UU.) y el martes (Asia) y se frenó a mitad de semana con las dudas sobre la memoria para IA (SK Hynix −11 % el miércoles).",
+   "fuentes": [
+    {
+     "t": "Nvidia (8-K, SEC)",
+     "u": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    },
+    {
+     "t": "Anadolu",
+     "u": "https://www.aa.com.tr/en/economy/asian-chip-stocks-plunge-as-nvidia-led-rally-fades/4136929"
+    }
+   ]
+  },
+  {
+   "tema": "Aranceles por «sobrecapacidad» (Sección 301)",
+   "texto": "EE. UU. propuso gravar a 14 economías (UE, China, Japón, Corea, Taiwán, Suiza…). ==El miércoles el mercado temió lo peor; el jueves supo que no se suman a los de julio==, con un tope del 15 % para aliados y entrada no antes de febrero–marzo. Decisión final hacia el 25 de enero.",
+   "fuentes": [
+    {
+     "t": "The Next Web",
+     "u": "https://thenextweb.com/news/new-tariffs-14-trading-partners-china-eu-section-301-excess-capacity"
+    },
+    {
+     "t": "IndexBox",
+     "u": "https://www.indexbox.io/blog/european-stocks-rally-as-us-tariff-plans-prove-less-severe-than-feared/"
+    }
+   ]
+  },
+  {
+   "tema": "Reserva Federal (Fed): subida casi segura el 9 de diciembre",
+   "texto": "==PCE subyacente del 3,3 % y PIB del tercer trimestre al 4,3 %==: una economía fuerte con inflación al alza. La probabilidad de subida osciló entre el 92 % y el 98 % y el debate ya es si será de 25 o de 50 pb. Eso frena las bajadas de los tipos largos.",
+   "fuentes": [
+    {
+     "t": "Benzinga",
+     "u": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate"
+    },
+    {
+     "t": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/economy/policy/articles/jumbo-rate-hike-debate-brewing-174127330.html"
+    }
+   ]
+  },
+  {
+   "tema": "China: el «equipo nacional» entra en la bolsa",
+   "texto": "==El Consejo de Estado pidió más compras de los fondos públicos y que Central Huijin actúe como estabilizador==. CSI 300 +4,2 % el viernes. Apoya a Asia y a los metales industriales, aunque el respaldo estatal solo rara vez sostiene una subida por sí mismo.",
+   "fuentes": [
+    {
+     "t": "Yahoo Finance (Reuters)",
+     "u": "https://finance.yahoo.com/markets/stocks/articles/china-stocks-surge-most-two-081045333.html"
+    }
+   ]
+  },
+  {
+   "tema": "España y Brasil: política que mueve bolsa",
+   "texto": "En España, ==la prórroga del impuesto a la banca hundió el Ibex un 2 % el miércoles==, pero el índice cerró la semana en +2,7 % y con el IPC (índice de precios de consumo) bajando al 4,1 %, antes de las elecciones del domingo. En Brasil, ==el nombre de Trabuco para Hacienda dio al Bovespa su mejor día desde octubre==.",
+   "fuentes": [
+    {
+     "t": "Mi Bolsillo",
+     "u": "https://www.mibolsillo.com/noticias/golpe-a-la-banca-en-madrid-ibex-35-toca-minimo-de-3-meses-tras-caida-de-santander-y-caixabank-20261125-0029.html"
+    },
+    {
+     "t": "Money Times",
+     "u": "https://www.moneytimes.com.br/ibovespa-dispara-e-recupera-os-176-mil-pontos-com-encontro-entre-lula-e-trabuco-davs/"
+    }
+   ]
+  }
+ ],
+ "tipos": {
+  "texto": "==En EE. UU. los tipos hicieron un viaje de ida y vuelta y acabaron casi igual==. Hasta el miércoles bajaron: el 10 años llegó al 4,85 % porque, con la bolsa cayendo por los aranceles, ==los inversores compraron bonos como refugio== y temieron que una Fed subiendo tipos frene una economía ya tocada por los aranceles (más riesgo de frenazo = tipos largos más bajos). Eso pesó más que un PCE subyacente del 3,3 %, que normalmente empujaría las TIR (tasa interna de rentabilidad) al alza. El viernes, con la bolsa subiendo, ==ese refugio se deshizo y el 10 años saltó ≈ 9 pb hasta el 4,94 %== (+2 pb en la semana). El 2 años, anclado a la Fed, ==apenas se movió (−2 pb hasta el miércoles, 4,61 %)==: con la subida de diciembre casi descontada, el tramo corto no tiene margen salvo que se hable de 50 pb. La subasta de bonos a 5 años salió bien, sin presión de oferta.\n\nEn la zona euro ==el Bund (AAA 10 años) bajó ≈ 5 pb (3,31 % el jueves)==: refugio el miércoles y ==aranceles que restan crecimiento y, con ello, presión para que el BCE suba tipos==. El viernes, la inflación española bajó del 4,9 % al 4,1 % y apuntaló esa lectura. El 2 años alemán terminó plano: bajó con los aranceles y subió el jueves cuando resultaron menos duros. ==El diferencial italiano se abrió hasta ≈ 112 pb el miércoles== por el castigo a la banca, y el francés se mantuvo en ≈ 149 pb. ==La prima de riesgo española cerró en ≈ 59 pb== sin tensión por las elecciones.",
+  "puntos": [
+   {
+    "bono": "EE. UU. 10 años",
+    "cambio": "+2,4 pb (4,94 %)",
+    "por_que": "Bajó hasta el miércoles por ==refugio y miedo al frenazo==; subió el viernes al volver el apetito por el riesgo.",
+    "fuentes": [
+     {
+      "t": "Yahoo Finance",
+      "u": "https://finance.yahoo.com/markets/currencies/articles/u-treasury-yields-rise-shortened-094900410.html"
+     }
+    ]
+   },
+   {
+    "bono": "EE. UU. 2 años",
+    "cambio": "−2 pb hasta el miércoles (4,61 %); viernes sin dato en FRED",
+    "por_que": "==Anclado a la subida de la Fed del 9 de diciembre==, ya descontada.",
+    "fuentes": []
+   },
+   {
+    "bono": "EE. UU. 30 años",
+    "cambio": "+2,2 pb (5,33 %)",
+    "por_que": "Mismo viaje que el 10 años: ==movimientos paralelos==, señal de cambios de apetito por el riesgo más que de expectativas sobre la Fed.",
+    "fuentes": []
+   },
+   {
+    "bono": "Zona euro AAA 10 años (≈ Bund)",
+    "cambio": "−5,5 pb hasta el jueves (3,31 %)",
+    "por_que": "==Aranceles = menos crecimiento = menos presión para que suba el BCE==; además, refugio el miércoles.",
+    "fuentes": [
+     {
+      "t": "Devdiscourse (Reuters)",
+      "u": "https://www.devdiscourse.com/article/international/4012721-euro-zone-bond-yields-rise-as-stocks-bounce-markets-mull-new-ecb-chief"
+     }
+    ]
+   },
+   {
+    "bono": "Zona euro AAA 2 años",
+    "cambio": "0 pb (3,03 %)",
+    "por_que": "Bajó con el susto arancelario y ==subió el jueves (+6 pb) al saberse que los aranceles serán menos duros==.",
+    "fuentes": []
+   },
+   {
+    "bono": "Diferencial Italia–Alemania",
+    "cambio": "hasta ≈ 112 pb el miércoles",
+    "por_que": "==En días de aversión al riesgo se vende deuda periférica==; la banca italiana, muy cargada de deuda pública, sufrió.",
+    "fuentes": []
+   },
+   {
+    "bono": "España 10 años y prima de riesgo",
+    "cambio": "3,84 %; prima ≈ 59 pb",
+    "por_que": "==Sin tensión preelectoral== y con la inflación española bajando.",
+    "fuentes": [
+     {
+      "t": "Press Digital (EP)",
+      "u": "https://www.pressdigital.es/articulo/economia/2026-11-27/6112249-ibex-35-sube-27-semana-crudo-95-dolares-vista-puesta-29n"
+     }
+    ]
+   }
+  ],
+  "fuentes": [
+   {
+    "t": "Benzinga: PCE y PIB",
+    "u": "https://www.benzinga.com/markets/economic-data/26/11/63619838/pce-inflation-october-gdp-second-estimate"
+   },
+   {
+    "t": "Benzinga: Hernández de Cos, al BCE",
+    "u": "https://www.benzinga.com/markets/eurozone/26/11/63663246/hernandez-de-cos-ecb-president-analysts-continuity-twist"
+   }
+  ]
+ },
+ "fondos": {
+  "texto": "Con 3.465 fondos (1.298 de Bankinter, 2.058 de IronIA y 109 de ABANCA), ==la renta variable sube un 2,54 % de mediana==, mixtos +1,08 %, renta fija +0,21 %, alternativos +0,21 % y monetarios +0,05 %; solo materias primas e inmobiliario baja (−0,54 %). La renta variable sube menos que el S&P 500 porque muchos fondos invierten en Europa (+2,5 % a +2,9 %) y porque ==parte de ellos valora con retraso y aún no recoge el viernes==.\n\nArriba, tres grupos: ==Latinoamérica y Brasil (+9 % a +15 %)== por el jueves brasileño; ==biotecnología (+10 % a +12 %)== por la compra de Insmed por Sanofi (41.000 millones $) y la rotación del martes hacia la salud; y ==Taiwán (+10 % a +11 %)== por el regreso de Huang. Abajo hay que leer con cuidado: ==varios fondos alemanes de DWS en clase de reparto (ND, D) caen un 3 % a un 5 %== cuando sus mercados subieron, lo que apunta al reparto anual de dividendo de finales de noviembre y no a pérdidas. También caen fondos con la ventana desplazada (BBVA valora del 18 al 25, y recoge el pánico del 19–20) y algunos de Europa emergente y Turquía, sin causa concreta encontrada.",
+  "suben": [
+   {
+    "isin": "LU0616856935",
+    "por_que": "Brasil puro (B3, Axia Energia, WEG, Vale, Equatorial). ==+15,1 %: suma el +6 % del Bovespa del jueves, el real más fuerte== y, por su ventana (19 al 27), parte del rebote del día 20. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0248181363",
+    "por_que": "Latinoamérica con ==Brasil dominante (Petrobras, Itaú, Nu Holdings, Vale)== y México (Banorte, Grupo México). +12,1 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "IE00B3VXGD32",
+    "por_que": "Biotecnología (Amgen, Alnylam, Madrigal, argenx). ==La compra de Insmed por Sanofi revalorizó todo el sector==: si una gran farmacéutica paga una prima así, el mercado revisa al alza el valor de las demás. VL hasta el 25. +11,7 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0400035332",
+    "por_que": "Biotecnología en clase en dólares: ==+11,62 % en euros frente a +11,06 % en dólares==; el euro algo más débil suma. Mismo driver: Sanofi–Insmed. Disponible en IronIA."
+   },
+   {
+    "isin": "LU1213835942",
+    "por_que": "Latinoamérica con Nu Holdings, Petrobras, Vale, Itaú y BTG Pactual: ==mucho Brasil y mucha banca==, lo que más sube con la expectativa fiscal. +11,6 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU1120766206",
+    "por_que": "Biotecnología de Candriam con divisa cubierta (Vertex, Gilead, Alnylam, Biogen, Amgen): ==sube por las acciones, no por el dólar==. +11,3 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0401357313",
+    "por_que": "Taiwán (TSMC, MediaTek, ASE). ==El regreso de Huang a Nvidia disparó la cadena taiwanesa de chips== (+9 % el martes). +10,9 %. Disponible en Bankinter."
+   },
+   {
+    "isin": "LU0171289498",
+    "por_que": "Latinoamérica más repartida (Banorte, Southern Copper, Vale, Walmex): ==sube algo menos porque pesa más México==, que no tuvo el impulso brasileño. +10,5 %. Disponible en Bankinter."
+   }
+  ],
+  "bajan": [
+   {
+    "isin": "LU1683487620",
+    "por_que": "==Dato raro==: un fondo de crédito de retorno absoluto no pierde un 6,2 % en una semana tranquila para el crédito (diferencial high yield +1 pb). Probable reparto de dividendo o error en el VL; ==tómese con cautela==. Disponible en IronIA."
+   },
+   {
+    "isin": "DE0008474149",
+    "por_que": "==Dato raro==: un fondo de IA que cae un 5,3 % en una semana en la que el Nasdaq sube un 6,8 %. Es una clase ND de DWS, que ==suele repartir dividendo a finales de noviembre==; además valora con un día de retraso. Disponible en Bankinter."
+   },
+   {
+    "isin": "ES0108929037",
+    "por_que": "Bolsa asiática con ==ventana del 18 al 25==: recoge el pánico del 19–20 y el −6,2 % de Corea del 25, pero no el rebote del jueves ni del viernes. −5,1 %. Disponible en IronIA."
+   },
+   {
+    "isin": "LU1380459518",
+    "por_que": "==Dato raro==: renta fija flexible (Bund, Treasuries, BTP) con −4,6 % en una semana en la que los bonos apenas se movieron. Probable reparto o error de VL. Disponible en Bankinter."
+   },
+   {
+    "isin": "AT0000A1TW05",
+    "por_que": "Europa emergente (Polonia, Hungría, Chequia). −4,5 %: ==no hemos encontrado una causa clara==; la región no participó del rebote de la tecnología y sufre la amenaza de aranceles a la UE. Disponible en IronIA."
+   },
+   {
+    "isin": "ES0110116037",
+    "por_que": "Emergentes con ==la misma ventana desplazada (18 al 25)== que el de Asia: le faltan los dos días de rebote. −4,2 %. Disponible en IronIA."
+   },
+   {
+    "isin": "LU0265293521",
+    "por_que": "Turquía (BIM, Aselsan, Tüpraş, Akbank). −4,2 %: ==sin noticia concreta encontrada==; la banca turca, muy sensible a los tipos locales, pesa mucho. Disponible en Bankinter y ABANCA."
+   },
+   {
+    "isin": "DE0009773010",
+    "por_que": "==Dato raro==: emergentes globales con −3,6 % cuando el ETF de emergentes subió un 7,9 %. Otra clase ND de DWS: ==probable reparto anual de dividendo==. Disponible en IronIA."
+   }
+  ],
+  "por_clase": [
+   {
+    "clase": "Renta variable",
+    "texto": "Mediana +2,54 % (1.673 fondos): Latinoamérica, biotecnología y Taiwán arriba; India, Turquía y Europa emergente abajo."
+   },
+   {
+    "clase": "Renta fija",
+    "texto": "+0,21 % (1.065 fondos): el Bund bajó 5 pb y la deuda emergente en moneda local subió."
+   },
+   {
+    "clase": "Mixtos",
+    "texto": "+1,08 % (452 fondos): la parte de bolsa tira."
+   },
+   {
+    "clase": "Alternativos",
+    "texto": "+0,21 % (146 fondos): poco movimiento; los fondos inversos (como Bankinter Inverso EE. UU., −3,3 %) pierden al subir la bolsa."
+   },
+   {
+    "clase": "Monetarios",
+    "texto": "+0,05 % (106 fondos): lo esperable con tipos cortos estables."
+   }
+  ]
+ },
+ "agenda": [
+  {
+   "fecha": "2026-11-29",
+   "evento": "Elecciones generales en España",
+   "por_que_importa": "Puede mover la banca, las eléctricas y la prima de riesgo española el lunes."
+  },
+  {
+   "fecha": "2026-11-29",
+   "evento": "Reunión de la OPEP+ (Organización de Países Exportadores de Petróleo y aliados)",
+   "por_que_importa": "Decide la producción de 2027; con exceso de oferta, más producción presionaría el petróleo y la inflación esperada."
+  },
+  {
+   "fecha": "2026-12-01",
+   "evento": "PMI (índices de gerentes de compras) manufactureros de noviembre",
+   "por_que_importa": "Primera foto del impacto de los aranceles en la industria."
+  },
+  {
+   "fecha": "2026-12-04",
+   "evento": "Informe de empleo de noviembre en EE. UU.",
+   "por_que_importa": "Último gran dato antes de la Fed: un empleo fuerte reforzaría el debate de los 50 pb."
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Decisión de la Reserva Federal (Fed)",
+   "por_que_importa": "Subida descontada: importan su tamaño y las proyecciones de nuevas subidas."
+  }
+ ],
+ "glosario": [
+  {
+   "sigla": "Fed",
+   "def": "Reserva Federal, el banco central de EE. UU."
+  },
+  {
+   "sigla": "BCE",
+   "def": "Banco Central Europeo."
+  },
+  {
+   "sigla": "SEC",
+   "def": "Securities and Exchange Commission: regulador bursátil de EE. UU."
+  },
+  {
+   "sigla": "IA",
+   "def": "Inteligencia artificial."
+  },
+  {
+   "sigla": "PCE",
+   "def": "Personal Consumption Expenditures: deflactor del consumo, la medida de inflación preferida por la Fed."
+  },
+  {
+   "sigla": "PIB",
+   "def": "Producto interior bruto."
+  },
+  {
+   "sigla": "IPC",
+   "def": "Índice de precios de consumo."
+  },
+  {
+   "sigla": "IPCA-15",
+   "def": "Avance de mitad de mes de la inflación de Brasil."
+  },
+  {
+   "sigla": "ETF",
+   "def": "Exchange-Traded Fund: fondo que cotiza en bolsa como una acción."
+  },
+  {
+   "sigla": "VIX",
+   "def": "Índice de volatilidad del S&P 500, el «índice del miedo»."
+  },
+  {
+   "sigla": "TIR",
+   "def": "Tasa interna de rentabilidad: lo que rinde un bono si se mantiene hasta su vencimiento."
+  },
+  {
+   "sigla": "pb",
+   "def": "Puntos básicos: centésimas de punto porcentual (10 pb = 0,10 %)."
+  },
+  {
+   "sigla": "AAA",
+   "def": "Máxima calificación crediticia; la curva AAA del BCE ≈ deuda alemana."
+  },
+  {
+   "sigla": "FRED",
+   "def": "Federal Reserve Economic Data, base de datos de la Reserva Federal de St. Louis."
+  },
+  {
+   "sigla": "OPEP+",
+   "def": "Organización de Países Exportadores de Petróleo y aliados."
+  },
+  {
+   "sigla": "TTF",
+   "def": "Title Transfer Facility: referencia del gas natural en Europa."
+  },
+  {
+   "sigla": "PMI",
+   "def": "Purchasing Managers' Index: índice de gerentes de compras; por encima de 50, expansión."
+  },
+  {
+   "sigla": "UE",
+   "def": "Unión Europea."
+  },
+  {
+   "sigla": "VL",
+   "def": "Valor liquidativo: precio de una participación de un fondo en una fecha."
+  },
+  {
+   "sigla": "CSI 300",
+   "def": "Índice de las 300 mayores empresas de Shanghái y Shenzhen."
+  }
+ ],
+ "generado": "2026-11-28T10:15"
+}
